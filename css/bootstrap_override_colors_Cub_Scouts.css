@@ -176,6 +176,14 @@ button.btn-success {
   color: #ffffff !important;
 }
 
+.btn-warning,
+input[type=button].btn-warning,
+button.btn-warning {
+  background: linear-gradient(180deg, #d4a52c 0%, #e6b63c 100%) !important;
+  border-color: rgba(163, 124, 24, 0.18) !important;
+  color: #2b2208 !important;
+}
+
 .btn-danger,
 input[type=button].btn-danger,
 button.btn-danger {
@@ -3357,7 +3365,12 @@ a[href*=togglemenu]:hover .navicon, a[href*=togglemenu]:focus .navicon, a[href*=
 }
 
 #fs21201 {
-  margin: 10px 0 !important;
+  margin-bottom: 20px !important;
+}
+@media (max-width: 767px) {
+  #fs21201 {
+    margin: 10px 0 !important;
+  }
 }
 
 #fs6333,
@@ -3427,6 +3440,38 @@ a[href*=togglemenu]:hover .navicon, a[href*=togglemenu]:focus .navicon, a[href*=
   text-align: center !important;
   box-sizing: border-box;
 }
+#fs6333 .text-center > span input[name=save],
+#fs6333 .text-center > span input[name="save exit"],
+#fs6333 .text-center > span input[value=Save],
+#fs6333 .text-center > span input[value="Save &amp; Exit"],
+#fs6333 .text-center > span input[value="Save & Exit"],
+#fs5744 .text-center > span input[name=save],
+#fs5744 .text-center > span input[name="save exit"],
+#fs5744 .text-center > span input[value=Save],
+#fs5744 .text-center > span input[value="Save &amp; Exit"],
+#fs5744 .text-center > span input[value="Save & Exit"],
+#fs9819 .text-center > span input[name=save],
+#fs9819 .text-center > span input[name="save exit"],
+#fs9819 .text-center > span input[value=Save],
+#fs9819 .text-center > span input[value="Save &amp; Exit"],
+#fs9819 .text-center > span input[value="Save & Exit"] {
+  background: linear-gradient(180deg, #2d7b4d 0%, #3d8e5d 100%) !important;
+  border-color: rgba(31, 98, 63, 0.18) !important;
+  color: #ffffff !important;
+}
+#fs6333 .text-center > span input[name=cancel],
+#fs6333 .text-center > span input[value=Cancel],
+#fs6333 .text-center > span input[value=Exit],
+#fs5744 .text-center > span input[name=cancel],
+#fs5744 .text-center > span input[value=Cancel],
+#fs5744 .text-center > span input[value=Exit],
+#fs9819 .text-center > span input[name=cancel],
+#fs9819 .text-center > span input[value=Cancel],
+#fs9819 .text-center > span input[value=Exit] {
+  background: linear-gradient(180deg, #d4a52c 0%, #e6b63c 100%) !important;
+  border-color: rgba(163, 124, 24, 0.18) !important;
+  color: #2b2208 !important;
+}
 #fs6333 .text-center > span input:hover,
 #fs6333 .text-center > span button:hover,
 #fs6333 .text-center > span a:hover,
@@ -3448,6 +3493,27 @@ a[href*=togglemenu]:hover .navicon, a[href*=togglemenu]:focus .navicon, a[href*=
   background: linear-gradient(180deg, #edf8ff 0%, #d9ebfb 100%) !important;
   border-color: rgba(13, 59, 114, 0.3) !important;
   box-shadow: 0 6px 16px rgba(12, 32, 56, 0.1);
+}
+#fs6333 .text-center > span input[name=save]:hover,
+#fs6333 .text-center > span input[name=save]:focus,
+#fs6333 .text-center > span input[name="save exit"]:hover,
+#fs6333 .text-center > span input[name="save exit"]:focus,
+#fs6333 .text-center > span input[name=cancel]:hover,
+#fs6333 .text-center > span input[name=cancel]:focus,
+#fs5744 .text-center > span input[name=save]:hover,
+#fs5744 .text-center > span input[name=save]:focus,
+#fs5744 .text-center > span input[name="save exit"]:hover,
+#fs5744 .text-center > span input[name="save exit"]:focus,
+#fs5744 .text-center > span input[name=cancel]:hover,
+#fs5744 .text-center > span input[name=cancel]:focus,
+#fs9819 .text-center > span input[name=save]:hover,
+#fs9819 .text-center > span input[name=save]:focus,
+#fs9819 .text-center > span input[name="save exit"]:hover,
+#fs9819 .text-center > span input[name="save exit"]:focus,
+#fs9819 .text-center > span input[name=cancel]:hover,
+#fs9819 .text-center > span input[name=cancel]:focus {
+  filter: brightness(1.03);
+  box-shadow: 0 6px 16px rgba(12, 32, 56, 0.12);
 }
 @media (max-width: 767px) {
   #fs6333,

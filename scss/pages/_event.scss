@@ -739,7 +739,10 @@
 }
 
 #fs21201 {
-  margin: 10px 0 !important;
+  margin-bottom: 20px !important;
+  @media (max-width: 767px) {
+    margin: 10px 0 !important;
+  }
 }
 
 #fs6333,
@@ -800,6 +803,24 @@
     box-sizing: border-box;
   }
 
+  .text-center > span input[name="save"],
+  .text-center > span input[name="save exit"],
+  .text-center > span input[value="Save"],
+  .text-center > span input[value="Save &amp; Exit"],
+  .text-center > span input[value="Save & Exit"] {
+    background: linear-gradient(180deg, #2d7b4d 0%, #3d8e5d 100%) !important;
+    border-color: rgba(31, 98, 63, 0.18) !important;
+    color: #ffffff !important;
+  }
+
+  .text-center > span input[name="cancel"],
+  .text-center > span input[value="Cancel"],
+  .text-center > span input[value="Exit"] {
+    background: linear-gradient(180deg, #d4a52c 0%, #e6b63c 100%) !important;
+    border-color: rgba(163, 124, 24, 0.18) !important;
+    color: #2b2208 !important;
+  }
+
   .text-center > span input:hover,
   .text-center > span button:hover,
   .text-center > span a:hover,
@@ -809,6 +830,16 @@
     background: linear-gradient(180deg, #edf8ff 0%, #d9ebfb 100%) !important;
     border-color: rgba(13, 59, 114, 0.3) !important;
     box-shadow: 0 6px 16px rgba(12, 32, 56, 0.10);
+  }
+
+  .text-center > span input[name="save"]:hover,
+  .text-center > span input[name="save"]:focus,
+  .text-center > span input[name="save exit"]:hover,
+  .text-center > span input[name="save exit"]:focus,
+  .text-center > span input[name="cancel"]:hover,
+  .text-center > span input[name="cancel"]:focus {
+    filter: brightness(1.03);
+    box-shadow: 0 6px 16px rgba(12, 32, 56, 0.12);
   }
 
   @media (max-width: 767px) {

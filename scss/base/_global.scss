@@ -165,6 +165,14 @@ button.btn-success {
   color: $white !important;
 }
 
+.btn-warning,
+input[type="button"].btn-warning,
+button.btn-warning {
+  background: linear-gradient(180deg, #d4a52c 0%, #e6b63c 100%) !important;
+  border-color: rgba(163, 124, 24, 0.18) !important;
+  color: #2b2208 !important;
+}
+
 .btn-danger,
 input[type="button"].btn-danger,
 button.btn-danger {
