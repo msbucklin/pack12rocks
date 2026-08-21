@@ -924,12 +924,12 @@
   margin-bottom: 10px !important;
 
   .center-block {
-    background: linear-gradient(180deg, #ffffff 0%, #f7faff 100%);
-    border: 1px solid rgba(15, 57, 95, 0.12);
-    border-bottom: 0;
-    border-radius: 18px 18px 0 0;
+    background: linear-gradient(180deg, #fff4f7 0%, #fde9f0 100%);
+    border: 1px solid rgba(214, 95, 127, 0.28);
+    border-radius: 18px;
     box-shadow: 0 10px 24px rgba(12, 32, 56, 0.08);
-    padding: 18px 20px 12px;
+    padding: 16px 18px 12px;
+    overflow: hidden;
   }
 
   @media (max-width: 1140px) {
@@ -942,7 +942,7 @@
 
   table.no-border {
     width: 100%;
-    table-layout: fixed;
+    table-layout: auto;
     border-collapse: separate;
     border-spacing: 0;
   }
@@ -955,28 +955,31 @@
   }
 
   table.no-border td:first-child {
-    width: 240px;
-    padding-right: 18px;
-    text-align: right;
-    color: #0d3b72;
+    width: 1%;
+    min-width: 0;
+    padding-right: 12px;
+    text-align: left;
+    color: #111111;
     font-weight: 700;
     white-space: nowrap;
   }
 
   table.no-border td:last-child {
-    width: calc(100% - 240px);
+    width: auto;
     text-align: left;
     word-break: break-word;
+    color: #111111;
+    white-space: nowrap;
   }
 
   .control-label {
     display: inline-block;
     float: none !important;
     margin: 0;
-    color: #0d3b72;
+    color: #111111;
     font-size: 14px;
     font-weight: 700;
-    text-align: right;
+    text-align: left;
   }
 
   @media (max-width: 767px) {
