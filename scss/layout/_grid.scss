@@ -1,0 +1,84 @@
+// -----------------------------------------------------------------------------
+// Layout/grid adjustments for generated TroopWebHost containers
+// -----------------------------------------------------------------------------
+
+.container-fluid.container-flex > .center-block,
+.container-fluid.container-flex > .center-block > div {
+  width: auto !important;
+  max-width: none !important;
+  min-width: 0 !important;
+}
+
+.container-flex {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  align-items: stretch !important;
+  justify-content: flex-start !important;
+  gap: 18px 22px !important;
+}
+
+.container-flex > .center-block:only-child {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  flex: 1 1 100% !important;
+}
+
+.container-flex > .center-block:first-child:nth-last-child(2),
+.container-flex > .center-block:first-child:nth-last-child(2) ~ .center-block {
+  flex-basis: auto !important;
+}
+
+@media (min-width: 768px) {
+  .container-flex > .center-block:first-child:nth-last-child(2):not(.widget60):not(.widget4) {
+    width: calc(60% - 11px) !important;
+    max-width: calc(60% - 11px) !important;
+    min-width: 0 !important;
+    flex: 0 0 calc(60% - 11px) !important;
+  }
+
+  .container-flex > .center-block:first-child:nth-last-child(2):not(.widget60):not(.widget4) ~ .center-block:not(.widget60):not(.widget4) {
+    width: calc(40% - 11px) !important;
+    max-width: calc(40% - 11px) !important;
+    min-width: 0 !important;
+    flex: 0 0 calc(40% - 11px) !important;
+  }
+
+  .container-flex > .center-block.widget60 + .center-block.widget4 {
+    width: calc(50% - 11px) !important;
+    max-width: calc(50% - 11px) !important;
+    min-width: 0 !important;
+    flex: 0 0 calc(50% - 11px) !important;
+  }
+
+  .container-flex > .center-block.widget4 {
+    width: calc(50% - 11px) !important;
+    max-width: calc(50% - 11px) !important;
+    min-width: 0 !important;
+    flex: 0 0 calc(50% - 11px) !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .container-flex {
+    display: block !important;
+    width: 100% !important;
+    gap: 0 !important;
+  }
+
+  .container-flex > .center-block {
+    display: block !important;
+    width: 100% !important;
+    max-width: none !important;
+    min-width: 0 !important;
+    flex: 1 1 100% !important;
+  }
+
+  .container-flex > .center-block > div {
+    display: block !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
