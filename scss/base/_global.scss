@@ -86,7 +86,9 @@ li {
 
 .new-row {
   padding: 0 20px;
-  margin: 0 !important;
+  //margin: 0 !important;
+  margin: 0 auto !important;
+  max-width: 1200px;
 }
 
 .new-row + .new-row {
@@ -176,6 +178,11 @@ button.btn-danger {
 .banner-div,
 .page-title {
   display: none !important;
+}
+
+.page-title {
+  margin: 0 auto !important;
+  max-width: 1200px;
 }
 
 .quickmenu1 table {
