@@ -26,8 +26,10 @@
 #fs7356 {
   @media (max-width: 767px) {
     padding: 0 !important;
-    //margin: -20px -10px 0 -10px !important;
-    margin-top: -20px !important;
+
+    .center-block {
+      padding: 0 !important;
+    }
 
     td {
       padding-left: 20px !important;
@@ -49,11 +51,11 @@
   }
 }
 
-#fs7356 table.no-border tbody tr:nth-child(even) td {
+#fs7356 table.no-border tbody tr:nth-child(even) {
   background-color: #f2f5f9 !important;
 }
 
-#fs7356 table.no-border tbody tr:nth-child(odd) td {
+#fs7356 table.no-border tbody tr:nth-child(odd) {
   background-color: #ffffff !important;
 }
 
@@ -209,21 +211,32 @@
   max-width: 100% !important;
 }
 
-#DIVENTRY2903911 {
+
+#DIVENTRY2903911,
+#DIVENTRY4512611,
+#DIVENTRY4701511,
+#DIVENTRY5673211,
+#DIVENTRY3825111,
+#DIVENTRY2903311,
+#DIVENTRY4979611,
+#DIVENTRY4979811 {
   @media (max-width: 767px) {
-    > td:nth-child(2) {
-      display: flex !important;
-      align-items: center;
-      justify-content: flex-start;
-      gap: 8px;
-      padding-top: 0 !important;
+    padding-bottom: 10px !important;
+
+    &:after {
+      display:block;
+      content: '';
+      clear: both;
     }
 
-    > td:nth-child(2) input[type="checkbox"] {
-      float: none !important;
-      margin: 0 !important;
-      display: inline-block !important;
-      order: 1;
+    .text-right {
+      width: 88% !important;
+      float: right;
+    }
+
+    .text-left {
+      width: 12% !important;
+      float: left;
     }
   }
 }

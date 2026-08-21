@@ -1325,7 +1325,9 @@ a[href*=togglemenu]:hover .navicon, a[href*=togglemenu]:focus .navicon, a[href*=
 @media (max-width: 767px) {
   #fs7356 {
     padding: 0 !important;
-    margin-top: -20px !important;
+  }
+  #fs7356 .center-block {
+    padding: 0 !important;
   }
   #fs7356 td {
     padding-left: 20px !important;
@@ -1511,23 +1513,42 @@ a[href*=togglemenu]:hover .navicon, a[href*=togglemenu]:focus .navicon, a[href*=
   #DIVENTRY2903311,
   #DIVENTRY4979611,
   #DIVENTRY4979811 {
-    &:after {
-      display: block;
-      content: '';
-      clear: both;
-    }
-
-    > td:first-child {
-      width: 88% !important;
-      float: right;
-      padding-bottom: 10px !important;
-
-    }
-
-    > td:last-child{
-      width: 12% !important;
-      float: left;
-    }
+    padding-bottom: 10px !important;
+  }
+  #DIVENTRY2903911:after,
+  #DIVENTRY4512611:after,
+  #DIVENTRY4701511:after,
+  #DIVENTRY5673211:after,
+  #DIVENTRY3825111:after,
+  #DIVENTRY2903311:after,
+  #DIVENTRY4979611:after,
+  #DIVENTRY4979811:after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+  #DIVENTRY2903911 .text-right,
+  #DIVENTRY4512611 .text-right,
+  #DIVENTRY4701511 .text-right,
+  #DIVENTRY5673211 .text-right,
+  #DIVENTRY3825111 .text-right,
+  #DIVENTRY2903311 .text-right,
+  #DIVENTRY4979611 .text-right,
+  #DIVENTRY4979811 .text-right {
+    width: 88% !important;
+    float: right;
+  }
+  #DIVENTRY2903911 .text-left,
+  #DIVENTRY4512611 .text-left,
+  #DIVENTRY4701511 .text-left,
+  #DIVENTRY5673211 .text-left,
+  #DIVENTRY3825111 .text-left,
+  #DIVENTRY2903311 .text-left,
+  #DIVENTRY4979611 .text-left,
+  #DIVENTRY4979811 .text-left {
+    width: 12% !important;
+    float: left;
+  }
 }
 
 /*# sourceMappingURL=bootstrap_override_colors_Cub_Scouts.css.map */
