@@ -1648,6 +1648,10 @@ a[href*=togglemenu]:hover .navicon, a[href*=togglemenu]:focus .navicon, a[href*=
   text-transform: uppercase;
   padding: 12px 14px !important;
   border-bottom: 1px solid rgba(15, 57, 95, 0.12) !important;
+  max-width: 240px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 #fs7358 thead th a,
 #fs7358 thead th a:link,
@@ -1663,6 +1667,12 @@ a[href*=togglemenu]:hover .navicon, a[href*=togglemenu]:focus .navicon, a[href*=
   border-top: 1px solid rgba(15, 57, 95, 0.08) !important;
   background: #fff;
   color: #1f2d3d;
+}
+#fs7358 tbody td:nth-child(2) {
+  max-width: 240px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 #fs7358 tbody tr:nth-child(even) td {
   background: #f7fafe !important;
@@ -1990,6 +2000,10 @@ a[href*=togglemenu]:hover .navicon, a[href*=togglemenu]:focus .navicon, a[href*=
   text-transform: uppercase;
   padding: 12px 14px !important;
   border-bottom: 1px solid rgba(15, 57, 95, 0.12) !important;
+  max-width: 240px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 #fs480 thead th a,
 #fs480 thead th a:link,
@@ -2005,6 +2019,13 @@ a[href*=togglemenu]:hover .navicon, a[href*=togglemenu]:focus .navicon, a[href*=
   border-top: 1px solid rgba(15, 57, 95, 0.08) !important;
   background: #fff;
   color: #1f2d3d;
+  font-size: 14px;
+}
+#fs480 tbody td:nth-child(2) {
+  max-width: 240px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 #fs480 tbody tr:nth-child(even) td {
   background: #f7fafe !important;
@@ -2687,5 +2708,3 @@ a[href*=togglemenu]:hover .navicon, a[href*=togglemenu]:focus .navicon, a[href*=
     white-space: nowrap;
   }
 }
-
-/*# sourceMappingURL=bootstrap_override_colors_Cub_Scouts.css.map */

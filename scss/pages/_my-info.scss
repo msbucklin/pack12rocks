@@ -376,6 +376,10 @@
     text-transform: uppercase;
     padding: 12px 14px !important;
     border-bottom: 1px solid rgba(15, 57, 95, 0.12) !important;
+    max-width: 240px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 
     a,
     a:link,
@@ -393,6 +397,13 @@
     border-top: 1px solid rgba(15, 57, 95, 0.08) !important;
     background: #fff;
     color: #1f2d3d;
+  }
+
+  tbody td:nth-child(2) {
+    max-width: 240px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 
   tbody tr:nth-child(even) td {
