@@ -1,0 +1,19 @@
+{
+  "name": "pack12rocks",
+  "version": "1.0.0",
+  "private": true,
+  "main": "CalendarPopup.js",
+  "scripts": {
+    "build:css": "sass --no-source-map scss/bootstrap_override_colors_Cub_Scouts.scss css/bootstrap_override_colors_Cub_Scouts.css",
+    "watch:css": "sass --watch scss/bootstrap_override_colors_Cub_Scouts.scss:css/bootstrap_override_colors_Cub_Scouts.css",
+    "build": "npm run build:css",
+    "test": "echo \"No tests configured\" && exit 0"
+  },
+  "devDependencies": {
+    "sass": "1.77.7"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
