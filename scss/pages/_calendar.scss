@@ -1,0 +1,111 @@
+// -----------------------------------------------------------------------------
+// Calendar page styling
+// -----------------------------------------------------------------------------
+
+#fs799 {
+  .table-responsive.table-curved,
+  .table-responsive > .table-curved,
+  .table-curved {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 100% !important;
+    table-layout: fixed !important;
+    overflow: visible !important;
+    margin-top: 10px;
+  }
+
+  .table-curved th,
+  .table-curved thead th {
+    background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%) !important;
+    color: #123b66 !important;
+    font-weight: 700 !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+  }
+
+  .calendar-cell,
+  td.calendar-cell {
+    width: 14.2857% !important;
+    min-height: 100px;
+    min-width: 60px;
+    background: #ffffff !important;
+    color: #1d2d3d !important;
+    vertical-align: top !important;
+    text-align: center !important;
+    writing-mode: horizontal-tb !important;
+    transform: none !important;
+    display: table-cell !important;
+  }
+}
+
+@media (max-width: 767px) {
+  #CalendarDateControl0 {
+    margin-bottom: 15px !important;
+  }
+
+  .table-responsive,
+  .table-responsive.table-curved,
+  .table-responsive.table-condensed {
+    overflow-x: hidden !important;
+    max-width: 100% !important;
+  }
+
+  .table,
+  .table-striped,
+  .table-bordered,
+  .table-condensed,
+  .table-curved,
+  .table-responsive {
+    width: 100% !important;
+    max-width: 100% !important;
+    table-layout: fixed !important;
+    min-width: 0 !important;
+  }
+
+  .calendar-cell {
+    padding: 6px 4px !important;
+    font-size: 11px !important;
+    line-height: 1.25 !important;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+    vertical-align: top;
+  }
+
+  .calendar-cell b,
+  .calendar-cell i,
+  .calendar-cell a {
+    font-size: 11px !important;
+  }
+
+  .table thead tr {
+    height: 100px !important;
+    background: linear-gradient(180deg, #0d3b72 0%, #184a8a 100%) !important;
+  }
+
+  .table thead th {
+    height: auto !important;
+    min-width: 22px !important;
+    width: 22px !important;
+    max-width: 22px !important;
+    padding: 10px 6px 8px !important;
+    font-size: 12px !important;
+    line-height: 1.1 !important;
+    letter-spacing: 0.04em !important;
+    white-space: nowrap !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    color: #ffffff !important;
+    background: linear-gradient(180deg, #0d3b72 0%, #184a8a 100%) !important;
+    border-color: rgba(13, 59, 114, 0.2) !important;
+    border-radius: 0 !important;
+    writing-mode: vertical-rl !important;
+    transform: rotate(180deg) !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .calendar-cell {
+    min-width: 25px;
+    width: 14% !important;
+  }
+}

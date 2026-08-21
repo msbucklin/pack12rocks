@@ -1,0 +1,229 @@
+// -----------------------------------------------------------------------------
+// My Info page styling
+// -----------------------------------------------------------------------------
+
+
+#fs16108 {
+  div {
+    display: none !important;
+  }
+  @media (min-width: 768px) {
+    position: absolute;
+    top: 105px;
+    right: 0;
+
+    div {
+      text-align: right;
+      margin-bottom: 5px;
+    }
+  }
+}
+
+#fs7357 {
+  padding-bottom: 20px;
+}
+
+#fs7356 {
+  @media (max-width: 767px) {
+    padding: 0 !important;
+    //margin: -20px -10px 0 -10px !important;
+    margin-top: -20px !important;
+
+    td {
+      padding-left: 20px !important;
+      padding-right: 20px !important;
+
+      &:first-of-type {
+        padding-top: 10px !important;
+        padding-bottom: 0px !important;
+      }
+
+      &:last-child {
+        padding-bottom: 10px !important;
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+    margin-top: 0;
+  }
+}
+
+#fs7356 table.no-border tbody tr:nth-child(even) td {
+  background-color: #f2f5f9 !important;
+}
+
+#fs7356 table.no-border tbody tr:nth-child(odd) td {
+  background-color: #ffffff !important;
+}
+
+#fs7356 table.no-border tbody tr td.bodyheading {
+  background: transparent !important;
+}
+
+#fs7356 table.no-border tbody tr td {
+  padding: 7.5px;
+  font-size: 14px;
+  vertical-align: middle;
+
+  &:first-child {
+    padding-top: 5px;
+    white-space: normal !important;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+
+  &.bodyheading {
+    font-size: 18px;
+    padding-top: 20px;
+  }
+}
+
+#fs7356 .center-block .control-label {
+  display: unset !important;
+  float: right !important;
+  margin-right: 8px !important;
+  margin-left: auto !important;
+  font-style: italic !important;
+  font-weight: normal !important;
+  font-size: 1em !important;
+  text-align: right !important;
+}
+
+#fs7356 .center-block .entrypostscript {
+  margin-top: unset !important;
+}
+
+@media (min-width: 768px) {
+  #fs7356 table.no-border tbody tr td:first-child {
+    width: 470px !important;
+    max-width: 250px !important;
+  }
+}
+
+#DIVENTRY2900031,
+#DIVENTRY2900032,
+#DIVENTRY2900033,
+#DIVENTRY2901131,
+#DIVENTRY2901132,
+#DIVENTRY2901133 {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 4px;
+  flex-wrap: nowrap;
+  vertical-align: middle;
+  padding-bottom: 5px;
+}
+
+#DIVENTRY2900031 input[type="text"],
+#DIVENTRY2900032 select,
+#DIVENTRY2900033 input[type="text"],
+#DIVENTRY2901131 input[type="text"],
+#DIVENTRY2901132 select,
+#DIVENTRY2901133 input[type="text"] {
+  display: inline-block !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+}
+
+#DIVENTRY2900031 .entrypostscript,
+#DIVENTRY2900033 .entrypostscript,
+#DIVENTRY2901131 .entrypostscript,
+#DIVENTRY2901133 .entrypostscript {
+  display: inline !important;
+  margin: 0 !important;
+  line-height: 1;
+}
+
+#DIVENTRY2900031 + input[type="hidden"] + #DIVENTRY2900032,
+#DIVENTRY2901131 + input[type="hidden"] + #DIVENTRY2901132,
+#DIVENTRY2900955 + input[type="hidden"] + #DIVENTRY2900956 {
+  margin-left: 8px;
+}
+
+#DIVENTRY2900955,
+#DIVENTRY2900956 {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: nowrap;
+  vertical-align: middle;
+  padding-bottom: 5px;
+}
+
+#DIVENTRY2900955 input[type="text"],
+#DIVENTRY2900956 select {
+  display: inline-block !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+}
+
+#DIVENTRY2900957 {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: nowrap;
+  vertical-align: middle;
+}
+
+#DIVENTRY2900957 input[type="text"] {
+  display: inline-block !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+}
+
+#ENTRY2900957X {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2px;
+}
+
+#ENTRY2900957X img {
+  display: block;
+  width: 18px;
+  height: 18px;
+}
+
+#DIVENTRY2902425,
+#DIVENTRY2902427,
+#DIVENTRY2902428 {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: nowrap;
+  vertical-align: middle;
+  margin-right: 8px;
+  padding-bottom: 5px;
+}
+
+#DIVENTRY2902425 input[type="text"],
+#DIVENTRY2902427 input[type="text"],
+#DIVENTRY2902428 input[type="text"] {
+  display: inline-block !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+}
+
+#DIVENTRY2903911 {
+  @media (max-width: 767px) {
+    > td:nth-child(2) {
+      display: flex !important;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 8px;
+      padding-top: 0 !important;
+    }
+
+    > td:nth-child(2) input[type="checkbox"] {
+      float: none !important;
+      margin: 0 !important;
+      display: inline-block !important;
+      order: 1;
+    }
+  }
+}

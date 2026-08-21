@@ -79,45 +79,7 @@ ol {
 li {
   text-align: left !important;
 }
-#fs799 .table-responsive.table-curved,
-#fs799 .table-responsive > .table-curved,
-#fs799 .table-curved {
-  width: 100% !important;
-  max-width: 100% !important;
-  min-width: 100% !important;
-  table-layout: fixed !important;
-  overflow: visible !important;
-}
 
-#fs799 .table-curved th,
-#fs799 .table-curved thead th {
-  background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%) !important;
-  color: #123b66 !important;
-  font-weight: 700 !important;
-  text-align: center !important;
-  vertical-align: middle !important;
-}
-
-#fs799 .calendar-cell,
-#fs799 td.calendar-cell {
-  width: 14.2857% !important;
-  min-height: 100px;
-  min-width: 60px;
-  background: #ffffff !important;
-  color: #1d2d3d !important;
-  vertical-align: top !important;
-  text-align: center !important;
-  writing-mode: horizontal-tb !important;
-  transform: none !important;
-  display: table-cell !important;
-}
-
-@media (max-width: 420px) {
-  .calendar-cell {
-    min-width: 25px;
-    width: 14% !important;
-  }
-}
 .center-block {
   margin: 0 !important;
 }
