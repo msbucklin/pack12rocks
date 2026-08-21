@@ -1103,20 +1103,6 @@ a[href*=togglemenu]:hover .navicon, a[href*=togglemenu]:focus .navicon, a[href*=
   line-height: 1.15;
 }
 
-#fs723 .container-fluid.container-flex {
-  padding: 0 !important;
-}
-#fs723 .center-block {
-  width: 100% !important;
-  max-width: unset !important;
-  margin: 0 auto 18px !important;
-  background: rgba(255, 255, 255, 0.85);
-  border: 1px solid rgba(13, 59, 114, 0.12);
-  border-radius: 18px;
-  box-shadow: 0 12px 28px rgba(11, 25, 40, 0.08);
-  padding: 18px 22px;
-}
-
 #fs723 table.no-border,
 #fs724 table.no-border,
 #fs7356 table.no-border {
@@ -1410,6 +1396,45 @@ a[href*=togglemenu]:hover .navicon, a[href*=togglemenu]:focus .navicon, a[href*=
   padding-bottom: 5px;
 }
 
+@media (max-width: 767px) {
+  #DIVENTRY2900031,
+  #DIVENTRY2900032,
+  #DIVENTRY2900033,
+  #DIVENTRY2900034,
+  #DIVENTRY2901131,
+  #DIVENTRY2901132,
+  #DIVENTRY2901133 {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    width: 100% !important;
+    gap: 8px;
+    align-items: center;
+    padding-bottom: 8px;
+  }
+  #DIVENTRY2900031,
+  #DIVENTRY2901131 {
+    flex: 1 1 100%;
+  }
+  #DIVENTRY2900032,
+  #DIVENTRY2901132 {
+    flex: 0 0 80px;
+    min-width: 80px;
+  }
+  #DIVENTRY2900033,
+  #DIVENTRY2901133 {
+    flex: 1 1 120px;
+  }
+  #DIVENTRY2900034,
+  #DIVENTRY2901134 {
+    flex: 1 1 100%;
+  }
+  #DIVENTRY2900031 .entrypostscript,
+  #DIVENTRY2900033 .entrypostscript,
+  #DIVENTRY2901131 .entrypostscript,
+  #DIVENTRY2901133 .entrypostscript {
+    display: none !important;
+  }
+}
 #DIVENTRY2900031 input[type=text],
 #DIVENTRY2900032 select,
 #DIVENTRY2900033 input[type=text],
@@ -1430,11 +1455,26 @@ a[href*=togglemenu]:hover .navicon, a[href*=togglemenu]:focus .navicon, a[href*=
   margin: 0 !important;
   line-height: 1;
 }
+@media (max-width: 767px) {
+  #DIVENTRY2900031 .entrypostscript,
+  #DIVENTRY2900033 .entrypostscript,
+  #DIVENTRY2901131 .entrypostscript,
+  #DIVENTRY2901133 .entrypostscript {
+    display: none !important;
+  }
+}
 
 #DIVENTRY2900031 + input[type=hidden] + #DIVENTRY2900032,
 #DIVENTRY2901131 + input[type=hidden] + #DIVENTRY2901132,
 #DIVENTRY2900955 + input[type=hidden] + #DIVENTRY2900956 {
   margin-left: 8px;
+}
+@media (max-width: 767px) {
+  #DIVENTRY2900031 + input[type=hidden] + #DIVENTRY2900032,
+  #DIVENTRY2901131 + input[type=hidden] + #DIVENTRY2901132,
+  #DIVENTRY2900955 + input[type=hidden] + #DIVENTRY2900956 {
+    margin-left: 0pxma;
+  }
 }
 
 #DIVENTRY2900955,
@@ -1551,4 +1591,170 @@ a[href*=togglemenu]:hover .navicon, a[href*=togglemenu]:focus .navicon, a[href*=
   }
 }
 
-/*# sourceMappingURL=bootstrap_override_colors_Cub_Scouts.css.map */
+#fs723 .container-fluid.container-flex {
+  padding: 0 !important;
+}
+#fs723 .center-block {
+  width: 100% !important;
+  max-width: unset !important;
+  margin: 0 auto 18px !important;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0;
+}
+#fs723 table.no-border {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 0;
+  box-shadow: 0 8px 24px rgba(11, 25, 40, 0.08);
+  overflow: hidden;
+}
+#fs723 table.no-border tbody tr:nth-child(even) {
+  background-color: #f2f5f9 !important;
+}
+#fs723 table.no-border tbody tr:nth-child(odd) {
+  background-color: #ffffff !important;
+}
+#fs723 table.no-border tr {
+  display: table-row;
+}
+#fs723 table.no-border td {
+  vertical-align: middle;
+  padding: 7.5px;
+  border: 0;
+  display: table-cell;
+  font-size: 14px;
+}
+#fs723 table.no-border td:first-child {
+  width: 240px;
+  padding-right: 18px;
+  text-align: right;
+  color: #0d3b72;
+  font-weight: 700;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+#fs723 table.no-border td:last-child {
+  text-align: left;
+  width: calc(100% - 240px);
+  max-width: 100%;
+  padding-left: 0;
+  word-break: break-word;
+}
+#fs723 table.no-border .control-label {
+  display: inline-block;
+  float: none !important;
+  margin: 0;
+  color: #0d3b72;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: right;
+  vertical-align: middle;
+}
+#fs723 table.no-border .RequiredIndicator {
+  display: inline-block;
+  color: #c62828;
+  margin-right: 4px;
+}
+#fs723 table.no-border .RequiredIndicator:empty,
+#fs723 table.no-border .RequiredIndicator[style*="visibility: hidden"],
+#fs723 table.no-border .RequiredIndicator[style*="visibility:hidden"] {
+  display: none;
+  margin-right: 0;
+  visibility: hidden;
+}
+#fs723 table.no-border .form-control {
+  color: #0d3b72;
+  font-size: 14px;
+  background: #fff !important;
+  margin: 0 !important;
+}
+#fs723 table.no-border .entrypostscript {
+  display: block;
+  margin-top: 8px;
+  color: #173a63;
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+#fs724 .text-center {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-wrap: wrap !important;
+  gap: 12px;
+}
+#fs724 .text-center > span {
+  display: inline-flex !important;
+  margin: 0 !important;
+}
+#fs724 .btn {
+  min-width: 120px;
+}
+
+@media (max-width: 767px) {
+  #fs723 .center-block,
+  #fs724 .center-block {
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  #fs723 table.no-border,
+  #fs724 table.no-border {
+    width: 100%;
+    border-spacing: 0;
+    table-layout: auto;
+    box-shadow: none;
+  }
+  #fs723 table.no-border tr,
+  #fs724 table.no-border tr {
+    display: block;
+  }
+  #fs723 table.no-border td,
+  #fs724 table.no-border td {
+    display: block;
+    width: 100%;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  #fs723 table.no-border td:first-child,
+  #fs724 table.no-border td:first-child {
+    width: 100%;
+    padding: 10px 20px 6px !important;
+    text-align: left;
+    white-space: normal;
+  }
+  #fs723 table.no-border .control-label,
+  #fs724 table.no-border .control-label {
+    display: block;
+    width: 100%;
+    margin: 0;
+    text-align: left;
+  }
+  #fs723 table.no-border td:last-child,
+  #fs724 table.no-border td:last-child {
+    width: 100%;
+    max-width: none;
+    padding-bottom: 10px !important;
+  }
+  #fs723 table.no-border .text-left,
+  #fs724 table.no-border .text-left {
+    text-align: left;
+    font-size: 14px;
+  }
+  #fs723 table.no-border .form-control,
+  #fs724 table.no-border .form-control {
+    width: 100%;
+    max-width: none;
+  }
+  #fs723 table.no-border .entrypostscript,
+  #fs724 table.no-border .entrypostscript {
+    display: none !important;
+  }
+}
