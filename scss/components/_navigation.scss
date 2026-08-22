@@ -1,12 +1,20 @@
+body {
+  padding-top: 100px;
+
+  @media (max-width: 767px) {
+    padding-top: 80px;
+  }
+}
+
 // -----------------------------------------------------------------------------
 // Navigation/header styling
 // -----------------------------------------------------------------------------
 
  a[href*="togglemenu"] {
-  position: absolute;
+  position: fixed;
   left: 12px;
   top: 15px;
-  z-index: 20;
+  z-index: 30;
   display: block;
   text-decoration: none;
   line-height: 0;
@@ -108,6 +116,11 @@
 }
 
 .navtable {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
   background: linear-gradient(180deg, #0b3b76 0%, #072b55 100%);
   color: $white;
   border-bottom: 3px solid $gold-500;
