@@ -371,18 +371,18 @@
     display: inline-flex !important;
     align-items: center;
     justify-content: center;
-    min-height: 54px;
-    padding: 12px 22px !important;
-    border: 1px solid rgba(13, 59, 114, 0.28);
-    border-radius: 12px;
+    min-height: 40px;
+    padding: 9px 16px !important;
+    border: 1px solid rgba(13, 59, 114, 0.2);
+    border-radius: 10px;
     background: linear-gradient(180deg, #0d3b72 0%, #0b335d 100%);
     color: #ffffff;
     font-size: 1.05rem;
     font-weight: 700;
     line-height: 1.2;
-    box-shadow: 0 4px 12px rgba(12, 32, 56, 0.08);
+    box-shadow: 0 6px 12px rgba(13, 31, 54, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.22);
     cursor: pointer;
-    transition: all 0.2s ease;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
     white-space: normal !important;
     text-align: center !important;
     box-sizing: border-box;
@@ -396,7 +396,7 @@
   .text-center > span a:focus {
     background: linear-gradient(180deg, #114a8c 0%, #0e3e77 100%);
     border-color: rgba(13, 59, 114, 0.45);
-    box-shadow: 0 6px 16px rgba(12, 32, 56, 0.12);
+    box-shadow: 0 10px 16px rgba(13, 31, 54, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.22);
   }
 
   @media (max-width: 767px) {
@@ -786,19 +786,19 @@
     display: inline-flex !important;
     align-items: center;
     justify-content: center;
-    min-height: 52px;
+    min-height: 40px;
     min-width: 220px;
-    padding: 12px 20px !important;
+    padding: 9px 16px !important;
     border: 1px solid rgba(13, 59, 114, 0.2);
-    border-radius: 12px;
+    border-radius: 10px;
     background: linear-gradient(180deg, #edf6ff 0%, #dfeefc 100%) !important;
     color: #0d3b72 !important;
     font-size: 1.05rem;
     font-weight: 700;
     line-height: 1.2;
-    box-shadow: 0 3px 10px rgba(12, 32, 56, 0.05);
+    box-shadow: 0 6px 12px rgba(13, 31, 54, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.22);
     cursor: pointer;
-    transition: all 0.2s ease;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
     white-space: normal !important;
     text-align: center !important;
     box-sizing: border-box;
@@ -1175,6 +1175,23 @@
     background: linear-gradient(180deg, #edf8ff 0%, #d9ebfb 100%);
     border-color: rgba(13, 59, 114, 0.3);
     box-shadow: 0 6px 16px rgba(12, 32, 56, 0.10);
+  }
+
+  @media (min-width: 768px) {
+    tfoot td > input[type="button"] {
+      min-height: 40px;
+      min-width: 140px;
+      padding: 9px 16px !important;
+      border-radius: 10px;
+      font-size: 13px;
+      font-weight: 800;
+      box-shadow: 0 6px 12px rgba(13, 31, 54, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.22);
+    }
+
+    tfoot input[type="button"]:hover,
+    tfoot input[type="button"]:focus {
+      box-shadow: 0 10px 16px rgba(13, 31, 54, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.22);
+    }
   }
 
   @media (max-width: 1140px) {

@@ -2,6 +2,178 @@
 // Member page styling
 // -----------------------------------------------------------------------------
 
+// Users & Passwords action and pagination controls
+#fs718 {
+  .text-center {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    flex-wrap: wrap !important;
+    gap: 10px 12px !important;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+  }
+
+  .text-center > span {
+    display: inline-flex !important;
+    margin: 0 !important;
+  }
+
+  .text-center .btn {
+    min-height: 0;
+    padding: 0 !important;
+    color: $text-mid !important;
+    background: transparent !important;
+    border: 0 !important;
+    border-bottom: 2px solid transparent !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+  }
+
+  .text-center .btn:hover,
+  .text-center .btn:focus {
+    color: $navy-700 !important;
+    background: transparent !important;
+    border-bottom-color: $gold-500 !important;
+    box-shadow: none !important;
+    transform: none !important;
+  }
+
+  @media (max-width: 767px) {
+    .text-center {
+      display: flex !important;
+      align-items: center !important;
+      gap: 10px 12px !important;
+    }
+
+    .text-center .btn {
+      min-height: 0;
+      padding: 0 !important;
+      width: auto !important;
+    }
+  }
+}
+
+#fs719 {
+  .center-block.table-responsive > table:first-child {
+    width: 100% !important;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%);
+
+    border-radius: 10px;
+  }
+
+  .center-block.table-responsive > table:first-child > tbody > tr:first-child > td {
+    padding: 10px 14px !important;
+    border: 0;
+    text-align: right;
+    vertical-align: middle;
+  }
+
+  .rows-per-page {
+    color: $text-dark;
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+  span.rows-per-page {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0;
+  }
+
+  span.rows-per-page::before {
+    content: "Rows Per Page:";
+    color: $text-dark;
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+  select.rows-per-page {
+    min-height: 34px;
+    margin: 0 0 0 4px;
+    padding: 6px 26px 6px 8px;
+    color: $text-dark;
+    border: 1px solid rgba(13, 59, 114, 0.22);
+    border-radius: 6px;
+    background: #ffffff;
+    font: 13px Montserrat, sans-serif;
+  }
+
+  .pagination {
+    margin: 0 0 0 10px;
+    vertical-align: middle;
+  }
+
+  .pagination > li > a,
+  .pagination > li > span {
+    min-width: 32px;
+    min-height: 32px;
+    padding: 7px 9px;
+    color: $text-dark;
+    border: 1px solid rgba(13, 59, 114, 0.18);
+    background: rgba(255, 255, 255, 0.72);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .pagination > li:first-child > a,
+  .pagination > li:last-child > a {
+    padding-right: 6px;
+    padding-left: 6px;
+  }
+
+  .pagination > .active > a,
+  .pagination > .active > span,
+  .pagination > .active > a:hover,
+  .pagination > .active > span:hover {
+    color: #ffffff;
+    background: $navy-700;
+    border-color: $navy-700;
+  }
+
+  .pagination > li > a:hover,
+  .pagination > li > a:focus {
+    color: $text-dark;
+    background: #ffffff;
+    border-color: rgba(13, 59, 114, 0.3);
+  }
+
+  @media (max-width: 767px) {
+    .center-block.table-responsive > table:first-child > tbody > tr:first-child > td {
+      padding-right: 0 !important;
+      text-align: right;
+    }
+
+    .center-block.table-responsive > table:first-child > tbody > tr:first-child > td > div {
+      display: flex !important;
+      float: none !important;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 8px;
+      width: 100%;
+    }
+
+    .rows-per-page {
+      display: inline-flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+
+    .pagination {
+      display: inline-flex;
+      margin: 0;
+    }
+  }
+}
+
 // Top action toolbar / save, cancel, reset, report buttons
 #fs16107 {
   margin-bottom: 18px !important;
@@ -184,21 +356,6 @@
 }
 
 #fs719 {
-  .center-block.table-responsive {
-    /*
-    width: 100% !important;
-    max-width: 100% !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    border: 1px solid rgba(13, 59, 114, 0.12) !important;
-    border-radius: 14px !important;
-    background: linear-gradient(180deg, rgba(238, 243, 248, 0.96) 0%, rgba(232, 237, 244, 0.96) 100%) !important;
-    box-shadow: 0 8px 18px rgba(13, 31, 54, 0.06) !important;
-    */
-  }
-
   table {
     width: 100% !important;
     min-width: unset !important;
@@ -331,7 +488,7 @@
       color: #567092;
       font-size: 10px;
       line-height: 1.2;
-      font-weight: 800;
+      font-weight: 700;
       letter-spacing: 0.08em;
       text-transform: uppercase;
     }
@@ -343,7 +500,7 @@
       color: #123b66 !important;
       font-size: 16px !important;
       line-height: 1.3 !important;
-      font-weight: 800 !important;
+      font-weight: 700 !important;
       border-radius: 10px 10px 0 0 !important;
       text-align: left !important;
       border: 0 !important;
@@ -404,29 +561,6 @@
       margin-right: 10px !important;
     }
 
-    #sortablegrid719 tbody td:nth-child(9) {
-      position: relative;
-    }
-
-    #sortablegrid719 tbody td:nth-child(9)::after {
-      content: "View Access";
-      position: absolute;
-      inset: 0 5px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #ffffff;
-      font-size: 12px;
-      font-weight: 800;
-      line-height: 1.2;
-      pointer-events: none;
-    }
-
-    #sortablegrid719 tbody td:nth-child(9) .btn[value="View Recent Access"] {
-      color: transparent !important;
-      text-shadow: none !important;
-    }
-
     #sortablegrid719 tbody td:nth-child(1) .btn,
     #sortablegrid719 tbody td:nth-child(6) .btn,
     #sortablegrid719 tbody td:nth-child(9) .btn {
@@ -442,6 +576,54 @@
       padding-top: 0 !important;
       padding-bottom: 0 !important;
       font-size: 12px !important;
+    }
+
+    #sortablegrid719 tbody td:nth-child(1) .btn,
+    #sortablegrid719 tbody td:nth-child(6) .btn,
+    #sortablegrid719 tbody td:nth-child(9) .btn {
+      box-shadow: 0 3px 8px rgba(13, 31, 54, 0.08) !important;
+    }
+
+    #sortablegrid719 tbody td:nth-child(6) .btn {
+      color: #ffffff !important;
+      background: linear-gradient(180deg, #b62d35 0%, #cf3c46 100%) !important;
+      border-color: rgba(134, 24, 32, 0.18) !important;
+    }
+
+    #sortablegrid719 tbody td:nth-child(1) .btn {
+      color: #ffffff !important;
+      background: linear-gradient(180deg, #1b6eb8 0%, #2783d1 100%) !important;
+      border-color: rgba(19, 87, 153, 0.2) !important;
+    }
+
+    #sortablegrid719 tbody td:nth-child(9) .btn {
+      color: #567092 !important;
+      background: #ffffff !important;
+      border-color: #567092 !important;
+      overflow: hidden !important;
+      text-overflow: ellipsis !important;
+      white-space: nowrap !important;
+    }
+
+    #sortablegrid719 tbody td:nth-child(6) .btn:hover,
+    #sortablegrid719 tbody td:nth-child(6) .btn:focus {
+      color: #ffffff !important;
+      background: #c85b64 !important;
+      box-shadow: 0 6px 12px rgba(13, 31, 54, 0.10) !important;
+    }
+
+    #sortablegrid719 tbody td:nth-child(1) .btn:hover,
+    #sortablegrid719 tbody td:nth-child(1) .btn:focus {
+      color: #ffffff !important;
+      background: #2783d1 !important;
+      box-shadow: 0 6px 12px rgba(13, 31, 54, 0.10) !important;
+    }
+
+    #sortablegrid719 tbody td:nth-child(9) .btn:hover,
+    #sortablegrid719 tbody td:nth-child(9) .btn:focus {
+      color: $text-dark !important;
+      background: #dfeeff !important;
+      box-shadow: 0 6px 12px rgba(13, 31, 54, 0.10) !important;
     }
 
     @media (min-width: 1024px) {

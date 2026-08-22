@@ -2,6 +2,20 @@
 // Home page styling
 // -----------------------------------------------------------------------------
 
+body:has(.center-block.widget4),
+body:has(.center-block.widget5),
+body:has(.center-block.widget60),
+body:has(.center-block.widget75) {
+  background-color: #f2f6fa;
+}
+
+body:has(.center-block.widget4) .center-block.widget4 > div,
+body:has(.center-block.widget5) .center-block.widget5 > div,
+body:has(.center-block.widget60) .center-block.widget60 > div,
+body:has(.center-block.widget75) .center-block.widget75 > div {
+  background: #ffffff;
+}
+
 .center-block.widget4 {
   margin: 0 !important;
   padding: 0 !important;
@@ -26,6 +40,7 @@
 
   h3 {
     @include widget-heading;
+    font-style: normal !important;
   }
 
   .table-condensed {
