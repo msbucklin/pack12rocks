@@ -2,7 +2,6 @@
 // Shared widget patterns
 // -----------------------------------------------------------------------------
 
-.center-block.widget4,
 .center-block.widget60,
 .center-block.widget75 {
   margin: 0 !important;
@@ -13,7 +12,6 @@
   background: none !important;
 }
 
-.center-block.widget4,
 .center-block.widget60,
 .center-block.widget75 {
   > div {
@@ -24,7 +22,6 @@
   }
 }
 
-.center-block.widget4 > div,
 .center-block.widget60 > div,
 .center-block.widget75 > div {
   @include widget-card;
@@ -33,20 +30,17 @@
   height: unset !important;
 }
 
-.center-block.widget4 h3,
 .center-block.widget60 h3,
 .center-block.widget75 h3 {
   @include widget-heading;
 }
 
-.center-block.widget4 .table-condensed,
 .center-block.widget60 .table-condensed,
 .center-block.widget75 .table-condensed {
   padding: 15px 14px 12px;
   @include widget-table;
 }
 
-.center-block.widget4 p,
 .center-block.widget60 p,
 .center-block.widget75 p {
   margin: 0;
@@ -54,7 +48,6 @@
   text-align: left !important;
 }
 
-.center-block.widget4 a,
 .center-block.widget60 a,
 .center-block.widget75 a {
   color: $text-dark;
@@ -92,13 +85,6 @@
   }
 }
 
-.center-block.widget4 a,
-.center-block.widget4 p {
-  font-size: 14px;
-}
-
-.center-block.widget4 a:hover,
-.center-block.widget4 a:focus,
 .center-block.widget60 a:hover,
 .center-block.widget60 a:focus,
 .center-block.widget75 a:hover,

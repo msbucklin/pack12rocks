@@ -1,0 +1,67 @@
+// -----------------------------------------------------------------------------
+// Home page styling
+// -----------------------------------------------------------------------------
+
+.center-block.widget4 {
+  margin: 0 !important;
+  padding: 0 !important;
+  flex: 1 1 360px !important;
+  max-width: none !important;
+  min-width: 220px !important;
+  background: none !important;
+
+  > div {
+    display: block !important;
+    width: 100% !important;
+    margin: 0 !important;
+    box-sizing: border-box;
+  }
+
+  > div {
+    @include widget-card;
+    margin: 0 0 20px 0 !important;
+    width: 100% !important;
+    height: unset !important;
+  }
+
+  h3 {
+    @include widget-heading;
+  }
+
+  .table-condensed {
+    padding: 15px 14px 12px;
+    @include widget-table;
+
+    tr:first-of-type td {
+      border-top: unset !important;
+      padding-top: unset !important;
+    }
+
+    td,
+    td p {
+      text-align: left !important;
+      width: 100% !important;
+    }
+  }
+
+  p {
+    margin: 0;
+    line-height: 1.5;
+    text-align: left !important;
+    font-size: 14px;
+  }
+
+  a {
+    color: $text-dark;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: left !important;
+  }
+
+  a:hover,
+  a:focus {
+    color: #d39a18;
+    text-decoration: underline;
+  }
+}
