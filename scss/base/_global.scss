@@ -224,3 +224,44 @@ button.btn-danger {
   background-color: rgba(13, 59, 114, 0.10);
   color: #0a2d5c;
 }
+
+#ModalReportPop a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  margin: 4px 6px 4px 0;
+  padding: 9px 16px;
+  border: 1px solid rgba(13, 59, 114, 0.2);
+  border-radius: 10px;
+  color: $white !important;
+  background: linear-gradient(180deg, $navy-800 0%, $navy-700 100%);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none !important;
+  box-shadow: 0 6px 12px rgba(13, 31, 54, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.22);
+}
+
+#ModalReportPop {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+#ModalReportPop br {
+  display: none;
+}
+
+#ModalReportPop a:last-child {
+  color: $text-dark !important;
+  background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%);
+}
+
+#ModalReportPop a:hover,
+#ModalReportPop a:focus {
+  filter: brightness(1.04);
+  transform: translateY(-1px);
+}

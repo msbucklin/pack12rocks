@@ -626,6 +626,86 @@
       box-shadow: 0 6px 12px rgba(13, 31, 54, 0.10) !important;
     }
 
+    #sortablegrid719 tfoot td {
+      width: 100% !important;
+      padding: 14px 12px !important;
+      margin: 20px 0 20px 0 !important;
+      border-top: 1px solid rgba(13, 59, 114, 0.12) !important;
+      background: #f7faff !important;
+      text-align: center !important;
+    }
+
+    #sortablegrid719 tfoot {
+      display: block !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      grid-column: 1 / -1 !important;
+    }
+
+    #sortablegrid719 tfoot tr,
+    #sortablegrid719 tfoot td {
+      display: block !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      box-sizing: border-box;
+    }
+
+    #sortablegrid719 tfoot td {
+      display: flex !important;
+      align-items: center;
+      gap: 6px;
+    }
+
+    #sortablegrid719 tfoot td > input[type="button"] {
+      display: inline-flex !important;
+      width: auto !important;
+      flex: 1 1 0;
+      max-width: none !important;
+      min-height: 40px;
+      align-items: center;
+      justify-content: center;
+      margin: 0 !important;
+      padding: 9px 16px !important;
+      border: 1px solid rgba(13, 59, 114, 0.2) !important;
+      border-radius: 10px !important;
+      color: #ffffff !important;
+      background: linear-gradient(180deg, #1b6eb8 0%, #2783d1 100%) !important;
+      font-size: 13px !important;
+      font-weight: 700 !important;
+      line-height: 1.2 !important;
+      box-shadow: 0 3px 8px rgba(13, 31, 54, 0.08) !important;
+    }
+
+    @media (max-width: 599px) {
+      #sortablegrid719 tfoot td {
+        flex-direction: column;
+        gap: 4px;
+        font-size: 0;
+      }
+
+      #sortablegrid719 tfoot td > input[type="button"] {
+        width: 100% !important;
+        flex: 0 0 auto;
+        margin: 0 !important;
+      }
+    }
+
+    #sortablegrid719 tfoot td > input[type="button"][value="Open in Excel"] {
+      color: $text-dark !important;
+      background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%) !important;
+    }
+
+    #sortablegrid719 tfoot td > input[type="button"]:hover,
+    #sortablegrid719 tfoot td > input[type="button"]:focus {
+      box-shadow: 0 6px 12px rgba(13, 31, 54, 0.10) !important;
+      transform: translateY(-1px);
+    }
+
+    #sortablegrid719 tfoot td > input[type="button"][value="Open in Excel"]:hover,
+    #sortablegrid719 tfoot td > input[type="button"][value="Open in Excel"]:focus {
+      background: #dfeeff !important;
+    }
+
     @media (min-width: 1024px) {
       #sortablegrid719 tbody td:nth-child(1),
       #sortablegrid719 tbody td:nth-child(6),

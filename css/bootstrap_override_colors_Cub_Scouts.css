@@ -237,6 +237,47 @@ button.btn-danger {
   color: #0a2d5c;
 }
 
+#ModalReportPop a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  margin: 4px 6px 4px 0;
+  padding: 9px 16px;
+  border: 1px solid rgba(13, 59, 114, 0.2);
+  border-radius: 10px;
+  color: #ffffff !important;
+  background: linear-gradient(180deg, #0d3b72 0%, #184a8a 100%);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none !important;
+  box-shadow: 0 6px 12px rgba(13, 31, 54, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.22);
+}
+
+#ModalReportPop {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+#ModalReportPop br {
+  display: none;
+}
+
+#ModalReportPop a:last-child {
+  color: #0d3b72 !important;
+  background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%);
+}
+
+#ModalReportPop a:hover,
+#ModalReportPop a:focus {
+  filter: brightness(1.04);
+  transform: translateY(-1px);
+}
+
 .container-fluid.container-flex > .center-block,
 .container-fluid.container-flex > .center-block > div {
   width: auto !important;
@@ -2448,6 +2489,76 @@ body:has(.center-block.widget75) .center-block.widget75 > div {
   color: #0d3b72 !important;
   background: #dfeeff !important;
   box-shadow: 0 6px 12px rgba(13, 31, 54, 0.1) !important;
+}
+#fs719 #sortablegrid719 tfoot td {
+  width: 100% !important;
+  padding: 14px 12px !important;
+  margin: 20px 0 20px 0 !important;
+  border-top: 1px solid rgba(13, 59, 114, 0.12) !important;
+  background: #f7faff !important;
+  text-align: center !important;
+}
+#fs719 #sortablegrid719 tfoot {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  grid-column: 1/-1 !important;
+}
+#fs719 #sortablegrid719 tfoot tr,
+#fs719 #sortablegrid719 tfoot td {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box;
+}
+#fs719 #sortablegrid719 tfoot td {
+  display: flex !important;
+  align-items: center;
+  gap: 6px;
+}
+#fs719 #sortablegrid719 tfoot td > input[type=button] {
+  display: inline-flex !important;
+  width: auto !important;
+  flex: 1 1 0;
+  max-width: none !important;
+  min-height: 40px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 !important;
+  padding: 9px 16px !important;
+  border: 1px solid rgba(13, 59, 114, 0.2) !important;
+  border-radius: 10px !important;
+  color: #ffffff !important;
+  background: linear-gradient(180deg, #1b6eb8 0%, #2783d1 100%) !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+  box-shadow: 0 3px 8px rgba(13, 31, 54, 0.08) !important;
+}
+@media (max-width: 599px) {
+  #fs719 #sortablegrid719 tfoot td {
+    flex-direction: column;
+    gap: 4px;
+    font-size: 0;
+  }
+  #fs719 #sortablegrid719 tfoot td > input[type=button] {
+    width: 100% !important;
+    flex: 0 0 auto;
+    margin: 0 !important;
+  }
+}
+#fs719 #sortablegrid719 tfoot td > input[type=button][value="Open in Excel"] {
+  color: #0d3b72 !important;
+  background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%) !important;
+}
+#fs719 #sortablegrid719 tfoot td > input[type=button]:hover,
+#fs719 #sortablegrid719 tfoot td > input[type=button]:focus {
+  box-shadow: 0 6px 12px rgba(13, 31, 54, 0.1) !important;
+  transform: translateY(-1px);
+}
+#fs719 #sortablegrid719 tfoot td > input[type=button][value="Open in Excel"]:hover,
+#fs719 #sortablegrid719 tfoot td > input[type=button][value="Open in Excel"]:focus {
+  background: #dfeeff !important;
 }
 @media (min-width: 1024px) {
   #fs719 #sortablegrid719 tbody td:nth-child(1),

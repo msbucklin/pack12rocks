@@ -89,6 +89,9 @@
     .pagination-demo { display: inline-flex; gap: 0; margin: 0; padding: 0; list-style: none; }
     .pagination-demo span { display: inline-flex; min-width: 32px; min-height: 32px; align-items: center; justify-content: center; padding: 7px 9px; color: var(--ink); border: 1px solid var(--line); background: rgba(255,255,255,.72); font-size: 12px; font-weight: 700; line-height: 1.2; }
     .pagination-demo .active { color: #fff; background: var(--navy); border-color: var(--navy); }
+    .report-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+    .report-actions .button:last-child { color: var(--navy); background: linear-gradient(180deg, var(--blue-light), var(--blue-light-2)); }
+    .report-footer { padding: 14px 12px; text-align: center; background: #f7faff; border-top: 1px solid var(--line); }
 
     .sample-card { overflow: hidden; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); box-shadow: 0 8px 18px rgba(13,31,54,.06); }
     .sample-card-head { padding: 14px 16px; color: #fff; background: linear-gradient(180deg, var(--header-blue-light), var(--header-blue)); font-size: 15px; font-weight: 700; }
@@ -200,6 +203,14 @@
             <div class="button-row"><span class="button info">Query</span><span class="button primary">Add New Item</span></div>
             <div style="display:flex;align-items:center;justify-content:flex-end;gap:10px;margin-top:12px;flex-wrap:wrap;"><label style="margin:0;">Rows Per Page <select style="width:auto;min-height:34px;"><option>100</option></select></label><div class="pagination-demo"><span>‹</span><span class="active">1</span><span>2</span><span>3</span><span>›</span></div></div>
           </div>
+        </div>
+        <div class="panel">
+          <h3>Report actions</h3>
+          <div class="report-actions"><span class="button primary">Print</span><span class="button light-button">Open in Excel</span></div>
+        </div>
+        <div class="panel">
+          <h3>Table footer actions</h3>
+          <div class="report-footer"><div class="report-actions"><span class="button info">Print (Export to PDF)</span><span class="button light-button">Open in Excel</span></div></div>
         </div>
       </div>
     </section>
