@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pack 12 Austin | Style Guide</title>
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800">
+  <style>
+    :root {
+      --navy: #0d3b72;
+      --navy-dark: #072b55;
+      --blue: #1b6eb8;
+      --blue-light: #eaf3ff;
+      --blue-light-2: #dfeeff;
+      --gold: #d8a42a;
+      --gold-light: #f6d36d;
+      --green: #2d7b4d;
+      --amber: #d4a52c;
+      --red: #b62d35;
+      --ink: #173a63;
+      --muted: #567092;
+      --line: rgba(13, 59, 114, 0.14);
+      --surface: #ffffff;
+      --page: #f2f6fa;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      min-width: 320px;
+      margin: 0;
+      color: var(--ink);
+      background: linear-gradient(135deg, rgba(216, 164, 42, 0.08), transparent 32%), var(--page);
+      font-family: Montserrat, sans-serif;
+    }
+
+    header {
+      padding: 38px 24px 34px;
+      color: #fff;
+      background: linear-gradient(135deg, var(--navy-dark), var(--navy) 64%, #1e5d9f);
+      border-bottom: 4px solid var(--gold);
+    }
+
+    .wrap { width: min(1120px, calc(100% - 40px)); margin: 0 auto; }
+    .eyebrow { margin: 0 0 8px; color: var(--gold-light); font-size: 11px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
+    h1 { margin: 0; font-size: clamp(28px, 5vw, 44px); line-height: 1.05; }
+    header p:last-child { max-width: 700px; margin: 14px 0 0; color: rgba(255,255,255,.82); font-size: 14px; line-height: 1.6; }
+
+    main { padding: 34px 0 56px; }
+    section { margin-bottom: 34px; }
+    h2 { margin: 0 0 6px; color: var(--navy); font-size: 21px; }
+    h3 { margin: 0 0 8px; color: var(--navy); font-size: 15px; }
+    .intro { margin: 0 0 16px; color: var(--muted); font-size: 13px; line-height: 1.6; }
+    .panel { padding: 22px; background: rgba(255,255,255,.88); border: 1px solid var(--line); box-shadow: 0 8px 20px rgba(12,32,56,.06); }
+    .example-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+    .swatch-grid { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 10px; }
+    .swatch { min-height: 76px; padding: 10px; color: #fff; font-size: 11px; font-weight: 700; }
+    .swatch.light { color: var(--navy); }
+    .swatch strong, .swatch span { display: block; }
+    .swatch span { margin-top: 5px; font-size: 10px; font-weight: 600; opacity: .8; }
+
+    .button-row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+    .button {
+      display: inline-flex;
+      min-height: 40px;
+      align-items: center;
+      justify-content: center;
+      padding: 9px 16px;
+      color: #fff;
+      border: 1px solid transparent;
+      border-radius: 10px;
+      box-shadow: 0 6px 12px rgba(13,31,54,.08), inset 0 1px 0 rgba(255,255,255,.22);
+      font: 800 13px/1.2 Montserrat, sans-serif;
+      cursor: default;
+    }
+    .primary { background: linear-gradient(180deg, var(--navy), #184a8a); }
+    .info { background: linear-gradient(180deg, var(--blue), #2783d1); }
+    .success { background: linear-gradient(180deg, var(--green), #3d8e5d); }
+    .warning { color: #2b2208; background: linear-gradient(180deg, var(--amber), #e6b63c); }
+    .danger { background: linear-gradient(180deg, var(--red), #cf3c46); }
+    .light-button { color: var(--navy); background: linear-gradient(180deg, var(--blue-light), var(--blue-light-2)); border-color: var(--line); }
+
+    .sample-card { overflow: hidden; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); box-shadow: 0 8px 18px rgba(13,31,54,.06); }
+    .sample-card-head { padding: 14px 16px; color: var(--navy); background: linear-gradient(180deg, var(--blue-light), var(--blue-light-2)); font-size: 15px; font-weight: 800; }
+    .sample-card-body { padding: 16px; }
+    .sample-card-body p { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.5; }
+    .sample-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    .sample-table th { padding: 11px 12px; color: var(--navy); background: linear-gradient(180deg, var(--blue-light), var(--blue-light-2)); text-align: left; }
+    .sample-table td { padding: 11px 12px; border-top: 1px solid var(--line); }
+    .sample-table tr:nth-child(even) td { background: #f7faff; }
+    label { display: block; margin-bottom: 6px; color: var(--navy); font-size: 12px; font-weight: 800; }
+    input, select { width: 100%; min-height: 40px; padding: 8px 10px; color: var(--ink); border: 1px solid rgba(13,59,114,.22); border-radius: 6px; background: #fff; font: 13px Montserrat, sans-serif; }
+    .field-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .note-list { display: grid; gap: 10px; margin: 0; padding: 0; list-style: none; }
+    .note-list li { padding: 13px 15px; border-left: 4px solid var(--gold); background: #fff; font-size: 13px; line-height: 1.5; }
+    .note-list strong { color: var(--navy); }
+    .note-list span { color: var(--muted); }
+    code { padding: 2px 4px; color: var(--navy); background: var(--blue-light); font-size: 11px; }
+    footer { padding: 0 0 28px; color: var(--muted); font-size: 11px; font-weight: 600; }
+
+    @media (max-width: 760px) {
+      .example-grid, .field-grid { grid-template-columns: 1fr; }
+      .swatch-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    }
+    @media (max-width: 520px) {
+      .wrap { width: min(100% - 28px, 1120px); }
+      header { padding: 30px 20px 28px; }
+      .swatch-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .panel { padding: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <p class="eyebrow">Pack 12 Austin</p>
+      <h1>Interface Style Guide</h1>
+      <p>A working reference for the colors, controls, tables, cards, and cleanup decisions shared across the project pages.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section>
+      <h2>Color System</h2>
+      <p class="intro">The strongest shared language is navy and gold navigation with light-blue information surfaces. These are the colors worth consolidating first.</p>
+      <div class="panel swatch-grid">
+        <div class="swatch" style="background:#0d3b72"><strong>Primary navy</strong><span>#0d3b72</span></div>
+        <div class="swatch" style="background:#1b6eb8"><strong>Info blue</strong><span>#1b6eb8</span></div>
+        <div class="swatch light" style="background:#eaf3ff"><strong>Calendar blue</strong><span>#eaf3ff</span></div>
+        <div class="swatch light" style="background:#dfeeff"><strong>Calendar blue 2</strong><span>#dfeeff</span></div>
+        <div class="swatch" style="background:#2d7b4d"><strong>Success green</strong><span>#2d7b4d</span></div>
+        <div class="swatch" style="background:#b62d35"><strong>Danger red</strong><span>#b62d35</span></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Buttons</h2>
+      <p class="intro">These examples represent the current shared Bootstrap button variants. The recommended baseline is one height, one radius, one shadow, and color reserved for meaning.</p>
+      <div class="panel">
+        <div class="button-row">
+          <button class="button primary">Primary</button>
+          <button class="button info">Info</button>
+          <button class="button success">Success</button>
+          <button class="button warning">Warning</button>
+          <button class="button danger">Danger</button>
+          <button class="button light-button">Light surface</button>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Page Patterns</h2>
+      <p class="intro">A few patterns already in use across Calendar, Users &amp; Passwords, Member, Event, and the account pages.</p>
+      <div class="example-grid">
+        <div class="sample-card">
+          <div class="sample-card-head">Light-blue card header</div>
+          <div class="sample-card-body"><p>Use this treatment for a named panel or record card when a dark header would compete with the main navigation.</p></div>
+        </div>
+        <div class="panel">
+          <h3>Form controls</h3>
+          <div class="field-grid">
+            <div><label for="example-name">Member name</label><input id="example-name" value="Aarons, Andrew" readonly></div>
+            <div><label for="example-type">Type</label><select id="example-type"><option>Scout</option><option>Adult</option></select></div>
+          </div>
+        </div>
+        <div class="panel">
+          <h3>Data table</h3>
+          <table class="sample-table">
+            <thead><tr><th>Name</th><th>Status</th><th>Action</th></tr></thead>
+            <tbody><tr><td>Aarons, Andrew</td><td>Active</td><td><span class="button primary">Update</span></td></tr><tr><td>Smith, Jordan</td><td>Pending</td><td><span class="button light-button">Review</span></td></tr></tbody>
+          </table>
+        </div>
+        <div class="panel">
+          <h3>Action group</h3>
+          <div class="button-row"><span class="button info">Query</span><span class="button primary">Add New Item</span><span class="button danger">Delete</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Cleanup Queue</h2>
+      <p class="intro">These are the most visible inconsistencies found in the current Sass. They are ordered by how much polish and maintenance they would buy us.</p>
+      <ul class="note-list">
+        <li><strong>Button variants:</strong> <span>Global buttons use consistent 10px corners and 13px type, but Event adds separate dark-blue, pale-blue, green, and amber treatments with different padding and shadows. Consolidate those into shared semantic variants.</span></li>
+        <li><strong>Button sizing:</strong> <span>Most controls use the global 9px by 16px padding, while Event mobile actions grow to 52px and Users &amp; Passwords actions use 55px or 40px at different breakpoints. Define a compact, default, and touch size.</span></li>
+        <li><strong>Surface hierarchy:</strong> <span>Calendar uses the light-blue header gradient, while several Event panels use dark-blue headers and other pages use white-to-pale-blue cards. Choose light blue for data headers and reserve dark blue for navigation or primary actions.</span></li>
+        <li><strong>Corner radii:</strong> <span>The project currently mixes 6px, 8px, 10px, 12px, 14px, 16px, and 18px. A small scale such as 6px controls, 10px cards, and 14px major panels would make the pages feel related.</span></li>
+        <li><strong>Responsive breakpoints:</strong> <span>Most pages use 767px, while Users &amp; Passwords now uses 599px and 1024px for its card grid. Keep page-specific breakpoints where content requires them, but document the shared tablet and phone thresholds.</span></li>
+        <li><strong>Typography:</strong> <span>Montserrat is the shared family, but some navigation labels still force Arial and page headings range from 1.3rem to 2.2rem. Set a small type scale and remove the remaining one-off font override.</span></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="wrap">Pack 12 Rocks project style reference</footer>
+</body>
+</html>

@@ -2070,176 +2070,223 @@ a[href*=togglemenu]:hover .navicon, a[href*=togglemenu]:focus .navicon, a[href*=
 #fs719 .btn {
   white-space: normal !important;
 }
-@media (max-width: 767px) {
-  #fs719 .center-block.table-responsive {
-    width: 100% !important;
-    border: 0 !important;
-    border-radius: 0 !important;
-    background: transparent !important;
-    box-shadow: none !important;
-    overflow-x: hidden !important;
-  }
-  #fs719 #fs719 .center-block.table-responsive,
-  #fs719 #fs719 .center-block.table-responsive > table,
-  #fs719 #fs719 table,
-  #fs719 #sortablegrid719,
-  #fs719 #sortablegrid719 tbody,
-  #fs719 #sortablegrid719 tbody tr,
-  #fs719 #sortablegrid719 tbody td {
-    min-width: 0 !important;
-    max-width: 100% !important;
-    width: 100% !important;
-  }
-  #fs719 #sortablegrid719 {
-    display: block !important;
-    border-spacing: 0 !important;
-    border-collapse: separate !important;
-    border: none !important;
-  }
-  #fs719 #sortablegrid719 thead {
-    display: none !important;
-  }
+#fs719 .center-block.table-responsive {
+  width: 100% !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  overflow-x: hidden !important;
+}
+#fs719 #fs719 .center-block.table-responsive,
+#fs719 #fs719 .center-block.table-responsive > table,
+#fs719 #fs719 table,
+#fs719 #sortablegrid719,
+#fs719 #sortablegrid719 tbody,
+#fs719 #sortablegrid719 tbody tr,
+#fs719 #sortablegrid719 tbody td {
+  min-width: 0 !important;
+  max-width: 100% !important;
+  width: 100% !important;
+}
+#fs719 #sortablegrid719 {
+  display: block !important;
+  border-spacing: 0 !important;
+  border-collapse: separate !important;
+  border: none !important;
+}
+#fs719 #sortablegrid719 thead {
+  display: none !important;
+}
+#fs719 #sortablegrid719 tbody {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 14px !important;
+  width: 100% !important;
+}
+@media (min-width: 1024px) {
   #fs719 #sortablegrid719 tbody {
-    display: block !important;
-    width: 100% !important;
-  }
-  #fs719 #sortablegrid719 tbody tr {
-    display: grid !important;
     grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
-    width: 100% !important;
-    margin: 0 0 12px !important;
-    padding: 0 0 20px 0 !important;
-    background: transparent !important;
-    border: 1px solid rgba(13, 59, 114, 0.18) !important;
-    border-radius: 12px !important;
-    box-shadow: 0 8px 18px rgba(13, 31, 54, 0.06) !important;
-    box-sizing: border-box;
-    overflow: hidden;
   }
-  #fs719 #sortablegrid719 tbody td {
-    display: block !important;
-    width: 100% !important;
-    padding: 10px 20px 0 20px !important;
-    border: 0 !important;
-    text-align: left !important;
-    box-sizing: border-box;
-    background: rgba(255, 255, 255, 0.08) !important;
-    font-size: 14px;
-    grid-column: 1/-1 !important;
+}
+#fs719 #sortablegrid719 tbody tr {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  width: 100% !important;
+  margin: 0 0 12px !important;
+  padding: 0 0 20px 0 !important;
+  background: transparent !important;
+  border: 1px solid rgba(13, 59, 114, 0.18) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 8px 18px rgba(13, 31, 54, 0.06) !important;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+@media (max-width: 599px) {
+  #fs719 #sortablegrid719 tbody {
+    grid-template-columns: 1fr !important;
   }
-  #fs719 #sortablegrid719 tbody td:nth-child(3) {
-    padding-top: 20px !important;
-  }
-  #fs719 #sortablegrid719 tbody td:not(:nth-child(1)):not(:nth-child(6)):not(:nth-child(9)) {
-    grid-column: 1/-1 !important;
-  }
-  #fs719 #sortablegrid719 tbody td::before {
-    display: block;
-    margin-bottom: 4px;
-    color: #567092;
-    font-size: 10px;
-    line-height: 1.2;
-    font-weight: 800;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-  }
-  #fs719 #sortablegrid719 tbody td[id$=DATA3680] {
-    margin: 0 !important;
-    padding: 12px 14px !important;
-    background: linear-gradient(180deg, #0d3b72 0%, #1e5d9f 100%) !important;
-    color: #ffffff !important;
-    font-size: 16px !important;
-    line-height: 1.3 !important;
-    font-weight: 800 !important;
-    border-radius: 10px 10px 0 0 !important;
-    text-align: left !important;
-    border: 0 !important;
-  }
-  #fs719 #sortablegrid719 tbody td[id$=DATA3680]::before {
-    content: "" !important;
-    display: none !important;
-    margin: 0 !important;
-  }
-  #fs719 #sortablegrid719 tbody td:nth-child(1)::before {
-    content: "Update";
-  }
-  #fs719 #sortablegrid719 tbody td:nth-child(2)::before {
-    content: "" !important;
-    display: none !important;
-  }
-  #fs719 #sortablegrid719 tbody td:nth-child(3)::before {
-    content: "User Login";
-  }
-  #fs719 #sortablegrid719 tbody td:nth-child(4)::before {
-    content: "Type";
-  }
-  #fs719 #sortablegrid719 tbody td:nth-child(5)::before {
-    content: "Member Status";
-  }
-  #fs719 #sortablegrid719 tbody td:nth-child(6)::before {
-    content: "Delete";
-  }
-  #fs719 #sortablegrid719 tbody td:nth-child(7)::before {
-    content: "Last Access";
-  }
-  #fs719 #sortablegrid719 tbody td:nth-child(8)::before {
-    content: "Recent Pages Accessed";
-  }
-  #fs719 #sortablegrid719 tbody td:nth-child(9)::before {
-    content: "Recent Access";
-  }
-  #fs719 #sortablegrid719 tbody td:nth-child(10)::before {
-    content: "Mobile App Last Access";
-  }
+}
+#fs719 #sortablegrid719 tbody td {
+  display: block !important;
+  width: 100% !important;
+  padding: 10px 20px 0 20px !important;
+  border: 0 !important;
+  text-align: left !important;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.08) !important;
+  font-size: 14px;
+  grid-column: 1/-1 !important;
+}
+#fs719 #sortablegrid719 tbody td:nth-child(3) {
+  padding-top: 20px !important;
+}
+#fs719 #sortablegrid719 tbody td:not(:nth-child(1)):not(:nth-child(6)):not(:nth-child(9)) {
+  grid-column: 1/-1 !important;
+}
+#fs719 #sortablegrid719 tbody td::before {
+  display: block;
+  margin-bottom: 4px;
+  color: #567092;
+  font-size: 10px;
+  line-height: 1.2;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+#fs719 #sortablegrid719 tbody td[id$=DATA3680] {
+  margin: 0 !important;
+  padding: 12px 14px !important;
+  background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%) !important;
+  color: #123b66 !important;
+  font-size: 16px !important;
+  line-height: 1.3 !important;
+  font-weight: 800 !important;
+  border-radius: 10px 10px 0 0 !important;
+  text-align: left !important;
+  border: 0 !important;
+}
+#fs719 #sortablegrid719 tbody td[id$=DATA3680]::before {
+  content: "" !important;
+  display: none !important;
+  margin: 0 !important;
+}
+#fs719 #sortablegrid719 tbody td:nth-child(1)::before {
+  content: "Update";
+}
+#fs719 #sortablegrid719 tbody td:nth-child(2)::before {
+  content: "" !important;
+  display: none !important;
+}
+#fs719 #sortablegrid719 tbody td:nth-child(3)::before {
+  content: "User Login";
+}
+#fs719 #sortablegrid719 tbody td:nth-child(4)::before {
+  content: "Type";
+}
+#fs719 #sortablegrid719 tbody td:nth-child(5)::before {
+  content: "Member Status";
+}
+#fs719 #sortablegrid719 tbody td:nth-child(6)::before {
+  content: "Delete";
+}
+#fs719 #sortablegrid719 tbody td:nth-child(7)::before {
+  content: "Last Access";
+}
+#fs719 #sortablegrid719 tbody td:nth-child(8)::before {
+  content: "Recent Pages Accessed";
+}
+#fs719 #sortablegrid719 tbody td:nth-child(9)::before {
+  content: "Recent Access";
+}
+#fs719 #sortablegrid719 tbody td:nth-child(10)::before {
+  content: "Mobile App Last Access";
+}
+#fs719 #sortablegrid719 tbody td:nth-child(1),
+#fs719 #sortablegrid719 tbody td:nth-child(6),
+#fs719 #sortablegrid719 tbody td:nth-child(9) {
+  order: 99 !important;
+  margin-top: auto !important;
+  padding-top: 12px !important;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+  padding-bottom: 0 !important;
+  text-align: center !important;
+  background: rgba(255, 255, 255, 0.08) !important;
+  border-top: 0 !important;
+  border-radius: 0 0 10px 10px !important;
+  grid-column: auto !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-width: 0 !important;
+  min-height: 55px !important;
+  height: 55px !important;
+}
+#fs719 #sortablegrid719 tbody td:nth-child(1)::before,
+#fs719 #sortablegrid719 tbody td:nth-child(6)::before,
+#fs719 #sortablegrid719 tbody td:nth-child(9)::before {
+  content: "" !important;
+  display: none !important;
+  margin: 0 !important;
+}
+#fs719 #sortablegrid719 tbody td:nth-child(1) .btn {
+  margin-left: 10px !important;
+}
+#fs719 #sortablegrid719 tbody td:nth-child(9) .btn {
+  margin-right: 10px !important;
+}
+#fs719 #sortablegrid719 tbody td:nth-child(9) {
+  position: relative;
+}
+#fs719 #sortablegrid719 tbody td:nth-child(9)::after {
+  content: "View Access";
+  position: absolute;
+  inset: 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1.2;
+  pointer-events: none;
+}
+#fs719 #sortablegrid719 tbody td:nth-child(9) .btn[value="View Recent Access"] {
+  color: transparent !important;
+  text-shadow: none !important;
+}
+#fs719 #sortablegrid719 tbody td:nth-child(1) .btn,
+#fs719 #sortablegrid719 tbody td:nth-child(6) .btn,
+#fs719 #sortablegrid719 tbody td:nth-child(9) .btn {
+  width: 100% !important;
+  min-width: 0 !important;
+  min-height: 55px !important;
+  height: 55px !important;
+  line-height: 1.2 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 8px !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  font-size: 12px !important;
+}
+@media (min-width: 1024px) {
   #fs719 #sortablegrid719 tbody td:nth-child(1),
   #fs719 #sortablegrid719 tbody td:nth-child(6),
   #fs719 #sortablegrid719 tbody td:nth-child(9) {
-    order: 99 !important;
-    margin-top: auto !important;
-    padding-top: 12px !important;
-    padding-left: 5px !important;
-    padding-right: 5px !important;
-    padding-bottom: 0 !important;
-    text-align: center !important;
-    background: rgba(255, 255, 255, 0.08) !important;
-    border-top: 0 !important;
-    border-radius: 0 0 10px 10px !important;
-    grid-column: auto !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    min-width: 0 !important;
-    min-height: 55px !important;
-    height: 55px !important;
-  }
-  #fs719 #sortablegrid719 tbody td:nth-child(1)::before,
-  #fs719 #sortablegrid719 tbody td:nth-child(6)::before,
-  #fs719 #sortablegrid719 tbody td:nth-child(9)::before {
-    content: "" !important;
-    display: none !important;
-    margin: 0 !important;
-  }
-  #fs719 #sortablegrid719 tbody td:nth-child(1) .btn {
-    margin-left: 10px !important;
-  }
-  #fs719 #sortablegrid719 tbody td:nth-child(9) .btn {
-    margin-right: 10px !important;
+    min-height: 40px !important;
+    height: 40px !important;
+    padding-top: 8px !important;
   }
   #fs719 #sortablegrid719 tbody td:nth-child(1) .btn,
   #fs719 #sortablegrid719 tbody td:nth-child(6) .btn,
   #fs719 #sortablegrid719 tbody td:nth-child(9) .btn {
-    width: 100% !important;
-    min-width: 0 !important;
-    min-height: 55px !important;
-    height: 55px !important;
-    line-height: 1.2 !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    border-radius: 8px !important;
+    min-height: 40px !important;
+    height: 40px !important;
     padding-top: 0 !important;
     padding-bottom: 0 !important;
-    font-size: 12px !important;
   }
 }
 
@@ -4504,5 +4551,3 @@ a[href*=togglemenu]:hover .navicon, a[href*=togglemenu]:focus .navicon, a[href*=
     border-radius: 10px;
   }
 }
-
-/*# sourceMappingURL=bootstrap_override_colors_Cub_Scouts.css.map */
