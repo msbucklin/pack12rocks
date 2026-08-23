@@ -75,13 +75,13 @@
               newval=oldval;
             }
           }
-          if (tempobj.type=="checkbox") 
-          { 
-            if (trim(oldval)=="") 
-            { 
-              oldval="N"; 
-            } 
-          } 
+          if (tempobj.type=="checkbox")
+          {
+            if (trim(oldval)=="")
+            {
+              oldval="N";
+            }
+          }
         }
         else
         {
@@ -284,7 +284,7 @@
 </head>
 <body onunload="CloseErrorBox()" onload="easySetFocus();GetDeviceWidth();">
 <form enctype="multipart/form-data" action="https://www.TroopWebHostCS.org/formCustom.aspx" target="_self" method="post" name="easyform" id="easyform">
-<script language="JavaScript" type="text/javascript"> 
+<script language="JavaScript" type="text/javascript">
   <!--
   function submitForm() {
   	//change the following line to true to submit form
@@ -322,7 +322,7 @@
     <td style="width:76px;">
     </td>
     <td style="padding:4px;">
-      <a href="#" class="navlink nav-home-link" onclick="LinkTo('Pack12Austin/Index.htm','_top')">Pack 12 Austin</a>
+      <a href="#" class="navlink nav-home-link" onclick="LinkTo('/home/home.php','_top')">Pack 12 Austin</a>
     </td>
     <td class="quickmenu1">
       <table>
@@ -494,7 +494,7 @@ Home
   <div class="container-fluid container-flex">
     <div class="center-block " style="margin-bottom: 20px; max-width: 640px; min-width: 200px; ">
       <div style="display: inline-block; margin-left: 10px; margin-right: 10px; width: calc(100% - 20px);">
-        
+
       </div>
     </div>
   </div>
@@ -571,7 +571,7 @@ JOIN US at Scout Night, Aug 25th 6-7pm at the Circle C Community Center to meet 
     </div>
     <div class="center-block widget5" style="margin-bottom: 20px; max-width: 480px; min-width: 200px; ">
       <div style="display: inline-block; margin-left: 10px; margin-right: 10px; width: calc(100% - 20px);">
-        <script type="text/javascript">    
+        <script type="text/javascript">
                     function ContactFieldExit(thisfield,regex,errormsg)
                 {
                   var goodcolor = "#FFFFFF";
@@ -658,7 +658,7 @@ JOIN US at Scout Night, Aug 25th 6-7pm at the Circle C Community Center to meet 
           		return true;
             }
         </script>
-        
+
         <form id="ContactUsForm" action="/" method="post">
         <script type="text/javascript">
           var verifyCallback = function(response) {
@@ -775,8 +775,8 @@ JOIN US at Scout Night, Aug 25th 6-7pm at the Circle C Community Center to meet 
   This site is powered by <a href="http://www.TroopWebHostCS.com" target="_blank">TroopWebHostCS</a>.&nbsp; Copyright&nbsp; 2026
   </footer>
   <input type="hidden" name="FirstControl" id="FirstControl" value="User_Login">
-  
+
   <div style="height: 100px;">&nbsp;</div>
-  
-  
+
+
 <div style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility linear 0.3s, opacity 0.3s linear; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;"><div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;"></div><div class="g-recaptcha-bubble-arrow" style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;"></div><div class="g-recaptcha-bubble-arrow" style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;"></div><div style="z-index: 2000000000; position: relative;"><iframe title="recaptcha challenge expires in two minutes" name="c-pc97ijmuytls" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/bframe?hl=en&amp;v=xg_pWYS8-HRESiV6Rdg4aY_R&amp;k=6Lcy03sUAAAAAISCBLDwcOs-lk2Rfk7hPrCDJaCI&amp;bft=0dAFcWeA5svyljWJG9EyO-FDAF4Df83V5_NGJmEz6gDXOjSeRU7DgN5XLhkDhdCY7EqEuZVqjrEpgKmJmz7l8zq3TaSV4D1gySpg" style="width: 100%; height: 100%;"></iframe></div></div></body></html>

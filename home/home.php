@@ -75,13 +75,13 @@
               newval=oldval;
             }
           }
-          if (tempobj.type=="checkbox") 
-          { 
-            if (trim(oldval)=="") 
-            { 
-              oldval="N"; 
-            } 
-          } 
+          if (tempobj.type=="checkbox")
+          {
+            if (trim(oldval)=="")
+            {
+              oldval="N";
+            }
+          }
         }
         else
         {
@@ -284,7 +284,7 @@
 </head>
 <body onunload="CloseErrorBox()" onload="easySetFocus();GetDeviceWidth();">
 <form enctype="multipart/form-data" action="https://www.TroopWebHostCS.org/formCustom.aspx" target="_self" method="post" name="easyform" id="easyform">
-<script language="JavaScript" type="text/javascript"> 
+<script language="JavaScript" type="text/javascript">
   <!--
   function submitForm() {
   	//change the following line to true to submit form
@@ -322,7 +322,7 @@
     <td style="width:76px;">
     </td>
     <td style="padding:4px;">
-      <a href="#" class="navlink nav-home-link" onclick="LinkTo('Pack12Austin/Index.htm','_top')">Pack 12 Austin</a>
+      <a href="#" class="navlink nav-home-link" onclick="LinkTo('/home/home.php','_top')">Pack 12 Austin</a>
     </td>
     <td class="quickmenu1">
       <table>
@@ -530,7 +530,7 @@ Home
   <div class="container-fluid container-flex">
     <div class="center-block " style="margin-bottom: 20px; max-width: 640px; min-width: 200px; ">
       <div style="display: inline-block; margin-left: 10px; margin-right: 10px; width: calc(100% - 20px);">
-        
+
       </div>
     </div>
   </div>

@@ -75,13 +75,13 @@
               newval=oldval;
             }
           }
-          if (tempobj.type=="checkbox") 
-          { 
-            if (trim(oldval)=="") 
-            { 
-              oldval="N"; 
-            } 
-          } 
+          if (tempobj.type=="checkbox")
+          {
+            if (trim(oldval)=="")
+            {
+              oldval="N";
+            }
+          }
         }
         else
         {
@@ -284,7 +284,7 @@
 </head>
 <body onunload="CloseErrorBox()" onload="easySetFocus();GetDeviceWidth();">
 <form enctype="multipart/form-data" action="https://www.TroopWebHostCS.org/FormList.aspx" target="_self" method="post" name="easyform" id="easyform">
-<script language="JavaScript" type="text/javascript"> 
+<script language="JavaScript" type="text/javascript">
   <!--
   function submitForm() {
   	//change the following line to true to submit form
@@ -322,7 +322,7 @@
     <td style="width:76px;">
     </td>
     <td style="padding:4px;">
-      <a href="#" class="navlink nav-home-link" onclick="LinkTo('Pack12Austin/Index.htm','_top')">Pack 12 Austin</a>
+      <a href="#" class="navlink nav-home-link" onclick="LinkTo('/home/home.php','_top')">Pack 12 Austin</a>
     </td>
     <td class="quickmenu1">
       <table>
@@ -488,7 +488,7 @@ Calendar
   <div class="container-fluid container-flex">
     <div class="center-block ">
       <div class="center-block text-center">
-        <a href="#" class="bodytext" onclick="easyCalendarSet('CalendarDateControl0','202607');"> &lt;&lt; </a> &nbsp; 
+        <a href="#" class="bodytext" onclick="easyCalendarSet('CalendarDateControl0','202607');"> &lt;&lt; </a> &nbsp;
         <select class="form-control" id="CalendarDateControl0" name="CalendarDateControl0" onchange="easyFormSubmit('show');">
           <option value="202711">November 2027</option>
           <option value="202710">October 2027</option>
@@ -550,7 +550,7 @@ Calendar
           <option value="202302">February 2023</option>
           <option value="202301">January 2023</option>
         </select>
-         &nbsp; 
+         &nbsp;
         <a href="#" class="bodytext" onclick="easyCalendarSet('CalendarDateControl0','202609');"> &gt;&gt; </a>
         <span class="bodytext">&nbsp; Today </span>
       </div>
@@ -717,18 +717,18 @@ Calendar
     <script language="JavaScript">
         function PrintCalendar799() {
         var ToMonth = easyGetFieldValue('CalendarDateControlThru799');
-        var URL = 'FormTelerikCalendar.aspx?Menu_Item_ID=318&Form_ID=374&FK=0&ID=0&Stack=2&ToMonth='+ToMonth; 
+        var URL = 'FormTelerikCalendar.aspx?Menu_Item_ID=318&Form_ID=374&FK=0&ID=0&Stack=2&ToMonth='+ToMonth;
         LinkTo(URL,'FormTelerikCalendaraspxWindow');
         }
-    </script>      
+    </script>
     <div class="modal fade" id="ModalCalendarPrint799" role="dialog">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal">×</button>
             <div class="form-group">
-              <span> &nbsp; 
-              Print &nbsp; <i>August 2026</i> &nbsp; through &nbsp; 
+              <span> &nbsp;
+              Print &nbsp; <i>August 2026</i> &nbsp; through &nbsp;
               <select tabindex="1000" class="form-control" id="CalendarDateControlThru799" name="CalendarDateControlThru799">
                 <option selected="" value="202608">August 2026</option>
                 <option value="202609">September 2026</option>

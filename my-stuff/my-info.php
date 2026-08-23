@@ -77,13 +77,13 @@
               newval=oldval;
             }
           }
-          if (tempobj.type=="checkbox") 
-          { 
-            if (trim(oldval)=="") 
-            { 
-              oldval="N"; 
-            } 
-          } 
+          if (tempobj.type=="checkbox")
+          {
+            if (trim(oldval)=="")
+            {
+              oldval="N";
+            }
+          }
         }
         else
         {
@@ -289,7 +289,7 @@
   SOAPClient.invoke("EasyWebService.asmx", "RotateImage", pl, true, RotateImageReturn);
   return;
   }
-  function RotateImageReturn(val) 
+  function RotateImageReturn(val)
   {
   if (val.ErrorMsg && val.ErrorMsg.length > 0)
   {
@@ -301,7 +301,7 @@
   var ImageObj = document.getElementById(ImageID);
   var ImageURL = ImageObj.src;
   var currentdate = new Date();
-  var Time = 'parm=' + currentdate.getDay() + currentdate.getHours() + currentdate.getMinutes() + currentdate.getSeconds() + currentdate.getMilliseconds(); 
+  var Time = 'parm=' + currentdate.getDay() + currentdate.getHours() + currentdate.getMinutes() + currentdate.getSeconds() + currentdate.getMilliseconds();
   var UrlParmIndex = ImageURL.indexOf("?");
   if (UrlParmIndex>-1)
   {
@@ -325,14 +325,14 @@
   if (thisfield.name=='ENTRY2900652'||thisfield.name=='ENTRY489202')
 {
   var CellPhone = easyGetFieldValue('ENTRY2900652');
-  var CarrierID = easyGetFieldValue('ENTRY489202'); 
+  var CarrierID = easyGetFieldValue('ENTRY489202');
   if (CellPhone != '' && CarrierID != '' && CarrierID != '0')
   {
     GetSMSAddress(CellPhone,CarrierID);
   }
 }
 
- 
+
 
 if (thisfield.name=='ENTRY4979611')
 {
@@ -384,7 +384,7 @@ if (thisfield.name=='ENTRY4979711')
   return;
 }
 
-function ReturnSMSAddress(retObj) 
+function ReturnSMSAddress(retObj)
 {
   //  if there is an error, display it and exit
   if (retObj.ErrorMsg && retObj.ErrorMessage.length > 0)
@@ -392,7 +392,7 @@ function ReturnSMSAddress(retObj)
     window.alert(retObj.ErrorMessage.text);
     return true;
   }
-	
+
   var SMSAddress = retObj.SMS_Address;
   if (SMSAddress != '')
   {
@@ -404,7 +404,7 @@ function ReturnSMSAddress(retObj)
 </head>
 <body onunload="CloseErrorBox()" onload="easyFieldExit(this); easySetFocus();GetDeviceWidth();">
 <form enctype="multipart/form-data" action="https://www.TroopWebHostCS.org/FormDetail.aspx" target="_self" method="post" name="easyform" id="easyform">
-<script language="JavaScript" type="text/javascript"> 
+<script language="JavaScript" type="text/javascript">
   <!--
   function submitForm() {
   	//change the following line to true to submit form
@@ -442,7 +442,7 @@ function ReturnSMSAddress(retObj)
     <td style="width:76px;">
     </td>
     <td style="padding:4px;">
-      <a href="#" class="navlink nav-home-link" onclick="LinkTo('Pack12Austin/Index.htm','_top')">Pack 12 Austin</a>
+      <a href="#" class="navlink nav-home-link" onclick="LinkTo('/home/home.php','_top')">Pack 12 Austin</a>
     </td>
     <td class="quickmenu1">
       <table>
@@ -650,7 +650,7 @@ My Contact Information
             <input type="hidden" name="OLD2899827" id="OLD2899827" value="">
             <input type="hidden" name="ENTRY2899827" id="ENTRY2899827" value="">
             <span class="text-left">
-            
+
             </span>
             </span>
             <input type="hidden" name="RVALENTRY2899828" id="RVALENTRY2899828" value="">
@@ -666,7 +666,7 @@ My Contact Information
             <input type="hidden" name="OLD2899851" id="OLD2899851" value="">
             <input type="hidden" name="ENTRY2899851" id="ENTRY2899851" value="">
             <span class="text-left">
-            
+
             </span>
             </span>
           </td>
@@ -703,7 +703,7 @@ My Contact Information
             <input type="hidden" name="OLD290201" id="OLD290201" value="">
             <input type="text" class="form-control" id="ENTRY290201" name="ENTRY290201" tabindex="150" size="50" onblur="TestRegExp(this,'','')" maxlength="100" value="" title="The name this person would prefer to use instead of their legal first name.">
             <span class="entrypostscript">
-            
+
             </span>
           </td>
         </tr>
@@ -722,21 +722,21 @@ My Contact Information
             <input type="hidden" name="OLD2901462" id="OLD2901462" value="">
             <span id="DIVPHOTO2901462"></span><input type="file" tabindex="161" id="ENTRY2901462" name="ENTRY2901462" class="form-control" onchange="ShowUploadPhoto(this);" title=""><input type="hidden" id="DELETEFILE2901462" name="DELETEFILE2901462" value="Save">
             <span class="entrypostscript">
-            
+
             </span>
             </span>
             <input type="hidden" name="RVALENTRY2901465" id="RVALENTRY2901465" value="N">
             <span id="DIVENTRY2901465">
             <input type="hidden" name="OLD2901465" id="OLD2901465" value="">
             <span class="entrypostscript">
-            
+
             </span>
             </span>
             <input type="hidden" name="RVALENTRY2901466" id="RVALENTRY2901466" value="N">
             <span id="DIVENTRY2901466">
             <input type="hidden" name="OLD2901466" id="OLD2901466" value="">
             <span class="entrypostscript">
-            
+
             </span>
             </span>
           </td>
@@ -774,7 +774,7 @@ My Contact Information
             <input type="hidden" name="OLD2900029" id="OLD2900029" value="6708 Edwardson Cv">
             <input type="text" class="form-control" id="ENTRY2900029" name="ENTRY2900029" tabindex="181" size="50" onblur="TestRegExp(this,'','')" maxlength="100" value="6708 Edwardson Cv" title="Street address or P.O. Box">
             <span class="entrypostscript">
-            
+
             </span>
             </span>
             <input type="hidden" name="RVALENTRY2900030" id="RVALENTRY2900030" value="N">
@@ -786,7 +786,7 @@ My Contact Information
             <span class="RequiredIndicator" id="RDIVENTRY2900030" style="visibility: hidden">
             *
             </span>
-            
+
             </label>
           </td>
           <td class="text-left">
@@ -794,7 +794,7 @@ My Contact Information
             <input type="hidden" name="OLD2900030" id="OLD2900030" value="">
             <input type="text" class="form-control" id="ENTRY2900030" name="ENTRY2900030" tabindex="182" size="50" onblur="TestRegExp(this,'','')" maxlength="100" value="" title="Continuation of address information">
             <span class="entrypostscript">
-            
+
             </span>
             </span>
             <input type="hidden" name="RVALENTRY2900031" id="RVALENTRY2900031" value="N">
@@ -879,7 +879,7 @@ My Contact Information
               <option value="WY">Wyoming</option>
             </select>
             <span class="entrypostscript">
-            
+
             </span>
             </span>
             <input type="hidden" name="RVALENTRY2900033" id="RVALENTRY2900033" value="N">
@@ -887,7 +887,7 @@ My Contact Information
             <input type="hidden" name="OLD2900033" id="OLD2900033" value="78749">
             <input type="text" class="form-control" id="ENTRY2900033" name="ENTRY2900033" tabindex="185" size="10" onblur="TestRegExp(this,'','')" maxlength="10" value="78749" title="Zip code (postal code)">
             <span class="entrypostscript">
-            
+
             </span>
             </span>
             <input type="hidden" name="RVALENTRY2900034" id="RVALENTRY2900034" value="N">
@@ -902,7 +902,7 @@ My Contact Information
               <option value="USA">USA</option>
             </select>
             <span class="entrypostscript">
-            
+
             </span>
             </span>
           </td>
@@ -921,7 +921,7 @@ My Contact Information
             <input type="hidden" name="OLD2900252" id="OLD2900252" value="(512) 750-7046">
             <input type="text" class="form-control" id="ENTRY2900252" name="ENTRY2900252" tabindex="190" size="50" onblur="TestRegExp(this,'','')" maxlength="50" value="(512) 750-7046" title="The home telephone number for this person.">
             <span class="entrypostscript">
-            
+
             </span>
           </td>
         </tr>
@@ -939,7 +939,7 @@ My Contact Information
             <input type="hidden" name="OLD2900652" id="OLD2900652" value="">
             <input type="text" class="form-control" id="ENTRY2900652" name="ENTRY2900652" tabindex="200" size="50" onblur="TestRegExp(this,'','')" maxlength="50" value="" title="Cell Phone">
             <span class="entrypostscript">
-            
+
             </span>
           </td>
         </tr>
@@ -1032,7 +1032,7 @@ My Contact Information
               <option value="78">Xfinity Mobile</option>
             </select>
             <span class="entrypostscript">
-            
+
             </span>
           </td>
         </tr>
@@ -1068,7 +1068,7 @@ My Contact Information
             <input type="hidden" name="OLD2900735" id="OLD2900735" value="msbucklin@icloud.com">
             <input type="text" class="form-control" id="ENTRY2900735" name="ENTRY2900735" tabindex="230" size="50" onblur="TestRegExp(this,/^([0-9a-zA-Z]([-.\w]*[0-9a-zA-Z_\-\+])*@([-\w]*[0-9a-zA-Z]\.)+[a-zA-Z]{2,9})$/,'Please enter a valid e-mail address.  Here is an example of a valid e-mail address:  jsmith@earthlink.net')" maxlength="255" value="msbucklin@icloud.com" title="The e-mail address to which all messages should be sent for this person.">
             <span class="entrypostscript">
-            
+
             </span>
           </td>
         </tr>
@@ -1086,7 +1086,7 @@ My Contact Information
             <input type="hidden" name="OLD2902235" id="OLD2902235" value="">
             <input type="text" class="form-control" id="ENTRY2902235" name="ENTRY2902235" tabindex="240" size="50" onblur="TestRegExp(this,/^([0-9a-zA-Z]([-.\w]*[0-9a-zA-Z_\-\+])*@([-\w]*[0-9a-zA-Z]\.)+[a-zA-Z]{2,9})$/,'Please enter a valid e-mail address.  Here is an example of a valid e-mail address:  jsmith@earthlink.net')" maxlength="255" value="" title="A secondary e-mail address">
             <span class="entrypostscript">
-            
+
             </span>
           </td>
         </tr>
@@ -1104,7 +1104,7 @@ My Contact Information
             <input type="hidden" name="OLD2903911" id="OLD2903911" value="N">
             <input type="checkbox" onclick="easyFieldExit(this)" tabindex="250" value="Y" id="ENTRY2903911" name="ENTRY2903911" size="1" title="Checking this box will prevent the system from sending you an e-mail with the automatically generated newsletter">
             <span class="entrypostscript">
-            
+
             </span>
           </td>
         </tr>
@@ -1122,7 +1122,7 @@ My Contact Information
             <input type="hidden" name="OLD4512611" id="OLD4512611" value="N">
             <input type="checkbox" onclick="easyFieldExit(this)" tabindex="260" value="Y" id="ENTRY4512611" name="ENTRY4512611" size="1" title="Check this box to prevent the system from sending you messages reminding you of upcoming events">
             <span class="entrypostscript">
-            
+
             </span>
           </td>
         </tr>
@@ -1140,7 +1140,7 @@ My Contact Information
             <input type="hidden" name="OLD4701511" id="OLD4701511" value="N">
             <input type="checkbox" onclick="easyFieldExit(this)" tabindex="270" value="Y" id="ENTRY4701511" name="ENTRY4701511" size="1" title="If you are the treasurer, use this option to stop the system from sending you email notifications of new requests for expense reimbursement">
             <span class="entrypostscript">
-            
+
             </span>
           </td>
         </tr>
@@ -1158,7 +1158,7 @@ My Contact Information
             <input type="hidden" name="OLD5673211" id="OLD5673211" value="N">
             <input type="checkbox" onclick="easyFieldExit(this)" tabindex="280" value="Y" id="ENTRY5673211" name="ENTRY5673211" size="1" title="Check this box to opt out of receiving email notifications when the signup status changes for members on an upcoming event">
             <span class="entrypostscript">
-            
+
             </span>
           </td>
         </tr>
@@ -1178,7 +1178,7 @@ My Contact Information
             <span style="white-space: nowrap;"><input type="radio" id="ENTRY2901058" name="ENTRY2901058" tabindex="290" onclick="easyFieldExit(this)" value="M">Male</span> &nbsp; <span style="white-space: nowrap;"><input type="radio" id="ENTRY2901058" name="ENTRY2901058" tabindex="290" onclick="easyFieldExit(this)" value="F">Female</span>
             </span>
             <span class="entrypostscript">
-            
+
             </span>
           </td>
         </tr>
@@ -1196,7 +1196,7 @@ My Contact Information
             <input type="hidden" name="OLD2899916" id="OLD2899916" value="">
             <input type="text" class="form-control" id="ENTRY2899916" name="ENTRY2899916" tabindex="300" size="12" onblur="TestRegExp(this,/^(((((0?[13578]|1[02])[\/-]31)|((0?[13-9]|1[0-2])[\/-](29|30)))[\/-](1[6-9]|[2-9]\d)?\d{2})|(0?2[\/-]29[\/-](((1[6-9]|[2-9]\d)?(0[48]|[2468][048]|[13579][26])|((16|[2468][048]|[3579][26])00))))|((0?[1-9])|(1[0-2]))[\/-](0?[1-9]|1\d|2[0-8])[\/-]((1[6-9]|[2-9]\d)?\d{2}))|(((1[6-9]|[2-9]\d)\d{2})[\/-](((0?[13578]|1[02])[\/-]31)|((0?[13-9]|1[0-2])[\/-](29|30)))|(((1[6-9]|[2-9]\d)(0[48]|[2468][048]|[13579][26])|((16|[2468][048]|[3579][26])00)))[\/-](0?2[\/-]29)|(((1[6-9]|[2-9]\d)\d{2}))[\/-]((0?[1-9])|(1[0-2]))[\/-](0?[1-9]|1\d|2[0-8]))$/,'Please enter a valid date.')" onfocus="FocusTestRegExp(this,/^(((((0?[13578]|1[02])[\/-]31)|((0?[13-9]|1[0-2])[\/-](29|30)))[\/-](1[6-9]|[2-9]\d)?\d{2})|(0?2[\/-]29[\/-](((1[6-9]|[2-9]\d)?(0[48]|[2468][048]|[13579][26])|((16|[2468][048]|[3579][26])00))))|((0?[1-9])|(1[0-2]))[\/-](0?[1-9]|1\d|2[0-8])[\/-]((1[6-9]|[2-9]\d)?\d{2}))|(((1[6-9]|[2-9]\d)\d{2})[\/-](((0?[13578]|1[02])[\/-]31)|((0?[13-9]|1[0-2])[\/-](29|30)))|(((1[6-9]|[2-9]\d)(0[48]|[2468][048]|[13579][26])|((16|[2468][048]|[3579][26])00)))[\/-](0?2[\/-]29)|(((1[6-9]|[2-9]\d)\d{2}))[\/-]((0?[1-9])|(1[0-2]))[\/-](0?[1-9]|1\d|2[0-8]))$/,'Please enter a valid date.')" maxlength="10" value="" title="This person's date of birth">&nbsp;<a href="#" tabindex="300" onclick="cal.select(window.easyform.ENTRY2899916,'ENTRY2899916X','MM/dd/yyyy', window.easyform.ENTRY2899916.value); return false;" name="ENTRY2899916X" id="ENTRY2899916X"><img src="images/calendar.gif" name="ENTRY2899916I" id="ENTRY2899916I"></a>
             <span class="entrypostscript">
-            
+
             </span>
           </td>
         </tr>
@@ -1224,7 +1224,7 @@ My Contact Information
               <option value="8">Adult 2XL</option>
             </select>
             <span class="entrypostscript">
-            
+
             </span>
           </td>
         </tr>
@@ -1243,7 +1243,7 @@ My Contact Information
             <input type="hidden" name="OLD2902425" id="OLD2902425" value="">
             <input type="text" class="form-control" id="ENTRY2902425" name="ENTRY2902425" tabindex="321" size="24" onblur="TestRegExp(this,'','')" maxlength="24" value="" title="First Name">
             <span class="entrypostscript">
-            
+
             </span>
             </span>
             <input type="hidden" name="RVALENTRY2902427" id="RVALENTRY2902427" value="N">
@@ -1251,7 +1251,7 @@ My Contact Information
             <input type="hidden" name="OLD2902427" id="OLD2902427" value="">
             <input type="text" class="form-control" id="ENTRY2902427" name="ENTRY2902427" tabindex="322" size="24" onblur="TestRegExp(this,'','')" maxlength="24" value="" title="Middle name">
             <span class="entrypostscript">
-            
+
             </span>
             </span>
             <input type="hidden" name="RVALENTRY2902428" id="RVALENTRY2902428" value="N">
@@ -1259,7 +1259,7 @@ My Contact Information
             <input type="hidden" name="OLD2902428" id="OLD2902428" value="">
             <input type="text" class="form-control" id="ENTRY2902428" name="ENTRY2902428" tabindex="323" size="30" onblur="TestRegExp(this,'','')" maxlength="30" value="" title="Last name">
             <span class="entrypostscript">
-            
+
             </span>
             </span>
             <input type="hidden" name="RVALENTRY2902451" id="RVALENTRY2902451" value="N">
@@ -1273,7 +1273,7 @@ My Contact Information
               <option value="IV">IV</option>
             </select>
             <span class="entrypostscript">
-            
+
             </span>
             </span>
           </td>
@@ -1292,7 +1292,7 @@ My Contact Information
             <input type="hidden" name="OLD290031" id="OLD290031" value="">
             <input type="text" class="form-control" id="ENTRY290031" name="ENTRY290031" tabindex="330" size="50" onblur="TestRegExp(this,'','')" maxlength="100" value="" title="Occupation of this member">
             <span class="entrypostscript">
-            
+
             </span>
           </td>
         </tr>
@@ -1310,7 +1310,7 @@ My Contact Information
             <input type="hidden" name="OLD290041" id="OLD290041" value="">
             <input type="text" class="form-control" id="ENTRY290041" name="ENTRY290041" tabindex="340" size="50" onblur="TestRegExp(this,'','')" maxlength="100" value="" title="Employer">
             <span class="entrypostscript">
-            
+
             </span>
           </td>
         </tr>
@@ -1329,7 +1329,7 @@ My Contact Information
             <input type="hidden" name="OLD2901129" id="OLD2901129" value="">
             <input type="text" class="form-control" id="ENTRY2901129" name="ENTRY2901129" tabindex="351" size="50" onblur="TestRegExp(this,'','')" maxlength="100" value="" title="Street address or P.O. Box">
             <span class="entrypostscript">
-            
+
             </span>
             </span>
             <input type="hidden" name="RVALENTRY2901130" id="RVALENTRY2901130" value="N">
@@ -1341,7 +1341,7 @@ My Contact Information
             <span class="RequiredIndicator" id="RDIVENTRY2901130" style="visibility: hidden">
             *
             </span>
-            
+
             </label>
           </td>
           <td class="text-left">
@@ -1349,7 +1349,7 @@ My Contact Information
             <input type="hidden" name="OLD2901130" id="OLD2901130" value="">
             <input type="text" class="form-control" id="ENTRY2901130" name="ENTRY2901130" tabindex="352" size="50" onblur="TestRegExp(this,'','')" maxlength="100" value="" title="Continuation of address information">
             <span class="entrypostscript">
-            
+
             </span>
             </span>
             <input type="hidden" name="RVALENTRY2901131" id="RVALENTRY2901131" value="N">
@@ -1434,7 +1434,7 @@ My Contact Information
               <option value="WY">Wyoming</option>
             </select>
             <span class="entrypostscript">
-            
+
             </span>
             </span>
             <input type="hidden" name="RVALENTRY2901133" id="RVALENTRY2901133" value="N">
@@ -1442,7 +1442,7 @@ My Contact Information
             <input type="hidden" name="OLD2901133" id="OLD2901133" value="">
             <input type="text" class="form-control" id="ENTRY2901133" name="ENTRY2901133" tabindex="355" size="10" onblur="TestRegExp(this,'','')" maxlength="10" value="" title="Zip code (postal code)">
             <span class="entrypostscript">
-            
+
             </span>
             </span>
             <input type="hidden" name="RVALENTRY2901134" id="RVALENTRY2901134" value="N">
@@ -1457,7 +1457,7 @@ My Contact Information
               <option value="USA">USA</option>
             </select>
             <span class="entrypostscript">
-            
+
             </span>
             </span>
           </td>
@@ -1476,7 +1476,7 @@ My Contact Information
             <input type="hidden" name="OLD2900552" id="OLD2900552" value="">
             <input type="text" class="form-control" id="ENTRY2900552" name="ENTRY2900552" tabindex="360" size="50" onblur="TestRegExp(this,'','')" maxlength="50" value="" title="Business phone">
             <span class="entrypostscript">
-            
+
             </span>
           </td>
         </tr>
@@ -1530,7 +1530,7 @@ My Contact Information
             <input type="hidden" name="OLD2900116" id="OLD2900116" value="">
             <input type="hidden" name="ENTRY2900116" id="ENTRY2900116" value="">
             <span class="text-left">
-            
+
             </span>
           </td>
         </tr>
@@ -1548,7 +1548,7 @@ My Contact Information
             <input type="hidden" name="OLD2900816" id="OLD2900816" value="">
             <input type="hidden" name="ENTRY2900816" id="ENTRY2900816" value="">
             <span class="text-left">
-            
+
             </span>
           </td>
         </tr>
@@ -1566,7 +1566,7 @@ My Contact Information
             <input type="hidden" name="OLD2904210" id="OLD2904210" value="">
             <textarea class="form-control" cols="50" rows="5" tabindex="410" onblur="TestRegExp(this,'','')" id="ENTRY2904210" name="ENTRY2904210" wrap="virtual" title="Prior experience relevant to this group"></textarea>
             <span class="entrypostscript">
-            
+
             </span>
           </td>
         </tr>
@@ -1584,7 +1584,7 @@ My Contact Information
             <input type="hidden" name="OLD2901510" id="OLD2901510" value="">
             <textarea class="form-control" cols="50" rows="5" tabindex="420" onblur="TestRegExp(this,'','')" id="ENTRY2901510" name="ENTRY2901510" wrap="virtual" title="A brief biography of this person that is suitable for display on the public web site.  This will be displayed on the leadership page of the public web site."></textarea>
             <span class="entrypostscript">
-            
+
             </span>
           </td>
         </tr>
@@ -1602,7 +1602,7 @@ My Contact Information
             <input type="hidden" name="OLD3825111" id="OLD3825111" value="N">
             <input type="checkbox" onclick="easyFieldExit(this)" tabindex="430" value="Y" id="ENTRY3825111" name="ENTRY3825111" size="1" title="Don't include this member on the public page that shows the leaders of this group">
             <span class="entrypostscript">
-            
+
             </span>
           </td>
         </tr>
@@ -1620,7 +1620,7 @@ My Contact Information
             <input type="hidden" name="OLD2902616" id="OLD2902616" value="">
             <input type="text" class="form-control" id="ENTRY2902616" name="ENTRY2902616" tabindex="440" size="12" onblur="TestRegExp(this,/^(((((0?[13578]|1[02])[\/-]31)|((0?[13-9]|1[0-2])[\/-](29|30)))[\/-](1[6-9]|[2-9]\d)?\d{2})|(0?2[\/-]29[\/-](((1[6-9]|[2-9]\d)?(0[48]|[2468][048]|[13579][26])|((16|[2468][048]|[3579][26])00))))|((0?[1-9])|(1[0-2]))[\/-](0?[1-9]|1\d|2[0-8])[\/-]((1[6-9]|[2-9]\d)?\d{2}))|(((1[6-9]|[2-9]\d)\d{2})[\/-](((0?[13578]|1[02])[\/-]31)|((0?[13-9]|1[0-2])[\/-](29|30)))|(((1[6-9]|[2-9]\d)(0[48]|[2468][048]|[13579][26])|((16|[2468][048]|[3579][26])00)))[\/-](0?2[\/-]29)|(((1[6-9]|[2-9]\d)\d{2}))[\/-]((0?[1-9])|(1[0-2]))[\/-](0?[1-9]|1\d|2[0-8]))$/,'Please enter a valid date.')" onfocus="FocusTestRegExp(this,/^(((((0?[13578]|1[02])[\/-]31)|((0?[13-9]|1[0-2])[\/-](29|30)))[\/-](1[6-9]|[2-9]\d)?\d{2})|(0?2[\/-]29[\/-](((1[6-9]|[2-9]\d)?(0[48]|[2468][048]|[13579][26])|((16|[2468][048]|[3579][26])00))))|((0?[1-9])|(1[0-2]))[\/-](0?[1-9]|1\d|2[0-8])[\/-]((1[6-9]|[2-9]\d)?\d{2}))|(((1[6-9]|[2-9]\d)\d{2})[\/-](((0?[13578]|1[02])[\/-]31)|((0?[13-9]|1[0-2])[\/-](29|30)))|(((1[6-9]|[2-9]\d)(0[48]|[2468][048]|[13579][26])|((16|[2468][048]|[3579][26])00)))[\/-](0?2[\/-]29)|(((1[6-9]|[2-9]\d)\d{2}))[\/-]((0?[1-9])|(1[0-2]))[\/-](0?[1-9]|1\d|2[0-8]))$/,'Please enter a valid date.')" maxlength="10" value="" title="The effective date of this person's medical form">&nbsp;<a href="#" tabindex="440" onclick="cal.select(window.easyform.ENTRY2902616,'ENTRY2902616X','MM/dd/yyyy', window.easyform.ENTRY2902616.value); return false;" name="ENTRY2902616X" id="ENTRY2902616X"><img src="images/calendar.gif" name="ENTRY2902616I" id="ENTRY2902616I"></a>
             <span class="entrypostscript">
-            
+
             </span>
           </td>
         </tr>
@@ -1638,7 +1638,7 @@ My Contact Information
             <input type="hidden" name="OLD290271" id="OLD290271" value="">
             <input type="text" class="form-control" id="ENTRY290271" name="ENTRY290271" tabindex="450" size="50" onblur="TestRegExp(this,'','')" maxlength="100" value="" title="The health insurance company and policy for this individual">
             <span class="entrypostscript">
-            
+
             </span>
           </td>
         </tr>
@@ -1656,7 +1656,7 @@ My Contact Information
             <input type="hidden" name="OLD29028149" id="OLD29028149" value="">
             <input type="text" class="form-control" id="ENTRY29028149" name="ENTRY29028149" tabindex="460" size="50" onblur="TestRegExp(this,'','')" maxlength="256" value="" title="Allergies">
             <span class="entrypostscript">
-            
+
             </span>
           </td>
         </tr>
@@ -1674,7 +1674,7 @@ My Contact Information
             <input type="hidden" name="OLD54542149" id="OLD54542149" value="">
             <input type="text" class="form-control" id="ENTRY54542149" name="ENTRY54542149" tabindex="470" size="50" onblur="TestRegExp(this,'','')" maxlength="256" value="" title="">
             <span class="entrypostscript">
-            
+
             </span>
           </td>
         </tr>
@@ -1693,7 +1693,7 @@ My Contact Information
             <input type="hidden" name="OLD2900955" id="OLD2900955" value="">
             <input type="text" class="form-control" id="ENTRY2900955" name="ENTRY2900955" tabindex="481" size="30" onblur="TestRegExp(this,'','')" maxlength="30" value="" title="The drivers license number for this driver">
             <span class="entrypostscript">
-            
+
             </span>
             </span>
             <input type="hidden" name="RVALENTRY2900956" id="RVALENTRY2900956" value="N">
@@ -1758,7 +1758,7 @@ My Contact Information
               <option value="WY">Wyoming</option>
             </select>
             <span class="entrypostscript">
-            
+
             </span>
             </span>
             <input type="hidden" name="RVALENTRY2900957" id="RVALENTRY2900957" value="N">
@@ -1766,7 +1766,7 @@ My Contact Information
             <input type="hidden" name="OLD2900957" id="OLD2900957" value="">
             <input type="text" class="form-control" id="ENTRY2900957" name="ENTRY2900957" tabindex="483" size="12" onblur="TestRegExp(this,/^(((((0?[13578]|1[02])[\/-]31)|((0?[13-9]|1[0-2])[\/-](29|30)))[\/-](1[6-9]|[2-9]\d)?\d{2})|(0?2[\/-]29[\/-](((1[6-9]|[2-9]\d)?(0[48]|[2468][048]|[13579][26])|((16|[2468][048]|[3579][26])00))))|((0?[1-9])|(1[0-2]))[\/-](0?[1-9]|1\d|2[0-8])[\/-]((1[6-9]|[2-9]\d)?\d{2}))|(((1[6-9]|[2-9]\d)\d{2})[\/-](((0?[13578]|1[02])[\/-]31)|((0?[13-9]|1[0-2])[\/-](29|30)))|(((1[6-9]|[2-9]\d)(0[48]|[2468][048]|[13579][26])|((16|[2468][048]|[3579][26])00)))[\/-](0?2[\/-]29)|(((1[6-9]|[2-9]\d)\d{2}))[\/-]((0?[1-9])|(1[0-2]))[\/-](0?[1-9]|1\d|2[0-8]))$/,'Please enter a valid date')" onfocus="FocusTestRegExp(this,/^(((((0?[13578]|1[02])[\/-]31)|((0?[13-9]|1[0-2])[\/-](29|30)))[\/-](1[6-9]|[2-9]\d)?\d{2})|(0?2[\/-]29[\/-](((1[6-9]|[2-9]\d)?(0[48]|[2468][048]|[13579][26])|((16|[2468][048]|[3579][26])00))))|((0?[1-9])|(1[0-2]))[\/-](0?[1-9]|1\d|2[0-8])[\/-]((1[6-9]|[2-9]\d)?\d{2}))|(((1[6-9]|[2-9]\d)\d{2})[\/-](((0?[13578]|1[02])[\/-]31)|((0?[13-9]|1[0-2])[\/-](29|30)))|(((1[6-9]|[2-9]\d)(0[48]|[2468][048]|[13579][26])|((16|[2468][048]|[3579][26])00)))[\/-](0?2[\/-]29)|(((1[6-9]|[2-9]\d)\d{2}))[\/-]((0?[1-9])|(1[0-2]))[\/-](0?[1-9]|1\d|2[0-8]))$/,'Please enter a valid date')" maxlength="10" value="" title="The expiration date for this license">&nbsp;<a href="#" tabindex="483" onclick="cal.select(window.easyform.ENTRY2900957,'ENTRY2900957X','MM/dd/yyyy', window.easyform.ENTRY2900957.value); return false;" name="ENTRY2900957X" id="ENTRY2900957X"><img src="images/calendar.gif" name="ENTRY2900957I" id="ENTRY2900957I"></a>
             <span class="entrypostscript">
-            
+
             </span>
             </span>
           </td>
@@ -1791,7 +1791,7 @@ My Contact Information
             <input type="hidden" name="OLD290161" id="OLD290161" value="">
             <input type="text" class="form-control" id="ENTRY290161" name="ENTRY290161" tabindex="490" size="50" onblur="TestRegExp(this,'','')" maxlength="100" value="" title="The make and model of the vehicle you would most likely use to transport members to an event.">
             <span class="entrypostscript">
-            
+
             </span>
           </td>
         </tr>
@@ -1809,7 +1809,7 @@ My Contact Information
             <input type="hidden" name="OLD290321" id="OLD290321" value="">
             <input type="text" class="form-control" id="ENTRY290321" name="ENTRY290321" tabindex="500" size="50" onblur="TestRegExp(this,'','')" maxlength="100" value="" title="The license plate for this vehicle">
             <span class="entrypostscript">
-            
+
             </span>
           </td>
         </tr>
@@ -1827,7 +1827,7 @@ My Contact Information
             <input type="hidden" name="OLD290171" id="OLD290171" value="">
             <input type="text" class="form-control" id="ENTRY290171" name="ENTRY290171" tabindex="510" size="50" onblur="TestRegExp(this,'','')" maxlength="100" value="" title="The dollar amount of public liability insurance per person currently in force on the vehcile that you would use to transport members to an event.">
             <span class="entrypostscript">
-            
+
             </span>
           </td>
         </tr>
@@ -1845,7 +1845,7 @@ My Contact Information
             <input type="hidden" name="OLD290181" id="OLD290181" value="">
             <input type="text" class="form-control" id="ENTRY290181" name="ENTRY290181" tabindex="520" size="50" onblur="TestRegExp(this,'','')" maxlength="100" value="" title="The dollar amount of public liability insurance per accident currently in force on the vehcile that you would use to transport members to an event.">
             <span class="entrypostscript">
-            
+
             </span>
           </td>
         </tr>
@@ -1863,7 +1863,7 @@ My Contact Information
             <input type="hidden" name="OLD290191" id="OLD290191" value="">
             <input type="text" class="form-control" id="ENTRY290191" name="ENTRY290191" tabindex="530" size="50" onblur="TestRegExp(this,'','')" maxlength="100" value="" title="The dollar amount of public liability insurance for property damage currently in force on the vehcile that you would use to transport members to an event.">
             <span class="entrypostscript">
-            
+
             </span>
           </td>
         </tr>
@@ -1881,7 +1881,7 @@ My Contact Information
             <input type="hidden" name="OLD290315" id="OLD290315" value="">
             <input type="text" class="form-control" id="ENTRY290315" name="ENTRY290315" tabindex="540" size="7" onblur="TestRegExp(this,/^[+-]?\d\d*$/,'This field will only accept positive numbers with no decimal points or commas.')" maxlength="7" value="" title="The number of seat belts in this vehicle">
             <span class="entrypostscript">
-            
+
             </span>
           </td>
         </tr>
@@ -1899,7 +1899,7 @@ My Contact Information
             <input type="hidden" name="OLD2903311" id="OLD2903311" value="N">
             <input type="checkbox" onclick="easyFieldExit(this)" tabindex="550" value="Y" id="ENTRY2903311" name="ENTRY2903311" size="1" title="Indicates whether this vehicle has a trailer hitch">
             <span class="entrypostscript">
-            
+
             </span>
           </td>
         </tr>
@@ -1923,7 +1923,7 @@ My Contact Information
             <input type="hidden" name="OLD290351" id="OLD290351" value="">
             <input type="text" class="form-control" id="ENTRY290351" name="ENTRY290351" tabindex="560" size="50" onblur="TestRegExp(this,'','')" maxlength="100" value="" title="The name of an emergency contact for this individual">
             <span class="entrypostscript">
-            
+
             </span>
           </td>
         </tr>
@@ -1941,7 +1941,7 @@ My Contact Information
             <input type="hidden" name="OLD2903692" id="OLD2903692" value="">
             <input type="text" class="form-control" id="ENTRY2903692" name="ENTRY2903692" tabindex="570" size="50" onblur="TestRegExp(this,'','')" maxlength="50" value="" title="The telephone number for this emergency contact">
             <span class="entrypostscript">
-            
+
             </span>
           </td>
         </tr>
@@ -1959,7 +1959,7 @@ My Contact Information
             <input type="hidden" name="OLD290371" id="OLD290371" value="">
             <input type="text" class="form-control" id="ENTRY290371" name="ENTRY290371" tabindex="580" size="50" onblur="TestRegExp(this,'','')" maxlength="100" value="" title="The name of a second emergency contact for this individual">
             <span class="entrypostscript">
-            
+
             </span>
           </td>
         </tr>
@@ -1977,7 +1977,7 @@ My Contact Information
             <input type="hidden" name="OLD2903892" id="OLD2903892" value="">
             <input type="text" class="form-control" id="ENTRY2903892" name="ENTRY2903892" tabindex="590" size="50" onblur="TestRegExp(this,'','')" maxlength="50" value="" title="The telephone number for a second emergency contact for this individual">
             <span class="entrypostscript">
-            
+
             </span>
           </td>
         </tr>
@@ -2007,7 +2007,7 @@ My Contact Information
             <input type="hidden" name="OLD4979611" id="OLD4979611" value="N">
             <input type="checkbox" onclick="easyFieldExit(this)" tabindex="600" value="Y" id="ENTRY4979611" name="ENTRY4979611" size="1" title="Check this box to opt out of receiving the monthly newsletter email notification from our website hosting company, Web Host Services.">
             <span class="entrypostscript">
-            
+
             </span>
           </td>
         </tr>
@@ -2025,7 +2025,7 @@ My Contact Information
             <input type="hidden" name="OLD4979811" id="OLD4979811" value="N">
             <input type="checkbox" onclick="easyFieldExit(this)" tabindex="610" value="Y" id="ENTRY4979811" name="ENTRY4979811" size="1" title="Check this box if you do not want to receive email reminders from our hosting service when our website subscription is up for renewal">
             <span class="entrypostscript">
-            
+
             </span>
           </td>
         </tr>
