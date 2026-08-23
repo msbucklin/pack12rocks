@@ -2,14 +2,6 @@
   box-sizing: border-box;
 }
 
-img,
-iframe,
-svg,
-video,
-table {
-  max-width: 100%;
-}
-
 body {
   background-color: #fff;
 }
@@ -5513,7 +5505,7 @@ body:has(#fs16590) {
     display: none !important;
   }
 }
-.new-row > .container-fluid.container-flex {
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex {
   display: flex !important;
   flex-wrap: wrap !important;
   align-items: stretch !important;
@@ -5523,20 +5515,19 @@ body:has(#fs16590) {
   max-width: 100% !important;
   margin: 0 auto !important;
 }
-
-.new-row > .container-fluid.container-flex > .center-block.widget39,
-.new-row > .container-fluid.container-flex > .center-block.widget40,
-.new-row > .container-fluid.container-flex > .center-block.widget42,
-.new-row > .container-fluid.container-flex > .center-block.widget43,
-.new-row > .container-fluid.container-flex > .center-block.widget44,
-.new-row > .container-fluid.container-flex > .center-block.widget45,
-.new-row > .container-fluid.container-flex > .center-block.widget46,
-.new-row > .container-fluid.container-flex > .center-block.widget47,
-.new-row > .container-fluid.container-flex > .center-block.widget48,
-.new-row > .container-fluid.container-flex > .center-block.widget49,
-.new-row > .container-fluid.container-flex > .center-block.widget51,
-.new-row > .container-fluid.container-flex > .center-block.widget53,
-.new-row > .container-fluid.container-flex > .center-block.widget54 {
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget39,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget40,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget42,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget43,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget44,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget45,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget46,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget47,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget48,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget49,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget51,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget53,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget54 {
   min-width: 0 !important;
   margin: 0 !important;
   background: transparent;
@@ -5544,128 +5535,124 @@ body:has(#fs16590) {
   box-shadow: none;
 }
 @media (max-width: 767px) {
-  .new-row > .container-fluid.container-flex > .center-block.widget39,
-  .new-row > .container-fluid.container-flex > .center-block.widget40,
-  .new-row > .container-fluid.container-flex > .center-block.widget42,
-  .new-row > .container-fluid.container-flex > .center-block.widget43,
-  .new-row > .container-fluid.container-flex > .center-block.widget44,
-  .new-row > .container-fluid.container-flex > .center-block.widget45,
-  .new-row > .container-fluid.container-flex > .center-block.widget46,
-  .new-row > .container-fluid.container-flex > .center-block.widget47,
-  .new-row > .container-fluid.container-flex > .center-block.widget48,
-  .new-row > .container-fluid.container-flex > .center-block.widget49,
-  .new-row > .container-fluid.container-flex > .center-block.widget51,
-  .new-row > .container-fluid.container-flex > .center-block.widget53,
-  .new-row > .container-fluid.container-flex > .center-block.widget54 {
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget39,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget40,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget42,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget43,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget44,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget45,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget46,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget47,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget48,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget49,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget51,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget53,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget54 {
     margin-bottom: 20px !important;
   }
 }
-
-.new-row > .container-fluid.container-flex > .center-block.widget39,
-.new-row > .container-fluid.container-flex > .center-block.widget40,
-.new-row > .container-fluid.container-flex > .center-block.widget42,
-.new-row > .container-fluid.container-flex > .center-block.widget43,
-.new-row > .container-fluid.container-flex > .center-block.widget44,
-.new-row > .container-fluid.container-flex > .center-block.widget45,
-.new-row > .container-fluid.container-flex > .center-block.widget46,
-.new-row > .container-fluid.container-flex > .center-block.widget47,
-.new-row > .container-fluid.container-flex > .center-block.widget48,
-.new-row > .container-fluid.container-flex > .center-block.widget49 {
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget39,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget40,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget42,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget43,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget44,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget45,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget46,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget47,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget48,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget49 {
   flex: 1 1 100% !important;
   max-width: 100% !important;
   width: 100% !important;
 }
-
-.new-row > .container-fluid.container-flex > .center-block.widget39,
-.new-row > .container-fluid.container-flex > .center-block.widget40,
-.new-row > .container-fluid.container-flex > .center-block.widget46,
-.new-row > .container-fluid.container-flex > .center-block.widget47,
-.new-row > .container-fluid.container-flex > .center-block.widget48,
-.new-row > .container-fluid.container-flex > .center-block.widget49 {
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget39,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget40,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget46,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget47,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget48,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget49 {
   flex: 1 1 calc(40% - 10px) !important;
   width: calc(40% - 10px) !important;
 }
-
-.new-row > .container-fluid.container-flex > .center-block.widget51,
-.new-row > .container-fluid.container-flex > .center-block.widget53,
-.new-row > .container-fluid.container-flex > .center-block.widget54 {
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget51,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget53,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget54 {
   flex: 1 1 calc(29% - 14px) !important;
   width: calc(29% - 14px) !important;
 }
-
 @media (max-width: 767px) {
-  .new-row > .container-fluid.container-flex > .center-block.widget39,
-  .new-row > .container-fluid.container-flex > .center-block.widget40,
-  .new-row > .container-fluid.container-flex > .center-block.widget46,
-  .new-row > .container-fluid.container-flex > .center-block.widget47,
-  .new-row > .container-fluid.container-flex > .center-block.widget48,
-  .new-row > .container-fluid.container-flex > .center-block.widget49,
-  .new-row > .container-fluid.container-flex > .center-block.widget51,
-  .new-row > .container-fluid.container-flex > .center-block.widget53,
-  .new-row > .container-fluid.container-flex > .center-block.widget54 {
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget39,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget40,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget46,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget47,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget48,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget49,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget51,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget53,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget54 {
     flex: 0 0 auto !important;
     width: auto !important;
     max-width: none !important;
   }
-  .new-row > .container-fluid.container-flex > .center-block.widget39 table,
-  .new-row > .container-fluid.container-flex > .center-block.widget40 table,
-  .new-row > .container-fluid.container-flex > .center-block.widget42 table,
-  .new-row > .container-fluid.container-flex > .center-block.widget43 table,
-  .new-row > .container-fluid.container-flex > .center-block.widget44 table,
-  .new-row > .container-fluid.container-flex > .center-block.widget45 table,
-  .new-row > .container-fluid.container-flex > .center-block.widget46 table,
-  .new-row > .container-fluid.container-flex > .center-block.widget47 table,
-  .new-row > .container-fluid.container-flex > .center-block.widget48 table,
-  .new-row > .container-fluid.container-flex > .center-block.widget49 table,
-  .new-row > .container-fluid.container-flex > .center-block.widget51 table,
-  .new-row > .container-fluid.container-flex > .center-block.widget53 table,
-  .new-row > .container-fluid.container-flex > .center-block.widget54 table {
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget39 table,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget40 table,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget42 table,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget43 table,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget44 table,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget45 table,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget46 table,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget47 table,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget48 table,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget49 table,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget51 table,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget53 table,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget54 table {
     width: auto !important;
     table-layout: auto !important;
   }
-  .new-row > .container-fluid.container-flex > .center-block.widget39 td:nth-child(1),
-  .new-row > .container-fluid.container-flex > .center-block.widget39 td:nth-child(2),
-  .new-row > .container-fluid.container-flex > .center-block.widget40 td:nth-child(1),
-  .new-row > .container-fluid.container-flex > .center-block.widget40 td:nth-child(2),
-  .new-row > .container-fluid.container-flex > .center-block.widget42 td:nth-child(1),
-  .new-row > .container-fluid.container-flex > .center-block.widget42 td:nth-child(2),
-  .new-row > .container-fluid.container-flex > .center-block.widget43 td:nth-child(1),
-  .new-row > .container-fluid.container-flex > .center-block.widget43 td:nth-child(2),
-  .new-row > .container-fluid.container-flex > .center-block.widget44 td:nth-child(1),
-  .new-row > .container-fluid.container-flex > .center-block.widget44 td:nth-child(2),
-  .new-row > .container-fluid.container-flex > .center-block.widget45 td:nth-child(1),
-  .new-row > .container-fluid.container-flex > .center-block.widget45 td:nth-child(2),
-  .new-row > .container-fluid.container-flex > .center-block.widget46 td:nth-child(1),
-  .new-row > .container-fluid.container-flex > .center-block.widget46 td:nth-child(2),
-  .new-row > .container-fluid.container-flex > .center-block.widget47 td:nth-child(1),
-  .new-row > .container-fluid.container-flex > .center-block.widget47 td:nth-child(2),
-  .new-row > .container-fluid.container-flex > .center-block.widget48 td:nth-child(1),
-  .new-row > .container-fluid.container-flex > .center-block.widget48 td:nth-child(2),
-  .new-row > .container-fluid.container-flex > .center-block.widget49 td:nth-child(1),
-  .new-row > .container-fluid.container-flex > .center-block.widget49 td:nth-child(2),
-  .new-row > .container-fluid.container-flex > .center-block.widget51 td:nth-child(1),
-  .new-row > .container-fluid.container-flex > .center-block.widget51 td:nth-child(2),
-  .new-row > .container-fluid.container-flex > .center-block.widget53 td:nth-child(1),
-  .new-row > .container-fluid.container-flex > .center-block.widget53 td:nth-child(2),
-  .new-row > .container-fluid.container-flex > .center-block.widget54 td:nth-child(1),
-  .new-row > .container-fluid.container-flex > .center-block.widget54 td:nth-child(2) {
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget39 td:nth-child(1),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget39 td:nth-child(2),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget40 td:nth-child(1),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget40 td:nth-child(2),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget42 td:nth-child(1),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget42 td:nth-child(2),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget43 td:nth-child(1),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget43 td:nth-child(2),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget44 td:nth-child(1),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget44 td:nth-child(2),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget45 td:nth-child(1),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget45 td:nth-child(2),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget46 td:nth-child(1),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget46 td:nth-child(2),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget47 td:nth-child(1),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget47 td:nth-child(2),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget48 td:nth-child(1),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget48 td:nth-child(2),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget49 td:nth-child(1),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget49 td:nth-child(2),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget51 td:nth-child(1),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget51 td:nth-child(2),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget53 td:nth-child(1),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget53 td:nth-child(2),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget54 td:nth-child(1),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget54 td:nth-child(2) {
     width: 1% !important;
     white-space: nowrap;
   }
 }
-.new-row > .container-fluid.container-flex > .center-block.widget39 > div[style*="display: inline-block"],
-.new-row > .container-fluid.container-flex > .center-block.widget40 > div[style*="display: inline-block"],
-.new-row > .container-fluid.container-flex > .center-block.widget42 > div[style*="display: inline-block"],
-.new-row > .container-fluid.container-flex > .center-block.widget43 > div[style*="display: inline-block"],
-.new-row > .container-fluid.container-flex > .center-block.widget44 > div[style*="display: inline-block"],
-.new-row > .container-fluid.container-flex > .center-block.widget45 > div[style*="display: inline-block"],
-.new-row > .container-fluid.container-flex > .center-block.widget46 > div[style*="display: inline-block"],
-.new-row > .container-fluid.container-flex > .center-block.widget47 > div[style*="display: inline-block"],
-.new-row > .container-fluid.container-flex > .center-block.widget48 > div[style*="display: inline-block"],
-.new-row > .container-fluid.container-flex > .center-block.widget49 > div[style*="display: inline-block"],
-.new-row > .container-fluid.container-flex > .center-block.widget51 > div[style*="display: inline-block"],
-.new-row > .container-fluid.container-flex > .center-block.widget53 > div[style*="display: inline-block"],
-.new-row > .container-fluid.container-flex > .center-block.widget54 > div[style*="display: inline-block"] {
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget39 > div[style*="display: inline-block"],
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget40 > div[style*="display: inline-block"],
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget42 > div[style*="display: inline-block"],
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget43 > div[style*="display: inline-block"],
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget44 > div[style*="display: inline-block"],
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget45 > div[style*="display: inline-block"],
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget46 > div[style*="display: inline-block"],
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget47 > div[style*="display: inline-block"],
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget48 > div[style*="display: inline-block"],
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget49 > div[style*="display: inline-block"],
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget51 > div[style*="display: inline-block"],
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget53 > div[style*="display: inline-block"],
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget54 > div[style*="display: inline-block"] {
   display: block !important;
   margin: 0 !important;
   width: 100% !important;
@@ -5675,60 +5662,57 @@ body:has(#fs16590) {
   border-radius: 16px;
   box-shadow: 0 10px 28px rgba(11, 25, 40, 0.08);
 }
-
-.new-row > .container-fluid.container-flex > .center-block.widget39 .scrollingdiv,
-.new-row > .container-fluid.container-flex > .center-block.widget40 .scrollingdiv,
-.new-row > .container-fluid.container-flex > .center-block.widget42 .scrollingdiv,
-.new-row > .container-fluid.container-flex > .center-block.widget43 .scrollingdiv,
-.new-row > .container-fluid.container-flex > .center-block.widget44 .scrollingdiv,
-.new-row > .container-fluid.container-flex > .center-block.widget45 .scrollingdiv,
-.new-row > .container-fluid.container-flex > .center-block.widget46 .scrollingdiv,
-.new-row > .container-fluid.container-flex > .center-block.widget47 .scrollingdiv,
-.new-row > .container-fluid.container-flex > .center-block.widget48 .scrollingdiv,
-.new-row > .container-fluid.container-flex > .center-block.widget49 .scrollingdiv,
-.new-row > .container-fluid.container-flex > .center-block.widget51 .scrollingdiv,
-.new-row > .container-fluid.container-flex > .center-block.widget53 .scrollingdiv,
-.new-row > .container-fluid.container-flex > .center-block.widget54 .scrollingdiv {
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget39 .scrollingdiv,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget40 .scrollingdiv,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget42 .scrollingdiv,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget43 .scrollingdiv,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget44 .scrollingdiv,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget45 .scrollingdiv,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget46 .scrollingdiv,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget47 .scrollingdiv,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget48 .scrollingdiv,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget49 .scrollingdiv,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget51 .scrollingdiv,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget53 .scrollingdiv,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget54 .scrollingdiv {
   height: 250px !important;
   overflow-y: auto !important;
   border: 0 !important;
   background: transparent !important;
   border-radius: 10px;
 }
-
-.new-row > .container-fluid.container-flex > .center-block.widget39 table,
-.new-row > .container-fluid.container-flex > .center-block.widget40 table,
-.new-row > .container-fluid.container-flex > .center-block.widget42 table,
-.new-row > .container-fluid.container-flex > .center-block.widget43 table,
-.new-row > .container-fluid.container-flex > .center-block.widget44 table,
-.new-row > .container-fluid.container-flex > .center-block.widget45 table,
-.new-row > .container-fluid.container-flex > .center-block.widget46 table,
-.new-row > .container-fluid.container-flex > .center-block.widget47 table,
-.new-row > .container-fluid.container-flex > .center-block.widget48 table,
-.new-row > .container-fluid.container-flex > .center-block.widget49 table,
-.new-row > .container-fluid.container-flex > .center-block.widget51 table,
-.new-row > .container-fluid.container-flex > .center-block.widget53 table,
-.new-row > .container-fluid.container-flex > .center-block.widget54 table {
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget39 table,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget40 table,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget42 table,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget43 table,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget44 table,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget45 table,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget46 table,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget47 table,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget48 table,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget49 table,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget51 table,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget53 table,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget54 table {
   width: 100% !important;
   border-collapse: separate;
   border-spacing: 0;
   background: #fff;
   box-shadow: none;
 }
-
-.new-row > .container-fluid.container-flex > .center-block.widget39 thead th,
-.new-row > .container-fluid.container-flex > .center-block.widget40 thead th,
-.new-row > .container-fluid.container-flex > .center-block.widget42 thead th,
-.new-row > .container-fluid.container-flex > .center-block.widget43 thead th,
-.new-row > .container-fluid.container-flex > .center-block.widget44 thead th,
-.new-row > .container-fluid.container-flex > .center-block.widget45 thead th,
-.new-row > .container-fluid.container-flex > .center-block.widget46 thead th,
-.new-row > .container-fluid.container-flex > .center-block.widget47 thead th,
-.new-row > .container-fluid.container-flex > .center-block.widget48 thead th,
-.new-row > .container-fluid.container-flex > .center-block.widget49 thead th,
-.new-row > .container-fluid.container-flex > .center-block.widget51 thead th,
-.new-row > .container-fluid.container-flex > .center-block.widget53 thead th,
-.new-row > .container-fluid.container-flex > .center-block.widget54 thead th {
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget39 thead th,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget40 thead th,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget42 thead th,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget43 thead th,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget44 thead th,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget45 thead th,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget46 thead th,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget47 thead th,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget48 thead th,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget49 thead th,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget51 thead th,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget53 thead th,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget54 thead th {
   background: #eef3fa;
   color: #0b3b76;
   border-bottom: 1px solid rgba(13, 59, 114, 0.12);
@@ -5738,72 +5722,68 @@ body:has(#fs16590) {
   text-transform: uppercase;
   padding: 9px 8px;
 }
-
-.new-row > .container-fluid.container-flex > .center-block.widget39 tbody tr:nth-child(even),
-.new-row > .container-fluid.container-flex > .center-block.widget40 tbody tr:nth-child(even),
-.new-row > .container-fluid.container-flex > .center-block.widget42 tbody tr:nth-child(even),
-.new-row > .container-fluid.container-flex > .center-block.widget43 tbody tr:nth-child(even),
-.new-row > .container-fluid.container-flex > .center-block.widget44 tbody tr:nth-child(even),
-.new-row > .container-fluid.container-flex > .center-block.widget45 tbody tr:nth-child(even),
-.new-row > .container-fluid.container-flex > .center-block.widget46 tbody tr:nth-child(even),
-.new-row > .container-fluid.container-flex > .center-block.widget47 tbody tr:nth-child(even),
-.new-row > .container-fluid.container-flex > .center-block.widget48 tbody tr:nth-child(even),
-.new-row > .container-fluid.container-flex > .center-block.widget49 tbody tr:nth-child(even),
-.new-row > .container-fluid.container-flex > .center-block.widget51 tbody tr:nth-child(even),
-.new-row > .container-fluid.container-flex > .center-block.widget53 tbody tr:nth-child(even),
-.new-row > .container-fluid.container-flex > .center-block.widget54 tbody tr:nth-child(even) {
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget39 tbody tr:nth-child(even),
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget40 tbody tr:nth-child(even),
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget42 tbody tr:nth-child(even),
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget43 tbody tr:nth-child(even),
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget44 tbody tr:nth-child(even),
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget45 tbody tr:nth-child(even),
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget46 tbody tr:nth-child(even),
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget47 tbody tr:nth-child(even),
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget48 tbody tr:nth-child(even),
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget49 tbody tr:nth-child(even),
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget51 tbody tr:nth-child(even),
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget53 tbody tr:nth-child(even),
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget54 tbody tr:nth-child(even) {
   background-color: #f2f5f9 !important;
 }
-
-.new-row > .container-fluid.container-flex > .center-block.widget39 tbody tr:nth-child(odd),
-.new-row > .container-fluid.container-flex > .center-block.widget40 tbody tr:nth-child(odd),
-.new-row > .container-fluid.container-flex > .center-block.widget42 tbody tr:nth-child(odd),
-.new-row > .container-fluid.container-flex > .center-block.widget43 tbody tr:nth-child(odd),
-.new-row > .container-fluid.container-flex > .center-block.widget44 tbody tr:nth-child(odd),
-.new-row > .container-fluid.container-flex > .center-block.widget45 tbody tr:nth-child(odd),
-.new-row > .container-fluid.container-flex > .center-block.widget46 tbody tr:nth-child(odd),
-.new-row > .container-fluid.container-flex > .center-block.widget47 tbody tr:nth-child(odd),
-.new-row > .container-fluid.container-flex > .center-block.widget48 tbody tr:nth-child(odd),
-.new-row > .container-fluid.container-flex > .center-block.widget49 tbody tr:nth-child(odd),
-.new-row > .container-fluid.container-flex > .center-block.widget51 tbody tr:nth-child(odd),
-.new-row > .container-fluid.container-flex > .center-block.widget53 tbody tr:nth-child(odd),
-.new-row > .container-fluid.container-flex > .center-block.widget54 tbody tr:nth-child(odd) {
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget39 tbody tr:nth-child(odd),
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget40 tbody tr:nth-child(odd),
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget42 tbody tr:nth-child(odd),
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget43 tbody tr:nth-child(odd),
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget44 tbody tr:nth-child(odd),
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget45 tbody tr:nth-child(odd),
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget46 tbody tr:nth-child(odd),
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget47 tbody tr:nth-child(odd),
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget48 tbody tr:nth-child(odd),
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget49 tbody tr:nth-child(odd),
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget51 tbody tr:nth-child(odd),
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget53 tbody tr:nth-child(odd),
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget54 tbody tr:nth-child(odd) {
   background-color: #ffffff !important;
 }
-
-.new-row > .container-fluid.container-flex > .center-block.widget39 td,
-.new-row > .container-fluid.container-flex > .center-block.widget40 td,
-.new-row > .container-fluid.container-flex > .center-block.widget42 td,
-.new-row > .container-fluid.container-flex > .center-block.widget43 td,
-.new-row > .container-fluid.container-flex > .center-block.widget44 td,
-.new-row > .container-fluid.container-flex > .center-block.widget45 td,
-.new-row > .container-fluid.container-flex > .center-block.widget46 td,
-.new-row > .container-fluid.container-flex > .center-block.widget47 td,
-.new-row > .container-fluid.container-flex > .center-block.widget48 td,
-.new-row > .container-fluid.container-flex > .center-block.widget49 td,
-.new-row > .container-fluid.container-flex > .center-block.widget51 td,
-.new-row > .container-fluid.container-flex > .center-block.widget53 td,
-.new-row > .container-fluid.container-flex > .center-block.widget54 td {
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget39 td,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget40 td,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget42 td,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget43 td,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget44 td,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget45 td,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget46 td,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget47 td,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget48 td,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget49 td,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget51 td,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget53 td,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget54 td {
   vertical-align: middle;
   padding: 7px 8px;
   border: 0;
   font-size: 13px;
   color: #0d3b72;
 }
-
-.new-row > .container-fluid.container-flex > .center-block.widget39 h3,
-.new-row > .container-fluid.container-flex > .center-block.widget40 h3,
-.new-row > .container-fluid.container-flex > .center-block.widget42 h3,
-.new-row > .container-fluid.container-flex > .center-block.widget43 h3,
-.new-row > .container-fluid.container-flex > .center-block.widget44 h3,
-.new-row > .container-fluid.container-flex > .center-block.widget45 h3,
-.new-row > .container-fluid.container-flex > .center-block.widget46 h3,
-.new-row > .container-fluid.container-flex > .center-block.widget47 h3,
-.new-row > .container-fluid.container-flex > .center-block.widget48 h3,
-.new-row > .container-fluid.container-flex > .center-block.widget49 h3,
-.new-row > .container-fluid.container-flex > .center-block.widget51 h3,
-.new-row > .container-fluid.container-flex > .center-block.widget53 h3,
-.new-row > .container-fluid.container-flex > .center-block.widget54 h3 {
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget39 h3,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget40 h3,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget42 h3,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget43 h3,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget44 h3,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget45 h3,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget46 h3,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget47 h3,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget48 h3,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget49 h3,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget51 h3,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget53 h3,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget54 h3 {
   margin: 0 0 10px !important;
   padding: 0 !important;
   font-size: 1.8rem;
@@ -5812,187 +5792,182 @@ body:has(#fs16590) {
   color: #0b3b76;
   text-align: left;
 }
-
-.new-row > .container-fluid.container-flex > .center-block.widget39 a,
-.new-row > .container-fluid.container-flex > .center-block.widget40 a,
-.new-row > .container-fluid.container-flex > .center-block.widget42 a,
-.new-row > .container-fluid.container-flex > .center-block.widget43 a,
-.new-row > .container-fluid.container-flex > .center-block.widget44 a,
-.new-row > .container-fluid.container-flex > .center-block.widget45 a,
-.new-row > .container-fluid.container-flex > .center-block.widget46 a,
-.new-row > .container-fluid.container-flex > .center-block.widget47 a,
-.new-row > .container-fluid.container-flex > .center-block.widget48 a,
-.new-row > .container-fluid.container-flex > .center-block.widget49 a,
-.new-row > .container-fluid.container-flex > .center-block.widget51 a,
-.new-row > .container-fluid.container-flex > .center-block.widget53 a,
-.new-row > .container-fluid.container-flex > .center-block.widget54 a {
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget39 a,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget40 a,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget42 a,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget43 a,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget44 a,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget45 a,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget46 a,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget47 a,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget48 a,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget49 a,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget51 a,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget53 a,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget54 a {
   color: #0d3b72;
 }
-
-.new-row > .container-fluid.container-flex > .center-block.widget39 a.widgetlink,
-.new-row > .container-fluid.container-flex > .center-block.widget40 a.widgetlink,
-.new-row > .container-fluid.container-flex > .center-block.widget42 a.widgetlink,
-.new-row > .container-fluid.container-flex > .center-block.widget43 a.widgetlink,
-.new-row > .container-fluid.container-flex > .center-block.widget44 a.widgetlink,
-.new-row > .container-fluid.container-flex > .center-block.widget45 a.widgetlink,
-.new-row > .container-fluid.container-flex > .center-block.widget46 a.widgetlink,
-.new-row > .container-fluid.container-flex > .center-block.widget47 a.widgetlink,
-.new-row > .container-fluid.container-flex > .center-block.widget48 a.widgetlink,
-.new-row > .container-fluid.container-flex > .center-block.widget49 a.widgetlink,
-.new-row > .container-fluid.container-flex > .center-block.widget51 a.widgetlink,
-.new-row > .container-fluid.container-flex > .center-block.widget53 a.widgetlink,
-.new-row > .container-fluid.container-flex > .center-block.widget54 a.widgetlink,
-.new-row > .container-fluid.container-flex > .center-block.widget39 a.widget-help-link,
-.new-row > .container-fluid.container-flex > .center-block.widget40 a.widget-help-link,
-.new-row > .container-fluid.container-flex > .center-block.widget42 a.widget-help-link,
-.new-row > .container-fluid.container-flex > .center-block.widget43 a.widget-help-link,
-.new-row > .container-fluid.container-flex > .center-block.widget44 a.widget-help-link,
-.new-row > .container-fluid.container-flex > .center-block.widget45 a.widget-help-link,
-.new-row > .container-fluid.container-flex > .center-block.widget46 a.widget-help-link,
-.new-row > .container-fluid.container-flex > .center-block.widget47 a.widget-help-link,
-.new-row > .container-fluid.container-flex > .center-block.widget48 a.widget-help-link,
-.new-row > .container-fluid.container-flex > .center-block.widget49 a.widget-help-link,
-.new-row > .container-fluid.container-flex > .center-block.widget51 a.widget-help-link,
-.new-row > .container-fluid.container-flex > .center-block.widget53 a.widget-help-link,
-.new-row > .container-fluid.container-flex > .center-block.widget54 a.widget-help-link {
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget39 a.widgetlink,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget40 a.widgetlink,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget42 a.widgetlink,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget43 a.widgetlink,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget44 a.widgetlink,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget45 a.widgetlink,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget46 a.widgetlink,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget47 a.widgetlink,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget48 a.widgetlink,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget49 a.widgetlink,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget51 a.widgetlink,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget53 a.widgetlink,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget54 a.widgetlink,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget39 a.widget-help-link,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget40 a.widget-help-link,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget42 a.widget-help-link,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget43 a.widget-help-link,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget44 a.widget-help-link,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget45 a.widget-help-link,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget46 a.widget-help-link,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget47 a.widget-help-link,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget48 a.widget-help-link,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget49 a.widget-help-link,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget51 a.widget-help-link,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget53 a.widget-help-link,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget54 a.widget-help-link {
   font-weight: 700;
 }
-
-.new-row > .container-fluid.container-flex > .center-block.widget39 .glyphicon,
-.new-row > .container-fluid.container-flex > .center-block.widget40 .glyphicon,
-.new-row > .container-fluid.container-flex > .center-block.widget42 .glyphicon,
-.new-row > .container-fluid.container-flex > .center-block.widget43 .glyphicon,
-.new-row > .container-fluid.container-flex > .center-block.widget44 .glyphicon,
-.new-row > .container-fluid.container-flex > .center-block.widget45 .glyphicon,
-.new-row > .container-fluid.container-flex > .center-block.widget46 .glyphicon,
-.new-row > .container-fluid.container-flex > .center-block.widget47 .glyphicon,
-.new-row > .container-fluid.container-flex > .center-block.widget48 .glyphicon,
-.new-row > .container-fluid.container-flex > .center-block.widget49 .glyphicon,
-.new-row > .container-fluid.container-flex > .center-block.widget51 .glyphicon,
-.new-row > .container-fluid.container-flex > .center-block.widget53 .glyphicon,
-.new-row > .container-fluid.container-flex > .center-block.widget54 .glyphicon {
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget39 .glyphicon,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget40 .glyphicon,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget42 .glyphicon,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget43 .glyphicon,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget44 .glyphicon,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget45 .glyphicon,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget46 .glyphicon,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget47 .glyphicon,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget48 .glyphicon,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget49 .glyphicon,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget51 .glyphicon,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget53 .glyphicon,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget54 .glyphicon {
   color: #0d3b72;
 }
-
-.new-row > .container-fluid.container-flex > .center-block.widget39 p[align=center],
-.new-row > .container-fluid.container-flex > .center-block.widget40 p[align=center],
-.new-row > .container-fluid.container-flex > .center-block.widget42 p[align=center],
-.new-row > .container-fluid.container-flex > .center-block.widget43 p[align=center],
-.new-row > .container-fluid.container-flex > .center-block.widget44 p[align=center],
-.new-row > .container-fluid.container-flex > .center-block.widget45 p[align=center],
-.new-row > .container-fluid.container-flex > .center-block.widget46 p[align=center],
-.new-row > .container-fluid.container-flex > .center-block.widget47 p[align=center],
-.new-row > .container-fluid.container-flex > .center-block.widget48 p[align=center],
-.new-row > .container-fluid.container-flex > .center-block.widget49 p[align=center],
-.new-row > .container-fluid.container-flex > .center-block.widget51 p[align=center],
-.new-row > .container-fluid.container-flex > .center-block.widget53 p[align=center],
-.new-row > .container-fluid.container-flex > .center-block.widget54 p[align=center] {
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget39 p[align=center],
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget40 p[align=center],
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget42 p[align=center],
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget43 p[align=center],
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget44 p[align=center],
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget45 p[align=center],
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget46 p[align=center],
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget47 p[align=center],
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget48 p[align=center],
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget49 p[align=center],
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget51 p[align=center],
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget53 p[align=center],
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget54 p[align=center] {
   margin: 10px 0 0 !important;
   text-align: center;
 }
-
-.new-row > .container-fluid.container-flex > .center-block.widget39 p[align=center] a,
-.new-row > .container-fluid.container-flex > .center-block.widget40 p[align=center] a,
-.new-row > .container-fluid.container-flex > .center-block.widget42 p[align=center] a,
-.new-row > .container-fluid.container-flex > .center-block.widget43 p[align=center] a,
-.new-row > .container-fluid.container-flex > .center-block.widget44 p[align=center] a,
-.new-row > .container-fluid.container-flex > .center-block.widget45 p[align=center] a,
-.new-row > .container-fluid.container-flex > .center-block.widget46 p[align=center] a,
-.new-row > .container-fluid.container-flex > .center-block.widget47 p[align=center] a,
-.new-row > .container-fluid.container-flex > .center-block.widget48 p[align=center] a,
-.new-row > .container-fluid.container-flex > .center-block.widget49 p[align=center] a,
-.new-row > .container-fluid.container-flex > .center-block.widget51 p[align=center] a,
-.new-row > .container-fluid.container-flex > .center-block.widget53 p[align=center] a,
-.new-row > .container-fluid.container-flex > .center-block.widget54 p[align=center] a {
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget39 p[align=center] a,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget40 p[align=center] a,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget42 p[align=center] a,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget43 p[align=center] a,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget44 p[align=center] a,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget45 p[align=center] a,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget46 p[align=center] a,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget47 p[align=center] a,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget48 p[align=center] a,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget49 p[align=center] a,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget51 p[align=center] a,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget53 p[align=center] a,
+body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget54 p[align=center] a {
   font-weight: 700;
 }
-
 @media (max-width: 767px) {
-  .new-row > .container-fluid.container-flex {
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex {
     display: flex !important;
     flex-direction: column !important;
     gap: 16px;
     margin: 0 !important;
   }
-  .new-row > .container-fluid.container-flex > .center-block.widget39,
-  .new-row > .container-fluid.container-flex > .center-block.widget40,
-  .new-row > .container-fluid.container-flex > .center-block.widget42,
-  .new-row > .container-fluid.container-flex > .center-block.widget43,
-  .new-row > .container-fluid.container-flex > .center-block.widget44,
-  .new-row > .container-fluid.container-flex > .center-block.widget45,
-  .new-row > .container-fluid.container-flex > .center-block.widget46,
-  .new-row > .container-fluid.container-flex > .center-block.widget47,
-  .new-row > .container-fluid.container-flex > .center-block.widget48,
-  .new-row > .container-fluid.container-flex > .center-block.widget49,
-  .new-row > .container-fluid.container-flex > .center-block.widget51,
-  .new-row > .container-fluid.container-flex > .center-block.widget53,
-  .new-row > .container-fluid.container-flex > .center-block.widget54 {
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget39,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget40,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget42,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget43,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget44,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget45,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget46,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget47,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget48,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget49,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget51,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget53,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget54 {
     flex: 1 1 100% !important;
     max-width: 100% !important;
     width: 100% !important;
     min-width: 0 !important;
   }
-  .new-row > .container-fluid.container-flex > .center-block.widget39 > div[style*="display: inline-block"],
-  .new-row > .container-fluid.container-flex > .center-block.widget40 > div[style*="display: inline-block"],
-  .new-row > .container-fluid.container-flex > .center-block.widget42 > div[style*="display: inline-block"],
-  .new-row > .container-fluid.container-flex > .center-block.widget43 > div[style*="display: inline-block"],
-  .new-row > .container-fluid.container-flex > .center-block.widget44 > div[style*="display: inline-block"],
-  .new-row > .container-fluid.container-flex > .center-block.widget45 > div[style*="display: inline-block"],
-  .new-row > .container-fluid.container-flex > .center-block.widget46 > div[style*="display: inline-block"],
-  .new-row > .container-fluid.container-flex > .center-block.widget47 > div[style*="display: inline-block"],
-  .new-row > .container-fluid.container-flex > .center-block.widget48 > div[style*="display: inline-block"],
-  .new-row > .container-fluid.container-flex > .center-block.widget49 > div[style*="display: inline-block"],
-  .new-row > .container-fluid.container-flex > .center-block.widget51 > div[style*="display: inline-block"],
-  .new-row > .container-fluid.container-flex > .center-block.widget53 > div[style*="display: inline-block"],
-  .new-row > .container-fluid.container-flex > .center-block.widget54 > div[style*="display: inline-block"] {
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget39 > div[style*="display: inline-block"],
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget40 > div[style*="display: inline-block"],
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget42 > div[style*="display: inline-block"],
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget43 > div[style*="display: inline-block"],
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget44 > div[style*="display: inline-block"],
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget45 > div[style*="display: inline-block"],
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget46 > div[style*="display: inline-block"],
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget47 > div[style*="display: inline-block"],
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget48 > div[style*="display: inline-block"],
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget49 > div[style*="display: inline-block"],
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget51 > div[style*="display: inline-block"],
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget53 > div[style*="display: inline-block"],
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget54 > div[style*="display: inline-block"] {
     padding: 14px 12px 10px;
   }
-  .new-row > .container-fluid.container-flex > .center-block.widget39 table,
-  .new-row > .container-fluid.container-flex > .center-block.widget40 table,
-  .new-row > .container-fluid.container-flex > .center-block.widget42 table,
-  .new-row > .container-fluid.container-flex > .center-block.widget43 table,
-  .new-row > .container-fluid.container-flex > .center-block.widget44 table,
-  .new-row > .container-fluid.container-flex > .center-block.widget45 table,
-  .new-row > .container-fluid.container-flex > .center-block.widget46 table,
-  .new-row > .container-fluid.container-flex > .center-block.widget47 table,
-  .new-row > .container-fluid.container-flex > .center-block.widget48 table,
-  .new-row > .container-fluid.container-flex > .center-block.widget49 table,
-  .new-row > .container-fluid.container-flex > .center-block.widget51 table,
-  .new-row > .container-fluid.container-flex > .center-block.widget53 table,
-  .new-row > .container-fluid.container-flex > .center-block.widget54 table {
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget39 table,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget40 table,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget42 table,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget43 table,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget44 table,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget45 table,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget46 table,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget47 table,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget48 table,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget49 table,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget51 table,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget53 table,
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget54 table {
     width: auto !important;
     table-layout: auto !important;
   }
-  .new-row > .container-fluid.container-flex > .center-block.widget39 td:nth-child(1),
-  .new-row > .container-fluid.container-flex > .center-block.widget39 td:nth-child(2),
-  .new-row > .container-fluid.container-flex > .center-block.widget40 td:nth-child(1),
-  .new-row > .container-fluid.container-flex > .center-block.widget40 td:nth-child(2),
-  .new-row > .container-fluid.container-flex > .center-block.widget42 td:nth-child(1),
-  .new-row > .container-fluid.container-flex > .center-block.widget42 td:nth-child(2),
-  .new-row > .container-fluid.container-flex > .center-block.widget43 td:nth-child(1),
-  .new-row > .container-fluid.container-flex > .center-block.widget43 td:nth-child(2),
-  .new-row > .container-fluid.container-flex > .center-block.widget44 td:nth-child(1),
-  .new-row > .container-fluid.container-flex > .center-block.widget44 td:nth-child(2),
-  .new-row > .container-fluid.container-flex > .center-block.widget45 td:nth-child(1),
-  .new-row > .container-fluid.container-flex > .center-block.widget45 td:nth-child(2),
-  .new-row > .container-fluid.container-flex > .center-block.widget46 td:nth-child(1),
-  .new-row > .container-fluid.container-flex > .center-block.widget46 td:nth-child(2),
-  .new-row > .container-fluid.container-flex > .center-block.widget47 td:nth-child(1),
-  .new-row > .container-fluid.container-flex > .center-block.widget47 td:nth-child(2),
-  .new-row > .container-fluid.container-flex > .center-block.widget48 td:nth-child(1),
-  .new-row > .container-fluid.container-flex > .center-block.widget48 td:nth-child(2),
-  .new-row > .container-fluid.container-flex > .center-block.widget49 td:nth-child(1),
-  .new-row > .container-fluid.container-flex > .center-block.widget49 td:nth-child(2),
-  .new-row > .container-fluid.container-flex > .center-block.widget51 td:nth-child(1),
-  .new-row > .container-fluid.container-flex > .center-block.widget51 td:nth-child(2),
-  .new-row > .container-fluid.container-flex > .center-block.widget53 td:nth-child(1),
-  .new-row > .container-fluid.container-flex > .center-block.widget53 td:nth-child(2),
-  .new-row > .container-fluid.container-flex > .center-block.widget54 td:nth-child(1),
-  .new-row > .container-fluid.container-flex > .center-block.widget54 td:nth-child(2) {
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget39 td:nth-child(1),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget39 td:nth-child(2),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget40 td:nth-child(1),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget40 td:nth-child(2),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget42 td:nth-child(1),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget42 td:nth-child(2),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget43 td:nth-child(1),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget43 td:nth-child(2),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget44 td:nth-child(1),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget44 td:nth-child(2),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget45 td:nth-child(1),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget45 td:nth-child(2),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget46 td:nth-child(1),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget46 td:nth-child(2),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget47 td:nth-child(1),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget47 td:nth-child(2),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget48 td:nth-child(1),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget48 td:nth-child(2),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget49 td:nth-child(1),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget49 td:nth-child(2),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget51 td:nth-child(1),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget51 td:nth-child(2),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget53 td:nth-child(1),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget53 td:nth-child(2),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget54 td:nth-child(1),
+  body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex > .center-block.widget54 td:nth-child(2) {
     width: 1% !important;
     white-space: nowrap;
   }
 }
+
 #fs737 {
   margin-bottom: 18px !important;
 }
@@ -6277,94 +6252,6 @@ body:has(#fs16590) {
   overflow-wrap: anywhere !important;
 }
 
-.new-row:last-of-type {
-  margin-top: 18px !important;
-  margin-bottom: 18px !important;
-}
-.new-row:last-of-type .center-block {
-  background: transparent;
-  border: 0;
-  border-radius: 0;
-  box-shadow: none;
-  padding: 0;
-}
-.new-row:last-of-type .text-center {
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-  flex-wrap: wrap !important;
-  gap: 10px 12px !important;
-}
-.new-row:last-of-type .text-center > span {
-  display: inline-flex !important;
-  margin: 0 !important;
-}
-.new-row:last-of-type .text-center > span input,
-.new-row:last-of-type .text-center > span button,
-.new-row:last-of-type .text-center > span a {
-  display: inline-flex !important;
-  align-items: center;
-  justify-content: center;
-  min-height: 40px;
-  padding: 9px 16px !important;
-  border: 1px solid rgba(13, 59, 114, 0.2);
-  border-radius: 10px;
-  background: linear-gradient(180deg, #0d3b72 0%, #0b335d 100%);
-  color: #ffffff;
-  font-size: 1.05rem;
-  font-weight: 700;
-  line-height: 1.2;
-  box-shadow: 0 6px 12px rgba(13, 31, 54, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.22);
-  cursor: pointer;
-  transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
-  white-space: normal !important;
-  text-align: center !important;
-  box-sizing: border-box;
-}
-.new-row:last-of-type .text-center > span input:hover,
-.new-row:last-of-type .text-center > span button:hover,
-.new-row:last-of-type .text-center > span a:hover,
-.new-row:last-of-type .text-center > span input:focus,
-.new-row:last-of-type .text-center > span button:focus,
-.new-row:last-of-type .text-center > span a:focus {
-  background: linear-gradient(180deg, #114a8c 0%, #0e3e77 100%);
-  border-color: rgba(13, 59, 114, 0.45);
-  box-shadow: 0 10px 16px rgba(13, 31, 54, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.22);
-}
-@media (max-width: 767px) {
-  .new-row:last-of-type .text-center {
-    display: grid !important;
-    grid-template-columns: 1fr !important;
-    justify-content: stretch !important;
-    align-items: stretch !important;
-    gap: 12px !important;
-    margin-bottom: 6px !important;
-  }
-  .new-row:last-of-type .text-center > span {
-    display: block !important;
-    width: 100% !important;
-  }
-  .new-row:last-of-type .text-center > span input,
-  .new-row:last-of-type .text-center > span button,
-  .new-row:last-of-type .text-center > span a {
-    display: block !important;
-    width: 100% !important;
-    min-height: 52px !important;
-    font-size: 1.05rem !important;
-    line-height: 1.3 !important;
-    white-space: normal !important;
-    text-align: center !important;
-    padding: 12px 14px !important;
-    box-sizing: border-box;
-    margin-bottom: 0 !important;
-  }
-}
-@media (max-width: 420px) {
-  .new-row:last-of-type .text-center {
-    grid-template-columns: 1fr !important;
-  }
-}
-
 #fs9817 {
   margin-top: 20px !important;
   margin-bottom: 0 !important;
@@ -6487,6 +6374,979 @@ body:has(#fs16590) {
   #fs22661 .center-block.table-responsive tbody td,
   #fs22661 .center-block.table-responsive thead th {
     padding: 10px 12px !important;
+  }
+}
+
+body:has(#Menu_Item_ID[value="5787"]) {
+  background: linear-gradient(135deg, rgba(216, 164, 42, 0.08), transparent 34%), #f5f8fb;
+}
+body:has(#Menu_Item_ID[value="5787"]) .page-title {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto 16px !important;
+  color: #0d3b72;
+  font-size: 34px;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+}
+body:has(#Menu_Item_ID[value="5787"]) .new-row .container-flex {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget35,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget34,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget36,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget37,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget38 {
+  width: 100% !important;
+  max-width: 1200px !important;
+  min-width: 0 !important;
+  margin: 0 0 20px !important;
+  border: 1px solid rgba(13, 59, 114, 0.14);
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 8px 18px rgba(12, 32, 56, 0.06);
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget35 .widget-help-link,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 .widget-help-link,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 .widget-help-link,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 .widget-help-link,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 .widget-help-link,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 .widget-help-link,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget34 .widget-help-link,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget36 .widget-help-link,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget37 .widget-help-link,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget38 .widget-help-link {
+  display: none;
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget35 > div,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 > div,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 > div,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 > div,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 > div,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 > div,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget34 > div,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget36 > div,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget37 > div,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget38 > div {
+  display: block !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0;
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget35 {
+  border-top: 10px solid #dfeeff;
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget35 .widgetlink {
+  color: #0d3b72 !important;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget35 .widget-help-link,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 .widget-help-link,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 .widget-help-link,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 .widget-help-link,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 .widget-help-link,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 .widget-help-link,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget34 .widget-help-link,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget36 .widget-help-link,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget37 .widget-help-link,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget38 .widget-help-link {
+  color: #0d3b72 !important;
+  font-weight: 700;
+  text-decoration: none;
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 h3,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 h3,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 h3,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 h3,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 h3,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget34 h3,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget36 h3,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget37 h3,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget38 h3 {
+  margin: 0 !important;
+  padding: 10px 14px !important;
+  border-radius: 9px 9px 0 0;
+  background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%);
+  border-bottom: 1px solid rgba(13, 59, 114, 0.16);
+  color: #0d3b72;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 h3 .widgetlink,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 h3 .widgetlink,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 h3 .widgetlink,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 h3 .widgetlink,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 h3 .widgetlink,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget34 h3 .widgetlink,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget36 h3 .widgetlink,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget37 h3 .widgetlink,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget38 h3 .widgetlink {
+  color: #0d3b72 !important;
+  text-decoration: none;
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget36 > div > div,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget37 > div > div,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget38 > div > div {
+  margin: 0 !important;
+  padding: 9px 14px;
+  border-top: 1px solid rgba(13, 59, 114, 0.09);
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget36 > div > div:first-of-type,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget37 > div > div:first-of-type,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget38 > div > div:first-of-type {
+  border-top: 0;
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget36 > div > div .widgetlink,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget37 > div > div .widgetlink,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget38 > div > div .widgetlink {
+  color: #0d3b72 !important;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+@media (min-width: 992px) {
+  body:has(#Menu_Item_ID[value="5787"]) .new-row .container-flex:has(> .center-block.widget36):has(> .center-block.widget37):has(> .center-block.widget38) {
+    display: flex !important;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    gap: 16px;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .new-row .container-flex:has(> .center-block.widget36):has(> .center-block.widget37):has(> .center-block.widget38) > .center-block.widget36,
+  body:has(#Menu_Item_ID[value="5787"]) .new-row .container-flex:has(> .center-block.widget36):has(> .center-block.widget37):has(> .center-block.widget38) > .center-block.widget37,
+  body:has(#Menu_Item_ID[value="5787"]) .new-row .container-flex:has(> .center-block.widget36):has(> .center-block.widget37):has(> .center-block.widget38) > .center-block.widget38 {
+    flex: 1 1 0;
+    width: calc((100% - 32px) / 3) !important;
+    max-width: calc((100% - 32px) / 3) !important;
+    min-width: 0 !important;
+    margin: 0 0 20px !important;
+  }
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 .scrollingdiv,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 .scrollingdiv,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 .scrollingdiv,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 .scrollingdiv,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 .scrollingdiv,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget34 .scrollingdiv {
+  height: auto !important;
+  max-height: 60vh;
+  overflow: auto;
+  border: unset;
+  padding: unset;
+  border-radius: unset;
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 table.table-condensed,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 table.table-condensed,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 table.table-condensed,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 table.table-condensed,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 table.table-condensed,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget34 table.table-condensed {
+  width: 100% !important;
+  margin: 0;
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  table-layout: fixed !important;
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 .scrollingdiv > table.table-condensed,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 .scrollingdiv > table.table-condensed,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 .scrollingdiv > table.table-condensed,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 .scrollingdiv > table.table-condensed,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 .scrollingdiv > table.table-condensed,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget34 .scrollingdiv > table.table-condensed {
+  display: table !important;
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 .scrollingdiv > table.table-condensed > thead,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 .scrollingdiv > table.table-condensed > thead,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 .scrollingdiv > table.table-condensed > thead,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 .scrollingdiv > table.table-condensed > thead,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 .scrollingdiv > table.table-condensed > thead,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget34 .scrollingdiv > table.table-condensed > thead {
+  display: table-header-group !important;
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 .scrollingdiv > table.table-condensed > tbody,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 .scrollingdiv > table.table-condensed > tbody,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 .scrollingdiv > table.table-condensed > tbody,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 .scrollingdiv > table.table-condensed > tbody,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 .scrollingdiv > table.table-condensed > tbody,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget34 .scrollingdiv > table.table-condensed > tbody {
+  display: table-row-group !important;
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 .scrollingdiv > table.table-condensed > thead > tr,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 .scrollingdiv > table.table-condensed > tbody > tr,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 .scrollingdiv > table.table-condensed > thead > tr,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 .scrollingdiv > table.table-condensed > tbody > tr,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 .scrollingdiv > table.table-condensed > thead > tr,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 .scrollingdiv > table.table-condensed > tbody > tr,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 .scrollingdiv > table.table-condensed > thead > tr,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 .scrollingdiv > table.table-condensed > tbody > tr,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 .scrollingdiv > table.table-condensed > thead > tr,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 .scrollingdiv > table.table-condensed > tbody > tr,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget34 .scrollingdiv > table.table-condensed > thead > tr,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget34 .scrollingdiv > table.table-condensed > tbody > tr {
+  display: table-row !important;
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 .scrollingdiv > table.table-condensed > thead > tr > th,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 .scrollingdiv > table.table-condensed > tbody > tr > td,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 .scrollingdiv > table.table-condensed > thead > tr > th,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 .scrollingdiv > table.table-condensed > tbody > tr > td,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 .scrollingdiv > table.table-condensed > thead > tr > th,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 .scrollingdiv > table.table-condensed > tbody > tr > td,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 .scrollingdiv > table.table-condensed > thead > tr > th,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 .scrollingdiv > table.table-condensed > tbody > tr > td,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 .scrollingdiv > table.table-condensed > thead > tr > th,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 .scrollingdiv > table.table-condensed > tbody > tr > td,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget34 .scrollingdiv > table.table-condensed > thead > tr > th,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget34 .scrollingdiv > table.table-condensed > tbody > tr > td {
+  display: table-cellon;
+  float: none !important;
+  position: static !important;
+  transform: none !important;
+  writing-mode: horizontal-tb !important;
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 .scrollingdiv > table.table-condensed > tbody > tr > td:nth-of-type(1),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 .scrollingdiv > table.table-condensed > tbody > tr > td:nth-of-type(2),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 .scrollingdiv > table.table-condensed > tbody > tr > td:nth-of-type(1),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 .scrollingdiv > table.table-condensed > tbody > tr > td:nth-of-type(2),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 .scrollingdiv > table.table-condensed > tbody > tr > td:nth-of-type(1),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 .scrollingdiv > table.table-condensed > tbody > tr > td:nth-of-type(2),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 .scrollingdiv > table.table-condensed > tbody > tr > td:nth-of-type(1),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 .scrollingdiv > table.table-condensed > tbody > tr > td:nth-of-type(2),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 .scrollingdiv > table.table-condensed > tbody > tr > td:nth-of-type(1),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 .scrollingdiv > table.table-condensed > tbody > tr > td:nth-of-type(2),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget34 .scrollingdiv > table.table-condensed > tbody > tr > td:nth-of-type(1),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget34 .scrollingdiv > table.table-condensed > tbody > tr > td:nth-of-type(2) {
+  display: table-cell !important;
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 table.table-condensed thead th,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 table.table-condensed thead th,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 table.table-condensed thead th,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 table.table-condensed thead th,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 table.table-condensed thead th,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget34 table.table-condensed thead th {
+  padding: 10px 10px !important;
+  background: #f0f6ff;
+  color: #0d3b72;
+  border: 0 !important;
+  border-bottom: 1px solid rgba(13, 59, 114, 0.14) !important;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+  text-align: left !important;
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 table.table-condensed tbody td,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 table.table-condensed tbody td,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 table.table-condensed tbody td,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 table.table-condensed tbody td,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 table.table-condensed tbody td,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget34 table.table-condensed tbody td {
+  padding: 9px 10px !important;
+  color: #1f2d3d;
+  border: 0 !important;
+  border-top: 1px solid rgba(13, 59, 114, 0.09) !important;
+  font-size: 13px;
+  line-height: 1.35;
+  vertical-align: middle !important;
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 table.table-condensed tbody tr:nth-of-type(odd) td,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 table.table-condensed tbody tr:nth-of-type(odd) td,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 table.table-condensed tbody tr:nth-of-type(odd) td,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 table.table-condensed tbody tr:nth-of-type(odd) td,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 table.table-condensed tbody tr:nth-of-type(odd) td,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget34 table.table-condensed tbody tr:nth-of-type(odd) td {
+  background: #ffffff;
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 table.table-condensed tbody tr:nth-of-type(even) td,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 table.table-condensed tbody tr:nth-of-type(even) td,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 table.table-condensed tbody tr:nth-of-type(even) td,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 table.table-condensed tbody tr:nth-of-type(even) td,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 table.table-condensed tbody tr:nth-of-type(even) td,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget34 table.table-condensed tbody tr:nth-of-type(even) td {
+  background: #f7faff;
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 table.table-condensed thead th:nth-of-type(1),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 table.table-condensed tbody td:nth-of-type(1),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 table.table-condensed thead th:nth-of-type(1),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 table.table-condensed tbody td:nth-of-type(1) {
+  width: 7%;
+  text-align: center;
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 table.table-condensed thead th:nth-of-type(2),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 table.table-condensed tbody td:nth-of-type(2),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 table.table-condensed thead th:nth-of-type(2),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 table.table-condensed tbody td:nth-of-type(2) {
+  width: 16%;
+  text-align: center;
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 table.table-condensed thead th:nth-of-type(3),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 table.table-condensed tbody td:nth-of-type(3),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 table.table-condensed thead th:nth-of-type(3),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 table.table-condensed tbody td:nth-of-type(3) {
+  width: 49%;
+  text-align: left;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 .scrollingdiv > table.table-condensed > tbody > tr > td:nth-of-type(3) {
+  max-width: 0;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 table.table-condensed thead th:nth-of-type(4),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 table.table-condensed tbody td:nth-of-type(4),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 table.table-condensed thead th:nth-of-type(5),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 table.table-condensed tbody td:nth-of-type(5),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 table.table-condensed thead th:nth-of-type(4),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 table.table-condensed tbody td:nth-of-type(4),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 table.table-condensed thead th:nth-of-type(5),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 table.table-condensed tbody td:nth-of-type(5),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 table.table-condensed thead th:nth-of-type(4),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 table.table-condensed tbody td:nth-of-type(4),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 table.table-condensed thead th:nth-of-type(5),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 table.table-condensed tbody td:nth-of-type(5) {
+  width: 14%;
+  text-align: right;
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 table.table-condensed thead th:nth-of-type(3),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 table.table-condensed tbody td:nth-of-type(3),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 table.table-condensed thead th:nth-of-type(3),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 table.table-condensed tbody td:nth-of-type(3) {
+  width: 37%;
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 table.table-condensed thead th:nth-of-type(4),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 table.table-condensed tbody td:nth-of-type(4),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 table.table-condensed thead th:nth-of-type(5),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 table.table-condensed tbody td:nth-of-type(5),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 table.table-condensed thead th:nth-of-type(6),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 table.table-condensed tbody td:nth-of-type(6),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 table.table-condensed thead th:nth-of-type(6),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 table.table-condensed tbody td:nth-of-type(6) {
+  width: 13%;
+  text-align: right;
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 table.table-condensed thead th:nth-of-type(1),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 table.table-condensed tbody td:nth-of-type(1) {
+  width: 20%;
+  text-align: center;
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 table.table-condensed thead th:nth-of-type(2),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 table.table-condensed tbody td:nth-of-type(2) {
+  width: 48%;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 table.table-condensed tbody td:nth-of-type(2) {
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 table.table-condensed thead th:nth-of-type(3),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 table.table-condensed tbody td:nth-of-type(3),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 table.table-condensed thead th:nth-of-type(4),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 table.table-condensed tbody td:nth-of-type(4) {
+  width: 16%;
+  text-align: right;
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 table.table-condensed thead th:nth-of-type(1),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 table.table-condensed tbody td:nth-of-type(1) {
+  width: 7%;
+  text-align: center;
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 table.table-condensed thead th:nth-of-type(2),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 table.table-condensed tbody td:nth-of-type(2) {
+  width: 28%;
+  text-align: left;
+  white-space: nowrap;
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 table.table-condensed thead th:nth-of-type(3),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 table.table-condensed tbody td:nth-of-type(3) {
+  width: 37%;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 table.table-condensed thead th:nth-of-type(4),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 table.table-condensed tbody td:nth-of-type(4),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 table.table-condensed thead th:nth-of-type(5),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 table.table-condensed tbody td:nth-of-type(5) {
+  width: 14%;
+  text-align: right;
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget34 table.table-condensed thead th:nth-of-type(1),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget34 table.table-condensed tbody td:nth-of-type(1) {
+  width: 12%;
+  text-align: center;
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget34 table.table-condensed thead th:nth-of-type(2),
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget34 table.table-condensed tbody td:nth-of-type(2) {
+  width: 88%;
+  text-align: left;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  max-width: 0 !important;
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 table.table-condensed tbody td:nth-of-type(1) .glyphicon,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 table.table-condensed tbody td:nth-of-type(1) .glyphicon,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 table.table-condensed tbody td:nth-of-type(1) .glyphicon,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 table.table-condensed tbody td:nth-of-type(1) .glyphicon,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget34 table.table-condensed tbody td:nth-of-type(1) .glyphicon {
+  color: #0d3b72;
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 .scrollingdiv > table.table-condensed .glyphicon,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 .scrollingdiv > table.table-condensed .glyphicon,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 .scrollingdiv > table.table-condensed .glyphicon,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 .scrollingdiv > table.table-condensed .glyphicon,
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget34 .scrollingdiv > table.table-condensed .glyphicon {
+  position: static !important;
+  top: auto !important;
+  z-index: auto !important;
+  vertical-align: middle;
+}
+@media (max-width: 767px) {
+  body:has(#Menu_Item_ID[value="5787"]) .page-title {
+    margin: 0 auto 12px !important;
+    font-size: 28px;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget35,
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33,
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29,
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30,
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31,
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32,
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget34,
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget36,
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget37,
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget38 {
+    border-radius: 10px;
+    margin-bottom: 14px !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget35 .widgetlink,
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 h3,
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 h3,
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 h3,
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 h3,
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 h3,
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget34 h3,
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget36 h3,
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget37 h3,
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget38 h3 {
+    font-size: 16px;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 .scrollingdiv,
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 .scrollingdiv,
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 .scrollingdiv,
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 .scrollingdiv,
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 .scrollingdiv,
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget34 .scrollingdiv {
+    max-height: none;
+    overflow-x: auto;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 table.table-condensed {
+    min-width: 0;
+    width: 100% !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 table.table-condensed {
+    min-width: 0;
+    width: 100% !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 table.table-condensed {
+    min-width: 0;
+    width: 100% !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 table.table-condensed {
+    min-width: 0;
+    width: 100% !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 table.table-condensed {
+    min-width: 0;
+    width: 100% !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget34 table.table-condensed {
+    min-width: 0;
+    width: 100% !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 table.table-condensed tbody td:nth-of-type(3),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 table.table-condensed tbody td:nth-of-type(3),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 table.table-condensed tbody td:nth-of-type(2),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 table.table-condensed tbody td:nth-of-type(3),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 table.table-condensed tbody td:nth-of-type(3),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget34 table.table-condensed tbody td:nth-of-type(2) {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 table.table-condensed thead th:nth-of-type(n+4),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 table.table-condensed tbody td:nth-of-type(n+4) {
+    display: none !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 table.table-condensed thead th:nth-of-type(1),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 table.table-condensed tbody td:nth-of-type(1) {
+    width: 12% !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 table.table-condensed thead th:nth-of-type(1),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 table.table-condensed tbody td:nth-of-type(1) {
+    width: 12% !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 table.table-condensed thead th:nth-of-type(2),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 table.table-condensed tbody td:nth-of-type(2) {
+    width: 24% !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 table.table-condensed thead th:nth-of-type(2),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 table.table-condensed tbody td:nth-of-type(2) {
+    width: 24% !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 table.table-condensed thead th:nth-of-type(3),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 table.table-condensed tbody td:nth-of-type(3) {
+    width: 64% !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 table.table-condensed thead th:nth-of-type(3),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 table.table-condensed tbody td:nth-of-type(3) {
+    width: 64% !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 table.table-condensed thead th:nth-of-type(n+4),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 table.table-condensed tbody td:nth-of-type(n+4) {
+    display: none !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 table.table-condensed thead th:nth-of-type(n+3),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 table.table-condensed tbody td:nth-of-type(n+3) {
+    display: none !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 table.table-condensed thead th:nth-of-type(1),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 table.table-condensed tbody td:nth-of-type(1) {
+    width: 34% !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 table.table-condensed thead th:nth-of-type(2),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 table.table-condensed tbody td:nth-of-type(2) {
+    width: 66% !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 table.table-condensed thead th:nth-of-type(n+4),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 table.table-condensed tbody td:nth-of-type(n+4) {
+    display: none !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 table.table-condensed thead th:nth-of-type(1),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 table.table-condensed tbody td:nth-of-type(1) {
+    width: 12% !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 table.table-condensed thead th:nth-of-type(2),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 table.table-condensed tbody td:nth-of-type(2) {
+    width: 24% !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 table.table-condensed thead th:nth-of-type(3),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 table.table-condensed tbody td:nth-of-type(3) {
+    width: 64% !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 table.table-condensed thead th:nth-of-type(n+4),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 table.table-condensed tbody td:nth-of-type(n+4) {
+    display: none !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 table.table-condensed thead th:nth-of-type(1),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 table.table-condensed tbody td:nth-of-type(1) {
+    width: 12% !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 table.table-condensed thead th:nth-of-type(2),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 table.table-condensed tbody td:nth-of-type(2) {
+    width: 24% !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 table.table-condensed thead th:nth-of-type(3),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 table.table-condensed tbody td:nth-of-type(3) {
+    width: 64% !important;
+  }
+}
+@media (max-width: 991px) {
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 table.table-condensed thead th:nth-of-type(n + 4),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 table.table-condensed tbody td:nth-of-type(n + 4) {
+    display: none !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 table.table-condensed thead th:nth-of-type(n + 4),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 table.table-condensed tbody td:nth-of-type(n + 4) {
+    display: none !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 table.table-condensed thead th:nth-of-type(n + 3),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 table.table-condensed tbody td:nth-of-type(n + 3) {
+    display: none !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 table.table-condensed thead th:nth-of-type(n + 4),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 table.table-condensed tbody td:nth-of-type(n + 4) {
+    display: none !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 table.table-condensed thead th:nth-of-type(n + 4),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 table.table-condensed tbody td:nth-of-type(n + 4) {
+    display: none !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 table.table-condensed thead th:nth-of-type(1),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 table.table-condensed tbody td:nth-of-type(1) {
+    width: 12% !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 table.table-condensed thead th:nth-of-type(1),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 table.table-condensed tbody td:nth-of-type(1) {
+    width: 12% !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 table.table-condensed thead th:nth-of-type(1),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 table.table-condensed tbody td:nth-of-type(1) {
+    width: 34% !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 table.table-condensed thead th:nth-of-type(1),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 table.table-condensed tbody td:nth-of-type(1) {
+    width: 12% !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 table.table-condensed thead th:nth-of-type(1),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 table.table-condensed tbody td:nth-of-type(1) {
+    width: 12% !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 table.table-condensed thead th:nth-of-type(2),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 table.table-condensed tbody td:nth-of-type(2) {
+    width: 24% !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 table.table-condensed thead th:nth-of-type(2),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 table.table-condensed tbody td:nth-of-type(2) {
+    width: 24% !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 table.table-condensed thead th:nth-of-type(2),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget30 table.table-condensed tbody td:nth-of-type(2) {
+    width: 66% !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 table.table-condensed thead th:nth-of-type(2),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 table.table-condensed tbody td:nth-of-type(2) {
+    width: 24% !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 table.table-condensed thead th:nth-of-type(3),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 table.table-condensed tbody td:nth-of-type(3) {
+    width: 64% !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 table.table-condensed thead th:nth-of-type(3),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget29 table.table-condensed tbody td:nth-of-type(3) {
+    width: 64% !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 table.table-condensed thead th:nth-of-type(3),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget31 table.table-condensed tbody td:nth-of-type(3) {
+    width: 64% !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 table.table-condensed thead th:nth-of-type(2),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 table.table-condensed tbody td:nth-of-type(2) {
+    width: 24% !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 table.table-condensed thead th:nth-of-type(3),
+  body:has(#Menu_Item_ID[value="5787"]) .center-block.widget32 table.table-condensed tbody td:nth-of-type(3) {
+    width: 64% !important;
+  }
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1139,
+body:has(#Menu_Item_ID[value="5787"]) #fs13373 {
+  margin-bottom: 20px;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1139 .center-block,
+body:has(#Menu_Item_ID[value="5787"]) #fs13373 .center-block {
+  background: #ffffff;
+  border: 1px solid rgba(13, 59, 114, 0.14);
+  border-radius: 12px;
+  padding: 16px 20px;
+  box-shadow: 0 4px 12px rgba(12, 32, 56, 0.04);
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1139 .center-block table.no-border,
+body:has(#Menu_Item_ID[value="5787"]) #fs13373 .center-block table.no-border {
+  width: 100%;
+  margin: 0;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1139 .center-block table.no-border tr,
+body:has(#Menu_Item_ID[value="5787"]) #fs13373 .center-block table.no-border tr {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+  gap: 16px;
+  align-items: center;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1139 .center-block table.no-border tr:last-child,
+body:has(#Menu_Item_ID[value="5787"]) #fs13373 .center-block table.no-border tr:last-child {
+  margin-bottom: 0;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1139 .center-block table.no-border td.text-right,
+body:has(#Menu_Item_ID[value="5787"]) #fs13373 .center-block table.no-border td.text-right {
+  flex: 0 0 auto;
+  padding-right: 16px;
+  text-align: right;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1139 .center-block table.no-border td.text-right label.control-label,
+body:has(#Menu_Item_ID[value="5787"]) #fs13373 .center-block table.no-border td.text-right label.control-label {
+  color: #0d3b72;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0;
+  white-space: nowrap;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1139 .center-block table.no-border td.text-left,
+body:has(#Menu_Item_ID[value="5787"]) #fs13373 .center-block table.no-border td.text-left {
+  flex: 1 1 auto;
+  min-width: 200px;
+  text-align: left;
+  padding: 0;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1139 .center-block table.no-border td.text-left span.text-left,
+body:has(#Menu_Item_ID[value="5787"]) #fs13373 .center-block table.no-border td.text-left span.text-left {
+  color: #1a2333;
+  font-size: 14px;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1139 .center-block table.no-border td.text-left input.form-control,
+body:has(#Menu_Item_ID[value="5787"]) #fs1139 .center-block table.no-border td.text-left textarea.form-control,
+body:has(#Menu_Item_ID[value="5787"]) #fs13373 .center-block table.no-border td.text-left input.form-control,
+body:has(#Menu_Item_ID[value="5787"]) #fs13373 .center-block table.no-border td.text-left textarea.form-control {
+  max-width: 100%;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1139 .center-block + .center-block,
+body:has(#Menu_Item_ID[value="5787"]) #fs13373 .center-block + .center-block {
+  margin-top: 16px;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1140,
+body:has(#Menu_Item_ID[value="5787"]) #fs23241 {
+  margin-bottom: 20px;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1140 .center-block,
+body:has(#Menu_Item_ID[value="5787"]) #fs23241 .center-block {
+  padding: 12px 0;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1140 .text-center,
+body:has(#Menu_Item_ID[value="5787"]) #fs23241 .text-center {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: flex-start !important;
+  gap: 10px 12px !important;
+  padding: 0 !important;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1140 .text-center > span,
+body:has(#Menu_Item_ID[value="5787"]) #fs23241 .text-center > span {
+  display: inline-flex !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1140 .btn,
+body:has(#Menu_Item_ID[value="5787"]) #fs23241 .btn {
+  min-height: 40px;
+  padding: 8px 16px !important;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1143 {
+  margin-bottom: 20px;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1143 .center-block {
+  background: linear-gradient(135deg, rgba(234, 243, 255, 0.5), rgba(223, 238, 255, 0.3));
+  border: 1px solid rgba(13, 59, 114, 0.12);
+  border-radius: 12px;
+  padding: 16px 20px;
+  box-shadow: none;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1143 table.no-border {
+  margin: 0;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1143 table.no-border td.bodysubheading {
+  color: #0d3b72;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.5;
+  padding: 0 !important;
+  text-align: center;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1143 table.no-border td.bodysubheading b {
+  font-weight: 700;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs15608 {
+  margin-bottom: 20px;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs15608 .center-block {
+  padding: 12px 0;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs15608 .text-center {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: flex-start !important;
+  gap: 10px 12px !important;
+  padding: 0 !important;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs15608 .text-center > span {
+  display: inline-flex !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs15608 .btn {
+  min-height: 40px;
+  padding: 8px 16px !important;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1142 {
+  margin-bottom: 20px;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1142 .center-block {
+  background: #ffffff;
+  border: 1px solid rgba(13, 59, 114, 0.14);
+  border-radius: 12px;
+  padding: 0;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(12, 32, 56, 0.04);
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table.table-striped {
+  margin: 0;
+  border: 0;
+  border-collapse: collapse;
+  background: #ffffff;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table.table-striped thead {
+  background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%);
+  border-bottom: 1px solid rgba(13, 59, 114, 0.16);
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table.table-striped thead th {
+  padding: 12px 14px !important;
+  color: #0d3b72;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+  border: 0 !important;
+  background: transparent;
+  line-height: 1.4;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table.table-striped thead th a.sortheader {
+  color: #0d3b72 !important;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table.table-striped thead th a.sortheader:hover {
+  text-decoration: underline;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table.table-striped thead th .sortarrow {
+  display: inline-block;
+  font-size: 11px;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table.table-striped tbody tr {
+  background: #ffffff;
+  border-bottom: 1px solid rgba(13, 59, 114, 0.08);
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table.table-striped tbody tr:last-child {
+  border-bottom: 0;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table.table-striped tbody tr:nth-child(odd) {
+  background: #ffffff;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table.table-striped tbody tr:nth-child(even) {
+  background: #f7faff;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table.table-striped tbody tr:hover {
+  background: rgba(234, 243, 255, 0.6);
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table.table-striped tbody td {
+  padding: 12px 14px !important;
+  text-align: center;
+  color: #1a2333;
+  font-size: 13px;
+  border: 0 !important;
+  background: transparent;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table.table-striped tbody td.text-center {
+  vertical-align: middle;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table.table-striped tbody td input[type=radio] {
+  margin: 0 4px 0 0;
+  cursor: pointer;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table.table-striped tbody td input.form-control {
+  max-width: 100%;
+  height: 34px;
+  font-size: 13px;
+  padding: 6px 8px;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table.table-striped tbody td span.text-left {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table.table-striped tbody td span[style*="white-space: nowrap"] {
+  display: inline-block;
+  white-space: nowrap !important;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table tbody td:nth-of-type(1),
+body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(1) {
+  width: 12%;
+  min-width: 120px;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table tbody td:nth-of-type(2),
+body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(2) {
+  width: 15%;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table tbody td:nth-of-type(3),
+body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(3) {
+  width: 10%;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table tbody td:nth-of-type(4),
+body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(4) {
+  width: 10%;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table tbody td:nth-of-type(5),
+body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(5) {
+  width: 12%;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table tbody td:nth-of-type(6),
+body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(6) {
+  width: 20%;
+}
+body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table tbody td:nth-of-type(7),
+body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(7) {
+  width: 21%;
+}
+@media (max-width: 991px) {
+  body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead,
+  body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table tbody td:nth-of-type(4),
+  body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(4),
+  body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table tbody td:nth-of-type(6),
+  body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(6) {
+    display: none;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table tbody td:nth-of-type(1),
+  body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(1) {
+    width: 14%;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table tbody td:nth-of-type(2),
+  body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(2) {
+    width: 20%;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table tbody td:nth-of-type(3),
+  body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(3) {
+    width: 16%;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table tbody td:nth-of-type(5),
+  body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(5) {
+    width: 20%;
+  }
+  body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table tbody td:nth-of-type(7),
+  body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(7) {
+    width: 30%;
   }
 }
 
@@ -7492,6 +8352,378 @@ body:has(#fs16590) {
     max-width: 100% !important;
     height: 42px;
     border-radius: 10px;
+  }
+}
+#fs5742 .new-row:last-of-type {
+  margin-top: 18px !important;
+  margin-bottom: 18px !important;
+}
+#fs5742 .new-row:last-of-type .center-block {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0;
+}
+#fs5742 .new-row:last-of-type .text-center {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+  gap: 10px 12px !important;
+}
+#fs5742 .new-row:last-of-type .text-center > span {
+  display: inline-flex !important;
+  margin: 0 !important;
+}
+#fs5742 .new-row:last-of-type .text-center > span input,
+#fs5742 .new-row:last-of-type .text-center > span button,
+#fs5742 .new-row:last-of-type .text-center > span a {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  padding: 9px 16px !important;
+  border: 1px solid rgba(13, 59, 114, 0.2);
+  border-radius: 10px;
+  background: linear-gradient(180deg, #0d3b72 0%, #0b335d 100%);
+  color: #ffffff;
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.2;
+  box-shadow: 0 6px 12px rgba(13, 31, 54, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.22);
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
+  white-space: normal !important;
+  text-align: center !important;
+  box-sizing: border-box;
+}
+#fs5742 .new-row:last-of-type .text-center > span input:hover,
+#fs5742 .new-row:last-of-type .text-center > span button:hover,
+#fs5742 .new-row:last-of-type .text-center > span a:hover,
+#fs5742 .new-row:last-of-type .text-center > span input:focus,
+#fs5742 .new-row:last-of-type .text-center > span button:focus,
+#fs5742 .new-row:last-of-type .text-center > span a:focus {
+  background: linear-gradient(180deg, #114a8c 0%, #0e3e77 100%);
+  border-color: rgba(13, 59, 114, 0.45);
+  box-shadow: 0 10px 16px rgba(13, 31, 54, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.22);
+}
+@media (max-width: 767px) {
+  #fs5742 .new-row:last-of-type .text-center {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    justify-content: stretch !important;
+    align-items: stretch !important;
+    gap: 12px !important;
+    margin-bottom: 6px !important;
+  }
+  #fs5742 .new-row:last-of-type .text-center > span {
+    display: block !important;
+    width: 100% !important;
+  }
+  #fs5742 .new-row:last-of-type .text-center > span input,
+  #fs5742 .new-row:last-of-type .text-center > span button,
+  #fs5742 .new-row:last-of-type .text-center > span a {
+    display: block !important;
+    width: 100% !important;
+    min-height: 52px !important;
+    font-size: 1.05rem !important;
+    line-height: 1.3 !important;
+    white-space: normal !important;
+    text-align: center !important;
+    padding: 12px 14px !important;
+    box-sizing: border-box;
+    margin-bottom: 0 !important;
+  }
+}
+@media (max-width: 420px) {
+  #fs5742 .new-row:last-of-type .text-center {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+body:has(#Menu_Item_ID[value="319"]) {
+  background: linear-gradient(135deg, rgba(216, 164, 42, 0.08), transparent 32%), #f5f8fb;
+}
+body:has(#Menu_Item_ID[value="319"]) p.page-title {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto 16px !important;
+  padding: 0 20px;
+  color: #0d3b72;
+  font-size: 34px;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+}
+body:has(#Menu_Item_ID[value="319"]) .new-row > .container-fluid {
+  width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+body:has(#Menu_Item_ID[value="319"]) .container-fluid.container-flex {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+body:has(#Menu_Item_ID[value="319"]) #fs16437 .nav-tabs {
+  margin: 0;
+  border-bottom: 1px solid rgba(13, 59, 114, 0.18);
+}
+body:has(#Menu_Item_ID[value="319"]) #fs16437 .nav-tabs > li > a {
+  padding: 10px 14px;
+  color: #495b73;
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: 8px 8px 0 0;
+}
+body:has(#Menu_Item_ID[value="319"]) #fs16437 .nav-tabs > li.active > a,
+body:has(#Menu_Item_ID[value="319"]) #fs16437 .nav-tabs > li.active > a:hover,
+body:has(#Menu_Item_ID[value="319"]) #fs16437 .nav-tabs > li.active > a:focus {
+  color: #0d3b72;
+  background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%);
+  border-color: rgba(13, 59, 114, 0.18);
+  border-bottom-color: transparent;
+}
+body:has(#Menu_Item_ID[value="319"]) #fs411 .center-block {
+  width: 100% !important;
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  padding: 0;
+  color: #495b73;
+  font-size: 13px;
+  line-height: 1.5;
+}
+body:has(#Menu_Item_ID[value="319"]) #fs411 .text-center {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  gap: 10px 12px !important;
+  flex-wrap: wrap !important;
+  padding: 12px 14px !important;
+}
+body:has(#Menu_Item_ID[value="319"]) #fs411 .text-center > span {
+  display: inline-flex !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="319"]) #fs411 .text-center .btn {
+  min-height: 40px;
+  padding: 9px 16px !important;
+  border-radius: 10px !important;
+}
+body:has(#Menu_Item_ID[value="319"]) #fs412 .center-block.table-responsive {
+  width: 100% !important;
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  overflow-x: auto;
+}
+body:has(#Menu_Item_ID[value="319"]) #fs412 .center-block.table-responsive > table:first-child {
+  width: 100% !important;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%);
+  border: 1px solid rgba(13, 59, 114, 0.14);
+  border-radius: 10px;
+}
+body:has(#Menu_Item_ID[value="319"]) #fs412 .center-block.table-responsive > table:first-child > tbody > tr:first-child > td {
+  padding: 10px 14px !important;
+  border: 0;
+  text-align: right;
+}
+body:has(#Menu_Item_ID[value="319"]) #fs412 .rows-per-page {
+  color: #0d3b72;
+  font-size: 13px;
+  font-weight: 700;
+}
+body:has(#Menu_Item_ID[value="319"]) #fs412 select.rows-per-page {
+  min-height: 34px;
+  margin-left: 4px;
+  padding: 6px 26px 6px 8px;
+  color: #0d3b72;
+  border: 1px solid rgba(13, 59, 114, 0.22);
+  border-radius: 6px;
+  background: #ffffff;
+  font: 13px Montserrat, sans-serif;
+}
+body:has(#Menu_Item_ID[value="319"]) #fs412 .pagination {
+  margin: 0 0 0 10px;
+}
+body:has(#Menu_Item_ID[value="319"]) #fs412 .pagination > li > a,
+body:has(#Menu_Item_ID[value="319"]) #fs412 .pagination > li > span {
+  min-width: 32px;
+  min-height: 32px;
+  padding: 7px 9px;
+  color: #0d3b72;
+  border: 1px solid rgba(13, 59, 114, 0.18);
+  background: rgba(255, 255, 255, 0.72);
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+}
+body:has(#Menu_Item_ID[value="319"]) #fs412 .pagination > .active > a,
+body:has(#Menu_Item_ID[value="319"]) #fs412 .pagination > .active > span {
+  color: #ffffff;
+  background: #0d3b72;
+  border-color: #0d3b72;
+}
+body:has(#Menu_Item_ID[value="319"]) #fs412 table#sortablegrid412 {
+  width: 100% !important;
+  min-width: 820px;
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  border: 1px solid rgba(13, 59, 114, 0.14) !important;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #ffffff;
+}
+body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 thead th {
+  padding: 11px 12px !important;
+  color: #0d3b72 !important;
+  background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%) !important;
+  border: 0 !important;
+  border-bottom: 1px solid rgba(13, 59, 114, 0.18) !important;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+}
+body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 thead th a {
+  color: #0d3b72 !important;
+  font-weight: 700;
+  text-decoration: none;
+}
+body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 .sortarrow img {
+  display: none !important;
+}
+body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 tbody td {
+  padding: 10px 12px !important;
+  color: #1f2d3d;
+  border: 0 !important;
+  border-top: 1px solid rgba(13, 59, 114, 0.09) !important;
+  font-size: 13px;
+  line-height: 1.4;
+  vertical-align: middle !important;
+  background: transparent;
+}
+body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 tbody tr:nth-of-type(odd) td {
+  background: #ffffff !important;
+}
+body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 tbody tr:nth-of-type(even) td {
+  background: #f7faff !important;
+}
+body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 thead th:nth-of-type(1),
+body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 tbody td:nth-of-type(1) {
+  width: 90px;
+  text-align: center;
+}
+body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 thead th:nth-of-type(2),
+body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 tbody td:nth-of-type(2) {
+  width: 18%;
+  text-align: left;
+}
+body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 thead th:nth-of-type(3),
+body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 tbody td:nth-of-type(3) {
+  width: 18%;
+  text-align: left;
+}
+body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 thead th:nth-of-type(4),
+body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 tbody td:nth-of-type(4) {
+  width: 14%;
+  text-align: left;
+}
+body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 thead th:nth-of-type(5),
+body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 tbody td:nth-of-type(5) {
+  width: 14%;
+  text-align: center;
+}
+body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 thead th:nth-of-type(6),
+body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 tbody td:nth-of-type(6) {
+  width: 12%;
+  text-align: left;
+}
+body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 thead th:nth-of-type(7),
+body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 tbody td:nth-of-type(7) {
+  width: 12%;
+  text-align: left;
+}
+body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 thead th:nth-of-type(8),
+body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 tbody td:nth-of-type(8) {
+  width: 10%;
+  text-align: left;
+}
+body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 thead th:nth-of-type(9),
+body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 tbody td:nth-of-type(9) {
+  width: 90px;
+  text-align: center;
+}
+body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 tbody td:nth-of-type(2),
+body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 tbody td:nth-of-type(3),
+body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 tbody td:nth-of-type(4),
+body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 tbody td:nth-of-type(6),
+body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 tbody td:nth-of-type(7),
+body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 tbody td:nth-of-type(8) {
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+@media (min-width: 768px) {
+  body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 {
+    display: table !important;
+    table-layout: fixed !important;
+  }
+  body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 > thead, body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 > tbody, body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 > tfoot {
+    display: table-header-group !important;
+  }
+  body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 > tbody {
+    display: table-row-group !important;
+  }
+  body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 > thead > tr, body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 > tbody > tr, body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 > tfoot > tr {
+    display: table-row !important;
+  }
+  body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 > thead > tr > th, body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 > tbody > tr > td, body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 > tfoot > tr > td {
+    display: table-cell !important;
+    float: none !important;
+    position: static !important;
+    writing-mode: horizontal-tb !important;
+    transform: none !important;
+  }
+}
+@media (max-width: 767px) {
+  body:has(#Menu_Item_ID[value="319"]) #fs412 .center-block.table-responsive > table:first-child > tbody > tr:first-child > td {
+    padding: 10px 0 18px !important;
+    text-align: right;
+  }
+  body:has(#Menu_Item_ID[value="319"]) #fs412 .center-block.table-responsive > table:first-child > tbody > tr:first-child > td > div {
+    display: flex !important;
+    float: none !important;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 8px;
+    width: 100%;
+  }
+  body:has(#Menu_Item_ID[value="319"]) #fs412 .pagination {
+    margin: 0;
+  }
+  body:has(#Menu_Item_ID[value="319"]) #fs412 table#sortablegrid412 {
+    display: table !important;
+    width: 100% !important;
+    max-width: none !important;
+    min-width: 0 !important;
+    table-layout: fixed !important;
+  }
+  body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 > thead, body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 > tbody {
+    display: table-header-group !important;
+  }
+  body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 > thead > tr, body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 > tbody > tr {
+    display: table-row !important;
+  }
+  body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 > thead > tr > th, body:has(#Menu_Item_ID[value="319"]) #fs412 #sortablegrid412 > tbody > tr > td {
+    display: table-cell !important;
+    float: none !important;
+    position: static !important;
+    writing-mode: horizontal-tb !important;
+    transform: none !important;
+    white-space: nowrap !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }
 

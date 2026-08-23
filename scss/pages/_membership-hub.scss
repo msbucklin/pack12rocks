@@ -1,17 +1,18 @@
 // -----------------------------------------------------------------------------
-// Membership Hub page styling
+// Membership Hub page styling (Menu_Item_ID=5788)
 // -----------------------------------------------------------------------------
 
-.new-row > .container-fluid.container-flex {
-  display: flex !important;
-  flex-wrap: wrap !important;
-  align-items: stretch !important;
-  justify-content: center !important;
-  gap: 20px;
-  width: 100% !important;
-  max-width: 100% !important;
-  margin: 0 auto !important;
-}
+body:has(#Menu_Item_ID[value="5788"]) {
+  .new-row > .container-fluid.container-flex {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: stretch !important;
+    justify-content: center !important;
+    gap: 20px;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+  }
 
 .new-row > .container-fluid.container-flex > .center-block.widget39,
 .new-row > .container-fluid.container-flex > .center-block.widget40,
@@ -502,4 +503,5 @@
     width: 1% !important;
     white-space: nowrap;
   }
+}
 }

@@ -6,13 +6,8 @@
   box-sizing: border-box;
 }
 
-img,
-iframe,
-svg,
-video,
-table {
-  max-width: 100%;
-}
+// Note: media element resets moved to @mixin responsive-media-reset
+// Apply selectively via mixin to avoid interfering with tables
 
 body {
   background-color: #fff;

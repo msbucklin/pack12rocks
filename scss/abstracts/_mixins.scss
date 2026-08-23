@@ -39,3 +39,14 @@
     text-align: left !important;
   }
 }
+
+// Responsive media reset - selectively apply to make images/embeds fluid
+// Apply this mixin only where responsive media is needed; don't use globally
+@mixin responsive-media-reset {
+  img,
+  iframe,
+  svg,
+  video {
+    max-width: 100%;
+  }
+}

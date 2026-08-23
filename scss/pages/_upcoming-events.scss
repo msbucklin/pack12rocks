@@ -1,0 +1,346 @@
+// Upcoming Events page (Menu_Item_ID=319)
+
+body:has(#Menu_Item_ID[value="319"]) {
+  background: linear-gradient(135deg, rgba(216, 164, 42, 0.08), transparent 32%), #f5f8fb;
+
+  p.page-title {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto 16px !important;
+    padding: 0 20px;
+    color: #0d3b72;
+    font-size: 34px;
+    font-weight: 800;
+    letter-spacing: 0.01em;
+  }
+
+  .new-row > .container-fluid {
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .container-fluid.container-flex {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  #fs16437 .nav-tabs {
+    margin: 0;
+    border-bottom: 1px solid rgba(13, 59, 114, 0.18);
+  }
+
+  #fs16437 .nav-tabs > li > a {
+    padding: 10px 14px;
+    color: #495b73;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 8px 8px 0 0;
+  }
+
+  #fs16437 .nav-tabs > li.active > a,
+  #fs16437 .nav-tabs > li.active > a:hover,
+  #fs16437 .nav-tabs > li.active > a:focus {
+    color: #0d3b72;
+    background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%);
+    border-color: rgba(13, 59, 114, 0.18);
+    border-bottom-color: transparent;
+  }
+
+  #fs411 {
+    .center-block {
+      width: 100% !important;
+      max-width: 1200px !important;
+      margin: 0 auto !important;
+      padding: 0;
+      color: #495b73;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .text-center {
+      display: flex !important;
+      justify-content: flex-start !important;
+      align-items: center !important;
+      gap: 10px 12px !important;
+      flex-wrap: wrap !important;
+      padding: 12px 14px !important;
+    }
+
+    .text-center > span {
+      display: inline-flex !important;
+      margin: 0 !important;
+    }
+
+    .text-center .btn {
+      min-height: 40px;
+      padding: 9px 16px !important;
+      border-radius: 10px !important;
+    }
+  }
+
+  #fs412 {
+    .center-block.table-responsive {
+      width: 100% !important;
+      max-width: 1200px !important;
+      margin: 0 auto !important;
+      overflow-x: auto;
+    }
+
+    .center-block.table-responsive > table:first-child {
+      width: 100% !important;
+      border-collapse: separate;
+      border-spacing: 0;
+      background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%);
+      border: 1px solid rgba(13, 59, 114, 0.14);
+      border-radius: 10px;
+    }
+
+    .center-block.table-responsive > table:first-child > tbody > tr:first-child > td {
+      padding: 10px 14px !important;
+      border: 0;
+      text-align: right;
+    }
+
+    .rows-per-page {
+      color: #0d3b72;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    select.rows-per-page {
+      min-height: 34px;
+      margin-left: 4px;
+      padding: 6px 26px 6px 8px;
+      color: #0d3b72;
+      border: 1px solid rgba(13, 59, 114, 0.22);
+      border-radius: 6px;
+      background: #ffffff;
+      font: 13px Montserrat, sans-serif;
+    }
+
+    .pagination {
+      margin: 0 0 0 10px;
+    }
+
+    .pagination > li > a,
+    .pagination > li > span {
+      min-width: 32px;
+      min-height: 32px;
+      padding: 7px 9px;
+      color: #0d3b72;
+      border: 1px solid rgba(13, 59, 114, 0.18);
+      background: rgba(255, 255, 255, 0.72);
+      font-size: 12px;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    .pagination > .active > a,
+    .pagination > .active > span {
+      color: #ffffff;
+      background: #0d3b72;
+      border-color: #0d3b72;
+    }
+
+    table#sortablegrid412 {
+      width: 100% !important;
+      min-width: 820px;
+      border-collapse: separate !important;
+      border-spacing: 0 !important;
+      border: 1px solid rgba(13, 59, 114, 0.14) !important;
+      border-radius: 10px;
+      overflow: hidden;
+      background: #ffffff;
+    }
+
+    #sortablegrid412 thead th {
+      padding: 11px 12px !important;
+      color: #0d3b72 !important;
+      background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%) !important;
+      border: 0 !important;
+      border-bottom: 1px solid rgba(13, 59, 114, 0.18) !important;
+      font-size: 13px;
+      font-weight: 700;
+      text-align: left;
+      white-space: nowrap;
+    }
+
+    #sortablegrid412 thead th a {
+      color: #0d3b72 !important;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    #sortablegrid412 .sortarrow img {
+      display: none !important;
+    }
+
+    #sortablegrid412 tbody td {
+      padding: 10px 12px !important;
+      color: #1f2d3d;
+      border: 0 !important;
+      border-top: 1px solid rgba(13, 59, 114, 0.09) !important;
+      font-size: 13px;
+      line-height: 1.4;
+      vertical-align: middle !important;
+      background: transparent;
+    }
+
+    #sortablegrid412 tbody tr:nth-of-type(odd) td {
+      background: #ffffff !important;
+    }
+
+    #sortablegrid412 tbody tr:nth-of-type(even) td {
+      background: #f7faff !important;
+    }
+
+    #sortablegrid412 thead th:nth-of-type(1),
+    #sortablegrid412 tbody td:nth-of-type(1) {
+      width: 90px;
+      text-align: center;
+    }
+
+    #sortablegrid412 thead th:nth-of-type(2),
+    #sortablegrid412 tbody td:nth-of-type(2) {
+      width: 18%;
+      text-align: left;
+    }
+
+    #sortablegrid412 thead th:nth-of-type(3),
+    #sortablegrid412 tbody td:nth-of-type(3) {
+      width: 18%;
+      text-align: left;
+    }
+
+    #sortablegrid412 thead th:nth-of-type(4),
+    #sortablegrid412 tbody td:nth-of-type(4) {
+      width: 14%;
+      text-align: left;
+    }
+
+    #sortablegrid412 thead th:nth-of-type(5),
+    #sortablegrid412 tbody td:nth-of-type(5) {
+      width: 14%;
+      text-align: center;
+    }
+
+    #sortablegrid412 thead th:nth-of-type(6),
+    #sortablegrid412 tbody td:nth-of-type(6) {
+      width: 12%;
+      text-align: left;
+    }
+
+    #sortablegrid412 thead th:nth-of-type(7),
+    #sortablegrid412 tbody td:nth-of-type(7) {
+      width: 12%;
+      text-align: left;
+    }
+
+    #sortablegrid412 thead th:nth-of-type(8),
+    #sortablegrid412 tbody td:nth-of-type(8) {
+      width: 10%;
+      text-align: left;
+    }
+
+    #sortablegrid412 thead th:nth-of-type(9),
+    #sortablegrid412 tbody td:nth-of-type(9) {
+      width: 90px;
+      text-align: center;
+    }
+
+    #sortablegrid412 tbody td:nth-of-type(2),
+    #sortablegrid412 tbody td:nth-of-type(3),
+    #sortablegrid412 tbody td:nth-of-type(4),
+    #sortablegrid412 tbody td:nth-of-type(6),
+    #sortablegrid412 tbody td:nth-of-type(7),
+    #sortablegrid412 tbody td:nth-of-type(8) {
+      white-space: normal;
+      overflow-wrap: anywhere;
+    }
+
+    @media (min-width: 768px) {
+      & #sortablegrid412 {
+        display: table !important;
+        table-layout: fixed !important;
+      }
+
+      & #sortablegrid412 > thead,
+      & #sortablegrid412 > tbody,
+      & #sortablegrid412 > tfoot {
+        display: table-header-group !important;
+      }
+
+      & #sortablegrid412 > tbody {
+        display: table-row-group !important;
+      }
+
+      & #sortablegrid412 > thead > tr,
+      & #sortablegrid412 > tbody > tr,
+      & #sortablegrid412 > tfoot > tr {
+        display: table-row !important;
+      }
+
+      & #sortablegrid412 > thead > tr > th,
+      & #sortablegrid412 > tbody > tr > td,
+      & #sortablegrid412 > tfoot > tr > td {
+        display: table-cell !important;
+        float: none !important;
+        position: static !important;
+        writing-mode: horizontal-tb !important;
+        transform: none !important;
+      }
+    }
+
+    @media (max-width: 767px) {
+      .center-block.table-responsive > table:first-child > tbody > tr:first-child > td {
+        padding: 10px 0 18px !important;
+        text-align: right;
+      }
+
+      .center-block.table-responsive > table:first-child > tbody > tr:first-child > td > div {
+        display: flex !important;
+        float: none !important;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 8px;
+        width: 100%;
+      }
+
+      .pagination {
+        margin: 0;
+      }
+
+      table#sortablegrid412 {
+        display: table !important;
+        width: 100% !important;
+        max-width: none !important;
+        min-width: 0 !important;
+        table-layout: fixed !important;
+      }
+
+      & #sortablegrid412 > thead,
+      & #sortablegrid412 > tbody {
+        display: table-header-group !important;
+      }
+
+      & #sortablegrid412 > thead > tr,
+      & #sortablegrid412 > tbody > tr {
+        display: table-row !important;
+      }
+
+      & #sortablegrid412 > thead > tr > th,
+      & #sortablegrid412 > tbody > tr > td {
+        display: table-cell !important;
+        float: none !important;
+        position: static !important;
+        writing-mode: horizontal-tb !important;
+        transform: none !important;
+        white-space: nowrap !important;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+}
