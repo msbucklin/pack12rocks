@@ -43,26 +43,26 @@
     margin-bottom: 15px !important;
   }
 
-  .table-responsive,
-  .table-responsive.table-curved,
-  .table-responsive.table-condensed {
+  #fs799 .table-responsive,
+  #fs799 .table-responsive.table-curved,
+  #fs799 .table-responsive.table-condensed {
     overflow-x: hidden !important;
     max-width: 100% !important;
   }
 
-  .table,
-  .table-striped,
-  .table-bordered,
-  .table-condensed,
-  .table-curved,
-  .table-responsive {
+  #fs799 .table,
+  #fs799 .table-striped,
+  #fs799 .table-bordered,
+  #fs799 .table-condensed,
+  #fs799 .table-curved,
+  #fs799 .table-responsive {
     width: 100% !important;
     max-width: 100% !important;
     table-layout: fixed !important;
     min-width: 0 !important;
   }
 
-  .calendar-cell {
+  #fs799 .calendar-cell {
     padding: 6px 4px !important;
     font-size: 11px !important;
     line-height: 1.25 !important;
@@ -71,9 +71,9 @@
     vertical-align: top;
   }
 
-  .calendar-cell b,
-  .calendar-cell i,
-  .calendar-cell a {
+  #fs799 .calendar-cell b,
+  #fs799 .calendar-cell i,
+  #fs799 .calendar-cell a {
     font-size: 11px !important;
   }
 
@@ -104,7 +104,7 @@
 }
 
 @media (max-width: 420px) {
-  .calendar-cell {
+  #fs799 .calendar-cell {
     min-width: 25px;
     width: 14% !important;
   }

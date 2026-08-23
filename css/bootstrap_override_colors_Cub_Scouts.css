@@ -1092,24 +1092,24 @@ a[href*=togglemenu]:hover .navicon, a[href*=togglemenu]:focus .navicon, a[href*=
   #CalendarDateControl0 {
     margin-bottom: 15px !important;
   }
-  .table-responsive,
-  .table-responsive.table-curved,
-  .table-responsive.table-condensed {
+  #fs799 .table-responsive,
+  #fs799 .table-responsive.table-curved,
+  #fs799 .table-responsive.table-condensed {
     overflow-x: hidden !important;
     max-width: 100% !important;
   }
-  .table,
-  .table-striped,
-  .table-bordered,
-  .table-condensed,
-  .table-curved,
-  .table-responsive {
+  #fs799 .table,
+  #fs799 .table-striped,
+  #fs799 .table-bordered,
+  #fs799 .table-condensed,
+  #fs799 .table-curved,
+  #fs799 .table-responsive {
     width: 100% !important;
     max-width: 100% !important;
     table-layout: fixed !important;
     min-width: 0 !important;
   }
-  .calendar-cell {
+  #fs799 .calendar-cell {
     padding: 6px 4px !important;
     font-size: 11px !important;
     line-height: 1.25 !important;
@@ -1117,9 +1117,9 @@ a[href*=togglemenu]:hover .navicon, a[href*=togglemenu]:focus .navicon, a[href*=
     overflow-wrap: anywhere;
     vertical-align: top;
   }
-  .calendar-cell b,
-  .calendar-cell i,
-  .calendar-cell a {
+  #fs799 .calendar-cell b,
+  #fs799 .calendar-cell i,
+  #fs799 .calendar-cell a {
     font-size: 11px !important;
   }
   #fs799 .table thead tr {
@@ -1147,7 +1147,7 @@ a[href*=togglemenu]:hover .navicon, a[href*=togglemenu]:focus .navicon, a[href*=
   }
 }
 @media (max-width: 420px) {
-  .calendar-cell {
+  #fs799 .calendar-cell {
     min-width: 25px;
     width: 14% !important;
   }
@@ -3493,6 +3493,394 @@ body:has(.center-block.widget75) .center-block.widget75 > div {
     display: flex !important;
     width: 100% !important;
     margin: 4px 0 !important;
+  }
+}
+
+#fs1160 .center-block {
+  width: 100% !important;
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  padding: 10px 20px 12px;
+  background: #ffffff;
+  border: 1px solid rgba(13, 59, 114, 0.14);
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(12, 32, 56, 0.07);
+}
+#fs1160 table.no-border {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 0 8px;
+}
+#fs1160 table.no-border tr {
+  display: table-row;
+}
+#fs1160 table.no-border td {
+  display: table-cell;
+  padding: 7px 10px;
+  border: 0;
+  vertical-align: middle;
+}
+#fs1160 table.no-border td:first-child {
+  width: 100px !important;
+  text-align: right;
+}
+#fs1160 table.no-border td:last-child {
+  width: calc(100% - 100px);
+  max-width: none;
+  padding-left: 10px;
+  color: #1f2d3d;
+  font-size: 14px;
+  text-align: left;
+}
+#fs1160 .control-label {
+  display: inline-block;
+  float: none !important;
+  margin: 0;
+  color: #0d3b72;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: right;
+}
+#fs1160 .RequiredIndicator {
+  color: #b62d35;
+}
+@media (max-width: 767px) {
+  #fs1160 .center-block {
+    padding: 18px 12px 8px 12px;
+  }
+  #fs1160 table.no-border,
+  #fs1160 table.no-border tbody,
+  #fs1160 table.no-border tr,
+  #fs1160 table.no-border td {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+  }
+  #fs1160 table.no-border {
+    table-layout: auto;
+  }
+  #fs1160 table.no-border tr {
+    margin-bottom: 12px;
+  }
+  #fs1160 table.no-border td,
+  #fs1160 table.no-border td:first-child,
+  #fs1160 table.no-border td:last-child {
+    padding: 0 0 6px !important;
+    text-align: left !important;
+  }
+  #fs1160 table.no-border td:first-child {
+    padding-bottom: 4px !important;
+  }
+  #fs1160 .control-label {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+@media (max-width: 767px) {
+  #fs1167 .center-block {
+    overflow-x: auto !important;
+  }
+  #fs1167 #sortablegrid5 {
+    display: table !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    table-layout: fixed !important;
+  }
+  #fs1167 #sortablegrid5 thead {
+    display: table-header-group !important;
+  }
+  #fs1167 #sortablegrid5 tbody {
+    display: table-row-group !important;
+  }
+  #fs1167 #sortablegrid5 tbody tr {
+    display: table-row !important;
+    grid-template-columns: none !important;
+    order: initial !important;
+  }
+  #fs1167 #sortablegrid5 thead th,
+  #fs1167 #sortablegrid5 tbody td {
+    display: table-cell !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+  }
+  #fs1167 #sortablegrid5 thead th a {
+    display: inline-block !important;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+  }
+  #fs1167 #sortablegrid5 tbody td::before {
+    content: none !important;
+    display: none !important;
+  }
+  #fs1167 #sortablegrid5 thead th:first-child,
+  #fs1167 #sortablegrid5 tbody td:first-child {
+    width: 68px !important;
+    text-align: center !important;
+  }
+  #fs1167 #sortablegrid5 thead th:nth-child(2),
+  #fs1167 #sortablegrid5 tbody td:nth-child(2) {
+    width: 34% !important;
+    text-align: left !important;
+  }
+  #fs1167 #sortablegrid5 thead th:nth-child(3),
+  #fs1167 #sortablegrid5 tbody td:nth-child(3) {
+    width: auto !important;
+    text-align: center !important;
+  }
+}
+#fs1161 {
+  margin: 18px auto !important;
+}
+#fs1161 .text-center {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 10px 12px !important;
+}
+#fs1161 .text-center > span {
+  display: inline-flex !important;
+  margin: 0 !important;
+}
+#fs1161 .text-center .btn {
+  min-height: 40px;
+  padding: 9px 16px !important;
+  border-radius: 10px !important;
+}
+@media (max-width: 767px) {
+  #fs1161 .text-center {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 10px !important;
+  }
+  #fs1161 .text-center > span,
+  #fs1161 .text-center .btn {
+    width: 100% !important;
+  }
+  #fs1161 .text-center .btn {
+    min-height: 52px;
+    padding: 12px 14px !important;
+  }
+}
+
+#fs1167 .center-block {
+  width: 100% !important;
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  overflow-x: auto;
+}
+#fs1167 table {
+  width: 100% !important;
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  border: 1px solid rgba(13, 59, 114, 0.14) !important;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #ffffff;
+}
+#fs1167 thead th {
+  padding: 11px 12px !important;
+  color: #0d3b72 !important;
+  background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%) !important;
+  border: 0 !important;
+  border-bottom: 1px solid rgba(13, 59, 114, 0.18) !important;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: left;
+}
+#fs1167 thead th:first-child {
+  width: 68px;
+  text-align: center;
+}
+#fs1167 thead th a {
+  color: #0d3b72 !important;
+  font-weight: 700;
+  text-decoration: none;
+}
+#fs1167 .sortarrow img {
+  display: none !important;
+}
+#fs1167 tbody td {
+  padding: 10px 12px !important;
+  color: #1f2d3d;
+  border: 0 !important;
+  border-top: 1px solid rgba(13, 59, 114, 0.09) !important;
+  font-size: 13px;
+  line-height: 1.4;
+  vertical-align: middle !important;
+  overflow-wrap: anywhere;
+}
+#fs1167 tbody tr:nth-of-type(odd) td {
+  background: #ffffff !important;
+}
+#fs1167 tbody tr:nth-of-type(even) td {
+  background: #f7faff !important;
+}
+#fs1167 tbody td:first-child {
+  width: 68px;
+  text-align: center !important;
+}
+#fs1167 #sortablegrid5 > tbody > tr > td:first-child input[type=checkbox] {
+  display: inline-block !important;
+  margin: 0 !important;
+  vertical-align: middle;
+}
+#fs1167 input[type=checkbox].form-control {
+  width: 20px !important;
+  min-height: 20px !important;
+  height: 20px;
+  margin: 0 !important;
+  padding: 0;
+}
+@media (min-width: 768px) {
+  #fs1167 #sortablegrid5 {
+    display: table !important;
+    table-layout: fixed !important;
+  }
+  #fs1167 #sortablegrid5 > thead,
+  #fs1167 #sortablegrid5 > tbody,
+  #fs1167 #sortablegrid5 > tfoot {
+    display: table-header-group !important;
+  }
+  #fs1167 #sortablegrid5 > tbody {
+    display: table-row-group !important;
+  }
+  #fs1167 #sortablegrid5 > tfoot {
+    display: table-footer-group !important;
+  }
+  #fs1167 #sortablegrid5 > thead > tr,
+  #fs1167 #sortablegrid5 > tbody > tr,
+  #fs1167 #sortablegrid5 > tfoot > tr {
+    display: table-row !important;
+  }
+  #fs1167 #sortablegrid5 > thead > tr > th,
+  #fs1167 #sortablegrid5 > tbody > tr > td,
+  #fs1167 #sortablegrid5 > tfoot > tr > td {
+    display: table-cell !important;
+    float: none !important;
+    position: static !important;
+    writing-mode: horizontal-tb !important;
+    transform: none !important;
+  }
+  #fs1167 #sortablegrid5 > thead > tr > th:first-child,
+  #fs1167 #sortablegrid5 > tbody > tr > td:first-child {
+    width: 68px !important;
+    text-align: center !important;
+  }
+  #fs1167 #sortablegrid5 > thead > tr > th:nth-child(2),
+  #fs1167 #sortablegrid5 > tbody > tr > td:nth-child(2) {
+    width: 34% !important;
+    text-align: left !important;
+  }
+  #fs1167 #sortablegrid5 > thead > tr > th:nth-child(3),
+  #fs1167 #sortablegrid5 > tbody > tr > td:nth-child(3) {
+    width: auto !important;
+    text-align: left !important;
+  }
+  #fs1167 #sortablegrid5 > tbody > tr > td:nth-child(2),
+  #fs1167 #sortablegrid5 > tbody > tr > td:nth-child(3) {
+    text-align: left !important;
+    justify-content: flex-start !important;
+  }
+  #fs1167 #sortablegrid5 > tbody > tr > td:nth-child(3) {
+    text-align: center !important;
+  }
+  #fs1167 #sortablegrid5 > tbody > tr > td.text-center {
+    text-align: left !important;
+  }
+  #fs1167 #sortablegrid5 > tbody > tr > td:first-child.text-center {
+    text-align: center !important;
+  }
+  #fs1167 #fs1161 .text-center {
+    justify-content: flex-start !important;
+    text-align: left !important;
+  }
+}
+@media (max-width: 767px) {
+  #fs1167 .center-block {
+    overflow-x: hidden;
+  }
+  #fs1167 table {
+    display: block !important;
+    min-width: 0;
+    border: 0 !important;
+    overflow: visible;
+  }
+  #fs1167 thead {
+    display: none !important;
+  }
+  #fs1167 tbody {
+    display: block !important;
+    width: 100%;
+  }
+  #fs1167 tbody tr {
+    display: grid !important;
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 0 0 8px;
+    border: 1px solid rgba(13, 59, 114, 0.14);
+    border-radius: 10px;
+    overflow: hidden;
+    background: #ffffff;
+    box-shadow: 0 6px 14px rgba(13, 31, 54, 0.06);
+  }
+  #fs1167 tbody tr:nth-of-type(odd) td,
+  #fs1167 tbody tr:nth-of-type(even) td {
+    background: #ffffff !important;
+  }
+  #fs1167 tbody td {
+    display: block !important;
+    width: 100% !important;
+    padding: 10px 14px !important;
+    border: 0 !important;
+    text-align: left !important;
+  }
+  #fs1167 tbody td:nth-child(2) {
+    order: 1;
+    grid-column: 1/-1;
+    padding-bottom: 4px !important;
+    color: #0d3b72;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  #fs1167 tbody td:nth-child(3) {
+    order: 2;
+    grid-column: 1/-1;
+    padding-top: 4px !important;
+  }
+  #fs1167 tbody td:nth-child(3)::before {
+    display: block;
+    margin-bottom: 4px;
+    color: #173a63;
+    content: "Member";
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  #fs1167 tbody td:first-child {
+    order: 3;
+    grid-column: 1;
+    grid-row: 3;
+    width: 100% !important;
+    padding: 12px 14px 0 !important;
+    justify-self: stretch;
+    text-align: right !important;
+  }
+  #fs1167 tbody td:first-child input[type=checkbox] {
+    display: block !important;
+    margin: 0 0 0 auto !important;
   }
 }
 
