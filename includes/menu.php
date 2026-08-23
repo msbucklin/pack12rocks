@@ -153,6 +153,20 @@ $menuSections = [
         'Send User IDs & Passwords' => '/administration/user-send-password.php',
         'Automatically Send New User IDs' => '/administration/admin-users-auto-send.php',
         'Display User Permissions' => '/administration/admin-user-permissions.php',
+        'User Permissions Report' => [
+            'Print (Export to PDF)' => '/administration/user-permissions-report.php?format=pdf',
+            'Open in Excel' => '/administration/user-permissions-report.php?format=xls',
+        ],
+        'Menu Security Report' => [
+            'Print (Export to PDF)' => '/administration/menu-security-report.php?format=pdf',
+            'Open in Excel' => '/administration/menu-security-report.php?format=xls',
+        ],
+        'User Activity Report' => [
+            'Print (Export to PDF)' => '/administration/user-activity-report.php?format=pdf',
+            'Open in Excel' => '/administration/user-activity-report.php?format=xls',
+        ],
+        'Database Backup' => '/administration/database-backup.php',
+        'Renew Subscription' => '/administration/renew-subscription.php',
         'TroopWebHost Administrative Contacts' => '/administration/admin-contacts.php',
     ],
 ];
