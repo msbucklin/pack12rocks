@@ -1,0 +1,335 @@
+// -----------------------------------------------------------------------------
+// User permissions page styling
+// -----------------------------------------------------------------------------
+
+body:has(#fs6640) {
+  background: linear-gradient(135deg, rgba(216, 164, 42, 0.08), transparent 32%), #f5f8fb;
+}
+
+@media (max-width: 767px) {
+  #fs6640 #sortablegrid6640 {
+    display: table !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    table-layout: fixed !important;
+    border: 1px solid rgba(13, 59, 114, 0.14) !important;
+    overflow: hidden;
+  }
+
+  #fs6640 #sortablegrid6640 > thead {
+    display: table-header-group !important;
+  }
+
+  #fs6640 #sortablegrid6640 > tbody {
+    display: table-row-group !important;
+  }
+
+  #fs6640 #sortablegrid6640 > thead > tr,
+  #fs6640 #sortablegrid6640 > tbody > tr {
+    display: table-row !important;
+  }
+
+  #fs6640 #sortablegrid6640 > thead > tr > th,
+  #fs6640 #sortablegrid6640 > tbody > tr > td {
+    display: table-cell !important;
+    width: auto !important;
+    max-width: none !important;
+    padding: 9px 8px !important;
+    border: 0 !important;
+    border-top: 1px solid rgba(13, 59, 114, 0.09) !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    text-align: left !important;
+  }
+
+  #fs6640 #sortablegrid6640 > thead > tr > th:nth-of-type(2),
+  #fs6640 #sortablegrid6640 > tbody > tr > td:nth-of-type(2),
+  #fs6640 #sortablegrid6640 > thead > tr > th:nth-of-type(4),
+  #fs6640 #sortablegrid6640 > tbody > tr > td:nth-of-type(4) {
+    display: none !important;
+  }
+
+  #fs6640 #sortablegrid6640 > thead > tr > th:nth-of-type(1),
+  #fs6640 #sortablegrid6640 > tbody > tr > td:nth-of-type(1) {
+    width: 55% !important;
+    text-align: left !important;
+  }
+
+  #fs6640 #sortablegrid6640 > thead > tr > th:nth-of-type(3),
+  #fs6640 #sortablegrid6640 > tbody > tr > td:nth-of-type(3) {
+    width: 45% !important;
+    text-align: left !important;
+  }
+
+  #fs6640 #sortablegrid6640 > tbody > tr > td::before {
+    content: none !important;
+    display: none !important;
+  }
+
+  #fs6640 #sortablegrid6640 > tfoot {
+    display: table-footer-group !important;
+  }
+
+  #fs6640 #sortablegrid6640 > tfoot > tr {
+    display: table-row !important;
+  }
+
+  #fs6640 #sortablegrid6640 > tfoot > tr > td {
+    display: table-cell !important;
+    width: 100% !important;
+  }
+}
+
+#fs6639 {
+  .center-block {
+    width: 100% !important;
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+  }
+
+  .text-center {
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+  }
+
+  .text-center .btn {
+    min-height: 40px;
+    padding: 9px 16px !important;
+    border-radius: 10px !important;
+  }
+}
+
+#fs6640 {
+  .center-block.table-responsive {
+    width: 100% !important;
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+    overflow-x: auto;
+  }
+
+  .center-block.table-responsive > table:first-child {
+    width: 100% !important;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%);
+    border: 1px solid rgba(13, 59, 114, 0.14);
+    border-radius: 10px;
+  }
+
+  .center-block.table-responsive > table:first-child > tbody > tr:first-child > td {
+    padding: 10px 14px 22px !important;
+    border: 0;
+    text-align: right;
+    vertical-align: middle;
+  }
+
+  .rows-per-page {
+    color: $text-dark;
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+  span.rows-per-page {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0;
+  }
+
+  span.rows-per-page::before {
+    content: "Rows Per Page:";
+    color: $text-dark;
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+  select.rows-per-page {
+    min-height: 34px;
+    margin: 0 0 0 4px;
+    padding: 6px 26px 6px 8px;
+    color: $text-dark;
+    border: 1px solid rgba(13, 59, 114, 0.22);
+    border-radius: 6px;
+    background: #ffffff;
+    font: 13px Montserrat, sans-serif;
+  }
+
+  .pagination {
+    margin: 0 0 0 10px;
+    vertical-align: middle;
+  }
+
+  .pagination > li > a,
+  .pagination > li > span {
+    min-width: 32px;
+    min-height: 32px;
+    padding: 7px 9px;
+    color: $text-dark;
+    border: 1px solid rgba(13, 59, 114, 0.18);
+    background: rgba(255, 255, 255, 0.72);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .pagination > .active > a,
+  .pagination > .active > span {
+    color: #ffffff;
+    background: $navy-700;
+    border-color: $navy-700;
+  }
+
+  table#sortablegrid6640 {
+    width: 100% !important;
+    min-width: 680px;
+    border-collapse: separate !important;
+    border-spacing: 0 !important;
+    border: 1px solid rgba(13, 59, 114, 0.14) !important;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #ffffff;
+  }
+
+  #sortablegrid6640 thead th {
+    padding: 11px 12px !important;
+    color: $text-dark !important;
+    background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%) !important;
+    border: 0 !important;
+    border-bottom: 1px solid rgba(13, 59, 114, 0.18) !important;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: left !important;
+    white-space: nowrap;
+  }
+
+  #sortablegrid6640 thead th a {
+    color: $text-dark !important;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  #sortablegrid6640 .sortarrow img {
+    display: none !important;
+  }
+
+  #sortablegrid6640 tbody td {
+    padding: 10px 12px !important;
+    color: #1f2d3d;
+    border: 0 !important;
+    border-top: 1px solid rgba(13, 59, 114, 0.09) !important;
+    font-size: 13px;
+    line-height: 1.4;
+    text-align: left !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  #sortablegrid6640 tbody tr:nth-of-type(odd) td {
+    background: #ffffff !important;
+  }
+
+  #sortablegrid6640 tbody tr:nth-of-type(even) td {
+    background: #f7faff !important;
+  }
+
+  #sortablegrid6640 tbody td:first-child {
+    width: 24%;
+  }
+
+  #sortablegrid6640 tbody td:nth-child(2) {
+    width: 18%;
+  }
+
+  #sortablegrid6640 tbody td:nth-child(3) {
+    width: 18%;
+  }
+
+  #sortablegrid6640 tbody td:nth-child(4) {
+    width: 40%;
+  }
+
+  #sortablegrid6640 tfoot td {
+    padding: 14px 12px !important;
+    border: 0 !important;
+    border-top: 1px solid rgba(13, 59, 114, 0.12) !important;
+    background: #f7faff !important;
+    font-size: 0;
+    text-align: center !important;
+  }
+
+  #sortablegrid6640 tfoot td > input[type="button"] {
+    display: inline-flex !important;
+    min-height: 40px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 6px !important;
+    padding: 9px 16px !important;
+    border: 1px solid rgba(13, 59, 114, 0.2) !important;
+    border-radius: 10px !important;
+    color: #ffffff !important;
+    background: linear-gradient(180deg, #1b6eb8 0%, #2783d1 100%) !important;
+    font-size: 13px !important;
+    font-weight: 700 !important;
+    line-height: 1.2 !important;
+    box-shadow: 0 3px 8px rgba(13, 31, 54, 0.08) !important;
+  }
+
+  #sortablegrid6640 tfoot td > input[type="button"][value="Open in Excel"] {
+    color: $text-dark !important;
+    background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%) !important;
+  }
+
+  @media (min-width: 768px) {
+    #sortablegrid6640 {
+      display: table !important;
+      table-layout: fixed !important;
+    }
+
+    #sortablegrid6640 > thead,
+    #sortablegrid6640 > tbody,
+    #sortablegrid6640 > tfoot {
+      display: table-header-group !important;
+    }
+
+    #sortablegrid6640 > tbody {
+      display: table-row-group !important;
+    }
+
+    #sortablegrid6640 > tfoot {
+      display: table-footer-group !important;
+    }
+
+    #sortablegrid6640 > thead > tr,
+    #sortablegrid6640 > tbody > tr,
+    #sortablegrid6640 > tfoot > tr {
+      display: table-row !important;
+    }
+
+    #sortablegrid6640 > thead > tr > th,
+    #sortablegrid6640 > tbody > tr > td,
+    #sortablegrid6640 > tfoot > tr > td {
+      display: table-cell !important;
+      float: none !important;
+      position: static !important;
+      transform: none !important;
+      writing-mode: horizontal-tb !important;
+    }
+  }
+
+  @media (max-width: 449px) {
+    #sortablegrid6640 > tfoot > tr > td {
+      text-align: center !important;
+    }
+
+    #sortablegrid6640 > tfoot > tr > td > input[type="button"] {
+      display: block !important;
+      width: 100% !important;
+      margin: 4px 0 !important;
+    }
+  }
+
+}
