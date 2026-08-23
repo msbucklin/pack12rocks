@@ -4152,6 +4152,17 @@ body:has(#fs1740) {
   margin: 0 !important;
   padding: 0;
 }
+@media (min-width: 768px) {
+  #fs1738 #sortablegrid15 > thead > tr > th:nth-of-type(4),
+  #fs1738 #sortablegrid15 > tbody > tr > td:nth-of-type(4) {
+    width: 180px !important;
+    max-width: 180px !important;
+    text-align: left !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+  }
+}
 #fs1738 tfoot td {
   padding: 14px 12px !important;
   border: 0 !important;
