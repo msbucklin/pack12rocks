@@ -54,6 +54,98 @@ $menuSections = [
     ],
     'Membership' => [
         'Membership Hub' => '/membership/membership-hub.php',
+        'Quick Dial' => '/membership/quick-dial.php',
+        'Active Members' => '/membership/active-members.php',
+        'Inactive Members' => '/membership/inactive-members.php',
+        'Transfer Scouts' => '/membership/transfer-scouts.php',
+        'Merge Duplicate Members' => '/membership/merge-duplicate-members.php',
+        'Membership Reports' => [
+            'Membership Directory' => [
+                'Print (Export to PDF)' => '/membership/membership-directory.php?format=pdf',
+                'Open in Excel' => '/membership/membership-directory.php?format=xls',
+            ],
+            'Leader Directory' => [
+                'Print (Export to PDF)' => '/membership/leader-directory.php?format=pdf',
+                'Open in Excel' => '/membership/leader-directory.php?format=xls',
+            ],
+            'Contact List' => [
+                'Print (Export to PDF)' => '/membership/contact-list.php?format=pdf',
+                'Open in Excel' => '/membership/contact-list.php?format=xls',
+            ],
+            'Emergency Contact List' => [
+                'Print (Export to PDF)' => '/membership/emergency-contact-list.php?format=pdf',
+                'Open in Excel' => '/membership/emergency-contact-list.php?format=xls',
+            ],
+            'Den List By Member Name' => [
+                'Print (Export to PDF)' => '/membership/den-list-by-member-name.php?format=pdf',
+                'Open in Excel' => '/membership/den-list-by-member-name.php?format=xls',
+            ],
+            'Den List By Den' => [
+                'Print (Export to PDF)' => '/membership/den-list-by-den.php?format=pdf',
+                'Open in Excel' => '/membership/den-list-by-den.php?format=xls',
+            ],
+            'Den List With Parent Info' => [
+                'Print (Export to PDF)' => '/membership/den-list-with-parent-info.php?format=pdf',
+                'Open in Excel' => '/membership/den-list-with-parent-info.php?format=xls',
+            ],
+            'Members With Allergies Or Dietary Restrictions' => [
+                'Print (Export to PDF)' => '/membership/members-with-allergies-or-dietary-restrictions.php?format=pdf',
+                'Open in Excel' => '/membership/members-with-allergies-or-dietary-restrictions.php?format=xls',
+            ],
+            'Medical Form Effective Dates' => [
+                'Print (Export to PDF)' => '/membership/medical-form-effective-dates.php?format=pdf',
+                'Open in Excel' => '/membership/medical-form-effective-dates.php?format=xls',
+            ],
+            'Family Cross Reference' => [
+                'Print (Export to PDF)' => '/membership/family-cross-reference.php?format=pdf',
+                'Open in Excel' => '/membership/family-cross-reference.php?format=xls',
+            ],
+            'Expired Training By Course' => [
+                'Print (Export to PDF)' => '/membership/expired-training-by-course.php?format=pdf',
+                'Open in Excel' => '/membership/expired-training-by-course.php?format=xls',
+            ],
+            'Expired Training By Person' => [
+                'Print (Export to PDF)' => '/membership/expired-training-by-person.php?format=pdf',
+                'Open in Excel' => '/membership/expired-training-by-person.php?format=xls',
+            ],
+            'Required Training By Course' => [
+                'Print (Export to PDF)' => '/membership/required-training-by-course.php?format=pdf',
+                'Open in Excel' => '/membership/required-training-by-course.php?format=xls',
+            ],
+            'Required Training By Person' => [
+                'Print (Export to PDF)' => '/membership/required-training-by-person.php?format=pdf',
+                'Open in Excel' => '/membership/required-training-by-person.php?format=xls',
+            ],
+            'Leaders Who Need YPT' => [
+                'Print (Export to PDF)' => '/membership/leaders-who-need-ypt.php?format=pdf',
+                'Open in Excel' => '/membership/leaders-who-need-ypt.php?format=xls',
+            ],
+            'Upcoming BSA Registration Renewals' => [
+                'Print (Export to PDF)' => '/membership/upcoming-bsa-registration-renewals.php?format=pdf',
+                'Open in Excel' => '/membership/upcoming-bsa-registration-renewals.php?format=xls',
+            ],
+            'BSA Registration' => [
+                'Print (Export to PDF)' => '/membership/bsa-registration.php?format=pdf',
+                'Open in Excel' => '/membership/bsa-registration.php?format=xls',
+            ],
+        ],
+        'Dynamic Subgroups' => '/membership/dynamic-subgroups.php',
+        'Leadership' => '/membership/leadership.php',
+        'Training' => '/membership/training.php',
+        'Upload Training From My.Scouting.Org' => '/membership/upload-training-from-my-scouting.php',
+        'Advance Grade' => '/membership/advance-grade.php',
+        'Upload Members' => [
+            'Upload ScoutbookPlus Roster Report' => '/membership/upload-scoutbookplus-roster-report.php',
+            'Upload Scouts From ScoutBook' => '/membership/upload-scouts-from-scoutbook.php',
+            'Upload Adults From ScoutBook' => '/membership/upload-adults-from-scoutbook.php',
+            'Upload Roster From My.Scouting' => '/membership/upload-roster-from-my-scouting.php',
+        ],
+        'Update All . . .' => [
+            'BSA Registration' => '/membership/update-all-bsa-registration.php',
+            'Medical Form Date' => '/membership/update-all-medical-form-date.php',
+            'Allergies and Dietary Restrictions' => '/membership/update-all-allergies-and-dietary-restrictions.php',
+        ],
+        'Export Roster to Excel' => '/membership/export-roster-to-excel.php',
     ],
     'Administration' => [
         'Users & Passwords' => '/administration/users-and-passwords.php',
