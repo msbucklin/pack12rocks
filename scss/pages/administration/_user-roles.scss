@@ -1,0 +1,253 @@
+// -----------------------------------------------------------------------------
+// User roles page styling
+// -----------------------------------------------------------------------------
+
+#fs7254 {
+  .center-block {
+    width: 100% !important;
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+    padding: 0 auto !important;
+    color: $text-mid;
+    font-size: 13px;
+    line-height: 1.5;
+    text-align: left;
+  }
+
+  h3 {
+    margin: 0;
+    color: $text-dark;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+}
+
+#fs1166 {
+  .center-block {
+    width: 100% !important;
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+    overflow-x: auto;
+  }
+
+  table.sortable.table-curved {
+    min-width: 680px;
+
+    thead th {
+      vertical-align: middle;
+
+      &:first-child,
+      &:last-child {
+        width: 120px;
+        text-align: center;
+      }
+    }
+
+    tbody td {
+      overflow-wrap: anywhere;
+
+      &:first-child,
+      &:last-child {
+        text-align: center !important;
+      }
+
+      .btn {
+        min-height: 36px;
+        min-width: 88px;
+        padding: 8px 12px !important;
+        border-radius: 8px !important;
+        font-size: 12px !important;
+      }
+    }
+
+    tfoot td {
+      padding: 14px 12px !important;
+      border: 0 !important;
+      border-top: 1px solid rgba(13, 59, 114, 0.12) !important;
+      background: #f7faff !important;
+      text-align: center !important;
+
+      > input[type="button"] {
+        display: inline-flex !important;
+        min-height: 40px;
+        align-items: center;
+        justify-content: center;
+        margin: 0 6px !important;
+        padding: 9px 16px !important;
+        border: 1px solid rgba(13, 59, 114, 0.2) !important;
+        border-radius: 10px !important;
+        color: #ffffff !important;
+        background: linear-gradient(180deg, #1b6eb8 0%, #2783d1 100%) !important;
+        font-size: 13px !important;
+        font-weight: 700 !important;
+        line-height: 1.2 !important;
+        box-shadow: 0 3px 8px rgba(13, 31, 54, 0.08) !important;
+
+        &[value="Open in Excel"] {
+          color: $text-dark !important;
+          background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%) !important;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+    table.sortable.table-curved {
+      display: table !important;
+      table-layout: auto !important;
+
+      > thead,
+      > tbody,
+      > tfoot {
+        display: table-header-group !important;
+      }
+
+      > tbody {
+        display: table-row-group !important;
+      }
+
+      > tfoot {
+        display: table-footer-group !important;
+      }
+
+      > thead > tr,
+      > tbody > tr,
+      > tfoot > tr {
+        display: table-row !important;
+      }
+
+      > thead > tr > th,
+      > tbody > tr > td,
+      > tfoot > tr > td {
+        display: table-cell !important;
+        float: none !important;
+        position: static !important;
+        writing-mode: horizontal-tb !important;
+        transform: none !important;
+      }
+
+      > tbody > tr > td:first-child,
+      > tbody > tr > td:last-child {
+        order: initial !important;
+      }
+    }
+  }
+
+  @media (max-width: 767px) {
+    .center-block {
+      overflow-x: hidden;
+    }
+
+    table.sortable.table-curved {
+      display: block !important;
+      min-width: 0;
+      border: 0 !important;
+      overflow: visible;
+
+      thead {
+        display: none !important;
+      }
+
+      tbody {
+        display: block !important;
+        width: 100%;
+
+        tr {
+          display: grid !important;
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          gap: 0;
+          width: 100%;
+          margin-bottom: 12px;
+          padding: 0 0 10px;
+          border: 1px solid rgba(13, 59, 114, 0.14);
+          border-radius: 10px;
+          overflow: hidden;
+          background: #ffffff;
+          box-shadow: 0 6px 14px rgba(13, 31, 54, 0.06);
+
+          &:nth-of-type(odd) td,
+          &:nth-of-type(even) td {
+            background: #ffffff !important;
+          }
+        }
+
+        td {
+          display: block !important;
+          width: 100% !important;
+          min-width: 0;
+          padding: 10px 14px !important;
+          border: 0 !important;
+          text-align: left !important;
+          overflow-wrap: anywhere;
+
+          &:nth-child(2) {
+            order: 1;
+            grid-column: 1 / -1;
+            padding-bottom: 4px !important;
+            color: $text-dark;
+            font-size: 15px;
+            font-weight: 700;
+          }
+
+          &:nth-child(3) {
+            order: 2;
+            grid-column: 1 / -1;
+            padding-top: 4px !important;
+            color: #1f2d3d;
+
+            &::before {
+              display: block;
+              margin-bottom: 4px;
+              color: $text-mid;
+              content: "Description";
+              font-size: 10px;
+              font-weight: 700;
+              letter-spacing: 0.08em;
+              text-transform: uppercase;
+            }
+          }
+
+          &:nth-child(1),
+          &:nth-child(4) {
+            order: 3;
+            grid-column: span 1;
+            align-self: end;
+            padding: 12px 8px 0 !important;
+            text-align: center !important;
+          }
+
+          .btn {
+            width: 100%;
+            min-width: 0;
+            min-height: 40px;
+          }
+        }
+      }
+
+      tfoot {
+        display: block !important;
+        width: 100%;
+
+        tr,
+        td {
+          display: block !important;
+          width: 100% !important;
+        }
+
+        td {
+          padding: 10px 0 !important;
+          border-top: 0 !important;
+          background: transparent !important;
+
+          > input[type="button"] {
+            display: flex !important;
+            width: 100% !important;
+            margin: 4px 0 !important;
+          }
+        }
+      }
+    }
+  }
+}

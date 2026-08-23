@@ -66,7 +66,7 @@ Generic selectors like `.new-row`, `.center-block`, and `.text-center` appear ac
 - Debugging nightmares as selector conflicts cascade
 
 ## Events Hub (Menu_Item_ID=5787) Map
-File: `events-hub.html`
+File: `events/events-hub.php`
 
 Widget classes on page:
 - `widget35`: View Calendar card
@@ -80,7 +80,7 @@ Widget classes on page:
 - `widget37`: Reports links
 - `widget38`: Set Up links
 
-Primary styles live in: `scss/pages/_event.scss` under the Events Hub scoped block:
+Primary styles live in: `scss/pages/events/_event.scss` under the Events Hub scoped block:
 - `body:has(#Menu_Item_ID[value="5787"]) { ... }`
 
 ## Current Responsive Table Intent (Events Hub)
@@ -108,7 +108,7 @@ in a 3-column row.
 ## Styling Individual Pages
 When adding styles for a specific page:
 
-1. **Create or update the page's SCSS file** in `scss/pages/`:
+1. **Create or update the page's SCSS file** in its navigation folder under `scss/pages/`:
    - File naming: `_PAGENAME.scss` (e.g., `_upcoming-events.scss`, `_admin-contacts.scss`)
 
 2. **Wrap all styles in the scoping selector**:
@@ -120,7 +120,7 @@ When adding styles for a specific page:
 
 3. **Import the file** in `scss/bootstrap_override_colors_Cub_Scouts.scss`:
    ```scss
-   @import "pages/upcoming-events";
+  @import "pages/events/upcoming-events";
    ```
 
 4. **Keep it minimal**: Only style what's needed for this page. Let global styles handle baseline.

@@ -13,21 +13,26 @@
 
 @import "components/navigation";
 @import "components/widgets";
+@import "components/tables";
 
-@import "pages/calendar";
-@import "pages/content";
-@import "pages/home";
-@import "pages/my-info";
-@import "pages/member";
-@import "pages/user";
-@import "pages/user-access-log";
-@import "pages/user-roles";
-@import "pages/user-role-edit";
-@import "pages/user-send-password";
-@import "pages/admin-users-auto-send";
-@import "pages/admin-user-permissions";
-@import "pages/admin-contacts";
-@import "pages/change-password";
-@import "pages/membership-hub";
-@import "pages/event";
-@import "pages/upcoming-events";
+@import "pages/home/content";
+@import "pages/home/home";
+
+@import "pages/my-stuff/change-password";
+@import "pages/my-stuff/my-info";
+
+@import "pages/events/calendar";
+@import "pages/events/event";
+@import "pages/events/upcoming-events";
+
+@import "pages/membership/member";
+@import "pages/membership/membership-hub";
+
+@import "pages/administration/user";
+@import "pages/administration/user-access-log";
+@import "pages/administration/user-roles";
+@import "pages/administration/user-role-edit";
+@import "pages/administration/user-send-password";
+@import "pages/administration/admin-users-auto-send";
+@import "pages/administration/admin-user-permissions";
+@import "pages/administration/admin-contacts";
