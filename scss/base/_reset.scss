@@ -12,3 +12,29 @@
 body {
   background-color: #fff;
 }
+
+// Header Spacing Resets
+h1, h2, h3, h4, h5 {
+  margin: 0 0 20px 0 !important;
+}
+
+//
+// Class Overrides
+
+.text-left,
+.text-right,
+.text-center {
+  text-align: unset !important;
+}
+
+.control-label {
+  float: unset;
+  text-align: unset;
+}
+
+// Syle Overrides
+.bodyheading,
+h2 {
+  font-size: 1.6rem;
+  font-weight: 800;
+}

@@ -6,6 +6,27 @@ body {
   background-color: #fff;
 }
 
+h1, h2, h3, h4, h5 {
+  margin: 0 0 20px 0 !important;
+}
+
+.text-left,
+.text-right,
+.text-center {
+  text-align: unset !important;
+}
+
+.control-label {
+  float: unset;
+  text-align: unset;
+}
+
+.bodyheading,
+h2 {
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+
 .form-control {
   background-color: #ffe;
 }
@@ -8479,3 +8500,5 @@ body:has(#fs16590) {
     text-align: center !important;
   }
 }
+
+/*# sourceMappingURL=bootstrap_override_colors_Cub_Scouts.css.map */
