@@ -1153,7 +1153,7 @@ table tfoot td:has(> input[type=button][value="Print (Export to PDF)"]) > input[
   align-items: center;
   justify-content: center;
   margin: 0 6px !important;
-  padding: 9px 16px !important;
+  padding: 10px 12px !important;
   border: 1px solid rgba(13, 59, 114, 0.2) !important;
   border-radius: 10px !important;
   color: #ffffff !important;
@@ -5752,6 +5752,12 @@ body:has(#Menu_Item_ID[value="418"]) #fs12901 .nav-tabs > li.active > a:focus {
   }
 }
 
+body:has(#fs718) .new-row:not(:has(~ .new-row)) input[type=button],
+body:has(#fs718) .new-row:not(:has(~ .new-row)) .btn {
+  margin-right: 10px !important;
+  margin-bottom: 10px !important;
+}
+
 #fs718 {
   padding-bottom: 20px;
 }
@@ -6269,11 +6275,18 @@ body:has(#Menu_Item_ID[value="418"]) #fs12901 .nav-tabs > li.active > a:focus {
     white-space: nowrap;
   }
 }
+body:has(#fs318) .new-row:not(:has(~ .new-row)) input[type=button],
+body:has(#fs318) .new-row:not(:has(~ .new-row)) .btn {
+  margin-right: 10px !important;
+  margin-bottom: 10px !important;
+}
+
 #fs318 {
   padding-bottom: 10px;
 }
 #fs318 input {
   margin-bottom: 10px !important;
+  margin-right: 10px !important;
 }
 
 #fs319 {
@@ -6400,6 +6413,24 @@ body:has(#Menu_Item_ID[value="418"]) #fs12901 .nav-tabs > li.active > a:focus {
     white-space: nowrap;
   }
 }
+body:has(#fs2741) .new-row:not(:has(~ .new-row)) input[type=button],
+body:has(#fs2741) .new-row:not(:has(~ .new-row)) .btn {
+  margin-right: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+#fs2741 {
+  padding-bottom: 20px;
+}
+
+#fs2740 {
+  padding-bottom: 10px;
+}
+#fs2740 input {
+  margin-bottom: 10px !important;
+  margin-right: 10px !important;
+}
+
 @media (max-width: 767px) {
   #fs2741 .table-responsive {
     width: 100%;
