@@ -15,8 +15,8 @@
   }
   -->
 </style>
-<link rel="stylesheet" type="text/css" href="/css/bootstrap_override_v11.css">
-<link rel="stylesheet" type="text/css" href="/css/bootstrap_override_colors_Cub_Scouts.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap_override_v11.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap_override_colors_Cub_Scouts.css">
 <meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
 <meta http-equiv="EXPIRES" content="0">
 <script type="text/javascript" async="" charset="utf-8" src="https://www.gstatic.com/recaptcha/releases/xg_pWYS8-HRESiV6Rdg4aY_R/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-qWH0xCejb2gc1yqo8ob4TQrvIcQ9XjhOfGKbhFr/+LvFrJdTE3bA+FQP/FLAiQhz"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

@@ -17,8 +17,8 @@
   }
   -->
 </style>
-<link rel="stylesheet" type="text/css" href="/css/bootstrap_override_v11.css">
-<link rel="stylesheet" type="text/css" href="/css/bootstrap_override_colors_Cub_Scouts.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap_override_v11.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap_override_colors_Cub_Scouts.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src='https://www.google.com/recaptcha/api.js'></script>
