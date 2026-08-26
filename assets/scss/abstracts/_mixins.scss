@@ -469,48 +469,5 @@
     text-align: right;
   }
 
-  .pagination {
-    margin: 0 0 0 10px;
-  }
-
-  .pagination > li > a,
-  .pagination > li > span {
-    min-width: 32px;
-    min-height: 32px;
-    padding: 7px 9px;
-    color: $text-dark;
-    border: 1px solid rgba(13, 59, 114, 0.18);
-    background: rgba(255, 255, 255, 0.72);
-    font-size: 12px;
-    font-weight: 700;
-    text-align: center;
-  }
-
-  .pagination > .active > a,
-  .pagination > .active > span {
-    color: #ffffff;
-    background: $navy-700;
-    border-color: $navy-700;
-  }
-
-  @media (max-width: 767px) {
-    .center-block.table-responsive > table:first-child > tbody > tr:first-child > td {
-      padding: 10px 0 18px !important;
-      text-align: right;
-    }
-
-    .center-block.table-responsive > table:first-child > tbody > tr:first-child > td > div {
-      display: flex !important;
-      float: none !important;
-      flex-direction: column;
-      align-items: flex-end;
-      gap: 8px;
-      width: 100%;
-    }
-
-    .pagination {
-      margin: 0;
-    }
-  }
 }
 

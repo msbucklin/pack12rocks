@@ -137,3 +137,172 @@ select.rows-per-page:focus {
   outline: none;
   box-shadow: 0 0 0 3px rgba(13, 59, 114, 0.10);
 }
+
+.center-block.table-responsive > table:first-child:has(.pagination) {
+  width: 100% !important;
+  border: 0 !important;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: transparent !important;
+}
+
+.center-block.table-responsive > table:first-child:has(.pagination) > tbody > tr:first-child > td,
+.center-block.table-responsive > table:first-child:has(.pagination) > tbody > tr:last-child > td {
+  padding: 10px 14px !important;
+  border: 1px solid rgba(13, 59, 114, 0.14) !important;
+  background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%) !important;
+  text-align: right;
+}
+
+.center-block.table-responsive > table:first-child:has(.pagination) > tbody > tr:first-child > td {
+  border-bottom: 0 !important;
+}
+
+.center-block.table-responsive > table:first-child:has(.pagination) > tbody > tr:last-child > td {
+  border-top: 0 !important;
+}
+
+.center-block.table-responsive > table:first-child > tbody > tr > td > div:has(> span.rows-per-page) {
+  display: flex !important;
+  float: none !important;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  width: 100%;
+
+  > span {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+.pagination {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 !important;
+  vertical-align: middle;
+
+  > li {
+    display: flex;
+  }
+
+  > li > a,
+  > li > span {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 34px !important;
+    min-width: 34px !important;
+    height: 34px !important;
+    min-height: 34px !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+    color: $text-dark !important;
+    border: 1px solid rgba(13, 59, 114, 0.18) !important;
+    background: rgba(255, 255, 255, 0.82) !important;
+    font-size: 14px !important;
+    font-weight: 700;
+    line-height: 1 !important;
+    text-align: center;
+  }
+
+  > li > a[href]:hover,
+  > li > a[href]:focus {
+    z-index: 2;
+    color: $text-dark !important;
+    border-color: rgba(13, 59, 114, 0.38) !important;
+    background: #ffffff !important;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(13, 59, 114, 0.10);
+  }
+
+  > .active > a,
+  > .active > span,
+  > .active > a:hover,
+  > .active > a:focus {
+    color: #ffffff !important;
+    border-color: $navy-700 !important;
+    background: $navy-700 !important;
+  }
+
+  > li:not(.active) > a:not([href]) {
+    cursor: default;
+    opacity: 0.55;
+  }
+
+  img {
+    display: block;
+    width: 8px;
+    height: auto;
+    margin: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  table.sortable.table-curved tfoot,
+  table.sortable.table-curved tfoot tr,
+  table.sortable.table-curved tfoot td:has(> input[type="button"][value="Print (Export to PDF)"]) {
+    display: block;
+    width: 100% !important;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  table.sortable.table-curved tfoot td:has(> input[type="button"][value="Print (Export to PDF)"]) {
+    border-left: 1px solid rgba(13, 59, 114, 0.12) !important;
+    border-right: 1px solid rgba(13, 59, 114, 0.12) !important;
+    border-bottom: 1px solid rgba(13, 59, 114, 0.12) !important;
+    border-radius: 0 !important;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .center-block.table-responsive:has(> table:first-child .pagination) {
+    padding-right: 10px !important;
+    border: 0 !important;
+  }
+
+  .center-block.table-responsive > table:first-child:has(.pagination),
+  .center-block.table-responsive > table:first-child:has(.pagination) > tbody {
+    display: block;
+    width: 100% !important;
+    max-width: 100%;
+    min-width: 0 !important;
+  }
+
+  .center-block.table-responsive > table:first-child:has(.pagination) > tbody > tr,
+  .center-block.table-responsive > table:first-child:has(.pagination) > tbody > tr > td {
+    display: block;
+    width: 100% !important;
+    max-width: 100%;
+    min-width: 0 !important;
+    box-sizing: border-box;
+  }
+
+  .center-block.table-responsive > table:first-child:has(.pagination) > tbody > tr:first-child > td,
+  .center-block.table-responsive > table:first-child:has(.pagination) > tbody > tr:last-child > td {
+    padding: 6px 10px !important;
+  }
+
+  span.rows-per-page {
+    margin: 1px 0 0 !important;
+    transform: translateX(4px) !important;
+  }
+
+  .center-block.table-responsive > table:first-child > tbody > tr > td > div:has(> span.rows-per-page) {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+
+    > span {
+      width: 100%;
+    }
+  }
+
+  .pagination {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    max-width: 100%;
+  }
+}

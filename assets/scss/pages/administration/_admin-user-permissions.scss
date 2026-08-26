@@ -108,31 +108,9 @@ body:has(#fs6640) {
     vertical-align: middle;
   }
 
-  .pagination {
-    vertical-align: middle;
-
-    > li > a,
-    > li > span {
-      line-height: 1.2;
-    }
-  }
-
   @media (max-width: 767px) {
     .center-block.table-responsive > table:first-child > tbody > tr:first-child > td {
       padding: 10px 14px 22px !important;
-    }
-
-    .center-block.table-responsive > table:first-child > tbody > tr:first-child > td > div {
-      display: block !important;
-      float: right !important;
-      flex-direction: row;
-      align-items: normal;
-      gap: normal;
-      width: auto;
-    }
-
-    .pagination {
-      margin: 0 0 0 10px;
     }
   }
 
