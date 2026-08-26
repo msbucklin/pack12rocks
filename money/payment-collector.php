@@ -6,9 +6,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 <title>Begin Payment Collection</title>
 <link rel="stylesheet" type="text/css" href="SalesBooth.css">
-<script language="JavaScript" src="soapclient.js">
+<script language="JavaScript" src="assets/js/PaymentCollectorV2.js">
 </script>
-<script language="JavaScript" src="PaymentCollectorV2.js">
+<script language="JavaScript" src="/assets/js/PaymentCollectorV2.js">
 </script>
 </head>
 <body>

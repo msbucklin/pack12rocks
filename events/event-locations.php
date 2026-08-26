@@ -20,15 +20,15 @@
 <script type="text/javascript" async="" charset="utf-8" src="https://www.gstatic.com/recaptcha/releases/XOqlk8PL_yVx6IdpLbpXdiLy/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-5gTdLl6IS0Y6zKiLKimmhaY3IOLosQFpvj9Tvt9s2RAiKLtLUEWOP5N8mtHLNUzF"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="https://www.google.com/recaptcha/api.js"></script>
-<script language="JavaScript" src="/soapclient.js">
+<script language="JavaScript" src="/assets/js/PaymentCollectorV2.js">
 </script>
-<script type="text/javascript" src="/sortableV2.js">
+<script type="text/javascript" src="/assets/js/sortableV2.js">
 </script>
-<script language="JavaScript" src="/CalendarPopup.js">
+<script language="JavaScript" src="/assets/js/CalendarPopup.js">
 </script>
-<script language="JavaScript" src="/easyJSfunctionsV15.js">
+<script language="JavaScript" src="/assets/js/easyJSfunctionsV15.js">
 </script>
-<script language="JavaScript" src="/GetDeviceWidth.js">
+<script language="JavaScript" src="/assets/js/GetDeviceWidth.js">
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFboSzdzeeYXFUboKIdN5zm4ypKx-c6bU&amp;sensor=false" type="text/javascript"></script>
 <script language="JavaScript">

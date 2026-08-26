@@ -22,15 +22,15 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src='https://www.google.com/recaptcha/api.js'></script>
-<script language="JavaScript" src="/soapclient.js">
+<script language="JavaScript" src="/assets/js/PaymentCollectorV2.js">
 </script>
-<script type="text/javascript" src="/sortableV2.js">
+<script type="text/javascript" src="/assets/js/sortableV2.js">
 </script>
-<script language="JavaScript" src="/CalendarPopup.js">
+<script language="JavaScript" src="/assets/js/CalendarPopup.js">
 </script>
-<script language="JavaScript" src="/easyJSfunctionsV15.js">
+<script language="JavaScript" src="/assets/js/easyJSfunctionsV15.js">
 </script>
-<script language="JavaScript" src="/GetDeviceWidth.js">
+<script language="JavaScript" src="/assets/js/GetDeviceWidth.js">
 </script>
 <script src="ckeditor/ckeditor.js?v=2"></script>
   <SCRIPT LANGUAGE="JavaScript">
@@ -325,7 +325,7 @@
       <td style="width:76px;">
       </td>
       <td style="padding:4px;">
-        <a href="#" class="navlink nav-home-link" onClick="LinkTo('Pack12Austin/Index.htm','_top')">Pack 12 Austin</a>
+        <a href="#" class="navlink nav-home-link" onClick="LinkTo('/home/home.php','_top')">Pack 12 Austin</a>
       </td>
       <td class="quickmenu1">
         <table>
