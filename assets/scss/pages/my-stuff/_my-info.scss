@@ -89,57 +89,13 @@
 }
 
 #fs7356 {
-  .center-block {
-    background: linear-gradient(180deg, #ffffff 0%, #f7faff 100%);
-    border: 1px solid rgba(15, 57, 95, 0.12);
-    border-radius: 18px;
-    box-shadow: 0 10px 24px rgba(12, 32, 56, 0.08);
-    padding: 18px 20px 12px;
+  @include detail-form-shell;
+  @include detail-form-table-labels;
+  @include detail-form-stacked-mobile;
+
+  .center-block .control-label {
+    color: #333333 !important;
   }
-
-  @media (max-width: 1140px) {
-    .center-block {
-      width: calc(100% - 40px) !important;
-      margin: 0 auto !important;
-      box-sizing: border-box;
-    }
-  }
-
-  @media (max-width: 767px) {
-    padding: 0 !important;
-
-    .center-block {
-      padding: 0 !important;
-      border-radius: 14px;
-      overflow-x: hidden;
-    }
-
-    td {
-      padding-left: 20px !important;
-      padding-right: 20px !important;
-
-      &:first-of-type {
-        padding-top: 10px !important;
-        padding-bottom: 0px !important;
-      }
-
-      &:last-child {
-        padding-bottom: 10px !important;
-      }
-    }
-  }
-
-  @media (min-width: 768px) {
-    margin-top: 0;
-  }
-}
-
-#fs7356 table.no-border tbody tr:nth-child(even) {
-  background-color: #f2f5f9 !important;
-}
-
-#fs7356 table.no-border tbody tr:nth-child(odd) {
-  background-color: #ffffff !important;
 }
 
 #fs7356 table.no-border tbody tr td.bodyheading {
@@ -161,28 +117,6 @@
   &.bodyheading {
     font-size: 18px;
     padding-top: 20px;
-  }
-}
-
-#fs7356 .center-block .control-label {
-  display: unset !important;
-  float: right !important;
-  margin-right: 8px !important;
-  margin-left: auto !important;
-  font-style: italic !important;
-  font-weight: normal !important;
-  font-size: 1em !important;
-  text-align: right !important;
-}
-
-#fs7356 .center-block .entrypostscript {
-  margin-top: unset !important;
-}
-
-@media (min-width: 768px) {
-  #fs7356 table.no-border tbody tr td:first-child {
-    width: 470px !important;
-    max-width: 250px !important;
   }
 }
 

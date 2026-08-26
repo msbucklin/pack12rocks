@@ -1,0 +1,26 @@
+// -----------------------------------------------------------------------------
+// Adventures and Badges page styling
+// -----------------------------------------------------------------------------
+
+body:has(#Menu_Item_ID[value="418"]) {
+  #fs12901 {
+    @include list-page-tabs;
+
+    @media (max-width: 767px) {
+      .nav-tabs > li > a,
+      .nav-tabs > li:not(.active) > a,
+      .nav-tabs > li:not(.active) > a:link,
+      .nav-tabs > li:not(.active) > a:visited,
+      .nav-tabs > li:not(.active) > a:hover,
+      .nav-tabs > li:not(.active) > a:focus,
+      .nav-tabs > li:not(.active) > a:active,
+      .nav-tabs > li.active > a,
+      .nav-tabs > li.active > a:hover,
+      .nav-tabs > li.active > a:focus {
+        padding-right: 4px;
+        padding-left: 4px;
+        font-size: 10px !important;
+      }
+    }
+  }
+}

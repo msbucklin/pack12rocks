@@ -193,9 +193,9 @@ Representative pages:
 - Configuration add form: `site-configuration/training-courses-add.php`.
 - Upload form: `membership/upload-scoutbookplus-roster-report.php`.
 
-Potential shared layers to investigate later:
+Shared layers and remaining form work:
 
-- Detail/form card shell.
+- Flat detail/form shell with a lightly bordered table.
 - Desktop label/value column sizing.
 - Mobile stacked labels and controls.
 - Required indicators and validation state.
@@ -288,11 +288,14 @@ Current shared mixins:
 - `widget-heading`
 - `widget-table`
 - `responsive-media-reset`
+- `detail-form-shell`
+- `detail-form-table-labels`
+- `detail-form-stacked-mobile`
 - `list-page-tabs`
 - `list-action-row`
 - `list-toolbar-shell`
 
-There are 29 Sass files. The largest active consolidation targets are:
+There are 31 Sass files. The largest active consolidation targets are:
 
 | Partial | Lines | Observation |
 | --- | ---: | --- |
@@ -361,6 +364,17 @@ Status as of August 26, 2026:
   Membership partial. Desktop and 390-pixel mobile checks confirmed the move
   preserved toolbar geometry, the three-column/one-column card layouts, button
   wrapping, and page overflow behavior.
+- Adventures and Badges now uses `list-page-tabs` from a page-scoped Cub Scouts
+  partial. Its six mobile tabs use equal 56-pixel targets and a compact variant
+  that keeps every label on one line without tab or page overflow.
+- Member and My Info now share `detail-form-shell`,
+  `detail-form-table-labels`, and `detail-form-stacked-mobile`. Desktop and
+  390-pixel mobile checks confirmed
+  their containers are transparent and unpadded, their tables carry a subtle
+  6-pixel-radius border, desktop cells use 12-by-16-pixel padding with a vertical
+  label/value divider, and 250-pixel first columns align right. Mobile rows and
+  cells stack like Member, labels remain left-aligned, and compound fields and
+  overflow behavior remain intact.
 - Pagination arrow images are already missing on the local Users and Passwords
   and User Permissions snapshots because their markup references relative
   `/assets/images/pageleft.gif` and `/assets/images/pageright.gif` files that are not in those directories.
@@ -369,16 +383,16 @@ Remaining investigation order:
 
 1. Add explicit action-row variants only when another equivalent group is
    identified; do not apply the mixin to `.text-center` table cells.
-2. Consolidate the remaining tabbed-list shell used by Adventures and Badges.
-3. Define shared detail/edit form shells while preserving compound fields.
-4. Move common sortable-table visuals and only proven responsive behavior into
+2. Extend the shared detail/edit form shells to other structurally equivalent
+  pages while preserving compound fields and page-specific mobile behavior.
+3. Move common sortable-table visuals and only proven responsive behavior into
    table components.
-5. Separate Events Hub rules from the Event detail partial.
-6. Reconcile widget rules between `_widgets.scss`, `_home.scss`, and hub
+4. Separate Events Hub rules from the Event detail partial.
+5. Reconcile widget rules between `_widgets.scss`, `_home.scss`, and hub
    partials.
-7. Remove inactive duplicate partials after confirming they are not referenced
+6. Remove inactive duplicate partials after confirming they are not referenced
    by external build tooling.
-8. Reduce global overrides only after representative desktop and mobile checks.
+7. Reduce global overrides only after representative desktop and mobile checks.
 
 ## Regression matrix for future changes
 
