@@ -3,121 +3,85 @@
 // -----------------------------------------------------------------------------
 
 #fs720 {
-  .center-block {
-    width: 100% !important;
-    //max-width: 1200px !important;
-    margin: 0 auto !important;
-    padding: 18px 20px 12px;
-    background: #ffffff;
-    border: 1px solid rgba(13, 59, 114, 0.14);
-    border-radius: 12px;
-    box-shadow: 0 8px 20px rgba(12, 32, 56, 0.07);
+  @include detail-form-shell;
+  @include detail-form-table-labels;
+  @include detail-form-stacked-mobile;
+
+  .center-block .control-label {
+    color: #333333 !important;
   }
 
-  table.no-border {
-    width: 100%;
-    border-collapse: separate;
-    border-spacing: 0 8px;
-  }
-
-  table.no-border tr {
-    display: table-row;
-  }
-
-  table.no-border td {
-    display: table-cell;
-    padding: 7px 10px;
-    border: 0;
+  table.no-border tbody tr td {
+    padding: 7.5px;
+    font-size: 14px;
     vertical-align: middle;
   }
 
-  table.no-border td:first-child {
-    width: 240px;
-    padding-right: 18px;
-    text-align: right;
+  #DIVENTRY2850425,
+  #DIVENTRY2850427,
+  #DIVENTRY2850428,
+  #DIVENTRY2850451 {
+    display: inline-flex;
+    flex-direction: column;
+    width: calc(25% - 9px);
+    min-width: 0;
+    margin-right: 8px;
+    vertical-align: top;
   }
 
-  .control-label {
-    display: inline-block;
-    float: none !important;
-    margin: 0;
-    color: $text-dark;
-    font-size: 13px;
-    font-weight: 700;
-    line-height: 1.4;
-    text-align: right;
-  }
-
-  .RequiredIndicator {
-    color: #b62d35;
-  }
-
-  table.no-border td:last-child {
-    width: calc(100% - 240px);
-    text-align: left;
-  }
-
-  .form-control {
-    width: 100%;
-    max-width: 100%;
-    min-height: 40px;
-    margin: 0 !important;
-    padding: 8px 10px;
-    color: #1f2d3d;
-    border: 1px solid rgba(13, 59, 114, 0.22);
-    border-radius: 6px;
-    background: #ffffff !important;
-    font-size: 13px;
-  }
-
-  .form-control:focus {
-    border-color: rgba(13, 59, 114, 0.45);
-    box-shadow: 0 0 0 3px rgba(13, 59, 114, 0.10);
-    outline: none;
-  }
-
-  .entrypostscript {
-    display: block;
-    margin-top: 6px;
+  #DIVENTRY2850425::before,
+  #DIVENTRY2850427::before,
+  #DIVENTRY2850428::before,
+  #DIVENTRY2850451::before {
+    margin-bottom: 5px;
     color: $text-mid;
     font-size: 11px;
-    line-height: 1.4;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+
+  #DIVENTRY2850425::before {
+    content: "First Name";
+  }
+
+  #DIVENTRY2850427::before {
+    content: "Middle Name";
+  }
+
+  #DIVENTRY2850428::before {
+    content: "Last Name";
+  }
+
+  #DIVENTRY2850451::before {
+    content: "Suffix";
+  }
+
+  #DIVENTRY2850451 {
+    margin-right: 0;
+  }
+
+  #DIVENTRY2850425 .form-control,
+  #DIVENTRY2850427 .form-control,
+  #DIVENTRY2850428 .form-control,
+  #DIVENTRY2850451 .form-control {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
   }
 
   @media (max-width: 767px) {
-    table.no-border,
-    table.no-border tbody,
-    table.no-border tr,
-    table.no-border td {
-      display: block !important;
-      width: 100% !important;
-      max-width: 100% !important;
-      box-sizing: border-box;
-    }
-
-    table.no-border tr {
-      margin-bottom: 12px;
-    }
-
-    table.no-border td {
-      padding: 0 0 6px !important;
-      text-align: left !important;
-    }
-
-    table.no-border td:first-child,
-    table.no-border td:last-child {
-      width: 100% !important;
-      padding-right: 0 !important;
-    }
-
-    table.no-border td:first-child {
-      padding-bottom: 4px !important;
-    }
-
-    .control-label {
-      display: block;
+    #DIVENTRY2850425,
+    #DIVENTRY2850427,
+    #DIVENTRY2850428,
+    #DIVENTRY2850451 {
+      display: flex;
       width: 100%;
-      text-align: left;
+      margin: 0 0 8px;
+    }
+
+    #DIVENTRY2850451 {
+      margin-bottom: 0;
     }
   }
 }
@@ -334,17 +298,6 @@
     position: relative;
     //max-width: 1200px;
     margin: 0 auto;
-  }
-
-  body:has(#fs720) .page-title {
-    display: block !important;
-    width: calc(100% - 60px);
-    max-width: 1140px;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    padding-right: 0 !important;
-    padding-left: 0 !important;
-    box-sizing: border-box;
   }
 
   #fs720,

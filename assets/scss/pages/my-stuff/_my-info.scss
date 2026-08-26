@@ -2,6 +2,9 @@
 // My Info page styling
 // -----------------------------------------------------------------------------
 
+body:has(#fs7356) .page-title {
+  padding-bottom: 0 !important;
+}
 
 #fs16108 {
   margin-bottom: 18px !important;
@@ -93,13 +96,65 @@
   @include detail-form-table-labels;
   @include detail-form-stacked-mobile;
 
+  .center-block .text-left {
+    display: inline-block !important;
+    width: unset !important;
+    max-width: unset !important;
+  }
+
+  #DIVENTRY2899825 .text-left {
+    margin-right: -3px;
+  }
+
   .center-block .control-label {
     color: #333333 !important;
   }
 }
 
+// Hidden fields
+#fs7356 table.no-border tr:has(+ #DIVENTRY290161),
+#fs7356 table.no-border #DIVENTRY290161,
+#fs7356 table.no-border #DIVENTRY290321,
+#fs7356 table.no-border #DIVENTRY290171,
+#fs7356 table.no-border #DIVENTRY290181,
+#fs7356 table.no-border #DIVENTRY290191,
+#fs7356 table.no-border #DIVENTRY290315,
+#fs7356 table.no-border #DIVENTRY2903311 {
+  display: none !important;
+}
+
 #fs7356 table.no-border tbody tr td.bodyheading {
   background: transparent !important;
+}
+
+#fs7356 table.no-border tr:has(> td.bodyheading):has(+ #DIVENTRY290351) > td.bodyheading,
+#fs7356 table.no-border tr:has(> td.bodyheading):has(+ tr + #DIVENTRY4979611) > td.bodyheading {
+  padding: 12px 16px !important;
+  border-top: 1px solid rgba(15, 57, 95, 0.12);
+  border-bottom: 1px solid rgba(15, 57, 95, 0.12);
+  background: #eaf3ff !important;
+  color: #0d3b72;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: left !important;
+
+  br {
+    display: none;
+  }
+}
+
+#fs7356 table.no-border tr:has(+ #DIVENTRY4979611) > td {
+  padding: 12px 16px !important;
+  text-align: left !important;
+
+  b {
+    font-weight: 300 !important;
+  }
+
+  br {
+    display: none;
+  }
 }
 
 #fs7356 table.no-border tbody tr td {
@@ -210,19 +265,48 @@
   margin-left: 8px;
 
   @media (max-width: 767px) {
-    margin-left: 0pxma;
+    margin-left: 0;
   }
 }
 
 #DIVENTRY2900955,
-#DIVENTRY2900956 {
+#DIVENTRY2900956,
+#DIVENTRY2900957 {
   display: inline-flex !important;
+  flex-wrap: wrap;
   align-items: center;
   gap: 8px;
-  flex-wrap: nowrap;
-  vertical-align: middle;
-  padding-bottom: 5px;
+  min-width: 0;
+  padding-bottom: 0;
+  vertical-align: top;
+
+  &::before {
+    flex: 0 0 100%;
+    margin-bottom: -3px;
+    color: $text-mid;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.3;
+  }
 }
+
+#DIVENTRY2900955 {
+  flex: 2 1 0;
+}
+
+#DIVENTRY2900956 {
+  flex: 1.5 1 0;
+  margin-left: 0;
+}
+
+#DIVENTRY2900957 {
+  flex: 1 1 0;
+}
+
+#DIVENTRY2900955::before { content: "License Number"; }
+#DIVENTRY2900956::before { content: "State / Province"; }
+#DIVENTRY2900957::before { content: "Expiration Date"; }
 
 #DIVENTRY2900955 input[type="text"],
 #DIVENTRY2900956 select {
@@ -232,17 +316,10 @@
   max-width: 100% !important;
 }
 
-#DIVENTRY2900957 {
-  display: inline-flex !important;
-  align-items: center;
-  gap: 6px;
-  flex-wrap: nowrap;
-  vertical-align: middle;
-}
-
 #DIVENTRY2900957 input[type="text"] {
   display: inline-block !important;
-  width: 100% !important;
+  flex: 1 1 0;
+  width: auto !important;
   min-width: 0 !important;
   max-width: 100% !important;
 }
@@ -258,6 +335,30 @@
   display: block;
   width: 18px;
   height: 18px;
+}
+
+#fs7356 table.no-border tr:has(#DIVENTRY2900955) > td:last-child {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+@media (max-width: 767px) {
+  #fs7356 table.no-border tr:has(#DIVENTRY2900955) > td:last-child {
+    display: block !important;
+  }
+
+  #DIVENTRY2900955,
+  #DIVENTRY2900956,
+  #DIVENTRY2900957 {
+    display: flex !important;
+    width: 100% !important;
+    margin: 0 0 8px;
+  }
+
+  #DIVENTRY2900957 {
+    margin-bottom: 0;
+  }
 }
 
 #DIVENTRY2902425,
@@ -399,6 +500,222 @@
   width: 100% !important;
   min-width: 0 !important;
   max-width: 100% !important;
+}
+
+#fs7356 #DIVENTRY2902428 .form-control {
+  display: inline-block !important;
+}
+
+#fs7356 #DIVENTRY2902428 {
+  display: block !important;
+
+  &::before {
+    display: block;
+  }
+}
+
+#DIVENTRY2902425,
+#DIVENTRY2902427,
+#DIVENTRY2902428,
+#DIVENTRY2902451,
+#DIVENTRY2900029,
+#DIVENTRY2900030,
+#DIVENTRY2900031,
+#DIVENTRY2900032,
+#DIVENTRY2900033,
+#DIVENTRY2900034,
+#DIVENTRY2901129,
+#DIVENTRY2901130,
+#DIVENTRY2901131,
+#DIVENTRY2901132,
+#DIVENTRY2901133,
+#DIVENTRY2901134 {
+  display: inline-flex !important;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0 !important;
+  min-width: 0;
+  margin-right: 8px;
+  padding-bottom: 0 !important;
+  vertical-align: top;
+
+  &::before {
+    margin-bottom: 5px;
+    color: $text-mid;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+
+  .form-control {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+  }
+}
+
+#DIVENTRY2902425,
+#DIVENTRY2902427,
+#DIVENTRY2902428,
+#DIVENTRY2902451 {
+  flex: 1 1 0;
+  width: auto;
+  margin-right: 0;
+}
+
+#DIVENTRY2900029,
+#DIVENTRY2900030,
+#DIVENTRY2901129,
+#DIVENTRY2901130 {
+  width: 100%;
+  margin-right: 0;
+}
+
+#DIVENTRY2900031,
+#DIVENTRY2901131 {
+  flex: 2 1 0;
+  width: auto;
+  margin-right: 0;
+}
+
+#DIVENTRY2900032,
+#DIVENTRY2900033,
+#DIVENTRY2900034,
+#DIVENTRY2901132,
+#DIVENTRY2901133,
+#DIVENTRY2901134 {
+  flex: 1 1 0;
+  width: auto;
+  margin-right: 0;
+}
+
+#DIVENTRY2902451,
+#DIVENTRY2900034,
+#DIVENTRY2901134 {
+  margin-right: 0;
+}
+
+#DIVENTRY2902425::before { content: "First Name"; }
+#DIVENTRY2902427::before { content: "Middle Name"; }
+#DIVENTRY2902428::before { content: "Last Name"; }
+#DIVENTRY2902451::before { content: "Suffix"; }
+#DIVENTRY2900029::before,
+#DIVENTRY2901129::before { content: "Address Line 1"; }
+#DIVENTRY2900030::before,
+#DIVENTRY2901130::before { content: "Address Line 2"; }
+#DIVENTRY2900031::before,
+#DIVENTRY2901131::before { content: "City"; }
+#DIVENTRY2900032::before,
+#DIVENTRY2901132::before { content: "State / Province"; }
+#DIVENTRY2900033::before,
+#DIVENTRY2901133::before { content: "Postal Code"; }
+#DIVENTRY2900034::before,
+#DIVENTRY2901134::before { content: "Country"; }
+
+#fs7356 table.no-border tr:has(#DIVENTRY2900030) {
+  background-color: #f2f5f9 !important;
+}
+
+#fs7356 table.no-border tr:has(#DIVENTRY2901130) {
+  background-color: #ffffff !important;
+}
+
+#DIVENTRY2900031 .entrypostscript,
+#DIVENTRY2901131 .entrypostscript {
+  display: none !important;
+}
+
+#fs7356 table.no-border tr:has(#DIVENTRY2900031) > td:first-child .control-label,
+#fs7356 table.no-border tr:has(#DIVENTRY2901131) > td:first-child .control-label {
+  display: none !important;
+}
+
+#fs7356 table.no-border tr:has(#DIVENTRY2902425) > td:last-child,
+#fs7356 table.no-border tr:has(#DIVENTRY2900031) > td:last-child,
+#fs7356 table.no-border tr:has(#DIVENTRY2901131) > td:last-child {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+@media (min-width: 768px) {
+  #fs7356 table.no-border tr:has(#DIVENTRY2900029) > td,
+  #fs7356 table.no-border tr:has(#DIVENTRY2901129) > td {
+    padding-bottom: 4px !important;
+  }
+
+  #fs7356 table.no-border tr:has(#DIVENTRY2900030) > td,
+  #fs7356 table.no-border tr:has(#DIVENTRY2901130) > td {
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+  }
+
+  #fs7356 table.no-border tr:has(#DIVENTRY2900031) > td,
+  #fs7356 table.no-border tr:has(#DIVENTRY2901131) > td {
+    padding-top: 4px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  #fs7356 table.no-border tr:has(#DIVENTRY2900029),
+  #fs7356 table.no-border tr:has(#DIVENTRY2900030),
+  #fs7356 table.no-border tr:has(#DIVENTRY2901129),
+  #fs7356 table.no-border tr:has(#DIVENTRY2901130) {
+    margin-bottom: 0;
+  }
+
+  #fs7356 table.no-border tr:has(#DIVENTRY2900029) > td:last-child,
+  #fs7356 table.no-border tr:has(#DIVENTRY2900030) > td:last-child,
+  #fs7356 table.no-border tr:has(#DIVENTRY2901129) > td:last-child,
+  #fs7356 table.no-border tr:has(#DIVENTRY2901130) > td:last-child {
+    padding-bottom: 0 !important;
+  }
+
+  #fs7356 table.no-border tr:has(#DIVENTRY2900030) > td:first-child,
+  #fs7356 table.no-border tr:has(#DIVENTRY2901130) > td:first-child,
+  #fs7356 table.no-border tr:has(#DIVENTRY2900031) > td:first-child,
+  #fs7356 table.no-border tr:has(#DIVENTRY2901131) > td:first-child {
+    display: none !important;
+  }
+
+  #fs7356 table.no-border tr:has(#DIVENTRY2902425) > td:last-child,
+  #fs7356 table.no-border tr:has(#DIVENTRY2900031) > td:last-child,
+  #fs7356 table.no-border tr:has(#DIVENTRY2901131) > td:last-child {
+    display: block !important;
+  }
+
+  #DIVENTRY2902425,
+  #DIVENTRY2902427,
+  #DIVENTRY2902428,
+  #DIVENTRY2902451,
+  #DIVENTRY2900029,
+  #DIVENTRY2900030,
+  #DIVENTRY2900031,
+  #DIVENTRY2900032,
+  #DIVENTRY2900033,
+  #DIVENTRY2900034,
+  #DIVENTRY2901129,
+  #DIVENTRY2901130,
+  #DIVENTRY2901131,
+  #DIVENTRY2901132,
+  #DIVENTRY2901133,
+  #DIVENTRY2901134 {
+    display: flex !important;
+    width: 100% !important;
+    margin: 0 0 8px;
+    padding-bottom: 0;
+  }
+
+  #DIVENTRY2902451,
+  #DIVENTRY2900029,
+  #DIVENTRY2900030,
+  #DIVENTRY2900034,
+  #DIVENTRY2901129,
+  #DIVENTRY2901130,
+  #DIVENTRY2901134 {
+    margin-bottom: 0;
+  }
 }
 
 

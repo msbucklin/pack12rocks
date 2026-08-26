@@ -70,6 +70,125 @@
   }
 }
 
+#DIVENTRY193725,
+#DIVENTRY193727,
+#DIVENTRY193728,
+#DIVENTRY193751,
+#DIVENTRY193929,
+#DIVENTRY193930,
+#DIVENTRY193931,
+#DIVENTRY193932,
+#DIVENTRY193933,
+#DIVENTRY193934 {
+  display: inline-flex !important;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0 !important;
+  min-width: 0;
+  margin-right: 8px;
+  padding-bottom: 0 !important;
+  vertical-align: top;
+
+  &::before {
+    margin-bottom: 5px;
+    color: $text-mid;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+
+  .form-control {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+  }
+}
+
+#DIVENTRY193725,
+#DIVENTRY193727,
+#DIVENTRY193728,
+#DIVENTRY193751 {
+  flex: 1 1 0;
+  width: auto;
+  margin-right: 0;
+}
+
+#DIVENTRY193929,
+#DIVENTRY193930 {
+  width: 100%;
+  margin-right: 0;
+}
+
+#DIVENTRY193931 {
+  flex: 2 1 0;
+  width: auto;
+  margin-right: 0;
+}
+
+#DIVENTRY193932,
+#DIVENTRY193933,
+#DIVENTRY193934 {
+  flex: 1 1 0;
+  width: auto;
+  margin-right: 0;
+}
+
+#DIVENTRY193751,
+#DIVENTRY193934 {
+  margin-right: 0;
+}
+
+#DIVENTRY193725::before { content: "First Name"; }
+#DIVENTRY193727::before { content: "Middle Name"; }
+#DIVENTRY193728::before { content: "Last Name"; }
+#DIVENTRY193751::before { content: "Suffix"; }
+#DIVENTRY193929::before { content: "Address Line 1"; }
+#DIVENTRY193930::before { content: "Address Line 2"; }
+#DIVENTRY193931::before { content: "City"; }
+#DIVENTRY193932::before { content: "State / Province"; }
+#DIVENTRY193933::before { content: "Postal Code"; }
+#DIVENTRY193934::before { content: "Country"; }
+
+#DIVENTRY193931 .entrypostscript {
+  display: none !important;
+}
+
+#fs313 table.no-border tr:has(#DIVENTRY193725) > td:last-child,
+#fs313 table.no-border tr:has(#DIVENTRY193931) > td:last-child {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+@media (max-width: 767px) {
+  #fs313 table.no-border tr:has(#DIVENTRY193725) > td:last-child,
+  #fs313 table.no-border tr:has(#DIVENTRY193931) > td:last-child {
+    display: block !important;
+  }
+
+  #DIVENTRY193725,
+  #DIVENTRY193727,
+  #DIVENTRY193728,
+  #DIVENTRY193751,
+  #DIVENTRY193929,
+  #DIVENTRY193930,
+  #DIVENTRY193931,
+  #DIVENTRY193932,
+  #DIVENTRY193933,
+  #DIVENTRY193934 {
+    display: flex !important;
+    width: 100% !important;
+    margin: 0 0 8px;
+  }
+
+  #DIVENTRY193751,
+  #DIVENTRY193930,
+  #DIVENTRY193934 {
+    margin-bottom: 0;
+  }
+}
+
 // Bottom action toolbar / relationship actions
 #fs314 {
   margin-top: 18px !important;
