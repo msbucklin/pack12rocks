@@ -1,0 +1,569 @@
+<html lang="en"><head><meta http-equiv="origin-trial" content="A7vZI3v+Gz7JfuRolKNM4Aff6zaGuT7X0mf3wtoZTnKv6497cVMnhy03KDqX7kBz/q/iidW7srW31oQbBt4VhgoAAACUeyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGUuY29tOjQ0MyIsImZlYXR1cmUiOiJEaXNhYmxlVGhpcmRQYXJ0eVN0b3JhZ2VQYXJ0aXRpb25pbmczIiwiZXhwaXJ5IjoxNzU3OTgwODAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="content-language" content="en-us">
+<title>Pack 12 Austin</title>
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:n,b,bi">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  <!--
+  body
+  {
+   font-family: 'Montserrat', sans-serif;
+  }
+  -->
+</style>
+<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap_override_v11.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap_override_colors_Cub_Scouts.css">
+<script type="text/javascript" async="" charset="utf-8" src="https://www.gstatic.com/recaptcha/releases/xg_pWYS8-HRESiV6Rdg4aY_R/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-qWH0xCejb2gc1yqo8ob4TQrvIcQ9XjhOfGKbhFr/+LvFrJdTE3bA+FQP/FLAiQhz"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://www.google.com/recaptcha/api.js"></script>
+<script language="JavaScript" src="/assets/js/soapclient.js">
+</script>
+<script type="text/JavaScript" src="/assets/js/sortableV2.js">
+</script>
+<script language="JavaScript" src="/assets/js/CalendarPopup.js">
+</script>
+<script language="JavaScript" src="/assets/js/easyJSfunctionsV15.js">
+</script>
+<script language="JavaScript" src="/assets/js/GetDeviceWidth.js">
+</script>
+<script src="ckeditor/ckeditor.js?v=2"></script><style>.cke{visibility:hidden;}</style>
+  <script language="JavaScript">
+    var cal = new CalendarPopup();
+  </script>
+  <script language="JavaScript1.1">
+    <!-- Comment out script for old browers
+    var win2;
+    function ValuesChanged()
+    {
+      var ChangeFlag = false;
+      var easyform = document.getElementById('easyform');
+      for (i=0;i<easyform.length;i++)
+      {
+    	 var tempobj=easyform.elements[i];
+        try
+        {
+        if(tempobj.hasAttribute('name')){
+        if (tempobj.name.substring(0,5)=="ENTRY"||(tempobj.name.substring(0,2)=="CB"&&tempobj.name.indexOf("ROW")>=0))
+        {
+          var newval = "";
+          if (tempobj.name.substring(0,5)=="ENTRY")
+          {
+            var oldvalfieldname="OLD"+tempobj.name.substring(5,14);
+          }
+          else
+          {
+            var oldvalfieldname="OLD"+tempobj.name;
+          }
+          var oldval=easyform.elements[oldvalfieldname].value;
+          if (tempobj.type=="radio"||tempobj.type=="checkbox")
+          {
+            if (tempobj.checked)
+            {
+              newval=tempobj.value;
+            }
+            else
+            {
+              if (tempobj.type=="checkbox")
+              {
+                newval='N';
+              }
+              else
+              {
+                newval=oldval;
+              }
+            }
+            if (tempobj.type=="checkbox")
+            {
+              if (trim(oldval)=="")
+              {
+                oldval="N";
+              }
+            }
+          }
+          else
+          {
+            if (tempobj.type=="file")
+            {
+              if (trim(tempobj.value)=="")
+              {
+                newval=oldval;
+              }
+              else
+              {
+                newval=tempobj.value;
+              }
+            }
+            else
+            {
+              newval = tempobj.value;
+              newval = newval.replace(/&nbsp;/gi,' ');
+              oldval = oldval.replace(/&nbsp;/gi,' ');
+              newval = newval.replace(/&#34;/gi,'"');
+              oldval = oldval.replace(/&#34;/gi,'"');
+              newval = newval.replace(/&quot;/gi,'"');
+              oldval = oldval.replace(/&quot;/gi,'"');
+            }
+          }
+          if (newval!= oldval)
+    	   {
+    	     if (parseFloat(newval)==0)
+    	     {
+    	       newval='';
+    	     }
+    	     if (parseFloat(oldval)==0)
+    	     {
+    	       oldval='';
+    	     }
+          if (newval!= oldval)
+    	     {
+    	     ChangeFlag = true;
+    	     }
+    	   }
+        }
+        }
+      }
+      catch(err)
+      {
+      }
+      }
+      if (ChangeFlag)
+      {
+        if (confirm('You have not saved your work.  If you continue, this information will be lost.  Click OK to continue'))
+        {
+          ChangeFlag = false;
+        }
+      }
+      return ChangeFlag;
+    }
+    function LinkTo(targetURL,targetWindow)
+    {
+      try
+      {
+        if (ValuesChanged())
+        {
+    	  return false;
+        }
+      }
+      catch(err)
+      {
+      }
+        if (targetURL=="language"||targetURL=="format"||targetURL=="reportoption")
+        {
+           document.body.style.cursor = 'wait';
+      	    easyform.Selected_Action.value=targetURL;
+       	easyform.submit();
+           return true;
+        }
+        else
+        {
+          if (targetWindow=='FormReportMultiSectionaspxWindow'||targetWindow=='FormReportaspxWindow')
+          {
+            var pop = document.getElementById('ModalReportPop');
+      	     var popup = document.getElementById('ModalReport');
+       	 pop.innerHTML = '<a href="' + targetURL + '&ReportFormat=PDF" target="_blank">Print (Export to PDF)</a><br><br><a href="' + targetURL + '&ReportFormat=XLS" target="_blank">Open in Excel</a>';
+            $("#ModalReport").modal("show");
+          }
+          else
+          {
+            if (targetWindow=='')
+            {
+             document.body.style.cursor = 'wait';
+    	       window.location=targetURL;
+              return true;
+            }
+            else
+            {
+              document.body.style.cursor = 'wait';
+              var win2 = window.open(targetURL,targetWindow);
+              return true;
+            }
+          }
+        }
+    }
+    function CloseErrorBox()
+    {
+      if (win2!= undefined)
+      {
+        if (win2!= null)
+        {
+          win2.close();
+        }
+      }
+    }
+    function TestRegExp(thisfield,regex,errormsg)
+    {
+      var goodcolor = "#FFFFFF";
+      var errorcolor = "#FFAAAA";
+      var Hover_Action = document.getElementById('Hover_Action');
+      var hoveraction = Hover_Action.value;
+      var testvalue = trim(easyGetFieldValue(thisfield.name));
+        if ((thisfield.type == "select-one")&&(testvalue=="0"))
+        {
+          var Index = document.getElementById(thisfield.name).selectedIndex;
+    	  if(Index==0)
+    	  {
+    		if(trim(document.getElementById(thisfield.name).options[Index].text)=="")
+    		{
+    		  testvalue = "";
+    		}
+    	  }
+        }
+        if (thisfield.title==errormsg) thisfield.title="";
+        thisfield.style.backgroundColor=goodcolor;
+        if ((testvalue.length==0)||(testvalue.match(/^\ +$/)))
+        {
+          var fieldname = thisfield.name;
+          if(fieldname.substr(0,5)=='ENTRY'||fieldname.substr(0,4)=='DATE'||fieldname.substr(0,4)=='TIME'||fieldname.substr(0,4)=='AMPM')
+          {
+            var requiredflag;
+            if(fieldname.substr(0,5)=='ENTRY')
+            {
+              requiredflag = document.getElementById('RVAL'+thisfield.name);
+            }
+            else
+            {
+              requiredflag = document.getElementById('RVALENTRY'+thisfield.name.substring(4));
+            }
+            if (requiredflag.value=='Y'&&hoveraction!='cancel')
+            {
+                 thisfield.style.backgroundColor=errorcolor;
+            }
+            else
+            {
+              return true;
+            }
+          }
+          else
+          {
+            return true;
+          }
+        }
+        else
+        {
+          var scriptpattern = new RegExp('< *(?:javascript|script)[^\n\r>]*>');
+          if (scriptpattern.test(testvalue.toLowerCase()))
+          {
+            thisfield.style.backgroundColor=errorcolor;
+            thisfield.title='Illegal input detected';
+            return false;
+          }
+          if (regex.length!=0)
+          {
+            var objRegExp = new RegExp(regex);
+            if (objRegExp.test(thisfield.value))
+      	     {
+              return true;
+      	     }
+            else
+            {
+              thisfield.style.backgroundColor=errorcolor;
+              thisfield.title=errormsg;
+              return false;
+            }
+          }
+          else
+          {
+            return true;
+          }
+        }
+    }
+      function easyFieldExit(thisfield)
+      {
+        var undefined;
+        var onLoad = false;
+        if (thisfield.type==undefined)
+        {
+          onLoad = true;
+        }
+      }
+    //-->
+  </script>
+  <script type="text/javascript" src="https://www.troopwebhostcs.org/ckeditor/config.js?v=2&amp;t=G87E"></script><link rel="stylesheet" type="text/css" href="https://www.troopwebhostcs.org/ckeditor/skins/moono/editor.css?t=G87E"><script type="text/javascript" src="https://www.troopwebhostcs.org/ckeditor/lang/en.js?t=G87E"></script><script type="text/javascript" src="https://www.troopwebhostcs.org/ckeditor/styles.js?t=G87E"></script><script type="text/javascript" src="https://www.troopwebhostcs.org/ckeditor/plugins/doksoft_backup/plugin.js?t=G87E"></script><script type="text/javascript" src="https://www.troopwebhostcs.org/ckeditor/plugins/doksoft_backup/lang/en.js?t=G87E"></script></head>
+  <body onunload="CloseErrorBox()" onload="easyFieldExit(this); easySetFocus();GetDeviceWidth();">
+  <form enctype="multipart/form-data" action="https://www.TroopWebHostCS.org/FormDetail.aspx" target="_self" method="post" name="easyform" id="easyform">
+  <script language="JavaScript" type="text/javascript">
+    <!--
+    function submitForm() {
+    	//change the following line to true to submit form
+    	return true;
+    }
+    //-->
+  </script>
+  <input type="hidden" name="menuopenflag" id="menuopenflag" value="N">
+  <input type="hidden" name="Selected_Action" id="Selected_Action" value="">
+  <input type="hidden" name="Hover_Action" id="Hover_Action" value="">
+  <input type="hidden" name="Selected_Button_ID" id="Selected_Button_ID" value="">
+  <input type="hidden" name="Menu_Item_ID" id="Menu_Item_ID" value="3309">
+  <input type="hidden" name="Form_ID" id="Form_ID" value="4238">
+  <input type="hidden" name="Link_To_Menu_Item_ID" id="Link_To_Menu_Item_ID" value="">
+  <input type="hidden" name="Pass" id="Pass" value="1">
+  <input type="hidden" name="Stack" id="Stack" value="2">
+  <input type="hidden" name="NextSectionPageNumber" id="NextSectionPageNumber" value="">
+  <input type="hidden" name="NewRowsPerPage" id="NewRowsPerPage" value="">
+  <input type="hidden" name="ChildRowID" id="ChildRowID" value="0">
+  <input type="hidden" name="Report_Format" id="Report_Format" value="">
+  <input type="hidden" name="Current_URL" id="Current_URL" value="https://www.troopwebhostcs.org//site-configuration/dress-codes-add.php?Form_ID=4238&amp;FK=0&amp;ID=0&amp;Stack=2">
+  <a href="javascript:togglemenu();">
+  <div class="navicon" style="width:64px;">
+    <table>
+      <tbody><tr>
+        <td>
+          <span class="fa fa-bars" id="main-menu-icon" name="main-menu-icon"></span><span style="font-size:13px;font-family:arial,helvetica,sans-serif;vertical-align:middle;">&nbsp; menu</span>
+        </td>
+      </tr>
+    </tbody></table>
+  </div>
+  </a>
+  <table class="navtable">
+    <tbody><tr class="navrow">
+      <td style="width:76px;">
+      </td>
+      <td style="padding:4px;">
+        <a href="#" class="navlink nav-home-link" onclick="LinkTo('/home/home.php','_top')">Pack 12 Austin</a>
+      </td>
+      <td class="quickmenu1">
+        <table>
+          <tbody><tr>
+            <td class="navlink">
+              <a href="javascript:LinkTo('FormList.aspx?Menu_Item_ID=318&amp;Stack=2','');">Calendar</a>
+            </td>
+            <td class="navlink">
+              <a href="javascript:LinkTo('FormDetail.aspx?Menu_Item_ID=409&amp;Stack=2','');">Site Appearance</a>
+            </td>
+            <td class="navlink">
+              <a href="javascript:LinkTo('formCustom.aspx?Menu_Item_ID=5788&amp;Stack=0','');">Membership Hub</a>
+            </td>
+            <td class="navlink">
+              <a href="javascript:LinkTo('FormList.aspx?Menu_Item_ID=343&amp;Stack=2','');">Users &amp; Passwords</a>
+            </td>
+          </tr>
+        </tbody></table>
+      </td>
+      <td class="pull-right">
+        <table>
+          <tbody><tr>
+            <td class="navlink"><a href="javascript:logoff();"><span class="glyphicon glyphicon-user"></span> Log Off</a>
+            </td>
+            <td class="navlink"><a href="javascript:togglehelp();" style="font-size:1.5em;" id="help-menu-icon" name="help-menu-icon">?</a>
+            </td>
+            <td class="navlink"><a href="javascript:toggletools();"><span class="glyphicon glyphicon-cog" id="tools-menu-icon" name="tools-menu-icon"></span></a>
+            </td>
+          </tr>
+        </tbody></table>
+      </td>
+      <td style="width:12px;">
+      </td>
+    </tr>
+    <tr class="navrow quickmenu2">
+      <td colspan="5" align="center">
+        <table>
+          <tbody><tr>
+            <td class="navlink">
+              <a href="javascript:LinkTo('FormList.aspx?Menu_Item_ID=318&amp;Stack=2','');">Calendar</a>
+            </td>
+            <td class="navlink">
+              <a href="javascript:LinkTo('FormDetail.aspx?Menu_Item_ID=409&amp;Stack=2','');">Site Appearance</a>
+            </td>
+            <td class="navlink">
+              <a href="javascript:LinkTo('formCustom.aspx?Menu_Item_ID=5788&amp;Stack=0','');">Membership Hub</a>
+            </td>
+            <td class="navlink">
+              <a href="javascript:LinkTo('FormList.aspx?Menu_Item_ID=343&amp;Stack=2','');">Users &amp; Passwords</a>
+            </td>
+          </tr>
+        </tbody></table>
+      </td>
+    </tr>
+  </tbody></table>
+  <?php require dirname(__DIR__) . '/includes/menu.php'; ?>
+  <div class="modal fade" id="ModalPageFormat" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <a style="float:right;margin-right:30px;" href="help.aspx?ID=235" target="_blank">
+          <span class="glyphicon glyphicon-question-sign help-icon"></span>
+          </a>
+          Format this site for...
+          <br><br>
+          <div class="form-group">
+            <input type="radio" name="Page_Layout" id="Page_Layout_1" value="1" tabindex="1" checked=""> &nbsp;
+            Laptop / Desktop Computer
+          </div>
+          <div class="form-group">
+            <input type="radio" name="Page_Layout" id="Page_Layout_2" value="2" tabindex="2"> &nbsp;
+            Smart Phone / Mobile Device
+          </div>
+        </div>
+        <div class="modal-footer">
+          <input class="btn btn-success" style="float: left;" tabindex="3" type="button" value="OK" name="Page_Layout_Button" id="Page_Layout_Button" onclick="LinkTo('format','');">
+          <button type="button" class="btn btn-danger" style="float: right;" tabindex="4" data-dismiss="modal">Cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="toolsmenu" class="navtools">
+    <ul class="list-group">
+    <li class="list-group-item"><a href="#" data-toggle="modal" data-target="#ModalPageFormat">Format</a></li>
+    <li class="list-group-item"><a href="#" data-toggle="modal" data-target="#ModalReportingOptions">Reporting Options</a></li>
+    <li class="list-group-item"><a href="FormDetail.aspx?Form_ID=258&amp;Stack=0&amp;Menu_Item_ID=3309">Change My Password</a></li>
+    <li class="list-group-item"><a href="FormDetail.aspx?Form_ID=2568&amp;Stack=0&amp;Menu_Item_ID=3309">Configure My Quick Menu</a></li>
+    <li class="list-group-item"><a href="FormDetail.aspx?Form_ID=1951&amp;Stack=0&amp;Menu_Item_ID=3309">Bookmark This Site</a></li>
+    </ul>
+  </div>
+  <div id="helpmenu" class="navtools">
+    <ul class="list-group">
+    <li class="list-group-item"><a href="Help.aspx?ID=330" target="_blank">User Guide</a></li>
+    <li class="list-group-item"><a href="https://www.youtube.com/playlist?list=PL4bC-UY63jygEqBauW0Ofz9FJBWsPkphf" target="_blank">Mobile App Tutorials</a></li>
+    <li class="list-group-item"><a href="FormList.aspx?Form_ID=3937&amp;Stack=0&amp;Menu_Item_ID=3309">TroopWebHost User Forum</a></li>
+    <li class="list-group-item"><a href="FormList.aspx?Form_ID=3948&amp;Stack=0&amp;Menu_Item_ID=3309">Enhancement Requests</a></li>
+    <li class="list-group-item"><a href="FormList.aspx?Form_ID=3944&amp;Stack=0&amp;Menu_Item_ID=3309">My Support Tickets</a></li>
+    <li class="list-group-item"><a href="FormList.aspx?Form_ID=3945&amp;Stack=0&amp;Menu_Item_ID=3309">My Unit's Support Tickets</a></li>
+    <li class="list-group-item"><a href="https://www.TroopWebHost.com/newsletter.htm" target="_blank">TroopWebHost Newsletter</a></li>
+    <li class="list-group-item"><a href="#" data-toggle="modal" data-target="#ModalAboutSite">About This Site</a></li>
+    </ul>
+  </div>
+  <div class="modal fade" id="ModalAboutSite" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <img src="https://www.TroopWebHost.com/images/Compass50.png" height="50" width="50" style="float: left; margin-top: 10px; margin-bottom: 20px; margin-left: 0px; margin-right: 15px;">
+          This site is provided by <a href="http://www.TroopWebHostCS.com" target="_blank">TroopWebHostCS</a>
+          <br><br>
+          Copyright&nbsp; 2026 &nbsp;Web Host Services LLC
+          <br><br>
+          The current user is:&nbsp; &nbsp; MBucklin796
+          <br><br>
+          The URL for this page is:&nbsp; &nbsp; https://www.troopwebhostcs.org//site-configuration/dress-codes-add.php?Form_ID=4238&amp;FK=0&amp;ID=0&amp;Stack=2&amp;Application_ID=2840
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="ModalReportingOptions" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <div class="form-group">
+            <input type="radio" name="Report_option" id="Report_option_1" value="1" tabindex="1"> &nbsp;
+            Open reports as PDF only
+          </div>
+          <div class="form-group">
+            <input type="radio" name="Report_option" id="Report_option_2" value="2" tabindex="2" checked=""> &nbsp;
+            Choose to open reports either as PDF or Excel
+          </div>
+        </div>
+        <div class="modal-footer">
+          <input class="btn btn-success" style="float: left;" tabindex="3" type="button" value="OK" name="Report_option_Button" id="Report_option_Button" onclick="LinkTo('reportoption','');">
+          <button type="button" class="btn btn-danger" style="float: right;" tabindex="4" data-dismiss="modal">Cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="ModalReport" role="dialog">
+    <div class="modal-dialog modal-sm">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <div class="text-center" id="ModalReportPop" name="ModalReportPop">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p class="page-title">
+  Dress Codes
+  </p>
+  <input type="hidden" name="FK" id="FK" value="0">
+  <input type="hidden" name="ID" id="ID" value="0">
+  <div class="new-row" id="fs16793">
+    <div class="container-fluid container-flex">
+      <div class="center-block ">
+        <table class="no-border">
+          <tbody>
+          <tr id="DIVENTRY501591">
+            <td class="text-right">
+              <label class="control-label">
+              <span class="RequiredIndicator" id="RDIVENTRY501591" style="visibility: visible">
+              *
+              </span>
+              Dress Code Name
+              </label>
+            </td>
+            <td class="text-left">
+              <input type="hidden" name="RVALENTRY501591" id="RVALENTRY501591" value="Y">
+              <input type="hidden" name="OLD501591" id="OLD501591" value="">
+              <input type="text" class="form-control" id="ENTRY501591" name="ENTRY501591" tabindex="110" size="50" onblur="TestRegExp(this,'','')" maxlength="100" value="" title="The short name for a particular dress code" style="background-color: rgb(255, 170, 170);">
+              <span class="entrypostscript">
+
+              </span>
+            </td>
+          </tr>
+          <tr id="DIVENTRY50160137">
+            <td class="text-right">
+              <label class="control-label">
+              <span class="RequiredIndicator" id="RDIVENTRY50160137" style="visibility: visible">
+              *
+              </span>
+              Description
+              </label>
+            </td>
+            <td class="text-left">
+              <input type="hidden" name="RVALENTRY50160137" id="RVALENTRY50160137" value="Y">
+              <input type="hidden" name="OLD50160137" id="OLD50160137" value="">
+              <input type="hidden" id="HTMLEditKeyENTRY50160137" value="HTMLEditENTRY50160137">
+              <textarea id="ENTRY50160137" name="ENTRY50160137" style="visibility: hidden; display: none;"></textarea><div id="cke_ENTRY50160137" class="cke_1 cke cke_reset cke_chrome cke_editor_ENTRY50160137 cke_ltr cke_browser_webkit cke_hidpi" dir="ltr" lang="en" role="application" aria-labelledby="cke_ENTRY50160137_arialbl"><span id="cke_ENTRY50160137_arialbl" class="cke_voice_label">Rich Text Editor, ENTRY50160137</span><div class="cke_inner cke_reset" role="presentation"><span id="cke_1_top" class="cke_top cke_reset_all" role="presentation" style="height: auto; user-select: none;"><span id="cke_9" class="cke_voice_label">Editor toolbars</span><span id="cke_1_toolbox" class="cke_toolbox" role="group" aria-labelledby="cke_9" onmousedown="return false;"><span id="cke_13" class="cke_toolbar" aria-labelledby="cke_13_label" role="toolbar"><span id="cke_13_label" class="cke_voice_label">Basic Styles</span><span class="cke_toolbar_start"></span><span class="cke_toolgroup" role="presentation"><a id="cke_14" class="cke_button cke_button__bold cke_button_off" href="javascript:void('Bold')" title="Bold" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_14_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(2,event);" onfocus="return CKEDITOR.tools.callFunction(3,event);" onclick="CKEDITOR.tools.callFunction(4,this);return false;"><span class="cke_button_icon cke_button__bold_icon" style="background-image:url('https://www.troopwebhostcs.org/ckeditor/plugins/icons_hidpi.png?t=G87E');background-position:0 -24px;background-size:16px;">&nbsp;</span><span id="cke_14_label" class="cke_button_label cke_button__bold_label" aria-hidden="false">Bold</span></a><a id="cke_15" class="cke_button cke_button__italic cke_button_off" href="javascript:void('Italic')" title="Italic" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_15_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(5,event);" onfocus="return CKEDITOR.tools.callFunction(6,event);" onclick="CKEDITOR.tools.callFunction(7,this);return false;"><span class="cke_button_icon cke_button__italic_icon" style="background-image:url('https://www.troopwebhostcs.org/ckeditor/plugins/icons_hidpi.png?t=G87E');background-position:0 -48px;background-size:16px;">&nbsp;</span><span id="cke_15_label" class="cke_button_label cke_button__italic_label" aria-hidden="false">Italic</span></a><a id="cke_16" class="cke_button cke_button__underline cke_button_off" href="javascript:void('Underline')" title="Underline" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_16_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(8,event);" onfocus="return CKEDITOR.tools.callFunction(9,event);" onclick="CKEDITOR.tools.callFunction(10,this);return false;"><span class="cke_button_icon cke_button__underline_icon" style="background-image:url('https://www.troopwebhostcs.org/ckeditor/plugins/icons_hidpi.png?t=G87E');background-position:0 -144px;background-size:16px;">&nbsp;</span><span id="cke_16_label" class="cke_button_label cke_button__underline_label" aria-hidden="false">Underline</span></a><a id="cke_17" class="cke_button cke_button__strike cke_button_off" href="javascript:void('Strikethrough')" title="Strikethrough" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_17_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(11,event);" onfocus="return CKEDITOR.tools.callFunction(12,event);" onclick="CKEDITOR.tools.callFunction(13,this);return false;"><span class="cke_button_icon cke_button__strike_icon" style="background-image:url('https://www.troopwebhostcs.org/ckeditor/plugins/icons_hidpi.png?t=G87E');background-position:0 -72px;background-size:16px;">&nbsp;</span><span id="cke_17_label" class="cke_button_label cke_button__strike_label" aria-hidden="false">Strikethrough</span></a><a id="cke_18" class="cke_button cke_button__subscript cke_button_off" href="javascript:void('Subscript')" title="Subscript" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_18_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(14,event);" onfocus="return CKEDITOR.tools.callFunction(15,event);" onclick="CKEDITOR.tools.callFunction(16,this);return false;"><span class="cke_button_icon cke_button__subscript_icon" style="background-image:url('https://www.troopwebhostcs.org/ckeditor/plugins/icons_hidpi.png?t=G87E');background-position:0 -96px;background-size:16px;">&nbsp;</span><span id="cke_18_label" class="cke_button_label cke_button__subscript_label" aria-hidden="false">Subscript</span></a><a id="cke_19" class="cke_button cke_button__superscript cke_button_off" href="javascript:void('Superscript')" title="Superscript" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_19_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(17,event);" onfocus="return CKEDITOR.tools.callFunction(18,event);" onclick="CKEDITOR.tools.callFunction(19,this);return false;"><span class="cke_button_icon cke_button__superscript_icon" style="background-image:url('https://www.troopwebhostcs.org/ckeditor/plugins/icons_hidpi.png?t=G87E');background-position:0 -120px;background-size:16px;">&nbsp;</span><span id="cke_19_label" class="cke_button_label cke_button__superscript_label" aria-hidden="false">Superscript</span></a><span class="cke_toolbar_separator" role="separator"></span><a id="cke_20" class="cke_button cke_button__removeformat cke_button_off" href="javascript:void('Remove Format')" title="Remove Format" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_20_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(20,event);" onfocus="return CKEDITOR.tools.callFunction(21,event);" onclick="CKEDITOR.tools.callFunction(22,this);return false;"><span class="cke_button_icon cke_button__removeformat_icon" style="background-image:url('https://www.troopwebhostcs.org/ckeditor/plugins/icons_hidpi.png?t=G87E');background-position:0 -792px;background-size:16px;">&nbsp;</span><span id="cke_20_label" class="cke_button_label cke_button__removeformat_label" aria-hidden="false">Remove Format</span></a></span><span class="cke_toolbar_end"></span></span><span id="cke_21" class="cke_toolbar" aria-labelledby="cke_21_label" role="toolbar"><span id="cke_21_label" class="cke_voice_label">Paragraph</span><span class="cke_toolbar_start"></span><span class="cke_toolgroup" role="presentation"><a id="cke_22" class="cke_button cke_button__numberedlist cke_button_off" href="javascript:void('Insert/Remove Numbered List')" title="Insert/Remove Numbered List" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_22_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(23,event);" onfocus="return CKEDITOR.tools.callFunction(24,event);" onclick="CKEDITOR.tools.callFunction(25,this);return false;"><span class="cke_button_icon cke_button__numberedlist_icon" style="background-image:url('https://www.troopwebhostcs.org/ckeditor/plugins/icons_hidpi.png?t=G87E');background-position:0 -648px;background-size:16px;">&nbsp;</span><span id="cke_22_label" class="cke_button_label cke_button__numberedlist_label" aria-hidden="false">Insert/Remove Numbered List</span></a><a id="cke_23" class="cke_button cke_button__bulletedlist cke_button_off" href="javascript:void('Insert/Remove Bulleted List')" title="Insert/Remove Bulleted List" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_23_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(26,event);" onfocus="return CKEDITOR.tools.callFunction(27,event);" onclick="CKEDITOR.tools.callFunction(28,this);return false;"><span class="cke_button_icon cke_button__bulletedlist_icon" style="background-image:url('https://www.troopwebhostcs.org/ckeditor/plugins/icons_hidpi.png?t=G87E');background-position:0 -600px;background-size:16px;">&nbsp;</span><span id="cke_23_label" class="cke_button_label cke_button__bulletedlist_label" aria-hidden="false">Insert/Remove Bulleted List</span></a><span class="cke_toolbar_separator" role="separator"></span><a id="cke_24" class="cke_button cke_button__outdent cke_button_disabled " href="javascript:void('Decrease Indent')" title="Decrease Indent" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_24_label" aria-haspopup="false" aria-disabled="true" onkeydown="return CKEDITOR.tools.callFunction(29,event);" onfocus="return CKEDITOR.tools.callFunction(30,event);" onclick="CKEDITOR.tools.callFunction(31,this);return false;"><span class="cke_button_icon cke_button__outdent_icon" style="background-image:url('https://www.troopwebhostcs.org/ckeditor/plugins/icons_hidpi.png?t=G87E');background-position:0 -456px;background-size:16px;">&nbsp;</span><span id="cke_24_label" class="cke_button_label cke_button__outdent_label" aria-hidden="false">Decrease Indent</span></a><a id="cke_25" class="cke_button cke_button__indent cke_button_off" href="javascript:void('Increase Indent')" title="Increase Indent" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_25_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(32,event);" onfocus="return CKEDITOR.tools.callFunction(33,event);" onclick="CKEDITOR.tools.callFunction(34,this);return false;"><span class="cke_button_icon cke_button__indent_icon" style="background-image:url('https://www.troopwebhostcs.org/ckeditor/plugins/icons_hidpi.png?t=G87E');background-position:0 -408px;background-size:16px;">&nbsp;</span><span id="cke_25_label" class="cke_button_label cke_button__indent_label" aria-hidden="false">Increase Indent</span></a><span class="cke_toolbar_separator" role="separator"></span><a id="cke_26" class="cke_button cke_button__justifyleft cke_button_off" href="javascript:void('Align Left')" title="Align Left" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_26_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(35,event);" onfocus="return CKEDITOR.tools.callFunction(36,event);" onclick="CKEDITOR.tools.callFunction(37,this);return false;"><span class="cke_button_icon cke_button__justifyleft_icon" style="background-image:url('https://www.troopwebhostcs.org/ckeditor/plugins/icons_hidpi.png?t=G87E');background-position:0 -1152px;background-size:16px;">&nbsp;</span><span id="cke_26_label" class="cke_button_label cke_button__justifyleft_label" aria-hidden="false">Align Left</span></a><a id="cke_27" class="cke_button cke_button__justifycenter cke_button_off" href="javascript:void('Center')" title="Center" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_27_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(38,event);" onfocus="return CKEDITOR.tools.callFunction(39,event);" onclick="CKEDITOR.tools.callFunction(40,this);return false;"><span class="cke_button_icon cke_button__justifycenter_icon" style="background-image:url('https://www.troopwebhostcs.org/ckeditor/plugins/icons_hidpi.png?t=G87E');background-position:0 -1128px;background-size:16px;">&nbsp;</span><span id="cke_27_label" class="cke_button_label cke_button__justifycenter_label" aria-hidden="false">Center</span></a><a id="cke_28" class="cke_button cke_button__justifyright cke_button_off" href="javascript:void('Align Right')" title="Align Right" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_28_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(41,event);" onfocus="return CKEDITOR.tools.callFunction(42,event);" onclick="CKEDITOR.tools.callFunction(43,this);return false;"><span class="cke_button_icon cke_button__justifyright_icon" style="background-image:url('https://www.troopwebhostcs.org/ckeditor/plugins/icons_hidpi.png?t=G87E');background-position:0 -1176px;background-size:16px;">&nbsp;</span><span id="cke_28_label" class="cke_button_label cke_button__justifyright_label" aria-hidden="false">Align Right</span></a><a id="cke_29" class="cke_button cke_button__justifyblock cke_button_off" href="javascript:void('Justify')" title="Justify" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_29_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(44,event);" onfocus="return CKEDITOR.tools.callFunction(45,event);" onclick="CKEDITOR.tools.callFunction(46,this);return false;"><span class="cke_button_icon cke_button__justifyblock_icon" style="background-image:url('https://www.troopwebhostcs.org/ckeditor/plugins/icons_hidpi.png?t=G87E');background-position:0 -1104px;background-size:16px;">&nbsp;</span><span id="cke_29_label" class="cke_button_label cke_button__justifyblock_label" aria-hidden="false">Justify</span></a></span><span class="cke_toolbar_end"></span></span><span id="cke_30" class="cke_toolbar" aria-labelledby="cke_30_label" role="toolbar"><span id="cke_30_label" class="cke_voice_label">Styles</span><span class="cke_toolbar_start"></span><span id="cke_10" class="cke_combo cke_combo__format cke_combo_off" role="presentation"><span id="cke_10_label" class="cke_combo_label">Format</span><a class="cke_combo_button" title="Paragraph Format" tabindex="-1" href="javascript:void('Paragraph Format')" hidefocus="true" role="button" aria-labelledby="cke_10_label" aria-haspopup="true" onkeydown="return CKEDITOR.tools.callFunction(48,event,this);" onfocus="return CKEDITOR.tools.callFunction(49,event);" onclick="CKEDITOR.tools.callFunction(47,this);return false;"><span id="cke_10_text" class="cke_combo_text cke_combo_inlinelabel">Format</span><span class="cke_combo_open"><span class="cke_combo_arrow"></span></span></a></span><span id="cke_11" class="cke_combo cke_combo__font cke_combo_off" role="presentation"><span id="cke_11_label" class="cke_combo_label">Font</span><a class="cke_combo_button" title="Font Name" tabindex="-1" href="javascript:void('Font Name')" hidefocus="true" role="button" aria-labelledby="cke_11_label" aria-haspopup="true" onkeydown="return CKEDITOR.tools.callFunction(51,event,this);" onfocus="return CKEDITOR.tools.callFunction(52,event);" onclick="CKEDITOR.tools.callFunction(50,this);return false;"><span id="cke_11_text" class="cke_combo_text cke_combo_inlinelabel">Font</span><span class="cke_combo_open"><span class="cke_combo_arrow"></span></span></a></span><span id="cke_12" class="cke_combo cke_combo__fontsize cke_combo_off" role="presentation"><span id="cke_12_label" class="cke_combo_label">Size</span><a class="cke_combo_button" title="Font Size" tabindex="-1" href="javascript:void('Font Size')" hidefocus="true" role="button" aria-labelledby="cke_12_label" aria-haspopup="true" onkeydown="return CKEDITOR.tools.callFunction(54,event,this);" onfocus="return CKEDITOR.tools.callFunction(55,event);" onclick="CKEDITOR.tools.callFunction(53,this);return false;"><span id="cke_12_text" class="cke_combo_text cke_combo_inlinelabel">Size</span><span class="cke_combo_open"><span class="cke_combo_arrow"></span></span></a></span><span class="cke_toolbar_end"></span></span><span id="cke_31" class="cke_toolbar" aria-labelledby="cke_31_label" role="toolbar"><span id="cke_31_label" class="cke_voice_label">Colors</span><span class="cke_toolbar_start"></span><span class="cke_toolgroup" role="presentation"><a id="cke_32" class="cke_button cke_button__textcolor cke_button_off" href="javascript:void('Text Color')" title="Text Color" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_32_label" aria-haspopup="true" onkeydown="return CKEDITOR.tools.callFunction(56,event);" onfocus="return CKEDITOR.tools.callFunction(57,event);" onclick="CKEDITOR.tools.callFunction(58,this);return false;"><span class="cke_button_icon cke_button__textcolor_icon" style="background-image:url('https://www.troopwebhostcs.org/ckeditor/plugins/icons_hidpi.png?t=G87E');background-position:0 -1080px;background-size:16px;">&nbsp;</span><span id="cke_32_label" class="cke_button_label cke_button__textcolor_label" aria-hidden="false">Text Color</span><span class="cke_button_arrow"></span></a><a id="cke_33" class="cke_button cke_button__bgcolor cke_button_off" href="javascript:void('Background Color')" title="Background Color" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_33_label" aria-haspopup="true" onkeydown="return CKEDITOR.tools.callFunction(59,event);" onfocus="return CKEDITOR.tools.callFunction(60,event);" onclick="CKEDITOR.tools.callFunction(61,this);return false;"><span class="cke_button_icon cke_button__bgcolor_icon" style="background-image:url('https://www.troopwebhostcs.org/ckeditor/plugins/icons_hidpi.png?t=G87E');background-position:0 -1056px;background-size:16px;">&nbsp;</span><span id="cke_33_label" class="cke_button_label cke_button__bgcolor_label" aria-hidden="false">Background Color</span><span class="cke_button_arrow"></span></a></span><span class="cke_toolbar_end"></span></span><span id="cke_34" class="cke_toolbar" aria-labelledby="cke_34_label" role="toolbar"><span id="cke_34_label" class="cke_voice_label">Clipboard/Undo</span><span class="cke_toolbar_start"></span><span class="cke_toolgroup" role="presentation"><a id="cke_35" class="cke_button cke_button__cut cke_button_disabled " href="javascript:void('Cut')" title="Cut" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_35_label" aria-haspopup="false" aria-disabled="true" onkeydown="return CKEDITOR.tools.callFunction(62,event);" onfocus="return CKEDITOR.tools.callFunction(63,event);" onclick="CKEDITOR.tools.callFunction(64,this);return false;"><span class="cke_button_icon cke_button__cut_icon" style="background-image:url('https://www.troopwebhostcs.org/ckeditor/plugins/icons_hidpi.png?t=G87E');background-position:0 -264px;background-size:16px;">&nbsp;</span><span id="cke_35_label" class="cke_button_label cke_button__cut_label" aria-hidden="false">Cut</span></a><a id="cke_36" class="cke_button cke_button__copy cke_button_disabled " href="javascript:void('Copy')" title="Copy" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_36_label" aria-haspopup="false" aria-disabled="true" onkeydown="return CKEDITOR.tools.callFunction(65,event);" onfocus="return CKEDITOR.tools.callFunction(66,event);" onclick="CKEDITOR.tools.callFunction(67,this);return false;"><span class="cke_button_icon cke_button__copy_icon" style="background-image:url('https://www.troopwebhostcs.org/ckeditor/plugins/icons_hidpi.png?t=G87E');background-position:0 -216px;background-size:16px;">&nbsp;</span><span id="cke_36_label" class="cke_button_label cke_button__copy_label" aria-hidden="false">Copy</span></a><a id="cke_37" class="cke_button cke_button__paste cke_button_off" href="javascript:void('Paste')" title="Paste" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_37_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(68,event);" onfocus="return CKEDITOR.tools.callFunction(69,event);" onclick="CKEDITOR.tools.callFunction(70,this);return false;"><span class="cke_button_icon cke_button__paste_icon" style="background-image:url('https://www.troopwebhostcs.org/ckeditor/plugins/icons_hidpi.png?t=G87E');background-position:0 -312px;background-size:16px;">&nbsp;</span><span id="cke_37_label" class="cke_button_label cke_button__paste_label" aria-hidden="false">Paste</span></a><a id="cke_38" class="cke_button cke_button__pastetext cke_button_off" href="javascript:void('Paste as plain text')" title="Paste as plain text" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_38_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(71,event);" onfocus="return CKEDITOR.tools.callFunction(72,event);" onclick="CKEDITOR.tools.callFunction(73,this);return false;"><span class="cke_button_icon cke_button__pastetext_icon" style="background-image:url('https://www.troopwebhostcs.org/ckeditor/plugins/icons_hidpi.png?t=G87E');background-position:0 -720px;background-size:16px;">&nbsp;</span><span id="cke_38_label" class="cke_button_label cke_button__pastetext_label" aria-hidden="false">Paste as plain text</span></a><a id="cke_39" class="cke_button cke_button__pastefromword cke_button_off" href="javascript:void('Paste from Word')" title="Paste from Word" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_39_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(74,event);" onfocus="return CKEDITOR.tools.callFunction(75,event);" onclick="CKEDITOR.tools.callFunction(76,this);return false;"><span class="cke_button_icon cke_button__pastefromword_icon" style="background-image:url('https://www.troopwebhostcs.org/ckeditor/plugins/icons_hidpi.png?t=G87E');background-position:0 -768px;background-size:16px;">&nbsp;</span><span id="cke_39_label" class="cke_button_label cke_button__pastefromword_label" aria-hidden="false">Paste from Word</span></a><span class="cke_toolbar_separator" role="separator"></span><a id="cke_40" class="cke_button cke_button__undo cke_button_disabled " href="javascript:void('Undo')" title="Undo" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_40_label" aria-haspopup="false" aria-disabled="true" onkeydown="return CKEDITOR.tools.callFunction(77,event);" onfocus="return CKEDITOR.tools.callFunction(78,event);" onclick="CKEDITOR.tools.callFunction(79,this);return false;"><span class="cke_button_icon cke_button__undo_icon" style="background-image:url('https://www.troopwebhostcs.org/ckeditor/plugins/icons_hidpi.png?t=G87E');background-position:0 -1008px;background-size:16px;">&nbsp;</span><span id="cke_40_label" class="cke_button_label cke_button__undo_label" aria-hidden="false">Undo</span></a><a id="cke_41" class="cke_button cke_button__redo cke_button_disabled " href="javascript:void('Redo')" title="Redo" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_41_label" aria-haspopup="false" aria-disabled="true" onkeydown="return CKEDITOR.tools.callFunction(80,event);" onfocus="return CKEDITOR.tools.callFunction(81,event);" onclick="CKEDITOR.tools.callFunction(82,this);return false;"><span class="cke_button_icon cke_button__redo_icon" style="background-image:url('https://www.troopwebhostcs.org/ckeditor/plugins/icons_hidpi.png?t=G87E');background-position:0 -960px;background-size:16px;">&nbsp;</span><span id="cke_41_label" class="cke_button_label cke_button__redo_label" aria-hidden="false">Redo</span></a></span><span class="cke_toolbar_end"></span></span><span id="cke_42" class="cke_toolbar" aria-labelledby="cke_42_label" role="toolbar"><span id="cke_42_label" class="cke_voice_label">Links</span><span class="cke_toolbar_start"></span><span class="cke_toolgroup" role="presentation"><a id="cke_43" class="cke_button cke_button__link cke_button_off" href="javascript:void('Link')" title="Link" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_43_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(83,event);" onfocus="return CKEDITOR.tools.callFunction(84,event);" onclick="CKEDITOR.tools.callFunction(85,this);return false;"><span class="cke_button_icon cke_button__link_icon" style="background-image:url('https://www.troopwebhostcs.org/ckeditor/plugins/icons_hidpi.png?t=G87E');background-position:0 -528px;background-size:16px;">&nbsp;</span><span id="cke_43_label" class="cke_button_label cke_button__link_label" aria-hidden="false">Link</span></a><a id="cke_44" class="cke_button cke_button__unlink cke_button_disabled " href="javascript:void('Unlink')" title="Unlink" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_44_label" aria-haspopup="false" aria-disabled="true" onkeydown="return CKEDITOR.tools.callFunction(86,event);" onfocus="return CKEDITOR.tools.callFunction(87,event);" onclick="CKEDITOR.tools.callFunction(88,this);return false;"><span class="cke_button_icon cke_button__unlink_icon" style="background-image:url('https://www.troopwebhostcs.org/ckeditor/plugins/icons_hidpi.png?t=G87E');background-position:0 -552px;background-size:16px;">&nbsp;</span><span id="cke_44_label" class="cke_button_label cke_button__unlink_label" aria-hidden="false">Unlink</span></a><a id="cke_45" class="cke_button cke_button__anchor cke_button_off" href="javascript:void('Anchor')" title="Anchor" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_45_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(89,event);" onfocus="return CKEDITOR.tools.callFunction(90,event);" onclick="CKEDITOR.tools.callFunction(91,this);return false;"><span class="cke_button_icon cke_button__anchor_icon" style="background-image:url('https://www.troopwebhostcs.org/ckeditor/plugins/icons_hidpi.png?t=G87E');background-position:0 -504px;background-size:16px;">&nbsp;</span><span id="cke_45_label" class="cke_button_label cke_button__anchor_label" aria-hidden="false">Anchor</span></a></span><span class="cke_toolbar_end"></span></span><span id="cke_46" class="cke_toolbar" aria-labelledby="cke_46_label" role="toolbar"><span id="cke_46_label" class="cke_voice_label">Insert</span><span class="cke_toolbar_start"></span><span class="cke_toolgroup" role="presentation"><a id="cke_47" class="cke_button cke_button__image cke_button_off" href="javascript:void('Image')" title="Image" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_47_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(92,event);" onfocus="return CKEDITOR.tools.callFunction(93,event);" onclick="CKEDITOR.tools.callFunction(94,this);return false;"><span class="cke_button_icon cke_button__image_icon" style="background-image:url('https://www.troopwebhostcs.org/ckeditor/plugins/icons_hidpi.png?t=G87E');background-position:0 -360px;background-size:16px;">&nbsp;</span><span id="cke_47_label" class="cke_button_label cke_button__image_label" aria-hidden="false">Image</span></a><a id="cke_48" class="cke_button cke_button__table cke_button_off" href="javascript:void('Table')" title="Table" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_48_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(95,event);" onfocus="return CKEDITOR.tools.callFunction(96,event);" onclick="CKEDITOR.tools.callFunction(97,this);return false;"><span class="cke_button_icon cke_button__table_icon" style="background-image:url('https://www.troopwebhostcs.org/ckeditor/plugins/icons_hidpi.png?t=G87E');background-position:0 -912px;background-size:16px;">&nbsp;</span><span id="cke_48_label" class="cke_button_label cke_button__table_label" aria-hidden="false">Table</span></a><a id="cke_49" class="cke_button cke_button__horizontalrule cke_button_off" href="javascript:void('Insert Horizontal Line')" title="Insert Horizontal Line" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_49_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(98,event);" onfocus="return CKEDITOR.tools.callFunction(99,event);" onclick="CKEDITOR.tools.callFunction(100,this);return false;"><span class="cke_button_icon cke_button__horizontalrule_icon" style="background-image:url('https://www.troopwebhostcs.org/ckeditor/plugins/icons_hidpi.png?t=G87E');background-position:0 -336px;background-size:16px;">&nbsp;</span><span id="cke_49_label" class="cke_button_label cke_button__horizontalrule_label" aria-hidden="false">Insert Horizontal Line</span></a><a id="cke_50" class="cke_button cke_button__specialchar cke_button_off" href="javascript:void('Insert Special Character')" title="Insert Special Character" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_50_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(101,event);" onfocus="return CKEDITOR.tools.callFunction(102,event);" onclick="CKEDITOR.tools.callFunction(103,this);return false;"><span class="cke_button_icon cke_button__specialchar_icon" style="background-image:url('https://www.troopwebhostcs.org/ckeditor/plugins/icons_hidpi.png?t=G87E');background-position:0 -864px;background-size:16px;">&nbsp;</span><span id="cke_50_label" class="cke_button_label cke_button__specialchar_label" aria-hidden="false">Insert Special Character</span></a><a id="cke_51" class="cke_button cke_button__youtube cke_button_off" href="javascript:void('Embed YouTube Video')" title="Embed YouTube Video" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_51_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(104,event);" onfocus="return CKEDITOR.tools.callFunction(105,event);" onclick="CKEDITOR.tools.callFunction(106,this);return false;"><span class="cke_button_icon cke_button__youtube_icon" style="background-image:url('https://www.troopwebhostcs.org/ckeditor/plugins/youtube/images/icon.png?t=G87E');background-position:0 undefinedpx;background-size:16px;">&nbsp;</span><span id="cke_51_label" class="cke_button_label cke_button__youtube_label" aria-hidden="false">Embed YouTube Video</span></a></span><span class="cke_toolbar_end"></span></span><span id="cke_52" class="cke_toolbar" aria-labelledby="cke_52_label" role="toolbar"><span id="cke_52_label" class="cke_voice_label">Tools</span><span class="cke_toolbar_start"></span><span class="cke_toolgroup" role="presentation"><a id="cke_53" class="cke_button cke_button__maximize cke_button_off" href="javascript:void('Maximize')" title="Maximize" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_53_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(107,event);" onfocus="return CKEDITOR.tools.callFunction(108,event);" onclick="CKEDITOR.tools.callFunction(109,this);return false;"><span class="cke_button_icon cke_button__maximize_icon" style="background-image:url('https://www.troopwebhostcs.org/ckeditor/plugins/icons_hidpi.png?t=G87E');background-position:0 -672px;background-size:16px;">&nbsp;</span><span id="cke_53_label" class="cke_button_label cke_button__maximize_label" aria-hidden="false">Maximize</span></a></span><span class="cke_toolbar_end"></span></span><span id="cke_54" class="cke_toolbar" aria-labelledby="cke_54_label" role="toolbar"><span id="cke_54_label" class="cke_voice_label">Document</span><span class="cke_toolbar_start"></span><span class="cke_toolgroup" role="presentation"><a id="cke_55" class="cke_button cke_button__source cke_button_off" href="javascript:void('Source')" title="Source" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_55_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(110,event);" onfocus="return CKEDITOR.tools.callFunction(111,event);" onclick="CKEDITOR.tools.callFunction(112,this);return false;"><span class="cke_button_icon cke_button__source_icon" style="background-image:url('https://www.troopwebhostcs.org/ckeditor/plugins/icons_hidpi.png?t=G87E');background-position:0 -840px;background-size:16px;">&nbsp;</span><span id="cke_55_label" class="cke_button_label cke_button__source_label" aria-hidden="false">Source</span></a></span><span class="cke_toolbar_end"></span></span><span id="cke_56" class="cke_toolbar" aria-labelledby="cke_56_label" role="toolbar"><span id="cke_56_label" class="cke_voice_label">others</span><span class="cke_toolbar_start"></span><span class="cke_toolbar_end"></span></span><span id="cke_59" class="cke_toolbar" aria-labelledby="cke_59_label" role="toolbar"><span id="cke_59_label" class="cke_voice_label">about</span><span class="cke_toolbar_start"></span><span class="cke_toolgroup" role="presentation"><a id="cke_60" class="cke_button cke_button__about cke_button_off" href="javascript:void('About CKEditor')" title="About CKEditor" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_60_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(119,event);" onfocus="return CKEDITOR.tools.callFunction(120,event);" onclick="CKEDITOR.tools.callFunction(121,this);return false;"><span class="cke_button_icon cke_button__about_icon" style="background-image:url('https://www.troopwebhostcs.org/ckeditor/plugins/icons_hidpi.png?t=G87E');background-position:0 0px;background-size:16px;">&nbsp;</span><span id="cke_60_label" class="cke_button_label cke_button__about_label" aria-hidden="false">About CKEditor</span></a></span><span class="cke_toolbar_end"></span></span></span></span><div id="cke_1_contents" class="cke_contents cke_reset" role="presentation" style="height: 200px;"><span id="cke_65" class="cke_voice_label">Press ALT 0 for help</span><iframe src="" frameborder="0" class="cke_wysiwyg_frame cke_reset" title="Rich Text Editor, ENTRY50160137" aria-describedby="cke_65" tabindex="0" allowtransparency="true" style="width: 100%; height: 100%;"></iframe></div><span id="cke_1_bottom" class="cke_bottom cke_reset_all" role="presentation" style="user-select: none;"><span id="cke_1_resizer" class="cke_resizer cke_resizer_vertical cke_resizer_ltr" title="Resize" onmousedown="CKEDITOR.tools.callFunction(0, event)">◢</span><span id="cke_1_path_label" class="cke_voice_label">Elements path</span><span id="cke_1_path" class="cke_path" role="group" aria-labelledby="cke_1_path_label"><span class="cke_path_empty">&nbsp;</span></span><span class="cke_toolgroup" style="float: right; margin: -3px 10px 0px 0px;"><a id="cke_58" class="cke_button cke_button__doksoft_backup_save cke_button_off" href="javascript:void('Perform backup now')" title="Perform backup now" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_58_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(116,event);" onfocus="return CKEDITOR.tools.callFunction(117,event);" onclick="CKEDITOR.tools.callFunction(118,this);return false;"><span class="cke_button_icon cke_button__doksoft_backup_save_icon" style="background-image:url('https://www.troopwebhostcs.org/ckeditor/plugins/doksoft_backup/icons/doksoft_backup_save.png?t=G87E');background-position:0 undefinedpx;background-size:16px;">&nbsp;</span><span id="cke_58_label" class="cke_button_label cke_button__doksoft_backup_save_label" aria-hidden="false">{label}</span></a><a id="cke_57" class="cke_button cke_button__doksoft_backup_load cke_button_off" href="javascript:void('Restore backup...')" title="Restore backup..." tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_57_label" aria-haspopup="false" onkeydown="return CKEDITOR.tools.callFunction(113,event);" onfocus="return CKEDITOR.tools.callFunction(114,event);" onclick="CKEDITOR.tools.callFunction(115,this);return false;"><span class="cke_button_icon cke_button__doksoft_backup_load_icon" style="background-image:url('https://www.troopwebhostcs.org/ckeditor/plugins/doksoft_backup/icons/doksoft_backup_load.png?t=G87E');background-position:0 0px;background-size:16px;">&nbsp;</span><span id="cke_57_label" class="cke_button_label cke_button__doksoft_backup_load_label" aria-hidden="false" style="display: inline-block !important">Restore</span></a></span></span></div></div>
+              <script>
+                CKEDITOR.replace( 'ENTRY50160137', {
+                 extraPlugins: 'doksoft_backup,uploadimage',
+                    toolbar_name: 'doksoft_backup_save,doksoft_backup_load',
+                    imageUploadUrl: 'UploadImage.aspx?max=1200'
+                });
+                  CKEDITOR.disableAutoInline = true;
+                  CKEDITOR.config.removePlugins = 'scayt,wsc,contextmenu';
+              </script>
+              <span class="entrypostscript">
+
+              </span>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="new-row" id="fs16794">
+    <div class="container-fluid container-flex">
+      <div class="center-block">
+        <div class="text-center">
+          <span style="display:inline;">
+          <input class="btn btn-sm btn-success" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="130" id="BUTTON2" type="button" name="save add again" title="Save this information as a new row in  the database and prepare to add another row" value="Save &amp; Add Another" onclick="buttonlink(this,'N');">
+          </span>
+          <span style="display:inline;">
+          <input class="btn btn-sm btn-success" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="140" id="BUTTON3" type="button" name="save exit" title="Save this information to the database and exit from this page" value="Save &amp; Exit" onclick="buttonlink(this,'N');">
+          </span>
+          <span style="display:inline;">
+          <input class="btn btn-sm btn-danger" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="150" id="BUTTON4" type="button" name="cancel" title="Exit without saving this information" value="Cancel" onclick="buttonlink(this,'N');">
+          </span>
+          <span style="display:inline;">
+          <input class="btn btn-sm btn-warning" onmouseover="SetAction(this)" onmouseout="ResetAction()" type="reset" tabindex="160" id="BUTTON5" title="Discard the information that you entered on this page and restore the previous values" value="Reset" name="BUTTON5">
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <input type="hidden" name="FirstControl" id="FirstControl" value="ENTRY501591">
+  </form>
+  <div style="height: 100px;">&nbsp;</div>
+
+
+<div id="1p-menu-live-region" role="status" aria-live="polite" aria-atomic="true" aria-relevant="all" style="clip: rect(0px, 0px, 0px, 0px); clip-path: inset(50%); height: 1px; overflow: hidden; position: fixed; top: 0px; left: 0px; white-space: nowrap; width: 1px; overflow-wrap: normal;">1Password menu is available. Press down arrow to select.</div></body></html>
