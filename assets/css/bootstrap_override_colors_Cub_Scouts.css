@@ -5013,8 +5013,8 @@ body:has(#Menu_Item_ID[value="319"]) #fs412 table.sortable.table-curved tbody td
   min-width: 0 !important;
   box-sizing: border-box !important;
   white-space: normal !important;
-  overflow-wrap: anywhere;
-  word-break: break-word;
+  overflow-wrap: normal;
+  word-break: normal;
   text-align: center !important;
 }
 @media (min-width: 768px) {
@@ -5022,13 +5022,14 @@ body:has(#Menu_Item_ID[value="319"]) #fs412 table.sortable.table-curved tbody td
     display: table !important;
     table-layout: fixed !important;
   }
-  body:has(#Menu_Item_ID[value="319"]) #fs412 table.sortable.table-curved > thead,
-  body:has(#Menu_Item_ID[value="319"]) #fs412 table.sortable.table-curved > tbody,
-  body:has(#Menu_Item_ID[value="319"]) #fs412 table.sortable.table-curved > tfoot {
+  body:has(#Menu_Item_ID[value="319"]) #fs412 table.sortable.table-curved > thead {
     display: table-header-group !important;
   }
   body:has(#Menu_Item_ID[value="319"]) #fs412 table.sortable.table-curved > tbody {
     display: table-row-group !important;
+  }
+  body:has(#Menu_Item_ID[value="319"]) #fs412 table.sortable.table-curved > tfoot {
+    display: table-footer-group !important;
   }
   body:has(#Menu_Item_ID[value="319"]) #fs412 table.sortable.table-curved > thead > tr,
   body:has(#Menu_Item_ID[value="319"]) #fs412 table.sortable.table-curved > tbody > tr,
@@ -5053,9 +5054,11 @@ body:has(#Menu_Item_ID[value="319"]) #fs412 table.sortable.table-curved tbody td
     min-width: 0 !important;
     table-layout: fixed !important;
   }
-  body:has(#Menu_Item_ID[value="319"]) #fs412 table.sortable.table-curved > thead,
-  body:has(#Menu_Item_ID[value="319"]) #fs412 table.sortable.table-curved > tbody {
+  body:has(#Menu_Item_ID[value="319"]) #fs412 table.sortable.table-curved > thead {
     display: table-header-group !important;
+  }
+  body:has(#Menu_Item_ID[value="319"]) #fs412 table.sortable.table-curved > tbody {
+    display: table-row-group !important;
   }
   body:has(#Menu_Item_ID[value="319"]) #fs412 table.sortable.table-curved > thead > tr,
   body:has(#Menu_Item_ID[value="319"]) #fs412 table.sortable.table-curved > tbody > tr {
@@ -5071,6 +5074,15 @@ body:has(#Menu_Item_ID[value="319"]) #fs412 table.sortable.table-curved tbody td
     white-space: nowrap !important;
     overflow: hidden;
     text-overflow: ellipsis;
+  }
+}
+@media (max-width: 767px) {
+  body:has(#Menu_Item_ID[value="319"]) #fs412 .center-block.table-responsive {
+    overflow-x: auto;
+  }
+  body:has(#Menu_Item_ID[value="319"]) #fs412 table.sortable.table-curved {
+    width: 820px !important;
+    min-width: 820px !important;
   }
 }
 
@@ -8639,14 +8651,8 @@ body:has(#fs16590) {
     table-layout: fixed !important;
   }
   #fs16600 table.sortable.table-curved > thead,
-  #fs16600 table.sortable.table-curved > tbody,
-  #fs16600 table.sortable.table-curved > tfoot,
   #fs16595 table.sortable.table-curved > thead,
-  #fs16595 table.sortable.table-curved > tbody,
-  #fs16595 table.sortable.table-curved > tfoot,
-  #fs16590 table.sortable.table-curved > thead,
-  #fs16590 table.sortable.table-curved > tbody,
-  #fs16590 table.sortable.table-curved > tfoot {
+  #fs16590 table.sortable.table-curved > thead {
     display: table-header-group !important;
   }
   #fs16600 table.sortable.table-curved > tbody,
@@ -8729,6 +8735,8 @@ body:has(#fs16590) {
     overflow: hidden;
     text-overflow: ellipsis;
   }
+}
+@media (max-width: 767px) {
   #fs16600 table.sortable.table-curved > thead > tr > th:nth-of-type(1),
   #fs16600 table.sortable.table-curved > tbody > tr > td:nth-of-type(1),
   #fs16595 table.sortable.table-curved > thead > tr > th:nth-of-type(1),
@@ -8769,3 +8777,5 @@ body:has(#fs16590) {
     text-align: center !important;
   }
 }
+
+/*# sourceMappingURL=bootstrap_override_colors_Cub_Scouts.css.map */

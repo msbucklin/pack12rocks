@@ -111,76 +111,24 @@ body:has(#Menu_Item_ID[value="319"]) {
             min-width: 0 !important;
             box-sizing: border-box !important;
             white-space: normal !important;
-            overflow-wrap: anywhere;
-            word-break: break-word;
+            overflow-wrap: normal;
+            word-break: normal;
             text-align: center !important;
           }
         }
       }
     }
 
-    @media (min-width: 768px) {
-      table.sortable.table-curved {
-        display: table !important;
-        table-layout: fixed !important;
-
-        > thead,
-        > tbody,
-        > tfoot {
-          display: table-header-group !important;
-        }
-
-        > tbody {
-          display: table-row-group !important;
-        }
-
-        > thead > tr,
-        > tbody > tr,
-        > tfoot > tr {
-          display: table-row !important;
-        }
-
-        > thead > tr > th,
-        > tbody > tr > td,
-        > tfoot > tr > td {
-          display: table-cell !important;
-          float: none !important;
-          position: static !important;
-          writing-mode: horizontal-tb !important;
-          transform: none !important;
-        }
-      }
-    }
+    @include responsive-fixed-list-table;
 
     @media (max-width: 767px) {
+      .center-block.table-responsive {
+        overflow-x: auto;
+      }
+
       table.sortable.table-curved {
-        display: table !important;
-        width: 100% !important;
-        max-width: none !important;
-        min-width: 0 !important;
-        table-layout: fixed !important;
-
-        > thead,
-        > tbody {
-          display: table-header-group !important;
-        }
-
-        > thead > tr,
-        > tbody > tr {
-          display: table-row !important;
-        }
-
-        > thead > tr > th,
-        > tbody > tr > td {
-          display: table-cell !important;
-          float: none !important;
-          position: static !important;
-          writing-mode: horizontal-tb !important;
-          transform: none !important;
-          white-space: nowrap !important;
-          overflow: hidden;
-          text-overflow: ellipsis;
-        }
+        width: 820px !important;
+        min-width: 820px !important;
       }
     }
 

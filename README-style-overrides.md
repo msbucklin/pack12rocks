@@ -375,6 +375,13 @@ Status as of August 26, 2026:
   label/value divider, and 250-pixel first columns align right. Mobile rows and
   cells stack like Member, labels remain left-aligned, and compound fields and
   overflow behavior remain intact.
+- Admin Contacts and Upcoming Events now share
+  `responsive-fixed-list-table`, which restores native table anatomy and fixed
+  layout at desktop and mobile widths. The three-column Contacts tables fit
+  their mobile shell, while the nine-column Upcoming Events grid preserves its
+  820-pixel minimum width and scrolls inside the responsive shell. Checks at
+  1440 and 390 pixels confirmed correct header/body display groups, retained
+  20-pixel Contacts checkboxes, and no horizontal page overflow.
 - Pagination arrow images are already missing on the local Users and Passwords
   and User Permissions snapshots because their markup references relative
   `/assets/images/pageleft.gif` and `/assets/images/pageright.gif` files that are not in those directories.
@@ -385,8 +392,8 @@ Remaining investigation order:
    identified; do not apply the mixin to `.text-center` table cells.
 2. Extend the shared detail/edit form shells to other structurally equivalent
   pages while preserving compound fields and page-specific mobile behavior.
-3. Move common sortable-table visuals and only proven responsive behavior into
-   table components.
+3. Continue moving only proven responsive table behavior into components;
+  matrix, card-transform, and wide scrolling tables remain separate families.
 4. Separate Events Hub rules from the Event detail partial.
 5. Reconcile widget rules between `_widgets.scss`, `_home.scss`, and hub
    partials.

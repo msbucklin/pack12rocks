@@ -199,6 +199,78 @@
   }
 }
 
+@mixin responsive-fixed-list-table {
+  @media (min-width: 768px) {
+    table.sortable.table-curved {
+      display: table !important;
+      table-layout: fixed !important;
+
+      > thead {
+        display: table-header-group !important;
+      }
+
+      > tbody {
+        display: table-row-group !important;
+      }
+
+      > tfoot {
+        display: table-footer-group !important;
+      }
+
+      > thead > tr,
+      > tbody > tr,
+      > tfoot > tr {
+        display: table-row !important;
+      }
+
+      > thead > tr > th,
+      > tbody > tr > td,
+      > tfoot > tr > td {
+        display: table-cell !important;
+        float: none !important;
+        position: static !important;
+        writing-mode: horizontal-tb !important;
+        transform: none !important;
+      }
+    }
+  }
+
+  @media (max-width: 767px) {
+    table.sortable.table-curved {
+      display: table !important;
+      width: 100% !important;
+      max-width: none !important;
+      min-width: 0 !important;
+      table-layout: fixed !important;
+
+      > thead {
+        display: table-header-group !important;
+      }
+
+      > tbody {
+        display: table-row-group !important;
+      }
+
+      > thead > tr,
+      > tbody > tr {
+        display: table-row !important;
+      }
+
+      > thead > tr > th,
+      > tbody > tr > td {
+        display: table-cell !important;
+        float: none !important;
+        position: static !important;
+        writing-mode: horizontal-tb !important;
+        transform: none !important;
+        white-space: nowrap !important;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+}
+
 // Shared tabs styling used by list pages with top tab navigation
 @mixin list-page-tabs($link-color: $text-mid, $active-color: $text-dark) {
   .nav-tabs {

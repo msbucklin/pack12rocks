@@ -94,75 +94,12 @@ body:has(#fs16590) {
     }
   }
 
-  @media (min-width: 768px) {
-    table.sortable.table-curved {
-      display: table !important;
-      table-layout: fixed !important;
-
-      > thead,
-      > tbody,
-      > tfoot {
-        display: table-header-group !important;
-      }
-
-      > tbody {
-        display: table-row-group !important;
-      }
-
-      > tfoot {
-        display: table-footer-group !important;
-      }
-
-      > thead > tr,
-      > tbody > tr,
-      > tfoot > tr {
-        display: table-row !important;
-      }
-
-      > thead > tr > th,
-      > tbody > tr > td,
-      > tfoot > tr > td {
-        display: table-cell !important;
-        float: none !important;
-        position: static !important;
-        writing-mode: horizontal-tb !important;
-        transform: none !important;
-      }
-    }
-  }
+  @include responsive-fixed-list-table;
 
   @media (max-width: 767px) {
     table.sortable.table-curved {
-      display: table !important;
-      width: 100% !important;
-      max-width: none !important;
-      min-width: 0 !important;
-      table-layout: fixed !important;
-
-      > thead {
-        display: table-header-group !important;
-      }
-
-      > tbody {
-        display: table-row-group !important;
-      }
-
-      > thead > tr,
-      > tbody > tr {
-        display: table-row !important;
-      }
-
       > thead > tr > th,
       > tbody > tr > td {
-        display: table-cell !important;
-        float: none !important;
-        position: static !important;
-        writing-mode: horizontal-tb !important;
-        transform: none !important;
-        white-space: nowrap !important;
-        overflow: hidden;
-        text-overflow: ellipsis;
-
         &:nth-of-type(1) {
           width: 46% !important;
         }
