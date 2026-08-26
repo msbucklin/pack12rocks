@@ -66,7 +66,7 @@ body:has(#Menu_Item_ID[value="319"]) {
           }
 
           &:nth-of-type(9) {
-            width: 90px;
+            //width: 90px;
             text-align: center;
           }
         }
@@ -74,7 +74,8 @@ body:has(#Menu_Item_ID[value="319"]) {
 
       tbody {
         td:nth-of-type(1) {
-          width: 110px;
+          //width: 110px;
+          min-width: 110px;
           text-align: center;
         }
 
@@ -84,7 +85,7 @@ body:has(#Menu_Item_ID[value="319"]) {
         }
 
         td:nth-of-type(9) {
-          width: 90px;
+          //width: 90px;
           text-align: center;
         }
 

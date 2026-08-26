@@ -513,7 +513,7 @@ User Roles
         <tbody>
         <tr>
           <td class="text-center " id="TD1166ROW0DATA5462">
-            <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="110" id="BUTTON1" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=344&amp;Form_ID=378&amp;FK=0&amp;ID=53711&amp;Stack=2','');">
+            <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="110" id="BUTTON1" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/administration/user-role-edit.php?Form_ID=378&amp;FK=0&amp;ID=53711&amp;Stack=2','');">
           </td>
           <td class="text-center " id="TD1166ROW0DATA5465">
             Adult
@@ -527,7 +527,7 @@ User Roles
         </tr>
         <tr>
           <td class="text-center " id="TD1166ROW1DATA5462">
-            <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="130" id="BUTTON1" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=344&amp;Form_ID=378&amp;FK=0&amp;ID=53712&amp;Stack=2','');">
+            <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="130" id="BUTTON1" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/administration/user-role-edit.php?Form_ID=378&amp;FK=0&amp;ID=53712&amp;Stack=2','');">
           </td>
           <td class="text-center " id="TD1166ROW1DATA5465">
             Cub Scout Advancement
@@ -541,7 +541,7 @@ User Roles
         </tr>
         <tr>
           <td class="text-center " id="TD1166ROW2DATA5462">
-            <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="150" id="BUTTON1" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=344&amp;Form_ID=378&amp;FK=0&amp;ID=53702&amp;Stack=2','');">
+            <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="150" id="BUTTON1" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/administration/user-role-edit.php?Form_ID=378&amp;FK=0&amp;ID=53702&amp;Stack=2','');">
           </td>
           <td class="text-center " id="TD1166ROW2DATA5465">
             Event Planner
@@ -555,7 +555,7 @@ User Roles
         </tr>
         <tr>
           <td class="text-center " id="TD1166ROW3DATA5462">
-            <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="170" id="BUTTON1" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=344&amp;Form_ID=378&amp;FK=0&amp;ID=53709&amp;Stack=2','');">
+            <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="170" id="BUTTON1" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/administration/user-role-edit.php?Form_ID=378&amp;FK=0&amp;ID=53709&amp;Stack=2','');">
           </td>
           <td class="text-center " id="TD1166ROW3DATA5465">
             Financial Review
@@ -569,7 +569,7 @@ User Roles
         </tr>
         <tr>
           <td class="text-center " id="TD1166ROW4DATA5462">
-            <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="190" id="BUTTON1" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=344&amp;Form_ID=378&amp;FK=0&amp;ID=53703&amp;Stack=2','');">
+            <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="190" id="BUTTON1" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/administration/user-role-edit.php?Form_ID=378&amp;FK=0&amp;ID=53703&amp;Stack=2','');">
           </td>
           <td class="text-center " id="TD1166ROW4DATA5465">
             Forum Moderator
@@ -583,7 +583,7 @@ User Roles
         </tr>
         <tr>
           <td class="text-center " id="TD1166ROW5DATA5462">
-            <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="210" id="BUTTON1" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=344&amp;Form_ID=378&amp;FK=0&amp;ID=53713&amp;Stack=2','');">
+            <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="210" id="BUTTON1" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/administration/user-role-edit.php?Form_ID=378&amp;FK=0&amp;ID=53713&amp;Stack=2','');">
           </td>
           <td class="text-center " id="TD1166ROW5DATA5465">
             Fundraising
@@ -597,7 +597,7 @@ User Roles
         </tr>
         <tr>
           <td class="text-center " id="TD1166ROW6DATA5462">
-            <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="230" id="BUTTON1" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=344&amp;Form_ID=378&amp;FK=0&amp;ID=53708&amp;Stack=2','');">
+            <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="230" id="BUTTON1" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/administration/user-role-edit.php?Form_ID=378&amp;FK=0&amp;ID=53708&amp;Stack=2','');">
           </td>
           <td class="text-center " id="TD1166ROW6DATA5465">
             Group Equipment
@@ -611,7 +611,7 @@ User Roles
         </tr>
         <tr>
           <td class="text-center " id="TD1166ROW7DATA5462">
-            <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="250" id="BUTTON1" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=344&amp;Form_ID=378&amp;FK=0&amp;ID=53710&amp;Stack=2','');">
+            <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="250" id="BUTTON1" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/administration/user-role-edit.php?Form_ID=378&amp;FK=0&amp;ID=53710&amp;Stack=2','');">
           </td>
           <td class="text-center " id="TD1166ROW7DATA5465">
             Guest
@@ -625,7 +625,7 @@ User Roles
         </tr>
         <tr>
           <td class="text-center " id="TD1166ROW8DATA5462">
-            <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="270" id="BUTTON1" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=344&amp;Form_ID=378&amp;FK=0&amp;ID=53706&amp;Stack=2','');">
+            <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="270" id="BUTTON1" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/administration/user-role-edit.php?Form_ID=378&amp;FK=0&amp;ID=53706&amp;Stack=2','');">
           </td>
           <td class="text-center " id="TD1166ROW8DATA5465">
             Leader
@@ -639,7 +639,7 @@ User Roles
         </tr>
         <tr>
           <td class="text-center " id="TD1166ROW9DATA5462">
-            <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="290" id="BUTTON1" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=344&amp;Form_ID=378&amp;FK=0&amp;ID=53707&amp;Stack=2','');">
+            <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="290" id="BUTTON1" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/administration/user-role-edit.php?Form_ID=378&amp;FK=0&amp;ID=53707&amp;Stack=2','');">
           </td>
           <td class="text-center " id="TD1166ROW9DATA5465">
             Librarian
@@ -653,7 +653,7 @@ User Roles
         </tr>
         <tr>
           <td class="text-center " id="TD1166ROW10DATA5462">
-            <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="310" id="BUTTON1" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=344&amp;Form_ID=378&amp;FK=0&amp;ID=53705&amp;Stack=2','');">
+            <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="310" id="BUTTON1" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/administration/user-role-edit.php?Form_ID=378&amp;FK=0&amp;ID=53705&amp;Stack=2','');">
           </td>
           <td class="text-center " id="TD1166ROW10DATA5465">
             Membership
@@ -667,7 +667,7 @@ User Roles
         </tr>
         <tr>
           <td class="text-center " id="TD1166ROW11DATA5462">
-            <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="330" id="BUTTON1" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=344&amp;Form_ID=378&amp;FK=0&amp;ID=53700&amp;Stack=2','');">
+            <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="330" id="BUTTON1" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/administration/user-role-edit.php?Form_ID=378&amp;FK=0&amp;ID=53700&amp;Stack=2','');">
           </td>
           <td class="text-center " id="TD1166ROW11DATA5465">
             Scout
@@ -681,7 +681,7 @@ User Roles
         </tr>
         <tr>
           <td class="text-center " id="TD1166ROW12DATA5462">
-            <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="350" id="BUTTON1" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=344&amp;Form_ID=378&amp;FK=0&amp;ID=53704&amp;Stack=2','');">
+            <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="350" id="BUTTON1" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/administration/user-role-edit.php?Form_ID=378&amp;FK=0&amp;ID=53704&amp;Stack=2','');">
           </td>
           <td class="text-center " id="TD1166ROW12DATA5465">
             Site Administrator
@@ -695,7 +695,7 @@ User Roles
         </tr>
         <tr>
           <td class="text-center " id="TD1166ROW13DATA5462">
-            <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="370" id="BUTTON1" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=344&amp;Form_ID=378&amp;FK=0&amp;ID=53701&amp;Stack=2','');">
+            <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="370" id="BUTTON1" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/administration/user-role-edit.php?Form_ID=378&amp;FK=0&amp;ID=53701&amp;Stack=2','');">
           </td>
           <td class="text-center " id="TD1166ROW13DATA5465">
             Treasurer
@@ -709,7 +709,7 @@ User Roles
         </tr>
         <tr>
           <td class="text-center " id="TD1166ROW14DATA5462">
-            <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="390" id="BUTTON1" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=344&amp;Form_ID=378&amp;FK=0&amp;ID=53699&amp;Stack=2','');">
+            <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="390" id="BUTTON1" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/administration/user-role-edit.php?Form_ID=378&amp;FK=0&amp;ID=53699&amp;Stack=2','');">
           </td>
           <td class="text-center " id="TD1166ROW14DATA5465">
             Web Page Editor

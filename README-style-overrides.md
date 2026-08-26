@@ -295,11 +295,12 @@ Current shared mixins:
 - `list-action-row`
 - `list-toolbar-shell`
 
-There are 31 Sass files. The largest active consolidation targets are:
+There are 29 Sass files. The largest active consolidation targets are:
 
 | Partial | Lines | Observation |
 | --- | ---: | --- |
-| `pages/events/_event.scss` | 2,736 | Contains Event and Events Hub behavior; ownership is broader than its name. |
+| `pages/events/_event.scss` | 1,622 | Event detail behavior after extracting the Hub scope. |
+| `pages/events/_events-hub.scss` | 1,114 | Hub composition and generated widget variants. |
 | `pages/membership/_member.scss` | 875 | Long hybrid detail/grid page with many field-specific rules. |
 | `components/_navigation.scss` | 509 | Shared and intentionally global. |
 | `pages/membership/_membership-hub.scss` | 507 | Dashboard composition plus widget variants. |
@@ -309,14 +310,8 @@ There are 31 Sass files. The largest active consolidation targets are:
 
 ## Known duplication and ownership issues
 
-- Three root-level page partials are identical to Administration copies:
-  `_admin-user-permissions.scss`, `_user-role-edit.scss`, and
-  `_user-send-password.scss`.
-- Only the files under `pages/administration/` are imported. The root-level
-  copies are inactive and are candidates for deletion after a separate review.
-- `pages/events/_event.scss` also contains Events Hub styling scoped by
-  `Menu_Item_ID=5787`. This should eventually move to a hub-specific partial or
-  shared dashboard layer.
+- Events Hub styling is isolated in `pages/events/_events-hub.scss` and scoped
+  by `Menu_Item_ID=5787`.
 - `pages/home/_content.scss` targets section IDs also found on non-home forms.
   Generated-ID selectors in broadly imported partials need a page scope before
   they can be considered safe.
@@ -382,6 +377,24 @@ Status as of August 26, 2026:
   820-pixel minimum width and scrolls inside the responsive shell. Checks at
   1440 and 390 pixels confirmed correct header/body display groups, retained
   20-pixel Contacts checkboxes, and no horizontal page overflow.
+- The 1,114-line Events Hub scope now lives in
+  `pages/events/_events-hub.scss`, imported at its original cascade position
+  inside the Event partial. The Event detail partial is reduced from 2,736 to
+  1,622 lines without changing generated Hub or adjacent Event CSS. Browser
+  checks at 1440 and 390 pixels confirmed Hub widget widths, Event detail
+  sections, scoped backgrounds, and zero horizontal page overflow.
+- `widget-card` now accepts optional background, border, shadow, and overflow
+  values. Home retains the mixin defaults while Events Hub uses the same card
+  primitive with its existing white background, shadow color, and visible
+  overflow. Hub headings and tables remain page-scoped because their 18-pixel
+  heading treatment and responsive table anatomy differ from Home widgets.
+  Computed-style checks at 1440 and 390 pixels matched the pre-change values on
+  both pages with no horizontal overflow.
+- The inactive root-level `_admin-user-permissions.scss`,
+  `_user-role-edit.scss`, and `_user-send-password.scss` copies were removed.
+  Workspace reference searches found no imports or build-tool consumers;
+  rebuilding before and after deletion produced the same generated CSS SHA-256
+  checksum.
 - Pagination arrow images are already missing on the local Users and Passwords
   and User Permissions snapshots because their markup references relative
   `/assets/images/pageleft.gif` and `/assets/images/pageright.gif` files that are not in those directories.
@@ -394,12 +407,7 @@ Remaining investigation order:
   pages while preserving compound fields and page-specific mobile behavior.
 3. Continue moving only proven responsive table behavior into components;
   matrix, card-transform, and wide scrolling tables remain separate families.
-4. Separate Events Hub rules from the Event detail partial.
-5. Reconcile widget rules between `_widgets.scss`, `_home.scss`, and hub
-   partials.
-6. Remove inactive duplicate partials after confirming they are not referenced
-   by external build tooling.
-7. Reduce global overrides only after representative desktop and mobile checks.
+4. Reduce global overrides only after representative desktop and mobile checks.
 
 ## Regression matrix for future changes
 

@@ -2,12 +2,20 @@
 // Shared mixins
 // -----------------------------------------------------------------------------
 
-@mixin widget-card {
-  background: linear-gradient(180deg, $bg-soft 0%, $bg-panel 100%);
-  border: 1px solid $border-blue;
+@mixin widget-card(
+  $background: linear-gradient(180deg, $bg-soft 0%, $bg-panel 100%),
+  $border-color: $border-blue,
+  $shadow: 0 8px 18px rgba(13, 31, 54, 0.06),
+  $overflow: hidden
+) {
+  background: $background;
+  border: 1px solid $border-color;
   border-radius: 12px;
-  box-shadow: 0 8px 18px rgba(13, 31, 54, 0.06);
-  overflow: hidden;
+  box-shadow: $shadow;
+
+  @if $overflow {
+    overflow: $overflow;
+  }
 }
 
 @mixin widget-heading($heading-color: $text-dark) {

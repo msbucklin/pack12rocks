@@ -1447,28 +1447,43 @@ body:has(.center-block.widget75) .center-block.widget75 > div {
   text-decoration: underline;
 }
 
-#fs723 .container-fluid.container-flex {
-  padding: 0 !important;
-}
 #fs723 .center-block {
-  width: 100% !important;
-  max-width: unset !important;
-  margin: 0 auto 18px !important;
+  padding: 0;
   background: transparent;
   border: 0;
   border-radius: 0;
   box-shadow: none;
-  padding: 0;
+}
+@media (max-width: 1140px) {
+  #fs723 .center-block {
+    width: calc(100% - 40px) !important;
+    margin: 0 auto !important;
+    box-sizing: border-box;
+  }
+}
+@media (max-width: 767px) {
+  #fs723 {
+    padding: 0 !important;
+  }
+  #fs723 .center-block {
+    padding: 0 !important;
+    border-radius: 0;
+    overflow-x: hidden;
+  }
+}
+@media (min-width: 768px) {
+  #fs723 {
+    margin-top: 0;
+  }
 }
 #fs723 table.no-border {
   width: 100%;
-  max-width: 100%;
-  margin: 0 auto;
-  table-layout: fixed;
+  border: 1px solid rgba(15, 57, 95, 0.16) !important;
   border-collapse: separate;
   border-spacing: 0;
-  box-shadow: 0 8px 24px rgba(11, 25, 40, 0.08);
+  border-radius: 6px;
   overflow: hidden;
+  background: #ffffff;
 }
 #fs723 table.no-border tbody tr:nth-child(even) {
   background-color: #f2f5f9 !important;
@@ -1476,42 +1491,91 @@ body:has(.center-block.widget75) .center-block.widget75 > div {
 #fs723 table.no-border tbody tr:nth-child(odd) {
   background-color: #ffffff !important;
 }
-#fs723 table.no-border tr {
-  display: table-row;
+#fs723 .center-block .control-label {
+  display: unset !important;
+  float: right !important;
+  margin-right: 8px !important;
+  margin-left: auto !important;
+  font-size: 1em !important;
+  font-style: italic !important;
+  font-weight: normal !important;
+  text-align: right !important;
 }
-#fs723 table.no-border td {
-  vertical-align: middle;
-  padding: 7.5px;
-  border: 0;
-  display: table-cell;
-  font-size: 14px;
+#fs723 .center-block .entrypostscript {
+  margin-top: unset !important;
 }
-#fs723 table.no-border td:first-child {
-  width: 240px;
-  padding-right: 18px;
-  text-align: right;
-  color: #0d3b72;
-  font-weight: 700;
-  white-space: nowrap;
-  vertical-align: middle;
+@media (min-width: 768px) {
+  #fs723 table.no-border tbody tr td {
+    padding: 12px 16px !important;
+    vertical-align: middle;
+  }
+  #fs723 table.no-border tbody tr td + td {
+    border-left: 1px solid rgba(15, 57, 95, 0.12) !important;
+  }
+  #fs723 table.no-border tbody tr td:first-child {
+    width: 470px !important;
+    max-width: 250px !important;
+    text-align: right !important;
+  }
 }
-#fs723 table.no-border td:last-child {
-  text-align: left;
-  width: calc(100% - 240px);
-  max-width: 100%;
-  padding-left: 0;
-  word-break: break-word;
+@media (max-width: 767px) {
+  #fs723 table.no-border {
+    display: block !important;
+    width: 100% !important;
+    border-spacing: 0 !important;
+  }
+  #fs723 table.no-border tbody,
+  #fs723 table.no-border tr,
+  #fs723 table.no-border td {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+  }
+  #fs723 table.no-border tbody tr {
+    margin-bottom: 10px;
+  }
+  #fs723 table.no-border td {
+    padding-right: 14px !important;
+    padding-left: 14px !important;
+    border-right: 0 !important;
+    border-left: 0 !important;
+  }
+  #fs723 table.no-border td:first-of-type {
+    padding-top: 10px !important;
+    padding-bottom: 0 !important;
+    text-align: left !important;
+  }
+  #fs723 table.no-border td:last-child {
+    padding-bottom: 10px !important;
+  }
+  #fs723 .center-block .control-label {
+    display: block !important;
+    float: none !important;
+    max-width: 100% !important;
+    margin: 0 0 8px !important;
+    text-align: left !important;
+    white-space: normal !important;
+  }
+  #fs723 .center-block .text-left {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  #fs723 .center-block input,
+  #fs723 .center-block select,
+  #fs723 .center-block textarea {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box;
+  }
 }
-#fs723 table.no-border .control-label {
-  display: inline-block;
-  float: none !important;
-  margin: 0;
-  color: #0d3b72;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.4;
-  text-align: right;
-  vertical-align: middle;
+#fs723 .container-fluid.container-flex {
+  padding: 0 !important;
+}
+#fs723 .center-block .control-label {
+  color: #333333 !important;
 }
 #fs723 table.no-border .RequiredIndicator {
   display: inline-block;
@@ -1539,6 +1603,12 @@ body:has(.center-block.widget75) .center-block.widget75 > div {
   line-height: 1.45;
 }
 
+#fs723 table.no-border tbody tr td {
+  padding: 7.5px;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
 #fs724 .text-center {
   display: flex !important;
   align-items: center !important;
@@ -1554,66 +1624,6 @@ body:has(.center-block.widget75) .center-block.widget75 > div {
   min-width: 120px;
 }
 
-@media (max-width: 767px) {
-  #fs723 .center-block,
-  #fs724 .center-block {
-    padding: 0;
-    border-radius: 0;
-    box-shadow: none;
-  }
-  #fs723 table.no-border,
-  #fs724 table.no-border {
-    width: 100%;
-    border-spacing: 0;
-    table-layout: auto;
-    box-shadow: none;
-  }
-  #fs723 table.no-border tr,
-  #fs724 table.no-border tr {
-    display: block;
-  }
-  #fs723 table.no-border td,
-  #fs724 table.no-border td {
-    display: block;
-    width: 100%;
-    padding-left: 20px !important;
-    padding-right: 20px !important;
-  }
-  #fs723 table.no-border td:first-child,
-  #fs724 table.no-border td:first-child {
-    width: 100%;
-    padding: 10px 20px 6px !important;
-    text-align: left;
-    white-space: normal;
-  }
-  #fs723 table.no-border .control-label,
-  #fs724 table.no-border .control-label {
-    display: block;
-    width: 100%;
-    margin: 0;
-    text-align: left;
-  }
-  #fs723 table.no-border td:last-child,
-  #fs724 table.no-border td:last-child {
-    width: 100%;
-    max-width: none;
-    padding-bottom: 10px !important;
-  }
-  #fs723 table.no-border .text-left,
-  #fs724 table.no-border .text-left {
-    text-align: left;
-    font-size: 14px;
-  }
-  #fs723 table.no-border .form-control,
-  #fs724 table.no-border .form-control {
-    width: 100%;
-    max-width: none;
-  }
-  #fs723 table.no-border .entrypostscript,
-  #fs724 table.no-border .entrypostscript {
-    display: none !important;
-  }
-}
 #fs16108 {
   margin-bottom: 18px !important;
 }
@@ -2700,13 +2710,13 @@ body:has(#Menu_Item_ID[value="5787"]) .center-block.widget34,
 body:has(#Menu_Item_ID[value="5787"]) .center-block.widget36,
 body:has(#Menu_Item_ID[value="5787"]) .center-block.widget37,
 body:has(#Menu_Item_ID[value="5787"]) .center-block.widget38 {
+  background: #ffffff;
+  border: 1px solid rgba(13, 59, 114, 0.14);
+  border-radius: 12px;
+  box-shadow: 0 8px 18px rgba(12, 32, 56, 0.06);
   width: 100% !important;
   min-width: 0 !important;
   margin: 0 0 20px !important;
-  border: 1px solid rgba(13, 59, 114, 0.14);
-  border-radius: 12px;
-  background: #ffffff;
-  box-shadow: 0 8px 18px rgba(12, 32, 56, 0.06);
 }
 body:has(#Menu_Item_ID[value="5787"]) .center-block.widget35 .widget-help-link,
 body:has(#Menu_Item_ID[value="5787"]) .center-block.widget33 .widget-help-link,
@@ -4976,11 +4986,10 @@ body:has(#Menu_Item_ID[value="319"]) #fs412 table.sortable.table-curved thead th
   text-align: left;
 }
 body:has(#Menu_Item_ID[value="319"]) #fs412 table.sortable.table-curved thead th:nth-of-type(9) {
-  width: 90px;
   text-align: center;
 }
 body:has(#Menu_Item_ID[value="319"]) #fs412 table.sortable.table-curved tbody td:nth-of-type(1) {
-  width: 110px;
+  min-width: 110px;
   text-align: center;
 }
 body:has(#Menu_Item_ID[value="319"]) #fs412 table.sortable.table-curved tbody td:nth-of-type(5) {
@@ -4988,7 +4997,6 @@ body:has(#Menu_Item_ID[value="319"]) #fs412 table.sortable.table-curved tbody td
   text-align: center;
 }
 body:has(#Menu_Item_ID[value="319"]) #fs412 table.sortable.table-curved tbody td:nth-of-type(9) {
-  width: 90px;
   text-align: center;
 }
 body:has(#Menu_Item_ID[value="319"]) #fs412 table.sortable.table-curved tbody td:nth-of-type(2),
@@ -8777,5 +8785,3 @@ body:has(#fs16590) {
     text-align: center !important;
   }
 }
-
-/*# sourceMappingURL=bootstrap_override_colors_Cub_Scouts.css.map */
