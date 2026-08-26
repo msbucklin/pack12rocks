@@ -492,7 +492,7 @@
           <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="130" id="BUTTON3" type="button" name="preselect" title="E-Mail Participants" value="E-Mail Participants" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=397&amp;PreselectID=581&amp;FK=581&amp;Stack=3','');">
           </span>
           <span style="display:inline;">
-          <input class="btn btn-sm btn-danger" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="140" id="BUTTON4" type="button" name="cancel" title="Exit" value="Exit" onclick="buttonlink(this,'N');">
+          <input class="btn btn-sm btn-danger" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="140" id="BUTTON4" type="button" name="cancel" title="Exit" value="Exit" onclick="LinkTo('/home/home.php','_top');">
           </span>
         </div>
       </div>
@@ -887,7 +887,7 @@ We’re kicking off the new Scouting year with a <strong>"Welcome Back!" Pack Pi
           <input class="btn btn-sm btn-success" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="290" id="BUTTON33" type="button" name="save" title="Save the information that you entered on this page" value="Save" onclick="buttonlink(this,'N');">
           </span>
           <span style="display:inline;">
-          <input class="btn btn-sm btn-success" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="300" id="BUTTON34" type="button" name="save exit" title="Save this information to the database and exit from this page" value="Save &amp; Exit" onclick="buttonlink(this,'N');">
+          <input class="btn btn-sm btn-success" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="300" id="BUTTON34" type="button" name="save exit" title="Save this information to the database and exit from this page" value="Save &amp; Exit" onclick="LinkTo('/home/home.php','_top');">
           </span>
           <span style="display:inline;">
           <input class="btn btn-sm btn-danger" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="310" id="BUTTON35" type="button" name="cancel" title="Exit without saving this information" value="Cancel" onclick="buttonlink(this,'N');">
@@ -1263,7 +1263,7 @@ We’re kicking off the new Scouting year with a <strong>"Welcome Back!" Pack Pi
           <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="390" id="BUTTON3" type="button" name="preselect" title="E-Mail Participants" value="E-Mail Participants" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=397&amp;PreselectID=581&amp;FK=581&amp;Stack=3','');">
           </span>
           <span style="display:inline;">
-          <input class="btn btn-sm btn-danger" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="400" id="BUTTON4" type="button" name="cancel" title="Exit" value="Exit" onclick="buttonlink(this,'N');">
+          <input class="btn btn-sm btn-danger" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="400" id="BUTTON4" type="button" name="cancel" title="Exit" value="Exit" onclick="LinkTo('/home/home.php','_top');">
           </span>
         </div>
       </div>

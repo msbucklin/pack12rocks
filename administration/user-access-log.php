@@ -547,7 +547,7 @@ Users &amp; Passwords
     <div class="center-block">
       <div class="text-center">
         <span style="display:inline;">
-        <input class="btn btn-sm btn-danger" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="140" id="BUTTON3" type="button" name="cancel" title="Exit" value="Exit" onclick="buttonlink(this,'N');">
+        <input class="btn btn-sm btn-danger" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="140" id="BUTTON3" type="button" name="cancel" title="Exit" value="Exit" onclick="LinkTo('/home/home.php','_top');">
         </span>
       </div>
     </div>

@@ -610,7 +610,7 @@ function ReturnSMSAddress(retObj)
       <div class="center-block">
         <div class="text-center">
           <span style="display:inline;">
-          <input class="btn btn-sm btn-success" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="110" id="BUTTON1" type="button" name="save exit" title="Save this information to the database and exit from this page" value="Save &amp; Exit" onclick="buttonlink(this,'N');">
+          <input class="btn btn-sm btn-success" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="110" id="BUTTON1" type="button" name="save exit" title="Save this information to the database and exit from this page" value="Save &amp; Exit" onclick="LinkTo('/home/home.php','_top');">
           </span>
           <span style="display:inline;">
           <input class="btn btn-sm btn-danger" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="120" id="BUTTON2" type="button" name="cancel" title="Exit without saving this information" value="Cancel" onclick="buttonlink(this,'N');">
@@ -1748,7 +1748,7 @@ function ReturnSMSAddress(retObj)
       <div class="center-block">
         <div class="text-center">
           <span style="display:inline;">
-          <input class="btn btn-sm btn-success" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="590" id="BUTTON93" type="button" name="save exit" title="Save this information to the database and exit from this page" value="Save &amp; Exit" onclick="buttonlink(this,'N');">
+          <input class="btn btn-sm btn-success" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="590" id="BUTTON93" type="button" name="save exit" title="Save this information to the database and exit from this page" value="Save &amp; Exit" onclick="LinkTo('/home/home.php','_top');">
           </span>
           <span style="display:inline;">
           <input class="btn btn-sm btn-danger" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="600" id="BUTTON94" type="button" name="cancel" title="Exit without saving this information" value="Cancel" onclick="buttonlink(this,'N');">

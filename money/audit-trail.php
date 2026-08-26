@@ -531,7 +531,7 @@ Individual Transactions
         <input class="btn btn-sm btn-info" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="110" id="BUTTON27" type="button" name="query" title="Modify the selection criteria for this list" value="Query" onclick="LinkTo('/money/query.php','');">
         </span>
         <span style="display:inline;">
-        <input class="btn btn-sm btn-danger" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="120" id="BUTTON28" type="button" name="cancel" title="Exit" value="Exit" onclick="buttonlink(this,'N');">
+        <input class="btn btn-sm btn-danger" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="120" id="BUTTON28" type="button" name="cancel" title="Exit" value="Exit" onclick="LinkTo('/home/home.php','_top');">
         </span>
       </div>
     </div>

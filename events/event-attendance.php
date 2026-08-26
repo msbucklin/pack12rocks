@@ -710,7 +710,7 @@ This will cover the <strong>Webelos Aquanaut</strong> and <strong>AOL Swimming <
       <div class="center-block">
         <div class="text-center">
           <span style="display:inline;">
-          <input class="btn btn-sm btn-success" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="200" id="BUTTON10" type="button" name="save exit" title="Save this information to the database and exit from this page" value="Save &amp; Exit" onclick="buttonlink(this,'N');">
+          <input class="btn btn-sm btn-success" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="200" id="BUTTON10" type="button" name="save exit" title="Save this information to the database and exit from this page" value="Save &amp; Exit" onclick="LinkTo('/home/home.php','_top');">
           </span>
           <span style="display:inline;">
           <input class="btn btn-sm btn-success" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="210" id="BUTTON11" type="button" name="save" title="Save the information that you entered on this page" value="Save" onclick="buttonlink(this,'N');">
@@ -3186,7 +3186,7 @@ This will cover the <strong>Webelos Aquanaut</strong> and <strong>AOL Swimming <
     <div class="center-block">
       <div class="text-center">
         <span style="display:inline;">
-        <input class="btn btn-sm btn-success" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="5410" id="BUTTON36" type="button" name="save exit" title="Save this information to the database and exit from this page" value="Save &amp; Exit" onclick="buttonlink(this,'N');">
+        <input class="btn btn-sm btn-success" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="5410" id="BUTTON36" type="button" name="save exit" title="Save this information to the database and exit from this page" value="Save &amp; Exit" onclick="LinkTo('/home/home.php','_top');">
         </span>
         <span style="display:inline;">
         <input class="btn btn-sm btn-danger" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="5420" id="BUTTON37" type="button" name="cancel" title="Exit without saving this information" value="Cancel" onclick="buttonlink(this,'N');">

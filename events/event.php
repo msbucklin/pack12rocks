@@ -510,7 +510,7 @@
           <input  class="btn btn-sm btn-danger" onmouseover="SetAction(this)" onmouseout="ResetAction()"  tabindex=160 id="BUTTON6"  type="button" name="delete" title="Delete This Event" value="Delete This Event" onClick="buttonlink(this,'N');">
           </span>
           <span style="display:inline;">
-          <input  class="btn btn-sm btn-danger" onmouseover="SetAction(this)" onmouseout="ResetAction()"  tabindex=170 id="BUTTON7"  type="button" name="cancel" title="Exit" value="Exit" onClick="buttonlink(this,'N');">
+          <input  class="btn btn-sm btn-danger" onmouseover="SetAction(this)" onmouseout="ResetAction()"  tabindex=170 id="BUTTON7"  type="button" name="cancel" title="Exit" value="Exit" onclick="LinkTo('/home/home.php','_top');">
           </span>
         </div>
       </div>
@@ -855,7 +855,7 @@
           <input  class="btn btn-sm btn-success" onmouseover="SetAction(this)" onmouseout="ResetAction()"  tabindex=330 id="BUTTON39"  type="button" name="save" title="Save the information that you entered on this page" value="Save" onClick="buttonlink(this,'N');">
           </span>
           <span style="display:inline;">
-          <input  class="btn btn-sm btn-success" onmouseover="SetAction(this)" onmouseout="ResetAction()"  tabindex=340 id="BUTTON40"  type="button" name="save exit" title="Save this information to the database and exit from this page" value="Save & Exit" onClick="buttonlink(this,'N');">
+          <input  class="btn btn-sm btn-success" onmouseover="SetAction(this)" onmouseout="ResetAction()"  tabindex=340 id="BUTTON40"  type="button" name="save exit" title="Save this information to the database and exit from this page" value="Save & Exit" onclick="LinkTo('/home/home.php','_top');">
           </span>
           <span style="display:inline;">
           <input  class="btn btn-sm btn-danger" onmouseover="SetAction(this)" onmouseout="ResetAction()"  tabindex=350 id="BUTTON41"  type="button" name="cancel" title="Exit without saving this information" value="Cancel" onClick="buttonlink(this,'N');">
@@ -2424,7 +2424,7 @@ Rows Per Page:
           <input  class="btn btn-sm btn-danger" onmouseover="SetAction(this)" onmouseout="ResetAction()"  tabindex=510 id="BUTTON6"  type="button" name="delete" title="Delete This Event" value="Delete This Event" onClick="buttonlink(this,'N');">
           </span>
           <span style="display:inline;">
-          <input  class="btn btn-sm btn-danger" onmouseover="SetAction(this)" onmouseout="ResetAction()"  tabindex=520 id="BUTTON7"  type="button" name="cancel" title="Exit" value="Exit" onClick="buttonlink(this,'N');">
+          <input  class="btn btn-sm btn-danger" onmouseover="SetAction(this)" onmouseout="ResetAction()"  tabindex=520 id="BUTTON7"  type="button" name="cancel" title="Exit" value="Exit" onclick="LinkTo('/home/home.php','_top');">
           </span>
         </div>
       </div>

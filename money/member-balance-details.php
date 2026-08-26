@@ -17,7 +17,7 @@
 </style>
 <link rel="stylesheet" type="text/css" href="/css/bootstrap_override_v11.css">
 <link rel="stylesheet" type="text/css" href="/css/bootstrap_override_colors_Cub_Scouts.css">
-<script type="text/javascript" async="" charset="utf-8" src="https://www.gstatic.com/recaptcha/releases/XOqlk8PL_yVx6IdpLbpXdiLy/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-5gTdLl6IS0Y6zKiLKimmhaY3IOLosQFpvj9Tvt9s2RAiKLtLUEWOP5N8mtHLNUzF"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript" async="" charset="utf-8" src="https://www.gstatic.com/recaptcha/releases/xg_pWYS8-HRESiV6Rdg4aY_R/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-qWH0xCejb2gc1yqo8ob4TQrvIcQ9XjhOfGKbhFr/+LvFrJdTE3bA+FQP/FLAiQhz"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="https://www.google.com/recaptcha/api.js"></script>
 <script language="JavaScript" src="/soapclient.js">
@@ -282,8 +282,8 @@
   //-->
 </script>
 </head>
-<body onunload="CloseErrorBox()" onload="easySetFocus();GetDeviceWidth();">
-<form enctype="multipart/form-data" action="https://www.TroopWebHostCS.org/FormList.aspx" target="_self" method="post" name="easyform" id="easyform">
+<body onunload="CloseErrorBox()" onload="easyFieldExit(this); easySetFocus();GetDeviceWidth();">
+<form enctype="multipart/form-data" action="https://www.TroopWebHostCS.org/FormDetail.aspx" target="_self" method="post" name="easyform" id="easyform">
 <script language="JavaScript" type="text/javascript">
   <!--
   function submitForm() {
@@ -296,16 +296,16 @@
 <input type="hidden" name="Selected_Action" id="Selected_Action" value="">
 <input type="hidden" name="Hover_Action" id="Hover_Action" value="">
 <input type="hidden" name="Selected_Button_ID" id="Selected_Button_ID" value="">
-<input type="hidden" name="Menu_Item_ID" id="Menu_Item_ID" value="392">
-<input type="hidden" name="Form_ID" id="Form_ID" value="281">
+<input type="hidden" name="Menu_Item_ID" id="Menu_Item_ID" value="359">
+<input type="hidden" name="Form_ID" id="Form_ID" value="338">
 <input type="hidden" name="Link_To_Menu_Item_ID" id="Link_To_Menu_Item_ID" value="">
 <input type="hidden" name="Pass" id="Pass" value="1">
-<input type="hidden" name="Stack" id="Stack" value="1">
+<input type="hidden" name="Stack" id="Stack" value="8">
 <input type="hidden" name="NextSectionPageNumber" id="NextSectionPageNumber" value="">
 <input type="hidden" name="NewRowsPerPage" id="NewRowsPerPage" value="">
 <input type="hidden" name="ChildRowID" id="ChildRowID" value="0">
 <input type="hidden" name="Report_Format" id="Report_Format" value="">
-<input type="hidden" name="Current_URL" id="Current_URL" value="https://www.troopwebhostcs.org/FormList.aspx?Menu_Item_ID=392&amp;Stack=1">
+<input type="hidden" name="Current_URL" id="Current_URL" value="https://www.troopwebhostcs.org//money/member-balance-details.php?Form_ID=338&amp;FK=0&amp;ID=541&amp;Stack=8">
 <a href="javascript:togglemenu();">
 <div class="navicon" style="width:64px;">
   <table>
@@ -328,16 +328,16 @@
       <table>
         <tbody><tr>
           <td class="navlink">
-            <a href="javascript:LinkTo('FormDetail.aspx?Menu_Item_ID=409&amp;Stack=1','');">Site Appearance</a>
+            <a href="javascript:LinkTo('FormList.aspx?Menu_Item_ID=318&amp;Stack=8','');">Calendar</a>
           </td>
           <td class="navlink">
-            <a href="javascript:LinkTo('FormList.aspx?Menu_Item_ID=318&amp;Stack=1','');">Calendar</a>
+            <a href="javascript:LinkTo('FormDetail.aspx?Menu_Item_ID=409&amp;Stack=8','');">Site Appearance</a>
           </td>
           <td class="navlink">
             <a href="javascript:LinkTo('formCustom.aspx?Menu_Item_ID=5788&amp;Stack=0','');">Membership Hub</a>
           </td>
           <td class="navlink">
-            <a href="javascript:LinkTo('FormList.aspx?Menu_Item_ID=343&amp;Stack=1','');">Users &amp; Passwords</a>
+            <a href="javascript:LinkTo('FormList.aspx?Menu_Item_ID=343&amp;Stack=8','');">Users &amp; Passwords</a>
           </td>
         </tr>
       </tbody></table>
@@ -362,16 +362,16 @@
       <table>
         <tbody><tr>
           <td class="navlink">
-            <a href="javascript:LinkTo('FormDetail.aspx?Menu_Item_ID=409&amp;Stack=1','');">Site Appearance</a>
+            <a href="javascript:LinkTo('FormList.aspx?Menu_Item_ID=318&amp;Stack=8','');">Calendar</a>
           </td>
           <td class="navlink">
-            <a href="javascript:LinkTo('FormList.aspx?Menu_Item_ID=318&amp;Stack=1','');">Calendar</a>
+            <a href="javascript:LinkTo('FormDetail.aspx?Menu_Item_ID=409&amp;Stack=8','');">Site Appearance</a>
           </td>
           <td class="navlink">
             <a href="javascript:LinkTo('formCustom.aspx?Menu_Item_ID=5788&amp;Stack=0','');">Membership Hub</a>
           </td>
           <td class="navlink">
-            <a href="javascript:LinkTo('FormList.aspx?Menu_Item_ID=343&amp;Stack=1','');">Users &amp; Passwords</a>
+            <a href="javascript:LinkTo('FormList.aspx?Menu_Item_ID=343&amp;Stack=8','');">Users &amp; Passwords</a>
           </td>
         </tr>
       </tbody></table>
@@ -410,19 +410,19 @@
   <ul class="list-group">
   <li class="list-group-item"><a href="#" data-toggle="modal" data-target="#ModalPageFormat">Format</a></li>
   <li class="list-group-item"><a href="#" data-toggle="modal" data-target="#ModalReportingOptions">Reporting Options</a></li>
-  <li class="list-group-item"><a href="FormDetail.aspx?Form_ID=258&amp;Stack=0&amp;Menu_Item_ID=392">Change My Password</a></li>
-  <li class="list-group-item"><a href="FormDetail.aspx?Form_ID=2568&amp;Stack=0&amp;Menu_Item_ID=392">Configure My Quick Menu</a></li>
-  <li class="list-group-item"><a href="FormDetail.aspx?Form_ID=1951&amp;Stack=0&amp;Menu_Item_ID=392">Bookmark This Site</a></li>
+  <li class="list-group-item"><a href="FormDetail.aspx?Form_ID=258&amp;Stack=0&amp;Menu_Item_ID=359">Change My Password</a></li>
+  <li class="list-group-item"><a href="FormDetail.aspx?Form_ID=2568&amp;Stack=0&amp;Menu_Item_ID=359">Configure My Quick Menu</a></li>
+  <li class="list-group-item"><a href="FormDetail.aspx?Form_ID=1951&amp;Stack=0&amp;Menu_Item_ID=359">Bookmark This Site</a></li>
   </ul>
 </div>
 <div id="helpmenu" class="navtools">
   <ul class="list-group">
-  <li class="list-group-item"><a href="Help.aspx?ID=97" target="_blank">User Guide</a></li>
+  <li class="list-group-item"><a href="Help.aspx?ID=126" target="_blank">User Guide</a></li>
   <li class="list-group-item"><a href="https://www.youtube.com/playlist?list=PL4bC-UY63jygEqBauW0Ofz9FJBWsPkphf" target="_blank">Mobile App Tutorials</a></li>
-  <li class="list-group-item"><a href="FormList.aspx?Form_ID=3937&amp;Stack=0&amp;Menu_Item_ID=392">TroopWebHost User Forum</a></li>
-  <li class="list-group-item"><a href="FormList.aspx?Form_ID=3948&amp;Stack=0&amp;Menu_Item_ID=392">Enhancement Requests</a></li>
-  <li class="list-group-item"><a href="FormList.aspx?Form_ID=3944&amp;Stack=0&amp;Menu_Item_ID=392">My Support Tickets</a></li>
-  <li class="list-group-item"><a href="FormList.aspx?Form_ID=3945&amp;Stack=0&amp;Menu_Item_ID=392">My Unit's Support Tickets</a></li>
+  <li class="list-group-item"><a href="FormList.aspx?Form_ID=3937&amp;Stack=0&amp;Menu_Item_ID=359">TroopWebHost User Forum</a></li>
+  <li class="list-group-item"><a href="FormList.aspx?Form_ID=3948&amp;Stack=0&amp;Menu_Item_ID=359">Enhancement Requests</a></li>
+  <li class="list-group-item"><a href="FormList.aspx?Form_ID=3944&amp;Stack=0&amp;Menu_Item_ID=359">My Support Tickets</a></li>
+  <li class="list-group-item"><a href="FormList.aspx?Form_ID=3945&amp;Stack=0&amp;Menu_Item_ID=359">My Unit's Support Tickets</a></li>
   <li class="list-group-item"><a href="https://www.TroopWebHost.com/newsletter.htm" target="_blank">TroopWebHost Newsletter</a></li>
   <li class="list-group-item"><a href="#" data-toggle="modal" data-target="#ModalAboutSite">About This Site</a></li>
   </ul>
@@ -440,7 +440,7 @@
         <br><br>
         The current user is:&nbsp; &nbsp; MBucklin796
         <br><br>
-        The URL for this page is:&nbsp; &nbsp; https://www.troopwebhostcs.org/FormList.aspx?Menu_Item_ID=392&amp;Stack=1&amp;Application_ID=2840
+        The URL for this page is:&nbsp; &nbsp; https://www.troopwebhostcs.org//money/member-balance-details.php?Form_ID=338&amp;FK=0&amp;ID=541&amp;Stack=8&amp;Application_ID=2840
       </div>
     </div>
   </div>
@@ -480,47 +480,237 @@
   </div>
 </div>
 <p class="page-title">
-Add &amp; Update Forms
+Event Balance
 </p>
 <input type="hidden" name="FK" id="FK" value="0">
-<input type="hidden" name="ID" id="ID" value="0">
-<div class="new-row" id="fs820">
+<input type="hidden" name="ID" id="ID" value="541">
+<div class="new-row" id="fs1023">
+  <div class="container-fluid container-flex">
+    <div class="center-block ">
+      <table class="no-border">
+        <tbody>
+        <tr id="DIVENTRY479069">
+          <td class="text-right">
+            <label class="control-label">
+            <span class="RequiredIndicator" id="RDIVENTRY479069" style="visibility: hidden">
+            *
+            </span>
+            Event Name
+            </label>
+          </td>
+          <td class="text-left">
+            <input type="hidden" name="RVALENTRY479069" id="RVALENTRY479069" value="N">
+            <span class="text-left">
+            Graduation (05/15/27)
+            </span>
+          </td>
+        </tr>
+        <tr id="DIVENTRY47972">
+          <td class="text-right">
+            <label class="control-label">
+            <span class="RequiredIndicator" id="RDIVENTRY47972" style="visibility: hidden">
+            *
+            </span>
+            Location
+            </label>
+          </td>
+          <td class="text-left">
+            <input type="hidden" name="RVALENTRY47972" id="RVALENTRY47972" value="Y">
+            <span class="text-left">
+            Oak Hill United Methodist Church
+            </span>
+          </td>
+        </tr>
+        <tr id="DIVENTRY479869">
+          <td class="text-right">
+            <label class="control-label">
+            <span class="RequiredIndicator" id="RDIVENTRY479869" style="visibility: hidden">
+            *
+            </span>
+            Scheduled Start
+            </label>
+          </td>
+          <td class="text-left">
+            <input type="hidden" name="RVALENTRY479869" id="RVALENTRY479869" value="Y">
+            <span class="text-left">
+            05/15/27 3:00 PM
+            </span>
+          </td>
+        </tr>
+        <tr id="DIVENTRY479969">
+          <td class="text-right">
+            <label class="control-label">
+            <span class="RequiredIndicator" id="RDIVENTRY479969" style="visibility: hidden">
+            *
+            </span>
+            Scheduled End
+            </label>
+          </td>
+          <td class="text-left">
+            <input type="hidden" name="RVALENTRY479969" id="RVALENTRY479969" value="Y">
+            <span class="text-left">
+            05/15/27 4:30 PM
+            </span>
+          </td>
+        </tr>
+        <tr id="DIVENTRY480269">
+          <td class="text-right">
+            <label class="control-label">
+            <span class="RequiredIndicator" id="RDIVENTRY480269" style="visibility: hidden">
+            *
+            </span>
+            Total Income
+            </label>
+          </td>
+          <td class="text-left">
+            <input type="hidden" name="RVALENTRY480269" id="RVALENTRY480269" value="Y">
+            <span class="text-left">
+            0.00
+            </span>
+          </td>
+        </tr>
+        <tr id="DIVENTRY480369">
+          <td class="text-right">
+            <label class="control-label">
+            <span class="RequiredIndicator" id="RDIVENTRY480369" style="visibility: hidden">
+            *
+            </span>
+            Total Expense
+            </label>
+          </td>
+          <td class="text-left">
+            <input type="hidden" name="RVALENTRY480369" id="RVALENTRY480369" value="N">
+            <span class="text-left">
+            0.00
+            </span>
+          </td>
+        </tr>
+        <tr id="DIVENTRY479169">
+          <td class="text-right">
+            <label class="control-label">
+            <span class="RequiredIndicator" id="RDIVENTRY479169" style="visibility: hidden">
+            *
+            </span>
+            Balance
+            </label>
+          </td>
+          <td class="text-left">
+            <input type="hidden" name="RVALENTRY479169" id="RVALENTRY479169" value="Y">
+            <span class="text-left">
+            0.00
+            </span>
+          </td>
+        </tr>
+        <tr id="DIVENTRY773969">
+          <td class="text-right">
+            <label class="control-label">
+            <span class="RequiredIndicator" id="RDIVENTRY773969" style="visibility: hidden">
+            *
+            </span>
+            Number of Members Charged
+            </label>
+          </td>
+          <td class="text-left">
+            <input type="hidden" name="RVALENTRY773969" id="RVALENTRY773969" value="Y">
+            <span class="text-left">
+            0
+            </span>
+          </td>
+        </tr>
+        <tr id="DIVENTRY774069">
+          <td class="text-right">
+            <label class="control-label">
+            <span class="RequiredIndicator" id="RDIVENTRY774069" style="visibility: hidden">
+            *
+            </span>
+            Average Charge Per Attendee
+            </label>
+          </td>
+          <td class="text-left">
+            <input type="hidden" name="RVALENTRY774069" id="RVALENTRY774069" value="Y">
+            <span class="text-left">
+            0.000000
+            </span>
+          </td>
+        </tr>
+        <tr id="DIVENTRY912136">
+          <td class="text-right">
+            <label class="control-label">
+            <span class="RequiredIndicator" id="RDIVENTRY912136" style="visibility: hidden">
+            *
+            </span>
+            Estimated Cost
+            </label>
+          </td>
+          <td class="text-left">
+            <input type="hidden" name="RVALENTRY912136" id="RVALENTRY912136" value="N">
+            <span class="text-left">
+            0.00
+            </span>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+<div class="new-row" id="fs1024">
   <div class="container-fluid container-flex">
     <div class="center-block">
       <div class="text-center">
         <span style="display:inline;">
-        <input class="btn btn-sm btn-info" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="110" id="BUTTON0" type="button" name="query" title="Modify the selection criteria for this list" value="Query" onclick="LinkTo('/money/query.php','');">
+        <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="210" id="BUTTON10" type="button" name="add" title="Add Transaction" value="Add Transaction" onclick="LinkTo('/money/transaction-add.php','');">
         </span>
         <span style="display:inline;">
-        <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="120" id="BUTTON1" type="button" name="add" title="Add a new row to this table" value="Add a New Item" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=392&amp;Form_ID=279&amp;FK=0&amp;ID=0&amp;Stack=2','');">
+        <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="220" id="BUTTON11" type="button" name="preselect" title="Add Group Transaction For Participants" value="Add Group Transaction For Participants" onclick="LinkTo('/money/group-transaction-add.php','');">
+        </span>
+        <span style="display:inline;">
+        <input class="btn btn-sm btn-danger" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="230" id="BUTTON12" type="button" name="cancel" title="Exit" value="Exit" onclick="LinkTo('/home/home.php','_top');">
         </span>
       </div>
     </div>
   </div>
 </div>
-<div class="new-row" id="fs819">
-  <div class="container-fluid container-flex">
-    <input type="hidden" name="OP277422" id="OP277422" value="">
-    <input type="hidden" name="OP2774383" id="OP2774383" value="">
-    <input type="hidden" name="OP2774410" id="OP2774410" value="">
-    <input type="hidden" name="OP472832" id="OP472832" value="">
-  </div>
-</div>
-<div class="new-row" id="fs821">
+<div class="new-row" id="fs1025">
   <div class="container-fluid container-flex">
     <div class="center-block table-responsive">
-      <table class="table-striped table-bordered table-condensed table-curved sortable" id="sortablegrid821">
+      <table class="table-striped table-bordered table-condensed table-curved sortable" id="sortablegrid1025">
         <thead>
         <tr>
-          <input type="hidden" name="ROWCOUNTCB821" id="ROWCOUNTCB821" value="2">
+          <input type="hidden" name="ROWCOUNTCB1025" id="ROWCOUNTCB1025" value="0">
           <th class="unsortable">
           &nbsp;
           </th>
-          <th><a href="#" class="sortheader" onclick="ts_resortTable(this, 1);return false;">Access<span class="sortarrow"><img border="0" src="1.gif" alt="↓"></span></a></th>
-          <th><a href="#" class="sortheader" onclick="ts_resortTable(this, 2);return false;">Limit Access To<span class="sortarrow"><img border="0" src="1.gif" alt="↓"></span></a></th>
-          <th><a href="#" class="sortheader" onclick="ts_resortTable(this, 3);return false;">Category<span class="sortarrow"><img border="0" src="1.gif" alt="↓"></span></a></th>
-          <th><a href="#" class="sortheader" onclick="ts_resortTable(this, 4);return false;">Document<span class="sortarrow"><img border="0" src="1.gif" alt="↓"></span></a></th>
-          <th><a href="#" class="sortheader" onclick="ts_resortTable(this, 5);return false;">Description<span class="sortarrow"><img border="0" src="1.gif" alt="↓"></span></a></th>
+          <th>
+          Date
+          </th>
+          <th>
+          Transaction Type
+          </th>
+          <th>
+          Description
+          </th>
+          <th>
+          Ref
+          </th>
+          <th>
+          Credit Person
+          </th>
+          <th>
+          Debit Person
+          </th>
+          <th>
+          Income
+          </th>
+          <th>
+          Expense
+          </th>
+          <th>
+          Running Balance
+          </th>
+          <th>
+          Receipt
+          </th>
           <th class="unsortable">
           &nbsp;
           </th>
@@ -528,78 +718,16 @@ Add &amp; Update Forms
         </thead>
         <tbody>
         <tr>
-          <td class="text-center " id="TD821ROW0DATA3993">
-            <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="130" id="BUTTON6" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=392&amp;Form_ID=279&amp;FK=0&amp;ID=2&amp;Stack=2','');">
-          </td>
-          <td class="text-center " id="TD821ROW0DATA7367">
-            Public
-          </td>
-          <td class="text-center " id="TD821ROW0DATA47284">
-            &nbsp;
-          </td>
-          <td class="text-center " id="TD821ROW0DATA7338">
-            Medical Forms
-          </td>
-          <td class="text-center " id="TD821ROW0DATA3995">
-            <a href="https://filestore.scouting.org/filestore/HealthSafety/pdf/680-001_AB.pdf" target="x4glDocumentDisplay">BSA Health Forms A&amp;B</a>
-          </td>
-          <td class="text-left " id="TD821ROW0DATA3996">
-            &nbsp;
-          </td>
-          <td class="text-center " id="TD821ROW0DATA3994">
-            <input class="btn btn-sm btn-danger" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="140" id="BUTTON15" type="button" name="delete" title="Delete this row permanently from the database" value="Delete" onclick="LinkTo('FormDelete.aspx?Menu_Item_ID=392&amp;Form_ID=280&amp;FK=0&amp;ID=2&amp;Stack=2','');">
-          </td>
-        </tr>
-        <tr>
-          <td class="text-center " id="TD821ROW1DATA3993">
-            <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="150" id="BUTTON6" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=392&amp;Form_ID=279&amp;FK=0&amp;ID=1&amp;Stack=2','');">
-          </td>
-          <td class="text-center " id="TD821ROW1DATA7367">
-            Public
-          </td>
-          <td class="text-center " id="TD821ROW1DATA47284">
-            &nbsp;
-          </td>
-          <td class="text-center " id="TD821ROW1DATA7338">
-            Parent Handbook
-          </td>
-          <td class="text-center " id="TD821ROW1DATA3995">
-            <a href="https://drive.google.com/file/d/1bRAciKhM5J04m-cAuxPlxkWoYgWEfTVL/view?usp=share_link" target="x4glDocumentDisplay">Pack 12 Parent Handbook</a>
-          </td>
-          <td class="text-left " id="TD821ROW1DATA3996">
-            &nbsp;
-          </td>
-          <td class="text-center " id="TD821ROW1DATA3994">
-            <input class="btn btn-sm btn-danger" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="160" id="BUTTON15" type="button" name="delete" title="Delete this row permanently from the database" value="Delete" onclick="LinkTo('FormDelete.aspx?Menu_Item_ID=392&amp;Form_ID=280&amp;FK=0&amp;ID=1&amp;Stack=2','');">
+          <td colspan="12" class="text-center">
+            no data is currently available to display
           </td>
         </tr>
         </tbody>
-        <tfoot>
-        <tr>
-          <td colspan="7" class="text-center">
-            <input type="button" value="Print (Export to PDF)" onclick="window.open('FormReport.aspx?Menu_Item_ID=392&amp;Form_ID=281&amp;Stack=1&amp;SectionID=821&amp;ReportFormat=PDF','_blank');"> &nbsp; &nbsp; <input type="button" value="Open in Excel" onclick="window.open('FormReport.aspx?Menu_Item_ID=392&amp;Form_ID=281&amp;Stack=1&amp;SectionID=821&amp;ReportFormat=XLS','_blank');">
-          </td>
-        </tr>
-        </tfoot>
       </table>
     </div>
   </div>
 </div>
-<div class="new-row">
-  <div class="container-fluid container-flex">
-    <div class="center-block">
-      <div class="text-center">
-        <span style="display:inline;">
-        <input class="btn btn-sm btn-info" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="170" id="BUTTON0" type="button" name="query" title="Modify the selection criteria for this list" value="Query" onclick="buttonlink(this,'N');">
-        </span>
-        <span style="display:inline;">
-        <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="180" id="BUTTON1" type="button" name="add" title="Add a new row to this table" value="Add a New Item" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=392&amp;Form_ID=279&amp;FK=0&amp;ID=0&amp;Stack=2','');">
-        </span>
-      </div>
-    </div>
-  </div>
-</div>
-<input type="hidden" name="FirstControl" id="FirstControl" value="BUTTON0">
+<input type="hidden" name="FirstControl" id="FirstControl" value="BUTTON10">
 </form>
 <div style="height: 100px;">&nbsp;</div>
 

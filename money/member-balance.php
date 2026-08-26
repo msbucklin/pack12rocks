@@ -554,7 +554,7 @@ Member Balance
         <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="130" id="BUTTON5" type="button" name="add" title="Add a new row to this table" value="Add a New Item" onclick="LinkTo('/money/transaction-update.php?Form_ID=319&amp;FK=1027&amp;ID=0&amp;Stack=7','');">
         </span>
         <span style="display:inline;">
-        <input class="btn btn-sm btn-danger" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="140" id="BUTTON6" type="button" name="cancel" title="Exit" value="Exit" onclick="buttonlink(this,'N');">
+        <input class="btn btn-sm btn-danger" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="140" id="BUTTON6" type="button" name="cancel" title="Exit" value="Exit" onclick="LinkTo('/home/home.php','_top');">
         </span>
         <span style="display:inline;">
         <input class="btn btn-sm btn-info" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="150" id="BUTTON7" type="button" name="save continue" title="Print Account Details" value="Print Account Details" onclick="LinkTo('FormReportMultiSection.aspx?Menu_Item_ID=358&amp;Form_ID=3350&amp;FK=1027&amp;ID=1027&amp;Stack=6','FormReportMultiSectionaspxWindow');">
