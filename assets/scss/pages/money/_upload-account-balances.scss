@@ -1,0 +1,21 @@
+// -----------------------------------------------------------------------------
+// Upload Account Balances
+// -----------------------------------------------------------------------------
+
+#fs956 {
+  @include detail-form-stacked-mobile;
+
+  @media (max-width: 767px) {
+    #ENTRY454916 {
+      display: inline-block !important;
+      width: calc(100% - 34px) !important;
+      max-width: 160px !important;
+      vertical-align: middle;
+    }
+
+    #ENTRY454916 + a {
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+}

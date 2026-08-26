@@ -115,13 +115,13 @@ Existing abstraction:
 - `@mixin list-action-row` in `abstracts/_mixins.scss`.
 - Global button visuals in `base/_global.scss`.
 
-Current limitation:
+Current ownership:
 
-- The mixin is used only by Upcoming Events and Admin Contacts even though the
-  action-row structure appears throughout the site.
-- Some mobile pages need full-width buttons, two-column button grids, centered
-  buttons, or destructive actions separated from primary actions. Those layout
-  differences should remain page variants rather than one universal rule.
+- Seven page partials use `list-action-row`, including left-aligned list
+  controls, centered edit actions, and Calendar controls.
+- Mobile pages that need full-width buttons, two-column button grids, or
+  destructive actions separated from primary actions retain page-local layout
+  variants instead of being forced into one universal rule.
 
 Representative pages:
 
@@ -312,9 +312,6 @@ There are 29 Sass files. The largest active consolidation targets are:
 
 - Events Hub styling is isolated in `pages/events/_events-hub.scss` and scoped
   by `Menu_Item_ID=5787`.
-- `pages/home/_content.scss` targets section IDs also found on non-home forms.
-  Generated-ID selectors in broadly imported partials need a page scope before
-  they can be considered safe.
 - Several page partials repeat action-row flex rules, card shells, label/value
   table rules, and mobile full-width control rules already represented by
   mixins or component partials.
@@ -335,9 +332,9 @@ Avoid using a filename convention as proof of structure. Add, update, report,
 and hub filenames are useful hints, but the markup must decide component
 membership.
 
-## Suggested future investigation order
+## Implementation closeout
 
-Status as of August 26, 2026:
+Completed August 26, 2026:
 
 - The regression matrix below is established and was used for the first visual
   checks.
@@ -345,12 +342,17 @@ Status as of August 26, 2026:
   `list-action-row(center)` while retaining their page-specific mobile grids.
 - Desktop and 390-pixel mobile checks confirmed the expected flex/grid modes,
   button counts, and no horizontal page overflow on all three pages.
+- Individual and Group Transactions now use a page-scoped, left-aligned
+  `list-action-row` variant for their repeated top and bottom Query/Add action
+  strips. Exact menu IDs and a direct Query-action selector avoid table-cell
+  Update/Delete controls and modal buttons. Desktop and 390-pixel checks
+  confirmed all four strips retain button order, 40-pixel controls, intentional
+  wrap spacing, and zero overlap or horizontal page overflow.
 - Upcoming Events and Admin Contacts already used the shared action-row mixin.
 - Change Password, My Info, User Permissions, and other specialized action
   sections remain local because their width, spacing, or card behavior differs.
 - Users and Passwords and User Permissions now use `list-toolbar-shell` while
-  retaining their existing generated labels, pagination refinements, and
-  distinct mobile layouts.
+  retaining their pagination refinements and distinct mobile layouts.
 - Desktop and 390-pixel mobile checks confirmed both toolbar variants preserve
   their pre-change shell width, overflow, borders, spacing, pagination geometry,
   and zero horizontal page overflow.
@@ -370,6 +372,36 @@ Status as of August 26, 2026:
   label/value divider, and 250-pixel first columns align right. Mobile rows and
   cells stack like Member, labels remain left-aligned, and compound fields and
   overflow behavior remain intact.
+- Change Password now uses the same three detail-form mixins and My Info label
+  treatment while retaining its password-specific indicators, postscript, and
+  Save/Reset controls. Desktop and 390-pixel checks confirmed matching table
+  borders, column widths, cell spacing, dividers, mobile stacking, and no page
+  overflow.
+- Training Courses Add now uses the same detail-form shell, label, and mobile
+  stacking mixins from a page-scoped Site Configuration partial. Its checkbox,
+  radio group, two date/calendar pairs, and file upload retain their intrinsic
+  compound-control behavior. Desktop checks confirmed the 250-pixel label
+  column and shared table treatment; at 390 pixels the form narrowed from 534
+  to 350 pixels with no clipped controls or horizontal page overflow.
+- Individual Transaction Add now uses the shared detail-form mixins from a
+  page-scoped Money partial while keeping both date/calendar pairs compact.
+  The mobile form narrowed from 532 to 350 pixels; the receipt upload, four
+  action buttons, and desktop 250-pixel label column remain intact. The shared
+  mobile mixin now explicitly preserves generated rows whose inline style sets
+  `display: none`, preventing twelve dependent account fields from appearing
+  before a transaction type enables them. Regression checks covered all five
+  converted form families at 390 pixels with no clipping or page overflow.
+- Member Balance Details now applies the My Info detail-table contract only to
+  its top `#fs1023` summary: 14-pixel label/value typography, a 250-pixel
+  desktop label column, alternating rows, and stacked 350-pixel mobile rows.
+  Its lower action strip and wide transaction table retain their independent
+  layouts with no overlap or page-level overflow.
+- `pages/home/_content.scss` no longer targets the non-Home `#fs723`, `#fs724`,
+  or `#fs7356` sections. Shared label, control, focus, and postscript behavior
+  now belongs to `detail-form-table-labels`; Change Password retains only its
+  field-specific select spacing. Desktop and 390-pixel checks confirmed the
+  Member, My Info, and Change Password form contracts, compound-field modes,
+  action buttons, and zero horizontal page overflow.
 - Admin Contacts and Upcoming Events now share
   `responsive-fixed-list-table`, which restores native table anatomy and fixed
   layout at desktop and mobile widths. The three-column Contacts tables fit
@@ -377,6 +409,28 @@ Status as of August 26, 2026:
   820-pixel minimum width and scrolls inside the responsive shell. Checks at
   1440 and 390 pixels confirmed correct header/body display groups, retained
   20-pixel Contacts checkboxes, and no horizontal page overflow.
+- Training Courses and Home View Contacts were evaluated for the same fixed-list
+  treatment and intentionally remain wide scrolling tables. Their 11- and
+  eight-column mobile grids measure 1,316 and 1,274 pixels respectively, with
+  long description, email, and comment fields contained by 350-pixel responsive
+  shells and no page-level overflow. Compressing either into the three-column
+  Contacts contract would hide meaningful content.
+- Table footers containing `Print (Export to PDF)` and `Open in Excel` now use
+  the User Roles export-action appearance from `components/_tables.scss`:
+  framed footer cells, 40-pixel controls, blue Print and light Excel treatments,
+  10-pixel radii, and shared typography and shadow. Exact value selectors limit
+  the rule to these report actions, while page partials retain their compact,
+  full-width, or half-width responsive composition. A desktop sweep covered all
+  48 PHP pages with actual export inputs; representative mobile card, scrolling,
+  and detail tables had no clipping or page overflow.
+- All 36 PHP pages with paginated-list controls now use the semantic
+  `span.rows-per-page` and `select.rows-per-page` visual contract from
+  `components/_tables.scss`: 13-pixel navy labels, 34-pixel white selects,
+  consistent padding, 6-pixel spacing and radii, and a shared focus treatment.
+  The former generated-label replacements on Users and Passwords and User
+  Permissions were removed; their actual markup now renders once under the
+  shared rule. A desktop sweep covered all 72 controls, and mobile samples
+  retained their page-specific toolbar composition without control clipping.
 - The 1,114-line Events Hub scope now lives in
   `pages/events/_events-hub.scss`, imported at its original cascade position
   inside the Event partial. The Event detail partial is reduced from 2,736 to
@@ -398,16 +452,36 @@ Status as of August 26, 2026:
 - Pagination arrow images are already missing on the local Users and Passwords
   and User Permissions snapshots because their markup references relative
   `/assets/images/pageleft.gif` and `/assets/images/pageright.gif` files that are not in those directories.
+- Calendar's unique `#fs1138` action-row rules moved from `base/_global.scss`
+  into the Calendar partial and now use `list-action-row(center)`. Desktop and
+  390-pixel checks confirmed the four 40-pixel controls wrap without overlap,
+  the 18-pixel section spacing remains, the seven-column calendar geometry is
+  unchanged, and the page has no horizontal overflow.
+- Upload Account Balances now uses the shared mobile form-stacking behavior in
+  a page-scoped Money partial. Its native file input no longer combines with
+  the label column to create a 419-pixel table; the mobile form is 350 pixels,
+  the 322-pixel file control fits, and the date/calendar pair remains inline.
+- Final acceptance covered all 15 regression-matrix families at 1440 and 390
+  pixels: 30 browser runs with zero page-overflow, clipped-control,
+  hidden-row, action-overlap, or family-geometry failures.
 
-Remaining investigation order:
+Completion boundary:
 
-1. Add explicit action-row variants only when another equivalent group is
-   identified; do not apply the mixin to `.text-center` table cells.
-2. Extend the shared detail/edit form shells to other structurally equivalent
-  pages while preserving compound fields and page-specific mobile behavior.
-3. Continue moving only proven responsive table behavior into components;
-  matrix, card-transform, and wide scrolling tables remain separate families.
-4. Reduce global overrides only after representative desktop and mobile checks.
+- The audited shared contracts are implemented for action rows, paginated
+  toolbars, tabs, sortable-table visuals, export actions, rows-per-page
+  controls, detail forms, fixed responsive lists, widget cards, and responsive
+  media.
+- All 31 page partials have active import references. Generated section IDs are
+  confined to page partials; none remain in base, component, or layout Sass.
+- Matrix, card-transform, Calendar, and wide scrolling tables remain separate
+  responsive families because their geometry is materially different.
+- Compound fields, specialized mobile action grids, and generated visibility
+  behavior remain page-scoped where sharing would alter interaction or content.
+- The remaining broad base rules are application-shell decisions with
+  site-wide effects. They should change only in response to a concrete defect,
+  with the regression matrix below, rather than as speculative cleanup.
+- New abstractions should be added only when a new page demonstrates equivalent
+  markup and behavior. The audit itself has no remaining implementation items.
 
 ## Regression matrix for future changes
 

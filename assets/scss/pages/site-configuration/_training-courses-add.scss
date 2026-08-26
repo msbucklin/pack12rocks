@@ -1,0 +1,31 @@
+// -----------------------------------------------------------------------------
+// Training Courses - Add
+// -----------------------------------------------------------------------------
+
+#fs7217 {
+  @include detail-form-shell;
+  @include detail-form-table-labels;
+  @include detail-form-stacked-mobile;
+
+  @media (max-width: 767px) {
+    input[type="checkbox"],
+    input[type="radio"] {
+      width: auto !important;
+      max-width: none !important;
+    }
+
+    #ENTRY4775416,
+    #ENTRY6404016 {
+      display: inline-block !important;
+      width: calc(100% - 34px) !important;
+      max-width: 160px !important;
+      vertical-align: middle;
+    }
+
+    #ENTRY4775416 + a,
+    #ENTRY6404016 + a {
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+}

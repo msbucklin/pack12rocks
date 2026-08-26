@@ -1,0 +1,10 @@
+// -----------------------------------------------------------------------------
+// Transaction lists
+// -----------------------------------------------------------------------------
+
+body:has(#Menu_Item_ID[value="352"]),
+body:has(#Menu_Item_ID[value="353"]) {
+  .new-row:has(> .container-fluid > .center-block > .text-center > span > input[value="Query"]) {
+    @include list-action-row();
+  }
+}

@@ -62,35 +62,6 @@
       }
     }
 
-    tfoot td {
-      padding: 14px 12px !important;
-      border: 0 !important;
-      border-top: 1px solid rgba(13, 59, 114, 0.12) !important;
-      background: #f7faff !important;
-      text-align: center !important;
-
-      > input[type="button"] {
-        display: inline-flex !important;
-        min-height: 40px;
-        align-items: center;
-        justify-content: center;
-        margin: 0 6px !important;
-        padding: 9px 16px !important;
-        border: 1px solid rgba(13, 59, 114, 0.2) !important;
-        border-radius: 10px !important;
-        color: #ffffff !important;
-        background: linear-gradient(180deg, #1b6eb8 0%, #2783d1 100%) !important;
-        font-size: 13px !important;
-        font-weight: 700 !important;
-        line-height: 1.2 !important;
-        box-shadow: 0 3px 8px rgba(13, 31, 54, 0.08) !important;
-
-        &[value="Open in Excel"] {
-          color: $text-dark !important;
-          background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%) !important;
-        }
-      }
-    }
   }
 
   @media (min-width: 768px) {

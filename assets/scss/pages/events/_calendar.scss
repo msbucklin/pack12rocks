@@ -2,6 +2,12 @@
 // Calendar page styling
 // -----------------------------------------------------------------------------
 
+#fs1138 {
+  margin-top: 18px !important;
+
+  @include list-action-row(center);
+}
+
 #fs799 {
   .table-responsive.table-curved,
   .table-responsive > .table-curved,

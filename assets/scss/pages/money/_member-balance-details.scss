@@ -1,0 +1,20 @@
+// -----------------------------------------------------------------------------
+// Member Balance Details
+// -----------------------------------------------------------------------------
+
+#fs1023 {
+  @include detail-form-shell;
+  @include detail-form-table-labels;
+  @include detail-form-stacked-mobile;
+
+  table.no-border tbody tr td {
+    padding: 7.5px;
+    font-size: 14px;
+    vertical-align: middle;
+  }
+}
+
+#fs1024 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

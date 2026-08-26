@@ -108,23 +108,6 @@ body:has(#fs6640) {
     vertical-align: middle;
   }
 
-  span.rows-per-page {
-    display: inline-flex;
-    align-items: center;
-    font-size: 0;
-  }
-
-  span.rows-per-page::before {
-    content: "Rows Per Page:";
-    color: $text-dark;
-    font-size: 13px;
-    font-weight: 700;
-  }
-
-  select.rows-per-page {
-    margin: 0 0 0 4px;
-  }
-
   .pagination {
     vertical-align: middle;
 

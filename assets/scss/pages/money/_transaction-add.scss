@@ -1,0 +1,25 @@
+// -----------------------------------------------------------------------------
+// Individual Transaction - Add
+// -----------------------------------------------------------------------------
+
+#fs946 {
+  @include detail-form-shell;
+  @include detail-form-table-labels;
+  @include detail-form-stacked-mobile;
+
+  @media (max-width: 767px) {
+    #ENTRY446216,
+    #ENTRY2608216 {
+      display: inline-block !important;
+      width: calc(100% - 34px) !important;
+      max-width: 160px !important;
+      vertical-align: middle;
+    }
+
+    #ENTRY446216 + a,
+    #ENTRY2608216 + a {
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+}
