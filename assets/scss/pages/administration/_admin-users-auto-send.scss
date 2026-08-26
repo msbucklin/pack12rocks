@@ -9,7 +9,7 @@ body:has(#fs23481) {
 #fs23483 {
   .center-block {
     width: 100% !important;
-    max-width: 1200px !important;
+    //max-width: 1200px !important;
     margin: 0 auto !important;
     padding: 14px 0;
     color: $text-mid;
@@ -34,7 +34,7 @@ body:has(#fs23481) {
 #fs23481 {
   .center-block {
     width: 100% !important;
-    max-width: 1200px !important;
+    //max-width: 1200px !important;
     margin: 0 auto !important;
     padding: 20px 0 0;
     background: #ffffff;
@@ -194,24 +194,7 @@ body:has(#fs23481) {
 #fs23482 {
   margin: 18px auto !important;
 
-  .text-center {
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    flex-wrap: wrap !important;
-    gap: 10px 12px !important;
-  }
-
-  .text-center > span {
-    display: inline-flex !important;
-    margin: 0 !important;
-  }
-
-  .text-center .btn {
-    min-height: 40px;
-    padding: 9px 16px !important;
-    border-radius: 10px !important;
-  }
+  @include list-action-row(center);
 
   @media (max-width: 767px) {
     .text-center {

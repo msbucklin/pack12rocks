@@ -426,7 +426,7 @@ function ReturnSMSAddress(retObj)
   <input type="hidden" name="NewRowsPerPage" id="NewRowsPerPage" value="">
   <input type="hidden" name="ChildRowID" id="ChildRowID" value="0">
   <input type="hidden" name="Report_Format" id="Report_Format" value="">
-  <input type="hidden" name="Current_URL" id="Current_URL" value="https://www.troopwebhostcs.org/FormDetail.aspx?Menu_Item_ID=5788&amp;ID=1018&amp;FK=1018&amp;Form_ID=127&amp;Stack=2">
+  <input type="hidden" name="Current_URL" id="Current_URL" value="https://www.troopwebhostcs.org//membership/member.php?&amp;ID=1018&amp;FK=1018&amp;Form_ID=127&amp;Stack=2">
   <a href="javascript:togglemenu();">
   <div class="navicon" style="width:64px;">
     <table>
@@ -561,7 +561,7 @@ function ReturnSMSAddress(retObj)
           <br><br>
           The current user is:&nbsp; &nbsp; MBucklin796
           <br><br>
-          The URL for this page is:&nbsp; &nbsp; https://www.troopwebhostcs.org/FormDetail.aspx?Menu_Item_ID=5788&amp;ID=1018&amp;FK=1018&amp;Form_ID=127&amp;Stack=2&amp;Application_ID=2840
+          The URL for this page is:&nbsp; &nbsp; https://www.troopwebhostcs.org//membership/member.php?&amp;ID=1018&amp;FK=1018&amp;Form_ID=127&amp;Stack=2&amp;Application_ID=2840
         </div>
       </div>
     </div>
@@ -622,7 +622,7 @@ function ReturnSMSAddress(retObj)
           <input class="btn btn-sm btn-info" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="140" id="BUTTON4" type="button" name="save continue" title="Scouting History Report" value="Scouting History Report" onclick="LinkTo('FormReportMultiSection.aspx?Menu_Item_ID=5788&amp;Form_ID=1005&amp;FK=1018&amp;ID=1018&amp;Stack=2','FormReportMultiSectionaspxWindow');">
           </span>
           <span style="display:inline;">
-          <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="150" id="BUTTON5" type="button" name="update" title="Deactivate Entire Family" value="Deactivate Entire Family" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=5788&amp;Form_ID=7460&amp;ID=1018&amp;Stack=3','');">
+          <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="150" id="BUTTON5" type="button" name="update" title="Deactivate Entire Family" value="Deactivate Entire Family" onclick="LinkTo('/membership/member.php?&amp;Form_ID=7460&amp;ID=1018&amp;Stack=3','');">
           </span>
         </div>
       </div>

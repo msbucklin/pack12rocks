@@ -5,7 +5,7 @@
 #fs720 {
   .center-block {
     width: 100% !important;
-    max-width: 1200px !important;
+    //max-width: 1200px !important;
     margin: 0 auto !important;
     padding: 18px 20px 12px;
     background: #ffffff;
@@ -125,24 +125,7 @@
 #fs721 {
   margin: 18px auto !important;
 
-  .text-center {
-    display: flex !important;
-    flex-wrap: wrap !important;
-    justify-content: center !important;
-    align-items: center !important;
-    gap: 10px 12px !important;
-  }
-
-  .text-center > span {
-    display: inline-flex !important;
-    margin: 0 !important;
-  }
-
-  .text-center .btn {
-    min-height: 40px;
-    padding: 9px 16px !important;
-    border-radius: 10px !important;
-  }
+  @include list-action-row(center);
 
   @media (min-width: 768px) {
     padding-top: 18px;
@@ -172,7 +155,7 @@
   width: 100%;
 
   p {
-    max-width: 1200px;
+    //max-width: 1200px;
     margin: 0 auto 14px;
     color: $text-mid;
     font-size: 13px;
@@ -184,7 +167,7 @@
 #fs722 {
   .center-block {
     width: 100% !important;
-    max-width: 1200px !important;
+    //max-width: 1200px !important;
     margin: 0 auto !important;
   }
 
@@ -349,7 +332,7 @@
 @media (min-width: 1024px) {
   body:has(#fs720) {
     position: relative;
-    max-width: 1200px;
+    //max-width: 1200px;
     margin: 0 auto;
   }
 
@@ -368,7 +351,7 @@
   #fs721,
   #fs1264 {
     margin: unset !important;
-    max-width: 1200px;
+    //max-width: 1200px;
     width: 66.6667%;
     box-sizing: border-box;
   }
@@ -391,7 +374,7 @@
 
   #fs722 {
     margin: unset !important;
-    max-width: 1200px;
+    //max-width: 1200px;
     position: absolute;
     top: 140px;
     right: 0;
@@ -410,7 +393,7 @@
   body:has(#fs720) .page-title {
     display: block !important;
     width: 100%;
-    max-width: 1200px;
+    //max-width: 1200px;
     padding-right: 20px !important;
     padding-left: 20px !important;
     margin-left: auto !important;

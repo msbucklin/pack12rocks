@@ -47,6 +47,8 @@ table.sortable.table-curved {
     color: #1f2d3d;
     border: 0 !important;
     border-top: 1px solid rgba(13, 59, 114, 0.09) !important;
+    border-left: 1px solid rgba(13, 59, 114, 0.09) !important;
+    border-right: 1px solid rgba(13, 59, 114, 0.09) !important;
     background: transparent;
     font-size: 13px;
     line-height: 1.4;
@@ -66,6 +68,7 @@ table.sortable.table-curved {
     max-width: 100% !important;
     box-sizing: border-box !important;
     white-space: normal !important;
-    overflow-wrap: anywhere;
+    overflow-wrap: normal;
+    word-break: normal;
   }
 }

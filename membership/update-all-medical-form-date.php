@@ -534,7 +534,7 @@ Rows Per Page:
 &nbsp;
 </span>
 <span>
-<ul class="pagination pagination-sm"><li><a><img src="pageleft.gif"></a></li><li class="active"><a>1</a></li><li><a class="bodytext" href="javascript:GoToSectionPageNumber('23342,2');">2</a></li><li><a href="javascript:GoToSectionPageNumber('23342,2');"><img src="pageright.gif"></a></li></ul></span>
+<ul class="pagination pagination-sm"><li><a><img src="/assets/images/pageleft.gif"></a></li><li class="active"><a>1</a></li><li><a class="bodytext" href="javascript:GoToSectionPageNumber('23342,2');">2</a></li><li><a href="javascript:GoToSectionPageNumber('23342,2');"><img src="/assets/images/pageright.gif"></a></li></ul></span>
 </div>
 </td>
 </tr>
@@ -1870,7 +1870,7 @@ Rows Per Page:
 &nbsp;
 </span>
 <span>
-<ul class="pagination pagination-sm"><li><a><img src="pageleft.gif"></a></li><li class="active"><a>1</a></li><li><a class="bodytext" href="javascript:GoToSectionPageNumber('23342,2');">2</a></li><li><a href="javascript:GoToSectionPageNumber('23342,2');"><img src="pageright.gif"></a></li></ul></span>
+<ul class="pagination pagination-sm"><li><a><img src="/assets/images/pageleft.gif"></a></li><li class="active"><a>1</a></li><li><a class="bodytext" href="javascript:GoToSectionPageNumber('23342,2');">2</a></li><li><a href="javascript:GoToSectionPageNumber('23342,2');"><img src="/assets/images/pageright.gif"></a></li></ul></span>
 </div>
 </td>
 </tr>

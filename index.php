@@ -1,3 +1,81 @@
+<?php
+$sectionDirectories = [
+  'Home' => 'home',
+  'My Stuff' => 'my-stuff',
+  'Events' => 'events',
+  'Membership' => 'membership',
+  'Cub Scouts' => 'cub-scouts',
+  'Resources' => 'resources',
+  'Money' => 'money',
+  'Site Configuration' => 'site-configuration',
+  'Administration' => 'administration',
+];
+
+$labelOverrides = [
+  'home/home-loggedout.php' => 'Home, Logged Out',
+  'home/home-parent.php' => 'Parent Home',
+  'home/my-info.php' => 'My Information',
+  'home/uniform.php' => 'Uniforms',
+  'my-stuff/my-info.php' => 'My Information',
+  'style-guide.php' => 'Interface Style Guide',
+];
+
+function pageLabel(string $path, array $overrides): string
+{
+  if (isset($overrides[$path])) {
+    return $overrides[$path];
+  }
+
+  $name = pathinfo($path, PATHINFO_FILENAME);
+  $label = ucwords(str_replace(['-', '_'], ' ', $name));
+
+  return str_replace(
+    ['Bsa', 'Email', 'Id', 'Pdf', 'Scoutbookplus', 'Ypt'],
+    ['BSA', 'E-Mail', 'ID', 'PDF', 'Scoutbook Plus', 'YPT'],
+    $label
+  );
+}
+
+function pagesInDirectory(string $directory): array
+{
+  $pages = [];
+  $absoluteDirectory = __DIR__ . '/' . $directory;
+
+  if (!is_dir($absoluteDirectory)) {
+    return $pages;
+  }
+
+  $files = new RecursiveIteratorIterator(
+    new RecursiveDirectoryIterator($absoluteDirectory, FilesystemIterator::SKIP_DOTS)
+  );
+
+  foreach ($files as $file) {
+    if ($file->isFile() && strtolower($file->getExtension()) === 'php') {
+      $pages[] = str_replace(DIRECTORY_SEPARATOR, '/', substr($file->getPathname(), strlen(__DIR__) + 1));
+    }
+  }
+
+  natcasesort($pages);
+
+  return array_values($pages);
+}
+
+$pageSections = [];
+foreach ($sectionDirectories as $section => $directory) {
+  $pages = pagesInDirectory($directory);
+  if ($pages !== []) {
+    $pageSections[$section] = $pages;
+  }
+}
+
+$rootPages = ['email-confirmation.php', 'style-guide.php'];
+foreach ($rootPages as $rootPage) {
+  if (is_file(__DIR__ . '/' . $rootPage)) {
+    $section = $rootPage === 'style-guide.php' ? 'Reference' : 'Other';
+    $pageSections[$section][] = $rootPage;
+  }
+}
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -183,100 +261,25 @@
     <div class="header-inner">
       <p class="eyebrow">Pack 12 Austin</p>
       <h1>Project Pages</h1>
-      <p class="subtitle">A quick launch point for the HTML pages in this project.</p>
+      <p class="subtitle">A quick launch point for the PHP pages in this project.</p>
     </div>
   </header>
 
   <main>
-    <section aria-labelledby="home-pages">
+<?php foreach ($pageSections as $section => $pages): ?>
+<?php $sectionId = strtolower(str_replace(' ', '-', $section)) . '-pages'; ?>
+    <section aria-labelledby="<?= htmlspecialchars($sectionId, ENT_QUOTES, 'UTF-8') ?>">
       <div class="section-heading">
-        <h2 id="home-pages">Home</h2>
-        <span class="count">16 pages</span>
+        <h2 id="<?= htmlspecialchars($sectionId, ENT_QUOTES, 'UTF-8') ?>"><?= htmlspecialchars($section, ENT_QUOTES, 'UTF-8') ?></h2>
+        <span class="count"><?= count($pages) ?> <?= count($pages) === 1 ? 'page' : 'pages' ?></span>
       </div>
       <div class="page-grid">
-        <a class="page-link" href="/home/home.php"><span class="page-name">Home</span><span class="page-file">home/home.php</span></a>
-        <a class="page-link" href="/home/home-loggedout.php"><span class="page-name">Home, Logged Out</span><span class="page-file">home/home-loggedout.php</span></a>
-        <a class="page-link" href="/home/home-parent.php"><span class="page-name">Parent Home</span><span class="page-file">home/home-parent.php</span></a>
-        <a class="page-link" href="/home/home2.php"><span class="page-name">Home 2</span><span class="page-file">home/home2.php</span></a>
-        <a class="page-link" href="/home/about-us.php"><span class="page-name">About Us</span><span class="page-file">home/about-us.php</span></a>
-        <a class="page-link" href="/home/add-update-announcements.php"><span class="page-name">Add &amp; Update Announcements</span><span class="page-file">home/add-update-announcements.php</span></a>
-        <a class="page-link" href="/home/camping.php"><span class="page-name">Camping</span><span class="page-file">home/camping.php</span></a>
-        <a class="page-link" href="/home/den-leader-resources.php"><span class="page-name">Den Leader Resources</span><span class="page-file">home/den-leader-resources.php</span></a>
-        <a class="page-link" href="/home/fundraising.php"><span class="page-name">Fundraising</span><span class="page-file">home/fundraising.php</span></a>
-        <a class="page-link" href="/home/how-to-make-payments.php"><span class="page-name">How to Make Payments</span><span class="page-file">home/how-to-make-payments.php</span></a>
-        <a class="page-link" href="/home/manage-custom-pages.php"><span class="page-name">Manage Custom Pages</span><span class="page-file">home/manage-custom-pages.php</span></a>
-        <a class="page-link" href="/home/organization-chart.php"><span class="page-name">Organization Chart</span><span class="page-file">home/organization-chart.php</span></a>
-        <a class="page-link" href="/home/renewing-your-membership.php"><span class="page-name">Renewing Your Membership</span><span class="page-file">home/renewing-your-membership.php</span></a>
-        <a class="page-link" href="/home/uniform.php"><span class="page-name">Uniforms</span><span class="page-file">home/uniform.php</span></a>
-        <a class="page-link" href="/home/view-contacts.php"><span class="page-name">View Contacts</span><span class="page-file">home/view-contacts.php</span></a>
-        <a class="page-link" href="/home/volunteering.php"><span class="page-name">Volunteering</span><span class="page-file">home/volunteering.php</span></a>
+<?php foreach ($pages as $page): ?>
+        <a class="page-link" href="/<?= htmlspecialchars($page, ENT_QUOTES, 'UTF-8') ?>"><span class="page-name"><?= htmlspecialchars(pageLabel($page, $labelOverrides), ENT_QUOTES, 'UTF-8') ?></span><span class="page-file"><?= htmlspecialchars($page, ENT_QUOTES, 'UTF-8') ?></span></a>
+<?php endforeach; ?>
       </div>
     </section>
-
-    <section aria-labelledby="event-pages">
-      <div class="section-heading">
-        <h2 id="event-pages">Events</h2>
-        <span class="count">6 pages</span>
-      </div>
-      <div class="page-grid">
-        <a class="page-link" href="/events/events-hub.php"><span class="page-name">Events Hub</span><span class="page-file">events/events-hub.php</span></a>
-        <a class="page-link" href="/events/calendar.php"><span class="page-name">Calendar</span><span class="page-file">events/calendar.php</span></a>
-        <a class="page-link" href="/events/upcoming-events.php"><span class="page-name">Upcoming Events</span><span class="page-file">events/upcoming-events.php</span></a>
-        <a class="page-link" href="/events/event.php"><span class="page-name">Event</span><span class="page-file">events/event.php</span></a>
-        <a class="page-link" href="/events/event-parent.php"><span class="page-name">Parent Event</span><span class="page-file">events/event-parent.php</span></a>
-        <a class="page-link" href="/events/event-attendance.php"><span class="page-name">Event Attendance</span><span class="page-file">events/event-attendance.php</span></a>
-      </div>
-    </section>
-
-    <section aria-labelledby="my-stuff-pages">
-      <div class="section-heading">
-        <h2 id="my-stuff-pages">My Stuff</h2>
-        <span class="count">2 pages</span>
-      </div>
-      <div class="page-grid">
-        <a class="page-link" href="/my-stuff/my-info.php"><span class="page-name">My Information</span><span class="page-file">my-stuff/my-info.php</span></a>
-        <a class="page-link" href="/my-stuff/change-password.php"><span class="page-name">Change Password</span><span class="page-file">my-stuff/change-password.php</span></a>
-      </div>
-    </section>
-
-    <section aria-labelledby="membership-pages">
-      <div class="section-heading">
-        <h2 id="membership-pages">Membership</h2>
-        <span class="count">2 pages</span>
-      </div>
-      <div class="page-grid">
-        <a class="page-link" href="/membership/membership-hub.php"><span class="page-name">Membership Hub</span><span class="page-file">membership/membership-hub.php</span></a>
-        <a class="page-link" href="/membership/member.php"><span class="page-name">Member</span><span class="page-file">membership/member.php</span></a>
-      </div>
-    </section>
-
-    <section aria-labelledby="administration-pages">
-      <div class="section-heading">
-        <h2 id="administration-pages">Administration</h2>
-        <span class="count">9 pages</span>
-      </div>
-      <div class="page-grid">
-        <a class="page-link" href="/administration/users-and-passwords.php"><span class="page-name">Users and Passwords</span><span class="page-file">administration/users-and-passwords.php</span></a>
-        <a class="page-link" href="/administration/user.php"><span class="page-name">User</span><span class="page-file">administration/user.php</span></a>
-        <a class="page-link" href="/administration/user-roles.php"><span class="page-name">User Roles</span><span class="page-file">administration/user-roles.php</span></a>
-        <a class="page-link" href="/administration/user-role-edit.php"><span class="page-name">User Role Edit</span><span class="page-file">administration/user-role-edit.php</span></a>
-        <a class="page-link" href="/administration/user-send-password.php"><span class="page-name">User Send Password</span><span class="page-file">administration/user-send-password.php</span></a>
-        <a class="page-link" href="/administration/user-access-log.php"><span class="page-name">User Access Log</span><span class="page-file">administration/user-access-log.php</span></a>
-        <a class="page-link" href="/administration/admin-contacts.php"><span class="page-name">Admin Contacts</span><span class="page-file">administration/admin-contacts.php</span></a>
-        <a class="page-link" href="/administration/admin-user-permissions.php"><span class="page-name">Admin User Permissions</span><span class="page-file">administration/admin-user-permissions.php</span></a>
-        <a class="page-link" href="/administration/admin-users-auto-send.php"><span class="page-name">Admin Users Auto-Send</span><span class="page-file">administration/admin-users-auto-send.php</span></a>
-      </div>
-    </section>
-
-    <section aria-labelledby="reference-pages">
-      <div class="section-heading">
-        <h2 id="reference-pages">Reference</h2>
-        <span class="count">1 page</span>
-      </div>
-      <div class="page-grid">
-        <a class="page-link" href="/style-guide.php"><span class="page-name">Interface Style Guide</span><span class="page-file">style-guide.php</span></a>
-      </div>
-    </section>
+<?php endforeach; ?>
   </main>
 
   <footer>Pack 12 Rocks PHP project hub</footer>

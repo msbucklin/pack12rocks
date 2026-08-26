@@ -305,7 +305,7 @@
 <input type="hidden" name="NewRowsPerPage" id="NewRowsPerPage" value="">
 <input type="hidden" name="ChildRowID" id="ChildRowID" value="0">
 <input type="hidden" name="Report_Format" id="Report_Format" value="">
-<input type="hidden" name="Current_URL" id="Current_URL" value="https://www.troopwebhostcs.org/FormDetail.aspx?Menu_Item_ID=343&amp;Form_ID=257&amp;FK=0&amp;ID=211690&amp;Stack=2">
+<input type="hidden" name="Current_URL" id="Current_URL" value="https://www.troopwebhostcs.org//administration/user.php?Form_ID=257&amp;FK=0&amp;ID=211690&amp;Stack=2">
 <a href="javascript:togglemenu();">
 <div class="navicon" style="width:64px;">
   <table>
@@ -440,7 +440,7 @@
         <br><br>
         The current user is:&nbsp; &nbsp; mbucklin2
         <br><br>
-        The URL for this page is:&nbsp; &nbsp; https://www.troopwebhostcs.org/FormDetail.aspx?Menu_Item_ID=343&amp;Form_ID=257&amp;FK=0&amp;ID=211690&amp;Stack=2&amp;Application_ID=2840
+        The URL for this page is:&nbsp; &nbsp; https://www.troopwebhostcs.org//administration/user.php?Form_ID=257&amp;FK=0&amp;ID=211690&amp;Stack=2&amp;Application_ID=2840
       </div>
     </div>
   </div>

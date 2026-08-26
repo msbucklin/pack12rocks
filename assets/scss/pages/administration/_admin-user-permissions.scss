@@ -83,7 +83,7 @@ body:has(#fs6640) {
 #fs6639 {
   .center-block {
     width: 100% !important;
-    max-width: 1200px !important;
+    //max-width: 1200px !important;
     margin: 0 auto !important;
   }
 
@@ -101,33 +101,11 @@ body:has(#fs6640) {
 }
 
 #fs6640 {
-  .center-block.table-responsive {
-    width: 100% !important;
-    max-width: 1200px !important;
-    margin: 0 auto !important;
-    overflow-x: auto;
-  }
-
-  .center-block.table-responsive > table:first-child {
-    width: 100% !important;
-    border-collapse: separate;
-    border-spacing: 0;
-    background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%);
-    border: 1px solid rgba(13, 59, 114, 0.14);
-    border-radius: 10px;
-  }
+  @include list-toolbar-shell;
 
   .center-block.table-responsive > table:first-child > tbody > tr:first-child > td {
     padding: 10px 14px 22px !important;
-    border: 0;
-    text-align: right;
     vertical-align: middle;
-  }
-
-  .rows-per-page {
-    color: $text-dark;
-    font-size: 13px;
-    font-weight: 700;
   }
 
   span.rows-per-page {
@@ -144,39 +122,34 @@ body:has(#fs6640) {
   }
 
   select.rows-per-page {
-    min-height: 34px;
     margin: 0 0 0 4px;
-    padding: 6px 26px 6px 8px;
-    color: $text-dark;
-    border: 1px solid rgba(13, 59, 114, 0.22);
-    border-radius: 6px;
-    background: #ffffff;
-    font: 13px Montserrat, sans-serif;
   }
 
   .pagination {
-    margin: 0 0 0 10px;
     vertical-align: middle;
 
     > li > a,
     > li > span {
-      min-width: 32px;
-      min-height: 32px;
-      padding: 7px 9px;
-      color: $text-dark;
-      border: 1px solid rgba(13, 59, 114, 0.18);
-      background: rgba(255, 255, 255, 0.72);
-      font-size: 12px;
-      font-weight: 700;
       line-height: 1.2;
-      text-align: center;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .center-block.table-responsive > table:first-child > tbody > tr:first-child > td {
+      padding: 10px 14px 22px !important;
     }
 
-    > .active > a,
-    > .active > span {
-      color: #ffffff;
-      background: $navy-700;
-      border-color: $navy-700;
+    .center-block.table-responsive > table:first-child > tbody > tr:first-child > td > div {
+      display: block !important;
+      float: right !important;
+      flex-direction: row;
+      align-items: normal;
+      gap: normal;
+      width: auto;
+    }
+
+    .pagination {
+      margin: 0 0 0 10px;
     }
   }
 
