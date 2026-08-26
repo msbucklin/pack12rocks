@@ -2309,6 +2309,24 @@ body:has(.center-block.widget75) .center-block.widget75 > div {
   word-break: break-word;
   overflow-wrap: anywhere;
   font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+}
+#fs726 .center-block table.no-border td:last-child img,
+#fs726 .center-block table.no-border td:last-child svg,
+#fs726 .center-block table.no-border td:last-child video {
+  max-width: 100% !important;
+  height: auto !important;
+}
+#fs726 .center-block table.no-border td:last-child iframe,
+#fs726 .center-block table.no-border td:last-child embed,
+#fs726 .center-block table.no-border td:last-child object {
+  display: block;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  aspect-ratio: 16/9;
 }
 #fs726 .center-block .control-label {
   display: inline-block;

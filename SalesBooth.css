@@ -1,0 +1,96 @@
+body
+{
+  font-family:verdana,geneva,sans-serif;
+}
+
+label
+{
+  width:25%;
+  text-align:right;
+}
+td {
+  font-size:1em;
+  padding:.3em;
+}
+
+.mainSection {
+  width:45%; 
+  margin:.2em;
+  padding:.2em;
+  display:inline;
+  float:left; 
+}
+
+@media only screen and (max-width: 500px) {
+.mainSection 
+  {
+    width:96%; 
+    margin:.2em;
+    padding:.5em;
+    display:inline;
+    float:left; 
+  }
+}
+
+.headingSection {
+  display:block; 
+  width:99%; 
+  min-height:1.5em; 
+  text-align:center;
+  vertical-align:text-top;
+  font-size:1.5em; 
+  margin:0px;
+  padding:0px;
+}
+.buttonSection {
+  width:99%; 
+  min-height:2em; 
+  text-align:center;
+  vertical-align:text-top;
+  margin:0px;
+  padding:0px;
+}
+.scrollingDivWithBorder {
+  display:block; 
+  width:99%; 
+  font-size:1em; 
+  overflow-y:auto; 
+  border-width:5px;
+  border-style:solid;
+  border-color:#999999;
+  border-radius:1em;
+  margin:0px;
+  padding:0px;
+}
+.paymentTable {
+  font-size:1em; 
+  border-width:5px;
+  border-style:solid;
+  border-color:#999999;
+  border-radius:1em;
+  margin-left:auto;
+  margin-right:auto;
+}
+.orderButton {
+  font-size:.9em;
+  padding:.5em;
+  margin:.5em;
+}
+.dollarInput {
+  text-align:right;
+  font-size:1.2em;
+  width:5em;
+}
+
+.greyLinks {
+  font-size:1em;
+  color:#999999;
+}
+.add
+{
+  border-style:sold; border-width:1; border-radius:.5em; background-color:#66FF66; font-size:1.2em; text-align:center; padding:0px; width:2em; cursor:pointer;
+}
+.subtract
+{
+  border-style:sold; border-width:1; border-radius:.5em; background-color:#FF6666; font-size:1.2em; text-align:center; padding:0px; width:2em; cursor:pointer;
+}
