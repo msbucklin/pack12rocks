@@ -1,0 +1,193 @@
+// -----------------------------------------------------------------------------
+// Merge Duplicate Locations (Menu_Item_ID 5430, Form_ID 5906)
+// -----------------------------------------------------------------------------
+
+body:has(#Menu_Item_ID[value="5430"]):has(#Form_ID[value="5906"]) {
+  --merge-location-border: rgba(15, 57, 95, 0.16);
+  --merge-location-muted: #567092;
+
+  .page-title {
+    width: 100%;
+    margin-bottom: 16px !important;
+    padding: 10px 20px 0;
+    box-sizing: border-box;
+    color: $navy-700;
+    text-align: left !important;
+  }
+
+  .page-title + .new-row {
+    margin-bottom: 14px !important;
+    padding: 0 20px !important;
+
+    @include detail-form-shell;
+    @include detail-form-table-labels;
+    @include detail-form-stacked-mobile;
+
+    > .container-flex {
+      display: block !important;
+    }
+
+    .center-block {
+      width: 100% !important;
+      max-width: none !important;
+      margin: 0 !important;
+    }
+
+    table.no-border {
+      table-layout: fixed;
+      box-shadow: 0 6px 18px rgba(13, 31, 54, 0.06);
+    }
+
+    table.no-border td:first-child {
+      width: 250px !important;
+      max-width: 250px !important;
+    }
+
+    table.no-border td:last-child {
+      min-width: 0;
+    }
+
+    .form-control {
+      width: 100% !important;
+      min-width: 0 !important;
+      max-width: 100% !important;
+      min-height: 42px;
+      box-sizing: border-box;
+    }
+
+    .entrypostscript {
+      display: none !important;
+    }
+
+    #DIVENTRY000000027 {
+      border-left: 4px solid #2f7d4a;
+      background: #f5fbf7 !important;
+    }
+
+    #DIVENTRY000000028 {
+      border-left: 4px solid #b6483f;
+      background: #fff7f6 !important;
+    }
+
+    .entryprompt {
+      margin-right: 3px;
+    }
+  }
+
+  #fs19825,
+  #fs19826 {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+
+    .center-block {
+      width: 100% !important;
+      max-width: none !important;
+      margin: 0 !important;
+      box-sizing: border-box;
+    }
+  }
+
+  #fs19825 {
+    margin-bottom: 14px !important;
+
+    .text-center {
+      display: flex !important;
+      justify-content: flex-start !important;
+      gap: 8px;
+      text-align: left !important;
+    }
+
+    .text-center > span {
+      display: inline-flex !important;
+      margin: 0 !important;
+    }
+
+    .btn {
+      min-width: 120px;
+      min-height: 42px;
+      margin: 0 !important;
+      padding: 9px 16px !important;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 700;
+    }
+  }
+
+  #fs19826 {
+    margin-bottom: 20px !important;
+
+    .center-block {
+      padding: 16px 18px !important;
+      border: 1px solid rgba(177, 68, 55, 0.24);
+      border-left: 4px solid #b6483f;
+      border-radius: 6px;
+      background: #fff8f6;
+      box-shadow: 0 4px 12px rgba(61, 31, 27, 0.05);
+      color: $text-dark;
+    }
+
+    p {
+      margin: 0 0 10px;
+      line-height: 1.55;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+      color: #7f2f29;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .page-title {
+      padding-top: 20px;
+    }
+
+    .page-title + .new-row,
+    #fs19825,
+    #fs19826 {
+      padding-right: 20px !important;
+      padding-left: 20px !important;
+    }
+
+    .page-title + .new-row {
+      table.no-border td:first-child {
+        width: 100% !important;
+        max-width: 100% !important;
+      }
+
+      table.no-border tbody tr {
+        margin-bottom: 0;
+      }
+
+      table.no-border tbody tr + tr {
+        border-top: 1px solid var(--merge-location-border);
+      }
+
+      .center-block table.no-border .control-label {
+        margin-bottom: 7px !important;
+        color: $text-dark !important;
+        font-style: normal !important;
+        font-weight: 700 !important;
+      }
+    }
+
+    #fs19825 .text-center {
+      display: grid !important;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    #fs19825 .text-center > span,
+    #fs19825 .btn {
+      width: 100% !important;
+      min-width: 0 !important;
+    }
+
+    #fs19825 .btn {
+      min-height: 44px;
+    }
+
+    #fs19826 .center-block {
+      padding: 14px !important;
+    }
+  }
+}

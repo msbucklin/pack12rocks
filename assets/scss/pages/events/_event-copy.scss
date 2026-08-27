@@ -1,0 +1,260 @@
+// -----------------------------------------------------------------------------
+// Copy Event workflows
+// -----------------------------------------------------------------------------
+
+body:has(#Menu_Item_ID[value="325"]):has(#Form_ID[value="404"]),
+body:has(#Menu_Item_ID[value="1818"]):has(#Form_ID[value="3105"]) {
+  --event-copy-border: rgba(15, 57, 95, 0.16);
+  --event-copy-muted: #567092;
+  --event-copy-panel: #f7faff;
+
+  .page-title {
+    width: 100%;
+    margin-bottom: 16px !important;
+    padding: 10px 20px 0;
+    box-sizing: border-box;
+    color: $navy-700;
+    text-align: left !important;
+  }
+
+  :is(.page-title + .new-row, #fs13359) {
+    margin-bottom: 14px !important;
+    padding: 0 20px !important;
+
+    @include detail-form-shell;
+    @include detail-form-table-labels;
+    @include detail-form-stacked-mobile;
+
+    > .container-flex {
+      display: block !important;
+    }
+
+    .center-block {
+      width: 100% !important;
+      max-width: none !important;
+      margin: 0 !important;
+    }
+
+    table.no-border {
+      table-layout: fixed;
+      box-shadow: 0 6px 18px rgba(13, 31, 54, 0.06);
+    }
+
+    table.no-border td:first-child {
+      width: 270px !important;
+      max-width: 270px !important;
+    }
+
+    table.no-border td:last-child {
+      min-width: 0;
+    }
+
+    .form-control {
+      width: 100% !important;
+      min-width: 0 !important;
+      max-width: 100% !important;
+      min-height: 42px;
+      box-sizing: border-box;
+    }
+
+    input[type="text"].form-control {
+      width: 160px !important;
+    }
+
+    .entrypostscript {
+      display: none !important;
+    }
+
+    :is(.entryprompt, .RequiredIndicator) {
+      margin-right: 3px;
+    }
+
+    tr:has(select) {
+      border-left: 4px solid $navy-700;
+      background: #f5f9ff !important;
+    }
+  }
+
+  :is(#fs1245, #fs13360) {
+    margin-bottom: 14px !important;
+    padding: 0 20px !important;
+
+    .center-block {
+      width: 100% !important;
+      max-width: none !important;
+      margin: 0 !important;
+    }
+
+    .text-center {
+      display: flex !important;
+      justify-content: flex-start !important;
+      gap: 8px;
+      text-align: left !important;
+    }
+
+    .text-center > span {
+      display: inline-flex !important;
+      margin: 0 !important;
+    }
+
+    .btn {
+      min-width: 120px;
+      min-height: 42px;
+      margin: 0 !important;
+      padding: 9px 16px !important;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 700;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .page-title {
+      padding-top: 20px;
+    }
+
+    :is(.page-title + .new-row, #fs13359, #fs1245, #fs13360) {
+      padding-right: 20px !important;
+      padding-left: 20px !important;
+    }
+
+    :is(.page-title + .new-row, #fs13359) {
+      table.no-border td:first-child {
+        width: 100% !important;
+        max-width: 100% !important;
+      }
+
+      .center-block table.no-border .control-label {
+        margin-bottom: 7px !important;
+        color: $text-dark !important;
+        font-style: normal !important;
+        font-weight: 700 !important;
+      }
+
+      input[type="text"].form-control {
+        width: 100% !important;
+      }
+    }
+
+    :is(#fs1245, #fs13360) .text-center {
+      display: grid !important;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    :is(#fs1245, #fs13360) .text-center > span,
+    :is(#fs1245, #fs13360) .btn {
+      width: 100% !important;
+      min-width: 0 !important;
+    }
+
+    :is(#fs1245, #fs13360) .btn {
+      min-height: 44px;
+    }
+  }
+}
+
+body:has(#Menu_Item_ID[value="325"]):has(#Form_ID[value="404"]) {
+  #fs1244 {
+    margin-bottom: 20px !important;
+    padding: 0 20px !important;
+
+    .center-block {
+      width: 100% !important;
+      max-width: none !important;
+      margin: 0 !important;
+      padding: 16px 18px !important;
+      border: 1px solid var(--event-copy-border);
+      border-left: 4px solid $navy-700;
+      border-radius: 6px;
+      background: var(--event-copy-panel);
+      box-shadow: 0 4px 12px rgba(13, 31, 54, 0.05);
+      box-sizing: border-box;
+      color: $text-dark;
+    }
+
+    p {
+      margin: 0 0 10px;
+      line-height: 1.55;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+      color: $navy-700;
+      font-weight: 700;
+    }
+  }
+
+  @media (max-width: 767px) {
+    #fs1244 {
+      padding-right: 20px !important;
+      padding-left: 20px !important;
+    }
+
+    #fs1244 .center-block {
+      padding: 14px !important;
+    }
+  }
+}
+
+body:has(#Menu_Item_ID[value="1818"]):has(#Form_ID[value="3105"]) {
+  #fs13359 {
+    table.no-border > tbody > tr:first-child {
+      display: none !important;
+    }
+
+    table.no-border > tbody > tr:not([id]) > td[colspan="2"] {
+      width: 100% !important;
+      max-width: none !important;
+      padding: 12px 16px !important;
+      border: 0 !important;
+      background: #edf5ff !important;
+      color: $navy-700;
+      font-size: 13px;
+      font-weight: 700;
+      line-height: 1.5;
+      text-align: left !important;
+    }
+
+    table.no-border > tbody > tr:not([id]) br {
+      display: none;
+    }
+
+    #SPAN43524126 {
+      display: block !important;
+      color: $text-dark;
+      line-height: 2.2;
+    }
+
+    #SPAN43524126 input[type="radio"] {
+      display: inline-block !important;
+      width: 18px !important;
+      min-width: 18px !important;
+      height: 18px !important;
+      margin: 0 8px 0 0 !important;
+      accent-color: $navy-700;
+      vertical-align: middle;
+    }
+
+    #DIVENTRY43524126 {
+      background: #fffdf5 !important;
+    }
+  }
+
+  @media (max-width: 767px) {
+    #fs13359 {
+      table.no-border > tbody > tr:not([id]) {
+        margin-bottom: 0;
+      }
+
+      table.no-border > tbody > tr:not([id]) > td[colspan="2"] {
+        padding: 11px 14px !important;
+      }
+
+      #SPAN43524126 input[type="radio"] {
+        width: 20px !important;
+        min-width: 20px !important;
+        height: 20px !important;
+      }
+    }
+  }
+}
