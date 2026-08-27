@@ -578,7 +578,6 @@ body:has(#Menu_Item_ID[value="318"]):has(
         width: 100%;
         max-height: 52px;
         overflow: hidden;
-        transition: max-height 0.2s ease;
 
         @media (max-width: 767px) {
           max-height: 44px;
@@ -592,6 +591,7 @@ body:has(#Menu_Item_ID[value="318"]):has(
 
       .nav-tabs > li.active {
         order: -1;
+        cursor: pointer;
       }
 
       .nav-tabs > li > a {
@@ -610,6 +610,7 @@ body:has(#Menu_Item_ID[value="318"]):has(
         color: $navy-700 !important;
         background: #f7faff !important;
         box-shadow: none;
+        pointer-events: none;
 
         &::after {
           position: absolute;
@@ -637,10 +638,12 @@ body:has(#Menu_Item_ID[value="318"]):has(
         background: #edf4fc !important;
       }
 
+      .container-flex:hover .nav-tabs,
       .container-flex:focus-within .nav-tabs {
         max-height: 244px !important;
       }
 
+      .container-flex:hover .nav-tabs > li.active > a::after,
       .container-flex:focus-within .nav-tabs > li.active > a::after {
         transform: translateY(-50%) rotate(180deg) !important;
       }
