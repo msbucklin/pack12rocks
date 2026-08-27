@@ -605,7 +605,7 @@ Calendar
           </td>
           <td class="calendar-cell">
             <b>6</b>
-            <br><br><a href="FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=261&amp;ID=554&amp;Stack=2">District Roundtable</a>
+            <br><br><a href="/events/event.php?;Form_ID=261&amp;ID=554&amp;Stack=2">District Roundtable</a>
           </td>
           <td class="calendar-cell">
             <b>7</b>
@@ -617,7 +617,7 @@ Calendar
         <tr>
           <td class="calendar-cell">
             <b>9</b>
-            <br><br><a href="FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=261&amp;ID=512&amp;Stack=2">Den Leader and Committee Meeting</a>
+            <br><br><a href="/events/event.php?;Form_ID=261&amp;ID=512&amp;Stack=2">Den Leader and Committee Meeting</a>
           </td>
           <td class="calendar-cell">
             <b>10</b>
@@ -659,7 +659,7 @@ Calendar
           </td>
           <td class="calendar-cell">
             <b>22</b>
-            <br><br><a href="FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=259&amp;ID=580&amp;Stack=2">Webelos and AOL Swim Adventure</a>
+            <br><br><a href="/events/event.php?;Form_ID=259&amp;ID=580&amp;Stack=2">Webelos and AOL Swim Adventure</a>
           </td>
         </tr>
         <tr>
@@ -671,7 +671,7 @@ Calendar
           </td>
           <td class="calendar-cell">
             <b>25</b>
-            <br><br><a href="FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=259&amp;ID=579&amp;Stack=2">Join Scouting Night</a>
+            <br><br><a href="/events/event.php?;Form_ID=259&amp;ID=579&amp;Stack=2">Join Scouting Night</a>
           </td>
           <td class="calendar-cell">
             <b>26</b>
@@ -684,7 +684,7 @@ Calendar
           </td>
           <td class="calendar-cell">
             <b>29</b>
-            <br><br><a href="FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=259&amp;ID=581&amp;Stack=2">Welcome Back, Pack Picnic</a>
+            <br><br><a href="/events/event.php?;Form_ID=259&amp;ID=581&amp;Stack=2">Welcome Back, Pack Picnic</a>
           </td>
         </tr>
         <tr>
@@ -702,7 +702,7 @@ Calendar
           </td>
           <td class="calendar-cell">
             <i>3</i>
-            <br><br><a href="FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=259&amp;ID=555&amp;Stack=2">District Roundtable</a>
+            <br><br><a href="/events/event.php?;Form_ID=259&amp;ID=555&amp;Stack=2">District Roundtable</a>
           </td>
           <td class="calendar-cell">
             <i>4</i>
@@ -767,10 +767,10 @@ Calendar
         <input class="btn btn-sm btn-info" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="110" id="BUTTON1" type="button" name="javascript25277" title="Print" value="Print" onclick="$('#ModalCalendarPrint799').modal('show');">
         </span>
         <span style="display:inline;">
-        <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="120" id="BUTTON2" type="button" name="add" title="Add Event" value="Add Event" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=161&amp;FK=0&amp;ID=0&amp;Stack=2','');">
+        <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="120" id="BUTTON2" type="button" name="add" title="Add Event" value="Add Event" onclick="LinkTo('/events/event-add.php','');">
         </span>
         <span style="display:inline;">
-        <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="130" id="BUTTON3" type="button" name="add" title="Add Event At New Location" value="Add Event At New Location" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=673&amp;FK=0&amp;ID=0&amp;Stack=2','');">
+        <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="130" id="BUTTON3" type="button" name="add" title="Add Event At New Location" value="Add Event At New Location" onclick="LinkTo('/events/event-add-new-location.php','');">
         </span>
         <span style="display:inline;">
         <input class="btn btn-sm btn-info" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="140" id="BUTTON4" type="button" name="save continue" title="Show All Calendar Items" value="Show All Calendar Items" onclick="buttonlink(this,'N');">

@@ -1,0 +1,590 @@
+// -----------------------------------------------------------------------------
+// Add Event and Add Event At New Location
+// -----------------------------------------------------------------------------
+
+body:has(#Menu_Item_ID[value="318"]):has(
+  #Form_ID:is([value="161"], [value="673"])
+) {
+  --event-add-border: rgba(15, 57, 95, 0.16);
+  --event-add-muted: #567092;
+  --event-add-panel: #f7faff;
+
+  .page-title {
+    width: 100%;
+    margin-bottom: 16px !important;
+    padding: 10px 20px 0;
+    box-sizing: border-box;
+    color: $navy-700;
+    text-align: left !important;
+  }
+
+  :is(#fs406, #fs2774) {
+    margin-bottom: 16px !important;
+
+    @include detail-form-shell;
+    @include detail-form-table-labels;
+    @include detail-form-stacked-mobile;
+
+    > .container-flex {
+      display: block !important;
+    }
+
+    .center-block {
+      width: 100% !important;
+      min-width: 0 !important;
+      max-width: 100% !important;
+      margin: 0 !important;
+    }
+
+    table.no-border {
+      table-layout: fixed;
+    }
+
+    table.no-border td:first-child {
+      width: 220px !important;
+      max-width: 220px !important;
+    }
+
+    .form-control {
+      width: 100% !important;
+      min-width: 0 !important;
+      max-width: 100% !important;
+      box-sizing: border-box;
+    }
+
+    textarea.form-control {
+      min-height: 120px;
+      resize: vertical;
+    }
+
+    input[type="checkbox"] {
+      width: 20px !important;
+      min-height: 20px !important;
+      height: 20px !important;
+      margin: 0 !important;
+      accent-color: $navy-700;
+    }
+
+    input[type="file"].form-control {
+      min-height: 40px;
+      padding: 8px 10px !important;
+    }
+
+    td.text-left img {
+      max-width: 20px;
+      height: auto;
+    }
+  }
+
+  :is(#fs407, #fs2775) {
+    margin: 0 0 20px !important;
+
+    .center-block {
+      width: 100% !important;
+      max-width: 100% !important;
+      margin: 0 !important;
+    }
+
+    .text-center {
+      display: flex !important;
+      flex-wrap: wrap;
+      justify-content: flex-start !important;
+      gap: 8px;
+      text-align: left !important;
+    }
+
+    .text-center > span {
+      display: inline-flex !important;
+      margin: 0 !important;
+    }
+
+    .btn {
+      min-height: 40px;
+      margin: 0 !important;
+      padding: 9px 14px !important;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 700;
+      line-height: 1.2;
+      white-space: normal;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .page-title {
+      padding-top: 20px;
+    }
+
+    :is(#fs406, #fs2774, #fs407, #fs2775) {
+      padding-right: 20px !important;
+      padding-left: 20px !important;
+    }
+
+    :is(#fs406, #fs2774) {
+      table.no-border td:first-child {
+        width: 100% !important;
+        max-width: 100% !important;
+      }
+
+      .center-block table.no-border .control-label {
+        color: $text-dark !important;
+        font-style: normal !important;
+        font-weight: 700 !important;
+      }
+    }
+
+    :is(#fs407, #fs2775) .text-center {
+      display: grid !important;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    :is(#fs407, #fs2775) .text-center > span,
+    :is(#fs407, #fs2775) .btn {
+      width: 100% !important;
+      min-width: 0 !important;
+    }
+
+    :is(#fs407, #fs2775) .btn {
+      min-height: 44px;
+    }
+  }
+}
+
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="161"]) {
+  #fs406 {
+    .center-block + .center-block {
+      margin-top: 12px !important;
+    }
+
+    tr:has(#DATE2416143) > td,
+    tr:has(#DATE241717) > td {
+      padding-top: 10px !important;
+      padding-bottom: 10px !important;
+      vertical-align: middle !important;
+    }
+
+    tr:has(#DATE2416143) > td.text-left,
+    tr:has(#DATE241717) > td.text-left {
+      display: grid !important;
+      grid-template-columns: 128px 38px 156px minmax(130px, 1fr);
+      align-items: end;
+      column-gap: 0;
+      row-gap: 0;
+      font-size: 0;
+
+      &::before {
+        grid-column: 1 / 3;
+        grid-row: 1;
+        margin-bottom: 5px;
+        color: var(--event-add-muted);
+        content: "Date";
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.3;
+      }
+    }
+
+    #DIVENTRY2416143 {
+      display: contents;
+    }
+
+    :is(#DATE2416143, #DATE241717) {
+      grid-column: 1;
+      grid-row: 2;
+      width: 128px !important;
+      min-width: 0 !important;
+      margin: 0 !important;
+      border-radius: 6px 0 0 6px !important;
+    }
+
+    :is(#DATE2416143X, #DATE241717X) {
+      display: inline-flex;
+      grid-column: 2;
+      grid-row: 2;
+      align-items: center;
+      align-self: center;
+      justify-content: center;
+      width: 38px;
+      height: 28px;
+      margin: 0 !important;
+      padding: 0 !important;
+      border: 1px solid var(--event-add-border);
+      border-left: 0;
+      border-radius: 0 6px 6px 0;
+      background: var(--event-add-panel);
+      box-sizing: border-box;
+    }
+
+    :is(#DATE2416143X, #DATE241717X) img {
+      display: block;
+      width: 18px;
+      height: 18px;
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+
+    :is(#DIVTIME2416143, #DIVTIME241717) {
+      display: grid !important;
+      grid-column: 3;
+      grid-row: 1 / 3;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      align-items: end;
+      column-gap: 4px;
+      width: 156px;
+      margin-left: 10px;
+      font-size: 0;
+
+      &::before {
+        grid-column: 1 / -1;
+        margin-bottom: 5px;
+        @media (max-width: 767px) {
+          margin-top: 10px;
+        }
+        color: var(--event-add-muted);
+        content: "Time";
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.3;
+      }
+
+      .form-control {
+        width: 100% !important;
+        min-width: 0 !important;
+        margin: 0 !important;
+        font-size: 14px;
+      }
+
+      input[id^="TIME"] {
+        grid-column: 1;
+        grid-row: 2;
+      }
+
+      select[id^="AMPM"] {
+        grid-column: 2;
+        grid-row: 2;
+      }
+    }
+
+    #DIVENTRY2416144 {
+      display: inline-flex;
+      grid-column: 4;
+      grid-row: 2;
+      align-items: center;
+      gap: 7px;
+      margin-left: 22px;
+      line-height: 1.4;
+    }
+
+    #DIVENTRY2416144 > .entrypostscript {
+      display: inline;
+      margin: 0 !important;
+      font-size: 13px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    #fs406 {
+      tr:has(#DATE2416143) > td:first-child,
+      tr:has(#DATE241717) > td:first-child {
+        padding: 12px 14px 4px !important;
+      }
+
+      tr:has(#DATE2416143) > td:first-child .control-label,
+      tr:has(#DATE241717) > td:first-child .control-label {
+        margin: 0 !important;
+      }
+
+      tr:has(#DATE2416143) > td.text-left,
+      tr:has(#DATE241717) > td.text-left {
+        padding: 4px 14px 12px !important;
+      }
+
+      tr:has(#DATE2416143) > td.text-left,
+      tr:has(#DATE241717) > td.text-left {
+        grid-template-columns: minmax(0, 1fr) 38px;
+      }
+
+      :is(#DATE2416143, #DATE241717) {
+        width: 100% !important;
+      }
+
+      :is(#DIVTIME2416143, #DIVTIME241717) {
+        grid-column: 1 / -1;
+        grid-row: 3 / 5;
+        width: 156px;
+        margin: 10px 0 0;
+      }
+
+      #DIVENTRY2416144 {
+        grid-column: 1 / -1;
+        grid-row: 5;
+        margin: 10px 0 0;
+      }
+    }
+
+    #fs407 .text-center > span:first-child {
+      grid-column: 1 / -1;
+    }
+  }
+}
+
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) {
+  #fs2774 {
+    table.no-border > tbody > tr:first-child > td,
+    table.no-border > tbody > tr:nth-child(2) > td {
+      width: 100% !important;
+      max-width: 100% !important;
+      padding: 11px 14px !important;
+      border: 0 !important;
+      border-left: 3px solid $navy-700 !important;
+      color: $text-mid;
+      background: var(--event-add-panel) !important;
+      box-sizing: border-box;
+      font-size: 13px;
+      line-height: 1.5;
+      text-align: left !important;
+    }
+
+    table.no-border > tbody > tr:first-child > td {
+      padding-bottom: 2px !important;
+    }
+
+    table.no-border > tbody > tr:nth-child(2) > td {
+      padding-top: 2px !important;
+      border-bottom: 1px solid var(--event-add-border) !important;
+    }
+
+    table.no-border > tbody > tr:first-child br,
+    table.no-border > tbody > tr:nth-child(2) br {
+      display: none;
+    }
+
+    :is(
+      #DIVENTRY1086629,
+      #DIVENTRY1086630,
+      #DIVENTRY1086631,
+      #DIVENTRY1086632,
+      #DIVENTRY1086633,
+      #DIVENTRY1086634
+    ) {
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+    }
+
+    :is(#DIVENTRY1086629, #DIVENTRY1086630) {
+      width: 100%;
+    }
+
+    td.text-left:has(#DIVENTRY1086631) {
+      display: grid;
+      grid-template-columns: minmax(180px, 1.5fr) minmax(110px, 0.7fr) minmax(100px, 0.6fr) minmax(120px, 0.8fr);
+      gap: 10px;
+    }
+
+    :is(
+      #DIVENTRY1086629,
+      #DIVENTRY1086630,
+      #DIVENTRY1086631,
+      #DIVENTRY1086632,
+      #DIVENTRY1086633,
+      #DIVENTRY1086634
+    )::before {
+      margin-bottom: 5px;
+      color: var(--event-add-muted);
+      font-size: 11px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 1.3;
+    }
+
+    #DIVENTRY1086629::before {
+      content: "Address Line 1";
+    }
+
+    #DIVENTRY1086630::before {
+      content: "Address Line 2";
+    }
+
+    #DIVENTRY1086631::before {
+      content: "City";
+    }
+
+    #DIVENTRY1086632::before {
+      content: "State";
+    }
+
+    #DIVENTRY1086633::before {
+      content: "Postal Code";
+    }
+
+    #DIVENTRY1086634::before {
+      content: "Country";
+    }
+
+    table.no-border > tbody > tr:has(
+      :is(#DIVENTRY1086629, #DIVENTRY1086630, #DIVENTRY1086631)
+    ) {
+      background-color: #ffffff !important;
+    }
+
+    table.no-border > tbody > tr:has(#DIVENTRY1086631)
+      > td:first-child
+      .control-label {
+      display: none !important;
+    }
+
+    :is(
+      #DIVENTRY1086629,
+      #DIVENTRY1086630,
+      #DIVENTRY1086631,
+      #DIVENTRY1086632,
+      #DIVENTRY1086633,
+      #DIVENTRY1086634
+    ) .entrypostscript {
+      display: none;
+    }
+
+    table.no-border > tbody > tr:has(> td.center-block[colspan="2"]) {
+      display: table-row !important;
+      background: var(--event-add-panel) !important;
+    }
+
+    table.no-border > tbody > tr > td.center-block[colspan="2"] {
+      display: table-cell !important;
+      width: 100% !important;
+      max-width: none !important;
+      padding: 10px 16px !important;
+      border-bottom: 1px solid var(--event-add-border) !important;
+      border-top: 1px solid var(--event-add-border) !important;
+      background: var(--event-add-panel) !important;
+      box-sizing: border-box;
+      text-align: right !important;
+    }
+
+    #BUTTON12 {
+      min-height: 40px;
+      margin: 0 !important;
+      padding: 9px 14px !important;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    #DIVMAP1086767:not(:empty) {
+      width: 100%;
+      min-height: 240px;
+      margin-bottom: 10px;
+      overflow: hidden;
+      border: 1px solid var(--event-add-border);
+      border-radius: 6px;
+    }
+
+    #DIVENTRY108715 > td.text-left {
+      display: flex !important;
+      align-items: center;
+      gap: 8px;
+    }
+
+    #ENTRY108715 {
+      flex: 0 1 112px;
+      width: 112px !important;
+    }
+
+    #DIVENTRY108715 > td.text-left > .entrypostscript {
+      display: inline-flex !important;
+      flex: 0 0 auto;
+      align-items: center;
+      margin: 0 !important;
+    }
+
+    #DIVENTRY1086767 > td:first-child .control-label {
+      display: inline-flex !important;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 3px;
+      font-size: 0 !important;
+
+      &::before {
+        color: #333333;
+        content: "GPS Coordinates";
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.3;
+      }
+
+      &::after {
+        color: var(--event-add-muted);
+        content: "Example: 30.2129079, -97.8839411";
+        font-size: 11px;
+        font-weight: 700;
+        line-height: 1.3;
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+    #fs2774 #DIVENTRY1086767 > td:first-child .control-label::before {
+      font-size: 16px;
+    }
+
+    #fs2774 table.no-border > tbody > tr:has(#DIVENTRY1086629) > td {
+      padding-bottom: 4px !important;
+    }
+
+    #fs2774 table.no-border > tbody > tr:has(#DIVENTRY1086630) > td {
+      padding-top: 4px !important;
+      padding-bottom: 4px !important;
+    }
+
+    #fs2774 table.no-border > tbody > tr:has(#DIVENTRY1086631) > td {
+      padding-top: 4px !important;
+    }
+  }
+
+  @media (max-width: 767px) {
+    #fs2774 {
+      table.no-border > tbody > tr:first-child {
+        margin-bottom: 0;
+      }
+
+      #DIVENTRY1086767 > td:first-child .control-label {
+        align-items: flex-start;
+      }
+
+      table.no-border > tbody > tr:has(#DIVENTRY1086629),
+      table.no-border > tbody > tr:has(#DIVENTRY1086630) {
+        margin-bottom: 0;
+      }
+
+      table.no-border > tbody > tr:has(#DIVENTRY1086629) > td:last-child,
+      table.no-border > tbody > tr:has(#DIVENTRY1086630) > td:last-child {
+        padding-bottom: 0 !important;
+      }
+
+      table.no-border > tbody > tr:has(#DIVENTRY1086630) > td:first-child,
+      table.no-border > tbody > tr:has(#DIVENTRY1086631) > td:first-child {
+        display: none !important;
+      }
+
+      td.text-left:has(#DIVENTRY1086631) {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      td.center-block[colspan="2"] {
+        padding: 10px 14px !important;
+      }
+
+      #BUTTON12 {
+        width: 100% !important;
+        min-height: 44px;
+      }
+    }
+
+    #fs2775 .text-center > span:first-child {
+      grid-column: 1 / -1;
+    }
+  }
+}

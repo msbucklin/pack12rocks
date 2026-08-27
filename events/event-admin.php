@@ -306,7 +306,7 @@
   <input type="hidden" name="NewRowsPerPage" id="NewRowsPerPage" value="">
   <input type="hidden" name="ChildRowID" id="ChildRowID" value="0">
   <input type="hidden" name="Report_Format" id="Report_Format" value="">
-  <input type="hidden" name="Current_URL" id="Current_URL" value="https://www.troopwebhostcs.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=259&amp;Stack=2&amp;ID=581">
+  <input type="hidden" name="Current_URL" id="Current_URL" value="https://www.troopwebhostcs.org//events/event.php?;Form_ID=259&amp;Stack=2&amp;ID=581">
   <a href="javascript:togglemenu();">
   <div class="navicon" style="width:64px;">
     <table>
@@ -323,7 +323,7 @@
       <td style="width:76px;">
       </td>
       <td style="padding:4px;">
-        <a href="#" class="navlink nav-home-link" onclick="LinkTo('Pack12Austin/Index.htm','_top')">Pack 12 Austin</a>
+        <a href="#" class="navlink nav-home-link" onclick="LinkTo('/home/home.php','_top')">Pack 12 Austin</a>
       </td>
       <td class="quickmenu1">
         <table>
@@ -441,7 +441,7 @@
           <br><br>
           The current user is:&nbsp; &nbsp; mbucklin2
           <br><br>
-          The URL for this page is:&nbsp; &nbsp; https://www.troopwebhostcs.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=259&amp;Stack=2&amp;ID=581&amp;Application_ID=2840
+          The URL for this page is:&nbsp; &nbsp; https://www.troopwebhostcs.org//events/event.php?;Form_ID=259&amp;Stack=2&amp;ID=581&amp;Application_ID=2840
         </div>
       </div>
     </div>
@@ -496,10 +496,10 @@
           <input class="btn btn-sm btn-info" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="120" id="BUTTON1" type="button" name="save continue" title="Black Pug CSV" value="Black Pug CSV" onclick="buttonlink(this,'N');">
           </span>
           <span style="display:inline;">
-          <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="130" id="BUTTON3" type="button" name="preselect" title="E-Mail Participants" value="E-Mail Participants" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=397&amp;PreselectID=581&amp;FK=581&amp;Stack=3','');">
+          <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="130" id="BUTTON3" type="button" name="preselect" title="E-Mail Participants" value="E-Mail Participants" onclick="LinkTo('/events/event.php?;Form_ID=397&amp;PreselectID=581&amp;FK=581&amp;Stack=3','');">
           </span>
           <span style="display:inline;">
-          <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="140" id="BUTTON4" type="button" name="preselect" title="Invite Undecideds" value="Invite Undecideds" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=1208&amp;PreselectID=581&amp;FK=581&amp;Stack=3','');">
+          <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="140" id="BUTTON4" type="button" name="preselect" title="Invite Undecideds" value="Invite Undecideds" onclick="LinkTo('/events/event.php?;Form_ID=1208&amp;PreselectID=581&amp;FK=581&amp;Stack=3','');">
           </span>
           <span style="display:inline;">
           <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="150" id="BUTTON5" type="button" name="update" title="Update This Event" value="Update This Event" onclick="LinkTo('event-edit-details.php','');">
@@ -563,7 +563,7 @@
             <td class="text-left">
               <input type="hidden" name="RVALENTRY37022" id="RVALENTRY37022" value="">
               <span class="text-left">
-              <a href="#" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=180&amp;ID=7&amp;Stack=3','');">
+              <a href="#" onclick="LinkTo('/events/event.php?;Form_ID=180&amp;ID=7&amp;Stack=3','');">
               VFW Post 4443
               </a>
               </span>
@@ -1558,10 +1558,10 @@ Rows Per Page:
       <div class="center-block">
         <div class="text-center">
           <span style="display:inline;">
-          <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="410" id="BUTTON94" type="button" name="preselect" title="Add Group Transaction to Charge Participants" value="Add Group Transaction to Charge Participants" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=2101&amp;PreselectID=581&amp;FK=581&amp;Stack=3','');">
+          <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="410" id="BUTTON94" type="button" name="preselect" title="Add Group Transaction to Charge Participants" value="Add Group Transaction to Charge Participants" onclick="LinkTo('/events/event.php?;Form_ID=2101&amp;PreselectID=581&amp;FK=581&amp;Stack=3','');">
           </span>
           <span style="display:inline;">
-          <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="420" id="BUTTON95" type="button" name="preselect" title="Add Group Transaction to Credit Participants" value="Add Group Transaction to Credit Participants" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=7073&amp;PreselectID=581&amp;FK=581&amp;Stack=3','');">
+          <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="420" id="BUTTON95" type="button" name="preselect" title="Add Group Transaction to Credit Participants" value="Add Group Transaction to Credit Participants" onclick="LinkTo('/events/event.php?;Form_ID=7073&amp;PreselectID=581&amp;FK=581&amp;Stack=3','');">
           </span>
         </div>
       </div>
@@ -1996,7 +1996,7 @@ Rows Per Page:
             <td class="text-left">
               <input type="hidden" name="RVALENTRY5404469" id="RVALENTRY5404469" value="">
               <span class="display-only-data">
-              https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=581
+              https://www.TroopWebHostCS.org//events/event.php?;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=581
               </span>
             </td>
           </tr>
@@ -2016,13 +2016,13 @@ Rows Per Page:
           <input class="btn btn-sm btn-info" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="450" id="BUTTON1" type="button" name="save continue" title="Black Pug CSV" value="Black Pug CSV" onclick="buttonlink(this,'N');">
           </span>
           <span style="display:inline;">
-          <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="460" id="BUTTON3" type="button" name="preselect" title="E-Mail Participants" value="E-Mail Participants" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=397&amp;PreselectID=581&amp;FK=581&amp;Stack=3','');">
+          <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="460" id="BUTTON3" type="button" name="preselect" title="E-Mail Participants" value="E-Mail Participants" onclick="LinkTo('/events/event.php?;Form_ID=397&amp;PreselectID=581&amp;FK=581&amp;Stack=3','');">
           </span>
           <span style="display:inline;">
-          <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="470" id="BUTTON4" type="button" name="preselect" title="Invite Undecideds" value="Invite Undecideds" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=1208&amp;PreselectID=581&amp;FK=581&amp;Stack=3','');">
+          <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="470" id="BUTTON4" type="button" name="preselect" title="Invite Undecideds" value="Invite Undecideds" onclick="LinkTo('/events/event.php?;Form_ID=1208&amp;PreselectID=581&amp;FK=581&amp;Stack=3','');">
           </span>
           <span style="display:inline;">
-          <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="480" id="BUTTON5" type="button" name="update" title="Update This Event" value="Update This Event" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=167&amp;ID=581&amp;Stack=3','');">
+          <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="480" id="BUTTON5" type="button" name="update" title="Update This Event" value="Update This Event" onclick="LinkTo('/events/event.php?;Form_ID=167&amp;ID=581&amp;Stack=3','');">
           </span>
           <span style="display:inline;">
           <input class="btn btn-sm btn-danger" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="490" id="BUTTON6" type="button" name="delete" title="Delete This Event" value="Delete This Event" onclick="buttonlink(this,'N');">

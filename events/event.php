@@ -308,7 +308,7 @@
   <input type=hidden name="NewRowsPerPage" id="NewRowsPerPage" value="">
   <input type=hidden name="ChildRowID" id="ChildRowID" value="0">
   <input type=hidden name="Report_Format" id="Report_Format" value="">
-  <input type=hidden name="Current_URL" id="Current_URL" value="https://www.troopwebhostcs.org/FormDetail.aspx?Menu_Item_ID=318&Form_ID=259&Stack=2&ID=549">
+  <input type=hidden name="Current_URL" id="Current_URL" value="https://www.troopwebhostcs.org//events/event-email-participants.php?Form_ID=259&Stack=2&ID=549">
   <a href="javascript:togglemenu();">
   <div class="navicon" style="width:64px;">
     <table>
@@ -443,7 +443,7 @@
           <br><br>
           The current user is:&nbsp; &nbsp; mbucklin2
           <br><br>
-          The URL for this page is:&nbsp; &nbsp; https://www.troopwebhostcs.org/FormDetail.aspx?Menu_Item_ID=318&Form_ID=259&Stack=2&ID=549&Application_ID=2840
+          The URL for this page is:&nbsp; &nbsp; https://www.troopwebhostcs.org//events/event-email-participants.php?Form_ID=259&Stack=2&ID=549&Application_ID=2840
         </div>
       </div>
     </div>
@@ -498,10 +498,10 @@
           <input  class="btn btn-sm btn-info" onmouseover="SetAction(this)" onmouseout="ResetAction()"  tabindex=120 id="BUTTON1"  type="button" name="save continue" title="Black Pug CSV" value="Black Pug CSV" onClick="buttonlink(this,'N');">
           </span>
           <span style="display:inline;">
-          <input  class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()"  tabindex=130 id="BUTTON3"  type="button" name="preselect" title="E-Mail Participants" value="E-Mail Participants" onClick="LinkTo('FormDetail.aspx?Menu_Item_ID=318&Form_ID=397&PreselectID=549&FK=549&Stack=3','');">
+          <input  class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()"  tabindex=130 id="BUTTON3"  type="button" name="preselect" title="E-Mail Participants" value="E-Mail Participants" onClick="LinkTo('/events/event-email-participants.php?Form_ID=397&PreselectID=549&FK=549&Stack=3','');">
           </span>
           <span style="display:inline;">
-          <input  class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()"  tabindex=140 id="BUTTON4"  type="button" name="preselect" title="Invite Undecideds" value="Invite Undecideds" onClick="LinkTo('FormDetail.aspx?Menu_Item_ID=318&Form_ID=1208&PreselectID=549&FK=549&Stack=3','');">
+          <input  class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()"  tabindex=140 id="BUTTON4"  type="button" name="preselect" title="Invite Undecideds" value="Invite Undecideds" onClick="LinkTo('/events/event-email-participants.php?Form_ID=1208&PreselectID=549&FK=549&Stack=3','');">
           </span>
           <span style="display:inline;">
           <input  class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()"  tabindex=150 id="BUTTON5"  type="button" name="update" title="Update This Event" value="Update This Event" onClick="LinkTo('event-edit-details.php','');">
@@ -565,7 +565,7 @@
             <td class="text-left">
               <input type="hidden" name="RVALENTRY37022" id="RVALENTRY37022" value="">
               <span class="text-left">
-              <a href="#" onClick="LinkTo('FormDetail.aspx?Menu_Item_ID=318&Form_ID=180&ID=93&Stack=3','');">
+              <a href="#" onClick="LinkTo('/events/event-email-participants.php?Form_ID=180&ID=93&Stack=3','');">
               Lake Somerville State Park
               </a>
               </span>
@@ -869,7 +869,7 @@
       <div class="center-block">
         <div class="text-center">
           <span style="display:inline;">
-          <input  class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()"  tabindex=360 id="BUTTON42"  type="button" name="add" title="Make A Payment" value="Make A Payment" onClick="LinkTo('FormDetail.aspx?Menu_Item_ID=318&Form_ID=6244&FK=549&ID=0&Stack=3','');">
+          <input  class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()"  tabindex=360 id="BUTTON42"  type="button" name="add" title="Make A Payment" value="Make A Payment" onClick="LinkTo('/events/event-email-participants.php?Form_ID=6244&FK=549&ID=0&Stack=3','');">
           </span>
         </div>
       </div>
@@ -1158,10 +1158,10 @@
       <div class="center-block">
         <div class="text-center">
           <span style="display:inline;">
-          <input  class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()"  tabindex=430 id="BUTTON94"  type="button" name="preselect" title="Add Group Transaction to Charge Participants" value="Add Group Transaction to Charge Participants" onClick="LinkTo('FormDetail.aspx?Menu_Item_ID=318&Form_ID=2101&PreselectID=549&FK=549&Stack=3','');">
+          <input  class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()"  tabindex=430 id="BUTTON94"  type="button" name="preselect" title="Add Group Transaction to Charge Participants" value="Add Group Transaction to Charge Participants" onClick="LinkTo('/events/event-email-participants.php?Form_ID=2101&PreselectID=549&FK=549&Stack=3','');">
           </span>
           <span style="display:inline;">
-          <input  class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()"  tabindex=440 id="BUTTON95"  type="button" name="preselect" title="Add Group Transaction to Credit Participants" value="Add Group Transaction to Credit Participants" onClick="LinkTo('FormDetail.aspx?Menu_Item_ID=318&Form_ID=7073&PreselectID=549&FK=549&Stack=3','');">
+          <input  class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()"  tabindex=440 id="BUTTON95"  type="button" name="preselect" title="Add Group Transaction to Credit Participants" value="Add Group Transaction to Credit Participants" onClick="LinkTo('/events/event-email-participants.php?Form_ID=7073&PreselectID=549&FK=549&Stack=3','');">
           </span>
         </div>
       </div>
@@ -2392,7 +2392,7 @@ Rows Per Page:
             <td class="text-left">
               <input type="hidden" name="RVALENTRY5404469" id="RVALENTRY5404469" value="">
               <span class="display-only-data">
-              https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_ID=318&Form_ID=2486&Stack=0&Application_ID=2840&ID=549
+              https://www.TroopWebHostCS.org//events/event-email-participants.php?Form_ID=2486&Stack=0&Application_ID=2840&ID=549
               </span>
             </td>
           </tr>
@@ -2412,13 +2412,13 @@ Rows Per Page:
           <input  class="btn btn-sm btn-info" onmouseover="SetAction(this)" onmouseout="ResetAction()"  tabindex=470 id="BUTTON1"  type="button" name="save continue" title="Black Pug CSV" value="Black Pug CSV" onClick="buttonlink(this,'N');">
           </span>
           <span style="display:inline;">
-          <input  class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()"  tabindex=480 id="BUTTON3"  type="button" name="preselect" title="E-Mail Participants" value="E-Mail Participants" onClick="LinkTo('FormDetail.aspx?Menu_Item_ID=318&Form_ID=397&PreselectID=549&FK=549&Stack=3','');">
+          <input  class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()"  tabindex=480 id="BUTTON3"  type="button" name="preselect" title="E-Mail Participants" value="E-Mail Participants" onClick="LinkTo('/events/event-email-participants.php?Form_ID=397&PreselectID=549&FK=549&Stack=3','');">
           </span>
           <span style="display:inline;">
-          <input  class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()"  tabindex=490 id="BUTTON4"  type="button" name="preselect" title="Invite Undecideds" value="Invite Undecideds" onClick="LinkTo('FormDetail.aspx?Menu_Item_ID=318&Form_ID=1208&PreselectID=549&FK=549&Stack=3','');">
+          <input  class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()"  tabindex=490 id="BUTTON4"  type="button" name="preselect" title="Invite Undecideds" value="Invite Undecideds" onClick="LinkTo('/events/event-email-participants.php?Form_ID=1208&PreselectID=549&FK=549&Stack=3','');">
           </span>
           <span style="display:inline;">
-          <input  class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()"  tabindex=500 id="BUTTON5"  type="button" name="update" title="Update This Event" value="Update This Event" onClick="LinkTo('FormDetail.aspx?Menu_Item_ID=318&Form_ID=167&ID=549&Stack=3','');">
+          <input  class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()"  tabindex=500 id="BUTTON5"  type="button" name="update" title="Update This Event" value="Update This Event" onClick="LinkTo('/events/event-email-participants.php?Form_ID=167&ID=549&Stack=3','');">
           </span>
           <span style="display:inline;">
           <input  class="btn btn-sm btn-danger" onmouseover="SetAction(this)" onmouseout="ResetAction()"  tabindex=510 id="BUTTON6"  type="button" name="delete" title="Delete This Event" value="Delete This Event" onClick="buttonlink(this,'N');">

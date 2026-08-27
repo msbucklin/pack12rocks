@@ -6045,6 +6045,626 @@ body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(7
   border-left: 0 !important;
 }
 
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) {
+  --event-add-border: rgba(15, 57, 95, 0.16);
+  --event-add-muted: #567092;
+  --event-add-panel: #f7faff;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) .page-title {
+  width: 100%;
+  margin-bottom: 16px !important;
+  padding: 10px 20px 0;
+  box-sizing: border-box;
+  color: #184a8a;
+  text-align: left !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs406, #fs2774) {
+  margin-bottom: 16px !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs406, #fs2774) .center-block {
+  padding: 0;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+@media (max-width: 1140px) {
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs406, #fs2774) .center-block {
+    margin: 0 auto !important;
+    box-sizing: border-box;
+  }
+}
+@media (max-width: 767px) {
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs406, #fs2774) {
+    padding: 0 !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs406, #fs2774) .center-block {
+    width: calc(100% - 40px) !important;
+    padding: 0 !important;
+    border-radius: 0;
+    overflow-x: hidden;
+  }
+}
+@media (min-width: 768px) {
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs406, #fs2774) {
+    margin-top: 0;
+  }
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs406, #fs2774) table.no-border {
+  width: 100%;
+  border: 1px solid rgba(15, 57, 95, 0.16) !important;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #ffffff;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs406, #fs2774) table.no-border tbody tr:nth-child(even) {
+  background-color: #f2f5f9 !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs406, #fs2774) table.no-border tbody tr:nth-child(odd) {
+  background-color: #ffffff !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs406, #fs2774) .center-block table.no-border .control-label {
+  display: inline !important;
+  float: none !important;
+  margin-right: 8px !important;
+  margin-left: auto !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  font-size: 1em !important;
+  font-style: italic !important;
+  font-weight: normal !important;
+  text-align: right !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs406, #fs2774) .center-block table.no-border .form-control {
+  margin: 0 !important;
+  color: #0d3b72;
+  background: #ffffff !important;
+  font-size: 14px;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs406, #fs2774) .center-block table.no-border .form-control:focus {
+  border-color: rgba(13, 59, 114, 0.4);
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(13, 59, 114, 0.1);
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs406, #fs2774) .center-block table.no-border .entrypostscript {
+  display: block;
+  margin-top: 0 !important;
+  color: #173a63;
+  font-size: 12px;
+  line-height: 1.45;
+}
+@media (min-width: 768px) {
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs406, #fs2774) table.no-border tbody tr td {
+    padding: 12px 16px !important;
+    vertical-align: middle;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs406, #fs2774) table.no-border tbody tr td + td {
+    border-left: 1px solid rgba(15, 57, 95, 0.12) !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs406, #fs2774) table.no-border tbody tr td:first-child {
+    width: 470px !important;
+    max-width: 250px !important;
+    text-align: right !important;
+  }
+}
+@media (max-width: 767px) {
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs406, #fs2774) table.no-border {
+    display: block !important;
+    width: 100% !important;
+    border-spacing: 0 !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs406, #fs2774) table.no-border tbody,
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs406, #fs2774) table.no-border tr,
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs406, #fs2774) table.no-border td {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs406, #fs2774) table.no-border tbody tr {
+    margin-bottom: 10px;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs406, #fs2774) table.no-border tbody tr[style*="display: none"] {
+    display: none !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs406, #fs2774) table.no-border td {
+    padding-right: 14px !important;
+    padding-left: 14px !important;
+    border-right: 0 !important;
+    border-left: 0 !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs406, #fs2774) table.no-border td:first-of-type {
+    padding-top: 10px !important;
+    padding-bottom: 0 !important;
+    text-align: left !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs406, #fs2774) table.no-border td:last-child {
+    padding-bottom: 10px !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs406, #fs2774) .center-block table.no-border .control-label {
+    display: block !important;
+    float: none !important;
+    max-width: 100% !important;
+    margin: 0 0 8px !important;
+    text-align: left !important;
+    white-space: normal !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs406, #fs2774) .center-block .text-left {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs406, #fs2774) .center-block input,
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs406, #fs2774) .center-block select,
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs406, #fs2774) .center-block textarea {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box;
+  }
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs406, #fs2774) > .container-flex {
+  display: block !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs406, #fs2774) .center-block {
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs406, #fs2774) table.no-border {
+  table-layout: fixed;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs406, #fs2774) table.no-border td:first-child {
+  width: 220px !important;
+  max-width: 220px !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs406, #fs2774) .form-control {
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  box-sizing: border-box;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs406, #fs2774) textarea.form-control {
+  min-height: 120px;
+  resize: vertical;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs406, #fs2774) input[type=checkbox] {
+  width: 20px !important;
+  min-height: 20px !important;
+  height: 20px !important;
+  margin: 0 !important;
+  accent-color: #184a8a;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs406, #fs2774) input[type=file].form-control {
+  min-height: 40px;
+  padding: 8px 10px !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs406, #fs2774) td.text-left img {
+  max-width: 20px;
+  height: auto;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs407, #fs2775) {
+  margin: 0 0 20px !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs407, #fs2775) .center-block {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs407, #fs2775) .text-center {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: flex-start !important;
+  gap: 8px;
+  text-align: left !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs407, #fs2775) .text-center > span {
+  display: inline-flex !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs407, #fs2775) .btn {
+  min-height: 40px;
+  margin: 0 !important;
+  padding: 9px 14px !important;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.2;
+  white-space: normal;
+}
+@media (max-width: 767px) {
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) .page-title {
+    padding-top: 20px;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs406, #fs2774, #fs407, #fs2775) {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs406, #fs2774) table.no-border td:first-child {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs406, #fs2774) .center-block table.no-border .control-label {
+    color: #0d3b72 !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs407, #fs2775) .text-center {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs407, #fs2775) .text-center > span,
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs407, #fs2775) .btn {
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="161"], [value="673"])) :is(#fs407, #fs2775) .btn {
+    min-height: 44px;
+  }
+}
+
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="161"]) #fs406 .center-block + .center-block {
+  margin-top: 12px !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="161"]) #fs406 tr:has(#DATE2416143) > td,
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="161"]) #fs406 tr:has(#DATE241717) > td {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  vertical-align: middle !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="161"]) #fs406 tr:has(#DATE2416143) > td.text-left,
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="161"]) #fs406 tr:has(#DATE241717) > td.text-left {
+  display: grid !important;
+  grid-template-columns: 128px 38px 156px minmax(130px, 1fr);
+  align-items: end;
+  column-gap: 0;
+  row-gap: 0;
+  font-size: 0;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="161"]) #fs406 tr:has(#DATE2416143) > td.text-left::before,
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="161"]) #fs406 tr:has(#DATE241717) > td.text-left::before {
+  grid-column: 1/3;
+  grid-row: 1;
+  margin-bottom: 5px;
+  color: var(--event-add-muted);
+  content: "Date";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.3;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="161"]) #fs406 #DIVENTRY2416143 {
+  display: contents;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="161"]) #fs406 :is(#DATE2416143, #DATE241717) {
+  grid-column: 1;
+  grid-row: 2;
+  width: 128px !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+  border-radius: 6px 0 0 6px !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="161"]) #fs406 :is(#DATE2416143X, #DATE241717X) {
+  display: inline-flex;
+  grid-column: 2;
+  grid-row: 2;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  width: 38px;
+  height: 28px;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 1px solid var(--event-add-border);
+  border-left: 0;
+  border-radius: 0 6px 6px 0;
+  background: var(--event-add-panel);
+  box-sizing: border-box;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="161"]) #fs406 :is(#DATE2416143X, #DATE241717X) img {
+  display: block;
+  width: 18px;
+  height: 18px;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="161"]) #fs406 :is(#DIVTIME2416143, #DIVTIME241717) {
+  display: grid !important;
+  grid-column: 3;
+  grid-row: 1/3;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: end;
+  column-gap: 4px;
+  width: 156px;
+  margin-left: 10px;
+  font-size: 0;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="161"]) #fs406 :is(#DIVTIME2416143, #DIVTIME241717)::before {
+  grid-column: 1/-1;
+  margin-bottom: 5px;
+  color: var(--event-add-muted);
+  content: "Time";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.3;
+}
+@media (max-width: 767px) {
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="161"]) #fs406 :is(#DIVTIME2416143, #DIVTIME241717)::before {
+    margin-top: 10px;
+  }
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="161"]) #fs406 :is(#DIVTIME2416143, #DIVTIME241717) .form-control {
+  width: 100% !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+  font-size: 14px;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="161"]) #fs406 :is(#DIVTIME2416143, #DIVTIME241717) input[id^=TIME] {
+  grid-column: 1;
+  grid-row: 2;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="161"]) #fs406 :is(#DIVTIME2416143, #DIVTIME241717) select[id^=AMPM] {
+  grid-column: 2;
+  grid-row: 2;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="161"]) #fs406 #DIVENTRY2416144 {
+  display: inline-flex;
+  grid-column: 4;
+  grid-row: 2;
+  align-items: center;
+  gap: 7px;
+  margin-left: 22px;
+  line-height: 1.4;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="161"]) #fs406 #DIVENTRY2416144 > .entrypostscript {
+  display: inline;
+  margin: 0 !important;
+  font-size: 13px;
+}
+@media (max-width: 767px) {
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="161"]) #fs406 tr:has(#DATE2416143) > td:first-child,
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="161"]) #fs406 tr:has(#DATE241717) > td:first-child {
+    padding: 12px 14px 4px !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="161"]) #fs406 tr:has(#DATE2416143) > td:first-child .control-label,
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="161"]) #fs406 tr:has(#DATE241717) > td:first-child .control-label {
+    margin: 0 !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="161"]) #fs406 tr:has(#DATE2416143) > td.text-left,
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="161"]) #fs406 tr:has(#DATE241717) > td.text-left {
+    padding: 4px 14px 12px !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="161"]) #fs406 tr:has(#DATE2416143) > td.text-left,
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="161"]) #fs406 tr:has(#DATE241717) > td.text-left {
+    grid-template-columns: minmax(0, 1fr) 38px;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="161"]) #fs406 :is(#DATE2416143, #DATE241717) {
+    width: 100% !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="161"]) #fs406 :is(#DIVTIME2416143, #DIVTIME241717) {
+    grid-column: 1/-1;
+    grid-row: 3/5;
+    width: 156px;
+    margin: 10px 0 0;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="161"]) #fs406 #DIVENTRY2416144 {
+    grid-column: 1/-1;
+    grid-row: 5;
+    margin: 10px 0 0;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="161"]) #fs407 .text-center > span:first-child {
+    grid-column: 1/-1;
+  }
+}
+
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 table.no-border > tbody > tr:first-child > td,
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 table.no-border > tbody > tr:nth-child(2) > td {
+  width: 100% !important;
+  max-width: 100% !important;
+  padding: 11px 14px !important;
+  border: 0 !important;
+  border-left: 3px solid #184a8a !important;
+  color: #173a63;
+  background: var(--event-add-panel) !important;
+  box-sizing: border-box;
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: left !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 table.no-border > tbody > tr:first-child > td {
+  padding-bottom: 2px !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 table.no-border > tbody > tr:nth-child(2) > td {
+  padding-top: 2px !important;
+  border-bottom: 1px solid var(--event-add-border) !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 table.no-border > tbody > tr:first-child br,
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 table.no-border > tbody > tr:nth-child(2) br {
+  display: none;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 :is(#DIVENTRY1086629,
+#DIVENTRY1086630,
+#DIVENTRY1086631,
+#DIVENTRY1086632,
+#DIVENTRY1086633,
+#DIVENTRY1086634) {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 :is(#DIVENTRY1086629, #DIVENTRY1086630) {
+  width: 100%;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 td.text-left:has(#DIVENTRY1086631) {
+  display: grid;
+  grid-template-columns: minmax(180px, 1.5fr) minmax(110px, 0.7fr) minmax(100px, 0.6fr) minmax(120px, 0.8fr);
+  gap: 10px;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 :is(#DIVENTRY1086629,
+#DIVENTRY1086630,
+#DIVENTRY1086631,
+#DIVENTRY1086632,
+#DIVENTRY1086633,
+#DIVENTRY1086634)::before {
+  margin-bottom: 5px;
+  color: var(--event-add-muted);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.3;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 #DIVENTRY1086629::before {
+  content: "Address Line 1";
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 #DIVENTRY1086630::before {
+  content: "Address Line 2";
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 #DIVENTRY1086631::before {
+  content: "City";
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 #DIVENTRY1086632::before {
+  content: "State";
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 #DIVENTRY1086633::before {
+  content: "Postal Code";
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 #DIVENTRY1086634::before {
+  content: "Country";
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 table.no-border > tbody > tr:has(:is(#DIVENTRY1086629, #DIVENTRY1086630, #DIVENTRY1086631)) {
+  background-color: #ffffff !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 table.no-border > tbody > tr:has(#DIVENTRY1086631) > td:first-child .control-label {
+  display: none !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 :is(#DIVENTRY1086629,
+#DIVENTRY1086630,
+#DIVENTRY1086631,
+#DIVENTRY1086632,
+#DIVENTRY1086633,
+#DIVENTRY1086634) .entrypostscript {
+  display: none;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 table.no-border > tbody > tr:has(> td.center-block[colspan="2"]) {
+  display: table-row !important;
+  background: var(--event-add-panel) !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 table.no-border > tbody > tr > td.center-block[colspan="2"] {
+  display: table-cell !important;
+  width: 100% !important;
+  max-width: none !important;
+  padding: 10px 16px !important;
+  border-bottom: 1px solid var(--event-add-border) !important;
+  border-top: 1px solid var(--event-add-border) !important;
+  background: var(--event-add-panel) !important;
+  box-sizing: border-box;
+  text-align: right !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 #BUTTON12 {
+  min-height: 40px;
+  margin: 0 !important;
+  padding: 9px 14px !important;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 700;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 #DIVMAP1086767:not(:empty) {
+  width: 100%;
+  min-height: 240px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  border: 1px solid var(--event-add-border);
+  border-radius: 6px;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 #DIVENTRY108715 > td.text-left {
+  display: flex !important;
+  align-items: center;
+  gap: 8px;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 #ENTRY108715 {
+  flex: 0 1 112px;
+  width: 112px !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 #DIVENTRY108715 > td.text-left > .entrypostscript {
+  display: inline-flex !important;
+  flex: 0 0 auto;
+  align-items: center;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 #DIVENTRY1086767 > td:first-child .control-label {
+  display: inline-flex !important;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 3px;
+  font-size: 0 !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 #DIVENTRY1086767 > td:first-child .control-label::before {
+  color: #333333;
+  content: "GPS Coordinates";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 #DIVENTRY1086767 > td:first-child .control-label::after {
+  color: var(--event-add-muted);
+  content: "Example: 30.2129079, -97.8839411";
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+@media (min-width: 768px) {
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 #DIVENTRY1086767 > td:first-child .control-label::before {
+    font-size: 16px;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 table.no-border > tbody > tr:has(#DIVENTRY1086629) > td {
+    padding-bottom: 4px !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 table.no-border > tbody > tr:has(#DIVENTRY1086630) > td {
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 table.no-border > tbody > tr:has(#DIVENTRY1086631) > td {
+    padding-top: 4px !important;
+  }
+}
+@media (max-width: 767px) {
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 table.no-border > tbody > tr:first-child {
+    margin-bottom: 0;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 #DIVENTRY1086767 > td:first-child .control-label {
+    align-items: flex-start;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 table.no-border > tbody > tr:has(#DIVENTRY1086629),
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 table.no-border > tbody > tr:has(#DIVENTRY1086630) {
+    margin-bottom: 0;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 table.no-border > tbody > tr:has(#DIVENTRY1086629) > td:last-child,
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 table.no-border > tbody > tr:has(#DIVENTRY1086630) > td:last-child {
+    padding-bottom: 0 !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 table.no-border > tbody > tr:has(#DIVENTRY1086630) > td:first-child,
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 table.no-border > tbody > tr:has(#DIVENTRY1086631) > td:first-child {
+    display: none !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 td.text-left:has(#DIVENTRY1086631) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 td.center-block[colspan="2"] {
+    padding: 10px 14px !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2774 #BUTTON12 {
+    width: 100% !important;
+    min-height: 44px;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) #fs2775 .text-center > span:first-child {
+    grid-column: 1/-1;
+  }
+}
+
 body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
 [value="267"],
 [value="3154"],
@@ -8508,7 +9128,7 @@ body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
   [value="3154"],
   [value="5441"],
   [value="5442"])) #fs780 table.sortable > tbody > tr:focus-within::after {
-    content: "Hide details  ▴";
+    display: none;
   }
 }
 @media (max-width: 767px) and (max-width: 767px) {
@@ -8673,6 +9293,497 @@ body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
   [value="5441"],
   [value="5442"])) #fs13533 .cke_top {
     white-space: normal;
+  }
+}
+
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) {
+  --event-email-border: rgba(15, 57, 95, 0.16);
+  --event-email-muted: #567092;
+  --event-email-panel: #f7faff;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) .page-title {
+  width: 100%;
+  padding: 10px 20px 0;
+  box-sizing: border-box;
+  font-size: 0;
+  text-align: left !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) .page-title::after {
+  color: #184a8a;
+  content: "Email Event Participants";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 {
+  margin-bottom: 14px !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 .center-block {
+  padding: 0;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+@media (max-width: 1140px) {
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 .center-block {
+    margin: 0 auto !important;
+    box-sizing: border-box;
+  }
+}
+@media (max-width: 767px) {
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 {
+    padding: 0 !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 .center-block {
+    width: calc(100% - 40px) !important;
+    padding: 0 !important;
+    border-radius: 0;
+    overflow-x: hidden;
+  }
+}
+@media (min-width: 768px) {
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 {
+    margin-top: 0;
+  }
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 table.no-border {
+  width: 100%;
+  border: 1px solid rgba(15, 57, 95, 0.16) !important;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #ffffff;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 table.no-border tbody tr:nth-child(even) {
+  background-color: #f2f5f9 !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 table.no-border tbody tr:nth-child(odd) {
+  background-color: #ffffff !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 .center-block table.no-border .control-label {
+  display: inline !important;
+  float: none !important;
+  margin-right: 8px !important;
+  margin-left: auto !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  font-size: 1em !important;
+  font-style: italic !important;
+  font-weight: normal !important;
+  text-align: right !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 .center-block table.no-border .form-control {
+  margin: 0 !important;
+  color: #0d3b72;
+  background: #ffffff !important;
+  font-size: 14px;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 .center-block table.no-border .form-control:focus {
+  border-color: rgba(13, 59, 114, 0.4);
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(13, 59, 114, 0.1);
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 .center-block table.no-border .entrypostscript {
+  display: block;
+  margin-top: 0 !important;
+  color: #173a63;
+  font-size: 12px;
+  line-height: 1.45;
+}
+@media (min-width: 768px) {
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 table.no-border tbody tr td {
+    padding: 12px 16px !important;
+    vertical-align: middle;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 table.no-border tbody tr td + td {
+    border-left: 1px solid rgba(15, 57, 95, 0.12) !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 table.no-border tbody tr td:first-child {
+    width: 470px !important;
+    max-width: 250px !important;
+    text-align: right !important;
+  }
+}
+@media (max-width: 767px) {
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 table.no-border {
+    display: block !important;
+    width: 100% !important;
+    border-spacing: 0 !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 table.no-border tbody,
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 table.no-border tr,
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 table.no-border td {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 table.no-border tbody tr {
+    margin-bottom: 10px;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 table.no-border tbody tr[style*="display: none"] {
+    display: none !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 table.no-border td {
+    padding-right: 14px !important;
+    padding-left: 14px !important;
+    border-right: 0 !important;
+    border-left: 0 !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 table.no-border td:first-of-type {
+    padding-top: 10px !important;
+    padding-bottom: 0 !important;
+    text-align: left !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 table.no-border td:last-child {
+    padding-bottom: 10px !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 .center-block table.no-border .control-label {
+    display: block !important;
+    float: none !important;
+    max-width: 100% !important;
+    margin: 0 0 8px !important;
+    text-align: left !important;
+    white-space: normal !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 .center-block .text-left {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 .center-block input,
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 .center-block select,
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 .center-block textarea {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box;
+  }
+}
+@media (max-width: 767px) {
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 {
+    margin-top: 20px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 .center-block {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 table.no-border {
+  table-layout: fixed;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 table.no-border td:first-child {
+  width: 190px !important;
+  max-width: 190px !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 .form-control {
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  box-sizing: border-box;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 input[type=file].form-control {
+  min-height: 40px;
+  padding: 8px 10px !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 .cke {
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow: hidden;
+  border-color: var(--event-email-border) !important;
+  border-radius: 6px;
+  box-shadow: none !important;
+  box-sizing: border-box;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 .cke_top {
+  white-space: normal;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 #SPAN24176100 {
+  display: flex !important;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 18px;
+  font-size: 0;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 #SPAN24176100 > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 #SPAN24176100 input[type=radio] {
+  width: auto !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 #ENTRY24176100-sms-warning {
+  flex: 0 0 100%;
+  margin: 2px 0 0 !important;
+  padding: 9px 11px;
+  border-left: 3px solid #d59d13;
+  background: #fff8e3;
+  color: #0d3b72;
+  font-size: 12px;
+  line-height: 1.45;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) :is(#fs1229, #fs1226) {
+  margin: 0 0 16px !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) :is(#fs1229, #fs1226) .center-block {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) :is(#fs1229, #fs1226) .text-center {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: flex-start !important;
+  gap: 8px;
+  text-align: left !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) :is(#fs1229, #fs1226) .text-center > span {
+  display: inline-flex !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) :is(#fs1229, #fs1226) .btn {
+  min-width: 92px;
+  min-height: 40px;
+  margin: 0 !important;
+  padding: 9px 16px !important;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1228 {
+  margin: 0 0 12px !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1228 .center-block {
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 11px 14px !important;
+  border-left: 3px solid #184a8a;
+  background: var(--event-email-panel);
+  box-sizing: border-box;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1228 p {
+  margin: 0 !important;
+  color: #173a63;
+  font-size: 13px;
+  line-height: 1.5;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1228 p + p {
+  margin-top: 3px !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1227 {
+  margin-bottom: 16px !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1227 .center-block {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1227 table.sortable {
+  width: 100% !important;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--event-email-border) !important;
+  border-collapse: separate !important;
+  border-spacing: 0;
+  border-radius: 6px;
+  background: #ffffff;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1227 table.sortable > thead > tr > th {
+  padding: 11px 12px !important;
+  border: 0 !important;
+  border-bottom: 1px solid var(--event-email-border) !important;
+  color: #0d3b72 !important;
+  background: #eaf3ff !important;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: left;
+  vertical-align: middle;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1227 table.sortable > thead > tr > th:first-child,
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1227 table.sortable > tbody > tr > td:first-of-type {
+  width: 44px !important;
+  text-align: center !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1227 table.sortable > tbody > tr > td {
+  padding: 10px 12px !important;
+  border: 0 !important;
+  border-bottom: 1px solid rgba(15, 57, 95, 0.09) !important;
+  color: #0d3b72;
+  background: #ffffff !important;
+  font-size: 13px;
+  text-align: left !important;
+  vertical-align: middle;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1227 table.sortable > tbody > tr:nth-of-type(even) > td {
+  background: #f7faff !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1227 table.sortable > tbody > tr:last-child > td {
+  border-bottom: 0 !important;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1227 table.sortable input[type=checkbox].form-control {
+  width: 20px !important;
+  min-height: 20px !important;
+  height: 20px !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  accent-color: #184a8a;
+}
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1227 .sortheader {
+  color: #184a8a !important;
+}
+@media (max-width: 767px) {
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) .page-title {
+    padding-top: 20px;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) .page-title::after {
+    font-size: 21px;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 table.no-border > tbody > tr {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 table.no-border > tbody > tr[style*="display: none"] {
+    display: none !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 table.no-border > tbody > tr > td {
+    display: block !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+    text-align: left !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 table.no-border > tbody > tr > td:first-child {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 12px 14px 4px !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 table.no-border > tbody > tr > td:last-child {
+    padding: 4px 14px 12px !important;
+    border-left: 0 !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 .center-block table.no-border .control-label {
+    display: block !important;
+    width: 100% !important;
+    margin: 0 !important;
+    text-align: left !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1225 .cke_contents {
+    min-height: 220px;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) :is(#fs1229, #fs1226) .text-center {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) :is(#fs1229, #fs1226) .text-center > span,
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) :is(#fs1229, #fs1226) .btn {
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) :is(#fs1229, #fs1226) .btn {
+    min-height: 44px;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1227 .center-block {
+    overflow: visible !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1227 table.sortable,
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1227 table.sortable > thead,
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1227 table.sortable > tbody {
+    display: block;
+    width: 100% !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1227 table.sortable {
+    overflow: visible;
+    border: 0 !important;
+    background: transparent;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1227 table.sortable > thead > tr {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 12px;
+    border: 1px solid var(--event-email-border);
+    border-radius: 6px;
+    background: #eaf3ff;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1227 table.sortable > thead > tr > th {
+    display: none !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1227 table.sortable > thead > tr > th:first-child {
+    display: flex !important;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    width: 100% !important;
+    padding: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+    text-align: left !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1227 table.sortable > thead > tr > th:first-child input[type=checkbox] {
+    flex: 0 0 30px;
+    margin: 0 !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1227 table.sortable > thead > tr > th:first-child::after {
+    color: #184a8a;
+    content: "Select all participants";
+    font-size: 13px;
+    font-weight: 700;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1227 table.sortable > tbody > input[type=hidden] {
+    display: none;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1227 table.sortable > tbody > tr {
+    display: grid !important;
+    grid-template-columns: 28px minmax(0, 1fr);
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    min-height: 44px;
+    margin-bottom: 6px;
+    padding: 8px 12px;
+    border: 1px solid var(--event-email-border);
+    border-radius: 6px;
+    background: #ffffff;
+    box-shadow: 0 2px 7px rgba(15, 57, 95, 0.06);
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1227 table.sortable > tbody > tr > td {
+    display: block !important;
+    width: auto !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+    overflow-wrap: anywhere;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1227 table.sortable > tbody > tr > td:first-of-type {
+    grid-column: 1;
+    grid-row: 1;
+    width: 28px !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1227 table.sortable > tbody > tr > td:nth-of-type(2) {
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) #fs1227 table.sortable > tbody > tr > td:nth-of-type(n + 3) {
+    display: none !important;
   }
 }
 
@@ -13761,3 +14872,5 @@ body:has(#fs16590) {
     vertical-align: middle;
   }
 }
+
+/*# sourceMappingURL=bootstrap_override_colors_Cub_Scouts.css.map */

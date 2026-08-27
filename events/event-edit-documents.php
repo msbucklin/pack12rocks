@@ -305,7 +305,7 @@
 <input type="hidden" name="NewRowsPerPage" id="NewRowsPerPage" value="">
 <input type="hidden" name="ChildRowID" id="ChildRowID" value="0">
 <input type="hidden" name="Report_Format" id="Report_Format" value="">
-<input type="hidden" name="Current_URL" id="Current_URL" value="https://www.troopwebhostcs.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=5442&amp;Stack=3&amp;ID=581&amp;FK=0">
+<input type="hidden" name="Current_URL" id="Current_URL" value="https://www.troopwebhostcs.org//events/event.php?;Form_ID=5442&amp;Stack=3&amp;ID=581&amp;FK=0">
 <a href="javascript:togglemenu();">
 <div class="navicon" style="width:64px;">
   <table>
@@ -322,7 +322,7 @@
     <td style="width:76px;">
     </td>
     <td style="padding:4px;">
-      <a href="#" class="navlink nav-home-link" onclick="LinkTo('Pack12Austin/Index.htm','_top')">Pack 12 Austin</a>
+      <a href="#" class="navlink nav-home-link" onclick="LinkTo('/home/home.php','_top')">Pack 12 Austin</a>
     </td>
     <td class="quickmenu1">
       <table>
@@ -440,7 +440,7 @@
         <br><br>
         The current user is:&nbsp; &nbsp; MBucklin796
         <br><br>
-        The URL for this page is:&nbsp; &nbsp; https://www.troopwebhostcs.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=5442&amp;Stack=3&amp;ID=581&amp;FK=0&amp;Application_ID=2840
+        The URL for this page is:&nbsp; &nbsp; https://www.troopwebhostcs.org//events/event.php?;Form_ID=5442&amp;Stack=3&amp;ID=581&amp;FK=0&amp;Application_ID=2840
       </div>
     </div>
   </div>
@@ -550,7 +550,7 @@ Documents
         <input class="btn btn-sm btn-warning" onmouseover="SetAction(this)" onmouseout="ResetAction()" type="reset" tabindex="150" id="BUTTON10" title="Discard the information that you entered on this page and restore the previous values" value="Reset" name="BUTTON10">
         </span>
         <span style="display:inline;">
-        <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="160" id="BUTTON11" type="button" name="add" title="Add Document" value="Add Document" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=5450&amp;FK=581&amp;ID=0&amp;Stack=4','');">
+        <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="160" id="BUTTON11" type="button" name="add" title="Add Document" value="Add Document" onclick="LinkTo('/events/event.php?;Form_ID=5450&amp;FK=581&amp;ID=0&amp;Stack=4','');">
         </span>
       </div>
     </div>

@@ -1067,7 +1067,7 @@ body:has(#Menu_Item_ID[value="318"]):has(
 
       table.sortable > tbody > tr:hover::after,
       table.sortable > tbody > tr:focus-within::after {
-        content: "Hide details  \25B4";
+        display: none;
       }
     }
 

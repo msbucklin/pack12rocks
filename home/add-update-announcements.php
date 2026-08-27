@@ -1482,7 +1482,7 @@ Please wear Class A Uniform if you have it.</p>
 
 <p>Join us on our Pack 12 Spring Campout at Pedernales Falls State Park.</p>
 
-<p>RSVP by April 6:&nbsp;<a href="https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=254">https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=254</a></p>
+<p>RSVP by April 6:&nbsp;<a href="https://www.TroopWebHostCS.org//events/event.php?;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=254">https://www.TroopWebHostCS.org//events/event.php?;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=254</a></p>
 
 <p>Learn more about Camping with Pack 12. Click MENU -&gt; HOME -&gt; CAMPING&nbsp;</p>
                   </td>
@@ -1515,7 +1515,7 @@ Please wear Class A Uniform if you have it.</p>
                   <td class="text-center " id="TD795ROW23DATA3912">
                     <p style="text-align:center"><img alt="" height="195" src="https://ogo.blob.core.windows.net/cspack12austin/Rocket_Derby_20253151340472946015.jpg" width="260"></p>
 
-<p>Scouts who wish to participate in this year's Rocket Derby must RSVP on the Pack 12 website no later than April 1 in order to secure a rocket kit. Please make sure your scout is registered at&nbsp;<a href="https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=256">https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=256</a></p>
+<p>Scouts who wish to participate in this year's Rocket Derby must RSVP on the Pack 12 website no later than April 1 in order to secure a rocket kit. Please make sure your scout is registered at&nbsp;<a href="https://www.TroopWebHostCS.org//events/event.php?;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=256">https://www.TroopWebHostCS.org//events/event.php?;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=256</a></p>
 
 <p>&nbsp;</p>
                   </td>
@@ -1760,7 +1760,7 @@ As you all know, Scouts and the Pinewood Derby event is a volunteer-led program,
 
 <p><b>REGISTRATION CLOSES 12/10/24.</b></p>
 
-<p>Register for this event at:&nbsp;<a href="https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=255">https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=255</a></p>
+<p>Register for this event at:&nbsp;<a href="https://www.TroopWebHostCS.org//events/event.php?;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=255">https://www.TroopWebHostCS.org//events/event.php?;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=255</a></p>
                   </td>
                   <td class="text-center " id="TD795ROW28DATA3913">
                     09/18/2024
@@ -1847,7 +1847,7 @@ As you all know, Scouts and the Pinewood Derby event is a volunteer-led program,
 
 <p>AOL'S, WEBELOS BONUS</p>
 
-<p>Overnight bonus activity for our 4th and 5th graders!&nbsp;The LEX overnight is optional and costs $75/person. This includes overnight stay in crew quarters, two meals. RSVP by Nov 10th&nbsp;at:&nbsp;<a href="https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=289" target="_blank">https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=289</a></p>
+<p>Overnight bonus activity for our 4th and 5th graders!&nbsp;The LEX overnight is optional and costs $75/person. This includes overnight stay in crew quarters, two meals. RSVP by Nov 10th&nbsp;at:&nbsp;<a href="https://www.TroopWebHostCS.org//events/event.php?;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=289" target="_blank">https://www.TroopWebHostCS.org//events/event.php?;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=289</a></p>
 
 <p>&nbsp;</p>
                   </td>
@@ -1981,7 +1981,7 @@ Pack selling $40,000 = Ice Cream Party for scouts who fundraised&nbsp;</strong><
 
 <p>Visit historic sites like the Mission Espiritu Santo, Presidio la Bahía, and the Zaragoza Birthplace State Historic Site.&nbsp;</p>
 
-<p>RSVP:&nbsp;<a href="https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=234">https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=234</a></p>
+<p>RSVP:&nbsp;<a href="https://www.TroopWebHostCS.org//events/event.php?;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=234">https://www.TroopWebHostCS.org//events/event.php?;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=234</a></p>
 
 <p>Learn more about Camping with Pack 12. Click MENU -&gt; HOME -&gt; CAMPING&nbsp;</p>
                   </td>
@@ -2352,7 +2352,7 @@ Den 8 Bear</p>
 
 <p>Help families learn more about Pack 12 and your scouts will earn their Recruiter Strip. A patch that scouts earn and place on their uniform.</p>
 
-<p>RSVP for September 1:&nbsp;<a href="https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=225">https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=225</a></p>
+<p>RSVP for September 1:&nbsp;<a href="https://www.TroopWebHostCS.org//events/event.php?;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=225">https://www.TroopWebHostCS.org//events/event.php?;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=225</a></p>
                   </td>
                   <td class="text-center " id="TD795ROW43DATA3913">
                     08/18/2024
@@ -2385,7 +2385,7 @@ Den 8 Bear</p>
 
 <p><strong>THIS IS AN OPEN RECRUITMENT EVENT WHERE SCOUTS AND THEIR FAMILIES CAN INVITE FRIENDS TO PARTICIPATE.&nbsp;</strong>(Please include any guests in RSVP headcount)</p>
 
-<p>Build a Cubmobile (soapbox)&nbsp;car as a den and race it down the Pack 12 Speedway at Clayton Elementary on August 18 at 8am. We will also have Ice Cream for some frozen treats! Please RSVP at&nbsp;<a href="https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=222">https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=222</a></p>
+<p>Build a Cubmobile (soapbox)&nbsp;car as a den and race it down the Pack 12 Speedway at Clayton Elementary on August 18 at 8am. We will also have Ice Cream for some frozen treats! Please RSVP at&nbsp;<a href="https://www.TroopWebHostCS.org//events/event.php?;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=222">https://www.TroopWebHostCS.org//events/event.php?;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=222</a></p>
 
 <p>If your den does not already have a Cubmobile car, now is the time to start working on one. &nbsp;Basic plans can be found here:&nbsp;<a href="https://drive.google.com/file/d/1WnETW_sG15FTgeQxAnKghoQ7NCGVHVTc/view?usp=drive_link" target="_blank">Cubmobile Build Instructions</a>. &nbsp;There are&nbsp;wheels and other extra parts available in the pack storage bin for those that need them.</p>
 
@@ -2424,7 +2424,7 @@ Den 8 Bear</p>
 
 <p>Scouts and friends will have a chance to explore rock climbing and bouldering on July 20th at 4pm at&nbsp;Crux Indoor Climbing Center located at 121 Pickle Dr. Ste 100,&nbsp;Austin, TX 78704.</p>
 
-<p>$16 per participant. Cost includes harness &amp;&nbsp;shoe rental.&nbsp;Pack is providing instructors to help scouts during the event. PLEASE RSVP at&nbsp;<a href="https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=220">https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=220</a></p>
+<p>$16 per participant. Cost includes harness &amp;&nbsp;shoe rental.&nbsp;Pack is providing instructors to help scouts during the event. PLEASE RSVP at&nbsp;<a href="https://www.TroopWebHostCS.org//events/event.php?;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=220">https://www.TroopWebHostCS.org//events/event.php?;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=220</a></p>
 
 <p>Class B T-Shirts, Socks required.</p>
                   </td>
@@ -2538,7 +2538,7 @@ Den 8 Bear</p>
                   <td class="text-center " id="TD795ROW48DATA3912">
                     <p style="text-align:center"><img alt="" height="429" src="https://ogo.blob.core.windows.net/cspack12austin/Raingutter_Regatta_20245161429329904383.jpg" width="600"></p>
 
-<p>Join Pack 12 at our annual Raingutter Regatta on June 8th at VFW 4443. Scouts will have an opportunity to&nbsp;build and race sailboats from recycled materials and then race them down our 10' raingutter. Families are asked to bring materials such as egg cartons, Amazon envelopes, pool noodles, styrofoam packaging, or other materials you believe will make great sailboat. Please RSVP on the calendar for accurate food headcount.&nbsp;<a href="https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=218" target="_blank">https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=218</a><br>
+<p>Join Pack 12 at our annual Raingutter Regatta on June 8th at VFW 4443. Scouts will have an opportunity to&nbsp;build and race sailboats from recycled materials and then race them down our 10' raingutter. Families are asked to bring materials such as egg cartons, Amazon envelopes, pool noodles, styrofoam packaging, or other materials you believe will make great sailboat. Please RSVP on the calendar for accurate food headcount.&nbsp;<a href="https://www.TroopWebHostCS.org//events/event.php?;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=218" target="_blank">https://www.TroopWebHostCS.org//events/event.php?;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=218</a><br>
 <br>
 We'll also have a cookout where the VFW/Pack will provide the protein and&nbsp;families are asked&nbsp;to help bring side dishes - SignUp Genius to come.</p>
                   </td>
@@ -2858,7 +2858,7 @@ Agenda includes<br>
 
 <p>Agenda will include Activities &amp; Games for all scouts, BBQ lunch will be served (Pack 12 provides protein, families are asked to bring potluck sides &amp; vegetarian options), followed by the crossover ceremony.</p>
 
-<p>RSVP Here:&nbsp;<a href="https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=120" target="_blank">https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=120</a></p>
+<p>RSVP Here:&nbsp;<a href="https://www.TroopWebHostCS.org//events/event.php?;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=120" target="_blank">https://www.TroopWebHostCS.org//events/event.php?;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=120</a></p>
 
 <p>Potluck Sign Up Here:&nbsp;<a href="https://www.signupgenius.com/go/30E054AACA62CA6FD0-47835522-2024#/" target="_blank">https://www.signupgenius.com/go/30E054AACA62CA6FD0-47835522-2024#/</a></p>
                   </td>
@@ -2897,7 +2897,7 @@ Agenda includes<br>
 
 <p>The overnight has a choice of indoor accommodations as well as outdoor camping under the SpaceX rocket or NASA 905 shuttle aircraft carrier and shuttle. Activities include&nbsp;hands-on STEM experiences, a general admission ticket to explore Space Center Houston exhibits and experiences to be used either before or after the Overnight, and a&nbsp;NASA Tram Tour to Johnson Space Center the morning of your 2nd Day.</p>
 
-<p>Registration is open now, but limited to the first 200 registrants.&nbsp;<a href="https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=96">https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=96</a></p>
+<p>Registration is open now, but limited to the first 200 registrants.&nbsp;<a href="https://www.TroopWebHostCS.org//events/event.php?;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=96">https://www.TroopWebHostCS.org//events/event.php?;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=96</a></p>
                   </td>
                   <td class="text-center " id="TD795ROW58DATA3913">
                     09/14/2023
@@ -2996,7 +2996,7 @@ Agenda includes<br>
 
 <p>Registration is open for Pack 12's Fall Campout.</p>
 
-<p>This year, we're not going too far as we'll be heading to McGimsey Scout Park in San Antonio, TX. McGimsey is 140 acres in the middle of San Antonio, but you'd never realize you're in the city.&nbsp;There will be hiking, fishing, archery, gagaball and even a pirate ship to explore!&nbsp;&nbsp;RSVP for the campout here:&nbsp;<a href="https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=60">https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=60</a></p>
+<p>This year, we're not going too far as we'll be heading to McGimsey Scout Park in San Antonio, TX. McGimsey is 140 acres in the middle of San Antonio, but you'd never realize you're in the city.&nbsp;There will be hiking, fishing, archery, gagaball and even a pirate ship to explore!&nbsp;&nbsp;RSVP for the campout here:&nbsp;<a href="https://www.TroopWebHostCS.org//events/event.php?;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=60">https://www.TroopWebHostCS.org//events/event.php?;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=60</a></p>
                   </td>
                   <td class="text-center " id="TD795ROW61DATA3913">
                     09/15/2023
@@ -3243,7 +3243,7 @@ Agenda includes<br>
 <p>New scouts and their families are invited to attend the Pack 12 New Scout Ceremony on Saturday, September 16th at Founders Park in Dripping Springs, beginning at 5:30pm.<br>
 The New Scout Ceremony is for&nbsp;<strong>ALL NEW SCOUTS</strong>&nbsp;in Pack 12 who joined the pack after January 1, 2023&nbsp;regardless of rank, including transfers and scouts re-entering the Pack.</p>
 
-<p>Please RSVP for an accurate food/beverage count:&nbsp;<a href="https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=55">https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=55</a></p>
+<p>Please RSVP for an accurate food/beverage count:&nbsp;<a href="https://www.TroopWebHostCS.org//events/event.php?;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=55">https://www.TroopWebHostCS.org//events/event.php?;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=55</a></p>
                   </td>
                   <td class="text-center " id="TD795ROW68DATA3913">
                     09/01/2023
@@ -3273,7 +3273,7 @@ The New Scout Ceremony is for&nbsp;<strong>ALL NEW SCOUTS</strong>&nbsp;in Pack 
                   </td>
                   <td class="text-center " id="TD795ROW69DATA3912">
                     <p>Cubmobile has been rescheduled to August 26th to help draw more participation. Please RSVP for the event on pack12rocks.org so we can manage our race schedule.<br>
-RSVP at:&nbsp;<a href="https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=36">https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=36</a></p>
+RSVP at:&nbsp;<a href="https://www.TroopWebHostCS.org//events/event.php?;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=36">https://www.TroopWebHostCS.org//events/event.php?;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=36</a></p>
 
 <p>Each den only needs one cubmobile car to participate. If your den does not already have a car, it is time to start building one. Reach out to your den leader to see when you can set some time to build your Cubmobile. If your den doesn't feel like they can build one for the event, please reach out to <a href="mailto:jason@jasoncantin.com?subject=Cubmobile%20Help">Jason Cantin</a> or <a href="mailto:ncarty97@gmail.com?subject=Cubmobile%20Help">Nate Carty</a> to work out alternate plans.</p>
 
@@ -3314,7 +3314,7 @@ RSVP at:&nbsp;<a href="https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_
 
 <p>If you're a committee member or den leader, you or a member of your den <strong>NEEDS TO BE HERE</strong> as we will be discussing a number of changes for the 2023-24 year. Additionally, if you're a parent interested in helping Pack 12, you're also invited to attend and learn about the volunteering opportunities with the Pack.</p>
 
-<p>Event Details at:&nbsp; <a href="https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=63">https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=63</a></p>
+<p>Event Details at:&nbsp; <a href="https://www.TroopWebHostCS.org//events/event.php?;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=63">https://www.TroopWebHostCS.org//events/event.php?;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=63</a></p>
 
 <p style="text-align:center"><img alt="" height="448.75" src="https://ogo.blob.core.windows.net/cspack12austin/pack-committee_20237152212354253783.jpg" width="640"></p>
                   </td>
@@ -3345,7 +3345,7 @@ RSVP at:&nbsp;<a href="https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_
                     Bowling with the Pack
                   </td>
                   <td class="text-center " id="TD795ROW71DATA3912">
-                    <p>On July 15th we invite everyone to join us for Pack 12 Bowl-A-Rama at Westgate Lanes (2701 W William Cannon Dr.) The cost will be $11.00 per person, shoes are included. Please RSVP at&nbsp;<a href="https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=35">https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=35</a></p>
+                    <p>On July 15th we invite everyone to join us for Pack 12 Bowl-A-Rama at Westgate Lanes (2701 W William Cannon Dr.) The cost will be $11.00 per person, shoes are included. Please RSVP at&nbsp;<a href="https://www.TroopWebHostCS.org//events/event.php?;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=35">https://www.TroopWebHostCS.org//events/event.php?;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=35</a></p>
 
 <p style="text-align:center"><img alt="" height="254.08" src="https://ogo.blob.core.windows.net/cspack12austin/Bowling_20236211822471709755.jpg" width="640"></p>
                   </td>
@@ -3418,7 +3418,7 @@ RSVP at:&nbsp;<a href="https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_
                   </td>
                   <td class="text-center " id="TD795ROW73DATA3912">
                     <p>Join Pack 12 for a 4th of July parade around Circle C Ranch on <strong>Saturday, July 1</strong>. Arrival at 8:30 at Circle C Swim Center (corner of La Crosse &amp; Escarpment). The parade begins at 9am.<br>
-<a href="https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=24">https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=24</a></p>
+<a href="https://www.TroopWebHostCS.org//events/event.php?;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=24">https://www.TroopWebHostCS.org//events/event.php?;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=24</a></p>
 
 <p>Following the parade will be face painting, balloon twisting, snow cones.</p>
 
@@ -3454,10 +3454,10 @@ RSVP at:&nbsp;<a href="https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_
                     <p>Pack 12's Summer Events are now available on the website to&nbsp;RSVP.</p>
 
 <ul>
-	<li>June 17: <a href="https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=23" target="_blank">Raingutter Regatta,&nbsp;Outdoor Games, &amp; Cookout @ VFW4443</a></li>
-	<li>July 1: <a href="https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=24" target="_blank">4th of July Parade @ Circle C Swim Center</a></li>
-	<li>July 15: <a href="https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=35" target="_blank">Bowling with the Pack @ Westgate Lanes</a></li>
-	<li>August 5: <a href="https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=36" target="_blank">Cub Mobile Derby &amp; Ice Cream Party @ Abiding Love Lutheran Church</a></li>
+	<li>June 17: <a href="https://www.TroopWebHostCS.org//events/event.php?;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=23" target="_blank">Raingutter Regatta,&nbsp;Outdoor Games, &amp; Cookout @ VFW4443</a></li>
+	<li>July 1: <a href="https://www.TroopWebHostCS.org//events/event.php?;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=24" target="_blank">4th of July Parade @ Circle C Swim Center</a></li>
+	<li>July 15: <a href="https://www.TroopWebHostCS.org//events/event.php?;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=35" target="_blank">Bowling with the Pack @ Westgate Lanes</a></li>
+	<li>August 5: <a href="https://www.TroopWebHostCS.org//events/event.php?;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=36" target="_blank">Cub Mobile Derby &amp; Ice Cream Party @ Abiding Love Lutheran Church</a></li>
 </ul>
 
 <p>If your scout participates in one event each month, they will earn the Summertime Pack Award!</p>
@@ -3496,7 +3496,7 @@ RSVP at:&nbsp;<a href="https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_
 <p>Don't forget to start&nbsp;saving your recyclables for the Raingutter Regatta on June 17th. Bring those recyclables to the VFW where scouts will be building their boats on-site before racing them down the raingutter.</p>
 
 <ul>
-	<li>RSVP for the event here:&nbsp;<a href="https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=23">https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=23</a></li>
+	<li>RSVP for the event here:&nbsp;<a href="https://www.TroopWebHostCS.org//events/event.php?;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=23">https://www.TroopWebHostCS.org//events/event.php?;Form_ID=2486&amp;Stack=0&amp;Application_ID=2840&amp;ID=23</a></li>
 	<li>Sign up to bring a side dish here:&nbsp;<a href="https://www.signupgenius.com/go/20f0b48afa929a4fc1-raingutter#/">https://www.signupgenius.com/go/20f0b48afa929a4fc1-raingutter#/</a></li>
 	<li>Volunteer here:&nbsp;<a href="https://www.signupgenius.com/go/20f0b48afa929a4fc1-raingutter1#/">https://www.signupgenius.com/go/20f0b48afa929a4fc1-raingutter1#/</a></li>
 </ul>
@@ -3612,7 +3612,7 @@ RSVP at:&nbsp;<a href="https://www.TroopWebHostCS.org/FormDetail.aspx?Menu_Item_
 
 <p>Please join us to help facilitate the event for families who are thinking about joining Cub Scouts and Pack 12. We need adults to help us run the paper rocket launcher and also to help direct families and answer questions. Bring your scout in their Class A uniform and they will earn their "Recruiter" patch.&nbsp;</p>
 
-<p>Please RSVP here:&nbsp;<a href="https://www.troopwebhostcs.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=259&amp;Stack=2&amp;ID=34">https://www.troopwebhostcs.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=259&amp;Stack=2&amp;ID=34</a></p>
+<p>Please RSVP here:&nbsp;<a href="https://www.troopwebhostcs.org//events/event.php?;Form_ID=259&amp;Stack=2&amp;ID=34">https://www.troopwebhostcs.org//events/event.php?;Form_ID=259&amp;Stack=2&amp;ID=34</a></p>
                   </td>
                   <td class="text-center " id="TD795ROW78DATA3913">
                     05/10/2023
@@ -3752,7 +3752,7 @@ Pack 12 is being provided a recruitment table at the Clayton Elementary Carnival
 
 <p>We're specifically looking for parents and leaders who do NOT attend Clayton Elementary to help recruit new scouts for Pack 12, since Clayton Elementary families will be participating in the carnival.&nbsp;</p>
 
-<p>Register for a shift here:&nbsp;<a href="https://www.troopwebhostcs.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=259&amp;Stack=2&amp;ID=25">https://www.troopwebhostcs.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=259&amp;Stack=2&amp;ID=25</a><br>
+<p>Register for a shift here:&nbsp;<a href="https://www.troopwebhostcs.org//events/event.php?;Form_ID=259&amp;Stack=2&amp;ID=25">https://www.troopwebhostcs.org//events/event.php?;Form_ID=259&amp;Stack=2&amp;ID=25</a><br>
 (Please only register adults for volunteering)</p>
                   </td>
                   <td class="text-center " id="TD795ROW82DATA3913">

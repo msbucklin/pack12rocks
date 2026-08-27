@@ -306,7 +306,7 @@
   <input type="hidden" name="NewRowsPerPage" id="NewRowsPerPage" value="">
   <input type="hidden" name="ChildRowID" id="ChildRowID" value="0">
   <input type="hidden" name="Report_Format" id="Report_Format" value="">
-  <input type="hidden" name="Current_URL" id="Current_URL" value="https://www.troopwebhostcs.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=259&amp;ID=581&amp;Stack=2">
+  <input type="hidden" name="Current_URL" id="Current_URL" value="https://www.troopwebhostcs.org//events/event.php?;Form_ID=259&amp;ID=581&amp;Stack=2">
   <a href="javascript:togglemenu();">
   <div class="navicon" style="width:64px;">
     <table>
@@ -434,7 +434,7 @@
           <br><br>
           The current user is:&nbsp; &nbsp; mbucklin3
           <br><br>
-          The URL for this page is:&nbsp; &nbsp; https://www.troopwebhostcs.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=259&amp;ID=581&amp;Stack=2&amp;Application_ID=2840
+          The URL for this page is:&nbsp; &nbsp; https://www.troopwebhostcs.org//events/event.php?;Form_ID=259&amp;ID=581&amp;Stack=2&amp;Application_ID=2840
         </div>
       </div>
     </div>
@@ -489,7 +489,7 @@
           <input class="btn btn-sm btn-info" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="120" id="BUTTON1" type="button" name="save continue" title="Black Pug CSV" value="Black Pug CSV" onclick="buttonlink(this,'N');">
           </span>
           <span style="display:inline;">
-          <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="130" id="BUTTON3" type="button" name="preselect" title="E-Mail Participants" value="E-Mail Participants" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=397&amp;PreselectID=581&amp;FK=581&amp;Stack=3','');">
+          <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="130" id="BUTTON3" type="button" name="preselect" title="E-Mail Participants" value="E-Mail Participants" onclick="LinkTo('/events/event.php?;Form_ID=397&amp;PreselectID=581&amp;FK=581&amp;Stack=3','');">
           </span>
           <span style="display:inline;">
           <input class="btn btn-sm btn-danger" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="140" id="BUTTON4" type="button" name="cancel" title="Exit" value="Exit" onclick="LinkTo('/home/home.php','_top');">
@@ -547,7 +547,7 @@
             <td class="text-left">
               <input type="hidden" name="RVALENTRY37022" id="RVALENTRY37022" value="">
               <span class="text-left">
-              <a href="#" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=180&amp;ID=7&amp;Stack=3','');">
+              <a href="#" onclick="LinkTo('/events/event.php?;Form_ID=180&amp;ID=7&amp;Stack=3','');">
               VFW Post 4443
               </a>
               </span>
@@ -1260,7 +1260,7 @@ We’re kicking off the new Scouting year with a <strong>"Welcome Back!" Pack Pi
           <input class="btn btn-sm btn-info" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="380" id="BUTTON1" type="button" name="save continue" title="Black Pug CSV" value="Black Pug CSV" onclick="buttonlink(this,'N');">
           </span>
           <span style="display:inline;">
-          <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="390" id="BUTTON3" type="button" name="preselect" title="E-Mail Participants" value="E-Mail Participants" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=397&amp;PreselectID=581&amp;FK=581&amp;Stack=3','');">
+          <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="390" id="BUTTON3" type="button" name="preselect" title="E-Mail Participants" value="E-Mail Participants" onclick="LinkTo('/events/event.php?;Form_ID=397&amp;PreselectID=581&amp;FK=581&amp;Stack=3','');">
           </span>
           <span style="display:inline;">
           <input class="btn btn-sm btn-danger" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="400" id="BUTTON4" type="button" name="cancel" title="Exit" value="Exit" onclick="LinkTo('/home/home.php','_top');">

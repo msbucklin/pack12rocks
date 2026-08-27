@@ -591,62 +591,62 @@ Home
             <tbody>
             <tr>
               <td class="text-center">
-                <p align="center"><b><a href="FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=259&amp;Stack=2&amp;ID=580">Webelos and AOL Swim Adventure</a></b><br>(Aug 22 2026  9:00AM)</p>
+                <p align="center"><b><a href="/events/event.php?;Form_ID=259&amp;Stack=2&amp;ID=580">Webelos and AOL Swim Adventure</a></b><br>(Aug 22 2026  9:00AM)</p>
               </td>
             </tr>
             <tr>
               <td class="text-center">
-                <p align="center"><b><a href="FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=259&amp;Stack=2&amp;ID=579">Join Scouting Night</a></b><br>(Aug 25 2026  6:00PM)</p>
+                <p align="center"><b><a href="/events/event.php?;Form_ID=259&amp;Stack=2&amp;ID=579">Join Scouting Night</a></b><br>(Aug 25 2026  6:00PM)</p>
               </td>
             </tr>
             <tr>
               <td class="text-center">
-                <p align="center"><b><a href="FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=259&amp;Stack=2&amp;ID=581">Welcome Back, Pack Picnic</a></b><br>(Aug 29 2026 10:00AM)</p>
+                <p align="center"><b><a href="/events/event.php?;Form_ID=259&amp;Stack=2&amp;ID=581">Welcome Back, Pack Picnic</a></b><br>(Aug 29 2026 10:00AM)</p>
               </td>
             </tr>
             <tr>
               <td class="text-center">
-                <p align="center"><b><a href="FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=259&amp;Stack=2&amp;ID=555">District Roundtable</a></b><br>(Sep  3 2026  7:00PM)</p>
+                <p align="center"><b><a href="/events/event.php?;Form_ID=259&amp;Stack=2&amp;ID=555">District Roundtable</a></b><br>(Sep  3 2026  7:00PM)</p>
               </td>
             </tr>
             <tr>
               <td class="text-center">
-                <p align="center"><b><a href="FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=259&amp;Stack=2&amp;ID=522">Pack Meeting (Open House &amp; Parent Orientation)</a></b><br>(Sep  8 2026  6:30PM)</p>
+                <p align="center"><b><a href="/events/event.php?;Form_ID=259&amp;Stack=2&amp;ID=522">Pack Meeting (Open House &amp; Parent Orientation)</a></b><br>(Sep  8 2026  6:30PM)</p>
               </td>
             </tr>
             <tr>
               <td class="text-center">
-                <p align="center"><b><a href="FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=259&amp;Stack=2&amp;ID=513">Den Leader &amp; Committee Meeting</a></b><br>(Sep 13 2026  5:30PM)</p>
+                <p align="center"><b><a href="/events/event.php?;Form_ID=259&amp;Stack=2&amp;ID=513">Den Leader &amp; Committee Meeting</a></b><br>(Sep 13 2026  5:30PM)</p>
               </td>
             </tr>
             <tr>
               <td class="text-center">
-                <p align="center"><b><a href="FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=259&amp;Stack=2&amp;ID=551">STEM Adventure Weekend (Council Event)</a></b><br>(Sep 18 2026  6:00PM)</p>
+                <p align="center"><b><a href="/events/event.php?;Form_ID=259&amp;Stack=2&amp;ID=551">STEM Adventure Weekend (Council Event)</a></b><br>(Sep 18 2026  6:00PM)</p>
               </td>
             </tr>
             <tr>
               <td class="text-center">
-                <p align="center"><b><a href="FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=259&amp;Stack=2&amp;ID=571">Webelos Den Meeting</a></b><br>(Sep 20 2026  4:00PM)</p>
+                <p align="center"><b><a href="/events/event.php?;Form_ID=259&amp;Stack=2&amp;ID=571">Webelos Den Meeting</a></b><br>(Sep 20 2026  4:00PM)</p>
               </td>
             </tr>
             <tr>
               <td class="text-center">
-                <p align="center"><b><a href="FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=259&amp;Stack=2&amp;ID=566">Cub World</a></b><br>(Sep 25 2026  6:00PM)</p>
+                <p align="center"><b><a href="/events/event.php?;Form_ID=259&amp;Stack=2&amp;ID=566">Cub World</a></b><br>(Sep 25 2026  6:00PM)</p>
               </td>
             </tr>
             <tr>
               <td class="text-center">
-                <p align="center"><b><a href="FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=259&amp;Stack=2&amp;ID=552">Cub Kite and Rocket Festival (Council Event)</a></b><br>(Sep 26 2026  8:30AM)</p>
+                <p align="center"><b><a href="/events/event.php?;Form_ID=259&amp;Stack=2&amp;ID=552">Cub Kite and Rocket Festival (Council Event)</a></b><br>(Sep 26 2026  8:30AM)</p>
               </td>
             </tr>
             <tr>
               <td class="text-center">
-                <p align="center"><b><a href="FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=259&amp;Stack=2&amp;ID=556">District Roundtable</a></b><br>(Oct  1 2026  7:00PM)</p>
+                <p align="center"><b><a href="/events/event.php?;Form_ID=259&amp;Stack=2&amp;ID=556">District Roundtable</a></b><br>(Oct  1 2026  7:00PM)</p>
               </td>
             </tr>
             <tr>
               <td class="text-center">
-                <p align="center"><b><a href="FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=259&amp;Stack=2&amp;ID=514">Den Leader &amp; Committee Meeting</a></b><br>(Oct  4 2026  5:30PM)</p>
+                <p align="center"><b><a href="/events/event.php?;Form_ID=259&amp;Stack=2&amp;ID=514">Den Leader &amp; Committee Meeting</a></b><br>(Oct  4 2026  5:30PM)</p>
               </td>
             </tr>
             </tbody>

@@ -1,0 +1,416 @@
+// -----------------------------------------------------------------------------
+// Event participant email composer
+// -----------------------------------------------------------------------------
+
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) {
+  --event-email-border: rgba(15, 57, 95, 0.16);
+  --event-email-muted: #567092;
+  --event-email-panel: #f7faff;
+
+  .page-title {
+    width: 100%;
+    padding: 10px 20px 0;
+    box-sizing: border-box;
+    font-size: 0;
+    text-align: left !important;
+
+    &::after {
+      color: $navy-700;
+      content: "Email Event Participants";
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 1.25;
+    }
+  }
+
+  #fs1225 {
+    margin-bottom: 14px !important;
+
+    @include detail-form-shell;
+    @include detail-form-table-labels;
+    @include detail-form-stacked-mobile;
+
+    @media (max-width: 767px) {
+      margin-top: 20px !important;
+      padding-left: 20px !important;
+      padding-right: 20px !important;
+    }
+
+    .center-block {
+      width: 100% !important;
+      max-width: 100% !important;
+      margin: 0 !important;
+    }
+
+    table.no-border {
+      table-layout: fixed;
+    }
+
+    table.no-border td:first-child {
+      width: 190px !important;
+      max-width: 190px !important;
+    }
+
+    .form-control {
+      width: 100% !important;
+      min-width: 0 !important;
+      max-width: 100% !important;
+      box-sizing: border-box;
+    }
+
+    input[type="file"].form-control {
+      min-height: 40px;
+      padding: 8px 10px !important;
+    }
+
+    .cke {
+      width: 100% !important;
+      max-width: 100% !important;
+      overflow: hidden;
+      border-color: var(--event-email-border) !important;
+      border-radius: 6px;
+      box-shadow: none !important;
+      box-sizing: border-box;
+    }
+
+    .cke_top {
+      white-space: normal;
+    }
+
+    #SPAN24176100 {
+      display: flex !important;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px 18px;
+      font-size: 0;
+    }
+
+    #SPAN24176100 > span {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 14px;
+    }
+
+    #SPAN24176100 input[type="radio"] {
+      width: auto !important;
+      margin: 0 !important;
+    }
+
+    #ENTRY24176100-sms-warning {
+      flex: 0 0 100%;
+      margin: 2px 0 0 !important;
+      padding: 9px 11px;
+      border-left: 3px solid #d59d13;
+      background: #fff8e3;
+      color: $text-dark;
+      font-size: 12px;
+      line-height: 1.45;
+    }
+  }
+
+  :is(#fs1229, #fs1226) {
+    margin: 0 0 16px !important;
+
+    .center-block {
+      width: 100% !important;
+      max-width: 100% !important;
+      margin: 0 !important;
+    }
+
+    .text-center {
+      display: flex !important;
+      flex-wrap: wrap;
+      justify-content: flex-start !important;
+      gap: 8px;
+      text-align: left !important;
+    }
+
+    .text-center > span {
+      display: inline-flex !important;
+      margin: 0 !important;
+    }
+
+    .btn {
+      min-width: 92px;
+      min-height: 40px;
+      margin: 0 !important;
+      padding: 9px 16px !important;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+  }
+
+  #fs1228 {
+    margin: 0 0 12px !important;
+
+    .center-block {
+      width: 100% !important;
+      min-width: 0 !important;
+      max-width: 100% !important;
+      margin: 0 !important;
+      padding: 11px 14px !important;
+      border-left: 3px solid $navy-700;
+      background: var(--event-email-panel);
+      box-sizing: border-box;
+    }
+
+    p {
+      margin: 0 !important;
+      color: $text-mid;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    p + p {
+      margin-top: 3px !important;
+    }
+  }
+
+  #fs1227 {
+    margin-bottom: 16px !important;
+
+    .center-block {
+      width: 100% !important;
+      max-width: 100% !important;
+      margin: 0 !important;
+    }
+
+    table.sortable {
+      width: 100% !important;
+      margin: 0;
+      overflow: hidden;
+      border: 1px solid var(--event-email-border) !important;
+      border-collapse: separate !important;
+      border-spacing: 0;
+      border-radius: 6px;
+      background: #ffffff;
+    }
+
+    table.sortable > thead > tr > th {
+      padding: 11px 12px !important;
+      border: 0 !important;
+      border-bottom: 1px solid var(--event-email-border) !important;
+      color: $text-dark !important;
+      background: #eaf3ff !important;
+      font-size: 13px;
+      font-weight: 700;
+      text-align: left;
+      vertical-align: middle;
+    }
+
+    table.sortable > thead > tr > th:first-child,
+    table.sortable > tbody > tr > td:first-of-type {
+      width: 44px !important;
+      text-align: center !important;
+    }
+
+    table.sortable > tbody > tr > td {
+      padding: 10px 12px !important;
+      border: 0 !important;
+      border-bottom: 1px solid rgba(15, 57, 95, 0.09) !important;
+      color: $text-dark;
+      background: #ffffff !important;
+      font-size: 13px;
+      text-align: left !important;
+      vertical-align: middle;
+    }
+
+    table.sortable > tbody > tr:nth-of-type(even) > td {
+      background: #f7faff !important;
+    }
+
+    table.sortable > tbody > tr:last-child > td {
+      border-bottom: 0 !important;
+    }
+
+    table.sortable input[type="checkbox"].form-control {
+      width: 20px !important;
+      min-height: 20px !important;
+      height: 20px !important;
+      margin: 0 auto !important;
+      padding: 0 !important;
+      accent-color: $navy-700;
+    }
+
+    .sortheader {
+      color: $navy-700 !important;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .page-title {
+      padding-top: 20px;
+
+      &::after {
+        font-size: 21px;
+      }
+    }
+
+    #fs1225 {
+      table.no-border > tbody > tr {
+        display: grid !important;
+        grid-template-columns: minmax(0, 1fr);
+        gap: 0;
+        width: 100% !important;
+        margin: 0 !important;
+      }
+
+      table.no-border > tbody > tr[style*="display: none"] {
+        display: none !important;
+      }
+
+      table.no-border > tbody > tr > td {
+        display: block !important;
+        width: 100% !important;
+        min-width: 0 !important;
+        max-width: 100% !important;
+        box-sizing: border-box;
+        text-align: left !important;
+      }
+
+      table.no-border > tbody > tr > td:first-child {
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 12px 14px 4px !important;
+      }
+
+      table.no-border > tbody > tr > td:last-child {
+        padding: 4px 14px 12px !important;
+        border-left: 0 !important;
+      }
+
+      .center-block table.no-border .control-label {
+        display: block !important;
+        width: 100% !important;
+        margin: 0 !important;
+        text-align: left !important;
+      }
+
+      .cke_contents {
+        min-height: 220px;
+      }
+    }
+
+    :is(#fs1229, #fs1226) .text-center {
+      display: grid !important;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    :is(#fs1229, #fs1226) .text-center > span,
+    :is(#fs1229, #fs1226) .btn {
+      width: 100% !important;
+      min-width: 0 !important;
+    }
+
+    :is(#fs1229, #fs1226) .btn {
+      min-height: 44px;
+    }
+
+    #fs1227 {
+      .center-block {
+        overflow: visible !important;
+      }
+
+      table.sortable,
+      table.sortable > thead,
+      table.sortable > tbody {
+        display: block;
+        width: 100% !important;
+      }
+
+      table.sortable {
+        overflow: visible;
+        border: 0 !important;
+        background: transparent;
+      }
+
+      table.sortable > thead > tr {
+        display: block;
+        margin-bottom: 10px;
+        padding: 10px 12px;
+        border: 1px solid var(--event-email-border);
+        border-radius: 6px;
+        background: #eaf3ff;
+      }
+
+      table.sortable > thead > tr > th {
+        display: none !important;
+      }
+
+      table.sortable > thead > tr > th:first-child {
+        display: flex !important;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 10px;
+        width: 100% !important;
+        padding: 0 !important;
+        border: 0 !important;
+        background: transparent !important;
+        text-align: left !important;
+      }
+
+      table.sortable > thead > tr > th:first-child input[type="checkbox"] {
+        flex: 0 0 30px;
+        margin: 0 !important;
+      }
+
+      table.sortable > thead > tr > th:first-child::after {
+        color: $navy-700;
+        content: "Select all participants";
+        font-size: 13px;
+        font-weight: 700;
+      }
+
+      table.sortable > tbody > input[type="hidden"] {
+        display: none;
+      }
+
+      table.sortable > tbody > tr {
+        display: grid !important;
+        grid-template-columns: 28px minmax(0, 1fr);
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+        min-height: 44px;
+        margin-bottom: 6px;
+        padding: 8px 12px;
+        border: 1px solid var(--event-email-border);
+        border-radius: 6px;
+        background: #ffffff;
+        box-shadow: 0 2px 7px rgba(15, 57, 95, 0.06);
+        box-sizing: border-box;
+      }
+
+      table.sortable > tbody > tr > td {
+        display: block !important;
+        width: auto !important;
+        min-width: 0 !important;
+        max-width: 100% !important;
+        padding: 0 !important;
+        border: 0 !important;
+        background: transparent !important;
+        overflow-wrap: anywhere;
+      }
+
+      table.sortable > tbody > tr > td:first-of-type {
+        grid-column: 1;
+        grid-row: 1;
+        width: 28px !important;
+      }
+
+      table.sortable > tbody > tr > td:nth-of-type(2) {
+        grid-column: 2;
+        grid-row: 1;
+        font-size: 14px;
+        font-weight: 700;
+      }
+
+      table.sortable > tbody > tr > td:nth-of-type(n + 3) {
+        display: none !important;
+      }
+    }
+  }
+}

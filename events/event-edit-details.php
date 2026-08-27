@@ -422,7 +422,7 @@ function ReturnEventTypeFlags(retObj)
   <input type="hidden" name="NewRowsPerPage" id="NewRowsPerPage" value="">
   <input type="hidden" name="ChildRowID" id="ChildRowID" value="0">
   <input type="hidden" name="Report_Format" id="Report_Format" value="">
-  <input type="hidden" name="Current_URL" id="Current_URL" value="https://www.troopwebhostcs.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=167&amp;ID=581&amp;Stack=3">
+  <input type="hidden" name="Current_URL" id="Current_URL" value="https://www.troopwebhostcs.org//events/event.php?;Form_ID=167&amp;ID=581&amp;Stack=3">
   <a href="javascript:togglemenu();">
   <div class="navicon" style="width:64px;">
     <table>
@@ -439,7 +439,7 @@ function ReturnEventTypeFlags(retObj)
       <td style="width:76px;">
       </td>
       <td style="padding:4px;">
-        <a href="#" class="navlink nav-home-link" onclick="LinkTo('Pack12Austin/Index.htm','_top')">Pack 12 Austin</a>
+        <a href="#" class="navlink nav-home-link" onclick="LinkTo('/home/home.php','_top')">Pack 12 Austin</a>
       </td>
       <td class="quickmenu1">
         <table>
@@ -557,7 +557,7 @@ function ReturnEventTypeFlags(retObj)
           <br><br>
           The current user is:&nbsp; &nbsp; MBucklin796
           <br><br>
-          The URL for this page is:&nbsp; &nbsp; https://www.troopwebhostcs.org/FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=167&amp;ID=581&amp;Stack=3&amp;Application_ID=2840
+          The URL for this page is:&nbsp; &nbsp; https://www.troopwebhostcs.org//events/event.php?;Form_ID=167&amp;ID=581&amp;Stack=3&amp;Application_ID=2840
         </div>
       </div>
     </div>
