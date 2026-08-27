@@ -68,6 +68,7 @@
 @import "pages/money/event-balances";
 @import "pages/money/reconciliation-statement";
 @import "pages/money/online-payment-history";
+@import "pages/money/transaction-view";
 @import "pages/money/fiscal-years-and-budgets";
 @import "pages/money/query";
 @import "pages/money/upload-account-balances";
@@ -82,6 +83,8 @@
 @import "pages/administration/admin-user-permissions";
 @import "pages/administration/admin-contacts";
 
+@import "pages/site-configuration/configuration-lists";
+@import "pages/site-configuration/site-appearance";
 @import "pages/site-configuration/training-courses-add";
 
 // Final page-specific overrides to ensure last-word specificity

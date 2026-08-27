@@ -379,55 +379,7 @@
       </td>
     </tr>
   </tbody></table>
-<?php require dirname(__DIR__) . '/includes/menu.php'; ?>
-  <div class="modal fade" id="ModalPageFormat" role="dialog">
-    <div class="modal-dialog">
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">×</button>
-          <a style="float:right;margin-right:30px;" href="help.aspx?ID=235" target="_blank">
-          <span class="glyphicon glyphicon-question-sign help-icon"></span>
-          </a>
-          Format this site for...
-          <br><br>
-          <div class="form-group">
-            <input type="radio" name="Page_Layout" id="Page_Layout_1" value="1" tabindex="1" checked=""> &nbsp;
-            Laptop / Desktop Computer
-          </div>
-          <div class="form-group">
-            <input type="radio" name="Page_Layout" id="Page_Layout_2" value="2" tabindex="2"> &nbsp;
-            Smart Phone / Mobile Device
-          </div>
-        </div>
-        <div class="modal-footer">
-          <input class="btn btn-success" style="float: left;" tabindex="3" type="button" value="OK" name="Page_Layout_Button" id="Page_Layout_Button" onclick="LinkTo('format','');">
-          <button type="button" class="btn btn-danger" style="float: right;" tabindex="4" data-dismiss="modal">Cancel</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div id="toolsmenu" class="navtools">
-    <ul class="list-group">
-    <li class="list-group-item"><a href="#" data-toggle="modal" data-target="#ModalPageFormat">Format</a></li>
-    <li class="list-group-item"><a href="#" data-toggle="modal" data-target="#ModalReportingOptions">Reporting Options</a></li>
-    <li class="list-group-item"><a href="FormDetail.aspx?Form_ID=258&amp;Stack=0&amp;Menu_Item_ID=3309">Change My Password</a></li>
-    <li class="list-group-item"><a href="FormDetail.aspx?Form_ID=2568&amp;Stack=0&amp;Menu_Item_ID=3309">Configure My Quick Menu</a></li>
-    <li class="list-group-item"><a href="FormDetail.aspx?Form_ID=1951&amp;Stack=0&amp;Menu_Item_ID=3309">Bookmark This Site</a></li>
-    </ul>
-  </div>
-  <div id="helpmenu" class="navtools">
-    <ul class="list-group">
-    <li class="list-group-item"><a href="Help.aspx?ID=330" target="_blank">User Guide</a></li>
-    <li class="list-group-item"><a href="https://www.youtube.com/playlist?list=PL4bC-UY63jygEqBauW0Ofz9FJBWsPkphf" target="_blank">Mobile App Tutorials</a></li>
-    <li class="list-group-item"><a href="FormList.aspx?Form_ID=3937&amp;Stack=0&amp;Menu_Item_ID=3309">TroopWebHost User Forum</a></li>
-    <li class="list-group-item"><a href="FormList.aspx?Form_ID=3948&amp;Stack=0&amp;Menu_Item_ID=3309">Enhancement Requests</a></li>
-    <li class="list-group-item"><a href="FormList.aspx?Form_ID=3944&amp;Stack=0&amp;Menu_Item_ID=3309">My Support Tickets</a></li>
-    <li class="list-group-item"><a href="FormList.aspx?Form_ID=3945&amp;Stack=0&amp;Menu_Item_ID=3309">My Unit's Support Tickets</a></li>
-    <li class="list-group-item"><a href="https://www.TroopWebHost.com/newsletter.htm" target="_blank">TroopWebHost Newsletter</a></li>
-    <li class="list-group-item"><a href="#" data-toggle="modal" data-target="#ModalAboutSite">About This Site</a></li>
-    </ul>
-  </div>
+  <?php require dirname(__DIR__) . '/includes/menu.php'; ?>
   <div class="modal fade" id="ModalAboutSite" role="dialog">
     <div class="modal-dialog">
       <!-- Modal content-->

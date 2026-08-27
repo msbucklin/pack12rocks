@@ -1,0 +1,124 @@
+// -----------------------------------------------------------------------------
+// Site configuration - reference lists
+// -----------------------------------------------------------------------------
+
+body:has(#Menu_Item_ID[value="395"]):has(#Form_ID[value="1477"]),
+body:has(#Menu_Item_ID[value="396"]):has(#Form_ID[value="1480"]),
+body:has(#Menu_Item_ID[value="3309"]):has(#Form_ID[value="4240"]),
+body:has(#Menu_Item_ID[value="4656"]):has(#Form_ID[value="5504"]),
+body:has(#Menu_Item_ID[value="397"]):has(#Form_ID[value="1442"]),
+body:has(#Menu_Item_ID[value="398"]):has(#Form_ID[value="1447"]) {
+  --configuration-list-border: rgba(15, 57, 95, 0.16);
+
+  .page-title { width: 100%; margin: 0 auto 16px !important; padding: 10px 20px 0; box-sizing: border-box; color: $navy-700; text-align: left !important; }
+
+  :is(#fs7333, #fs7340, #fs16798, #fs18615, #fs7202, #fs7222, #fs7334 ~ .new-row, #fs7341 ~ .new-row, #fs16799 ~ .new-row) {
+    margin-bottom: 20px !important;
+
+    .center-block { width: 100% !important; max-width: 100% !important; margin: 0 !important; }
+    .text-center { display: flex !important; flex-wrap: wrap; justify-content: flex-start !important; gap: 8px; text-align: left !important; }
+    .text-center > span { display: inline-flex !important; margin: 0 !important; }
+    .text-center > span:empty { display: none !important; }
+    .btn { min-width: 100px; min-height: 40px; margin: 0 !important; padding: 9px 16px !important; border-radius: 6px; font-size: 13px; font-weight: 700; line-height: 1.2; }
+  }
+
+  :is(#fs7334, #fs7341, #fs16799, #fs18616, #fs7203, #fs7223) {
+    margin-bottom: 20px !important;
+
+    .center-block.table-responsive { width: 100% !important; max-width: 100% !important; margin: 0 !important; overflow-x: auto; }
+    .rows-per-page { font-size: 13px; }
+    table.sortable { width: 100% !important; margin: 0; overflow: hidden; border: 1px solid var(--configuration-list-border) !important; border-collapse: separate !important; border-spacing: 0; border-radius: 0 !important; background: #ffffff; }
+    table.sortable > thead > tr > th { padding: 11px 12px !important; border: 0 !important; border-right: 1px solid rgba(13, 59, 114, 0.05) !important; border-bottom: 1px solid rgba(13, 59, 114, 0.05) !important; border-left: 1px solid rgba(13, 59, 114, 0.05) !important; border-radius: 0 !important; color: $text-dark !important; background: #eaf3ff !important; font-size: 13px; font-weight: 700; text-align: left; vertical-align: middle; }
+    table.sortable > tbody > tr > td { padding: 9px 10px !important; border: 0 !important; border-bottom: 1px solid rgba(15, 57, 95, 0.09) !important; color: $text-dark; background: #ffffff !important; font-size: 13px; text-align: left !important; vertical-align: middle; overflow-wrap: anywhere; }
+    table.sortable > tbody > tr:nth-of-type(even) > td { background: #f7faff !important; }
+    table.sortable > tbody > tr:last-child > td { border-bottom: 0 !important; }
+    table.sortable .btn { min-height: 34px; margin: 0 !important; padding: 7px 10px !important; border-radius: 5px; font-size: 12px; font-weight: 700; }
+    table.sortable > tfoot > tr > td:has(> input[type="button"][value="Print (Export to PDF)"]) { padding: 14px 12px !important; border: 0 !important; border-top: 1px solid rgba(15, 57, 95, 0.12) !important; background: #f7faff !important; text-align: center !important; }
+    table.sortable > tfoot input[type="button"][value="Print (Export to PDF)"],
+    table.sortable > tfoot input[type="button"][value="Open in Excel"] { min-height: 40px; margin: 0 6px !important; padding: 10px 12px !important; border: 1px solid rgba(13, 59, 114, 0.2) !important; border-radius: 10px !important; font-size: 13px !important; font-weight: 700 !important; line-height: 1.2 !important; box-shadow: 0 3px 8px rgba(13, 31, 54, 0.08) !important; }
+    table.sortable > tfoot input[type="button"][value="Print (Export to PDF)"] { color: #ffffff !important; background: linear-gradient(180deg, #1b6eb8 0%, #2783d1 100%) !important; }
+    table.sortable > tfoot input[type="button"][value="Open in Excel"] { color: $text-dark !important; background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%) !important; }
+  }
+
+  #sortablegrid7334 { min-width: 1440px; }
+  #sortablegrid7341,
+  #sortablegrid16799,
+  #sortablegrid18616 { min-width: 620px; }
+  #sortablegrid7203,
+  #sortablegrid7223 { min-width: 1040px; }
+
+  @media (max-width: 767px) {
+    :is(#fs7333, #fs7340, #fs16798, #fs18615, #fs7202, #fs7222, #fs7334, #fs7341, #fs16799, #fs18616, #fs7203, #fs7223, #fs7334 ~ .new-row, #fs7341 ~ .new-row, #fs16799 ~ .new-row) { padding-right: 20px !important; padding-left: 20px !important; }
+    :is(#fs7333, #fs7340, #fs16798, #fs18615, #fs7202, #fs7222, #fs7334 ~ .new-row, #fs7341 ~ .new-row, #fs16799 ~ .new-row) .text-center { display: grid !important; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    :is(#fs7333, #fs7340, #fs16798, #fs18615, #fs7202, #fs7222, #fs7334 ~ .new-row, #fs7341 ~ .new-row, #fs16799 ~ .new-row) .text-center > span,
+    :is(#fs7333, #fs7340, #fs16798, #fs18615, #fs7202, #fs7222, #fs7334 ~ .new-row, #fs7341 ~ .new-row, #fs16799 ~ .new-row) .btn { width: 100% !important; min-width: 0 !important; }
+    :is(#fs7334, #fs7341, #fs16799, #fs18616, #fs7203, #fs7223) .center-block.table-responsive { overflow: hidden !important; padding-right: 0 !important; }
+    :is(#fs7334, #fs7341, #fs16799, #fs18616, #fs7203, #fs7223) .center-block.table-responsive > table { display: block; width: 100% !important; }
+    :is(#sortablegrid7334, #sortablegrid7341, #sortablegrid16799, #sortablegrid18616, #sortablegrid7203, #sortablegrid7223),
+    :is(#sortablegrid7334, #sortablegrid7341, #sortablegrid16799, #sortablegrid18616, #sortablegrid7203, #sortablegrid7223) > tbody { display: block; width: 100% !important; min-width: 0 !important; max-width: 100%; border: 0 !important; background: transparent; }
+    :is(#sortablegrid7334, #sortablegrid7341, #sortablegrid16799, #sortablegrid18616, #sortablegrid7203, #sortablegrid7223) > thead { display: none; }
+    :is(#sortablegrid7334, #sortablegrid7341, #sortablegrid16799, #sortablegrid18616, #sortablegrid7203, #sortablegrid7223) > tbody > tr { display: block !important; width: 100% !important; margin-bottom: 10px; overflow: hidden; border: 1px solid var(--configuration-list-border) !important; border-radius: 6px; background: #ffffff; box-sizing: border-box; }
+    :is(#sortablegrid7334, #sortablegrid7341, #sortablegrid16799, #sortablegrid18616, #sortablegrid7203, #sortablegrid7223) > tbody > tr > td { display: block !important; width: 100% !important; padding: 8px 12px !important; border: 0 !important; border-bottom: 1px solid rgba(15, 57, 95, 0.09) !important; background: transparent !important; text-align: left !important; box-sizing: border-box; }
+    :is(#sortablegrid7334, #sortablegrid7341, #sortablegrid16799, #sortablegrid18616, #sortablegrid7203, #sortablegrid7223) > tbody > tr > td:last-child { border-bottom: 0 !important; }
+    :is(#sortablegrid7334, #sortablegrid7341, #sortablegrid16799, #sortablegrid18616, #sortablegrid7203, #sortablegrid7223) > tfoot { display: block; width: 100%; }
+    :is(#sortablegrid7334, #sortablegrid7341, #sortablegrid16799, #sortablegrid18616, #sortablegrid7203, #sortablegrid7223) > tfoot > tr,
+    :is(#sortablegrid7334, #sortablegrid7341, #sortablegrid16799, #sortablegrid18616, #sortablegrid7203, #sortablegrid7223) > tfoot > tr > td { display: block; width: 100%; box-sizing: border-box; }
+    :is(#sortablegrid7334, #sortablegrid7341, #sortablegrid16799, #sortablegrid18616, #sortablegrid7203, #sortablegrid7223) > tfoot input[type="button"][value="Print (Export to PDF)"],
+    :is(#sortablegrid7334, #sortablegrid7341, #sortablegrid16799, #sortablegrid18616, #sortablegrid7203, #sortablegrid7223) > tfoot input[type="button"][value="Open in Excel"] { width: calc(50% - 14px); min-width: 0; margin: 4px 5px !important; }
+  }
+}
+
+body:has(#Menu_Item_ID[value="399"]):has(#Form_ID[value="1499"]) {
+  --awards-list-border: rgba(15, 57, 95, 0.16);
+
+  .page-title { width: 100%; margin: 0 auto 16px !important; padding: 10px 20px 0; box-sizing: border-box; color: $navy-700; text-align: left !important; }
+
+  :is(#fs7401, #fs7402 ~ .new-row) {
+    margin-bottom: 20px !important;
+
+    .center-block { width: 100% !important; max-width: 100% !important; margin: 0 !important; }
+    .text-center { display: flex !important; flex-wrap: wrap; justify-content: flex-start !important; gap: 8px; text-align: left !important; }
+    .text-center > span { display: inline-flex !important; margin: 0 !important; }
+    .btn { min-width: 100px; min-height: 40px; margin: 0 !important; padding: 9px 16px !important; border-radius: 6px; font-size: 13px; font-weight: 700; line-height: 1.2; }
+  }
+
+  #fs7402 {
+    margin-bottom: 20px !important;
+
+    .center-block.table-responsive { width: 100% !important; max-width: 100% !important; margin: 0 !important; overflow-x: auto; }
+    .rows-per-page { font-size: 13px; }
+    #sortablegrid7402 { width: 100% !important; min-width: 860px; margin: 0; overflow: hidden; border: 1px solid var(--awards-list-border) !important; border-collapse: separate !important; border-spacing: 0; border-radius: 0 !important; background: #ffffff; }
+    #sortablegrid7402 > thead > tr > th { padding: 11px 12px !important; border: 0 !important; border-right: 1px solid rgba(13, 59, 114, 0.05) !important; border-bottom: 1px solid rgba(13, 59, 114, 0.05) !important; border-left: 1px solid rgba(13, 59, 114, 0.05) !important; border-radius: 0 !important; color: $text-dark !important; background: #eaf3ff !important; font-size: 13px; font-weight: 700; text-align: left; vertical-align: middle; }
+    #sortablegrid7402 > tbody > tr > td { padding: 9px 10px !important; border: 0 !important; border-bottom: 1px solid rgba(15, 57, 95, 0.09) !important; color: $text-dark; background: #ffffff !important; font-size: 13px; text-align: left !important; vertical-align: middle; overflow-wrap: anywhere; }
+    #sortablegrid7402 > tbody > tr:nth-of-type(even) > td { background: #f7faff !important; }
+    #sortablegrid7402 > tbody > tr:last-child > td { border-bottom: 0 !important; }
+    #sortablegrid7402 .btn { min-height: 34px; margin: 0 !important; padding: 7px 10px !important; border-radius: 5px; font-size: 12px; font-weight: 700; }
+    #sortablegrid7402 > tfoot > tr > td:has(> input[type="button"][value="Print (Export to PDF)"]) { padding: 14px 12px !important; border: 0 !important; border-top: 1px solid rgba(15, 57, 95, 0.12) !important; background: #f7faff !important; text-align: center !important; }
+    #sortablegrid7402 > tfoot input[type="button"][value="Print (Export to PDF)"],
+    #sortablegrid7402 > tfoot input[type="button"][value="Open in Excel"] { min-height: 40px; margin: 0 6px !important; padding: 10px 12px !important; border: 1px solid rgba(13, 59, 114, 0.2) !important; border-radius: 10px !important; font-size: 13px !important; font-weight: 700 !important; line-height: 1.2 !important; box-shadow: 0 3px 8px rgba(13, 31, 54, 0.08) !important; }
+    #sortablegrid7402 > tfoot input[type="button"][value="Print (Export to PDF)"] { color: #ffffff !important; background: linear-gradient(180deg, #1b6eb8 0%, #2783d1 100%) !important; }
+    #sortablegrid7402 > tfoot input[type="button"][value="Open in Excel"] { color: $text-dark !important; background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%) !important; }
+  }
+
+  @media (max-width: 767px) {
+    #fs7401,
+    #fs7402,
+    #fs7402 ~ .new-row { padding-right: 20px !important; padding-left: 20px !important; }
+    :is(#fs7401, #fs7402 ~ .new-row) .text-center { display: grid !important; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    :is(#fs7401, #fs7402 ~ .new-row) .text-center > span,
+    :is(#fs7401, #fs7402 ~ .new-row) .btn { width: 100% !important; min-width: 0 !important; }
+    #fs7402 .center-block.table-responsive { overflow: hidden !important; padding-right: 0 !important; }
+    #fs7402 .center-block.table-responsive > table { display: block; width: 100% !important; }
+    #sortablegrid7402,
+    #sortablegrid7402 > tbody { display: block; width: 100% !important; min-width: 0 !important; max-width: 100%; border: 0 !important; background: transparent; }
+    #sortablegrid7402 > thead { display: none; }
+    #sortablegrid7402 > tbody > tr { display: block !important; width: 100% !important; margin-bottom: 10px; overflow: hidden; border: 1px solid var(--awards-list-border) !important; border-radius: 6px; background: #ffffff; box-sizing: border-box; }
+    #sortablegrid7402 > tbody > tr > td { display: block !important; width: 100% !important; padding: 8px 12px !important; border: 0 !important; border-bottom: 1px solid rgba(15, 57, 95, 0.09) !important; background: transparent !important; text-align: left !important; box-sizing: border-box; }
+    #sortablegrid7402 > tbody > tr > td:last-child { border-bottom: 0 !important; }
+    #sortablegrid7402 > tfoot { display: block; width: 100%; }
+    #sortablegrid7402 > tfoot > tr,
+    #sortablegrid7402 > tfoot > tr > td { display: block; width: 100%; box-sizing: border-box; }
+    #sortablegrid7402 > tfoot input[type="button"][value="Print (Export to PDF)"],
+    #sortablegrid7402 > tfoot input[type="button"][value="Open in Excel"] { width: calc(50% - 14px); min-width: 0; margin: 4px 5px !important; }
+  }
+}
