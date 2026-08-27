@@ -35,8 +35,10 @@ $menuSections = [
         'My Outbox' => '/communication/my-outbox.php',
         'My E-Mail Delivery Status' => '/communication/my-email-delivery-status.php',
         'View All E-Mail' => '/communication/view-all-email.php',
+        'View E-Mail' => '/communication/view-email.php',
+        'Reply E-Mail' => '/communication/reply-email.php',
         'Blocked E-Mail Addresses' => '/communication/blocked-email-addresses.php',
-        'Set Up Automated Newsletter' => '/communication/set-up-automated-newsletter.php',
+        'Set Up Automated Newsletter' => '/communication/setup-automated-newsletter.php',
     ],
     'Events' => [
         'Events Hub' => '/events/events-hub.php',

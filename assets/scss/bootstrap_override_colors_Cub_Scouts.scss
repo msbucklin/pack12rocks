@@ -40,6 +40,9 @@
 
 @import "pages/cub-scouts/adventures-and-badges";
 
+@import "pages/communication/email";
+@import "pages/communication/quick-text";
+
 @import "pages/administration/users-and-passwords";
 @import "pages/membership/active-members";
 @import "pages/membership/inactive-members";
@@ -61,3 +64,14 @@
 @import "pages/administration/admin-contacts";
 
 @import "pages/site-configuration/training-courses-add";
+
+// Final page-specific overrides to ensure last-word specificity
+@media (min-width: 768px) {
+	body:has(#Menu_Item_ID[value="2959"]):has(#Form_ID[value="4012"]) {
+		#fs16105 table.no-border tbody tr td:first-child {
+			width: auto !important;
+			max-width: none !important;
+			text-align: right !important;
+		}
+	}
+}

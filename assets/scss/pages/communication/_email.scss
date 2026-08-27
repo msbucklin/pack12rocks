@@ -1,41 +1,39 @@
 // -----------------------------------------------------------------------------
-// Event participant email composer
+// Communication — send/reply email styles
 // -----------------------------------------------------------------------------
 
-body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) {
-  --event-email-border: rgba(15, 57, 95, 0.16);
-  --event-email-muted: #567092;
-  --event-email-panel: #f7faff;
+body:has(#Menu_Item_ID[value="333"]):has(#Form_ID[value="194"]),
+body:has(#Menu_Item_ID[value="334"]):has(#Form_ID[value="393"]),
+body:has(#Menu_Item_ID[value="336"]):has(#Form_ID[value="373"]) {
+  --comm-email-border: rgba(15, 57, 95, 0.12);
+  --comm-email-muted: #5a6f8a;
+  --comm-email-panel: #fbfdff;
 
   .page-title {
     width: 100%;
-    padding: 10px 20px 20px !important;
+    padding: 10px 20px 0;
     box-sizing: border-box;
     font-size: 0;
     text-align: left !important;
 
-    @media (max-width: 767px) {
-      padding: 10px 20px 0 !important;
-    }
-
     &::after {
       color: $navy-700;
-      content: "Email Event Participants";
-      font-size: 24px;
+      content: "Send E-Mail";
+      font-size: 22px;
       font-weight: 700;
       line-height: 1.25;
     }
   }
 
-  #fs1225 {
+  #fs516 {
+    margin-top: 20px !important;
     margin-bottom: 14px !important;
 
     @include detail-form-shell;
     @include detail-form-table-labels;
     @include detail-form-stacked-mobile;
 
-    @media (max-width: 767px) {
-      margin-top: 20px !important;
+    @media screen and (max-width: 767px) {
       padding-left: 20px !important;
       padding-right: 20px !important;
     }
@@ -51,8 +49,9 @@ body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) {
     }
 
     table.no-border td:first-child {
-      width: 190px !important;
-      max-width: 190px !important;
+      /* removed fixed width to allow flexible column sizing */
+      max-width: none !important;
+      width: auto !important;
     }
 
     .form-control {
@@ -71,16 +70,15 @@ body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) {
       width: 100% !important;
       max-width: 100% !important;
       overflow: hidden;
-      border-color: var(--event-email-border) !important;
+      border-color: var(--comm-email-border) !important;
       border-radius: 6px;
       box-shadow: none !important;
       box-sizing: border-box;
     }
 
-    .cke_top {
-      white-space: normal;
-    }
+    .cke_top { white-space: normal; }
 
+    #SPAN24174100,
     #SPAN24176100 {
       display: flex !important;
       flex-wrap: wrap;
@@ -89,6 +87,7 @@ body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) {
       font-size: 0;
     }
 
+    #SPAN24174100 > span,
     #SPAN24176100 > span {
       display: inline-flex;
       align-items: center;
@@ -96,11 +95,7 @@ body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) {
       font-size: 14px;
     }
 
-    #SPAN24176100 input[type="radio"] {
-      width: auto !important;
-      margin: 0 !important;
-    }
-
+    #ENTRY24174100-sms-warning,
     #ENTRY24176100-sms-warning {
       flex: 0 0 100%;
       margin: 2px 0 0 !important;
@@ -113,7 +108,7 @@ body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) {
     }
   }
 
-  :is(#fs1229, #fs1226) {
+  :is(#fs1229, #fs1226, #fs8098) {
     margin: 0 0 16px !important;
 
     .center-block {
@@ -130,10 +125,7 @@ body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) {
       text-align: left !important;
     }
 
-    .text-center > span {
-      display: inline-flex !important;
-      margin: 0 !important;
-    }
+    .text-center > span { display: inline-flex !important; margin: 0 !important; }
 
     .btn {
       min-width: 92px;
@@ -147,7 +139,7 @@ body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) {
     }
   }
 
-  #fs1228 {
+  #fs527 {
     margin: 0 0 12px !important;
 
     .center-block {
@@ -157,36 +149,33 @@ body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) {
       margin: 0 !important;
       padding: 11px 14px !important;
       border-left: 3px solid $navy-700;
-      background: var(--event-email-panel);
+      background: var(--comm-email-panel);
       box-sizing: border-box;
     }
 
-    p {
-      margin: 0 !important;
-      color: $text-mid;
-      font-size: 13px;
-      line-height: 1.5;
-    }
-
-    p + p {
-      margin-top: 3px !important;
-    }
+    p { margin: 0 !important; color: $text-mid; font-size: 13px; line-height: 1.5; }
+    p + p { margin-top: 3px !important; }
   }
 
-  #fs1227 {
+  // Add horizontal gutters to the DIVENTRY container so content keeps page padding
+  #DIVENTRY2901140 {
+    box-sizing: border-box;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  #fs523 {
     margin-bottom: 16px !important;
 
-    .center-block {
-      width: 100% !important;
-      max-width: 100% !important;
-      margin: 0 !important;
-    }
+    .center-block { width: 100% !important; max-width: 100% !important; margin: 0 !important; }
 
     table.sortable {
       width: 100% !important;
       margin: 0;
       overflow: hidden;
-      border: 1px solid var(--event-email-border) !important;
+      border: 1px solid var(--comm-email-border) !important;
       border-collapse: separate !important;
       border-spacing: 0;
       border-radius: 6px;
@@ -196,19 +185,13 @@ body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) {
     table.sortable > thead > tr > th {
       padding: 11px 12px !important;
       border: 0 !important;
-      border-bottom: 1px solid var(--event-email-border) !important;
+      border-bottom: 1px solid var(--comm-email-border) !important;
       color: $text-dark !important;
       background: #eaf3ff !important;
       font-size: 13px;
       font-weight: 700;
       text-align: left;
       vertical-align: middle;
-    }
-
-    table.sortable > thead > tr > th:first-child,
-    table.sortable > tbody > tr > td:first-of-type {
-      width: 44px !important;
-      text-align: center !important;
     }
 
     table.sortable > tbody > tr > td {
@@ -222,13 +205,7 @@ body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) {
       vertical-align: middle;
     }
 
-    table.sortable > tbody > tr:nth-of-type(even) > td {
-      background: #f7faff !important;
-    }
-
-    table.sortable > tbody > tr:last-child > td {
-      border-bottom: 0 !important;
-    }
+    table.sortable > tbody > tr:nth-of-type(even) > td { background: #f7faff !important; }
 
     table.sortable input[type="checkbox"].form-control {
       width: 20px !important;
@@ -239,21 +216,16 @@ body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) {
       accent-color: $navy-700;
     }
 
-    .sortheader {
-      color: $navy-700 !important;
-    }
+    .sortheader { color: $navy-700 !important; }
   }
 
   @media (max-width: 767px) {
     .page-title {
       padding-top: 20px;
-
-      &::after {
-        font-size: 21px;
-      }
+      &::after { font-size: 21px; }
     }
 
-    #fs1225 {
+    #fs516 {
       table.no-border > tbody > tr {
         display: grid !important;
         grid-template-columns: minmax(0, 1fr);
@@ -293,56 +265,31 @@ body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) {
         text-align: left !important;
       }
 
-      .cke_contents {
-        min-height: 220px;
-      }
+      .cke_contents { min-height: 220px; }
     }
 
-    :is(#fs1229, #fs1226) .text-center {
-      display: grid !important;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-
-    :is(#fs1229, #fs1226) .text-center > span,
-    :is(#fs1229, #fs1226) .btn {
-      width: 100% !important;
-      min-width: 0 !important;
-    }
-
-    :is(#fs1229, #fs1226) .btn {
-      min-height: 44px;
-    }
-
-    #fs1227 {
-      .center-block {
-        overflow: visible !important;
+    :is(#fs1229, #fs1226, #fs8098) {
+      .text-center {
+        display: grid !important;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
       }
 
-      table.sortable,
-      table.sortable > thead,
-      table.sortable > tbody {
-        display: block;
+      .text-center > span,
+      .btn {
         width: 100% !important;
+        min-width: 0 !important;
       }
 
-      table.sortable {
-        overflow: visible;
-        border: 0 !important;
-        background: transparent;
-      }
+      .btn { min-height: 44px; }
+    }
 
-      table.sortable > thead > tr {
-        display: block;
-        margin-bottom: 10px;
-        padding: 10px 12px;
-        border: 1px solid var(--event-email-border);
-        border-radius: 6px;
-        background: #eaf3ff;
-      }
+    #fs523 {
+      .center-block { overflow: visible !important; }
 
-      table.sortable > thead > tr > th {
-        display: none !important;
-      }
+      table.sortable { display: block; width: 100% !important; overflow: visible; border: 0 !important; background: transparent; }
+      table.sortable > thead { display: block; width: 100% !important; }
+      table.sortable > thead > tr { display: block; margin-bottom: 10px; padding: 10px 12px; border: 1px solid var(--comm-email-border); border-radius: 6px; background: #eaf3ff; }
+      table.sortable > thead > tr > th { display: none !important; }
 
       table.sortable > thead > tr > th:first-child {
         display: flex !important;
@@ -363,14 +310,17 @@ body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) {
 
       table.sortable > thead > tr > th:first-child::after {
         color: $navy-700;
-        content: "Select all participants";
+        content: "Select all recipients";
         font-size: 13px;
         font-weight: 700;
       }
 
-      table.sortable > tbody > input[type="hidden"] {
-        display: none;
+      table.sortable > tbody {
+        display: block;
+        width: 100% !important;
       }
+
+      table.sortable > tbody > input[type="hidden"] { display: none; }
 
       table.sortable > tbody > tr {
         display: grid !important;
@@ -381,7 +331,7 @@ body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) {
         min-height: 44px;
         margin-bottom: 6px;
         padding: 8px 12px;
-        border: 1px solid var(--event-email-border);
+        border: 1px solid var(--comm-email-border);
         border-radius: 6px;
         background: #ffffff;
         box-shadow: 0 2px 7px rgba(15, 57, 95, 0.06);
@@ -408,12 +358,35 @@ body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) {
       table.sortable > tbody > tr > td:nth-of-type(2) {
         grid-column: 2;
         grid-row: 1;
-        font-size: 14px;
-        font-weight: 700;
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        text-align: left !important;
+        padding-left: 6px !important;
+        font-size: 14px !important;
+        font-weight: 700 !important;
+        color: $navy-700 !important;
       }
 
       table.sortable > tbody > tr > td:nth-of-type(n + 3) {
         display: none !important;
+      }
+
+      // Ensure the name cell and its inner content span full width on mobile
+      table.sortable > tbody > tr > td:nth-of-type(2) > * {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+        padding-left: 6px !important;
+      }
+
+      // Make sure links/labels inside the name cell inherit the font sizing
+      table.sortable > tbody > tr > td:nth-of-type(2) a,
+      table.sortable > tbody > tr > td:nth-of-type(2) label,
+      table.sortable > tbody > tr > td:nth-of-type(2) span {
+        font-size: 14px !important;
+        font-weight: 700 !important;
       }
     }
   }

@@ -43,7 +43,7 @@ body:has(#Menu_Item_ID[value="324"]):has(#Form_ID[value="145"]) {
 
     table.no-border td:first-child {
       width: 220px !important;
-      max-width: 220px !important;
+        max-width: none !important;
     }
 
     .form-control {
@@ -159,6 +159,7 @@ body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="161"]) {
 
     tr:has(#DATE2416143) > td,
     tr:has(#DATE241717) > td {
+      width: auto !important;
       padding-top: 10px !important;
       padding-bottom: 10px !important;
       vertical-align: middle !important;
@@ -335,6 +336,15 @@ body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="161"]) {
 body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]),
 body:has(#Menu_Item_ID[value="324"]):has(#Form_ID[value="145"]) {
   #fs2774 {
+    table.no-border {
+      table-layout: auto !important;
+    }
+
+    table.no-border > tbody > tr > td:first-child {
+      width: auto !important;
+      max-width: none !important;
+    }
+
     table.no-border > tbody > tr:first-child > td,
     table.no-border > tbody > tr:nth-child(2) > td {
       width: 100% !important;

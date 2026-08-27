@@ -1,0 +1,114 @@
+// -----------------------------------------------------------------------------
+// Communication — quick text message form
+// -----------------------------------------------------------------------------
+
+body:has(#Menu_Item_ID[value="2959"]):has(#Form_ID[value="4012"]) {
+  --comm-quick-border: rgba(15, 57, 95, 0.12);
+  --comm-quick-panel: #fbfdff;
+
+  .page-title {
+    width: 100%;
+    padding: 10px 20px 0;
+    box-sizing: border-box;
+    font-size: 0;
+    text-align: left !important;
+
+    &::after {
+      color: $navy-700;
+      content: "Quick Text";
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 1.25;
+    }
+  }
+
+  #fs16105 {
+    margin-top: 12px !important;
+    margin-bottom: 14px !important;
+
+    @include detail-form-shell;
+    @include detail-form-table-labels;
+    @include detail-form-stacked-mobile;
+
+    .center-block {
+      width: 100% !important;
+      max-width: 100% !important;
+      margin: 0 !important;
+    }
+
+    table.no-border { table-layout: auto; }
+
+    .form-control {
+      width: 100% !important;
+      min-width: 0 !important;
+      max-width: 100% !important;
+      box-sizing: border-box;
+    }
+
+    input[type="text"].form-control {
+      min-height: 44px;
+      padding: 10px 12px !important;
+      border-radius: 6px;
+    }
+
+    #SPAN48911141 {
+      display: flex !important;
+      flex-direction: column;
+      gap: 6px;
+      font-size: 14px;
+      color: $text-dark;
+
+      input[type="radio"] { margin-right: 8px; }
+    }
+
+    .entrypostscript { font-size: 12px; color: $text-mid; }
+  }
+
+  #fs16106 {
+    margin: 0 0 12px !important;
+
+    .center-block { width: 100% !important; max-width: 100% !important; margin: 0 !important; }
+
+    .text-center {
+      display: flex !important;
+      gap: 12px;
+      justify-content: flex-start !important;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      min-width: 120px;
+      min-height: 48px;
+      padding: 12px 20px !important;
+      border-radius: 8px;
+      font-size: 15px;
+      font-weight: 700;
+    }
+  }
+
+  @media (max-width: 767px) {
+    #fs16105 { padding-left: 20px !important; padding-right: 20px !important; }
+
+    #SPAN48911141 {
+      flex-direction: column;
+    }
+
+    #fs16106 .text-center { display: grid !important; grid-template-columns: 1fr 1fr; gap: 10px; }
+
+    #fs16106 .btn { width: 100% !important; }
+  }
+  @media (min-width: 768px) {
+    // Override other page/global rules that force a large fixed width on the first column
+    #fs16105 table.no-border tbody tr td:first-child {
+      width: auto !important;
+      max-width: none !important;
+      text-align: right !important;
+    }
+    // Stronger override with the same scoping used elsewhere (body:has) to beat later rules
+    body:has(#Menu_Item_ID[value="2959"]):has(#Form_ID[value="4012"]) #fs16105 table.no-border tbody tr td:first-child {
+      width: auto !important;
+      max-width: none !important;
+      text-align: right !important;
+    }
+  }
+}
