@@ -3377,7 +3377,7 @@ body:has(#Menu_Item_ID[value="5787"]) {
 }
 body:has(#Menu_Item_ID[value="5787"]) .page-title {
   width: 100%;
-  margin: 0 auto 16px !important;
+  margin: 0 auto 8px !important;
   color: #0d3b72;
   font-size: 34px;
   font-weight: 800;
@@ -3433,12 +3433,35 @@ body:has(#Menu_Item_ID[value="5787"]) .center-block.widget38 > div {
   padding: 0;
 }
 body:has(#Menu_Item_ID[value="5787"]) .center-block.widget35 {
-  border-top: 10px solid #dfeeff;
+  width: auto !important;
+  margin: 0 0 20px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget35 > div {
+  width: auto !important;
 }
 body:has(#Menu_Item_ID[value="5787"]) .center-block.widget35 .widgetlink {
-  color: #0d3b72 !important;
-  font-size: 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  padding: 9px 16px;
+  border: 1px solid #286090;
+  border-radius: 6px;
+  color: #ffffff !important;
+  background: #337ab7 !important;
+  font-size: 15px;
   font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none;
+}
+body:has(#Menu_Item_ID[value="5787"]) .center-block.widget35 .widgetlink:hover, body:has(#Menu_Item_ID[value="5787"]) .center-block.widget35 .widgetlink:focus {
+  color: #ffffff !important;
+  background: #286090 !important;
   text-decoration: none;
 }
 body:has(#Menu_Item_ID[value="5787"]) .center-block.widget35 .widget-help-link,
@@ -12590,6 +12613,17 @@ body:has(#Menu_Item_ID[value="2959"]):has(#Form_ID[value="4012"]) #fs16106 .btn 
     max-width: none !important;
     text-align: right !important;
   }
+}
+
+body:has(#Menu_Item_ID[value="334"]):has(#Form_ID[value="393"]) .page-title {
+  margin-bottom: 20px !important;
+}
+body:has(#Menu_Item_ID[value="334"]):has(#Form_ID[value="393"]) .page-title::after {
+  content: "Send E-Mail To Group";
+}
+body:has(#Menu_Item_ID[value="334"]):has(#Form_ID[value="393"]) #fs1210 {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
 }
 
 body:has(#fs718) .new-row:not(:has(~ .new-row)) input[type=button],
