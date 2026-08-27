@@ -1,7 +1,7 @@
 # Pack12Rocks Agent Handoff
 
 ## Purpose
-This file is a fast-start context pack for new coding agents working on this repo.
+This file contains optional historical page maps and deeper context. Start with `AGENTS.md` and consult this file only when needed.
 
 ## Core Project Rules
 - CSS/Sass only for production behavior changes. Do not rely on editing live HTML markup structure.
@@ -10,10 +10,10 @@ This file is a fast-start context pack for new coding agents working on this rep
 - For generated tables, use `:nth-of-type(...)` rather than `:nth-child(...)` when hidden inputs may appear among cells.
 
 ## Build / Validation
-- Sass entry: `scss/bootstrap_override_colors_Cub_Scouts.scss`
-- Main output: `css/bootstrap_override_colors_Cub_Scouts.css`
+- Sass entry: `assets/scss/bootstrap_override_colors_Cub_Scouts.scss`
+- Main output: `assets/css/bootstrap_override_colors_Cub_Scouts.css`
 - Quick compile check:
-  - `npx sass --no-source-map scss/bootstrap_override_colors_Cub_Scouts.scss /tmp/pack12rocks-check.css`
+  - `npm run build:css`
 - `npm test` is effectively a no-op in this project.
 
 ## Design Language (Current)
@@ -108,7 +108,7 @@ in a 3-column row.
 ## Styling Individual Pages
 When adding styles for a specific page:
 
-1. **Create or update the page's SCSS file** in its navigation folder under `scss/pages/`:
+1. **Create or update the page's SCSS file** in its navigation folder under `assets/scss/pages/`:
    - File naming: `_PAGENAME.scss` (e.g., `_upcoming-events.scss`, `_admin-contacts.scss`)
 
 2. **Wrap all styles in the scoping selector**:
@@ -118,7 +118,7 @@ When adding styles for a specific page:
    }
    ```
 
-3. **Import the file** in `scss/bootstrap_override_colors_Cub_Scouts.scss`:
+3. **Import the file** in `assets/scss/bootstrap_override_colors_Cub_Scouts.scss`:
    ```scss
   @import "pages/events/upcoming-events";
    ```
@@ -127,13 +127,13 @@ When adding styles for a specific page:
 
 5. **Test locally**:
    ```bash
-   npx sass --no-source-map scss/bootstrap_override_colors_Cub_Scouts.scss /tmp/pack12rocks-check.css
+  npm run build:css
    ```
 
 6. **Verify in browser**: Open the page and confirm styles apply correctly, then verify another page isn't affected.
 
 ## Where to Continue
-- Check `scss/pages/` for existing page files to use as style reference.
+- Check `assets/scss/pages/` for existing page files to use as style reference.
 - If user reports styling issues on a specific page, verify the page is scoped with `body:has(#Menu_Item_ID[value="XXXX"])`.
 - If styles appear on unrelated pages, audit the offending SCSS file for unscoped selectors and wrap them.
 - Example well-scoped files: `_event.scss`, `_membership-hub.scss`, `_admin-contacts.scss`.

@@ -1,0 +1,261 @@
+// -----------------------------------------------------------------------------
+// Upload Scoutbook Events (Menu_Item_ID 7161, Form_ID 7065)
+// -----------------------------------------------------------------------------
+
+body:has(#Menu_Item_ID[value="7161"]):has(#Form_ID[value="7065"]) {
+  --scoutbook-upload-border: rgba(15, 57, 95, 0.16);
+  --scoutbook-upload-panel: #f7faff;
+
+  .page-title {
+    width: 100%;
+    margin-bottom: 16px !important;
+    padding: 10px 20px 0;
+    box-sizing: border-box;
+    color: $navy-700;
+    text-align: left !important;
+  }
+  #fs23308 {
+    margin-bottom: 14px !important;
+    padding: 0 20px !important;
+
+    @include detail-form-shell;
+    @include detail-form-table-labels;
+    @include detail-form-stacked-mobile;
+
+    > .container-flex {
+      display: block !important;
+    }
+
+    .center-block {
+      width: 100% !important;
+      max-width: none !important;
+      margin: 0 !important;
+    }
+
+    table.no-border {
+      table-layout: fixed;
+      box-shadow: 0 6px 18px rgba(13, 31, 54, 0.06);
+    }
+
+    table.no-border td:first-child {
+      width: 250px !important;
+      max-width: 250px !important;
+    }
+
+    table.no-border td:last-child {
+      min-width: 0;
+    }
+
+    table.no-border > tbody > tr:first-child > td {
+      width: 100% !important;
+      max-width: none !important;
+      padding: 13px 16px !important;
+      border: 0 !important;
+      background: #e8f2ff !important;
+      color: $navy-700;
+      font-size: 17px;
+      font-weight: 800;
+      line-height: 1.35;
+      text-align: left !important;
+    }
+
+    table.no-border > tbody > tr:not([id]):not(:first-child) > td[colspan="2"] {
+      width: 100% !important;
+      max-width: none !important;
+      padding: 11px 16px !important;
+      border: 0 !important;
+      background: var(--scoutbook-upload-panel) !important;
+      color: $text-dark;
+      font-size: 13px;
+      line-height: 1.55;
+      text-align: left !important;
+    }
+
+    table.no-border > tbody > tr:not([id]) br {
+      display: none;
+    }
+
+    .form-control {
+      width: 100% !important;
+      min-width: 0 !important;
+      max-width: 100% !important;
+      box-sizing: border-box;
+    }
+
+    input[type="file"].form-control {
+      min-height: 44px;
+      padding: 8px 10px !important;
+      background: #ffffff !important;
+    }
+
+    .entrypostscript {
+      display: none !important;
+    }
+
+    #DIVENTRY6096950 {
+      border-left: 4px solid $navy-700;
+      background: #f5f9ff !important;
+    }
+
+    #DIVENTRY60974150 {
+      border-left: 4px solid #2f7d4a;
+      background: #f5fbf7 !important;
+    }
+
+    #SPAN60974150 {
+      display: block !important;
+      color: $text-dark;
+      font-size: 12px;
+      line-height: 2.25;
+    }
+
+    #SPAN60974150 input[type="radio"] {
+      display: inline-block !important;
+      width: 18px !important;
+      min-width: 18px !important;
+      height: 18px !important;
+      margin: 0 8px 0 0 !important;
+      accent-color: $navy-700;
+      vertical-align: middle;
+    }
+  }
+
+  #fs23308 table.no-border td.bodyheading {
+    display: none;
+  }
+
+
+  #fs23309,
+  #fs23310 {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+
+    .center-block {
+      width: 100% !important;
+      max-width: none !important;
+      margin: 0 !important;
+      box-sizing: border-box;
+    }
+  }
+
+  #fs23309 {
+    margin-bottom: 14px !important;
+
+    .text-center {
+      display: flex !important;
+      justify-content: flex-start !important;
+      text-align: left !important;
+    }
+
+    .text-center > span {
+      display: inline-flex !important;
+      margin: 0 !important;
+    }
+
+    .btn {
+      min-width: 180px;
+      min-height: 42px;
+      margin: 0 !important;
+      padding: 9px 16px !important;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 700;
+    }
+  }
+
+  #fs23310 {
+    margin-bottom: 20px !important;
+
+    .center-block {
+      overflow: hidden;
+      border: 1px solid rgba(177, 68, 55, 0.24);
+      border-left: 4px solid #b6483f;
+      border-radius: 6px;
+      background: #fff8f6;
+      box-shadow: 0 4px 12px rgba(61, 31, 27, 0.05);
+    }
+
+    table.no-border {
+      width: 100%;
+      margin: 0;
+      border: 0 !important;
+      background: transparent !important;
+    }
+
+    table.no-border td {
+      width: 100% !important;
+      padding: 10px 16px !important;
+      border: 0 !important;
+      background: transparent !important;
+      color: $text-dark;
+      font-size: 13px;
+      line-height: 1.55;
+      text-align: left !important;
+    }
+
+    table.no-border tr + tr td {
+      border-top: 1px solid rgba(177, 68, 55, 0.12) !important;
+    }
+
+    table.no-border br {
+      display: none;
+    }
+
+    table.no-border tr:first-child td {
+      color: #7f2f29;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .page-title {
+      padding-top: 20px;
+    }
+
+    :is(#fs23308, #fs23309, #fs23310) {
+      padding-right: 20px !important;
+      padding-left: 20px !important;
+    }
+
+    #fs23308 {
+      table.no-border td:first-child {
+        width: 100% !important;
+        max-width: 100% !important;
+      }
+
+      table.no-border tbody tr:not([id]) {
+        margin-bottom: 0;
+      }
+
+      .center-block table.no-border .control-label {
+        margin-bottom: 7px !important;
+        color: $text-dark !important;
+        font-style: normal !important;
+        font-weight: 700 !important;
+      }
+
+      #SPAN60974150 input[type="radio"] {
+        width: 20px !important;
+        min-width: 20px !important;
+        height: 20px !important;
+      }
+    }
+
+    #fs23308 table.no-border td.bodyheading {
+      display: none !important;
+    }
+
+    #fs23309 .text-center > span,
+    #fs23309 .btn {
+      width: 100% !important;
+      min-width: 0 !important;
+    }
+
+    #fs23309 .btn {
+      min-height: 44px;
+    }
+
+    #fs23310 table.no-border td {
+      padding: 10px 14px !important;
+    }
+  }
+}
