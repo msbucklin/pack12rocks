@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   box-sizing: border-box;
 }
@@ -6058,43 +6057,6 @@ body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
 [value="267"],
 [value="3154"],
 [value="5441"],
-[value="5442"])) .page-title {
-  padding-top: 10px;
-}
-@media screen and (max-width: 767px) {
-  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
-  [value="267"],
-  [value="3154"],
-  [value="5441"],
-  [value="5442"])) .page-title {
-    padding-top: 20px;
-  }
-}
-body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
-[value="267"],
-[value="3154"],
-[value="5441"],
-[value="5442"])) #easyform:has(> #Form_ID:is([value="267"], [value="3154"], [value="5441"], [value="5442"])) > .page-title {
-  align-self: stretch;
-  width: 100%;
-  margin-right: 0 !important;
-  margin-left: 0 !important;
-  padding-right: 20px;
-  padding-left: 20px;
-  box-sizing: border-box;
-  text-align: left !important;
-}
-body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
-[value="267"],
-[value="3154"],
-[value="5441"],
-[value="5442"])) #easyform:has(> #Form_ID:is([value="267"], [value="3154"], [value="5441"], [value="5442"])) > .page-title::before {
-  content: "Event ";
-}
-body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
-[value="267"],
-[value="3154"],
-[value="5441"],
 [value="5442"])) #easyform:has(> #Form_ID:is([value="3154"], [value="5441"], [value="5442"])) {
   display: flex;
   flex-direction: column;
@@ -6211,15 +6173,6 @@ body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
   border: 0;
   white-space: nowrap;
 }
-@media (max-width: 767px) {
-  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
-  [value="267"],
-  [value="3154"],
-  [value="5441"],
-  [value="5442"])) :is(#fs775, #fs18405, #fs13532, #fs18400, #fs788) .nav-tabs {
-    padding: 0 !important;
-  }
-}
 body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
 [value="267"],
 [value="3154"],
@@ -6249,21 +6202,6 @@ body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
   line-height: 1.2;
   text-align: center;
   transition: color 0.15s ease, background-color 0.15s ease, box-shadow 0.15s ease;
-}
-body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
-[value="267"],
-[value="3154"],
-[value="5441"],
-[value="5442"])) :is(#fs775, #fs18405, #fs13532, #fs18400, #fs788) .nav-tabs > li:first-child > a {
-  font-size: 0;
-}
-body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
-[value="267"],
-[value="3154"],
-[value="5441"],
-[value="5442"])) :is(#fs775, #fs18405, #fs13532, #fs18400, #fs788) .nav-tabs > li:first-child > a::before {
-  content: "Details";
-  font-size: 13px;
 }
 body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
 [value="267"],
@@ -7471,16 +7409,6 @@ body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
 [value="5442"])) #fs13533 {
   margin-bottom: 16px !important;
 }
-@media (max-width: 767px) {
-  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
-  [value="267"],
-  [value="3154"],
-  [value="5441"],
-  [value="5442"])) #fs13533 {
-    padding-left: 20px !important;
-    padding-right: 20px !important;
-  }
-}
 body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
 [value="267"],
 [value="3154"],
@@ -7517,16 +7445,6 @@ body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
 [value="5442"])) #fs20105 {
   margin-bottom: 16px !important;
 }
-@media (max-width: 767px) {
-  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
-  [value="267"],
-  [value="3154"],
-  [value="5441"],
-  [value="5442"])) #fs20105 {
-    padding-left: 20px !important;
-    padding-right: 20px !important;
-  }
-}
 body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
 [value="267"],
 [value="3154"],
@@ -7548,6 +7466,13 @@ body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
   [value="267"],
   [value="3154"],
   [value="5441"],
+  [value="5442"])) .page-title {
+    margin-bottom: 6px !important;
+  }
+  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
+  [value="267"],
+  [value="3154"],
+  [value="5441"],
   [value="5442"])) :is(#fs18428, #fs18424, #fs18427, #fs18423, #fs18426) table.no-border {
     border-radius: 6px 6px 0 0;
   }
@@ -7556,163 +7481,32 @@ body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
   [value="3154"],
   [value="5441"],
   [value="5442"])) :is(#fs775, #fs18405, #fs13532, #fs18400, #fs788) {
-    margin-bottom: 20px !important;
-  }
-  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
-  [value="267"],
-  [value="3154"],
-  [value="5441"],
-  [value="5442"])) :is(#fs775, #fs18405, #fs13532, #fs18400, #fs788)::before {
-    display: block;
-    margin: 0 0 5px 2px;
-    color: #173a63;
-    content: "Select event section";
-    font-size: 11px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.3;
-  }
-  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
-  [value="267"],
-  [value="3154"],
-  [value="5441"],
-  [value="5442"])) :is(#fs775, #fs18405, #fs13532, #fs18400, #fs788)::after {
-    display: block;
-    height: 1px;
-    margin: 20px 0 0;
-    background: var(--event-edit-border);
-    content: "";
-  }
-  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
-  [value="267"],
-  [value="3154"],
-  [value="5441"],
-  [value="5442"])) :is(#fs775, #fs18405, #fs13532, #fs18400, #fs788) .container-flex {
-    overflow: hidden;
-    border-color: rgba(15, 57, 95, 0.28);
-    background: #ffffff;
-    box-shadow: none;
+    margin-bottom: 12px !important;
   }
   body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
   [value="267"],
   [value="3154"],
   [value="5441"],
   [value="5442"])) :is(#fs775, #fs18405, #fs13532, #fs18400, #fs788) .nav-tabs {
-    flex-direction: column;
-    width: 100%;
-    max-height: 52px;
-    overflow: hidden;
-    transition: max-height 0.2s ease;
+    width: max-content;
+    scroll-snap-type: x proximity;
   }
-}
-@media (max-width: 767px) and (max-width: 767px) {
-  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
-  [value="267"],
-  [value="3154"],
-  [value="5441"],
-  [value="5442"])) :is(#fs775, #fs18405, #fs13532, #fs18400, #fs788) .nav-tabs {
-    max-height: 44px;
-  }
-}
-@media (max-width: 767px) {
   body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
   [value="267"],
   [value="3154"],
   [value="5441"],
   [value="5442"])) :is(#fs775, #fs18405, #fs13532, #fs18400, #fs788) .nav-tabs > li {
-    flex: 0 0 44px;
-    width: 100%;
-  }
-  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
-  [value="267"],
-  [value="3154"],
-  [value="5441"],
-  [value="5442"])) :is(#fs775, #fs18405, #fs13532, #fs18400, #fs788) .nav-tabs > li.active {
-    order: -1;
+    flex: 0 0 auto;
+    scroll-snap-align: start;
   }
   body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
   [value="267"],
   [value="3154"],
   [value="5441"],
   [value="5442"])) :is(#fs775, #fs18405, #fs13532, #fs18400, #fs788) .nav-tabs > li > a {
-    position: relative;
-    justify-content: flex-start;
-    width: 100%;
+    min-width: 112px;
     min-height: 44px;
     padding: 11px 12px;
-    border-radius: 0;
-    cursor: pointer;
-    text-align: left;
-  }
-  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
-  [value="267"],
-  [value="3154"],
-  [value="5441"],
-  [value="5442"])) :is(#fs775, #fs18405, #fs13532, #fs18400, #fs788) .nav-tabs > li.active > a {
-    padding-right: 42px;
-    color: #184a8a !important;
-    background: #f7faff !important;
-    box-shadow: none;
-  }
-  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
-  [value="267"],
-  [value="3154"],
-  [value="5441"],
-  [value="5442"])) :is(#fs775, #fs18405, #fs13532, #fs18400, #fs788) .nav-tabs > li.active > a::after {
-    position: absolute;
-    top: 50%;
-    right: 15px;
-    content: "▾";
-    font-size: 16px;
-    line-height: 1;
-    transform: translateY(-50%);
-    transition: transform 0.2s ease;
-  }
-  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
-  [value="267"],
-  [value="3154"],
-  [value="5441"],
-  [value="5442"])) :is(#fs775, #fs18405, #fs13532, #fs18400, #fs788) .nav-tabs > li:not(.active) > a {
-    border-top: 1px solid var(--event-edit-border) !important;
-    color: var(--event-edit-muted) !important;
-    background: #ffffff !important;
-  }
-  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
-  [value="267"],
-  [value="3154"],
-  [value="5441"],
-  [value="5442"])) :is(#fs775, #fs18405, #fs13532, #fs18400, #fs788) .nav-tabs > li > a:hover,
-  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
-  [value="267"],
-  [value="3154"],
-  [value="5441"],
-  [value="5442"])) :is(#fs775, #fs18405, #fs13532, #fs18400, #fs788) .nav-tabs > li > a:focus,
-  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
-  [value="267"],
-  [value="3154"],
-  [value="5441"],
-  [value="5442"])) :is(#fs775, #fs18405, #fs13532, #fs18400, #fs788) .nav-tabs > li.active > a:hover,
-  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
-  [value="267"],
-  [value="3154"],
-  [value="5441"],
-  [value="5442"])) :is(#fs775, #fs18405, #fs13532, #fs18400, #fs788) .nav-tabs > li.active > a:focus {
-    color: #184a8a !important;
-    background: #edf4fc !important;
-  }
-  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
-  [value="267"],
-  [value="3154"],
-  [value="5441"],
-  [value="5442"])) :is(#fs775, #fs18405, #fs13532, #fs18400, #fs788) .container-flex:focus-within .nav-tabs {
-    max-height: 244px !important;
-  }
-  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
-  [value="267"],
-  [value="3154"],
-  [value="5441"],
-  [value="5442"])) :is(#fs775, #fs18405, #fs13532, #fs18400, #fs788) .container-flex:focus-within .nav-tabs > li.active > a::after {
-    transform: translateY(-50%) rotate(180deg) !important;
   }
   body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
   [value="267"],
@@ -7874,13 +7668,6 @@ body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
   [value="5441"],
   [value="5442"])) #fs20105 + .new-row .btn {
     min-height: 44px;
-  }
-  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
-  [value="267"],
-  [value="3154"],
-  [value="5441"],
-  [value="5442"])) :is(#fs18455, #fs13528, #fs18407) > .container-flex > .center-block.table-responsive {
-    border: 0 !important;
   }
   body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
   [value="267"],
@@ -8157,17 +7944,6 @@ body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
     max-width: 20px;
     height: auto;
   }
-}
-@media (max-width: 767px) and (max-width: 767px) {
-  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
-  [value="267"],
-  [value="3154"],
-  [value="5441"],
-  [value="5442"])) #fs421 > .container-fluid {
-    padding: 0 20px !important;
-  }
-}
-@media (max-width: 767px) {
   body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
   [value="267"],
   [value="3154"],
@@ -8196,17 +7972,6 @@ body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
   [value="5442"])) #fs421 table.no-border td:first-of-type {
     padding: 9px 12px 4px !important;
   }
-}
-@media (max-width: 767px) and (max-width: 767px) {
-  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
-  [value="267"],
-  [value="3154"],
-  [value="5441"],
-  [value="5442"])) #fs421 table.no-border td:first-of-type {
-    padding: 15px 20px 4px !important;
-  }
-}
-@media (max-width: 767px) {
   body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
   [value="267"],
   [value="3154"],
@@ -8214,17 +7979,6 @@ body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
   [value="5442"])) #fs421 table.no-border td:last-of-type {
     padding: 4px 12px 10px !important;
   }
-}
-@media (max-width: 767px) and (max-width: 767px) {
-  body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
-  [value="267"],
-  [value="3154"],
-  [value="5441"],
-  [value="5442"])) #fs421 table.no-border td:last-of-type {
-    padding: 4px 20px 15px !important;
-  }
-}
-@media (max-width: 767px) {
   body:has(#Menu_Item_ID[value="318"]):has(#Form_ID:is([value="167"],
   [value="267"],
   [value="3154"],
