@@ -272,6 +272,31 @@
   }
 }
 
+// Section Dividers
+#fs6333,
+#fs23242,
+#fs19260,
+#fs9819,
+#fs22661 {
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+  padding-bottom: 40px !important;
+  margin-bottom: 40px !important;
+  border-bottom: 1px solid #e0e0e0 !important;
+}
+
+#fs23242 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-top: 20px !important;
+}
+
+#fs19260 {
+  .text-right {
+    padding-right: 20px;
+  }
+}
+
 #fs19345 {
 
   @media (max-width: 767px) {
@@ -405,6 +430,9 @@
 
 #fs22661 {
   margin-bottom: 20px !important;
+  padding-bottom: 20px !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 
   .container-flex {
     display: block !important;
@@ -671,7 +699,9 @@
 #fs6333,
 #fs5744,
 #fs9819 {
-  margin-bottom: 18px !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  //margin-bottom: 18px !important;
 
   .center-block {
     background: transparent;
@@ -798,6 +828,11 @@
       margin-bottom: 0 !important;
     }
   }
+}
+
+#fs5744 {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
 }
 
 #fs5743 {
@@ -1618,5 +1653,347 @@
         grid-template-columns: 1fr !important;
       }
     }
+  }
+}
+
+// Align the primary event controls and details with the shared detail pages.
+#fs726 {
+  @include detail-form-shell;
+  @include detail-form-table-labels;
+  @include detail-form-stacked-mobile;
+
+  .center-block table.no-border {
+    table-layout: auto;
+  }
+
+  .center-block .control-label {
+    width: 100%;
+    color: #333333 !important;
+    text-align: right !important;
+  }
+
+  @media (max-width: 767px) {
+    .center-block table.no-border tbody tr {
+      display: grid !important;
+      grid-template-columns: minmax(125px, 42%) minmax(0, 1fr);
+      align-items: stretch;
+      margin-bottom: 0;
+    }
+
+    .center-block table.no-border td:first-child,
+    .center-block table.no-border td:last-child {
+      display: flex !important;
+      width: auto !important;
+      align-items: center;
+      padding: 9px 12px !important;
+    }
+
+    .center-block table.no-border td:first-child {
+      justify-content: flex-end;
+      border-right: 1px solid rgba(15, 57, 95, 0.12) !important;
+    }
+
+    .center-block table.no-border .control-label {
+      width: 100%;
+      margin: 0 !important;
+      text-align: right !important;
+    }
+
+    .center-block table.no-border tr:has(img, iframe, video, object, embed) {
+      grid-template-columns: 1fr;
+
+      td:first-child {
+        border-right: 0 !important;
+        border-bottom: 1px solid rgba(15, 57, 95, 0.12) !important;
+      }
+    }
+  }
+}
+
+#fs737 {
+  @media (max-width: 767px) {
+    .text-center {
+      grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+      gap: 8px !important;
+    }
+
+    .text-center > span input,
+    .text-center > span button,
+    .text-center > span a {
+      min-height: 40px !important;
+      padding: 9px 12px !important;
+      font-size: 13px !important;
+    }
+  }
+
+  @media (max-width: 420px) {
+    .text-center {
+      grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    }
+  }
+}
+
+#fs5743,
+#fs731,
+#fs9817 {
+  margin-bottom: 0 !important;
+
+  .center-block {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: transparent !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+  }
+
+  h2 {
+    @include widget-heading;
+    border-radius: 6px 6px 0 0 !important;
+
+    br {
+      display: none !important;
+    }
+  }
+}
+
+#fs6631,
+#fs5742,
+#fs730,
+#fs9818,
+#fs22661 {
+  .center-block,
+  .center-block.table-responsive,
+  .table-responsive {
+    border-radius: 6px !important;
+    box-shadow: none !important;
+  }
+
+  table,
+  table.sortable.table-curved {
+    border-radius: 6px !important;
+  }
+}
+
+#fs5742 {
+  .center-block,
+  table {
+    border-top: 1px solid rgba(15, 57, 95, 0.12) !important;
+  }
+}
+
+// Join the Planning to Attend heading and participant table into one shell.
+#fs5743 h2,
+#fs731 h2,
+#fs9817 h2 {
+  background: linear-gradient(180deg, #dceafa 0%, #cbdff4 100%) !important;
+  border-color: rgba(15, 57, 95, 0.12) !important;
+}
+
+#fs730 {
+  .center-block,
+  .center-block.table-responsive,
+  .table-responsive {
+    border-top: 0 !important;
+    border-radius: 0 0 6px 6px !important;
+  }
+
+  table,
+  table.sortable.table-curved {
+    border: 0 !important;
+    border-radius: 0 0 6px 6px !important;
+  }
+
+  thead th:first-of-type,
+  thead th:last-of-type {
+    border-radius: 0 !important;
+  }
+
+  tbody tr:nth-child(odd):hover td {
+    background: #ffffff !important;
+  }
+
+  tbody tr:nth-child(even):hover td {
+    background: #f2f5f9 !important;
+  }
+
+  tbody tr > td:first-of-type {
+    border-left: 0 !important;
+  }
+}
+
+// Present the signup heading, deadline, and controls as one section.
+#fs5743 {
+  h2 {
+    border-bottom-color: rgba(15, 57, 95, 0.12) !important;
+  }
+}
+
+#fs6631 {
+  margin-bottom: 0 !important;
+
+  .center-block {
+    padding: 0 !important;
+    border: 1px solid rgba(15, 57, 95, 0.12) !important;
+    border-top: 0 !important;
+    border-radius: 0 !important;
+    background: #ffffff !important;
+  }
+
+  table.no-border {
+    margin: 0;
+    border: 0 !important;
+    background: transparent !important;
+  }
+
+  table.no-border td {
+    padding: 10px 14px !important;
+    color: #333333 !important;
+    background: transparent !important;
+  }
+}
+
+#fs5742 {
+  .center-block,
+  .center-block.table-responsive,
+  .table-responsive {
+    border: 1px solid rgba(15, 57, 95, 0.12) !important;
+    border-top: 0 !important;
+    border-radius: 0 0 6px 6px !important;
+  }
+
+  table,
+  table.sortable.table-curved {
+    border: 0 !important;
+    border-radius: 0 0 6px 6px !important;
+  }
+
+  thead th:first-of-type,
+  thead th:last-of-type {
+    border-radius: 0 !important;
+  }
+
+  tbody tr:nth-child(odd):hover td {
+    background: #ffffff !important;
+  }
+
+  tbody tr:nth-child(even):hover td {
+    background: #f2f5f9 !important;
+  }
+
+  tbody tr > td:first-of-type {
+    border-left: 0 !important;
+  }
+}
+
+// Join the Transactions heading and table into one shell.
+#fs9818 {
+  .center-block,
+  .center-block.table-responsive,
+  .table-responsive {
+    border: 1px solid rgba(15, 57, 95, 0.12) !important;
+    border-top: 0 !important;
+    border-radius: 0 0 6px 6px !important;
+  }
+
+  table,
+  table.sortable.table-curved {
+    border: 0 !important;
+    border-radius: 0 0 6px 6px !important;
+  }
+
+  thead th:first-of-type,
+  thead th:last-of-type {
+    border-radius: 0 !important;
+  }
+
+  tbody tr:nth-child(odd):hover td {
+    background: #ffffff !important;
+  }
+
+  tbody tr:nth-child(even):hover td {
+    background: #f2f5f9 !important;
+  }
+
+  tbody tr > td:first-of-type {
+    border-left: 0 !important;
+  }
+}
+
+#fs6333,
+#fs5744,
+#fs9819 {
+  @media (max-width: 767px) {
+    .text-center {
+      display: flex !important;
+      flex-wrap: wrap !important;
+      gap: 8px !important;
+      margin-bottom: 0 !important;
+    }
+
+    .text-center > span {
+      display: block !important;
+      flex: 1 1 calc(50% - 4px);
+      width: auto !important;
+      min-width: 0;
+    }
+
+    .text-center > span input,
+    .text-center > span button,
+    .text-center > span a {
+      width: 100% !important;
+      min-height: 40px !important;
+      padding: 9px 12px !important;
+      font-size: 13px !important;
+    }
+  }
+}
+
+// Match the final response section to the other attached Event panels.
+#fs22661 {
+  .center-block.table-responsive {
+    border: 1px solid rgba(15, 57, 95, 0.12) !important;
+    border-radius: 6px !important;
+    box-shadow: none !important;
+  }
+
+  .center-block.table-responsive h3 {
+    margin: 0 !important;
+    padding: 11px 14px !important;
+    border: 0 !important;
+    border-bottom: 1px solid rgba(15, 57, 95, 0.12) !important;
+    border-radius: 5px 5px 0 0 !important;
+    background: linear-gradient(180deg, #dceafa 0%, #cbdff4 100%) !important;
+    color: $text-dark !important;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+    line-height: 1.3 !important;
+    letter-spacing: 0.02em;
+  }
+
+  .center-block.table-responsive table,
+  table.sortable.table-curved {
+    border: 0 !important;
+    border-radius: 0 0 5px 5px !important;
+  }
+
+  thead th:first-of-type,
+  thead th:last-of-type {
+    border-radius: 0 !important;
+  }
+
+  tbody tr:nth-child(odd):hover td {
+    background: #ffffff !important;
+  }
+
+  tbody tr:nth-child(even):hover td {
+    background: #f2f5f9 !important;
+  }
+
+  tbody tr > td:first-of-type {
+    border-left: 0 !important;
   }
 }
