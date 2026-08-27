@@ -16,7 +16,6 @@
 
   @media (max-width: 1140px) {
     .center-block {
-      width: calc(100% - 40px) !important;
       margin: 0 auto !important;
       box-sizing: border-box;
     }
@@ -32,7 +31,7 @@
 
   @media (max-width: 767px) {
     .text-center {
-      justify-content: center !important;
+      justify-content: left !important;
     }
   }
 
@@ -187,6 +186,60 @@
   #DIVENTRY193934 {
     margin-bottom: 0;
   }
+
+  #fs313 table.no-border tr:has(> td:last-child > a > img[src*="calendar"]) > td:last-child {
+    display: flex !important;
+    align-items: center;
+    gap: 6px;
+  }
+
+  #fs313 table.no-border tr:has(> td:last-child > a > img[src*="calendar"]) > td:last-child > input[type="text"] {
+    flex: 1 1 auto;
+    width: auto !important;
+    min-width: 0 !important;
+  }
+
+  #fs313 table.no-border tr:has(input[type="checkbox"]) {
+    display: flex !important;
+    align-items: center;
+    border-left: 1px solid rgba(15, 57, 95, 0.12);
+
+    .text-right {
+      flex: 1 1 auto;
+      order: 2;
+      width: auto !important;
+      padding: 10px 14px 10px 8px !important;
+      border-left: 0 !important;
+    }
+
+    .text-left {
+      flex: 0 0 42px;
+      order: 1;
+      width: 42px !important;
+      padding: 10px 0 10px 14px !important;
+      border-right: 0 !important;
+      border-left: 0 !important;
+    }
+
+    input[type="checkbox"] {
+      width: auto !important;
+      margin: 0;
+    }
+  }
+
+  #fs313 table.no-border tr:has(> td:last-child > a > img[src*="calendar"]) > td:last-child > a {
+    display: inline-flex !important;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2px;
+
+    img {
+      display: block;
+      width: 18px;
+      height: 18px;
+    }
+  }
 }
 
 // Bottom action toolbar / relationship actions
@@ -203,7 +256,6 @@
 
   @media (max-width: 1140px) {
     .center-block {
-      width: calc(100% - 40px) !important;
       margin: 0 auto !important;
       box-sizing: border-box;
     }
@@ -212,8 +264,8 @@
   .text-center {
     display: flex !important;
     flex-wrap: wrap !important;
-    justify-content: center !important;
-    align-items: center !important;
+    justify-content: left !important;
+    align-items: left !important;
     gap: 10px 12px !important;
   }
 
@@ -237,14 +289,10 @@
 
   @media (max-width: 1140px) {
     .center-block {
-      width: calc(100% - 40px) !important;
+      width: 100% !important;
       margin: 0 auto !important;
       box-sizing: border-box;
     }
-  }
-
-  .table-responsive {
-    overflow-x: auto;
   }
 
   table {
@@ -276,7 +324,7 @@
     a:visited,
     a:hover,
     a:active {
-      color: #ffffff !important;
+      color: $text-dark !important;
       text-decoration: none !important;
     }
   }
@@ -287,7 +335,6 @@
     border-top: 1px solid rgba(15, 57, 95, 0.08) !important;
     background: #fff;
     color: #1f2d3d;
-    font-size: 14px;
   }
 
   tbody td:nth-child(2) {
@@ -315,10 +362,58 @@
   }
 
   tfoot td {
-    background: #f6f9fc !important;
-    padding: 14px 12px !important;
+    background: linear-gradient(180deg, #ffffff 0%, #f7faff 100%);
+    padding: 16px 14px 18px !important;
     border-top: 1px solid rgba(15, 57, 95, 0.12) !important;
-    text-align: center;
+    font-size: 0;
   }
 
+  tfoot td input[type="button"] {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    min-height: 40px;
+    min-width: 170px;
+    padding: 9px 16px !important;
+    margin: 0;
+    border: 1px solid rgba(13, 59, 114, 0.2);
+    border-radius: 10px;
+    background: linear-gradient(180deg, #ffffff 0%, #eef5ff 100%);
+    color: #12375c;
+    font-size: 13px;
+    font-weight: 800;
+    line-height: 1.2;
+    box-shadow: 0 6px 12px rgba(13, 31, 54, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.22);
+    transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+  }
+
+  tfoot td input[type="button"] + input[type="button"] {
+    margin-left: 12px;
+  }
+
+  tfoot td input[type="button"]:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 16px rgba(13, 31, 54, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.22);
+    border-color: rgba(13, 59, 114, 0.3);
+  }
+
+  @media (max-width: 767px) {
+    table {
+      table-layout: fixed;
+    }
+
+    tfoot td {
+      padding: 14px 12px 16px !important;
+    }
+
+    tfoot td input[type="button"] {
+      display: flex !important;
+      width: 100% !important;
+      margin: 0 !important;
+    }
+
+    tfoot td input[type="button"] + input[type="button"] {
+      margin-top: 12px !important;
+    }
+  }
 }

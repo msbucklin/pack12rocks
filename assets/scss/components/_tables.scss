@@ -243,10 +243,10 @@ select.rows-per-page:focus {
   table.sortable.table-curved tfoot,
   table.sortable.table-curved tfoot tr,
   table.sortable.table-curved tfoot td:has(> input[type="button"][value="Print (Export to PDF)"]) {
-    display: block;
-    width: 100% !important;
-    max-width: 100%;
-    box-sizing: border-box;
+    //display: block;
+    //width: 100% !important;
+    //max-width: 100%;
+    //box-sizing: border-box;
   }
 
   table.sortable.table-curved tfoot td:has(> input[type="button"][value="Print (Export to PDF)"]) {

@@ -1713,15 +1713,23 @@ body:has(#fs7356) .page-title {
   box-shadow: none;
   padding: 0;
 }
+@media (max-width: 1140px) {
+  #fs7357 .center-block {
+    width: calc(100% - 40px) !important;
+    margin: 0 auto !important;
+    box-sizing: border-box;
+  }
+}
 #fs7357 .text-center {
   display: flex !important;
   flex-wrap: wrap !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 10px 12px !important;
 }
 #fs7357 .text-center > span {
   display: inline-flex !important;
-}
-#fs7357 .text-center > span .btn {
-  margin: 0 15px 0 0 !important;
+  margin: 0 !important;
 }
 
 #fs7356 .center-block {
@@ -2631,7 +2639,6 @@ body:has(#fs7356) .page-title {
   #fs7356 table.no-border #DIVENTRY4979811 {
     display: flex !important;
     align-items: center;
-    border-left: 1px solid rgba(15, 57, 95, 0.12);
   }
   #fs7356 table.no-border #DIVENTRY2903911 .text-right,
   #fs7356 table.no-border #DIVENTRY4512611 .text-right,
@@ -2662,7 +2669,6 @@ body:has(#fs7356) .page-title {
     width: 42px !important;
     padding: 10px 0 10px 14px !important;
     border-right: 0 !important;
-    border-left: 0 !important;
   }
   #fs7356 table.no-border #DIVENTRY2903911 input[type=checkbox],
   #fs7356 table.no-border #DIVENTRY4512611 input[type=checkbox],
@@ -6885,52 +6891,6 @@ body:has(#fs2741) .new-row:not(:has(~ .new-row)) .btn {
   #DIVENTRY193930,
   #DIVENTRY193934 {
     margin-bottom: 0;
-  }
-  #fs313 table.no-border tr:has(> td:last-child > a > img[src*=calendar]) > td:last-child {
-    display: flex !important;
-    align-items: center;
-    gap: 6px;
-  }
-  #fs313 table.no-border tr:has(> td:last-child > a > img[src*=calendar]) > td:last-child > input[type=text] {
-    flex: 1 1 auto;
-    width: auto !important;
-    min-width: 0 !important;
-  }
-  #fs313 table.no-border tr:has(input[type=checkbox]) {
-    display: flex !important;
-    align-items: center;
-    border-left: 1px solid rgba(15, 57, 95, 0.12);
-  }
-  #fs313 table.no-border tr:has(input[type=checkbox]) .text-right {
-    flex: 1 1 auto;
-    order: 2;
-    width: auto !important;
-    padding: 10px 14px 10px 8px !important;
-    border-left: 0 !important;
-  }
-  #fs313 table.no-border tr:has(input[type=checkbox]) .text-left {
-    flex: 0 0 42px;
-    order: 1;
-    width: 42px !important;
-    padding: 10px 0 10px 14px !important;
-    border-right: 0 !important;
-    border-left: 0 !important;
-  }
-  #fs313 table.no-border tr:has(input[type=checkbox]) input[type=checkbox] {
-    width: auto !important;
-    margin: 0;
-  }
-  #fs313 table.no-border tr:has(> td:last-child > a > img[src*=calendar]) > td:last-child > a {
-    display: inline-flex !important;
-    flex: 0 0 auto;
-    align-items: center;
-    justify-content: center;
-    margin-left: 2px;
-  }
-  #fs313 table.no-border tr:has(> td:last-child > a > img[src*=calendar]) > td:last-child > a img {
-    display: block;
-    width: 18px;
-    height: 18px;
   }
 }
 #fs314 {
