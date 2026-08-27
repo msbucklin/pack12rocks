@@ -25,4 +25,5 @@ npm run watch:css
 ## Notes
 - The generated CSS file is the one uploaded to the site.
 - The Sass file is where edits should be made for maintainability.
+- `npm run build:css` emits compressed CSS without a source map to keep the upload artifact small.
 - Sass is not currently installed in this environment because npm registry access is blocked, so the compile command will work once npm registry access is available.

@@ -1182,3 +1182,99 @@ body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) {
     #sortablegrid7191 > tfoot input[type="button"] { width: calc(50% - 14px); min-width: 0; margin: 4px 5px !important; }
   }
 }
+
+body:has(#Menu_Item_ID[value="3309"]):has(#Form_ID[value="4238"]) {
+  --dress-code-form-border: rgba(15, 57, 95, 0.16);
+
+  .page-title { width: 100%; margin: 0 auto 16px !important; padding: 10px 20px 0; box-sizing: border-box; color: $navy-700; text-align: left !important; }
+
+  #fs16793 {
+    @include detail-form-shell;
+    margin-bottom: 20px !important;
+
+    .center-block { width: 100% !important; max-width: 100% !important; margin: 0 !important; }
+    table.no-border { width: 100%; margin: 0; border-collapse: separate; border-spacing: 0; }
+    table.no-border > tbody > tr > td { padding: 12px 16px !important; border: 0 !important; border-top: 1px solid var(--dress-code-form-border) !important; background: #ffffff !important; vertical-align: top; }
+    table.no-border > tbody > tr:nth-child(even) > td { background: #f2f5f9 !important; }
+    table.no-border > tbody > tr:last-child > td { border-bottom: 1px solid var(--dress-code-form-border) !important; }
+    table.no-border > tbody > tr > td:first-child { width: 34%; border-right: 1px solid rgba(15, 57, 95, 0.12) !important; text-align: right !important; vertical-align: middle; }
+    table.no-border .control-label { margin: 0 !important; color: $text-dark; font-size: 14px; font-weight: 600; text-align: inherit; }
+    table.no-border input.form-control { display: inline-block; width: min(100%, 520px); margin: 0 !important; font-size: 14px; }
+    #cke_ENTRY50160137 { width: 100% !important; max-width: 900px; border-color: rgba(15, 57, 95, 0.2) !important; box-sizing: border-box; }
+    #cke_ENTRY50160137 .cke_top { background: #eaf3ff !important; border-bottom-color: rgba(15, 57, 95, 0.16) !important; }
+    #cke_ENTRY50160137 .cke_bottom { background: #f7faff !important; border-top-color: rgba(15, 57, 95, 0.16) !important; }
+  }
+
+  #fs16794 {
+    margin-bottom: 20px !important;
+
+    .center-block { width: 100% !important; max-width: 100% !important; margin: 0 !important; }
+    .text-center { display: flex !important; flex-wrap: wrap; justify-content: flex-start !important; gap: 8px; text-align: left !important; }
+    .text-center > span { display: inline-flex !important; margin: 0 !important; }
+    .btn { min-width: 120px; min-height: 40px; margin: 0 !important; padding: 9px 16px !important; border-radius: 6px; font-size: 13px; font-weight: 700; line-height: 1.2; }
+  }
+
+  @media (max-width: 767px) {
+    #fs16793,
+    #fs16794 { padding-right: 20px !important; padding-left: 20px !important; }
+    #fs16793 table.no-border,
+    #fs16793 table.no-border tbody,
+    #fs16793 table.no-border tr,
+    #fs16793 table.no-border td { display: block !important; width: 100% !important; max-width: 100% !important; box-sizing: border-box; }
+    #fs16793 table.no-border > tbody > tr { margin-bottom: 10px; overflow: hidden; border: 1px solid var(--dress-code-form-border); border-radius: 6px; }
+    #fs16793 table.no-border > tbody > tr > td { border: 0 !important; }
+    #fs16793 table.no-border > tbody > tr > td:first-child { padding-bottom: 0 !important; text-align: left !important; }
+    #fs16793 table.no-border input.form-control { width: 100% !important; }
+    #fs16793 #cke_ENTRY50160137 { max-width: 100%; }
+    #fs16794 .text-center { display: grid !important; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    #fs16794 .text-center > span,
+    #fs16794 .btn { width: 100% !important; min-width: 0 !important; }
+  }
+}
+
+body:has(#Menu_Item_ID[value="3309"]):has(#Form_ID[value="4240"]) {
+  --dress-code-query-border: rgba(15, 57, 95, 0.16);
+
+  h3 { width: 100%; margin: 0 0 12px !important; padding: 0 20px; box-sizing: border-box; color: $navy-700; font-size: 16px !important; font-weight: 700 !important; text-align: left !important; }
+
+  #fs16797 {
+    margin: 0 0 16px !important;
+
+    .center-block.search-container { width: 100% !important; max-width: 100% !important; margin: 0 !important; }
+    table.no-border { width: 100%; overflow: hidden; border: 1px solid var(--dress-code-query-border) !important; border-collapse: separate; border-spacing: 0; border-radius: 6px; background: #ffffff; table-layout: fixed; }
+    table.no-border > tbody > tr > td { padding: 10px 12px !important; vertical-align: middle; }
+    table.no-border > tbody > tr:not(:has(hr)):nth-of-type(4n + 1) { background: #f7faff; }
+    table.no-border > tbody > tr > td:first-child { width: 30%; color: $text-dark; text-align: right !important; }
+    table.no-border > tbody > tr > td:nth-child(2) { width: 160px; border-left: 1px solid rgba(15, 57, 95, 0.09); }
+    table.no-border > tbody > tr > td:nth-child(3) { border-left: 1px solid rgba(15, 57, 95, 0.09); }
+    table.no-border > tbody > tr:has(hr) > td { padding: 0 !important; }
+    table.no-border hr { margin: 0 !important; border-color: rgba(15, 57, 95, 0.09); }
+    .control-label { margin: 0 !important; font-size: 14px; font-style: italic; font-weight: 400; }
+    .form-control { width: 100% !important; min-width: 0 !important; max-width: 100% !important; margin: 0 !important; box-sizing: border-box; }
+    select.form-control { min-height: 40px; }
+    .entrypostscript { display: block; margin-top: 5px; color: $text-mid; font-size: 12px; }
+  }
+
+  #fs16797 + .new-row {
+    margin: 0 0 16px !important;
+
+    .center-block { width: 100% !important; max-width: 100% !important; margin: 0 !important; }
+    .text-center { display: flex !important; justify-content: flex-start !important; text-align: left !important; }
+    .text-center > span { display: inline-flex !important; margin: 0 !important; }
+    .btn { min-width: 100px; min-height: 40px; margin: 0 !important; padding: 9px 16px !important; border-radius: 6px; font-size: 13px; font-weight: 700; line-height: 1.2; }
+  }
+
+  @media (max-width: 767px) {
+    #fs16797,
+    #fs16797 + .new-row { padding-right: 20px !important; padding-left: 20px !important; }
+    #fs16797 table.no-border,
+    #fs16797 table.no-border > tbody { display: block; width: 100% !important; }
+    #fs16797 table.no-border > tbody > tr:not(:has(hr)) { display: grid !important; grid-template-columns: minmax(0, 1fr); width: 100%; margin-bottom: 10px; overflow: hidden; border: 1px solid var(--dress-code-query-border); border-radius: 6px; background: #ffffff; box-sizing: border-box; }
+    #fs16797 table.no-border > tbody > tr:has(hr) { display: none !important; }
+    #fs16797 table.no-border > tbody > tr > td { display: block !important; width: 100% !important; max-width: 100% !important; padding: 8px 12px !important; border: 0 !important; box-sizing: border-box; text-align: left !important; }
+    #fs16797 table.no-border > tbody > tr > td:first-child { padding-top: 11px !important; padding-bottom: 4px !important; color: $navy-700; }
+    #fs16797 table.no-border > tbody > tr > td:nth-child(3) { padding-top: 4px !important; padding-bottom: 11px !important; }
+    #fs16797 .control-label { display: block; text-align: left !important; }
+    #fs16797 + .new-row .btn { width: 100% !important; }
+  }
+}
