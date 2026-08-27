@@ -1464,7 +1464,6 @@ body:has(.center-block.widget75) .center-block.widget75 > div {
 }
 @media (max-width: 1140px) {
   #fs723 .center-block {
-    width: calc(100% - 40px) !important;
     margin: 0 auto !important;
     box-sizing: border-box;
   }
@@ -1474,6 +1473,7 @@ body:has(.center-block.widget75) .center-block.widget75 > div {
     padding: 0 !important;
   }
   #fs723 .center-block {
+    width: calc(100% - 40px) !important;
     padding: 0 !important;
     border-radius: 0;
     overflow-x: hidden;
@@ -1733,7 +1733,6 @@ body:has(#fs7356) .page-title {
 }
 @media (max-width: 1140px) {
   #fs7356 .center-block {
-    width: calc(100% - 40px) !important;
     margin: 0 auto !important;
     box-sizing: border-box;
   }
@@ -1743,6 +1742,7 @@ body:has(#fs7356) .page-title {
     padding: 0 !important;
   }
   #fs7356 .center-block {
+    width: calc(100% - 40px) !important;
     padding: 0 !important;
     border-radius: 0;
     overflow-x: hidden;
@@ -2293,9 +2293,6 @@ body:has(#fs7356) .page-title {
 }
 #fs7358 tbody tr:nth-child(even) td {
   background: #f7fafe !important;
-}
-#fs7358 tbody tr:hover td {
-  background: #f2f8ff !important;
 }
 #fs7358 tfoot td {
   background: linear-gradient(180deg, #ffffff 0%, #f7faff 100%);
@@ -3036,7 +3033,7 @@ body:has(#fs737) .new-row:not(:has(~ .new-row)) .btn {
 }
 @media (max-width: 1140px) {
   #fs726 .center-block {
-    width: calc(100% - 40px) !important;
+    width: unset !important;
     margin: 0 auto 20px !important;
     box-sizing: border-box;
   }
@@ -3080,7 +3077,8 @@ body:has(#fs737) .new-row:not(:has(~ .new-row)) .btn {
 #fs23242,
 #fs19260,
 #fs9819,
-#fs22661 {
+#fs22661,
+#fs5744 {
   margin-left: 20px !important;
   margin-right: 20px !important;
   padding-bottom: 40px !important;
@@ -4186,9 +4184,6 @@ body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table.table-striped tbody tr
 body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table.table-striped tbody tr:nth-child(even) {
   background: #f7faff;
 }
-body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table.table-striped tbody tr:hover {
-  background: rgba(234, 243, 255, 0.6);
-}
 body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table.table-striped tbody td {
   padding: 12px 14px !important;
   text-align: center;
@@ -4333,12 +4328,9 @@ body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(7
 #fs9818 tbody tr:nth-child(even) td {
   background: #f2f5f9 !important;
 }
-#fs9818 tbody tr:hover td {
-  background: #eaf4ff !important;
-}
 @media (max-width: 1140px) {
   #fs9818 .center-block {
-    width: calc(100% - 40px) !important;
+    width: unset !important;
     margin: 0 auto !important;
     box-sizing: border-box;
   }
@@ -4628,11 +4620,6 @@ body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(7
   }
 }
 
-#fs5744 {
-  padding-left: 20px !important;
-  padding-right: 20px !important;
-}
-
 #fs5743 .center-block {
   background: transparent;
   border: 0;
@@ -4684,7 +4671,7 @@ body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(7
 }
 @media (max-width: 1140px) {
   #fs6631 .center-block {
-    width: calc(100% - 40px) !important;
+    width: unset !important;
     margin: 0 auto !important;
     box-sizing: border-box;
   }
@@ -4809,6 +4796,9 @@ body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(7
   margin-top: 0 !important;
   margin-bottom: 20px !important;
 }
+#fs730 .pagination {
+  padding-right: 0 !important;
+}
 #fs730 .center-block {
   background: linear-gradient(180deg, #ffffff 0%, #f7faff 100%);
   border: 1px solid rgba(15, 57, 95, 0.12);
@@ -4845,22 +4835,18 @@ body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(7
   word-break: break-word;
 }
 #fs730 tbody td {
-  padding: 12px 14px !important;
   vertical-align: middle !important;
   border-top: 1px solid rgba(15, 57, 95, 0.08) !important;
-  background: #ffffff;
+  background: #ffffff !important;
   color: #1f2d3d;
   word-break: break-word;
   overflow-wrap: anywhere;
 }
-#fs730 tbody tr:nth-child(odd) td {
+#fs730 table.table-striped tbody tr:nth-child(odd) td {
   background: #ffffff !important;
 }
-#fs730 tbody tr:nth-child(even) td {
+#fs730 table.table-striped tbody tr:nth-child(even) td {
   background: #f2f5f9 !important;
-}
-#fs730 tbody tr:hover td {
-  background: #eaf4ff !important;
 }
 #fs730 tfoot td {
   padding: 18px 16px 20px !important;
@@ -4915,7 +4901,7 @@ body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(7
 }
 @media (max-width: 1140px) {
   #fs730 .center-block {
-    width: calc(100% - 40px) !important;
+    width: unset !important;
     margin: 0 auto !important;
     box-sizing: border-box;
   }
@@ -5068,7 +5054,7 @@ body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(7
 }
 @media (max-width: 1140px) {
   #fs5742 .center-block {
-    width: calc(100% - 40px) !important;
+    width: unset !important;
     margin: 0 auto !important;
     box-sizing: border-box;
   }
@@ -5102,6 +5088,15 @@ body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(7
   overflow-wrap: anywhere;
   word-break: break-word;
 }
+#fs5742 thead th:nth-of-type(1) {
+  min-width: 150px !important;
+}
+#fs5742 thead th:nth-of-type(2) {
+  min-width: 300px !important;
+}
+#fs5742 thead th:nth-of-type(3), #fs5742 thead th:nth-of-type(4) {
+  min-width: 130px !important;
+}
 #fs5742 thead th a,
 #fs5742 thead th a:link,
 #fs5742 thead th a:visited,
@@ -5125,9 +5120,6 @@ body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(7
 }
 #fs5742 tbody tr:nth-child(even) td {
   background: #f2f5f9 !important;
-}
-#fs5742 tbody tr:hover td {
-  background: #eaf4ff !important;
 }
 #fs5742 .form-control {
   width: 100% !important;
@@ -5388,7 +5380,6 @@ body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(7
 }
 @media (max-width: 1140px) {
   #fs726 .center-block {
-    width: calc(100% - 40px) !important;
     margin: 0 auto !important;
     box-sizing: border-box;
   }
@@ -5398,6 +5389,7 @@ body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(7
     padding: 0 !important;
   }
   #fs726 .center-block {
+    width: calc(100% - 40px) !important;
     padding: 0 !important;
     border-radius: 0;
     overflow-x: hidden;
@@ -5686,12 +5678,6 @@ body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(7
 #fs730 thead th:last-of-type {
   border-radius: 0 !important;
 }
-#fs730 tbody tr:nth-child(odd):hover td {
-  background: #ffffff !important;
-}
-#fs730 tbody tr:nth-child(even):hover td {
-  background: #f2f5f9 !important;
-}
 #fs730 tbody tr > td:first-of-type {
   border-left: 0 !important;
 }
@@ -5738,6 +5724,9 @@ body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(7
     border: 1px solid rgba(15, 57, 95, 0.12) !important;
     border-top: 0 !important;
     border-radius: 0 0 6px 6px !important;
+  }
+  #fs730 .center-block.table-responsive:has(> table:first-child .pagination) {
+    padding-right: 0 !important;
   }
   #fs730 table.sortable.table-curved,
   #fs730 table.sortable.table-curved > tbody {
@@ -5802,6 +5791,10 @@ body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(7
   #fs730 .center-block.table-responsive > table:first-child:has(.pagination) > tbody > tr:last-child > td {
     border-bottom: 1px solid rgba(15, 57, 95, 0.1) !important;
   }
+  #fs730 .center-block.table-responsive > table:first-child:has(.pagination) > tbody > tr > td::before {
+    display: none !important;
+    content: none !important;
+  }
   #fs730 tfoot td > input[type=button] {
     font-size: 12px !important;
   }
@@ -5848,12 +5841,6 @@ body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(7
 #fs5742 thead th:last-of-type {
   border-radius: 0 !important;
 }
-#fs5742 tbody tr:nth-child(odd):hover td {
-  background: #ffffff !important;
-}
-#fs5742 tbody tr:nth-child(even):hover td {
-  background: #f2f5f9 !important;
-}
 #fs5742 tbody tr > td:first-of-type {
   border-left: 0 !important;
 }
@@ -5873,12 +5860,6 @@ body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(7
 #fs9818 thead th:first-of-type,
 #fs9818 thead th:last-of-type {
   border-radius: 0 !important;
-}
-#fs9818 tbody tr:nth-child(odd):hover td {
-  background: #ffffff !important;
-}
-#fs9818 tbody tr:nth-child(even):hover td {
-  background: #f2f5f9 !important;
 }
 #fs9818 tbody tr > td:first-of-type {
   border-left: 0 !important;
@@ -5959,14 +5940,112 @@ body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(7
 #fs22661 thead th:last-of-type {
   border-radius: 0 !important;
 }
-#fs22661 tbody tr:nth-child(odd):hover td {
-  background: #ffffff !important;
-}
-#fs22661 tbody tr:nth-child(even):hover td {
-  background: #f2f5f9 !important;
-}
 #fs22661 tbody tr > td:first-of-type {
   border-left: 0 !important;
+}
+
+body:has(#Menu_Item_ID[value="324"]) .new-row:not(:has(~ .new-row)) input[type=button],
+body:has(#Menu_Item_ID[value="324"]) .new-row:not(:has(~ .new-row)) .btn {
+  margin-top: 20px !important;
+  margin-right: 10px !important;
+  margin-bottom: 10px !important;
+}
+body:has(#Menu_Item_ID[value="324"]) #fs372 {
+  padding-bottom: 10px !important;
+}
+body:has(#Menu_Item_ID[value="324"]) #fs372 .btn {
+  margin-right: 10px !important;
+  margin-bottom: 10px !important;
+}
+body:has(#Menu_Item_ID[value="324"]) #fs373 .rows-per-page {
+  padding-bottom: 10px !important;
+}
+@media (max-width: 767px) {
+  body:has(#Menu_Item_ID[value="324"]) #fs373 .rows-per-page {
+    padding: 10px 15px !important;
+  }
+  body:has(#Menu_Item_ID[value="324"]) #fs373 .center-block.table-responsive {
+    overflow: hidden !important;
+    padding: 0 !important;
+    border: 1px solid rgba(15, 57, 95, 0.12) !important;
+    border-radius: 6px !important;
+  }
+  body:has(#Menu_Item_ID[value="324"]) #fs373 .center-block.table-responsive > table:first-child,
+  body:has(#Menu_Item_ID[value="324"]) #fs373 .center-block.table-responsive > table:first-child > tbody,
+  body:has(#Menu_Item_ID[value="324"]) #fs373 .center-block.table-responsive > table:first-child > tbody > tr,
+  body:has(#Menu_Item_ID[value="324"]) #fs373 .center-block.table-responsive > table:first-child > tbody > tr > td {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+    border: 0 !important;
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="324"]) #sortablegrid373 {
+    display: block !important;
+    width: 100% !important;
+    margin: 0 !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+  }
+  body:has(#Menu_Item_ID[value="324"]) #sortablegrid373 > thead {
+    display: none !important;
+  }
+  body:has(#Menu_Item_ID[value="324"]) #sortablegrid373 > tbody {
+    display: block !important;
+    width: 100% !important;
+  }
+  body:has(#Menu_Item_ID[value="324"]) #sortablegrid373 > tbody > tr {
+    display: grid !important;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 10px;
+    width: 100% !important;
+    padding: 10px 12px !important;
+    border: 0 !important;
+    border-bottom: 1px solid rgba(15, 57, 95, 0.1) !important;
+    background: #ffffff !important;
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="324"]) #sortablegrid373 > tbody > tr:last-child {
+    border-bottom: 0 !important;
+  }
+  body:has(#Menu_Item_ID[value="324"]) #sortablegrid373 > tbody > tr > td {
+    display: none !important;
+    width: auto !important;
+    min-width: 0;
+    padding: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+  }
+  body:has(#Menu_Item_ID[value="324"]) #sortablegrid373 > tbody > tr > td:nth-of-type(2),
+  body:has(#Menu_Item_ID[value="324"]) #sortablegrid373 > tbody > tr > td:nth-of-type(3),
+  body:has(#Menu_Item_ID[value="324"]) #sortablegrid373 > tbody > tr > td:nth-of-type(9) {
+    display: block !important;
+  }
+  body:has(#Menu_Item_ID[value="324"]) #sortablegrid373 > tbody > tr > td:nth-of-type(3) {
+    color: #1f2d3d;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.35;
+    text-align: left !important;
+    overflow-wrap: anywhere;
+  }
+  body:has(#Menu_Item_ID[value="324"]) #sortablegrid373 .btn {
+    min-width: 0 !important;
+    min-height: 36px !important;
+    margin: 0 !important;
+    padding: 8px 10px !important;
+    font-size: 12px !important;
+    line-height: 1.2 !important;
+  }
+  body:has(#Menu_Item_ID[value="324"]) #sortablegrid373 > tfoot,
+  body:has(#Menu_Item_ID[value="324"]) #sortablegrid373 > tfoot > tr,
+  body:has(#Menu_Item_ID[value="324"]) #sortablegrid373 > tfoot > tr > td {
+    display: block !important;
+    width: 100% !important;
+    box-sizing: border-box;
+  }
 }
 
 body:has(#Menu_Item_ID[value="319"]) {
@@ -7224,7 +7303,6 @@ body:has(#fs2741) .new-row:not(:has(~ .new-row)) .btn {
 }
 @media (max-width: 1140px) {
   #fs313 .center-block {
-    width: calc(100% - 40px) !important;
     margin: 0 auto !important;
     box-sizing: border-box;
   }
@@ -7234,6 +7312,7 @@ body:has(#fs2741) .new-row:not(:has(~ .new-row)) .btn {
     padding: 0 !important;
   }
   #fs313 .center-block {
+    width: calc(100% - 40px) !important;
     padding: 0 !important;
     border-radius: 0;
     overflow-x: hidden;
@@ -7676,9 +7755,6 @@ body:has(#fs2741) .new-row:not(:has(~ .new-row)) .btn {
 }
 #fs480 tbody tr:nth-child(even) td {
   background: #f7fafe !important;
-}
-#fs480 tbody tr:hover td {
-  background: #f2f8ff !important;
 }
 #fs480 tbody td:last-child {
   width: 120px;
@@ -8208,7 +8284,6 @@ body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex
 }
 @media (max-width: 1140px) {
   #fs946 .center-block {
-    width: calc(100% - 40px) !important;
     margin: 0 auto !important;
     box-sizing: border-box;
   }
@@ -8218,6 +8293,7 @@ body:has(#Menu_Item_ID[value="5788"]) .new-row > .container-fluid.container-flex
     padding: 0 !important;
   }
   #fs946 .center-block {
+    width: calc(100% - 40px) !important;
     padding: 0 !important;
     border-radius: 0;
     overflow-x: hidden;
@@ -8456,7 +8532,6 @@ body:has(#Menu_Item_ID[value="353"]) .new-row:has(> .container-fluid > .center-b
 }
 @media (max-width: 1140px) {
   #fs1023 .center-block {
-    width: calc(100% - 40px) !important;
     margin: 0 auto !important;
     box-sizing: border-box;
   }
@@ -8466,6 +8541,7 @@ body:has(#Menu_Item_ID[value="353"]) .new-row:has(> .container-fluid > .center-b
     padding: 0 !important;
   }
   #fs1023 .center-block {
+    width: calc(100% - 40px) !important;
     padding: 0 !important;
     border-radius: 0;
     overflow-x: hidden;
@@ -8611,7 +8687,6 @@ body:has(#Menu_Item_ID[value="353"]) .new-row:has(> .container-fluid > .center-b
 }
 @media (max-width: 1140px) {
   #fs720 .center-block {
-    width: calc(100% - 40px) !important;
     margin: 0 auto !important;
     box-sizing: border-box;
   }
@@ -8621,6 +8696,7 @@ body:has(#Menu_Item_ID[value="353"]) .new-row:has(> .container-fluid > .center-b
     padding: 0 !important;
   }
   #fs720 .center-block {
+    width: calc(100% - 40px) !important;
     padding: 0 !important;
     border-radius: 0;
     overflow-x: hidden;
@@ -10797,7 +10873,6 @@ body:has(#fs16590) {
 }
 @media (max-width: 1140px) {
   #fs7217 .center-block {
-    width: calc(100% - 40px) !important;
     margin: 0 auto !important;
     box-sizing: border-box;
   }
@@ -10807,6 +10882,7 @@ body:has(#fs16590) {
     padding: 0 !important;
   }
   #fs7217 .center-block {
+    width: calc(100% - 40px) !important;
     padding: 0 !important;
     border-radius: 0;
     overflow-x: hidden;

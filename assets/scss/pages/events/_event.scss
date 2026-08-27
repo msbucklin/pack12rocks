@@ -245,7 +245,7 @@ body:has(#fs737) {
 
   @media (max-width: 1140px) {
     .center-block {
-      width: calc(100% - 40px) !important;
+      width: unset !important;
       margin: 0 auto 20px !important;
       box-sizing: border-box;
     }
@@ -298,7 +298,8 @@ body:has(#fs737) {
 #fs23242,
 #fs19260,
 #fs9819,
-#fs22661 {
+#fs22661,
+#fs5744 {
   margin-left: 20px !important;
   margin-right: 20px !important;
   padding-bottom: 40px !important;
@@ -617,13 +618,9 @@ body:has(#fs737) {
     background: #f2f5f9 !important;
   }
 
-  tbody tr:hover td {
-    background: #eaf4ff !important;
-  }
-
   @media (max-width: 1140px) {
     .center-block {
-      width: calc(100% - 40px) !important;
+      width: unset !important;
       margin: 0 auto !important;
       box-sizing: border-box;
     }
@@ -857,11 +854,6 @@ body:has(#fs737) {
   }
 }
 
-#fs5744 {
-  padding-left: 20px !important;
-  padding-right: 20px !important;
-}
-
 #fs5743 {
   .center-block {
     background: transparent;
@@ -919,7 +911,7 @@ body:has(#fs737) {
 
   @media (max-width: 1140px) {
     .center-block {
-      width: calc(100% - 40px) !important;
+      width: unset !important;
       margin: 0 auto !important;
       box-sizing: border-box;
     }
@@ -1060,6 +1052,10 @@ body:has(#fs737) {
   margin-top: 0 !important;
   margin-bottom: 20px !important;
 
+  .pagination {
+    padding-right: 0 !important;
+  }
+
   .center-block {
     background: linear-gradient(180deg, #ffffff 0%, #f7faff 100%);
     border: 1px solid rgba(15, 57, 95, 0.12);
@@ -1100,25 +1096,20 @@ body:has(#fs737) {
   }
 
   tbody td {
-    padding: 12px 14px !important;
     vertical-align: middle !important;
     border-top: 1px solid rgba(15, 57, 95, 0.08) !important;
-    background: #ffffff;
+    background: #ffffff !important;
     color: #1f2d3d;
     word-break: break-word;
     overflow-wrap: anywhere;
   }
 
-  tbody tr:nth-child(odd) td {
+  table.table-striped tbody tr:nth-child(odd) td {
     background: #ffffff !important;
   }
 
-  tbody tr:nth-child(even) td {
+  table.table-striped tbody tr:nth-child(even) td {
     background: #f2f5f9 !important;
-  }
-
-  tbody tr:hover td {
-    background: #eaf4ff !important;
   }
 
   tfoot td {
@@ -1180,7 +1171,7 @@ body:has(#fs737) {
 
   @media (max-width: 1140px) {
     .center-block {
-      width: calc(100% - 40px) !important;
+      width: unset !important;
       margin: 0 auto !important;
       box-sizing: border-box;
     }
@@ -1339,7 +1330,7 @@ body:has(#fs737) {
 
   @media (max-width: 1140px) {
     .center-block {
-      width: calc(100% - 40px) !important;
+      width: unset !important;
       margin: 0 auto !important;
       box-sizing: border-box;
     }
@@ -1376,6 +1367,19 @@ body:has(#fs737) {
     overflow-wrap: anywhere;
     word-break: break-word;
 
+    &:nth-of-type(1) {
+      min-width: 150px !important;
+    }
+
+    &:nth-of-type(2) {
+      min-width: 300px !important;
+    }
+
+    &:nth-of-type(3),
+    &:nth-of-type(4) {
+      min-width: 130px !important;
+    }
+
     a,
     a:link,
     a:visited,
@@ -1403,10 +1407,6 @@ body:has(#fs737) {
 
   tbody tr:nth-child(even) td {
     background: #f2f5f9 !important;
-  }
-
-  tbody tr:hover td {
-    background: #eaf4ff !important;
   }
 
   .form-control {
@@ -1846,14 +1846,6 @@ body:has(#fs737) {
     border-radius: 0 !important;
   }
 
-  tbody tr:nth-child(odd):hover td {
-    background: #ffffff !important;
-  }
-
-  tbody tr:nth-child(even):hover td {
-    background: #f2f5f9 !important;
-  }
-
   tbody tr > td:first-of-type {
     border-left: 0 !important;
   }
@@ -1913,6 +1905,10 @@ body:has(#fs737) {
       border: 1px solid rgba(15, 57, 95, 0.12) !important;
       border-top: 0 !important;
       border-radius: 0 0 6px 6px !important;
+    }
+
+    .center-block.table-responsive:has(> table:first-child .pagination) {
+      padding-right: 0 !important;
     }
 
     table.sortable.table-curved,
@@ -1989,6 +1985,11 @@ body:has(#fs737) {
       border-bottom: 1px solid rgba(15, 57, 95, 0.10) !important;
     }
 
+    .center-block.table-responsive > table:first-child:has(.pagination) > tbody > tr > td::before {
+      display: none !important;
+      content: none !important;
+    }
+
     tfoot td > input[type="button"] {
       font-size: 12px !important;
     }
@@ -2046,14 +2047,6 @@ body:has(#fs737) {
     border-radius: 0 !important;
   }
 
-  tbody tr:nth-child(odd):hover td {
-    background: #ffffff !important;
-  }
-
-  tbody tr:nth-child(even):hover td {
-    background: #f2f5f9 !important;
-  }
-
   tbody tr > td:first-of-type {
     border-left: 0 !important;
   }
@@ -2078,14 +2071,6 @@ body:has(#fs737) {
   thead th:first-of-type,
   thead th:last-of-type {
     border-radius: 0 !important;
-  }
-
-  tbody tr:nth-child(odd):hover td {
-    background: #ffffff !important;
-  }
-
-  tbody tr:nth-child(even):hover td {
-    background: #f2f5f9 !important;
   }
 
   tbody tr > td:first-of-type {
@@ -2172,14 +2157,6 @@ body:has(#fs737) {
   thead th:first-of-type,
   thead th:last-of-type {
     border-radius: 0 !important;
-  }
-
-  tbody tr:nth-child(odd):hover td {
-    background: #ffffff !important;
-  }
-
-  tbody tr:nth-child(even):hover td {
-    background: #f2f5f9 !important;
   }
 
   tbody tr > td:first-of-type {

@@ -70,7 +70,6 @@
 
   @media (max-width: 1140px) {
     .center-block {
-      width: calc(100% - 40px) !important;
       margin: 0 auto !important;
       box-sizing: border-box;
     }
@@ -80,6 +79,7 @@
     padding: 0 !important;
 
     .center-block {
+      width: calc(100% - 40px) !important;
       padding: 0 !important;
       border-radius: 0;
       overflow-x: hidden;
