@@ -1,21 +1,69 @@
 // -----------------------------------------------------------------------------
-// Upload Account Balances
+// Money - upload account balances
 // -----------------------------------------------------------------------------
 
-#fs956 {
-  @include detail-form-stacked-mobile;
+body:has(#Menu_Item_ID[value="362"]):has(#Form_ID[value="323"]) {
+  .page-title { width: 100%; margin: 0 auto 16px !important; padding: 10px 20px 0; box-sizing: border-box; color: $navy-700; text-align: left !important; }
+  br { display: none; }
+
+  #fs956 {
+    margin: 0 0 16px !important;
+
+    @include detail-form-shell;
+
+    .center-block { width: 100% !important; max-width: 760px !important; margin: 0 !important; }
+    table.no-border { width: 100%; table-layout: auto; border: 0 !important; background: transparent !important; }
+    .bodyheading { display: none !important; }
+    table.no-border tr:not(:is(#DIVENTRY454350, #DIVENTRY454916)) td { padding: 0 0 12px !important; border: 0 !important; background: transparent !important; color: $text-mid; line-height: 1.5; text-align: left !important; }
+    :is(#DIVENTRY454350, #DIVENTRY454916) > td { padding: 12px 16px !important; border: 0 !important; color: $text-dark; vertical-align: middle; }
+    #DIVENTRY454350 > td { border-top: 1px solid rgba(15, 57, 95, 0.16) !important; background: #ffffff !important; }
+    #DIVENTRY454916 > td { border-bottom: 1px solid rgba(15, 57, 95, 0.16) !important; background: #f2f5f9 !important; }
+    :is(#DIVENTRY454350, #DIVENTRY454916) > td:first-child { width: 180px !important; border-left: 1px solid rgba(15, 57, 95, 0.16) !important; text-align: right !important; }
+    :is(#DIVENTRY454350, #DIVENTRY454916) > td:last-child { border-right: 1px solid rgba(15, 57, 95, 0.16) !important; }
+    #DIVENTRY454350 > td:first-child { border-radius: 6px 0 0 0; }
+    #DIVENTRY454350 > td:last-child { border-radius: 0 6px 0 0; }
+    #DIVENTRY454916 > td:first-child { border-radius: 0 0 0 6px; }
+    #DIVENTRY454916 > td:last-child { border-radius: 0 0 6px 0; }
+    .control-label { margin: 0 !important; font-size: 14px !important; font-style: italic !important; font-weight: 400 !important; }
+    .form-control { margin: 0 !important; color: $text-dark; background: #ffffff !important; font-size: 14px; }
+    #ENTRY454350 { width: 100% !important; min-width: 0 !important; max-width: 100% !important; }
+    #DIVENTRY454916 > td.text-left { display: flex; align-items: center; gap: 8px; }
+    #ENTRY454916 { width: 160px !important; max-width: calc(100% - 34px) !important; }
+    #ENTRY454916 + a { display: inline-flex; flex: 0 0 20px; align-items: center; }
+  }
+
+  #fs957 {
+    margin: 0 0 16px !important;
+
+    .center-block { width: 100% !important; max-width: 760px !important; margin: 0 !important; }
+    .text-center { display: flex !important; justify-content: flex-start !important; text-align: left !important; }
+    .text-center > span { display: inline-flex !important; margin: 0 !important; }
+    .text-center > span:empty { display: none !important; }
+    .btn { min-height: 40px; margin: 0 !important; padding: 9px 16px !important; border-radius: 6px; font-size: 13px; font-weight: 700; line-height: 1.2; }
+  }
+
+  #fs958 {
+    margin-bottom: 20px !important;
+
+    .center-block { width: 100% !important; max-width: 760px !important; margin: 0 !important; padding: 11px 14px !important; border-left: 3px solid $navy-700; background: #fbfdff; box-sizing: border-box; }
+    table.no-border { width: 100%; }
+    td { padding: 0 !important; color: $text-mid; font-size: 13px; line-height: 1.5; text-align: left !important; }
+  }
 
   @media (max-width: 767px) {
-    #ENTRY454916 {
-      display: inline-block !important;
-      width: calc(100% - 34px) !important;
-      max-width: 160px !important;
-      vertical-align: middle;
-    }
-
-    #ENTRY454916 + a {
-      display: inline-block;
-      vertical-align: middle;
-    }
+    #fs956,
+    #fs957,
+    #fs958 { padding-right: 20px !important; padding-left: 20px !important; }
+    #fs956 .center-block,
+    #fs957 .center-block,
+    #fs958 .center-block { width: 100% !important; max-width: none !important; }
+    #fs956 :is(#DIVENTRY454350, #DIVENTRY454916) { display: block !important; }
+    #fs956 :is(#DIVENTRY454350, #DIVENTRY454916) > td { display: block !important; width: 100% !important; max-width: none !important; padding: 10px 12px !important; box-sizing: border-box; text-align: left !important; }
+    #fs956 :is(#DIVENTRY454350, #DIVENTRY454916) > td:first-child { border-right: 1px solid rgba(15, 57, 95, 0.16) !important; border-radius: 0 !important; }
+    #fs956 #DIVENTRY454350 > td:first-child { border-radius: 6px 6px 0 0 !important; }
+    #fs956 #DIVENTRY454916 > td:last-child { border-radius: 0 0 6px 6px !important; }
+    #fs956 #DIVENTRY454916 > td.text-left { display: flex !important; width: auto !important; max-width: none !important; }
+    #fs956 #ENTRY454916 { width: calc(100% - 34px) !important; max-width: none !important; }
+    #fs957 .btn { width: 100% !important; }
   }
 }

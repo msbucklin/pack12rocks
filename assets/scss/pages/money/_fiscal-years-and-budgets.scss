@@ -1,0 +1,47 @@
+// -----------------------------------------------------------------------------
+// Money - fiscal years and budgets
+// -----------------------------------------------------------------------------
+
+body:has(#Menu_Item_ID[value="7635"]):has(#Form_ID[value="7414"]) {
+  --fiscal-year-border: rgba(15, 57, 95, 0.16);
+
+  .page-title { width: 100%; margin: 0 auto 16px !important; padding: 10px 20px 0; box-sizing: border-box; color: $navy-700; text-align: left !important; }
+
+  :is(#fs24371, #fs24372 ~ .new-row) {
+    margin-bottom: 20px !important;
+
+    .center-block { width: 100% !important; max-width: 100% !important; margin: 0 !important; }
+    .text-center { display: flex !important; flex-wrap: wrap; justify-content: flex-start !important; gap: 8px; text-align: left !important; }
+    .text-center > span { display: inline-flex !important; margin: 0 !important; }
+    .text-center > span:empty { display: none !important; }
+    .btn { min-width: 100px; min-height: 40px; margin: 0 !important; padding: 9px 16px !important; border-radius: 6px; font-size: 13px; font-weight: 700; line-height: 1.2; }
+  }
+
+  #fs24372 {
+    margin-bottom: 20px !important;
+
+    .center-block.table-responsive { width: 100% !important; max-width: 100% !important; margin: 0 !important; overflow-x: auto; }
+    #sortablegrid24372 { width: 100% !important; min-width: 700px; margin: 0; overflow: hidden; border: 1px solid var(--fiscal-year-border) !important; border-collapse: separate !important; border-spacing: 0; border-radius: 0 !important; background: #ffffff; }
+    #sortablegrid24372 > thead > tr > th { padding: 11px 12px !important; border: 0 !important; border-right: 1px solid rgba(13, 59, 114, 0.05) !important; border-bottom: 1px solid rgba(13, 59, 114, 0.05) !important; border-left: 1px solid rgba(13, 59, 114, 0.05) !important; border-radius: 0 !important; color: $text-dark !important; background: #eaf3ff !important; font-size: 13px; font-weight: 700; text-align: left; vertical-align: middle; }
+    #sortablegrid24372 > tbody > tr > td { padding: 14px 12px !important; border: 0 !important; border-bottom: 1px solid rgba(15, 57, 95, 0.09) !important; color: $text-dark; background: #ffffff !important; font-size: 13px; text-align: left !important; vertical-align: middle; overflow-wrap: anywhere; }
+    #sortablegrid24372 > tbody > tr:nth-of-type(even) > td { background: #f7faff !important; }
+    #sortablegrid24372 > tbody > tr:last-child > td { border-bottom: 0 !important; }
+  }
+
+  @media (max-width: 767px) {
+    #fs24371,
+    #fs24372,
+    #fs24372 ~ .new-row { padding-right: 20px !important; padding-left: 20px !important; }
+
+    :is(#fs24371, #fs24372 ~ .new-row) .text-center { display: grid !important; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    :is(#fs24371, #fs24372 ~ .new-row) .text-center > span,
+    :is(#fs24371, #fs24372 ~ .new-row) .btn { width: 100% !important; min-width: 0 !important; }
+
+    #fs24372 .center-block.table-responsive { overflow: hidden !important; padding-right: 0 !important; }
+    #sortablegrid24372,
+    #sortablegrid24372 > tbody { display: block; width: 100% !important; min-width: 0 !important; max-width: 100%; border: 0 !important; background: transparent; }
+    #sortablegrid24372 > thead { display: none; }
+    #sortablegrid24372 > tbody > tr { display: block !important; width: 100% !important; margin-bottom: 10px; overflow: hidden; border: 1px solid var(--fiscal-year-border) !important; border-radius: 6px; background: #ffffff; box-sizing: border-box; }
+    #sortablegrid24372 > tbody > tr > td { display: block !important; width: 100% !important; padding: 14px 12px !important; border: 0 !important; background: transparent !important; text-align: center !important; box-sizing: border-box; }
+  }
+}

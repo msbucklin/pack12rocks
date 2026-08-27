@@ -1,0 +1,77 @@
+// -----------------------------------------------------------------------------
+// Money - individual transaction query
+// -----------------------------------------------------------------------------
+
+body:has(#Menu_Item_ID[value="352"]):has(#Form_ID[value="5803"]) {
+  --money-query-border: rgba(15, 57, 95, 0.16);
+
+  .page-title,
+  h3 {
+    width: 100%;
+    box-sizing: border-box;
+    color: $navy-700;
+    text-align: left !important;
+  }
+
+  .page-title { margin: 0 auto 8px !important; padding: 10px 20px 0; }
+  h3 { margin: 0 0 12px !important; padding: 0 20px; font-size: 16px !important; font-weight: 700 !important; }
+
+  #fs19515 {
+    margin: 0 0 16px !important;
+
+    .center-block.search-container {
+      width: 100% !important;
+      max-width: 100% !important;
+      margin: 0 !important;
+    }
+
+    table.no-border {
+      width: 100%;
+      border: 1px solid var(--money-query-border) !important;
+      border-collapse: separate;
+      border-spacing: 0;
+      border-radius: 6px;
+      overflow: hidden;
+      background: #ffffff;
+      table-layout: fixed;
+    }
+
+    table.no-border > tbody > tr > td { padding: 10px 12px !important; vertical-align: middle; }
+    table.no-border > tbody > tr:not(:has(hr)):nth-of-type(4n + 1) { background: #f7faff; }
+    table.no-border > tbody > tr > td:first-child { width: 30%; color: $text-dark; text-align: right !important; }
+    table.no-border > tbody > tr > td:nth-child(2) { width: 160px; border-left: 1px solid rgba(15, 57, 95, 0.09); }
+    table.no-border > tbody > tr > td:nth-child(3) { border-left: 1px solid rgba(15, 57, 95, 0.09); }
+    table.no-border > tbody > tr:has(hr) > td { padding: 0 !important; }
+    table.no-border hr { margin: 0 !important; border-color: rgba(15, 57, 95, 0.09); }
+
+    .control-label { margin: 0 !important; font-size: 14px; font-style: italic; font-weight: 400; }
+    .form-control { width: 100% !important; min-width: 0 !important; max-width: 100% !important; margin: 0 !important; box-sizing: border-box; }
+    select.form-control { min-height: 40px; }
+    select.form-control[multiple] { min-height: 92px; }
+    .entrypostscript { display: block; margin-top: 5px; color: $text-mid; font-size: 12px; }
+  }
+
+  #fs19516 {
+    margin: 0 0 16px !important;
+
+    .center-block { width: 100% !important; max-width: 100% !important; margin: 0 !important; }
+    .text-center { display: flex !important; justify-content: flex-start !important; text-align: left !important; }
+    .text-center > span { display: inline-flex !important; margin: 0 !important; }
+    .btn { min-width: 100px; min-height: 40px; margin: 0 !important; padding: 9px 16px !important; border-radius: 6px; font-size: 13px; font-weight: 700; line-height: 1.2; }
+  }
+
+  @media (max-width: 767px) {
+    #fs19515,
+    #fs19516 { padding-right: 20px !important; padding-left: 20px !important; }
+
+    #fs19515 table.no-border,
+    #fs19515 table.no-border > tbody { display: block; width: 100% !important; }
+    #fs19515 table.no-border > tbody > tr:not(:has(hr)) { display: grid !important; grid-template-columns: minmax(0, 1fr); width: 100%; margin-bottom: 10px; border: 1px solid var(--money-query-border); border-radius: 6px; overflow: hidden; background: #ffffff; box-sizing: border-box; }
+    #fs19515 table.no-border > tbody > tr:has(hr) { display: none !important; }
+    #fs19515 table.no-border > tbody > tr > td { display: block !important; width: 100% !important; max-width: 100% !important; padding: 8px 12px !important; border: 0 !important; box-sizing: border-box; text-align: left !important; }
+    #fs19515 table.no-border > tbody > tr > td:first-child { padding-top: 11px !important; padding-bottom: 4px !important; color: $navy-700; }
+    #fs19515 table.no-border > tbody > tr > td:nth-child(3) { padding-top: 4px !important; padding-bottom: 11px !important; }
+    #fs19515 .control-label { display: block; text-align: left !important; }
+    #fs19516 .btn { width: 100% !important; min-width: 0 !important; }
+  }
+}

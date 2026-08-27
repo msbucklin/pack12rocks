@@ -1,0 +1,103 @@
+// -----------------------------------------------------------------------------
+// Money - email account balances
+// -----------------------------------------------------------------------------
+
+body:has(#Menu_Item_ID[value="356"]):has(#Form_ID[value="335"]) {
+  --balance-email-border: rgba(15, 57, 95, 0.12);
+  --balance-email-panel: #fbfdff;
+
+  .page-title {
+    width: 100%;
+    margin: 0 auto 16px !important;
+    padding: 10px 20px 0;
+    box-sizing: border-box;
+    color: $navy-700;
+    text-align: left !important;
+  }
+
+  :is(#fs1012, #fs20250, #fs20252) {
+    margin: 0 0 14px !important;
+
+    @include detail-form-shell;
+    @include detail-form-table-labels;
+    @include detail-form-stacked-mobile;
+
+    .center-block { width: 100% !important; max-width: 100% !important; margin: 0 !important; }
+    table.no-border { table-layout: auto; }
+    table.no-border td:first-child { width: auto !important; max-width: none !important; }
+    .form-control { width: 100% !important; min-width: 0 !important; max-width: 100% !important; box-sizing: border-box; }
+    input[type="file"].form-control { min-height: 40px; padding: 8px 10px !important; }
+  }
+
+  #fs1012 {
+    table.no-border > tbody > tr > td.text-center { padding: 14px 16px !important; color: $text-mid; font-size: 13px; line-height: 1.5; text-align: left !important; }
+    .cke { width: 100% !important; max-width: 100% !important; overflow: hidden; border-color: var(--balance-email-border) !important; border-radius: 6px; box-shadow: none !important; box-sizing: border-box; }
+    .cke_top { white-space: normal; }
+  }
+
+  #fs20252 input[type="checkbox"] {
+    width: 20px !important;
+    min-width: 20px !important;
+    min-height: 20px !important;
+    height: 20px !important;
+    margin: 0 !important;
+    accent-color: $navy-700;
+  }
+
+  :is(#fs20251, #fs8099, #fs1013) {
+    margin: 0 0 16px !important;
+
+    .center-block { width: 100% !important; max-width: 100% !important; margin: 0 !important; }
+    .text-center { display: flex !important; flex-wrap: wrap; justify-content: flex-start !important; gap: 8px; text-align: left !important; }
+    .text-center > span { display: inline-flex !important; margin: 0 !important; }
+    .btn { min-width: 92px; min-height: 40px; margin: 0 !important; padding: 9px 16px !important; border-radius: 6px; font-size: 13px; font-weight: 700; line-height: 1.2; }
+  }
+
+  #fs1015 {
+    margin: 0 0 12px !important;
+
+    .center-block { width: 100% !important; max-width: 100% !important; margin: 0 !important; padding: 11px 14px !important; border-left: 3px solid $navy-700; background: var(--balance-email-panel); box-sizing: border-box; }
+    p { margin: 0 !important; color: $text-mid; font-size: 13px; line-height: 1.5; }
+  }
+
+  #fs1014 {
+    margin-bottom: 16px !important;
+
+    .center-block { width: 100% !important; max-width: 100% !important; margin: 0 !important; }
+    table.sortable { width: 100% !important; margin: 0; overflow: hidden; border: 1px solid var(--balance-email-border) !important; border-collapse: separate !important; border-spacing: 0; border-radius: 6px; background: #ffffff; }
+    table.sortable > thead > tr > th { padding: 11px 12px !important; border: 0 !important; border-bottom: 1px solid var(--balance-email-border) !important; color: $text-dark !important; background: #eaf3ff !important; font-size: 13px; font-weight: 700; text-align: left; vertical-align: middle; }
+    table.sortable > tbody > tr > td { padding: 10px 12px !important; border: 0 !important; border-bottom: 1px solid rgba(15, 57, 95, 0.09) !important; color: $text-dark; background: #ffffff !important; font-size: 13px; text-align: left !important; vertical-align: middle; }
+    table.sortable > tbody > tr:nth-of-type(even) > td { background: #f7faff !important; }
+    table.sortable input[type="checkbox"].form-control { width: 20px !important; min-height: 20px !important; height: 20px !important; margin: 0 auto !important; padding: 0 !important; accent-color: $navy-700; }
+    .sortheader { color: $navy-700 !important; }
+  }
+
+  @media (max-width: 767px) {
+    :is(#fs1012, #fs20250, #fs20251, #fs8099, #fs1015, #fs20252, #fs1014, #fs1013) { padding-right: 20px !important; padding-left: 20px !important; }
+    #fs1012 table.no-border > tbody > tr > td.text-center { padding: 12px 14px !important; }
+
+    #fs20252 #DIVENTRY5577811 { display: grid !important; grid-template-columns: 20px minmax(0, 1fr); align-items: center; column-gap: 10px; padding-left: 20px !important; box-sizing: border-box; }
+    #fs20252 #DIVENTRY5577811 > td.text-right { grid-column: 2; grid-row: 1; width: auto !important; max-width: none !important; padding: 10px 0 0 !important; text-align: left !important; }
+    #fs20252 #DIVENTRY5577811 > td.text-left { grid-column: 1; grid-row: 1; display: flex !important; align-items: center; width: 20px !important; max-width: 20px !important; padding: 0 !important; border: 0 !important; }
+
+    :is(#fs20251, #fs8099, #fs1013) .text-center { display: grid !important; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    :is(#fs20251, #fs8099, #fs1013) .text-center > span,
+    :is(#fs20251, #fs8099, #fs1013) .btn { width: 100% !important; min-width: 0 !important; }
+    #fs20251 .text-center > span:first-child { grid-column: 1 / -1; }
+
+    #fs1014 .center-block { overflow: visible !important; }
+    #fs1014 table.sortable,
+    #fs1014 table.sortable > tbody { display: block; width: 100% !important; border: 0 !important; background: transparent; }
+    #fs1014 table.sortable > thead { display: block; width: 100% !important; }
+    #fs1014 table.sortable > thead > tr { display: block; margin-bottom: 10px; padding: 10px 12px; border: 1px solid var(--balance-email-border); border-radius: 6px; background: #eaf3ff; }
+    #fs1014 table.sortable > thead > tr > th { display: none !important; }
+    #fs1014 table.sortable > thead > tr > th:first-child { display: flex !important; align-items: center; gap: 10px; width: 100% !important; padding: 0 !important; border: 0 !important; background: transparent !important; text-align: left !important; }
+    #fs1014 table.sortable > thead > tr > th:first-child::after { content: "Select all recipients"; color: $navy-700; font-size: 13px; font-weight: 700; }
+    #fs1014 table.sortable > tbody { display: block; width: 100% !important; }
+    #fs1014 table.sortable > tbody > input[type="hidden"] { display: none; }
+    #fs1014 table.sortable > tbody > tr { display: grid !important; grid-template-columns: 28px minmax(0, 1fr); align-items: center; gap: 10px; width: 100%; min-height: 44px; margin-bottom: 6px; padding: 8px 12px; border: 1px solid var(--balance-email-border); border-radius: 6px; background: #ffffff; box-shadow: 0 2px 7px rgba(15, 57, 95, 0.06); box-sizing: border-box; }
+    #fs1014 table.sortable > tbody > tr > td { display: none !important; width: auto !important; min-width: 0 !important; max-width: 100% !important; padding: 0 !important; border: 0 !important; background: transparent !important; overflow-wrap: anywhere; }
+    #fs1014 table.sortable > tbody > tr > td:first-of-type { display: block !important; grid-column: 1; grid-row: 1; width: 28px !important; }
+    #fs1014 table.sortable > tbody > tr > td:nth-of-type(2) { display: block !important; grid-column: 2; grid-row: 1; width: 100% !important; color: $navy-700 !important; font-size: 14px !important; font-weight: 700 !important; text-align: left !important; }
+  }
+}

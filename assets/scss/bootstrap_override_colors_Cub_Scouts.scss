@@ -53,9 +53,23 @@
 @import "pages/membership/inactive-members";
 @import "pages/membership/member";
 @import "pages/membership/membership-hub";
+@import "pages/membership/quick-dial";
 
 @import "pages/money/transaction-add";
 @import "pages/money/transaction-lists";
+@import "pages/money/group-transactions";
+@import "pages/money/individual-transactions";
+@import "pages/money/expense-reimbursement-requests";
+@import "pages/money/email-account-balances";
+@import "pages/money/account-update";
+@import "pages/money/group-account-balances";
+@import "pages/money/member-account-balances";
+@import "pages/money/member-balance";
+@import "pages/money/event-balances";
+@import "pages/money/reconciliation-statement";
+@import "pages/money/online-payment-history";
+@import "pages/money/fiscal-years-and-budgets";
+@import "pages/money/query";
 @import "pages/money/upload-account-balances";
 @import "pages/money/member-balance-details";
 
