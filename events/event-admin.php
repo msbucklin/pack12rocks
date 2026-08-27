@@ -502,7 +502,7 @@
           <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="140" id="BUTTON4" type="button" name="preselect" title="Invite Undecideds" value="Invite Undecideds" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=1208&amp;PreselectID=581&amp;FK=581&amp;Stack=3','');">
           </span>
           <span style="display:inline;">
-          <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="150" id="BUTTON5" type="button" name="update" title="Update This Event" value="Update This Event" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=318&amp;Form_ID=167&amp;ID=581&amp;Stack=3','');">
+          <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="150" id="BUTTON5" type="button" name="update" title="Update This Event" value="Update This Event" onclick="LinkTo('event-edit-details.php','');">
           </span>
           <span style="display:inline;">
           <input class="btn btn-sm btn-danger" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="160" id="BUTTON6" type="button" name="delete" title="Delete This Event" value="Delete This Event" onclick="buttonlink(this,'N');">

@@ -6,20 +6,6 @@
     5/6/20  JC  V12  Bypass errors when menu is not included on current page
 */
 
-function easyNormalizeExportLabels() {
-    var exportbuttons = document.querySelectorAll('input[type="button"][value="Print (Export to PDF)"]');
-    for (var buttonindex = 0; buttonindex < exportbuttons.length; buttonindex++) {
-        exportbuttons[buttonindex].value = 'Export to PDF';
-    }
-}
-
-if (document.readyState == 'loading') {
-    document.addEventListener('DOMContentLoaded', easyNormalizeExportLabels);
-}
-else {
-    easyNormalizeExportLabels();
-}
-
 
 function SetAction(obj) {
     var Hover_Action = document.getElementById('Hover_Action');
@@ -991,7 +977,7 @@ function buttonlink(control, reportflag) {
     if (reportflag == 'Y') {
         var pop = document.getElementById('ModalReportPop');
         var popup = document.getElementById('ModalReport');
-        pop.innerHTML = '<a onclick="easySetReportFormatPDF();">Export to PDF</a><br><br><a onclick="easySetReportFormatXLS();">Open in Excel</a>';
+        pop.innerHTML = '<a onclick="easySetReportFormatPDF();">Print (Export to PDF)</a><br><br><a onclick="easySetReportFormatXLS();">Open in Excel</a>';
         $("#ModalReport").modal("show");
     }
     else {

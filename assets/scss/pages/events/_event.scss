@@ -134,7 +134,8 @@ body:has(#fs737) {
     }
   }
 
-  tr:has(td.text-left > input[type="hidden"] + span:empty) {
+  #DIVENTRY37042,
+  #DIVENTRY4860469 {
     display: none !important;
   }
 
@@ -1821,6 +1822,13 @@ body:has(#fs737) {
 
     .center-block table.no-border td:last-child {
       padding-top: 4px !important;
+    }
+
+    .center-block table.no-border td.text-left b,
+    .center-block table.no-border td.text-left strong,
+    .center-block table.no-border td.text-left em {
+      font-weight: 400 !important;
+      font-style: normal !important;
     }
   }
 }
