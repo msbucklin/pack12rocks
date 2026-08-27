@@ -75,14 +75,14 @@ table.sortable.table-curved {
   }
 }
 
-table tfoot td:has(> input[type="button"][value="Print (Export to PDF)"]) {
+table tfoot td:has(> input[type="button"][value="Export to PDF"]) {
   padding: 14px 12px !important;
   border: 0 !important;
   border-top: 1px solid rgba(13, 59, 114, 0.12) !important;
   background: #f7faff !important;
   text-align: center !important;
 
-  > input[type="button"][value="Print (Export to PDF)"],
+  > input[type="button"][value="Export to PDF"],
   > input[type="button"][value="Open in Excel"] {
     display: inline-flex !important;
     min-height: 40px;
@@ -242,14 +242,14 @@ select.rows-per-page:focus {
 @media (max-width: 767px) {
   table.sortable.table-curved tfoot,
   table.sortable.table-curved tfoot tr,
-  table.sortable.table-curved tfoot td:has(> input[type="button"][value="Print (Export to PDF)"]) {
+  table.sortable.table-curved tfoot td:has(> input[type="button"][value="Export to PDF"]) {
     //display: block;
     //width: 100% !important;
     //max-width: 100%;
     //box-sizing: border-box;
   }
 
-  table.sortable.table-curved tfoot td:has(> input[type="button"][value="Print (Export to PDF)"]) {
+  table.sortable.table-curved tfoot td:has(> input[type="button"][value="Export to PDF"]) {
     border-left: 1px solid rgba(13, 59, 114, 0.12) !important;
     border-right: 1px solid rgba(13, 59, 114, 0.12) !important;
     border-bottom: 1px solid rgba(13, 59, 114, 0.12) !important;

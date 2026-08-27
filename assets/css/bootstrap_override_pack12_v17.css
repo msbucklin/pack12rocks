@@ -1139,15 +1139,15 @@ table.sortable.table-curved td input[type=button] {
   word-break: normal;
 }
 
-table tfoot td:has(> input[type=button][value="Export to PDF"]) {
+table tfoot td:has(> input[type=button][value="Print (Export to PDF)"]) {
   padding: 14px 12px !important;
   border: 0 !important;
   border-top: 1px solid rgba(13, 59, 114, 0.12) !important;
   background: #f7faff !important;
   text-align: center !important;
 }
-table tfoot td:has(> input[type=button][value="Export to PDF"]) > input[type=button][value="Export to PDF"],
-table tfoot td:has(> input[type=button][value="Export to PDF"]) > input[type=button][value="Open in Excel"] {
+table tfoot td:has(> input[type=button][value="Print (Export to PDF)"]) > input[type=button][value="Print (Export to PDF)"],
+table tfoot td:has(> input[type=button][value="Print (Export to PDF)"]) > input[type=button][value="Open in Excel"] {
   display: inline-flex !important;
   min-height: 40px;
   align-items: center;
@@ -1163,7 +1163,7 @@ table tfoot td:has(> input[type=button][value="Export to PDF"]) > input[type=but
   line-height: 1.2 !important;
   box-shadow: 0 3px 8px rgba(13, 31, 54, 0.08) !important;
 }
-table tfoot td:has(> input[type=button][value="Export to PDF"]) > input[type=button][value="Open in Excel"] {
+table tfoot td:has(> input[type=button][value="Print (Export to PDF)"]) > input[type=button][value="Open in Excel"] {
   color: #0d3b72 !important;
   background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%) !important;
 }
@@ -1295,7 +1295,7 @@ select.rows-per-page:focus {
 }
 
 @media (max-width: 767px) {
-  table.sortable.table-curved tfoot td:has(> input[type=button][value="Export to PDF"]) {
+  table.sortable.table-curved tfoot td:has(> input[type=button][value="Print (Export to PDF)"]) {
     border-left: 1px solid rgba(13, 59, 114, 0.12) !important;
     border-right: 1px solid rgba(13, 59, 114, 0.12) !important;
     border-bottom: 1px solid rgba(13, 59, 114, 0.12) !important;
@@ -5233,6 +5233,18 @@ body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(7
   #fs5742 tbody td:nth-of-type(4)::before {
     content: "Comment";
   }
+  #fs5742 tbody tr:has(> td[id$=DATA54694]) > td:nth-of-type(2) {
+    display: none !important;
+  }
+  #fs5742 tbody td[id$=DATA54694]::before {
+    content: "Explanation";
+  }
+  #fs5742 tbody td[id$=DATA29714]::before {
+    content: "Additional Guests";
+  }
+  #fs5742 tbody td[id$=DATA21832]::before {
+    content: "Comment";
+  }
   #fs5742 tbody td:nth-of-type(1) {
     font-size: 15px;
     font-weight: 700;
@@ -5276,7 +5288,9 @@ body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(7
     flex: 0 0 auto;
   }
   #fs5742 tbody td:nth-of-type(3) input,
-  #fs5742 tbody td:nth-of-type(4) input {
+  #fs5742 tbody td:nth-of-type(4) input,
+  #fs5742 tbody td[id$=DATA29714] input,
+  #fs5742 tbody td[id$=DATA21832] input {
     min-width: 0 !important;
     max-width: 100% !important;
     height: 42px;
@@ -5526,7 +5540,7 @@ body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(7
 @media (max-width: 767px) {
   #fs726 .center-block table.no-border tbody tr {
     display: grid !important;
-    grid-template-columns: minmax(125px, 42%) minmax(0, 1fr);
+    grid-template-columns: 1fr;
     align-items: stretch;
     margin-bottom: 0;
   }
@@ -5538,20 +5552,17 @@ body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(7
     padding: 9px 12px !important;
   }
   #fs726 .center-block table.no-border td:first-child {
-    justify-content: flex-end;
-    border-right: 1px solid rgba(15, 57, 95, 0.12) !important;
+    justify-content: flex-start;
+    padding-bottom: 4px !important;
+    border-right: 0 !important;
   }
   #fs726 .center-block table.no-border .control-label {
     width: 100%;
     margin: 0 !important;
-    text-align: right !important;
+    text-align: left !important;
   }
-  #fs726 .center-block table.no-border tr:has(img, iframe, video, object, embed) {
-    grid-template-columns: 1fr;
-  }
-  #fs726 .center-block table.no-border tr:has(img, iframe, video, object, embed) td:first-child {
-    border-right: 0 !important;
-    border-bottom: 1px solid rgba(15, 57, 95, 0.12) !important;
+  #fs726 .center-block table.no-border td:last-child {
+    padding-top: 4px !important;
   }
 }
 
@@ -5700,7 +5711,9 @@ body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(7
     gap: 6px 12px;
   }
   #fs5742 tbody td:nth-of-type(3) input,
-  #fs5742 tbody td:nth-of-type(4) input {
+  #fs5742 tbody td:nth-of-type(4) input,
+  #fs5742 tbody td[id$=DATA29714] input,
+  #fs5742 tbody td[id$=DATA21832] input {
     height: 38px;
     margin: 0 !important;
     border-radius: 8px;
@@ -5721,12 +5734,10 @@ body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(7
 @media (max-width: 767px) {
   #fs730 .center-block.table-responsive {
     overflow: hidden !important;
+    padding-right: 0 !important;
     border: 1px solid rgba(15, 57, 95, 0.12) !important;
     border-top: 0 !important;
     border-radius: 0 0 6px 6px !important;
-  }
-  #fs730 .center-block.table-responsive:has(> table:first-child .pagination) {
-    padding-right: 0 !important;
   }
   #fs730 table.sortable.table-curved,
   #fs730 table.sortable.table-curved > tbody {
@@ -5780,18 +5791,18 @@ body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(7
     font-size: 10px;
     line-height: 1.15;
   }
-  #fs730 .center-block.table-responsive > table:first-child:has(.pagination),
-  #fs730 .center-block.table-responsive > table:first-child:has(.pagination) > tbody,
-  #fs730 .center-block.table-responsive > table:first-child:has(.pagination) > tbody > tr,
-  #fs730 .center-block.table-responsive > table:first-child:has(.pagination) > tbody > tr > td {
+  #fs730 .center-block.table-responsive > table:first-child:not(.sortable),
+  #fs730 .center-block.table-responsive > table:first-child:not(.sortable) > tbody,
+  #fs730 .center-block.table-responsive > table:first-child:not(.sortable) > tbody > tr,
+  #fs730 .center-block.table-responsive > table:first-child:not(.sortable) > tbody > tr > td {
     border: 0 !important;
     border-radius: 0 !important;
     box-shadow: none !important;
   }
-  #fs730 .center-block.table-responsive > table:first-child:has(.pagination) > tbody > tr:last-child > td {
+  #fs730 .center-block.table-responsive > table:first-child:not(.sortable) > tbody > tr:last-child > td {
     border-bottom: 1px solid rgba(15, 57, 95, 0.1) !important;
   }
-  #fs730 .center-block.table-responsive > table:first-child:has(.pagination) > tbody > tr > td::before {
+  #fs730 .center-block.table-responsive > table:first-child:not(.sortable) > tbody > tr > td::before {
     display: none !important;
     content: none !important;
   }
@@ -5942,6 +5953,112 @@ body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(7
 }
 #fs22661 tbody tr > td:first-of-type {
   border-left: 0 !important;
+}
+
+body:has(#Menu_Item_ID[value="324"]) .new-row:not(:has(~ .new-row)) {
+  margin-top: 10px !important;
+}
+body:has(#Menu_Item_ID[value="324"]) .new-row:not(:has(~ .new-row)) input[type=button],
+body:has(#Menu_Item_ID[value="324"]) .new-row:not(:has(~ .new-row)) .btn {
+  margin-right: 10px !important;
+  margin-bottom: 10px !important;
+}
+body:has(#Menu_Item_ID[value="324"]) #fs372 {
+  padding-bottom: 10px !important;
+}
+body:has(#Menu_Item_ID[value="324"]) #fs372 .btn {
+  margin-right: 10px !important;
+  margin-bottom: 10px !important;
+}
+@media (max-width: 767px) {
+  body:has(#Menu_Item_ID[value="324"]) #fs373 .rows-per-page {
+    padding: 10px 15px !important;
+  }
+  body:has(#Menu_Item_ID[value="324"]) #fs373 .pagination {
+    padding: 0 15px 15px 0 !important;
+  }
+  body:has(#Menu_Item_ID[value="324"]) #fs373 .center-block.table-responsive {
+    overflow: hidden !important;
+    padding: 0 !important;
+    border: 1px solid rgba(15, 57, 95, 0.12) !important;
+    border-radius: 6px !important;
+  }
+  body:has(#Menu_Item_ID[value="324"]) #fs373 .center-block.table-responsive > table:first-child,
+  body:has(#Menu_Item_ID[value="324"]) #fs373 .center-block.table-responsive > table:first-child > tbody,
+  body:has(#Menu_Item_ID[value="324"]) #fs373 .center-block.table-responsive > table:first-child > tbody > tr,
+  body:has(#Menu_Item_ID[value="324"]) #fs373 .center-block.table-responsive > table:first-child > tbody > tr > td {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+    border: 0 !important;
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="324"]) #sortablegrid373 {
+    display: block !important;
+    width: 100% !important;
+    margin: 0 !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+  }
+  body:has(#Menu_Item_ID[value="324"]) #sortablegrid373 > thead {
+    display: none !important;
+  }
+  body:has(#Menu_Item_ID[value="324"]) #sortablegrid373 > tbody {
+    display: block !important;
+    width: 100% !important;
+  }
+  body:has(#Menu_Item_ID[value="324"]) #sortablegrid373 > tbody > tr {
+    display: grid !important;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 10px;
+    width: 100% !important;
+    padding: 10px 12px !important;
+    border: 0 !important;
+    border-bottom: 1px solid rgba(15, 57, 95, 0.1) !important;
+    background: #ffffff !important;
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="324"]) #sortablegrid373 > tbody > tr:last-child {
+    border-bottom: 0 !important;
+  }
+  body:has(#Menu_Item_ID[value="324"]) #sortablegrid373 > tbody > tr > td {
+    display: none !important;
+    width: auto !important;
+    min-width: 0;
+    padding: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+  }
+  body:has(#Menu_Item_ID[value="324"]) #sortablegrid373 > tbody > tr > td:nth-of-type(2),
+  body:has(#Menu_Item_ID[value="324"]) #sortablegrid373 > tbody > tr > td:nth-of-type(3),
+  body:has(#Menu_Item_ID[value="324"]) #sortablegrid373 > tbody > tr > td:nth-of-type(9) {
+    display: block !important;
+  }
+  body:has(#Menu_Item_ID[value="324"]) #sortablegrid373 > tbody > tr > td:nth-of-type(3) {
+    color: #1f2d3d;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.35;
+    text-align: left !important;
+    overflow-wrap: anywhere;
+  }
+  body:has(#Menu_Item_ID[value="324"]) #sortablegrid373 .btn {
+    min-width: 0 !important;
+    min-height: 36px !important;
+    margin: 0 !important;
+    padding: 8px 10px !important;
+    font-size: 12px !important;
+    line-height: 1.2 !important;
+  }
+  body:has(#Menu_Item_ID[value="324"]) #sortablegrid373 > tfoot,
+  body:has(#Menu_Item_ID[value="324"]) #sortablegrid373 > tfoot > tr,
+  body:has(#Menu_Item_ID[value="324"]) #sortablegrid373 > tfoot > tr > td {
+    display: block !important;
+    width: 100% !important;
+    box-sizing: border-box;
+  }
 }
 
 body:has(#Menu_Item_ID[value="319"]) {
@@ -10923,5 +11040,3 @@ body:has(#fs16590) {
     vertical-align: middle;
   }
 }
-
-/*# sourceMappingURL=bootstrap_override_colors_Cub_Scouts.css.map */

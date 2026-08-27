@@ -6,6 +6,20 @@
     5/6/20  JC  V12  Bypass errors when menu is not included on current page
 */
 
+function easyNormalizeExportLabels() {
+    var exportbuttons = document.querySelectorAll('input[type="button"][value="Print (Export to PDF)"]');
+    for (var buttonindex = 0; buttonindex < exportbuttons.length; buttonindex++) {
+        exportbuttons[buttonindex].value = 'Export to PDF';
+    }
+}
+
+if (document.readyState == 'loading') {
+    document.addEventListener('DOMContentLoaded', easyNormalizeExportLabels);
+}
+else {
+    easyNormalizeExportLabels();
+}
+
 
 function SetAction(obj) {
     var Hover_Action = document.getElementById('Hover_Action');
@@ -66,7 +80,7 @@ function CheckboxListChangeParticipation(thisfield) {
     matchfieldname = matchfieldname.substr(0, endpos);
     for (i = 0; i < easyform.length; i++) {
         var tempobj = easyform.elements[i];
-        try 
+        try
         {
             if (tempobj.name.length > matchfieldname.length) {
                 if (tempobj.name.substring(0, matchfieldname.length) == matchfieldname) {
@@ -82,27 +96,27 @@ function CheckboxListChangeParticipation(thisfield) {
         }
     }
 }
-function ClickCheckboxAll(thisfield) 
+function ClickCheckboxAll(thisfield)
 {
     var easyform = document.getElementById('easyform');
     var counter = 0;
-    for (i = 0; i < easyform.length; i++) 
+    for (i = 0; i < easyform.length; i++)
     {
         var tempobj = easyform.elements[i];
         try
         {
-            if (tempobj.name.length > thisfield.name.length) 
+            if (tempobj.name.length > thisfield.name.length)
             {
-                if (tempobj.name.substring(0, thisfield.name.length) == thisfield.name) 
+                if (tempobj.name.substring(0, thisfield.name.length) == thisfield.name)
                 {
                     var tempname = tempobj.name;
-                    if (tempname.indexOf('DATA') >= 0) 
-                    { 
+                    if (tempname.indexOf('DATA') >= 0)
+                    {
                         easyform.elements[i].disabled = !thisfield.checked;
                     }
-                    else 
+                    else
                     {
-                        if (tempobj.type == 'checkbox') 
+                        if (tempobj.type == 'checkbox')
                         {
                             tempobj.checked = thisfield.checked;
                             counter = counter + 1;
@@ -346,16 +360,16 @@ function RemoveImage(imagedivname, hiddenobjname) {
     var hiddenfield = document.getElementById(hiddenobjname);
     hiddenfield.value = 'Remove';
 }
-function easyEnableCheckboxlist(checkboxlistsectionname, enablevalue, clearvalue) 
+function easyEnableCheckboxlist(checkboxlistsectionname, enablevalue, clearvalue)
 {
     var targetdiv = document.getElementById('DIV' + checkboxlistsectionname);
-    if (enablevalue) 
+    if (enablevalue)
     {
         targetdiv.style.visibility = 'visible';
     }
-    else 
+    else
     {
-        if (clearvalue) 
+        if (clearvalue)
         {
             var sectionnamelength = checkboxlistsectionname.length;
             var easyform = document.getElementById('easyform');
@@ -687,13 +701,13 @@ function GetGoogleGeoCode(address, targetname) {
       var geocoder = new GClientGeocoder();
       geocoder.getLatLng(
         address,
-        function(point) 
+        function(point)
         {
-          if (!point) 
+          if (!point)
           {
             window.alert("Location not found for " + address);
-          } 
-          else 
+          }
+          else
           {
             var lat = point.lat();
             var lng = point.lng();
@@ -977,7 +991,7 @@ function buttonlink(control, reportflag) {
     if (reportflag == 'Y') {
         var pop = document.getElementById('ModalReportPop');
         var popup = document.getElementById('ModalReport');
-        pop.innerHTML = '<a onclick="easySetReportFormatPDF();">Print (Export to PDF)</a><br><br><a onclick="easySetReportFormatXLS();">Open in Excel</a>';
+        pop.innerHTML = '<a onclick="easySetReportFormatPDF();">Export to PDF</a><br><br><a onclick="easySetReportFormatXLS();">Open in Excel</a>';
         $("#ModalReport").modal("show");
     }
     else {
@@ -1046,7 +1060,7 @@ function copyMobileRTEs() {
     {
         try
         {
-            if (easyform.elements[i].id.substr(0, 11) == 'HTMLEditKey') 
+            if (easyform.elements[i].id.substr(0, 11) == 'HTMLEditKey')
             {
                 var ControlID = easyform.elements[i].id.substr(11);
                 var DivID = 'HTMLEdit' + ControlID;
@@ -1071,7 +1085,7 @@ function ConfirmDeleteMultiple(control) {
     {
         try
         {
-            if (easyform.elements[i].id.substr(0, 2) == 'CB' && easyform.elements[i].id.indexOf("ROW") > 0) 
+            if (easyform.elements[i].id.substr(0, 2) == 'CB' && easyform.elements[i].id.indexOf("ROW") > 0)
             {
                 var tempobj = easyform.elements[i];
                 if (tempobj.checked) {
@@ -1206,16 +1220,16 @@ function SetRowsPerPage(thisfield) {
 
 function AddBookmark(title, url) {
     try {
-        // Internet Explorer 
+        // Internet Explorer
         window.external.AddFavorite(url, title);
     }
     catch (e) {
         try {
-            // Mozilla 
+            // Mozilla
             window.sidebar.addPanel(title, url, "");
         }
         catch (e) {
-            // Opera 
+            // Opera
             if (typeof (opera) == "object") {
                 var elem = document.createElement('a');
                 elem.setAttribute('href', url);
@@ -1224,7 +1238,7 @@ function AddBookmark(title, url) {
                 elem.click();
             }
             else {
-                // Unknown 
+                // Unknown
                 window.alert('This browser does not support this function. You will need to create the bookmark manually to point to this URL: ' + url);
             }
         }

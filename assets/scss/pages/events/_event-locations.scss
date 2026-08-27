@@ -4,9 +4,10 @@
 
 body:has(#Menu_Item_ID[value="324"]) {
   .new-row:not(:has(~ .new-row)) {
+    margin-top: 10px !important;
+
     input[type="button"],
     .btn {
-      margin-top: 20px !important;
       margin-right: 10px !important;
       margin-bottom: 10px !important;
     }
@@ -21,18 +22,14 @@ body:has(#Menu_Item_ID[value="324"]) {
     }
   }
 
-  #fs373 {
-    .rows-per-page {
-      padding-bottom: 10px !important;
-    }
-  }
-
-
   @media (max-width: 767px) {
 
     #fs373 {
       .rows-per-page {
         padding: 10px 15px !important;
+      }
+      .pagination {
+        padding: 0 15px 15px 0 !important;
       }
     }
 
