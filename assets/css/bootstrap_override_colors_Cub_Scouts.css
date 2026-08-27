@@ -24561,6 +24561,3955 @@ body:has(#Menu_Item_ID[value="399"]):has(#Form_ID[value="1499"]) #fs7402 #sortab
   }
 }
 
+body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) {
+  --contact-reason-border: rgba(15, 57, 95, 0.16);
+}
+body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) .page-title {
+  width: 100%;
+  margin: 0 auto 16px !important;
+  padding: 10px 20px 0;
+  box-sizing: border-box;
+  color: #184a8a;
+  text-align: left !important;
+}
+body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) :is(#fs16931, #fs16932 ~ .new-row) {
+  margin-bottom: 20px !important;
+}
+body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) :is(#fs16931, #fs16932 ~ .new-row) .center-block {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) :is(#fs16931, #fs16932 ~ .new-row) .text-center {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: flex-start !important;
+  gap: 8px;
+  text-align: left !important;
+}
+body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) :is(#fs16931, #fs16932 ~ .new-row) .text-center > span {
+  display: inline-flex !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) :is(#fs16931, #fs16932 ~ .new-row) .btn {
+  min-width: 100px;
+  min-height: 40px;
+  margin: 0 !important;
+  padding: 9px 16px !important;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #fs16932 {
+  margin-bottom: 20px !important;
+}
+body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #fs16932 .center-block.table-responsive {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  overflow-x: auto;
+}
+body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #fs16932 #sortablegrid16932 {
+  width: 100% !important;
+  min-width: 760px;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--contact-reason-border) !important;
+  border-collapse: separate !important;
+  border-spacing: 0;
+  border-radius: 0 !important;
+  background: #ffffff;
+}
+body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #fs16932 #sortablegrid16932 > thead > tr > th {
+  padding: 11px 12px !important;
+  border: 0 !important;
+  border-right: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-bottom: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-left: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-radius: 0 !important;
+  color: #0d3b72 !important;
+  background: #eaf3ff !important;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: left;
+  vertical-align: middle;
+}
+body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #fs16932 #sortablegrid16932 > tbody > tr > td {
+  padding: 9px 10px !important;
+  border: 0 !important;
+  border-bottom: 1px solid rgba(15, 57, 95, 0.09) !important;
+  color: #0d3b72;
+  background: #ffffff !important;
+  font-size: 13px;
+  text-align: left !important;
+  vertical-align: middle;
+  overflow-wrap: anywhere;
+}
+body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #fs16932 #sortablegrid16932 > tbody > tr:nth-of-type(even) > td {
+  background: #f7faff !important;
+}
+body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #fs16932 #sortablegrid16932 > tbody > tr:last-child > td {
+  border-bottom: 0 !important;
+}
+body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #fs16932 #sortablegrid16932 .btn {
+  min-height: 34px;
+  margin: 0 !important;
+  padding: 7px 10px !important;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 700;
+}
+body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #fs16932 #sortablegrid16932 > tfoot > tr > td:has(> input[type=button][value="Print (Export to PDF)"]) {
+  padding: 14px 12px !important;
+  border: 0 !important;
+  border-top: 1px solid rgba(15, 57, 95, 0.12) !important;
+  background: #f7faff !important;
+  text-align: center !important;
+}
+body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #fs16932 #sortablegrid16932 > tfoot input[type=button][value="Print (Export to PDF)"],
+body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #fs16932 #sortablegrid16932 > tfoot input[type=button][value="Open in Excel"] {
+  min-height: 40px;
+  margin: 0 6px !important;
+  padding: 10px 12px !important;
+  border: 1px solid rgba(13, 59, 114, 0.2) !important;
+  border-radius: 10px !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+  box-shadow: 0 3px 8px rgba(13, 31, 54, 0.08) !important;
+}
+body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #fs16932 #sortablegrid16932 > tfoot input[type=button][value="Print (Export to PDF)"] {
+  color: #ffffff !important;
+  background: linear-gradient(180deg, #1b6eb8 0%, #2783d1 100%) !important;
+}
+body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #fs16932 #sortablegrid16932 > tfoot input[type=button][value="Open in Excel"] {
+  color: #0d3b72 !important;
+  background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%) !important;
+}
+@media (max-width: 767px) {
+  body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #fs16931,
+  body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #fs16932,
+  body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #fs16932 ~ .new-row {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
+  body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) :is(#fs16931, #fs16932 ~ .new-row) .text-center {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) :is(#fs16931, #fs16932 ~ .new-row) .text-center > span,
+  body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) :is(#fs16931, #fs16932 ~ .new-row) .btn {
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+  body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #fs16932 .center-block.table-responsive {
+    overflow: hidden !important;
+    padding-right: 0 !important;
+  }
+  body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #sortablegrid16932,
+  body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #sortablegrid16932 > tbody {
+    display: block;
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100%;
+    border: 0 !important;
+    background: transparent;
+  }
+  body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #sortablegrid16932 > thead {
+    display: none;
+  }
+  body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #sortablegrid16932 > tbody > tr {
+    display: grid !important;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    align-items: stretch;
+    width: 100% !important;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border: 1px solid var(--contact-reason-border) !important;
+    border-radius: 6px;
+    background: #ffffff;
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #sortablegrid16932 > tbody > tr > td {
+    display: none !important;
+    min-width: 0;
+    padding: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #sortablegrid16932 > tbody > tr > td:nth-child(1),
+  body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #sortablegrid16932 > tbody > tr > td:nth-child(6) {
+    display: flex !important;
+    grid-row: 1/4;
+    align-items: center;
+    justify-content: center;
+    padding: 8px !important;
+  }
+  body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #sortablegrid16932 > tbody > tr > td:nth-child(1) {
+    grid-column: 1;
+    border-right: 1px solid rgba(15, 57, 95, 0.12) !important;
+  }
+  body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #sortablegrid16932 > tbody > tr > td:nth-child(6) {
+    grid-column: 3;
+    border-left: 1px solid rgba(15, 57, 95, 0.12) !important;
+  }
+  body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #sortablegrid16932 > tbody > tr > td:nth-child(2),
+  body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #sortablegrid16932 > tbody > tr > td:nth-child(4),
+  body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #sortablegrid16932 > tbody > tr > td:nth-child(5) {
+    display: flex !important;
+    grid-column: 2;
+    align-items: baseline;
+    gap: 8px;
+    padding: 5px 10px !important;
+    font-size: 13px;
+    line-height: 1.35;
+    text-align: left !important;
+    overflow-wrap: anywhere;
+  }
+  body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #sortablegrid16932 > tbody > tr > td:nth-child(2) {
+    grid-row: 1;
+    padding-top: 9px !important;
+    color: #184a8a;
+    font-weight: 700;
+  }
+  body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #sortablegrid16932 > tbody > tr > td:nth-child(4) {
+    grid-row: 2;
+  }
+  body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #sortablegrid16932 > tbody > tr > td:nth-child(5) {
+    grid-row: 3;
+    padding-bottom: 9px !important;
+  }
+  body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #sortablegrid16932 > tbody > tr > td:nth-child(2)::before,
+  body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #sortablegrid16932 > tbody > tr > td:nth-child(4)::before,
+  body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #sortablegrid16932 > tbody > tr > td:nth-child(5)::before {
+    flex: 0 0 54px;
+    color: #184a8a;
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 1.3;
+    text-align: right;
+    text-transform: uppercase;
+  }
+  body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #sortablegrid16932 > tbody > tr > td:nth-child(2)::before {
+    content: "Reason";
+  }
+  body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #sortablegrid16932 > tbody > tr > td:nth-child(4)::before {
+    content: "E-mail to";
+  }
+  body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #sortablegrid16932 > tbody > tr > td:nth-child(5)::before {
+    content: "Disabled";
+  }
+  body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #sortablegrid16932 .btn {
+    min-width: 0 !important;
+    min-height: 36px;
+    margin: 0 !important;
+    padding: 8px 9px !important;
+    font-size: 11px;
+    line-height: 1.2;
+    white-space: nowrap;
+  }
+  body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #sortablegrid16932 > tfoot {
+    display: block;
+    width: 100%;
+  }
+  body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #sortablegrid16932 > tfoot > tr,
+  body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #sortablegrid16932 > tfoot > tr > td {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #sortablegrid16932 > tfoot input[type=button][value="Print (Export to PDF)"],
+  body:has(#Menu_Item_ID[value="3390"]):has(#Form_ID[value="4284"]) #sortablegrid16932 > tfoot input[type=button][value="Open in Excel"] {
+    width: calc(50% - 14px);
+    min-width: 0;
+    margin: 4px 5px !important;
+  }
+}
+
+body:has(#Menu_Item_ID[value="1211"]):has(#Form_ID[value="2533"]) {
+  --disable-menu-border: rgba(15, 57, 95, 0.16);
+}
+body:has(#Menu_Item_ID[value="1211"]):has(#Form_ID[value="2533"]) .page-title {
+  width: 100%;
+  margin: 0 auto 16px !important;
+  padding: 10px 20px 0;
+  box-sizing: border-box;
+  color: #184a8a;
+  text-align: left !important;
+}
+body:has(#Menu_Item_ID[value="1211"]):has(#Form_ID[value="2533"]) #fs11323 {
+  margin-bottom: 20px !important;
+}
+body:has(#Menu_Item_ID[value="1211"]):has(#Form_ID[value="2533"]) #fs11323 .center-block {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="1211"]):has(#Form_ID[value="2533"]) #fs11323 table.no-border {
+  width: 100%;
+  margin: 0;
+  border: 1px solid var(--disable-menu-border);
+  border-radius: 6px;
+  background: #f7faff;
+}
+body:has(#Menu_Item_ID[value="1211"]):has(#Form_ID[value="2533"]) #fs11323 table.no-border td {
+  padding: 7px 20px !important;
+  border: 0 !important;
+  color: #173a63;
+  font-size: 14px;
+  line-height: 1.45;
+  text-align: center !important;
+}
+body:has(#Menu_Item_ID[value="1211"]):has(#Form_ID[value="2533"]) #fs11323 table.no-border tr:first-child td {
+  padding-top: 16px !important;
+  color: #184a8a;
+}
+body:has(#Menu_Item_ID[value="1211"]):has(#Form_ID[value="2533"]) #fs11323 table.no-border tr:last-child td {
+  padding-bottom: 16px !important;
+}
+body:has(#Menu_Item_ID[value="1211"]):has(#Form_ID[value="2533"]) #fs11325 {
+  margin-bottom: 20px !important;
+}
+body:has(#Menu_Item_ID[value="1211"]):has(#Form_ID[value="2533"]) #fs11325 .center-block {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="1211"]):has(#Form_ID[value="2533"]) #fs11325 .text-center {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: flex-start !important;
+  gap: 8px;
+  text-align: left !important;
+}
+body:has(#Menu_Item_ID[value="1211"]):has(#Form_ID[value="2533"]) #fs11325 .text-center > span {
+  display: inline-flex !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="1211"]):has(#Form_ID[value="2533"]) #fs11325 .btn {
+  min-width: 100px;
+  min-height: 40px;
+  margin: 0 !important;
+  padding: 9px 16px !important;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+body:has(#Menu_Item_ID[value="1211"]):has(#Form_ID[value="2533"]) #fs11324 {
+  margin-bottom: 20px !important;
+}
+body:has(#Menu_Item_ID[value="1211"]):has(#Form_ID[value="2533"]) #fs11324 .center-block {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="1211"]):has(#Form_ID[value="2533"]) #fs11324 #sortablegrid6 {
+  width: 100% !important;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--disable-menu-border) !important;
+  border-collapse: separate !important;
+  border-spacing: 0;
+  border-radius: 0 !important;
+  background: #ffffff;
+}
+body:has(#Menu_Item_ID[value="1211"]):has(#Form_ID[value="2533"]) #fs11324 #sortablegrid6 > thead > tr > th {
+  padding: 11px 12px !important;
+  border: 0 !important;
+  border-right: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-bottom: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-left: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-radius: 0 !important;
+  color: #0d3b72 !important;
+  background: #eaf3ff !important;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: left;
+  vertical-align: middle;
+}
+body:has(#Menu_Item_ID[value="1211"]):has(#Form_ID[value="2533"]) #fs11324 #sortablegrid6 > thead > tr > th:first-child,
+body:has(#Menu_Item_ID[value="1211"]):has(#Form_ID[value="2533"]) #fs11324 #sortablegrid6 > tbody > tr > td:first-child {
+  width: 54px;
+  padding-right: 10px !important;
+  padding-left: 10px !important;
+  text-align: center !important;
+}
+body:has(#Menu_Item_ID[value="1211"]):has(#Form_ID[value="2533"]) #fs11324 #sortablegrid6 > tbody > tr > td {
+  padding: 9px 12px !important;
+  border: 0 !important;
+  border-bottom: 1px solid rgba(15, 57, 95, 0.09) !important;
+  color: #0d3b72;
+  background: #ffffff !important;
+  font-size: 13px;
+  text-align: left !important;
+  vertical-align: middle;
+  overflow-wrap: anywhere;
+}
+body:has(#Menu_Item_ID[value="1211"]):has(#Form_ID[value="2533"]) #fs11324 #sortablegrid6 > tbody > tr:nth-of-type(even) > td {
+  background: #f7faff !important;
+}
+body:has(#Menu_Item_ID[value="1211"]):has(#Form_ID[value="2533"]) #fs11324 #sortablegrid6 > tbody > tr:last-child > td {
+  border-bottom: 0 !important;
+}
+body:has(#Menu_Item_ID[value="1211"]):has(#Form_ID[value="2533"]) #fs11324 #sortablegrid6 input[type=checkbox].form-control {
+  display: inline-block !important;
+  width: 20px !important;
+  max-width: 20px !important;
+  height: 20px !important;
+  min-height: 20px !important;
+  margin: 0 !important;
+  vertical-align: middle;
+}
+@media (max-width: 767px) {
+  body:has(#Menu_Item_ID[value="1211"]):has(#Form_ID[value="2533"]) #fs11323,
+  body:has(#Menu_Item_ID[value="1211"]):has(#Form_ID[value="2533"]) #fs11325,
+  body:has(#Menu_Item_ID[value="1211"]):has(#Form_ID[value="2533"]) #fs11324 {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
+  body:has(#Menu_Item_ID[value="1211"]):has(#Form_ID[value="2533"]) #fs11323 table.no-border td {
+    padding-right: 14px !important;
+    padding-left: 14px !important;
+    font-size: 13px;
+  }
+  body:has(#Menu_Item_ID[value="1211"]):has(#Form_ID[value="2533"]) #fs11325 .text-center {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  body:has(#Menu_Item_ID[value="1211"]):has(#Form_ID[value="2533"]) #fs11325 .text-center > span,
+  body:has(#Menu_Item_ID[value="1211"]):has(#Form_ID[value="2533"]) #fs11325 .btn {
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+  body:has(#Menu_Item_ID[value="1211"]):has(#Form_ID[value="2533"]) #fs11324 .center-block {
+    overflow: hidden !important;
+  }
+  body:has(#Menu_Item_ID[value="1211"]):has(#Form_ID[value="2533"]) #sortablegrid6,
+  body:has(#Menu_Item_ID[value="1211"]):has(#Form_ID[value="2533"]) #sortablegrid6 > tbody {
+    display: block;
+    width: 100% !important;
+    border: 0 !important;
+    background: transparent;
+  }
+  body:has(#Menu_Item_ID[value="1211"]):has(#Form_ID[value="2533"]) #sortablegrid6 > thead {
+    display: none;
+  }
+  body:has(#Menu_Item_ID[value="1211"]):has(#Form_ID[value="2533"]) #sortablegrid6 > tbody > tr {
+    display: grid !important;
+    grid-template-columns: 48px minmax(0, 1fr);
+    align-items: stretch;
+    width: 100% !important;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border: 1px solid var(--disable-menu-border) !important;
+    border-radius: 6px;
+    background: #ffffff;
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="1211"]):has(#Form_ID[value="2533"]) #sortablegrid6 > tbody > tr > td {
+    display: flex !important;
+    width: auto !important;
+    min-width: 0;
+    padding: 9px 12px !important;
+    border: 0 !important;
+    background: transparent !important;
+    text-align: left !important;
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="1211"]):has(#Form_ID[value="2533"]) #sortablegrid6 > tbody > tr > td:first-child {
+    grid-column: 1;
+    align-items: center;
+    justify-content: center;
+    width: auto !important;
+    padding: 8px !important;
+    border-right: 1px solid rgba(15, 57, 95, 0.12) !important;
+  }
+  body:has(#Menu_Item_ID[value="1211"]):has(#Form_ID[value="2533"]) #sortablegrid6 > tbody > tr > td:nth-child(2) {
+    grid-column: 2;
+    align-items: center;
+    font-size: 13px;
+    line-height: 1.4;
+  }
+}
+
+body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) {
+  --quick-menu-border: rgba(15, 57, 95, 0.16);
+}
+body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) .page-title {
+  width: 100%;
+  margin: 0 auto 16px !important;
+  padding: 10px 20px 0;
+  box-sizing: border-box;
+  color: #184a8a;
+  text-align: left !important;
+}
+body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs11439 {
+  margin-bottom: 20px !important;
+}
+body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs11439 .center-block {
+  padding: 0;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+@media (max-width: 1140px) {
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs11439 .center-block {
+    margin: 0 auto !important;
+    box-sizing: border-box;
+  }
+}
+@media (max-width: 767px) {
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs11439 {
+    padding: 0 !important;
+  }
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs11439 .center-block {
+    width: calc(100% - 40px) !important;
+    padding: 0 !important;
+    border-radius: 0;
+    overflow-x: hidden;
+  }
+}
+@media (min-width: 768px) {
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs11439 {
+    margin-top: 0;
+  }
+}
+body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs11439 .center-block {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs11439 table.no-border {
+  width: 100%;
+  margin: 0;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs11439 table.no-border tr:not(:is(#DIVENTRY3986711, #DIVENTRY398682, #DIVENTRY398732, #DIVENTRY398742, #DIVENTRY398752)) td {
+  padding: 0 0 12px !important;
+  border: 0 !important;
+  background: transparent !important;
+  color: #173a63;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: left !important;
+}
+body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs11439 table.no-border tr:first-child td {
+  color: #184a8a;
+  font-size: 16px;
+  font-weight: 700;
+}
+body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs11439 table.no-border tr:is(#DIVENTRY3986711, #DIVENTRY398682, #DIVENTRY398732, #DIVENTRY398742, #DIVENTRY398752) > td {
+  padding: 12px 16px !important;
+  border: 0 !important;
+  border-top: 1px solid var(--quick-menu-border) !important;
+  background: #ffffff !important;
+  vertical-align: middle;
+}
+body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs11439 table.no-border tr:is(#DIVENTRY3986711, #DIVENTRY398682, #DIVENTRY398732, #DIVENTRY398742, #DIVENTRY398752):nth-of-type(even) > td {
+  background: #f2f5f9 !important;
+}
+body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs11439 table.no-border tr#DIVENTRY3986711 > td {
+  border-top: 1px solid var(--quick-menu-border) !important;
+}
+body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs11439 table.no-border tr#DIVENTRY398752 > td {
+  border-bottom: 1px solid var(--quick-menu-border) !important;
+}
+body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs11439 table.no-border tr:is(#DIVENTRY3986711, #DIVENTRY398682, #DIVENTRY398732, #DIVENTRY398742, #DIVENTRY398752) > td:first-child {
+  width: 36%;
+  border-right: 1px solid rgba(15, 57, 95, 0.12) !important;
+  text-align: right !important;
+}
+body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs11439 table.no-border .control-label {
+  margin: 0 !important;
+  color: #0d3b72;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: inherit;
+}
+body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs11439 table.no-border .form-control {
+  display: inline-block;
+  width: min(100%, 480px);
+  margin: 0 !important;
+  font-size: 14px;
+}
+body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs11439 table.no-border input[type=checkbox] {
+  width: 20px !important;
+  max-width: 20px !important;
+  height: 20px !important;
+  min-height: 20px !important;
+}
+body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs11440 {
+  margin-bottom: 28px !important;
+}
+body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs11440 .center-block {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs11440 .text-center {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: flex-start !important;
+  gap: 8px;
+  text-align: left !important;
+}
+body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs11440 .text-center > span {
+  display: inline-flex !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs11440 .btn {
+  min-width: 100px;
+  min-height: 40px;
+  margin: 0 !important;
+  padding: 9px 16px !important;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs19891 {
+  margin-bottom: 16px !important;
+}
+body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs19891 .center-block {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 16px 20px;
+  border: 1px solid var(--quick-menu-border);
+  border-radius: 6px;
+  background: #f7faff;
+  box-sizing: border-box;
+}
+body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs19891 h3 {
+  margin: 0 0 10px !important;
+  color: #184a8a;
+  font-size: 16px;
+  font-weight: 700;
+}
+body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs19891 h3 br {
+  display: none;
+}
+body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs19891 p {
+  margin: 0 0 10px !important;
+  color: #173a63;
+  font-size: 14px;
+  line-height: 1.5;
+}
+body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs19891 p:last-child {
+  margin-bottom: 0 !important;
+}
+body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs19887 {
+  margin-bottom: 20px !important;
+}
+body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs19887 .center-block.table-responsive {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  overflow-x: auto;
+}
+body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs19887 #sortablegrid19887 {
+  width: 100% !important;
+  min-width: 1040px;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--quick-menu-border) !important;
+  border-collapse: separate !important;
+  border-spacing: 0;
+  border-radius: 0 !important;
+  background: #ffffff;
+}
+body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs19887 #sortablegrid19887 > thead > tr > th {
+  padding: 11px 12px !important;
+  border: 0 !important;
+  border-right: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-bottom: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-left: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-radius: 0 !important;
+  color: #0d3b72 !important;
+  background: #eaf3ff !important;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: left;
+  vertical-align: middle;
+}
+body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs19887 #sortablegrid19887 > tbody > tr > td {
+  padding: 9px 10px !important;
+  border: 0 !important;
+  border-bottom: 1px solid rgba(15, 57, 95, 0.09) !important;
+  color: #0d3b72;
+  background: #ffffff !important;
+  font-size: 13px;
+  text-align: left !important;
+  vertical-align: middle;
+  overflow-wrap: anywhere;
+}
+body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs19887 #sortablegrid19887 > tbody > tr:nth-of-type(even) > td {
+  background: #f7faff !important;
+}
+body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs19887 #sortablegrid19887 > tbody > tr:last-child > td {
+  border-bottom: 0 !important;
+}
+body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs19887 #sortablegrid19887 .btn {
+  min-height: 34px;
+  margin: 0 !important;
+  padding: 7px 10px !important;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 700;
+}
+body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs19887 #sortablegrid19887 > tfoot > tr > td {
+  padding: 14px 12px !important;
+  border: 0 !important;
+  border-top: 1px solid rgba(15, 57, 95, 0.12) !important;
+  background: #f7faff !important;
+  text-align: center !important;
+}
+body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs19887 #sortablegrid19887 > tfoot input[type=button] {
+  min-height: 40px;
+  margin: 0 6px !important;
+  padding: 10px 12px !important;
+  border: 1px solid rgba(13, 59, 114, 0.2) !important;
+  border-radius: 10px !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+  box-shadow: 0 3px 8px rgba(13, 31, 54, 0.08) !important;
+}
+body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs19887 #sortablegrid19887 > tfoot input[type=button][value="Print (Export to PDF)"] {
+  color: #ffffff !important;
+  background: linear-gradient(180deg, #1b6eb8 0%, #2783d1 100%) !important;
+}
+body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs19887 #sortablegrid19887 > tfoot input[type=button][value="Open in Excel"] {
+  color: #0d3b72 !important;
+  background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%) !important;
+}
+@media (max-width: 767px) {
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs11439,
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs11440,
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs19891,
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs19887 {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs11439 table.no-border,
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs11439 table.no-border tbody,
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs11439 table.no-border tr,
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs11439 table.no-border td {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs11439 table.no-border tr:is(#DIVENTRY3986711, #DIVENTRY398682, #DIVENTRY398732, #DIVENTRY398742, #DIVENTRY398752) {
+    margin-bottom: 10px;
+    overflow: hidden;
+    border: 1px solid var(--quick-menu-border);
+    border-radius: 6px;
+  }
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs11439 table.no-border tr:is(#DIVENTRY3986711, #DIVENTRY398682, #DIVENTRY398732, #DIVENTRY398742, #DIVENTRY398752) > td {
+    border: 0 !important;
+  }
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs11439 table.no-border tr:is(#DIVENTRY3986711, #DIVENTRY398682, #DIVENTRY398732, #DIVENTRY398742, #DIVENTRY398752) > td:first-child {
+    padding-bottom: 0 !important;
+    text-align: left !important;
+  }
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs11439 table.no-border .form-control {
+    width: 100% !important;
+  }
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs11440 .text-center {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs11440 .text-center > span,
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs11440 .btn {
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs19891 .center-block {
+    padding: 14px !important;
+  }
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #fs19887 .center-block.table-responsive {
+    overflow: hidden !important;
+  }
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #sortablegrid19887,
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #sortablegrid19887 > tbody {
+    display: block;
+    width: 100% !important;
+    min-width: 0 !important;
+    border: 0 !important;
+    background: transparent;
+  }
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #sortablegrid19887 > thead {
+    display: none;
+  }
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #sortablegrid19887 > tbody > tr {
+    display: grid !important;
+    grid-template-columns: auto minmax(0, 1fr);
+    width: 100% !important;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border: 1px solid var(--quick-menu-border) !important;
+    border-radius: 6px;
+    background: #ffffff;
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #sortablegrid19887 > tbody > tr > td {
+    display: none !important;
+    min-width: 0;
+    padding: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #sortablegrid19887 > tbody > tr > td:nth-child(1) {
+    display: flex !important;
+    grid-column: 1;
+    grid-row: 1/4;
+    align-items: center;
+    padding: 8px !important;
+    border-right: 1px solid rgba(15, 57, 95, 0.12) !important;
+  }
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #sortablegrid19887 > tbody > tr > td:nth-child(2),
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #sortablegrid19887 > tbody > tr > td:nth-child(3),
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #sortablegrid19887 > tbody > tr > td:nth-child(n+4) {
+    display: flex !important;
+    grid-column: 2;
+    gap: 8px;
+    padding: 5px 10px !important;
+    text-align: left !important;
+    line-height: 1.35;
+    overflow-wrap: anywhere;
+  }
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #sortablegrid19887 > tbody > tr > td:nth-child(2) {
+    grid-row: 1;
+    padding-top: 9px !important;
+    color: #184a8a;
+    font-weight: 700;
+  }
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #sortablegrid19887 > tbody > tr > td:nth-child(3) {
+    grid-row: 2;
+  }
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #sortablegrid19887 > tbody > tr > td:nth-child(n+4) {
+    grid-row: auto;
+  }
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #sortablegrid19887 > tbody > tr > td:nth-child(3)::before,
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #sortablegrid19887 > tbody > tr > td:nth-child(n+4)::before {
+    flex: 0 0 62px;
+    color: #184a8a;
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 1.3;
+    text-align: right;
+    text-transform: uppercase;
+  }
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #sortablegrid19887 > tbody > tr > td:nth-child(3)::before {
+    content: "Override";
+  }
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #sortablegrid19887 > tbody > tr > td:nth-child(4)::before {
+    content: "Item 1";
+  }
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #sortablegrid19887 > tbody > tr > td:nth-child(5)::before {
+    content: "Item 2";
+  }
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #sortablegrid19887 > tbody > tr > td:nth-child(6)::before {
+    content: "Item 3";
+  }
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #sortablegrid19887 > tbody > tr > td:nth-child(7)::before {
+    content: "Item 4";
+  }
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #sortablegrid19887 > tbody > tr > td:last-child {
+    padding-bottom: 9px !important;
+  }
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #sortablegrid19887 > tfoot,
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #sortablegrid19887 > tfoot > tr,
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #sortablegrid19887 > tfoot > tr > td {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="1660"]):has(#Form_ID[value="2567"]) #sortablegrid19887 > tfoot input[type=button] {
+    width: calc(50% - 14px);
+    min-width: 0;
+    margin: 4px 5px !important;
+  }
+}
+
+body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) {
+  --task-role-border: rgba(15, 57, 95, 0.16);
+}
+body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) .page-title {
+  width: 100%;
+  margin: 0 auto 16px !important;
+  padding: 10px 20px 0;
+  box-sizing: border-box;
+  color: #184a8a;
+  text-align: left !important;
+}
+body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #fs7290 {
+  margin-bottom: 20px !important;
+}
+body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #fs7290 .center-block {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 16px 20px;
+  border: 1px solid var(--task-role-border);
+  border-radius: 6px;
+  background: #f7faff;
+  box-sizing: border-box;
+}
+body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #fs7290 h2 {
+  margin: 0 0 8px !important;
+  color: #184a8a;
+  font-size: 18px;
+  font-weight: 700;
+}
+body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #fs7290 p {
+  margin: 0 !important;
+  color: #173a63;
+  font-size: 14px;
+  line-height: 1.5;
+}
+body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #fs7274 {
+  margin-bottom: 20px !important;
+}
+body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #fs7274 .center-block {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #fs7274 .text-center {
+  display: flex !important;
+  justify-content: flex-start !important;
+  text-align: left !important;
+}
+body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #fs7274 .text-center > span {
+  display: inline-flex !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #fs7274 .btn {
+  min-width: 100px;
+  min-height: 40px;
+  margin: 0 !important;
+  padding: 9px 16px !important;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #fs7275 {
+  margin-bottom: 20px !important;
+}
+body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #fs7275 .center-block.table-responsive {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  overflow-x: auto;
+}
+body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #fs7275 .center-block.table-responsive > table {
+  width: 100% !important;
+  margin: 0;
+}
+body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #fs7275 .rows-per-page {
+  font-size: 13px;
+}
+body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #fs7275 #sortablegrid7275 {
+  width: 100% !important;
+  min-width: 860px;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--task-role-border) !important;
+  border-collapse: separate !important;
+  border-spacing: 0;
+  border-radius: 0 !important;
+  background: #ffffff;
+}
+body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #fs7275 #sortablegrid7275 > thead > tr > th {
+  padding: 11px 12px !important;
+  border: 0 !important;
+  border-right: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-bottom: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-left: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-radius: 0 !important;
+  color: #0d3b72 !important;
+  background: #eaf3ff !important;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: left;
+  vertical-align: middle;
+}
+body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #fs7275 #sortablegrid7275 > tbody > tr > td {
+  padding: 9px 10px !important;
+  border: 0 !important;
+  border-bottom: 1px solid rgba(15, 57, 95, 0.09) !important;
+  color: #0d3b72;
+  background: #ffffff !important;
+  font-size: 13px;
+  text-align: left !important;
+  vertical-align: middle;
+  overflow-wrap: anywhere;
+}
+body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #fs7275 #sortablegrid7275 > tbody > tr:nth-of-type(even) > td {
+  background: #f7faff !important;
+}
+body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #fs7275 #sortablegrid7275 > tbody > tr:last-child > td {
+  border-bottom: 0 !important;
+}
+body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #fs7275 #sortablegrid7275 > tbody > tr > td:first-child {
+  width: 130px;
+  text-align: center !important;
+}
+body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #fs7275 #sortablegrid7275 .btn {
+  min-height: 34px;
+  margin: 0 !important;
+  padding: 7px 10px !important;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 700;
+}
+body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #fs7275 #sortablegrid7275 > tfoot > tr > td {
+  padding: 14px 12px !important;
+  border: 0 !important;
+  border-top: 1px solid rgba(15, 57, 95, 0.12) !important;
+  background: #f7faff !important;
+  text-align: center !important;
+}
+body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #fs7275 #sortablegrid7275 > tfoot input[type=button] {
+  min-height: 40px;
+  margin: 0 6px !important;
+  padding: 10px 12px !important;
+  border: 1px solid rgba(13, 59, 114, 0.2) !important;
+  border-radius: 10px !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+  box-shadow: 0 3px 8px rgba(13, 31, 54, 0.08) !important;
+}
+body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #fs7275 #sortablegrid7275 > tfoot input[type=button][value="Print (Export to PDF)"] {
+  color: #ffffff !important;
+  background: linear-gradient(180deg, #1b6eb8 0%, #2783d1 100%) !important;
+}
+body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #fs7275 #sortablegrid7275 > tfoot input[type=button][value="Open in Excel"] {
+  color: #0d3b72 !important;
+  background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%) !important;
+}
+@media (max-width: 767px) {
+  body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #fs7290,
+  body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #fs7274,
+  body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #fs7275 {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
+  body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #fs7290 .center-block {
+    padding: 14px !important;
+  }
+  body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #fs7275 .center-block.table-responsive {
+    overflow: hidden !important;
+  }
+  body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #fs7275 .center-block.table-responsive > table {
+    display: block;
+    width: 100% !important;
+  }
+  body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #sortablegrid7275,
+  body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #sortablegrid7275 > tbody {
+    display: block;
+    width: 100% !important;
+    min-width: 0 !important;
+    border: 0 !important;
+    background: transparent;
+  }
+  body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #sortablegrid7275 > thead {
+    display: none;
+  }
+  body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #sortablegrid7275 > tbody > tr {
+    display: grid !important;
+    grid-template-columns: auto minmax(0, 1fr);
+    width: 100% !important;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border: 1px solid var(--task-role-border) !important;
+    border-radius: 6px;
+    background: #ffffff;
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #sortablegrid7275 > tbody > tr > td {
+    display: none !important;
+    min-width: 0;
+    padding: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #sortablegrid7275 > tbody > tr > td:first-child {
+    display: flex !important;
+    grid-column: 1;
+    grid-row: 1/3;
+    align-items: center;
+    width: auto;
+    padding: 8px !important;
+    border-right: 1px solid rgba(15, 57, 95, 0.12) !important;
+  }
+  body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #sortablegrid7275 > tbody > tr > td:nth-child(2),
+  body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #sortablegrid7275 > tbody > tr > td:nth-child(3) {
+    display: flex !important;
+    grid-column: 2;
+    gap: 8px;
+    padding: 6px 10px !important;
+    text-align: left !important;
+    line-height: 1.35;
+    overflow-wrap: anywhere;
+  }
+  body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #sortablegrid7275 > tbody > tr > td:nth-child(2) {
+    grid-row: 1;
+    padding-top: 9px !important;
+    color: #184a8a;
+    font-weight: 700;
+  }
+  body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #sortablegrid7275 > tbody > tr > td:nth-child(3) {
+    grid-row: 2;
+    padding-bottom: 9px !important;
+  }
+  body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #sortablegrid7275 > tbody > tr > td:nth-child(3)::before {
+    content: "Description";
+    flex: 0 0 62px;
+    color: #184a8a;
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 1.3;
+    text-align: right;
+    text-transform: uppercase;
+  }
+  body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #sortablegrid7275 > tfoot,
+  body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #sortablegrid7275 > tfoot > tr,
+  body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #sortablegrid7275 > tfoot > tr > td {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="387"]):has(#Form_ID[value="1461"]) #sortablegrid7275 > tfoot input[type=button] {
+    width: calc(50% - 14px);
+    min-width: 0;
+    margin: 4px 5px !important;
+  }
+}
+
+body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) {
+  --user-role-border: rgba(15, 57, 95, 0.16);
+}
+body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) .page-title {
+  width: 100%;
+  margin: 0 auto 16px !important;
+  padding: 10px 20px 0;
+  box-sizing: border-box;
+  color: #184a8a;
+  text-align: left !important;
+}
+body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #fs7289 {
+  margin-bottom: 20px !important;
+}
+body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #fs7289 .center-block {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 16px 20px;
+  border: 1px solid var(--user-role-border);
+  border-radius: 6px;
+  background: #f7faff;
+  box-sizing: border-box;
+}
+body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #fs7289 h2 {
+  margin: 0 0 8px !important;
+  color: #184a8a;
+  font-size: 18px;
+  font-weight: 700;
+}
+body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #fs7289 p {
+  margin: 0 0 10px !important;
+  color: #173a63;
+  font-size: 14px;
+  line-height: 1.5;
+}
+body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #fs7289 p:last-child {
+  margin-bottom: 0 !important;
+}
+body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #fs7286 {
+  margin-bottom: 20px !important;
+}
+body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #fs7286 .center-block {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #fs7286 .text-center {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: flex-start !important;
+  gap: 8px;
+  text-align: left !important;
+}
+body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #fs7286 .text-center > span {
+  display: inline-flex !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #fs7286 .btn {
+  min-width: 100px;
+  min-height: 40px;
+  margin: 0 !important;
+  padding: 9px 16px !important;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #fs7287 {
+  margin-bottom: 20px !important;
+}
+body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #fs7287 .center-block.table-responsive {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  overflow-x: auto;
+}
+body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #fs7287 #sortablegrid7287 {
+  width: 100% !important;
+  min-width: 760px;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--user-role-border) !important;
+  border-collapse: separate !important;
+  border-spacing: 0;
+  border-radius: 0 !important;
+  background: #ffffff;
+}
+body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #fs7287 #sortablegrid7287 > thead > tr > th {
+  padding: 11px 12px !important;
+  border: 0 !important;
+  border-right: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-bottom: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-left: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-radius: 0 !important;
+  color: #0d3b72 !important;
+  background: #eaf3ff !important;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: left;
+  vertical-align: middle;
+}
+body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #fs7287 #sortablegrid7287 > tbody > tr > td {
+  padding: 9px 10px !important;
+  border: 0 !important;
+  border-bottom: 1px solid rgba(15, 57, 95, 0.09) !important;
+  color: #0d3b72;
+  background: #ffffff !important;
+  font-size: 13px;
+  text-align: left !important;
+  vertical-align: middle;
+  overflow-wrap: anywhere;
+}
+body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #fs7287 #sortablegrid7287 > tbody > tr:nth-of-type(even) > td {
+  background: #f7faff !important;
+}
+body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #fs7287 #sortablegrid7287 > tbody > tr:last-child > td {
+  border-bottom: 0 !important;
+}
+body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #fs7287 #sortablegrid7287 > tbody > tr > td:first-child,
+body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #fs7287 #sortablegrid7287 > tbody > tr > td:last-child {
+  width: 120px;
+  text-align: center !important;
+}
+body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #fs7287 #sortablegrid7287 .btn {
+  min-height: 34px;
+  margin: 0 !important;
+  padding: 7px 10px !important;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 700;
+}
+body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #fs7287 #sortablegrid7287 > tfoot > tr > td {
+  padding: 14px 12px !important;
+  border: 0 !important;
+  border-top: 1px solid rgba(15, 57, 95, 0.12) !important;
+  background: #f7faff !important;
+  text-align: center !important;
+}
+body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #fs7287 #sortablegrid7287 > tfoot input[type=button] {
+  min-height: 40px;
+  margin: 0 6px !important;
+  padding: 10px 12px !important;
+  border: 1px solid rgba(13, 59, 114, 0.2) !important;
+  border-radius: 10px !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+  box-shadow: 0 3px 8px rgba(13, 31, 54, 0.08) !important;
+}
+body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #fs7287 #sortablegrid7287 > tfoot input[type=button][value="Print (Export to PDF)"] {
+  color: #ffffff !important;
+  background: linear-gradient(180deg, #1b6eb8 0%, #2783d1 100%) !important;
+}
+body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #fs7287 #sortablegrid7287 > tfoot input[type=button][value="Open in Excel"] {
+  color: #0d3b72 !important;
+  background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%) !important;
+}
+@media (max-width: 767px) {
+  body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #fs7289,
+  body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #fs7286,
+  body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #fs7287 {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
+  body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #fs7289 .center-block {
+    padding: 14px !important;
+  }
+  body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #fs7286 .text-center {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #fs7286 .text-center > span,
+  body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #fs7286 .btn {
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+  body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #fs7287 .center-block.table-responsive {
+    overflow: hidden !important;
+  }
+  body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #sortablegrid7287,
+  body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #sortablegrid7287 > tbody {
+    display: block;
+    width: 100% !important;
+    min-width: 0 !important;
+    border: 0 !important;
+    background: transparent;
+  }
+  body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #sortablegrid7287 > thead {
+    display: none;
+  }
+  body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #sortablegrid7287 > tbody > tr {
+    display: grid !important;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    align-items: stretch;
+    width: 100% !important;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border: 1px solid var(--user-role-border) !important;
+    border-radius: 6px;
+    background: #ffffff;
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #sortablegrid7287 > tbody > tr > td {
+    display: none !important;
+    min-width: 0;
+    padding: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #sortablegrid7287 > tbody > tr > td:first-child,
+  body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #sortablegrid7287 > tbody > tr > td:last-child {
+    display: flex !important;
+    grid-row: 1/3;
+    align-items: center;
+    width: auto;
+    padding: 8px !important;
+  }
+  body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #sortablegrid7287 > tbody > tr > td:first-child {
+    grid-column: 1;
+    border-right: 1px solid rgba(15, 57, 95, 0.12) !important;
+  }
+  body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #sortablegrid7287 > tbody > tr > td:last-child {
+    grid-column: 3;
+    border-left: 1px solid rgba(15, 57, 95, 0.12) !important;
+  }
+  body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #sortablegrid7287 > tbody > tr > td:nth-child(2),
+  body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #sortablegrid7287 > tbody > tr > td:nth-child(3) {
+    display: flex !important;
+    grid-column: 2;
+    gap: 8px;
+    padding: 6px 10px !important;
+    text-align: left !important;
+    line-height: 1.35;
+    overflow-wrap: anywhere;
+  }
+  body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #sortablegrid7287 > tbody > tr > td:nth-child(2) {
+    grid-row: 1;
+    padding-top: 9px !important;
+    color: #184a8a;
+    font-weight: 700;
+  }
+  body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #sortablegrid7287 > tbody > tr > td:nth-child(3) {
+    grid-row: 2;
+    padding-bottom: 9px !important;
+  }
+  body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #sortablegrid7287 > tbody > tr > td:nth-child(3)::before {
+    content: "Description";
+    flex: 0 0 62px;
+    color: #184a8a;
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 1.3;
+    text-align: right;
+    text-transform: uppercase;
+  }
+  body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #sortablegrid7287 > tfoot,
+  body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #sortablegrid7287 > tfoot > tr,
+  body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #sortablegrid7287 > tfoot > tr > td {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="386"]):has(#Form_ID[value="1465"]) #sortablegrid7287 > tfoot input[type=button] {
+    width: calc(50% - 14px);
+    min-width: 0;
+    margin: 4px 5px !important;
+  }
+}
+
+body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) {
+  --public-access-border: rgba(15, 57, 95, 0.16);
+}
+body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) .page-title {
+  width: 100%;
+  margin: 0 auto 16px !important;
+  padding: 10px 20px 0;
+  box-sizing: border-box;
+  color: #184a8a;
+  text-align: left !important;
+}
+body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #fs11326 {
+  margin-bottom: 20px !important;
+}
+body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #fs11326 .center-block {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #fs11326 table.no-border {
+  width: 100%;
+  margin: 0;
+  border: 1px solid var(--public-access-border);
+  border-radius: 6px;
+  background: #f7faff;
+}
+body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #fs11326 table.no-border td {
+  padding: 7px 20px !important;
+  border: 0 !important;
+  color: #173a63;
+  font-size: 14px;
+  line-height: 1.45;
+  text-align: center !important;
+}
+body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #fs11326 table.no-border tr:first-child td {
+  padding-top: 16px !important;
+  color: #184a8a;
+}
+body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #fs11326 table.no-border tr:last-child td {
+  padding-bottom: 16px !important;
+}
+body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #fs11328 {
+  margin-bottom: 20px !important;
+}
+body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #fs11328 .center-block {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #fs11328 .text-center {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: flex-start !important;
+  gap: 8px;
+  text-align: left !important;
+}
+body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #fs11328 .text-center > span {
+  display: inline-flex !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #fs11328 .btn {
+  min-width: 100px;
+  min-height: 40px;
+  margin: 0 !important;
+  padding: 9px 16px !important;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #fs11327 {
+  margin-bottom: 20px !important;
+}
+body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #fs11327 .center-block {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #fs11327 #sortablegrid6 {
+  width: 100% !important;
+  min-width: 800px;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--public-access-border) !important;
+  border-collapse: separate !important;
+  border-spacing: 0;
+  border-radius: 0 !important;
+  background: #ffffff;
+}
+body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #fs11327 #sortablegrid6 > thead > tr > th {
+  padding: 11px 12px !important;
+  border: 0 !important;
+  border-right: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-bottom: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-left: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-radius: 0 !important;
+  color: #0d3b72 !important;
+  background: #eaf3ff !important;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: left;
+  vertical-align: middle;
+}
+body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #fs11327 #sortablegrid6 > thead > tr > th:first-child,
+body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #fs11327 #sortablegrid6 > tbody > tr > td:first-child {
+  width: 54px;
+  padding-right: 10px !important;
+  padding-left: 10px !important;
+  text-align: center !important;
+}
+body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #fs11327 #sortablegrid6 > tbody > tr > td {
+  padding: 9px 12px !important;
+  border: 0 !important;
+  border-bottom: 1px solid rgba(15, 57, 95, 0.09) !important;
+  color: #0d3b72;
+  background: #ffffff !important;
+  font-size: 13px;
+  text-align: left !important;
+  vertical-align: middle;
+  overflow-wrap: anywhere;
+}
+body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #fs11327 #sortablegrid6 > tbody > tr:nth-of-type(even) > td {
+  background: #f7faff !important;
+}
+body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #fs11327 #sortablegrid6 > tbody > tr:last-child > td {
+  border-bottom: 0 !important;
+}
+body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #fs11327 #sortablegrid6 input[type=checkbox].form-control {
+  display: inline-block !important;
+  width: 20px !important;
+  max-width: 20px !important;
+  height: 20px !important;
+  min-height: 20px !important;
+  margin: 0 !important;
+  vertical-align: middle;
+}
+body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #fs11327 #sortablegrid6 input[type=radio] {
+  width: 16px !important;
+  height: 16px !important;
+  min-height: 16px !important;
+  margin: 0 3px 0 0 !important;
+  vertical-align: -3px;
+}
+@media (max-width: 767px) {
+  body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #fs11326,
+  body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #fs11328,
+  body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #fs11327 {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
+  body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #fs11326 table.no-border td {
+    padding-right: 14px !important;
+    padding-left: 14px !important;
+    font-size: 13px;
+  }
+  body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #fs11328 .text-center {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #fs11328 .text-center > span,
+  body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #fs11328 .btn {
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+  body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #fs11327 .center-block {
+    overflow: hidden !important;
+  }
+  body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #sortablegrid6,
+  body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #sortablegrid6 > tbody {
+    display: block;
+    width: 100% !important;
+    min-width: 0 !important;
+    border: 0 !important;
+    background: transparent;
+  }
+  body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #sortablegrid6 > thead {
+    display: none;
+  }
+  body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #sortablegrid6 > tbody > tr {
+    display: grid !important;
+    grid-template-columns: 48px minmax(0, 1fr);
+    width: 100% !important;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border: 1px solid var(--public-access-border) !important;
+    border-radius: 6px;
+    background: #ffffff;
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #sortablegrid6 > tbody > tr > td {
+    display: none !important;
+    min-width: 0;
+    padding: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #sortablegrid6 > tbody > tr > td:first-child {
+    display: flex !important;
+    grid-column: 1;
+    grid-row: 1/4;
+    align-items: center;
+    justify-content: center;
+    width: auto !important;
+    padding: 8px !important;
+    border-right: 1px solid rgba(15, 57, 95, 0.12) !important;
+  }
+  body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #sortablegrid6 > tbody > tr > td:nth-child(2),
+  body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #sortablegrid6 > tbody > tr > td:nth-child(3),
+  body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #sortablegrid6 > tbody > tr > td:nth-child(4) {
+    display: flex !important;
+    grid-column: 2;
+    align-items: baseline;
+    gap: 8px;
+    padding: 5px 10px !important;
+    text-align: left !important;
+    line-height: 1.35;
+    overflow-wrap: anywhere;
+  }
+  body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #sortablegrid6 > tbody > tr > td:nth-child(2) {
+    grid-row: 1;
+    padding-top: 9px !important;
+  }
+  body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #sortablegrid6 > tbody > tr > td:nth-child(3) {
+    grid-row: 2;
+    color: #184a8a;
+    font-weight: 700;
+  }
+  body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #sortablegrid6 > tbody > tr > td:nth-child(4) {
+    grid-row: 3;
+    padding-bottom: 9px !important;
+  }
+  body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #sortablegrid6 > tbody > tr > td:nth-child(2)::before,
+  body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #sortablegrid6 > tbody > tr > td:nth-child(4)::before {
+    flex: 0 0 60px;
+    color: #184a8a;
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 1.3;
+    text-align: right;
+    text-transform: uppercase;
+  }
+  body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #sortablegrid6 > tbody > tr > td:nth-child(2)::before {
+    content: "Access";
+  }
+  body:has(#Menu_Item_ID[value="1212"]):has(#Form_ID[value="2534"]) #sortablegrid6 > tbody > tr > td:nth-child(4)::before {
+    content: "Default";
+  }
+}
+
+body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) {
+  --reimbursement-border: rgba(15, 57, 95, 0.16);
+}
+body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) .page-title {
+  width: 100%;
+  margin: 0 auto 16px !important;
+  padding: 10px 20px 0;
+  box-sizing: border-box;
+  color: #184a8a;
+  text-align: left !important;
+}
+body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15196 {
+  margin-bottom: 20px !important;
+}
+body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15196 .center-block {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 16px 20px;
+  border: 1px solid var(--reimbursement-border);
+  border-radius: 6px;
+  background: #f7faff;
+  box-sizing: border-box;
+}
+body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15196 h3 {
+  margin: 0 0 8px !important;
+  color: #184a8a;
+  font-size: 18px;
+  font-weight: 700;
+}
+body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15196 p {
+  margin: 0 0 10px !important;
+  color: #173a63;
+  font-size: 14px;
+  line-height: 1.5;
+}
+body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15196 ul {
+  margin: 0 0 10px;
+  padding-left: 24px;
+  color: #173a63;
+  font-size: 14px;
+  line-height: 1.5;
+}
+body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15196 p:last-child {
+  margin-bottom: 0 !important;
+}
+body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15196 p:last-child br {
+  display: none;
+}
+body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15194 {
+  margin-bottom: 16px !important;
+}
+body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15194 .center-block {
+  padding: 0;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+@media (max-width: 1140px) {
+  body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15194 .center-block {
+    margin: 0 auto !important;
+    box-sizing: border-box;
+  }
+}
+@media (max-width: 767px) {
+  body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15194 {
+    padding: 0 !important;
+  }
+  body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15194 .center-block {
+    width: calc(100% - 40px) !important;
+    padding: 0 !important;
+    border-radius: 0;
+    overflow-x: hidden;
+  }
+}
+@media (min-width: 768px) {
+  body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15194 {
+    margin-top: 0;
+  }
+}
+body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15194 .center-block {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15194 table.no-border {
+  width: 100%;
+  margin: 0;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15194 table.no-border tr:is(#DIVENTRY468092, #DIVENTRY468102, #DIVENTRY541772, #DIVENTRY541782, #DIVENTRY468112, #DIVENTRY468122) > td {
+  padding: 12px 16px !important;
+  border: 0 !important;
+  border-top: 1px solid var(--reimbursement-border) !important;
+  background: #ffffff !important;
+  vertical-align: middle;
+}
+body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15194 table.no-border tr:is(#DIVENTRY468092, #DIVENTRY468102, #DIVENTRY541772, #DIVENTRY541782, #DIVENTRY468112, #DIVENTRY468122):nth-of-type(even) > td {
+  background: #f2f5f9 !important;
+}
+body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15194 table.no-border tr#DIVENTRY468122 > td {
+  border-bottom: 1px solid var(--reimbursement-border) !important;
+}
+body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15194 table.no-border tr:is(#DIVENTRY468092, #DIVENTRY468102, #DIVENTRY541772, #DIVENTRY541782, #DIVENTRY468112, #DIVENTRY468122) > td:first-child {
+  width: 40%;
+  border-right: 1px solid rgba(15, 57, 95, 0.12) !important;
+  text-align: right !important;
+}
+body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15194 table.no-border tr:not(:is(#DIVENTRY468092, #DIVENTRY468102, #DIVENTRY541772, #DIVENTRY541782, #DIVENTRY468112, #DIVENTRY468122)) td {
+  padding: 18px 16px 8px !important;
+  border: 0 !important;
+  background: transparent !important;
+  color: #184a8a;
+  font-size: 14px;
+  line-height: 1.45;
+  text-align: left !important;
+}
+body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15194 table.no-border .control-label {
+  margin: 0 !important;
+  color: #0d3b72;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: inherit;
+}
+body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15194 table.no-border .form-control {
+  display: inline-block;
+  width: min(100%, 520px);
+  margin: 0 !important;
+  font-size: 14px;
+}
+body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs19408 {
+  margin-bottom: 16px !important;
+}
+body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs19408 .center-block {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 12px 16px;
+  border-left: 3px solid #2783d1;
+  background: #f7faff;
+  box-sizing: border-box;
+}
+body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs19408 p {
+  margin: 0 !important;
+  color: #173a63;
+  font-size: 14px;
+  line-height: 1.5;
+}
+body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs19408 br {
+  display: none;
+}
+body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15195 {
+  margin-bottom: 20px !important;
+}
+body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15195 .center-block {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15195 .text-center {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: flex-start !important;
+  gap: 8px;
+  text-align: left !important;
+}
+body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15195 .text-center > span {
+  display: inline-flex !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15195 .text-center > span:empty {
+  display: none !important;
+}
+body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15195 .btn {
+  min-width: 100px;
+  min-height: 40px;
+  margin: 0 !important;
+  padding: 9px 16px !important;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+@media (max-width: 767px) {
+  body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15196,
+  body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15194,
+  body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs19408,
+  body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15195 {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
+  body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15196 .center-block {
+    padding: 14px !important;
+  }
+  body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15194 table.no-border,
+  body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15194 table.no-border tbody,
+  body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15194 table.no-border tr,
+  body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15194 table.no-border td {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15194 table.no-border tr:is(#DIVENTRY468092, #DIVENTRY468102, #DIVENTRY541772, #DIVENTRY541782, #DIVENTRY468112, #DIVENTRY468122) {
+    margin-bottom: 10px;
+    overflow: hidden;
+    border: 1px solid var(--reimbursement-border);
+    border-radius: 6px;
+  }
+  body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15194 table.no-border tr:is(#DIVENTRY468092, #DIVENTRY468102, #DIVENTRY541772, #DIVENTRY541782, #DIVENTRY468112, #DIVENTRY468122) > td {
+    border: 0 !important;
+  }
+  body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15194 table.no-border tr:is(#DIVENTRY468092, #DIVENTRY468102, #DIVENTRY541772, #DIVENTRY541782, #DIVENTRY468112, #DIVENTRY468122) > td:first-child {
+    padding-bottom: 0 !important;
+    text-align: left !important;
+  }
+  body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15194 table.no-border .form-control {
+    width: 100% !important;
+  }
+  body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs19408 .center-block {
+    padding: 12px 14px !important;
+  }
+  body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15195 .text-center {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15195 .text-center > span,
+  body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15195 .btn {
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+  body:has(#Menu_Item_ID[value="2601"]):has(#Form_ID[value="3708"]) #fs15195 .text-center > span:last-child {
+    grid-column: 1/-1;
+  }
+}
+
+body:has(#Menu_Item_ID[value="4994"]):has(#Form_ID[value="5737"]) {
+  --payment-collector-border: rgba(15, 57, 95, 0.16);
+}
+body:has(#Menu_Item_ID[value="4994"]):has(#Form_ID[value="5737"]) .page-title {
+  width: 100%;
+  margin: 0 auto 16px !important;
+  padding: 10px 20px 0;
+  box-sizing: border-box;
+  color: #184a8a;
+  text-align: left !important;
+}
+body:has(#Menu_Item_ID[value="4994"]):has(#Form_ID[value="5737"]) #fs19319 {
+  margin-bottom: 20px !important;
+}
+body:has(#Menu_Item_ID[value="4994"]):has(#Form_ID[value="5737"]) #fs19319 .center-block {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 16px 20px;
+  border: 1px solid var(--payment-collector-border);
+  border-radius: 6px;
+  background: #f7faff;
+  box-sizing: border-box;
+}
+body:has(#Menu_Item_ID[value="4994"]):has(#Form_ID[value="5737"]) #fs19319 h3 {
+  margin: 0 0 8px !important;
+  color: #184a8a;
+  font-size: 18px;
+  font-weight: 700;
+}
+body:has(#Menu_Item_ID[value="4994"]):has(#Form_ID[value="5737"]) #fs19319 p {
+  margin: 0 0 10px !important;
+  color: #173a63;
+  font-size: 14px;
+  line-height: 1.5;
+}
+body:has(#Menu_Item_ID[value="4994"]):has(#Form_ID[value="5737"]) #fs19319 p:last-child {
+  margin-bottom: 0 !important;
+}
+body:has(#Menu_Item_ID[value="4994"]):has(#Form_ID[value="5737"]) #fs19317 {
+  margin-bottom: 20px !important;
+}
+body:has(#Menu_Item_ID[value="4994"]):has(#Form_ID[value="5737"]) #fs19317 .center-block {
+  padding: 0;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+@media (max-width: 1140px) {
+  body:has(#Menu_Item_ID[value="4994"]):has(#Form_ID[value="5737"]) #fs19317 .center-block {
+    margin: 0 auto !important;
+    box-sizing: border-box;
+  }
+}
+@media (max-width: 767px) {
+  body:has(#Menu_Item_ID[value="4994"]):has(#Form_ID[value="5737"]) #fs19317 {
+    padding: 0 !important;
+  }
+  body:has(#Menu_Item_ID[value="4994"]):has(#Form_ID[value="5737"]) #fs19317 .center-block {
+    width: calc(100% - 40px) !important;
+    padding: 0 !important;
+    border-radius: 0;
+    overflow-x: hidden;
+  }
+}
+@media (min-width: 768px) {
+  body:has(#Menu_Item_ID[value="4994"]):has(#Form_ID[value="5737"]) #fs19317 {
+    margin-top: 0;
+  }
+}
+body:has(#Menu_Item_ID[value="4994"]):has(#Form_ID[value="5737"]) #fs19317 .center-block {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="4994"]):has(#Form_ID[value="5737"]) #fs19317 table.no-border {
+  width: 100%;
+  margin: 0;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+body:has(#Menu_Item_ID[value="4994"]):has(#Form_ID[value="5737"]) #fs19317 table.no-border tr:is(#DIVENTRY539922, #DIVENTRY539942) > td {
+  padding: 12px 16px !important;
+  border: 0 !important;
+  border-top: 1px solid var(--payment-collector-border) !important;
+  background: #ffffff !important;
+  vertical-align: middle;
+}
+body:has(#Menu_Item_ID[value="4994"]):has(#Form_ID[value="5737"]) #fs19317 table.no-border tr:is(#DIVENTRY539922, #DIVENTRY539942):nth-of-type(even) > td {
+  background: #f2f5f9 !important;
+}
+body:has(#Menu_Item_ID[value="4994"]):has(#Form_ID[value="5737"]) #fs19317 table.no-border tr#DIVENTRY539942 > td {
+  border-bottom: 1px solid var(--payment-collector-border) !important;
+}
+body:has(#Menu_Item_ID[value="4994"]):has(#Form_ID[value="5737"]) #fs19317 table.no-border tr:is(#DIVENTRY539922, #DIVENTRY539942) > td:first-child {
+  width: 42%;
+  border-right: 1px solid rgba(15, 57, 95, 0.12) !important;
+  text-align: right !important;
+}
+body:has(#Menu_Item_ID[value="4994"]):has(#Form_ID[value="5737"]) #fs19317 table.no-border .control-label {
+  margin: 0 !important;
+  color: #0d3b72;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: inherit;
+}
+body:has(#Menu_Item_ID[value="4994"]):has(#Form_ID[value="5737"]) #fs19317 table.no-border .form-control {
+  display: inline-block;
+  width: min(100%, 520px);
+  margin: 0 !important;
+  font-size: 14px;
+}
+body:has(#Menu_Item_ID[value="4994"]):has(#Form_ID[value="5737"]) #fs19318 {
+  margin-bottom: 20px !important;
+}
+body:has(#Menu_Item_ID[value="4994"]):has(#Form_ID[value="5737"]) #fs19318 .center-block {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="4994"]):has(#Form_ID[value="5737"]) #fs19318 .text-center {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: flex-start !important;
+  gap: 8px;
+  text-align: left !important;
+}
+body:has(#Menu_Item_ID[value="4994"]):has(#Form_ID[value="5737"]) #fs19318 .text-center > span {
+  display: inline-flex !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="4994"]):has(#Form_ID[value="5737"]) #fs19318 .text-center > span:empty {
+  display: none !important;
+}
+body:has(#Menu_Item_ID[value="4994"]):has(#Form_ID[value="5737"]) #fs19318 .btn {
+  min-width: 100px;
+  min-height: 40px;
+  margin: 0 !important;
+  padding: 9px 16px !important;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+@media (max-width: 767px) {
+  body:has(#Menu_Item_ID[value="4994"]):has(#Form_ID[value="5737"]) #fs19319,
+  body:has(#Menu_Item_ID[value="4994"]):has(#Form_ID[value="5737"]) #fs19317,
+  body:has(#Menu_Item_ID[value="4994"]):has(#Form_ID[value="5737"]) #fs19318 {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
+  body:has(#Menu_Item_ID[value="4994"]):has(#Form_ID[value="5737"]) #fs19319 .center-block {
+    padding: 14px !important;
+  }
+  body:has(#Menu_Item_ID[value="4994"]):has(#Form_ID[value="5737"]) #fs19317 table.no-border,
+  body:has(#Menu_Item_ID[value="4994"]):has(#Form_ID[value="5737"]) #fs19317 table.no-border tbody,
+  body:has(#Menu_Item_ID[value="4994"]):has(#Form_ID[value="5737"]) #fs19317 table.no-border tr,
+  body:has(#Menu_Item_ID[value="4994"]):has(#Form_ID[value="5737"]) #fs19317 table.no-border td {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="4994"]):has(#Form_ID[value="5737"]) #fs19317 table.no-border tr:is(#DIVENTRY539922, #DIVENTRY539942) {
+    margin-bottom: 10px;
+    overflow: hidden;
+    border: 1px solid var(--payment-collector-border);
+    border-radius: 6px;
+  }
+  body:has(#Menu_Item_ID[value="4994"]):has(#Form_ID[value="5737"]) #fs19317 table.no-border tr:is(#DIVENTRY539922, #DIVENTRY539942) > td {
+    border: 0 !important;
+  }
+  body:has(#Menu_Item_ID[value="4994"]):has(#Form_ID[value="5737"]) #fs19317 table.no-border tr:is(#DIVENTRY539922, #DIVENTRY539942) > td:first-child {
+    padding-bottom: 0 !important;
+    text-align: left !important;
+  }
+  body:has(#Menu_Item_ID[value="4994"]):has(#Form_ID[value="5737"]) #fs19317 table.no-border .form-control {
+    width: 100% !important;
+  }
+  body:has(#Menu_Item_ID[value="4994"]):has(#Form_ID[value="5737"]) #fs19318 .text-center {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  body:has(#Menu_Item_ID[value="4994"]):has(#Form_ID[value="5737"]) #fs19318 .text-center > span,
+  body:has(#Menu_Item_ID[value="4994"]):has(#Form_ID[value="5737"]) #fs19318 .btn {
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+}
+
+body:has(#Menu_Item_ID[value="4888"]):has(#Form_ID[value="5668"]) {
+  --square-configuration-border: rgba(15, 57, 95, 0.16);
+}
+body:has(#Menu_Item_ID[value="4888"]):has(#Form_ID[value="5668"]) .page-title {
+  width: 100%;
+  margin: 0 auto 16px !important;
+  padding: 10px 20px 0;
+  box-sizing: border-box;
+  color: #184a8a;
+  text-align: left !important;
+}
+body:has(#Menu_Item_ID[value="4888"]):has(#Form_ID[value="5668"]) #fs19107 {
+  margin-bottom: 20px !important;
+}
+body:has(#Menu_Item_ID[value="4888"]):has(#Form_ID[value="5668"]) #fs19107 .center-block {
+  padding: 0;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+@media (max-width: 1140px) {
+  body:has(#Menu_Item_ID[value="4888"]):has(#Form_ID[value="5668"]) #fs19107 .center-block {
+    margin: 0 auto !important;
+    box-sizing: border-box;
+  }
+}
+@media (max-width: 767px) {
+  body:has(#Menu_Item_ID[value="4888"]):has(#Form_ID[value="5668"]) #fs19107 {
+    padding: 0 !important;
+  }
+  body:has(#Menu_Item_ID[value="4888"]):has(#Form_ID[value="5668"]) #fs19107 .center-block {
+    width: calc(100% - 40px) !important;
+    padding: 0 !important;
+    border-radius: 0;
+    overflow-x: hidden;
+  }
+}
+@media (min-width: 768px) {
+  body:has(#Menu_Item_ID[value="4888"]):has(#Form_ID[value="5668"]) #fs19107 {
+    margin-top: 0;
+  }
+}
+body:has(#Menu_Item_ID[value="4888"]):has(#Form_ID[value="5668"]) #fs19107 .center-block {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="4888"]):has(#Form_ID[value="5668"]) #fs19107 table.no-border {
+  width: 100%;
+  margin: 0;
+  border: 1px solid var(--square-configuration-border);
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 6px;
+  background: #f7faff;
+}
+body:has(#Menu_Item_ID[value="4888"]):has(#Form_ID[value="5668"]) #fs19107 table.no-border td {
+  padding: 20px !important;
+  border: 0 !important;
+  text-align: center !important;
+}
+body:has(#Menu_Item_ID[value="4888"]):has(#Form_ID[value="5668"]) #fs19107 table.no-border td:first-child {
+  display: none;
+}
+body:has(#Menu_Item_ID[value="4888"]):has(#Form_ID[value="5668"]) #fs19107 .bodysubheading {
+  display: block;
+}
+body:has(#Menu_Item_ID[value="4888"]):has(#Form_ID[value="5668"]) #fs19107 .bodysubheading a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 10px 18px;
+  border: 1px solid rgba(13, 59, 114, 0.25);
+  border-radius: 6px;
+  color: #ffffff !important;
+  background: linear-gradient(180deg, #1b6eb8 0%, #2783d1 100%);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.3;
+  text-align: center;
+  text-decoration: none !important;
+  box-shadow: 0 3px 8px rgba(13, 31, 54, 0.12);
+  box-sizing: border-box;
+}
+body:has(#Menu_Item_ID[value="4888"]):has(#Form_ID[value="5668"]) #fs19107 .bodysubheading a:hover,
+body:has(#Menu_Item_ID[value="4888"]):has(#Form_ID[value="5668"]) #fs19107 .bodysubheading a:focus {
+  color: #ffffff !important;
+  background: #155d9c;
+}
+@media (max-width: 767px) {
+  body:has(#Menu_Item_ID[value="4888"]):has(#Form_ID[value="5668"]) #fs19107 {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
+  body:has(#Menu_Item_ID[value="4888"]):has(#Form_ID[value="5668"]) #fs19107 table.no-border,
+  body:has(#Menu_Item_ID[value="4888"]):has(#Form_ID[value="5668"]) #fs19107 table.no-border tbody,
+  body:has(#Menu_Item_ID[value="4888"]):has(#Form_ID[value="5668"]) #fs19107 table.no-border tr,
+  body:has(#Menu_Item_ID[value="4888"]):has(#Form_ID[value="5668"]) #fs19107 table.no-border td {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="4888"]):has(#Form_ID[value="5668"]) #fs19107 table.no-border td {
+    padding: 14px !important;
+  }
+  body:has(#Menu_Item_ID[value="4888"]):has(#Form_ID[value="5668"]) #fs19107 .bodysubheading a {
+    width: 100%;
+  }
+}
+
+body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) {
+  --paypal-configuration-border: rgba(15, 57, 95, 0.16);
+}
+body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) .page-title {
+  width: 100%;
+  margin: 0 auto 16px !important;
+  padding: 10px 20px 0;
+  box-sizing: border-box;
+  color: #184a8a;
+  text-align: left !important;
+}
+body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) #fs7195 {
+  margin-bottom: 20px !important;
+}
+body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) #fs7195 .center-block {
+  padding: 0;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+@media (max-width: 1140px) {
+  body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) #fs7195 .center-block {
+    margin: 0 auto !important;
+    box-sizing: border-box;
+  }
+}
+@media (max-width: 767px) {
+  body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) #fs7195 {
+    padding: 0 !important;
+  }
+  body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) #fs7195 .center-block {
+    width: calc(100% - 40px) !important;
+    padding: 0 !important;
+    border-radius: 0;
+    overflow-x: hidden;
+  }
+}
+@media (min-width: 768px) {
+  body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) #fs7195 {
+    margin-top: 0;
+  }
+}
+body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) #fs7195 .center-block {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) #fs7195 table.no-border {
+  width: 100%;
+  margin: 0;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) #fs7195 table.no-border tr:is(#DIVENTRY282971, #DIVENTRY29576106, #DIVENTRY283012, #DIVENTRY282932, #DIVENTRY2830035, #DIVENTRY4462811) > td {
+  padding: 12px 16px !important;
+  border: 0 !important;
+  border-top: 1px solid var(--paypal-configuration-border) !important;
+  background: #ffffff !important;
+  vertical-align: middle;
+}
+body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) #fs7195 table.no-border tr:is(#DIVENTRY282971, #DIVENTRY29576106, #DIVENTRY283012, #DIVENTRY282932, #DIVENTRY2830035, #DIVENTRY4462811):nth-of-type(even) > td {
+  background: #f2f5f9 !important;
+}
+body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) #fs7195 table.no-border tr#DIVENTRY4462811 > td {
+  border-bottom: 1px solid var(--paypal-configuration-border) !important;
+}
+body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) #fs7195 table.no-border tr:is(#DIVENTRY282971, #DIVENTRY29576106, #DIVENTRY283012, #DIVENTRY282932, #DIVENTRY2830035, #DIVENTRY4462811) > td:first-child {
+  width: 42%;
+  border-right: 1px solid rgba(15, 57, 95, 0.12) !important;
+  text-align: right !important;
+}
+body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) #fs7195 table.no-border tr:not(:is(#DIVENTRY282971, #DIVENTRY29576106, #DIVENTRY283012, #DIVENTRY282932, #DIVENTRY2830035, #DIVENTRY4462811, [style*="display: none"])) td {
+  padding: 0 0 12px !important;
+  border: 0 !important;
+  background: transparent !important;
+  color: #173a63;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: left !important;
+}
+body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) #fs7195 table.no-border tr:first-child td {
+  color: #184a8a;
+  font-size: 16px;
+  font-weight: 700;
+}
+body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) #fs7195 table.no-border tr:nth-child(4) td {
+  padding: 12px 16px !important;
+  border-left: 3px solid #d19b27 !important;
+  color: #0d3b72;
+  background: #fff8e6 !important;
+  font-weight: 600;
+}
+body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) #fs7195 table.no-border tr:nth-child(7) td {
+  padding: 12px 16px !important;
+  border-left: 3px solid #d19b27 !important;
+  color: #0d3b72;
+  background: #fff8e6 !important;
+  font-weight: 600;
+}
+body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) #fs7195 table.no-border .control-label {
+  margin: 0 !important;
+  color: #0d3b72;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: inherit;
+}
+body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) #fs7195 table.no-border .form-control {
+  display: inline-block;
+  width: min(100%, 520px);
+  margin: 0 !important;
+  font-size: 14px;
+}
+body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) #fs7195 table.no-border input[type=radio],
+body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) #fs7195 table.no-border input[type=checkbox] {
+  width: 18px !important;
+  max-width: 18px !important;
+  height: 18px !important;
+  min-height: 18px !important;
+  margin: 0 4px 0 0 !important;
+  vertical-align: -3px;
+}
+body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) #fs7196 {
+  margin-bottom: 20px !important;
+}
+body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) #fs7196 .center-block {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) #fs7196 .text-center {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: flex-start !important;
+  gap: 8px;
+  text-align: left !important;
+}
+body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) #fs7196 .text-center > span {
+  display: inline-flex !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) #fs7196 .text-center > span:empty {
+  display: none !important;
+}
+body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) #fs7196 .btn {
+  min-width: 100px;
+  min-height: 40px;
+  margin: 0 !important;
+  padding: 9px 16px !important;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+@media (max-width: 767px) {
+  body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) #fs7195,
+  body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) #fs7196 {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
+  body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) #fs7195 table.no-border,
+  body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) #fs7195 table.no-border tbody,
+  body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) #fs7195 table.no-border tr,
+  body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) #fs7195 table.no-border td {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) #fs7195 table.no-border tr:is(#DIVENTRY282971, #DIVENTRY29576106, #DIVENTRY283012, #DIVENTRY282932, #DIVENTRY2830035, #DIVENTRY4462811) {
+    margin-bottom: 10px;
+    overflow: hidden;
+    border: 1px solid var(--paypal-configuration-border);
+    border-radius: 6px;
+  }
+  body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) #fs7195 table.no-border tr:is(#DIVENTRY282971, #DIVENTRY29576106, #DIVENTRY283012, #DIVENTRY282932, #DIVENTRY2830035, #DIVENTRY4462811) > td {
+    border: 0 !important;
+  }
+  body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) #fs7195 table.no-border tr:is(#DIVENTRY282971, #DIVENTRY29576106, #DIVENTRY283012, #DIVENTRY282932, #DIVENTRY2830035, #DIVENTRY4462811) > td:first-child {
+    padding-bottom: 0 !important;
+    text-align: left !important;
+  }
+  body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) #fs7195 table.no-border tr:nth-child(4) td,
+  body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) #fs7195 table.no-border tr:nth-child(7) td {
+    padding: 12px 14px !important;
+  }
+  body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) #fs7195 table.no-border .form-control {
+    width: 100% !important;
+  }
+  body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) #fs7196 .text-center {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) #fs7196 .text-center > span,
+  body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) #fs7196 .btn {
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+  body:has(#Menu_Item_ID[value="407"]):has(#Form_ID[value="1439"]) #fs7196 .text-center > span:last-child {
+    grid-column: 1/-1;
+  }
+}
+
+body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) {
+  --budget-template-border: rgba(15, 57, 95, 0.16);
+}
+body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) .page-title {
+  width: 100%;
+  margin: 0 auto 16px !important;
+  padding: 10px 20px 0;
+  box-sizing: border-box;
+  color: #184a8a;
+  text-align: left !important;
+}
+body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) :is(#fs24292, #fs24293 ~ .new-row) {
+  margin-bottom: 20px !important;
+}
+body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) :is(#fs24292, #fs24293 ~ .new-row) .center-block {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) :is(#fs24292, #fs24293 ~ .new-row) .text-center {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: flex-start !important;
+  gap: 8px;
+  text-align: left !important;
+}
+body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) :is(#fs24292, #fs24293 ~ .new-row) .text-center > span {
+  display: inline-flex !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) :is(#fs24292, #fs24293 ~ .new-row) .text-center > span:empty {
+  display: none !important;
+}
+body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) :is(#fs24292, #fs24293 ~ .new-row) .btn {
+  min-width: 100px;
+  min-height: 40px;
+  margin: 0 !important;
+  padding: 9px 16px !important;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #fs24293 {
+  margin-bottom: 20px !important;
+}
+body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #fs24293 .center-block.table-responsive {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  overflow-x: auto;
+}
+body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #fs24293 #sortablegrid24293 {
+  width: 100% !important;
+  min-width: 1080px;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--budget-template-border) !important;
+  border-collapse: separate !important;
+  border-spacing: 0;
+  border-radius: 0 !important;
+  background: #ffffff;
+}
+body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #fs24293 #sortablegrid24293 > thead > tr > th {
+  padding: 11px 12px !important;
+  border: 0 !important;
+  border-right: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-bottom: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-left: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-radius: 0 !important;
+  color: #0d3b72 !important;
+  background: #eaf3ff !important;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: left;
+  vertical-align: middle;
+}
+body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #fs24293 #sortablegrid24293 > tbody > tr > td {
+  padding: 9px 10px !important;
+  border: 0 !important;
+  border-bottom: 1px solid rgba(15, 57, 95, 0.09) !important;
+  color: #0d3b72;
+  background: #ffffff !important;
+  font-size: 13px;
+  text-align: left !important;
+  vertical-align: middle;
+  overflow-wrap: anywhere;
+}
+body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #fs24293 #sortablegrid24293 > tbody > tr:nth-of-type(even) > td {
+  background: #f7faff !important;
+}
+body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #fs24293 #sortablegrid24293 > tbody > tr:last-child > td {
+  border-bottom: 0 !important;
+}
+body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #fs24293 #sortablegrid24293 > tbody > tr > td:first-child,
+body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #fs24293 #sortablegrid24293 > tbody > tr > td:last-child {
+  width: 76px;
+  text-align: center !important;
+}
+body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #fs24293 #sortablegrid24293 .btn {
+  min-height: 34px;
+  margin: 0 !important;
+  padding: 7px 10px !important;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 700;
+}
+body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #fs24293 #sortablegrid24293 > tfoot > tr > td {
+  padding: 14px 12px !important;
+  border: 0 !important;
+  border-top: 1px solid rgba(15, 57, 95, 0.12) !important;
+  background: #f7faff !important;
+  text-align: center !important;
+}
+body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #fs24293 #sortablegrid24293 > tfoot input[type=button] {
+  min-height: 40px;
+  margin: 0 6px !important;
+  padding: 10px 12px !important;
+  border: 1px solid rgba(13, 59, 114, 0.2) !important;
+  border-radius: 10px !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+  box-shadow: 0 3px 8px rgba(13, 31, 54, 0.08) !important;
+}
+body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #fs24293 #sortablegrid24293 > tfoot input[type=button][value="Print (Export to PDF)"] {
+  color: #ffffff !important;
+  background: linear-gradient(180deg, #1b6eb8 0%, #2783d1 100%) !important;
+}
+body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #fs24293 #sortablegrid24293 > tfoot input[type=button][value="Open in Excel"] {
+  color: #0d3b72 !important;
+  background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%) !important;
+}
+@media (max-width: 767px) {
+  body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #fs24292,
+  body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #fs24293,
+  body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #fs24293 ~ .new-row {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
+  body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) :is(#fs24292, #fs24293 ~ .new-row) .text-center {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) :is(#fs24292, #fs24293 ~ .new-row) .text-center > span,
+  body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) :is(#fs24292, #fs24293 ~ .new-row) .btn {
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+  body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #fs24293 .center-block.table-responsive {
+    overflow: hidden !important;
+  }
+  body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #sortablegrid24293,
+  body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #sortablegrid24293 > tbody {
+    display: block;
+    width: 100% !important;
+    min-width: 0 !important;
+    border: 0 !important;
+    background: transparent;
+  }
+  body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #sortablegrid24293 > thead {
+    display: none;
+  }
+  body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #sortablegrid24293 > tbody > tr {
+    display: grid !important;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    align-items: stretch;
+    width: 100% !important;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border: 1px solid var(--budget-template-border) !important;
+    border-radius: 6px;
+    background: #ffffff;
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #sortablegrid24293 > tbody > tr > td {
+    display: none !important;
+    min-width: 0;
+    padding: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #sortablegrid24293 > tbody > tr > td:first-child,
+  body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #sortablegrid24293 > tbody > tr > td:last-child {
+    display: flex !important;
+    grid-row: 1/7;
+    align-items: center;
+    width: auto;
+    padding: 8px !important;
+  }
+  body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #sortablegrid24293 > tbody > tr > td:first-child {
+    grid-column: 1;
+    border-right: 1px solid rgba(15, 57, 95, 0.12) !important;
+  }
+  body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #sortablegrid24293 > tbody > tr > td:last-child {
+    grid-column: 3;
+    border-left: 1px solid rgba(15, 57, 95, 0.12) !important;
+  }
+  body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #sortablegrid24293 > tbody > tr > td:nth-child(n+2):not(:last-child) {
+    display: flex !important;
+    grid-column: 2;
+    align-items: baseline;
+    gap: 8px;
+    padding: 5px 10px !important;
+    text-align: left !important;
+    line-height: 1.35;
+    overflow-wrap: anywhere;
+  }
+  body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #sortablegrid24293 > tbody > tr > td:nth-child(2) {
+    grid-row: 1;
+    padding-top: 9px !important;
+    color: #184a8a;
+    font-weight: 700;
+  }
+  body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #sortablegrid24293 > tbody > tr > td:nth-child(3) {
+    grid-row: 2;
+  }
+  body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #sortablegrid24293 > tbody > tr > td:nth-child(4) {
+    grid-row: 3;
+  }
+  body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #sortablegrid24293 > tbody > tr > td:nth-child(5) {
+    grid-row: 4;
+  }
+  body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #sortablegrid24293 > tbody > tr > td:nth-child(6) {
+    grid-row: 5;
+  }
+  body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #sortablegrid24293 > tbody > tr > td:nth-child(7) {
+    grid-row: 6;
+  }
+  body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #sortablegrid24293 > tbody > tr > td:nth-child(8) {
+    grid-row: 7;
+    padding-bottom: 9px !important;
+  }
+  body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #sortablegrid24293 > tbody > tr > td:nth-child(3)::before,
+  body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #sortablegrid24293 > tbody > tr > td:nth-child(n+5):not(:last-child)::before {
+    flex: 0 0 54px;
+    color: #184a8a;
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 1.3;
+    text-align: right;
+    text-transform: uppercase;
+  }
+  body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #sortablegrid24293 > tbody > tr > td:nth-child(3)::before {
+    content: "Sequence";
+  }
+  body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #sortablegrid24293 > tbody > tr > td:nth-child(5)::before {
+    content: "Events";
+  }
+  body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #sortablegrid24293 > tbody > tr > td:nth-child(6)::before {
+    content: "Per";
+  }
+  body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #sortablegrid24293 > tbody > tr > td:nth-child(7)::before {
+    content: "Default";
+  }
+  body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #sortablegrid24293 > tbody > tr > td:nth-child(8)::before {
+    content: "Disabled";
+  }
+  body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #sortablegrid24293 > tfoot,
+  body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #sortablegrid24293 > tfoot > tr,
+  body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #sortablegrid24293 > tfoot > tr > td {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="7632"]):has(#Form_ID[value="7393"]) #sortablegrid24293 > tfoot input[type=button] {
+    width: calc(50% - 14px);
+    min-width: 0;
+    margin: 4px 5px !important;
+  }
+}
+
+body:has(#Menu_Item_ID[value="406"]):has(#Form_ID[value="1368"]) {
+  --fund-category-border: rgba(15, 57, 95, 0.16);
+}
+body:has(#Menu_Item_ID[value="406"]):has(#Form_ID[value="1368"]) .page-title {
+  width: 100%;
+  margin: 0 auto 16px !important;
+  padding: 10px 20px 0;
+  box-sizing: border-box;
+  color: #184a8a;
+  text-align: left !important;
+}
+body:has(#Menu_Item_ID[value="406"]):has(#Form_ID[value="1368"]) :is(#fs6842, #fs6843 ~ .new-row) {
+  margin-bottom: 20px !important;
+}
+body:has(#Menu_Item_ID[value="406"]):has(#Form_ID[value="1368"]) :is(#fs6842, #fs6843 ~ .new-row) .center-block {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="406"]):has(#Form_ID[value="1368"]) :is(#fs6842, #fs6843 ~ .new-row) .text-center {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: flex-start !important;
+  gap: 8px;
+  text-align: left !important;
+}
+body:has(#Menu_Item_ID[value="406"]):has(#Form_ID[value="1368"]) :is(#fs6842, #fs6843 ~ .new-row) .text-center > span {
+  display: inline-flex !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="406"]):has(#Form_ID[value="1368"]) :is(#fs6842, #fs6843 ~ .new-row) .text-center > span:empty {
+  display: none !important;
+}
+body:has(#Menu_Item_ID[value="406"]):has(#Form_ID[value="1368"]) :is(#fs6842, #fs6843 ~ .new-row) .btn {
+  min-width: 100px;
+  min-height: 40px;
+  margin: 0 !important;
+  padding: 9px 16px !important;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+body:has(#Menu_Item_ID[value="406"]):has(#Form_ID[value="1368"]) #fs6843 {
+  margin-bottom: 20px !important;
+}
+body:has(#Menu_Item_ID[value="406"]):has(#Form_ID[value="1368"]) #fs6843 .center-block.table-responsive {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  overflow-x: auto;
+}
+body:has(#Menu_Item_ID[value="406"]):has(#Form_ID[value="1368"]) #fs6843 #sortablegrid6843 {
+  width: 100% !important;
+  min-width: 620px;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--fund-category-border) !important;
+  border-collapse: separate !important;
+  border-spacing: 0;
+  border-radius: 0 !important;
+  background: #ffffff;
+}
+body:has(#Menu_Item_ID[value="406"]):has(#Form_ID[value="1368"]) #fs6843 #sortablegrid6843 > thead > tr > th {
+  padding: 11px 12px !important;
+  border: 0 !important;
+  border-right: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-bottom: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-left: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-radius: 0 !important;
+  color: #0d3b72 !important;
+  background: #eaf3ff !important;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: left;
+  vertical-align: middle;
+}
+body:has(#Menu_Item_ID[value="406"]):has(#Form_ID[value="1368"]) #fs6843 #sortablegrid6843 > tbody > tr > td {
+  padding: 9px 10px !important;
+  border: 0 !important;
+  border-bottom: 1px solid rgba(15, 57, 95, 0.09) !important;
+  color: #0d3b72;
+  background: #ffffff !important;
+  font-size: 13px;
+  text-align: left !important;
+  vertical-align: middle;
+  overflow-wrap: anywhere;
+}
+body:has(#Menu_Item_ID[value="406"]):has(#Form_ID[value="1368"]) #fs6843 #sortablegrid6843 > tbody > tr:nth-of-type(even) > td {
+  background: #f7faff !important;
+}
+body:has(#Menu_Item_ID[value="406"]):has(#Form_ID[value="1368"]) #fs6843 #sortablegrid6843 > tbody > tr:last-child > td {
+  border-bottom: 0 !important;
+}
+body:has(#Menu_Item_ID[value="406"]):has(#Form_ID[value="1368"]) #fs6843 #sortablegrid6843 > tbody > tr > td:first-child,
+body:has(#Menu_Item_ID[value="406"]):has(#Form_ID[value="1368"]) #fs6843 #sortablegrid6843 > tbody > tr > td:last-child {
+  width: 100px;
+  text-align: center !important;
+}
+body:has(#Menu_Item_ID[value="406"]):has(#Form_ID[value="1368"]) #fs6843 #sortablegrid6843 .btn {
+  min-height: 34px;
+  margin: 0 !important;
+  padding: 7px 10px !important;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 700;
+}
+@media (max-width: 767px) {
+  body:has(#Menu_Item_ID[value="406"]):has(#Form_ID[value="1368"]) #fs6842,
+  body:has(#Menu_Item_ID[value="406"]):has(#Form_ID[value="1368"]) #fs6843,
+  body:has(#Menu_Item_ID[value="406"]):has(#Form_ID[value="1368"]) #fs6843 ~ .new-row {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
+  body:has(#Menu_Item_ID[value="406"]):has(#Form_ID[value="1368"]) :is(#fs6842, #fs6843 ~ .new-row) .text-center {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  body:has(#Menu_Item_ID[value="406"]):has(#Form_ID[value="1368"]) :is(#fs6842, #fs6843 ~ .new-row) .text-center > span,
+  body:has(#Menu_Item_ID[value="406"]):has(#Form_ID[value="1368"]) :is(#fs6842, #fs6843 ~ .new-row) .btn {
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+  body:has(#Menu_Item_ID[value="406"]):has(#Form_ID[value="1368"]) #fs6843 .center-block.table-responsive {
+    overflow: hidden !important;
+  }
+  body:has(#Menu_Item_ID[value="406"]):has(#Form_ID[value="1368"]) #sortablegrid6843,
+  body:has(#Menu_Item_ID[value="406"]):has(#Form_ID[value="1368"]) #sortablegrid6843 > tbody {
+    display: block;
+    width: 100% !important;
+    min-width: 0 !important;
+    border: 0 !important;
+    background: transparent;
+  }
+  body:has(#Menu_Item_ID[value="406"]):has(#Form_ID[value="1368"]) #sortablegrid6843 > thead {
+    display: none;
+  }
+  body:has(#Menu_Item_ID[value="406"]):has(#Form_ID[value="1368"]) #sortablegrid6843 > tbody > tr {
+    display: grid !important;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    align-items: stretch;
+    width: 100% !important;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border: 1px solid var(--fund-category-border) !important;
+    border-radius: 6px;
+    background: #ffffff;
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="406"]):has(#Form_ID[value="1368"]) #sortablegrid6843 > tbody > tr > td {
+    display: none !important;
+    min-width: 0;
+    padding: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="406"]):has(#Form_ID[value="1368"]) #sortablegrid6843 > tbody > tr > td[colspan] {
+    display: block !important;
+    grid-column: 1/-1;
+    padding: 16px !important;
+    text-align: center !important;
+  }
+  body:has(#Menu_Item_ID[value="406"]):has(#Form_ID[value="1368"]) #sortablegrid6843 > tbody > tr:has(td[colspan]) {
+    display: block !important;
+  }
+  body:has(#Menu_Item_ID[value="406"]):has(#Form_ID[value="1368"]) #sortablegrid6843 > tbody > tr > td:first-child,
+  body:has(#Menu_Item_ID[value="406"]):has(#Form_ID[value="1368"]) #sortablegrid6843 > tbody > tr > td:last-child {
+    display: flex !important;
+    grid-row: 1/3;
+    align-items: center;
+    width: auto;
+    padding: 8px !important;
+  }
+  body:has(#Menu_Item_ID[value="406"]):has(#Form_ID[value="1368"]) #sortablegrid6843 > tbody > tr > td:first-child {
+    grid-column: 1;
+    border-right: 1px solid rgba(15, 57, 95, 0.12) !important;
+  }
+  body:has(#Menu_Item_ID[value="406"]):has(#Form_ID[value="1368"]) #sortablegrid6843 > tbody > tr > td:last-child {
+    grid-column: 3;
+    border-left: 1px solid rgba(15, 57, 95, 0.12) !important;
+  }
+  body:has(#Menu_Item_ID[value="406"]):has(#Form_ID[value="1368"]) #sortablegrid6843 > tbody > tr > td:nth-child(2),
+  body:has(#Menu_Item_ID[value="406"]):has(#Form_ID[value="1368"]) #sortablegrid6843 > tbody > tr > td:nth-child(3) {
+    display: flex !important;
+    grid-column: 2;
+    gap: 8px;
+    padding: 6px 10px !important;
+    text-align: left !important;
+    line-height: 1.35;
+    overflow-wrap: anywhere;
+  }
+  body:has(#Menu_Item_ID[value="406"]):has(#Form_ID[value="1368"]) #sortablegrid6843 > tbody > tr > td:nth-child(2) {
+    grid-row: 1;
+    padding-top: 9px !important;
+    color: #184a8a;
+    font-weight: 700;
+  }
+  body:has(#Menu_Item_ID[value="406"]):has(#Form_ID[value="1368"]) #sortablegrid6843 > tbody > tr > td:nth-child(3) {
+    grid-row: 2;
+    padding-bottom: 9px !important;
+  }
+  body:has(#Menu_Item_ID[value="406"]):has(#Form_ID[value="1368"]) #sortablegrid6843 > tbody > tr > td:nth-child(3)::before {
+    content: "Sequence";
+    flex: 0 0 62px;
+    color: #184a8a;
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 1.3;
+    text-align: right;
+    text-transform: uppercase;
+  }
+}
+
+body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) {
+  --fund-list-border: rgba(15, 57, 95, 0.16);
+}
+body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) .page-title {
+  width: 100%;
+  margin: 0 auto 16px !important;
+  padding: 10px 20px 0;
+  box-sizing: border-box;
+  color: #184a8a;
+  text-align: left !important;
+}
+body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) :is(#fs6849, #fs6850 ~ .new-row) {
+  margin-bottom: 20px !important;
+}
+body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) :is(#fs6849, #fs6850 ~ .new-row) .center-block {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) :is(#fs6849, #fs6850 ~ .new-row) .text-center {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: flex-start !important;
+  gap: 8px;
+  text-align: left !important;
+}
+body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) :is(#fs6849, #fs6850 ~ .new-row) .text-center > span {
+  display: inline-flex !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) :is(#fs6849, #fs6850 ~ .new-row) .text-center > span:empty {
+  display: none !important;
+}
+body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) :is(#fs6849, #fs6850 ~ .new-row) .btn {
+  min-width: 100px;
+  min-height: 40px;
+  margin: 0 !important;
+  padding: 9px 16px !important;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) #fs6850 {
+  margin-bottom: 20px !important;
+}
+body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) #fs6850 .center-block.table-responsive {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  overflow-x: auto;
+}
+body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) #fs6850 #sortablegrid6850 {
+  width: 100% !important;
+  min-width: 1080px;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--fund-list-border) !important;
+  border-collapse: separate !important;
+  border-spacing: 0;
+  border-radius: 0 !important;
+  background: #ffffff;
+}
+body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) #fs6850 #sortablegrid6850 > thead > tr > th {
+  padding: 11px 12px !important;
+  border: 0 !important;
+  border-right: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-bottom: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-left: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-radius: 0 !important;
+  color: #0d3b72 !important;
+  background: #eaf3ff !important;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: left;
+  vertical-align: middle;
+}
+body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) #fs6850 #sortablegrid6850 > tbody > tr > td {
+  padding: 9px 10px !important;
+  border: 0 !important;
+  border-bottom: 1px solid rgba(15, 57, 95, 0.09) !important;
+  color: #0d3b72;
+  background: #ffffff !important;
+  font-size: 13px;
+  text-align: left !important;
+  vertical-align: middle;
+  overflow-wrap: anywhere;
+}
+body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) #fs6850 #sortablegrid6850 > tbody > tr:nth-of-type(even) > td {
+  background: #f7faff !important;
+}
+body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) #fs6850 #sortablegrid6850 > tbody > tr:last-child > td {
+  border-bottom: 0 !important;
+}
+body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) #fs6850 #sortablegrid6850 > tbody > tr > td:first-child,
+body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) #fs6850 #sortablegrid6850 > tbody > tr > td:last-child {
+  width: 76px;
+  text-align: center !important;
+}
+body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) #fs6850 #sortablegrid6850 .btn {
+  min-height: 34px;
+  margin: 0 !important;
+  padding: 7px 10px !important;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 700;
+}
+@media (max-width: 767px) {
+  body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) #fs6849,
+  body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) #fs6850,
+  body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) #fs6850 ~ .new-row {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
+  body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) :is(#fs6849, #fs6850 ~ .new-row) .text-center {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) :is(#fs6849, #fs6850 ~ .new-row) .text-center > span,
+  body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) :is(#fs6849, #fs6850 ~ .new-row) .btn {
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+  body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) #fs6850 .center-block.table-responsive {
+    overflow: hidden !important;
+  }
+  body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) #sortablegrid6850,
+  body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) #sortablegrid6850 > tbody {
+    display: block;
+    width: 100% !important;
+    min-width: 0 !important;
+    border: 0 !important;
+    background: transparent;
+  }
+  body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) #sortablegrid6850 > thead {
+    display: none;
+  }
+  body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) #sortablegrid6850 > tbody > tr {
+    display: grid !important;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    align-items: stretch;
+    width: 100% !important;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border: 1px solid var(--fund-list-border) !important;
+    border-radius: 6px;
+    background: #ffffff;
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) #sortablegrid6850 > tbody > tr > td {
+    display: none !important;
+    min-width: 0;
+    padding: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) #sortablegrid6850 > tbody > tr > td[colspan] {
+    display: block !important;
+    grid-column: 1/-1;
+    padding: 16px !important;
+    text-align: center !important;
+  }
+  body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) #sortablegrid6850 > tbody > tr:has(td[colspan]) {
+    display: block !important;
+  }
+  body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) #sortablegrid6850 > tbody > tr > td:first-child,
+  body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) #sortablegrid6850 > tbody > tr > td:last-child {
+    display: flex !important;
+    grid-row: 1/7;
+    align-items: center;
+    width: auto;
+    padding: 8px !important;
+  }
+  body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) #sortablegrid6850 > tbody > tr > td:first-child {
+    grid-column: 1;
+    border-right: 1px solid rgba(15, 57, 95, 0.12) !important;
+  }
+  body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) #sortablegrid6850 > tbody > tr > td:last-child {
+    grid-column: 3;
+    border-left: 1px solid rgba(15, 57, 95, 0.12) !important;
+  }
+  body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) #sortablegrid6850 > tbody > tr > td:nth-child(n+2):not(:last-child) {
+    display: flex !important;
+    grid-column: 2;
+    align-items: baseline;
+    gap: 8px;
+    padding: 5px 10px !important;
+    text-align: left !important;
+    line-height: 1.35;
+    overflow-wrap: anywhere;
+  }
+  body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) #sortablegrid6850 > tbody > tr > td:nth-child(2) {
+    grid-row: 1;
+    padding-top: 9px !important;
+    color: #184a8a;
+    font-weight: 700;
+  }
+  body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) #sortablegrid6850 > tbody > tr > td:nth-child(3) {
+    grid-row: 2;
+  }
+  body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) #sortablegrid6850 > tbody > tr > td:nth-child(4) {
+    grid-row: 3;
+  }
+  body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) #sortablegrid6850 > tbody > tr > td:nth-child(5) {
+    grid-row: 4;
+  }
+  body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) #sortablegrid6850 > tbody > tr > td:nth-child(6) {
+    grid-row: 5;
+  }
+  body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) #sortablegrid6850 > tbody > tr > td:nth-child(7) {
+    grid-row: 6;
+  }
+  body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) #sortablegrid6850 > tbody > tr > td:nth-child(8) {
+    grid-row: 7;
+    padding-bottom: 9px !important;
+  }
+  body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) #sortablegrid6850 > tbody > tr > td:nth-child(3)::before,
+  body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) #sortablegrid6850 > tbody > tr > td:nth-child(n+4):not(:last-child)::before {
+    flex: 0 0 58px;
+    color: #184a8a;
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 1.3;
+    text-align: right;
+    text-transform: uppercase;
+  }
+  body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) #sortablegrid6850 > tbody > tr > td:nth-child(3)::before {
+    content: "Description";
+  }
+  body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) #sortablegrid6850 > tbody > tr > td:nth-child(4)::before {
+    content: "Category";
+  }
+  body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) #sortablegrid6850 > tbody > tr > td:nth-child(5)::before {
+    content: "Sequence";
+  }
+  body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) #sortablegrid6850 > tbody > tr > td:nth-child(6)::before {
+    content: "Balance";
+  }
+  body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) #sortablegrid6850 > tbody > tr > td:nth-child(7)::before {
+    content: "Budget";
+  }
+  body:has(#Menu_Item_ID[value="405"]):has(#Form_ID[value="1371"]) #sortablegrid6850 > tbody > tr > td:nth-child(8)::before {
+    content: "Disabled";
+  }
+}
+
+body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) {
+  --transaction-type-border: rgba(15, 57, 95, 0.16);
+}
+body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) .page-title {
+  width: 100%;
+  margin: 0 auto 16px !important;
+  padding: 10px 20px 0;
+  box-sizing: border-box;
+  color: #184a8a;
+  text-align: left !important;
+}
+body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) :is(#fs6856, #fs6857 ~ .new-row) {
+  margin-bottom: 20px !important;
+}
+body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) :is(#fs6856, #fs6857 ~ .new-row) .center-block {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) :is(#fs6856, #fs6857 ~ .new-row) .text-center {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: flex-start !important;
+  gap: 8px;
+  text-align: left !important;
+}
+body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) :is(#fs6856, #fs6857 ~ .new-row) .text-center > span {
+  display: inline-flex !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) :is(#fs6856, #fs6857 ~ .new-row) .text-center > span:empty {
+  display: none !important;
+}
+body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) :is(#fs6856, #fs6857 ~ .new-row) .btn {
+  min-width: 100px;
+  min-height: 40px;
+  margin: 0 !important;
+  padding: 9px 16px !important;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #fs6856 input[value="Enable Budget Using Recommended Settings"],
+body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #fs6856 input[value="Disable Budget"] {
+  min-width: 230px;
+}
+body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #fs6857 {
+  margin-bottom: 20px !important;
+}
+body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #fs6857 .center-block.table-responsive {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  overflow-x: auto;
+}
+body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #fs6857 .center-block.table-responsive > table {
+  width: 100% !important;
+  margin: 0;
+}
+body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #fs6857 .rows-per-page {
+  font-size: 13px;
+}
+body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #fs6857 #sortablegrid6857 {
+  width: 100% !important;
+  min-width: 1760px;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--transaction-type-border) !important;
+  border-collapse: separate !important;
+  border-spacing: 0;
+  border-radius: 0 !important;
+  background: #ffffff;
+}
+body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #fs6857 #sortablegrid6857 > thead > tr > th {
+  padding: 11px 12px !important;
+  border: 0 !important;
+  border-right: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-bottom: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-left: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-radius: 0 !important;
+  color: #0d3b72 !important;
+  background: #eaf3ff !important;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: left;
+  vertical-align: middle;
+}
+body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #fs6857 #sortablegrid6857 > tbody > tr > td {
+  padding: 9px 10px !important;
+  border: 0 !important;
+  border-bottom: 1px solid rgba(15, 57, 95, 0.09) !important;
+  color: #0d3b72;
+  background: #ffffff !important;
+  font-size: 13px;
+  text-align: left !important;
+  vertical-align: middle;
+  overflow-wrap: anywhere;
+}
+body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #fs6857 #sortablegrid6857 > tbody > tr:nth-of-type(even) > td {
+  background: #f7faff !important;
+}
+body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #fs6857 #sortablegrid6857 > tbody > tr:last-child > td {
+  border-bottom: 0 !important;
+}
+body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #fs6857 #sortablegrid6857 > tbody > tr > td:first-child,
+body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #fs6857 #sortablegrid6857 > tbody > tr > td:last-child {
+  width: 76px;
+  text-align: center !important;
+}
+body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #fs6857 #sortablegrid6857 .btn {
+  min-height: 34px;
+  margin: 0 !important;
+  padding: 7px 10px !important;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 700;
+}
+body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #fs6857 #sortablegrid6857 > tfoot > tr > td {
+  padding: 14px 12px !important;
+  border: 0 !important;
+  border-top: 1px solid rgba(15, 57, 95, 0.12) !important;
+  background: #f7faff !important;
+  text-align: center !important;
+}
+body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #fs6857 #sortablegrid6857 > tfoot input[type=button] {
+  min-height: 40px;
+  margin: 0 6px !important;
+  padding: 10px 12px !important;
+  border: 1px solid rgba(13, 59, 114, 0.2) !important;
+  border-radius: 10px !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+  box-shadow: 0 3px 8px rgba(13, 31, 54, 0.08) !important;
+}
+body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #fs6857 #sortablegrid6857 > tfoot input[type=button][value="Print (Export to PDF)"] {
+  color: #ffffff !important;
+  background: linear-gradient(180deg, #1b6eb8 0%, #2783d1 100%) !important;
+}
+body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #fs6857 #sortablegrid6857 > tfoot input[type=button][value="Open in Excel"] {
+  color: #0d3b72 !important;
+  background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%) !important;
+}
+@media (max-width: 767px) {
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #fs6856,
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #fs6857,
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #fs6857 ~ .new-row {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) :is(#fs6856, #fs6857 ~ .new-row) .text-center {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) :is(#fs6856, #fs6857 ~ .new-row) .text-center > span,
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) :is(#fs6856, #fs6857 ~ .new-row) .btn {
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #fs6856 input[value="Enable Budget Using Recommended Settings"],
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #fs6856 input[value="Disable Budget"] {
+    grid-column: 1/-1;
+  }
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #fs6857 .center-block.table-responsive {
+    overflow: hidden !important;
+  }
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #fs6857 .center-block.table-responsive > table {
+    display: block;
+    width: 100% !important;
+  }
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #sortablegrid6857,
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #sortablegrid6857 > tbody {
+    display: block;
+    width: 100% !important;
+    min-width: 0 !important;
+    border: 0 !important;
+    background: transparent;
+  }
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #sortablegrid6857 > thead {
+    display: none;
+  }
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #sortablegrid6857 > tbody > tr {
+    display: grid !important;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    align-items: stretch;
+    width: 100% !important;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border: 1px solid var(--transaction-type-border) !important;
+    border-radius: 6px;
+    background: #ffffff;
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #sortablegrid6857 > tbody > tr > td {
+    display: none !important;
+    min-width: 0;
+    padding: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #sortablegrid6857 > tbody > tr > td:first-child,
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #sortablegrid6857 > tbody > tr > td:last-child {
+    display: flex !important;
+    grid-row: 1/10;
+    align-items: center;
+    width: auto;
+    padding: 8px !important;
+  }
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #sortablegrid6857 > tbody > tr > td:first-child {
+    grid-column: 1;
+    border-right: 1px solid rgba(15, 57, 95, 0.12) !important;
+  }
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #sortablegrid6857 > tbody > tr > td:last-child {
+    grid-column: 3;
+    border-left: 1px solid rgba(15, 57, 95, 0.12) !important;
+  }
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #sortablegrid6857 > tbody > tr > td:is(:nth-child(2), :nth-child(3), :nth-child(4), :nth-child(5), :nth-child(6), :nth-child(9), :nth-child(12), :nth-child(13), :nth-child(14), :nth-child(15), :nth-child(16)) {
+    display: flex !important;
+    grid-column: 2;
+    align-items: baseline;
+    gap: 8px;
+    padding: 5px 10px !important;
+    text-align: left !important;
+    line-height: 1.35;
+    overflow-wrap: anywhere;
+  }
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #sortablegrid6857 > tbody > tr > td:nth-child(2) {
+    grid-row: 1;
+    padding-top: 9px !important;
+    color: #184a8a;
+    font-weight: 700;
+  }
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #sortablegrid6857 > tbody > tr > td:nth-child(3) {
+    grid-row: 2;
+  }
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #sortablegrid6857 > tbody > tr > td:nth-child(4) {
+    grid-row: 3;
+  }
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #sortablegrid6857 > tbody > tr > td:nth-child(5) {
+    grid-row: 4;
+  }
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #sortablegrid6857 > tbody > tr > td:nth-child(6) {
+    grid-row: 5;
+  }
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #sortablegrid6857 > tbody > tr > td:nth-child(9) {
+    grid-row: 6;
+  }
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #sortablegrid6857 > tbody > tr > td:nth-child(12) {
+    grid-row: 7;
+  }
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #sortablegrid6857 > tbody > tr > td:nth-child(13) {
+    grid-row: 8;
+  }
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #sortablegrid6857 > tbody > tr > td:nth-child(14) {
+    grid-row: 9;
+  }
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #sortablegrid6857 > tbody > tr > td:nth-child(15) {
+    grid-row: 10;
+  }
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #sortablegrid6857 > tbody > tr > td:nth-child(16) {
+    grid-row: 11;
+    padding-bottom: 9px !important;
+  }
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #sortablegrid6857 > tbody > tr > td:is(:nth-child(3), :nth-child(4), :nth-child(5), :nth-child(6), :nth-child(9), :nth-child(12), :nth-child(13), :nth-child(14), :nth-child(15), :nth-child(16))::before {
+    flex: 0 0 64px;
+    color: #184a8a;
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 1.3;
+    text-align: right;
+    text-transform: uppercase;
+  }
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #sortablegrid6857 > tbody > tr > td:nth-child(3)::before {
+    content: "Group debit";
+  }
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #sortablegrid6857 > tbody > tr > td:nth-child(4)::before {
+    content: "Group credit";
+  }
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #sortablegrid6857 > tbody > tr > td:nth-child(5)::before {
+    content: "Person debit";
+  }
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #sortablegrid6857 > tbody > tr > td:nth-child(6)::before {
+    content: "Person credit";
+  }
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #sortablegrid6857 > tbody > tr > td:nth-child(9)::before {
+    content: "Event payment";
+  }
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #sortablegrid6857 > tbody > tr > td:nth-child(12)::before {
+    content: "Fiscal year";
+  }
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #sortablegrid6857 > tbody > tr > td:nth-child(13)::before {
+    content: "Budget expense";
+  }
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #sortablegrid6857 > tbody > tr > td:nth-child(14)::before {
+    content: "Budget income";
+  }
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #sortablegrid6857 > tbody > tr > td:nth-child(15)::before {
+    content: "Deposit date";
+  }
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #sortablegrid6857 > tbody > tr > td:nth-child(16)::before {
+    content: "Disabled";
+  }
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #sortablegrid6857 > tfoot,
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #sortablegrid6857 > tfoot > tr,
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #sortablegrid6857 > tfoot > tr > td {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="404"]):has(#Form_ID[value="1374"]) #sortablegrid6857 > tfoot input[type=button] {
+    width: calc(50% - 14px);
+    min-width: 0;
+    margin: 4px 5px !important;
+  }
+}
+
+body:has(#Menu_Item_ID[value="401"]):has(#Form_ID[value="166"]) {
+  --activity-type-border: rgba(15, 57, 95, 0.16);
+}
+body:has(#Menu_Item_ID[value="401"]):has(#Form_ID[value="166"]) .page-title {
+  width: 100%;
+  margin: 0 auto 16px !important;
+  padding: 10px 20px 0;
+  box-sizing: border-box;
+  color: #184a8a;
+  text-align: left !important;
+}
+body:has(#Menu_Item_ID[value="401"]):has(#Form_ID[value="166"]) #fs419 {
+  margin-bottom: 20px !important;
+}
+body:has(#Menu_Item_ID[value="401"]):has(#Form_ID[value="166"]) #fs419 .center-block {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="401"]):has(#Form_ID[value="166"]) #fs419 .text-center {
+  display: flex !important;
+  justify-content: flex-start !important;
+  text-align: left !important;
+}
+body:has(#Menu_Item_ID[value="401"]):has(#Form_ID[value="166"]) #fs419 .text-center > span {
+  display: inline-flex !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="401"]):has(#Form_ID[value="166"]) #fs419 .text-center > span:empty {
+  display: none !important;
+}
+body:has(#Menu_Item_ID[value="401"]):has(#Form_ID[value="166"]) #fs419 .btn {
+  min-width: 100px;
+  min-height: 40px;
+  margin: 0 !important;
+  padding: 9px 16px !important;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+body:has(#Menu_Item_ID[value="401"]):has(#Form_ID[value="166"]) #fs420 {
+  margin-bottom: 20px !important;
+}
+body:has(#Menu_Item_ID[value="401"]):has(#Form_ID[value="166"]) #fs420 .center-block.table-responsive {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  overflow-x: auto;
+}
+body:has(#Menu_Item_ID[value="401"]):has(#Form_ID[value="166"]) #fs420 #sortablegrid420 {
+  width: 100% !important;
+  min-width: 480px;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--activity-type-border) !important;
+  border-collapse: separate !important;
+  border-spacing: 0;
+  border-radius: 0 !important;
+  background: #ffffff;
+}
+body:has(#Menu_Item_ID[value="401"]):has(#Form_ID[value="166"]) #fs420 #sortablegrid420 > thead > tr > th {
+  padding: 11px 12px !important;
+  border: 0 !important;
+  border-right: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-bottom: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-left: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-radius: 0 !important;
+  color: #0d3b72 !important;
+  background: #eaf3ff !important;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: left;
+  vertical-align: middle;
+}
+body:has(#Menu_Item_ID[value="401"]):has(#Form_ID[value="166"]) #fs420 #sortablegrid420 > tbody > tr > td {
+  padding: 9px 10px !important;
+  border: 0 !important;
+  border-bottom: 1px solid rgba(15, 57, 95, 0.09) !important;
+  color: #0d3b72;
+  background: #ffffff !important;
+  font-size: 13px;
+  text-align: left !important;
+  vertical-align: middle;
+  overflow-wrap: anywhere;
+}
+body:has(#Menu_Item_ID[value="401"]):has(#Form_ID[value="166"]) #fs420 #sortablegrid420 > tbody > tr:nth-of-type(even) > td {
+  background: #f7faff !important;
+}
+body:has(#Menu_Item_ID[value="401"]):has(#Form_ID[value="166"]) #fs420 #sortablegrid420 > tbody > tr:last-child > td {
+  border-bottom: 0 !important;
+}
+body:has(#Menu_Item_ID[value="401"]):has(#Form_ID[value="166"]) #fs420 #sortablegrid420 > tbody > tr > td:first-child,
+body:has(#Menu_Item_ID[value="401"]):has(#Form_ID[value="166"]) #fs420 #sortablegrid420 > tbody > tr > td:last-child {
+  width: 100px;
+  text-align: center !important;
+}
+body:has(#Menu_Item_ID[value="401"]):has(#Form_ID[value="166"]) #fs420 #sortablegrid420 .btn {
+  min-height: 34px;
+  margin: 0 !important;
+  padding: 7px 10px !important;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 700;
+}
+@media (max-width: 767px) {
+  body:has(#Menu_Item_ID[value="401"]):has(#Form_ID[value="166"]) #fs419,
+  body:has(#Menu_Item_ID[value="401"]):has(#Form_ID[value="166"]) #fs420 {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
+  body:has(#Menu_Item_ID[value="401"]):has(#Form_ID[value="166"]) #fs419 .btn {
+    width: 100% !important;
+  }
+  body:has(#Menu_Item_ID[value="401"]):has(#Form_ID[value="166"]) #fs420 .center-block.table-responsive {
+    overflow: hidden !important;
+  }
+  body:has(#Menu_Item_ID[value="401"]):has(#Form_ID[value="166"]) #sortablegrid420,
+  body:has(#Menu_Item_ID[value="401"]):has(#Form_ID[value="166"]) #sortablegrid420 > tbody {
+    display: block;
+    width: 100% !important;
+    min-width: 0 !important;
+    border: 0 !important;
+    background: transparent;
+  }
+  body:has(#Menu_Item_ID[value="401"]):has(#Form_ID[value="166"]) #sortablegrid420 > thead {
+    display: none;
+  }
+  body:has(#Menu_Item_ID[value="401"]):has(#Form_ID[value="166"]) #sortablegrid420 > tbody > tr {
+    display: grid !important;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    align-items: stretch;
+    width: 100% !important;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border: 1px solid var(--activity-type-border) !important;
+    border-radius: 6px;
+    background: #ffffff;
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="401"]):has(#Form_ID[value="166"]) #sortablegrid420 > tbody > tr > td {
+    display: none !important;
+    min-width: 0;
+    padding: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="401"]):has(#Form_ID[value="166"]) #sortablegrid420 > tbody > tr > td[colspan] {
+    display: block !important;
+    grid-column: 1/-1;
+    padding: 16px !important;
+    text-align: center !important;
+  }
+  body:has(#Menu_Item_ID[value="401"]):has(#Form_ID[value="166"]) #sortablegrid420 > tbody > tr:has(td[colspan]) {
+    display: block !important;
+  }
+  body:has(#Menu_Item_ID[value="401"]):has(#Form_ID[value="166"]) #sortablegrid420 > tbody > tr > td:first-child,
+  body:has(#Menu_Item_ID[value="401"]):has(#Form_ID[value="166"]) #sortablegrid420 > tbody > tr > td:last-child {
+    display: flex !important;
+    align-items: center;
+    width: auto;
+    padding: 8px !important;
+  }
+  body:has(#Menu_Item_ID[value="401"]):has(#Form_ID[value="166"]) #sortablegrid420 > tbody > tr > td:first-child {
+    grid-column: 1;
+    border-right: 1px solid rgba(15, 57, 95, 0.12) !important;
+  }
+  body:has(#Menu_Item_ID[value="401"]):has(#Form_ID[value="166"]) #sortablegrid420 > tbody > tr > td:last-child {
+    grid-column: 3;
+    border-left: 1px solid rgba(15, 57, 95, 0.12) !important;
+  }
+  body:has(#Menu_Item_ID[value="401"]):has(#Form_ID[value="166"]) #sortablegrid420 > tbody > tr > td:nth-child(2) {
+    display: flex !important;
+    grid-column: 2;
+    align-items: center;
+    padding: 9px 10px !important;
+    color: #184a8a;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.35;
+    text-align: left !important;
+    overflow-wrap: anywhere;
+  }
+}
+
+body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) {
+  --event-type-border: rgba(15, 57, 95, 0.16);
+}
+body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) .page-title {
+  width: 100%;
+  margin: 0 auto 16px !important;
+  padding: 10px 20px 0;
+  box-sizing: border-box;
+  color: #184a8a;
+  text-align: left !important;
+}
+body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) :is(#fs7190, #fs7191 ~ .new-row) {
+  margin-bottom: 20px !important;
+}
+body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) :is(#fs7190, #fs7191 ~ .new-row) .center-block {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) :is(#fs7190, #fs7191 ~ .new-row) .text-center {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: flex-start !important;
+  gap: 8px;
+  text-align: left !important;
+}
+body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) :is(#fs7190, #fs7191 ~ .new-row) .text-center > span {
+  display: inline-flex !important;
+  margin: 0 !important;
+}
+body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) :is(#fs7190, #fs7191 ~ .new-row) .text-center > span:empty {
+  display: none !important;
+}
+body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) :is(#fs7190, #fs7191 ~ .new-row) .btn {
+  min-width: 100px;
+  min-height: 40px;
+  margin: 0 !important;
+  padding: 9px 16px !important;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #fs7191 {
+  margin-bottom: 20px !important;
+}
+body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #fs7191 .center-block.table-responsive {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  overflow-x: auto;
+}
+body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #fs7191 #sortablegrid7191 {
+  width: 100% !important;
+  min-width: 2800px;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--event-type-border) !important;
+  border-collapse: separate !important;
+  border-spacing: 0;
+  border-radius: 0 !important;
+  background: #ffffff;
+}
+body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #fs7191 #sortablegrid7191 > thead > tr > th {
+  padding: 11px 12px !important;
+  border: 0 !important;
+  border-right: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-bottom: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-left: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-radius: 0 !important;
+  color: #0d3b72 !important;
+  background: #eaf3ff !important;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: left;
+  vertical-align: middle;
+}
+body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #fs7191 #sortablegrid7191 > tbody > tr > td {
+  padding: 9px 10px !important;
+  border: 0 !important;
+  border-bottom: 1px solid rgba(15, 57, 95, 0.09) !important;
+  color: #0d3b72;
+  background: #ffffff !important;
+  font-size: 13px;
+  text-align: left !important;
+  vertical-align: middle;
+  overflow-wrap: anywhere;
+}
+body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #fs7191 #sortablegrid7191 > tbody > tr:nth-of-type(even) > td {
+  background: #f7faff !important;
+}
+body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #fs7191 #sortablegrid7191 > tbody > tr:last-child > td {
+  border-bottom: 0 !important;
+}
+body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #fs7191 #sortablegrid7191 > tbody > tr > td:first-child,
+body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #fs7191 #sortablegrid7191 > tbody > tr > td:last-child {
+  width: 76px;
+  text-align: center !important;
+}
+body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #fs7191 #sortablegrid7191 .btn {
+  min-height: 34px;
+  margin: 0 !important;
+  padding: 7px 10px !important;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 700;
+}
+body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #fs7191 #sortablegrid7191 > tfoot > tr > td {
+  padding: 14px 12px !important;
+  border: 0 !important;
+  border-top: 1px solid rgba(15, 57, 95, 0.12) !important;
+  background: #f7faff !important;
+  text-align: center !important;
+}
+body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #fs7191 #sortablegrid7191 > tfoot input[type=button] {
+  min-height: 40px;
+  margin: 0 6px !important;
+  padding: 10px 12px !important;
+  border: 1px solid rgba(13, 59, 114, 0.2) !important;
+  border-radius: 10px !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+  box-shadow: 0 3px 8px rgba(13, 31, 54, 0.08) !important;
+}
+body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #fs7191 #sortablegrid7191 > tfoot input[type=button][value="Print (Export to PDF)"] {
+  color: #ffffff !important;
+  background: linear-gradient(180deg, #1b6eb8 0%, #2783d1 100%) !important;
+}
+body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #fs7191 #sortablegrid7191 > tfoot input[type=button][value="Open in Excel"] {
+  color: #0d3b72 !important;
+  background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%) !important;
+}
+@media (max-width: 767px) {
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #fs7190,
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #fs7191,
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #fs7191 ~ .new-row {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) :is(#fs7190, #fs7191 ~ .new-row) .text-center {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) :is(#fs7190, #fs7191 ~ .new-row) .text-center > span,
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) :is(#fs7190, #fs7191 ~ .new-row) .btn {
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #fs7191 .center-block.table-responsive {
+    overflow: hidden !important;
+  }
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #sortablegrid7191,
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #sortablegrid7191 > tbody {
+    display: block;
+    width: 100% !important;
+    min-width: 0 !important;
+    border: 0 !important;
+    background: transparent;
+  }
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #sortablegrid7191 > thead {
+    display: none;
+  }
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #sortablegrid7191 > tbody > tr {
+    display: grid !important;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    align-items: stretch;
+    width: 100% !important;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border: 1px solid var(--event-type-border) !important;
+    border-radius: 6px;
+    background: #ffffff;
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #sortablegrid7191 > tbody > tr > td {
+    display: none !important;
+    min-width: 0;
+    padding: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #sortablegrid7191 > tbody > tr > td:first-child,
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #sortablegrid7191 > tbody > tr > td:last-child {
+    display: flex !important;
+    grid-row: 1/12;
+    align-items: center;
+    width: auto;
+    padding: 8px !important;
+  }
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #sortablegrid7191 > tbody > tr > td:first-child {
+    grid-column: 1;
+    border-right: 1px solid rgba(15, 57, 95, 0.12) !important;
+  }
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #sortablegrid7191 > tbody > tr > td:last-child {
+    grid-column: 3;
+    border-left: 1px solid rgba(15, 57, 95, 0.12) !important;
+  }
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #sortablegrid7191 > tbody > tr > td:is(:nth-child(2), :nth-child(3), :nth-child(4), :nth-child(5), :nth-child(10), :nth-child(11), :nth-child(12), :nth-child(13), :nth-child(14), :nth-child(15), :nth-child(16), :nth-child(28)) {
+    display: flex !important;
+    grid-column: 2;
+    align-items: baseline;
+    gap: 8px;
+    padding: 5px 10px !important;
+    text-align: left !important;
+    line-height: 1.35;
+    overflow-wrap: anywhere;
+  }
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #sortablegrid7191 > tbody > tr > td:nth-child(2) {
+    grid-row: 1;
+    padding-top: 9px !important;
+    color: #184a8a;
+    font-weight: 700;
+  }
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #sortablegrid7191 > tbody > tr > td:nth-child(3) {
+    grid-row: 2;
+  }
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #sortablegrid7191 > tbody > tr > td:nth-child(4) {
+    grid-row: 3;
+  }
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #sortablegrid7191 > tbody > tr > td:nth-child(5) {
+    grid-row: 4;
+  }
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #sortablegrid7191 > tbody > tr > td:nth-child(10) {
+    grid-row: 5;
+  }
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #sortablegrid7191 > tbody > tr > td:nth-child(11) {
+    grid-row: 6;
+  }
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #sortablegrid7191 > tbody > tr > td:nth-child(12) {
+    grid-row: 7;
+  }
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #sortablegrid7191 > tbody > tr > td:nth-child(13) {
+    grid-row: 8;
+  }
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #sortablegrid7191 > tbody > tr > td:nth-child(14) {
+    grid-row: 9;
+  }
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #sortablegrid7191 > tbody > tr > td:nth-child(15) {
+    grid-row: 10;
+  }
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #sortablegrid7191 > tbody > tr > td:nth-child(16) {
+    grid-row: 11;
+  }
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #sortablegrid7191 > tbody > tr > td:nth-child(28) {
+    grid-row: 12;
+    padding-bottom: 9px !important;
+  }
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #sortablegrid7191 > tbody > tr > td:is(:nth-child(3), :nth-child(4), :nth-child(5), :nth-child(10), :nth-child(11), :nth-child(12), :nth-child(13), :nth-child(14), :nth-child(15), :nth-child(16), :nth-child(28))::before {
+    flex: 0 0 64px;
+    color: #184a8a;
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 1.3;
+    text-align: right;
+    text-transform: uppercase;
+  }
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #sortablegrid7191 > tbody > tr > td:nth-child(3)::before {
+    content: "Sequence";
+  }
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #sortablegrid7191 > tbody > tr > td:nth-child(4)::before {
+    content: "Calendar";
+  }
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #sortablegrid7191 > tbody > tr > td:nth-child(5)::before {
+    content: "Home page";
+  }
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #sortablegrid7191 > tbody > tr > td:nth-child(10)::before {
+    content: "Shifts";
+  }
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #sortablegrid7191 > tbody > tr > td:nth-child(11)::before {
+    content: "Sign up";
+  }
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #sortablegrid7191 > tbody > tr > td:nth-child(12)::before {
+    content: "Deadline";
+  }
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #sortablegrid7191 > tbody > tr > td:nth-child(13)::before {
+    content: "Attendance";
+  }
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #sortablegrid7191 > tbody > tr > td:nth-child(14)::before {
+    content: "Min balance";
+  }
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #sortablegrid7191 > tbody > tr > td:nth-child(15)::before {
+    content: "Balance required";
+  }
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #sortablegrid7191 > tbody > tr > td:nth-child(16)::before {
+    content: "Est. cost";
+  }
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #sortablegrid7191 > tbody > tr > td:nth-child(28)::before {
+    content: "Disabled";
+  }
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #sortablegrid7191 > tfoot,
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #sortablegrid7191 > tfoot > tr,
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #sortablegrid7191 > tfoot > tr > td {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  body:has(#Menu_Item_ID[value="400"]):has(#Form_ID[value="1438"]) #sortablegrid7191 > tfoot input[type=button] {
+    width: calc(50% - 14px);
+    min-width: 0;
+    margin: 4px 5px !important;
+  }
+}
+
+body:has(#Menu_Item_ID[value="409"]):has(#Form_ID[value="1443"]) .center-block {
+  max-width: none !important;
+}
 body:has(#Menu_Item_ID[value="409"]):has(#Form_ID[value="1443"]) #fs8322 {
   margin-bottom: 14px !important;
 }
@@ -24972,6 +28921,10 @@ body:has(#Menu_Item_ID[value="409"]):has(#Form_ID[value="1443"]) :is(#fs7206, #f
   }
 }
 
+body:has(#Menu_Item_ID[value="409"]):has(#Form_ID[value="1715"]) .center-block,
+body:has(#Menu_Item_ID[value="409"]):has(#Form_ID[value="2978"]) .center-block {
+  max-width: none !important;
+}
 body:has(#Menu_Item_ID[value="409"]):has(#Form_ID[value="1715"]) .page-title,
 body:has(#Menu_Item_ID[value="409"]):has(#Form_ID[value="2978"]) .page-title {
   width: 100%;

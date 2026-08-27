@@ -3,6 +3,8 @@
 // -----------------------------------------------------------------------------
 
 body:has(#Menu_Item_ID[value="409"]):has(#Form_ID[value="1443"]) {
+  .center-block { max-width: none !important; }
+
   #fs8322 {
     margin-bottom: 14px !important;
 
@@ -94,6 +96,8 @@ body:has(#Menu_Item_ID[value="409"]):has(#Form_ID[value="1443"]) {
 
 body:has(#Menu_Item_ID[value="409"]):has(#Form_ID[value="1715"]),
 body:has(#Menu_Item_ID[value="409"]):has(#Form_ID[value="2978"]) {
+  .center-block { max-width: none !important; }
+
   .page-title { width: 100%; margin: 0 auto 16px !important; padding: 10px 20px 0; box-sizing: border-box; color: $navy-700; text-align: left !important; }
 
   :is(#fs8325, #fs12951) {
