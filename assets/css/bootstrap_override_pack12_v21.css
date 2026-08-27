@@ -1139,15 +1139,15 @@ table.sortable.table-curved td input[type=button] {
   word-break: normal;
 }
 
-table tfoot td:has(> input[type=button][value="Print (Export to PDF)"]) {
+table tfoot td:has(> input[type=button][value="Export to PDF"]) {
   padding: 14px 12px !important;
   border: 0 !important;
   border-top: 1px solid rgba(13, 59, 114, 0.12) !important;
   background: #f7faff !important;
   text-align: center !important;
 }
-table tfoot td:has(> input[type=button][value="Print (Export to PDF)"]) > input[type=button][value="Print (Export to PDF)"],
-table tfoot td:has(> input[type=button][value="Print (Export to PDF)"]) > input[type=button][value="Open in Excel"] {
+table tfoot td:has(> input[type=button][value="Export to PDF"]) > input[type=button][value="Export to PDF"],
+table tfoot td:has(> input[type=button][value="Export to PDF"]) > input[type=button][value="Open in Excel"] {
   display: inline-flex !important;
   min-height: 40px;
   align-items: center;
@@ -1163,7 +1163,7 @@ table tfoot td:has(> input[type=button][value="Print (Export to PDF)"]) > input[
   line-height: 1.2 !important;
   box-shadow: 0 3px 8px rgba(13, 31, 54, 0.08) !important;
 }
-table tfoot td:has(> input[type=button][value="Print (Export to PDF)"]) > input[type=button][value="Open in Excel"] {
+table tfoot td:has(> input[type=button][value="Export to PDF"]) > input[type=button][value="Open in Excel"] {
   color: #0d3b72 !important;
   background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%) !important;
 }
@@ -1295,7 +1295,7 @@ select.rows-per-page:focus {
 }
 
 @media (max-width: 767px) {
-  table.sortable.table-curved tfoot td:has(> input[type=button][value="Print (Export to PDF)"]) {
+  table.sortable.table-curved tfoot td:has(> input[type=button][value="Export to PDF"]) {
     border-left: 1px solid rgba(13, 59, 114, 0.12) !important;
     border-right: 1px solid rgba(13, 59, 114, 0.12) !important;
     border-bottom: 1px solid rgba(13, 59, 114, 0.12) !important;
@@ -2933,6 +2933,11 @@ body:has(#fs737) .new-row:not(:has(~ .new-row)) .btn {
   display: table-row;
   padding: 10px 20px 10px 20px;
 }
+@media (max-width: 767px) {
+  #fs726 .center-block table.no-border tr {
+    padding: 5px !important;
+  }
+}
 #fs726 tr:has(td.text-left > input[type=hidden] + span:empty) {
   display: none !important;
 }
@@ -3304,6 +3309,64 @@ body:has(#fs737) .new-row:not(:has(~ .new-row)) .btn {
   #fs22661 .center-block.table-responsive tbody td,
   #fs22661 .center-block.table-responsive thead th {
     padding: 10px 12px !important;
+  }
+  #fs22661 #sortablegrid22661 > thead {
+    display: none !important;
+  }
+  #fs22661 #sortablegrid22661 > tbody {
+    display: block !important;
+    width: 100% !important;
+  }
+  #fs22661 #sortablegrid22661 > tbody > tr {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px 16px;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 10px 12px !important;
+    border: 0 !important;
+    border-bottom: 1px solid rgba(15, 57, 95, 0.1) !important;
+    background: #ffffff !important;
+    box-sizing: border-box;
+  }
+  #fs22661 #sortablegrid22661 > tbody > tr:last-child {
+    border-bottom: 0 !important;
+  }
+  #fs22661 #sortablegrid22661 > tbody > tr > td {
+    display: block !important;
+    width: auto !important;
+    min-width: 0;
+    padding: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+    text-align: left !important;
+  }
+  #fs22661 #sortablegrid22661 > tbody > tr > td:first-of-type {
+    grid-column: 1/-1;
+    color: #1f2d3d;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+  #fs22661 #sortablegrid22661 > tbody > tr > td::before {
+    display: block;
+    margin-bottom: 5px;
+    color: #567092;
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 1.15;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  #fs22661 #sortablegrid22661 > tbody > tr > td:first-of-type::before {
+    display: none;
+    content: none;
+  }
+  #fs22661 #sortablegrid22661 > tbody > tr > td:nth-of-type(2)::before {
+    content: "Type";
+  }
+  #fs22661 #sortablegrid22661 > tbody > tr > td:nth-of-type(3)::before {
+    content: "Comment";
   }
 }
 
@@ -5529,8 +5592,12 @@ body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(7
     box-sizing: border-box;
   }
 }
+#fs726 hr {
+  border-color: #dedede;
+}
 #fs726 .center-block table.no-border {
   table-layout: auto;
+  margin-bottom: 20px;
 }
 #fs726 .center-block .control-label {
   width: 100%;
@@ -5538,6 +5605,9 @@ body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(7
   text-align: right !important;
 }
 @media (max-width: 767px) {
+  #fs726 .center-block table.no-border {
+    margin-bottom: 20px;
+  }
   #fs726 .center-block table.no-border tbody tr {
     display: grid !important;
     grid-template-columns: 1fr;
@@ -5760,6 +5830,10 @@ body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(7
     box-shadow: none !important;
     background: #ffffff !important;
   }
+  #fs730 .center-block.table-responsive:has(> table:first-child .pagination) table.sortable.table-curved > tbody > tr {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
   #fs730 table.sortable.table-curved > tbody > tr:last-child {
     border-bottom: 0 !important;
   }
@@ -5803,6 +5877,14 @@ body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(7
     border-bottom: 1px solid rgba(15, 57, 95, 0.1) !important;
   }
   #fs730 .center-block.table-responsive > table:first-child:not(.sortable) > tbody > tr > td::before {
+    display: none !important;
+    content: none !important;
+  }
+  #fs730 table.sortable.table-curved > tfoot > tr > td {
+    border: 1px solid rgba(15, 57, 95, 0.08) !important;
+    background: #f7faff !important;
+  }
+  #fs730 table.sortable.table-curved > tfoot > tr > td::before {
     display: none !important;
     content: none !important;
   }
@@ -11040,3 +11122,5 @@ body:has(#fs16590) {
     vertical-align: middle;
   }
 }
+
+/*# sourceMappingURL=bootstrap_override_colors_Cub_Scouts.css.map */

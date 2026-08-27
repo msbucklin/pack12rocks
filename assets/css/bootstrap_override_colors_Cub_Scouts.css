@@ -5592,8 +5592,12 @@ body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(7
     box-sizing: border-box;
   }
 }
+#fs726 hr {
+  border-color: #dedede;
+}
 #fs726 .center-block table.no-border {
   table-layout: auto;
+  margin-bottom: 20px;
 }
 #fs726 .center-block .control-label {
   width: 100%;
@@ -5601,6 +5605,9 @@ body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(7
   text-align: right !important;
 }
 @media (max-width: 767px) {
+  #fs726 .center-block table.no-border {
+    margin-bottom: 20px;
+  }
   #fs726 .center-block table.no-border tbody tr {
     display: grid !important;
     grid-template-columns: 1fr;
@@ -11115,3 +11122,5 @@ body:has(#fs16590) {
     vertical-align: middle;
   }
 }
+
+/*# sourceMappingURL=bootstrap_override_colors_Cub_Scouts.css.map */

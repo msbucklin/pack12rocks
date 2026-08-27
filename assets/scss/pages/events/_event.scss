@@ -1773,8 +1773,13 @@ body:has(#fs737) {
   @include detail-form-table-labels;
   @include detail-form-stacked-mobile;
 
+  hr {
+    border-color: #dedede;
+  }
+
   .center-block table.no-border {
     table-layout: auto;
+    margin-bottom: 20px;
   }
 
   .center-block .control-label {
@@ -1784,6 +1789,9 @@ body:has(#fs737) {
   }
 
   @media (max-width: 767px) {
+    .center-block table.no-border {
+      margin-bottom: 20px;
+    }
     .center-block table.no-border tbody tr {
       display: grid !important;
       grid-template-columns: 1fr;
