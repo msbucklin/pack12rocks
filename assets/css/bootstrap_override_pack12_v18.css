@@ -5823,10 +5823,6 @@ body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(7
     box-shadow: none !important;
     background: #ffffff !important;
   }
-  #fs730 .center-block.table-responsive:has(> table:first-child .pagination) table.sortable.table-curved > tbody > tr {
-    padding-right: 0 !important;
-    padding-left: 0 !important;
-  }
   #fs730 table.sortable.table-curved > tbody > tr:last-child {
     border-bottom: 0 !important;
   }
@@ -11115,3 +11111,5 @@ body:has(#fs16590) {
     vertical-align: middle;
   }
 }
+
+/*# sourceMappingURL=bootstrap_override_colors_Cub_Scouts.css.map */
