@@ -5642,6 +5642,10 @@ body:has(#Menu_Item_ID[value="5787"]) #fs1142 table.table thead th:nth-of-type(7
   border-top: 0 !important;
   border-radius: 0 0 6px 6px !important;
 }
+#fs730 tfoot tr td {
+  border-top: 1px solid rgba(15, 57, 95, 0.08) !important;
+  background: linear-gradient(180deg, #dceafa 0%, #cbdff4 100%) !important;
+}
 #fs730 table,
 #fs730 table.sortable.table-curved {
   border: 0 !important;

@@ -1801,6 +1801,11 @@
     border-radius: 0 0 6px 6px !important;
   }
 
+  tfoot tr td {
+    border-top: 1px solid rgba(15, 57, 95, 0.08) !important;
+    background: linear-gradient(180deg, #dceafa 0%, #cbdff4 100%) !important;
+  }
+
   table,
   table.sortable.table-curved {
     border: 0 !important;
