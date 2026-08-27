@@ -4,7 +4,8 @@
 
 body:has(#Menu_Item_ID[value="318"]):has(
   #Form_ID:is([value="161"], [value="673"])
-) {
+),
+body:has(#Menu_Item_ID[value="324"]):has(#Form_ID[value="145"]) {
   --event-add-border: rgba(15, 57, 95, 0.16);
   --event-add-muted: #567092;
   --event-add-panel: #f7faff;
@@ -18,7 +19,7 @@ body:has(#Menu_Item_ID[value="318"]):has(
     text-align: left !important;
   }
 
-  :is(#fs406, #fs2774) {
+  :is(#fs406, #fs2774, #fs367) {
     margin-bottom: 16px !important;
 
     @include detail-form-shell;
@@ -76,7 +77,7 @@ body:has(#Menu_Item_ID[value="318"]):has(
     }
   }
 
-  :is(#fs407, #fs2775) {
+  :is(#fs407, #fs2775, #fs368) {
     margin: 0 0 20px !important;
 
     .center-block {
@@ -115,12 +116,12 @@ body:has(#Menu_Item_ID[value="318"]):has(
       padding-top: 20px;
     }
 
-    :is(#fs406, #fs2774, #fs407, #fs2775) {
+    :is(#fs406, #fs2774, #fs367, #fs407, #fs2775, #fs368) {
       padding-right: 20px !important;
       padding-left: 20px !important;
     }
 
-    :is(#fs406, #fs2774) {
+    :is(#fs406, #fs2774, #fs367) {
       table.no-border td:first-child {
         width: 100% !important;
         max-width: 100% !important;
@@ -133,18 +134,18 @@ body:has(#Menu_Item_ID[value="318"]):has(
       }
     }
 
-    :is(#fs407, #fs2775) .text-center {
+    :is(#fs407, #fs2775, #fs368) .text-center {
       display: grid !important;
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
-    :is(#fs407, #fs2775) .text-center > span,
-    :is(#fs407, #fs2775) .btn {
+    :is(#fs407, #fs2775, #fs368) .text-center > span,
+    :is(#fs407, #fs2775, #fs368) .btn {
       width: 100% !important;
       min-width: 0 !important;
     }
 
-    :is(#fs407, #fs2775) .btn {
+    :is(#fs407, #fs2775, #fs368) .btn {
       min-height: 44px;
     }
   }
@@ -238,15 +239,16 @@ body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="161"]) {
       &::before {
         grid-column: 1 / -1;
         margin-bottom: 5px;
-        @media (max-width: 767px) {
-          margin-top: 10px;
-        }
         color: var(--event-add-muted);
         content: "Time";
         font-size: 11px;
         font-style: normal;
         font-weight: 700;
         line-height: 1.3;
+
+        @media (max-width: 767px) {
+          margin-top: 10px;
+        }
       }
 
       .form-control {
@@ -330,7 +332,8 @@ body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="161"]) {
   }
 }
 
-body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) {
+body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]),
+body:has(#Menu_Item_ID[value="324"]):has(#Form_ID[value="145"]) {
   #fs2774 {
     table.no-border > tbody > tr:first-child > td,
     table.no-border > tbody > tr:nth-child(2) > td {
@@ -360,25 +363,38 @@ body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) {
     table.no-border > tbody > tr:nth-child(2) br {
       display: none;
     }
+  }
 
+  :is(#fs2774, #fs367) {
     :is(
       #DIVENTRY1086629,
       #DIVENTRY1086630,
       #DIVENTRY1086631,
       #DIVENTRY1086632,
       #DIVENTRY1086633,
-      #DIVENTRY1086634
+      #DIVENTRY1086634,
+      #DIVENTRY226729,
+      #DIVENTRY226730,
+      #DIVENTRY226731,
+      #DIVENTRY226732,
+      #DIVENTRY226733,
+      #DIVENTRY226734
     ) {
       display: flex;
       flex-direction: column;
       min-width: 0;
     }
 
-    :is(#DIVENTRY1086629, #DIVENTRY1086630) {
+    :is(
+      #DIVENTRY1086629,
+      #DIVENTRY1086630,
+      #DIVENTRY226729,
+      #DIVENTRY226730
+    ) {
       width: 100%;
     }
 
-    td.text-left:has(#DIVENTRY1086631) {
+    td.text-left:has(:is(#DIVENTRY1086631, #DIVENTRY226731)) {
       display: grid;
       grid-template-columns: minmax(180px, 1.5fr) minmax(110px, 0.7fr) minmax(100px, 0.6fr) minmax(120px, 0.8fr);
       gap: 10px;
@@ -390,7 +406,13 @@ body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) {
       #DIVENTRY1086631,
       #DIVENTRY1086632,
       #DIVENTRY1086633,
-      #DIVENTRY1086634
+      #DIVENTRY1086634,
+      #DIVENTRY226729,
+      #DIVENTRY226730,
+      #DIVENTRY226731,
+      #DIVENTRY226732,
+      #DIVENTRY226733,
+      #DIVENTRY226734
     )::before {
       margin-bottom: 5px;
       color: var(--event-add-muted);
@@ -400,37 +422,44 @@ body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) {
       line-height: 1.3;
     }
 
-    #DIVENTRY1086629::before {
+    :is(#DIVENTRY1086629, #DIVENTRY226729)::before {
       content: "Address Line 1";
     }
 
-    #DIVENTRY1086630::before {
+    :is(#DIVENTRY1086630, #DIVENTRY226730)::before {
       content: "Address Line 2";
     }
 
-    #DIVENTRY1086631::before {
+    :is(#DIVENTRY1086631, #DIVENTRY226731)::before {
       content: "City";
     }
 
-    #DIVENTRY1086632::before {
+    :is(#DIVENTRY1086632, #DIVENTRY226732)::before {
       content: "State";
     }
 
-    #DIVENTRY1086633::before {
+    :is(#DIVENTRY1086633, #DIVENTRY226733)::before {
       content: "Postal Code";
     }
 
-    #DIVENTRY1086634::before {
+    :is(#DIVENTRY1086634, #DIVENTRY226734)::before {
       content: "Country";
     }
 
     table.no-border > tbody > tr:has(
-      :is(#DIVENTRY1086629, #DIVENTRY1086630, #DIVENTRY1086631)
+      :is(
+        #DIVENTRY1086629,
+        #DIVENTRY1086630,
+        #DIVENTRY1086631,
+        #DIVENTRY226729,
+        #DIVENTRY226730,
+        #DIVENTRY226731
+      )
     ) {
       background-color: #ffffff !important;
     }
 
-    table.no-border > tbody > tr:has(#DIVENTRY1086631)
+    table.no-border > tbody > tr:has(:is(#DIVENTRY1086631, #DIVENTRY226731))
       > td:first-child
       .control-label {
       display: none !important;
@@ -442,7 +471,13 @@ body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) {
       #DIVENTRY1086631,
       #DIVENTRY1086632,
       #DIVENTRY1086633,
-      #DIVENTRY1086634
+      #DIVENTRY1086634,
+      #DIVENTRY226729,
+      #DIVENTRY226730,
+      #DIVENTRY226731,
+      #DIVENTRY226732,
+      #DIVENTRY226733,
+      #DIVENTRY226734
     ) .entrypostscript {
       display: none;
     }
@@ -464,7 +499,7 @@ body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) {
       text-align: right !important;
     }
 
-    #BUTTON12 {
+    :is(#BUTTON12, #BUTTON10) {
       min-height: 40px;
       margin: 0 !important;
       padding: 9px 14px !important;
@@ -473,7 +508,7 @@ body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) {
       font-weight: 700;
     }
 
-    #DIVMAP1086767:not(:empty) {
+    :is(#DIVMAP1086767, #DIVMAP226867):not(:empty) {
       width: 100%;
       min-height: 240px;
       margin-bottom: 10px;
@@ -482,25 +517,29 @@ body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) {
       border-radius: 6px;
     }
 
-    #DIVENTRY108715 > td.text-left {
+    :is(#DIVENTRY108715, #DIVENTRY22725) > td.text-left {
       display: flex !important;
       align-items: center;
       gap: 8px;
     }
 
-    #ENTRY108715 {
+    :is(#ENTRY108715, #ENTRY22725) {
       flex: 0 1 112px;
       width: 112px !important;
     }
 
-    #DIVENTRY108715 > td.text-left > .entrypostscript {
+    :is(#DIVENTRY108715, #DIVENTRY22725)
+      > td.text-left
+      > .entrypostscript {
       display: inline-flex !important;
       flex: 0 0 auto;
       align-items: center;
       margin: 0 !important;
     }
 
-    #DIVENTRY1086767 > td:first-child .control-label {
+    :is(#DIVENTRY1086767, #DIVENTRY226867)
+      > td:first-child
+      .control-label {
       display: inline-flex !important;
       flex-direction: column;
       align-items: flex-end;
@@ -526,50 +565,75 @@ body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) {
   }
 
   @media (min-width: 768px) {
-    #fs2774 #DIVENTRY1086767 > td:first-child .control-label::before {
+    :is(#fs2774, #fs367)
+      :is(#DIVENTRY1086767, #DIVENTRY226867)
+      > td:first-child
+      .control-label::before {
       font-size: 16px;
     }
 
-    #fs2774 table.no-border > tbody > tr:has(#DIVENTRY1086629) > td {
+    :is(#fs2774, #fs367)
+      table.no-border
+      > tbody
+      > tr:has(:is(#DIVENTRY1086629, #DIVENTRY226729))
+      > td {
       padding-bottom: 4px !important;
     }
 
-    #fs2774 table.no-border > tbody > tr:has(#DIVENTRY1086630) > td {
+    :is(#fs2774, #fs367)
+      table.no-border
+      > tbody
+      > tr:has(:is(#DIVENTRY1086630, #DIVENTRY226730))
+      > td {
       padding-top: 4px !important;
       padding-bottom: 4px !important;
     }
 
-    #fs2774 table.no-border > tbody > tr:has(#DIVENTRY1086631) > td {
+    :is(#fs2774, #fs367)
+      table.no-border
+      > tbody
+      > tr:has(:is(#DIVENTRY1086631, #DIVENTRY226731))
+      > td {
       padding-top: 4px !important;
     }
   }
 
   @media (max-width: 767px) {
-    #fs2774 {
-      table.no-border > tbody > tr:first-child {
-        margin-bottom: 0;
-      }
-
-      #DIVENTRY1086767 > td:first-child .control-label {
+    :is(#fs2774, #fs367) {
+      :is(#DIVENTRY1086767, #DIVENTRY226867)
+        > td:first-child
+        .control-label {
         align-items: flex-start;
       }
 
-      table.no-border > tbody > tr:has(#DIVENTRY1086629),
-      table.no-border > tbody > tr:has(#DIVENTRY1086630) {
+      table.no-border > tbody > tr:has(:is(#DIVENTRY1086629, #DIVENTRY226729)),
+      table.no-border > tbody > tr:has(:is(#DIVENTRY1086630, #DIVENTRY226730)) {
         margin-bottom: 0;
       }
 
-      table.no-border > tbody > tr:has(#DIVENTRY1086629) > td:last-child,
-      table.no-border > tbody > tr:has(#DIVENTRY1086630) > td:last-child {
+      table.no-border
+        > tbody
+        > tr:has(:is(#DIVENTRY1086629, #DIVENTRY226729))
+        > td:last-child,
+      table.no-border
+        > tbody
+        > tr:has(:is(#DIVENTRY1086630, #DIVENTRY226730))
+        > td:last-child {
         padding-bottom: 0 !important;
       }
 
-      table.no-border > tbody > tr:has(#DIVENTRY1086630) > td:first-child,
-      table.no-border > tbody > tr:has(#DIVENTRY1086631) > td:first-child {
+      table.no-border
+        > tbody
+        > tr:has(:is(#DIVENTRY1086630, #DIVENTRY226730))
+        > td:first-child,
+      table.no-border
+        > tbody
+        > tr:has(:is(#DIVENTRY1086631, #DIVENTRY226731))
+        > td:first-child {
         display: none !important;
       }
 
-      td.text-left:has(#DIVENTRY1086631) {
+      td.text-left:has(:is(#DIVENTRY1086631, #DIVENTRY226731)) {
         grid-template-columns: repeat(2, minmax(0, 1fr));
       }
 
@@ -577,10 +641,14 @@ body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) {
         padding: 10px 14px !important;
       }
 
-      #BUTTON12 {
+      :is(#BUTTON12, #BUTTON10) {
         width: 100% !important;
         min-height: 44px;
       }
+    }
+
+    #fs2774 table.no-border > tbody > tr:first-child {
+      margin-bottom: 0;
     }
 
     #fs2775 .text-center > span:first-child {
