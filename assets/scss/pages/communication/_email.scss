@@ -3,8 +3,10 @@
 // -----------------------------------------------------------------------------
 
 body:has(#Menu_Item_ID[value="333"]):has(#Form_ID[value="194"]),
+body:has(#Menu_Item_ID[value="335"]):has(#Form_ID[value="194"]),
 body:has(#Menu_Item_ID[value="334"]):has(#Form_ID[value="393"]),
-body:has(#Menu_Item_ID[value="336"]):has(#Form_ID[value="373"]) {
+body:has(#Menu_Item_ID[value="336"]):has(#Form_ID[value="373"]),
+body:has(#Menu_Item_ID[value="338"]):has(#Form_ID[value="373"]) {
   --comm-email-border: rgba(15, 57, 95, 0.12);
   --comm-email-muted: #5a6f8a;
   --comm-email-panel: #fbfdff;
@@ -108,7 +110,81 @@ body:has(#Menu_Item_ID[value="336"]):has(#Form_ID[value="373"]) {
     }
   }
 
-  :is(#fs1229, #fs1226, #fs8098) {
+  #fs1122 {
+    margin-top: 20px !important;
+    margin-bottom: 14px !important;
+
+    @include detail-form-shell;
+    @include detail-form-table-labels;
+    @include detail-form-stacked-mobile;
+
+    .center-block {
+      width: 100% !important;
+      max-width: 100% !important;
+      margin: 0 !important;
+    }
+
+    table.no-border { table-layout: auto; }
+    table.no-border td:first-child { width: auto !important; max-width: none !important; }
+
+    table.no-border > tbody > tr > td.bodyheading {
+      width: 100% !important;
+      max-width: 100% !important;
+      text-align: left !important;
+    }
+
+    .form-control {
+      width: 100% !important;
+      min-width: 0 !important;
+      max-width: 100% !important;
+      box-sizing: border-box;
+    }
+
+    input[type="file"].form-control {
+      min-height: 40px;
+      padding: 8px 10px !important;
+    }
+
+    .cke {
+      width: 100% !important;
+      max-width: 100% !important;
+      overflow: hidden;
+      border-color: var(--comm-email-border) !important;
+      border-radius: 6px;
+      box-shadow: none !important;
+      box-sizing: border-box;
+    }
+
+    .cke_top { white-space: normal; }
+
+    #SPAN44249100 {
+      display: flex !important;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px 18px;
+      font-size: 0;
+    }
+
+    #SPAN44249100 > span {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 14px;
+    }
+
+    #ENTRY44249100-sms-warning {
+      flex: 0 0 100%;
+      margin: 2px 0 0 !important;
+      padding: 9px 11px;
+      border-left: 3px solid #d59d13;
+      background: #fff8e3;
+      color: $text-dark;
+      font-size: 12px;
+      line-height: 1.45;
+    }
+  }
+
+  :is(#fs1229, #fs1226, #fs8098, #fs1123) {
     margin: 0 0 16px !important;
 
     .center-block {
@@ -219,13 +295,88 @@ body:has(#Menu_Item_ID[value="336"]):has(#Form_ID[value="373"]) {
     .sortheader { color: $navy-700 !important; }
   }
 
+  #fs1125 {
+    margin: 0 0 12px !important;
+
+    .center-block {
+      width: 100% !important;
+      min-width: 0 !important;
+      max-width: 100% !important;
+      margin: 0 !important;
+      padding: 11px 14px !important;
+      border-left: 3px solid $navy-700;
+      background: var(--comm-email-panel);
+      box-sizing: border-box;
+    }
+
+    p { margin: 0 !important; color: $text-mid; font-size: 13px; line-height: 1.5; }
+  }
+
+  #fs1124 {
+    margin-bottom: 16px !important;
+
+    .center-block { width: 100% !important; max-width: 100% !important; margin: 0 !important; }
+
+    table.sortable {
+      width: 100% !important;
+      margin: 0;
+      overflow: hidden;
+      border: 1px solid var(--comm-email-border) !important;
+      border-collapse: separate !important;
+      border-spacing: 0;
+      border-radius: 6px;
+      background: #ffffff;
+    }
+
+    table.sortable > thead > tr > th {
+      padding: 11px 12px !important;
+      border: 0 !important;
+      border-bottom: 1px solid var(--comm-email-border) !important;
+      color: $text-dark !important;
+      background: #eaf3ff !important;
+      font-size: 13px;
+      font-weight: 700;
+      text-align: left;
+      vertical-align: middle;
+    }
+
+    table.sortable > tbody > tr > td {
+      padding: 10px 12px !important;
+      border: 0 !important;
+      border-bottom: 1px solid rgba(15, 57, 95, 0.09) !important;
+      color: $text-dark;
+      background: #ffffff !important;
+      font-size: 13px;
+      text-align: left !important;
+      vertical-align: middle;
+    }
+
+    table.sortable > tbody > tr:nth-of-type(even) > td { background: #f7faff !important; }
+
+    table.sortable input[type="checkbox"].form-control {
+      width: 20px !important;
+      min-height: 20px !important;
+      height: 20px !important;
+      margin: 0 auto !important;
+      padding: 0 !important;
+      accent-color: $navy-700;
+    }
+
+    .sortheader { color: $navy-700 !important; }
+  }
+
   @media (max-width: 767px) {
     .page-title {
       padding-top: 20px;
       &::after { font-size: 21px; }
     }
 
-    #fs516 {
+    #fs1122 {
+      padding-right: 20px !important;
+      padding-left: 20px !important;
+    }
+
+    :is(#fs516, #fs1122) {
       table.no-border > tbody > tr {
         display: grid !important;
         grid-template-columns: minmax(0, 1fr);
@@ -268,7 +419,7 @@ body:has(#Menu_Item_ID[value="336"]):has(#Form_ID[value="373"]) {
       .cke_contents { min-height: 220px; }
     }
 
-    :is(#fs1229, #fs1226, #fs8098) {
+    :is(#fs1229, #fs1226, #fs8098, #fs1123) {
       .text-center {
         display: grid !important;
         grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -283,7 +434,7 @@ body:has(#Menu_Item_ID[value="336"]):has(#Form_ID[value="373"]) {
       .btn { min-height: 44px; }
     }
 
-    #fs523 {
+    :is(#fs523, #fs1124) {
       .center-block { overflow: visible !important; }
 
       table.sortable { display: block; width: 100% !important; overflow: visible; border: 0 !important; background: transparent; }
@@ -389,5 +540,12 @@ body:has(#Menu_Item_ID[value="336"]):has(#Form_ID[value="373"]) {
         font-weight: 700 !important;
       }
     }
+  }
+}
+
+body:has(#Menu_Item_ID[value="336"]):has(#Form_ID[value="373"]),
+body:has(#Menu_Item_ID[value="338"]):has(#Form_ID[value="373"]) {
+  .page-title::after {
+    content: "Reply To E-Mail";
   }
 }

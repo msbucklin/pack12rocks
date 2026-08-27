@@ -1,0 +1,121 @@
+// -----------------------------------------------------------------------------
+// Communication — view email
+// -----------------------------------------------------------------------------
+
+body:has(#Menu_Item_ID[value="336"]):has(#Form_ID[value="198"]) {
+  --comm-view-border: rgba(15, 57, 95, 0.16);
+  --comm-view-panel: #f7faff;
+
+  .page-title {
+    width: 100%;
+    margin: 0 auto 16px !important;
+    padding: 10px 20px 0;
+    box-sizing: border-box;
+    font-size: 0;
+    text-align: left !important;
+
+    &::after {
+      color: $navy-700;
+      content: "View E-Mail";
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 1.25;
+    }
+  }
+
+  #fs530 {
+    margin: 0 0 10px !important;
+
+    .center-block { width: 100% !important; max-width: 100% !important; margin: 0 !important; }
+
+    .text-center { display: flex !important; justify-content: flex-start !important; text-align: left !important; }
+    .text-center > span { display: inline-flex !important; margin: 0 !important; }
+
+    .btn {
+      min-width: 92px;
+      min-height: 40px;
+      margin: 0 !important;
+      padding: 9px 16px !important;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+  }
+
+  #fs529 {
+    margin-bottom: 14px !important;
+
+    @include detail-form-shell;
+    @include detail-form-table-labels;
+    @include detail-form-stacked-mobile;
+
+    .center-block { width: 100% !important; max-width: 100% !important; margin: 0 !important; }
+    table.no-border { table-layout: auto; }
+    table.no-border td:first-child { width: auto !important; max-width: none !important; }
+
+    table.no-border td.text-left {
+      color: $text-dark;
+      overflow-wrap: anywhere;
+    }
+
+    #DIVENTRY295080 td.text-left {
+      line-height: 1.5;
+    }
+
+    #DIVENTRY295080 td.text-left p:first-child { margin-top: 0 !important; }
+    #DIVENTRY295080 td.text-left p:last-child { margin-bottom: 0 !important; }
+  }
+
+  #fs536 {
+    margin: 0 !important;
+
+    .center-block {
+      width: 100% !important;
+      max-width: 100% !important;
+      margin: 0 !important;
+      padding: 11px 14px !important;
+      border-left: 3px solid $navy-700;
+      background: var(--comm-view-panel);
+      box-sizing: border-box;
+    }
+
+    p { margin: 0 !important; color: $text-dark; font-size: 13px; line-height: 1.5; }
+  }
+
+  #fs537 {
+    margin-bottom: 20px !important;
+
+    .center-block.table-responsive { width: 100% !important; max-width: 100% !important; margin: 0 !important; overflow: hidden; }
+
+    table.table-condensed {
+      width: 100% !important;
+      margin: 0;
+      border: 1px solid var(--comm-view-border);
+      border-top: 0;
+      border-collapse: separate;
+      border-spacing: 0;
+      background: #ffffff;
+    }
+
+    table.table-condensed td {
+      padding: 10px 14px !important;
+      border: 0 !important;
+      color: $text-dark;
+      font-size: 13px;
+      text-align: left !important;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .page-title { padding-top: 20px; }
+
+    :is(#fs530, #fs529, #fs536, #fs537) {
+      padding-right: 20px !important;
+      padding-left: 20px !important;
+    }
+
+    #fs530 .btn { width: 100% !important; }
+    #fs529 .cke_contents { min-height: 220px; }
+  }
+}

@@ -3,7 +3,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta http-equiv="content-language" content="en-us">
 <title>Pack 12 Austin</title>
-<link rel="shortcut icon" href="/favicon.ico">
+<link rel="shortcut icon" href="favicon.ico">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:n,b,bi">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -17,7 +17,7 @@
 </style>
 <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap_override_v11.css">
 <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap_override_colors_Cub_Scouts.css">
-<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap_override_pack12_v34.css">
+<link rel="stylesheet" type="text/css" href="https://ogo.blob.core.windows.net/cspack12austin/bootstrap_override_pack12_v23_202682781617853727410.css">
 <script type="text/javascript" async="" charset="utf-8" src="https://www.gstatic.com/recaptcha/releases/GY0lZUzQQgeA0wDxVI-SQEZw/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-NChJ2cXgODPp5agrUf6ahapDln/pkXyyqTB9Bce/aSQACS3OlLS1j3sKya1lVM+n"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="https://www.google.com/recaptcha/api.js"></script>
@@ -31,7 +31,7 @@
 </script>
 <script language="JavaScript" src="/assets/js/GetDeviceWidth.js">
 </script>
-<script src="/ckeditor/ckeditor.js?v=2"></script><style>.cke{visibility:hidden;}</style>
+<script src="ckeditor/ckeditor.js?v=2"></script><style>.cke{visibility:hidden;}</style>
   <script language="JavaScript">
     var cal = new CalendarPopup();
   </script>
@@ -337,7 +337,7 @@ if(onload || thisfield.name == fieldName) {
   <input type="hidden" name="Selected_Action" id="Selected_Action" value="">
   <input type="hidden" name="Hover_Action" id="Hover_Action" value="">
   <input type="hidden" name="Selected_Button_ID" id="Selected_Button_ID" value="">
-  <input type="hidden" name="Menu_Item_ID" id="Menu_Item_ID" value="336">
+  <input type="hidden" name="Menu_Item_ID" id="Menu_Item_ID" value="338">
   <input type="hidden" name="Form_ID" id="Form_ID" value="373">
   <input type="hidden" name="Link_To_Menu_Item_ID" id="Link_To_Menu_Item_ID" value="">
   <input type="hidden" name="Pass" id="Pass" value="1">
@@ -346,7 +346,7 @@ if(onload || thisfield.name == fieldName) {
   <input type="hidden" name="NewRowsPerPage" id="NewRowsPerPage" value="">
   <input type="hidden" name="ChildRowID" id="ChildRowID" value="0">
   <input type="hidden" name="Report_Format" id="Report_Format" value="">
-  <input type="hidden" name="Current_URL" id="Current_URL" value="https://www.troopwebhostcs.org/FormReplyEmail.aspx?Menu_Item_ID=336&amp;Form_ID=373&amp;FK=0&amp;ID=2563&amp;Stack=2">
+  <input type="hidden" name="Current_URL" id="Current_URL" value="https://www.troopwebhostcs.org/FormReplyEmail.aspx?Menu_Item_ID=338&amp;Form_ID=373&amp;FK=2563&amp;ID=2563&amp;Stack=2">
   <a href="javascript:togglemenu();">
   <div class="navicon" style="width:64px;">
     <table>
@@ -372,13 +372,13 @@ if(onload || thisfield.name == fieldName) {
               <a href="javascript:LinkTo('FormList.aspx?Menu_Item_ID=318&amp;Stack=2','');">Calendar</a>
             </td>
             <td class="navlink">
-              <a href="javascript:LinkTo('FormDetail.aspx?Menu_Item_ID=409&amp;Stack=2','');">Site Appearance</a>
-            </td>
-            <td class="navlink">
-              <a href="javascript:LinkTo('formCustom.aspx?Menu_Item_ID=5788&amp;Stack=0','');">Membership Hub</a>
-            </td>
-            <td class="navlink">
               <a href="javascript:LinkTo('FormList.aspx?Menu_Item_ID=343&amp;Stack=2','');">Users &amp; Passwords</a>
+            </td>
+            <td class="navlink">
+              <a href="javascript:LinkTo('FormDetail.aspx?Menu_Item_ID=3201&amp;Stack=0','');">TroopWebHost Administrative Contacts</a>
+            </td>
+            <td class="navlink">
+              <a href="javascript:LinkTo('FormDetail.aspx?Menu_Item_ID=305&amp;Stack=2','');">My Contact Information</a>
             </td>
           </tr>
         </tbody></table>
@@ -406,13 +406,13 @@ if(onload || thisfield.name == fieldName) {
               <a href="javascript:LinkTo('FormList.aspx?Menu_Item_ID=318&amp;Stack=2','');">Calendar</a>
             </td>
             <td class="navlink">
-              <a href="javascript:LinkTo('FormDetail.aspx?Menu_Item_ID=409&amp;Stack=2','');">Site Appearance</a>
-            </td>
-            <td class="navlink">
-              <a href="javascript:LinkTo('formCustom.aspx?Menu_Item_ID=5788&amp;Stack=0','');">Membership Hub</a>
-            </td>
-            <td class="navlink">
               <a href="javascript:LinkTo('FormList.aspx?Menu_Item_ID=343&amp;Stack=2','');">Users &amp; Passwords</a>
+            </td>
+            <td class="navlink">
+              <a href="javascript:LinkTo('FormDetail.aspx?Menu_Item_ID=3201&amp;Stack=0','');">TroopWebHost Administrative Contacts</a>
+            </td>
+            <td class="navlink">
+              <a href="javascript:LinkTo('FormDetail.aspx?Menu_Item_ID=305&amp;Stack=2','');">My Contact Information</a>
             </td>
           </tr>
         </tbody></table>
@@ -451,19 +451,19 @@ if(onload || thisfield.name == fieldName) {
     <ul class="list-group">
     <li class="list-group-item"><a href="#" data-toggle="modal" data-target="#ModalPageFormat">Format</a></li>
     <li class="list-group-item"><a href="#" data-toggle="modal" data-target="#ModalReportingOptions">Reporting Options</a></li>
-    <li class="list-group-item"><a href="FormDetail.aspx?Form_ID=258&amp;Stack=0&amp;Menu_Item_ID=336">Change My Password</a></li>
-    <li class="list-group-item"><a href="FormDetail.aspx?Form_ID=2568&amp;Stack=0&amp;Menu_Item_ID=336">Configure My Quick Menu</a></li>
-    <li class="list-group-item"><a href="FormDetail.aspx?Form_ID=1951&amp;Stack=0&amp;Menu_Item_ID=336">Bookmark This Site</a></li>
+    <li class="list-group-item"><a href="FormDetail.aspx?Form_ID=258&amp;Stack=0&amp;Menu_Item_ID=338">Change My Password</a></li>
+    <li class="list-group-item"><a href="FormDetail.aspx?Form_ID=2568&amp;Stack=0&amp;Menu_Item_ID=338">Configure My Quick Menu</a></li>
+    <li class="list-group-item"><a href="FormDetail.aspx?Form_ID=1951&amp;Stack=0&amp;Menu_Item_ID=338">Bookmark This Site</a></li>
     </ul>
   </div>
   <div id="helpmenu" class="navtools">
     <ul class="list-group">
     <li class="list-group-item"><a href="Help.aspx?ID=48" target="_blank">User Guide</a></li>
     <li class="list-group-item"><a href="https://www.youtube.com/playlist?list=PL4bC-UY63jygEqBauW0Ofz9FJBWsPkphf" target="_blank">Mobile App Tutorials</a></li>
-    <li class="list-group-item"><a href="FormList.aspx?Form_ID=3937&amp;Stack=0&amp;Menu_Item_ID=336">TroopWebHost User Forum</a></li>
-    <li class="list-group-item"><a href="FormList.aspx?Form_ID=3948&amp;Stack=0&amp;Menu_Item_ID=336">Enhancement Requests</a></li>
-    <li class="list-group-item"><a href="FormList.aspx?Form_ID=3944&amp;Stack=0&amp;Menu_Item_ID=336">My Support Tickets</a></li>
-    <li class="list-group-item"><a href="FormList.aspx?Form_ID=3945&amp;Stack=0&amp;Menu_Item_ID=336">My Unit's Support Tickets</a></li>
+    <li class="list-group-item"><a href="FormList.aspx?Form_ID=3937&amp;Stack=0&amp;Menu_Item_ID=338">TroopWebHost User Forum</a></li>
+    <li class="list-group-item"><a href="FormList.aspx?Form_ID=3948&amp;Stack=0&amp;Menu_Item_ID=338">Enhancement Requests</a></li>
+    <li class="list-group-item"><a href="FormList.aspx?Form_ID=3944&amp;Stack=0&amp;Menu_Item_ID=338">My Support Tickets</a></li>
+    <li class="list-group-item"><a href="FormList.aspx?Form_ID=3945&amp;Stack=0&amp;Menu_Item_ID=338">My Unit's Support Tickets</a></li>
     <li class="list-group-item"><a href="https://www.TroopWebHost.com/newsletter.htm" target="_blank">TroopWebHost Newsletter</a></li>
     <li class="list-group-item"><a href="#" data-toggle="modal" data-target="#ModalAboutSite">About This Site</a></li>
     </ul>
@@ -479,9 +479,9 @@ if(onload || thisfield.name == fieldName) {
           <br><br>
           Copyright&nbsp; 2026 &nbsp;Web Host Services LLC
           <br><br>
-          The current user is:&nbsp; &nbsp; MBucklin796
+          The current user is:&nbsp; &nbsp; mbucklin2
           <br><br>
-          The URL for this page is:&nbsp; &nbsp; https://www.troopwebhostcs.org/FormReplyEmail.aspx?Menu_Item_ID=336&amp;Form_ID=373&amp;FK=0&amp;ID=2563&amp;Stack=2&amp;Application_ID=2840
+          The URL for this page is:&nbsp; &nbsp; https://www.troopwebhostcs.org/FormReplyEmail.aspx?Menu_Item_ID=338&amp;Form_ID=373&amp;FK=2563&amp;ID=2563&amp;Stack=2&amp;Application_ID=2840
         </div>
       </div>
     </div>
@@ -521,7 +521,7 @@ if(onload || thisfield.name == fieldName) {
     </div>
   </div>
   <p class="page-title">
-  My Outbox
+  View All E-Mail
   </p>
   <input type="hidden" name="FK" id="FK" value="0">
   <input type="hidden" name="ID" id="ID" value="2563">

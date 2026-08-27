@@ -336,3 +336,191 @@ body:has(#Menu_Item_ID[value="336"]):has(#Form_ID[value="200"]) {
     }
   }
 }
+
+body:has(#Menu_Item_ID[value="338"]):has(#Form_ID[value="203"]) {
+  --comm-list-border: rgba(15, 57, 95, 0.16);
+
+  .page-title {
+    width: 100%;
+    margin: 0 auto 16px !important;
+    padding: 10px 20px 0;
+    box-sizing: border-box;
+    color: $navy-700;
+    text-align: left !important;
+  }
+
+  :is(#fs543, #fs7002) {
+    display: contents !important;
+
+    .center-block { width: auto !important; max-width: none !important; margin: 0 !important; }
+    .text-center { display: flex !important; justify-content: flex-start !important; text-align: left !important; }
+    .text-center > span { display: inline-flex !important; margin: 0 !important; }
+    .btn { min-width: 100px; min-height: 40px; margin: 0 !important; padding: 9px 16px !important; border-radius: 6px; font-size: 13px; font-weight: 700; line-height: 1.2; }
+  }
+
+  :is(#fs543, #fs7002) > .container-flex {
+    display: inline-flex !important;
+    width: auto !important;
+    padding: 0 !important;
+    margin-bottom: 10px !important;
+  }
+
+  #fs543 > .container-flex { margin-left: 20px !important; margin-right: 10px !important; }
+
+  #fs544 {
+    margin-bottom: 20px !important;
+
+    .center-block.table-responsive { width: 100% !important; max-width: 100% !important; margin: 0 !important; overflow-x: auto; }
+
+    #sortablegrid544 {
+      width: 100% !important;
+      min-width: 860px;
+      margin: 0;
+      border: 1px solid var(--comm-list-border) !important;
+      border-collapse: separate !important;
+      border-spacing: 0;
+      border-radius: 0 !important;
+      overflow: hidden;
+      background: #ffffff;
+    }
+
+    #sortablegrid544 > thead > tr > th {
+      padding: 11px 12px !important;
+      border: 0 !important;
+      border-right: 1px solid rgba(13, 59, 114, 0.05) !important;
+      border-bottom: 1px solid rgba(13, 59, 114, 0.05) !important;
+      border-left: 1px solid rgba(13, 59, 114, 0.05) !important;
+      color: $text-dark !important;
+      background: #eaf3ff !important;
+      font-size: 13px;
+      font-weight: 700;
+      text-align: left;
+      vertical-align: middle;
+    }
+
+    #sortablegrid544 > thead > tr > th:last-child { border-radius: 0 !important; }
+
+    #sortablegrid544 > tbody > tr > td {
+      padding: 9px 10px !important;
+      border: 0 !important;
+      border-bottom: 1px solid rgba(15, 57, 95, 0.09) !important;
+      color: $text-dark;
+      background: #ffffff !important;
+      font-size: 13px;
+      text-align: left !important;
+      vertical-align: middle;
+      overflow-wrap: anywhere;
+    }
+
+    #sortablegrid544 > tbody > tr:nth-of-type(even) > td { background: #f7faff !important; }
+    #sortablegrid544 > tbody > tr:last-child > td { border-bottom: 0 !important; }
+    #sortablegrid544 .btn { min-height: 34px; margin: 0 !important; padding: 7px 10px !important; border-radius: 5px; font-size: 12px; font-weight: 700; }
+
+    #sortablegrid544 > tfoot > tr > td:has(> input[type="button"][value="Print (Export to PDF)"]) {
+      padding: 14px 12px !important;
+      border: 0 !important;
+      border-top: 1px solid rgba(15, 57, 95, 0.12) !important;
+      background: #f7faff !important;
+      text-align: center !important;
+    }
+
+    #sortablegrid544 > tfoot input[type="button"][value="Print (Export to PDF)"],
+    #sortablegrid544 > tfoot input[type="button"][value="Open in Excel"] {
+      display: inline-flex !important;
+      align-items: center;
+      justify-content: center;
+      min-height: 40px;
+      margin: 0 6px !important;
+      padding: 10px 12px !important;
+      border: 1px solid rgba(13, 59, 114, 0.2) !important;
+      border-radius: 10px !important;
+      font-size: 13px !important;
+      font-weight: 700 !important;
+      line-height: 1.2 !important;
+      box-shadow: 0 3px 8px rgba(13, 31, 54, 0.08) !important;
+    }
+
+    #sortablegrid544 > tfoot input[type="button"][value="Print (Export to PDF)"] {
+      color: #ffffff !important;
+      background: linear-gradient(180deg, #1b6eb8 0%, #2783d1 100%) !important;
+    }
+
+    #sortablegrid544 > tfoot input[type="button"][value="Open in Excel"] {
+      color: $text-dark !important;
+      background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%) !important;
+    }
+  }
+
+  @media (max-width: 767px) {
+    :is(#fs543, #fs7002) {
+      display: inline-block !important;
+      width: calc((100% - 50px) / 2) !important;
+      vertical-align: top;
+    }
+
+    :is(#fs543, #fs7002) > .container-flex {
+      display: block !important;
+      width: 100% !important;
+      margin: 0 !important;
+    }
+
+    #fs543 { margin-left: 20px !important; margin-right: 10px !important; }
+    #fs7002 { margin: 0 !important; }
+    :is(#fs543, #fs7002) .text-center { display: block !important; }
+    :is(#fs543, #fs7002) .btn { width: 100% !important; min-width: 0 !important; }
+
+    #fs544 { padding-right: 20px !important; padding-left: 20px !important; }
+    #fs544 .center-block.table-responsive { overflow: hidden !important; padding-right: 0 !important; }
+
+    #sortablegrid544,
+    #sortablegrid544 > tbody { display: block; width: 100% !important; min-width: 0 !important; max-width: 100%; border: 0 !important; background: transparent; }
+    #sortablegrid544 > thead { display: none; }
+
+    #sortablegrid544 > tbody > tr {
+      display: grid !important;
+      grid-template-columns: auto minmax(0, 1fr) auto;
+      align-items: stretch;
+      width: 100% !important;
+      min-width: 0;
+      margin-bottom: 10px;
+      overflow: hidden;
+      border: 1px solid var(--comm-list-border) !important;
+      border-radius: 6px;
+      background: #ffffff;
+      box-sizing: border-box;
+    }
+
+    #sortablegrid544 > tbody > tr > td { display: none !important; min-width: 0; padding: 0 !important; border: 0 !important; background: transparent !important; box-sizing: border-box; }
+    #sortablegrid544 > tbody > tr > td:nth-child(1),
+    #sortablegrid544 > tbody > tr > td:nth-child(2),
+    #sortablegrid544 > tbody > tr > td:nth-child(7) { display: flex !important; align-items: center; justify-content: center; padding: 8px !important; }
+    #sortablegrid544 > tbody > tr > td:nth-child(1) { grid-column: 1; grid-row: 1; }
+    #sortablegrid544 > tbody > tr > td:nth-child(2) { grid-column: 1; grid-row: 2; }
+    #sortablegrid544 > tbody > tr > td:nth-child(7) { grid-column: 3; grid-row: 1 / 4; border-left: 1px solid rgba(15, 57, 95, 0.12) !important; }
+
+    #sortablegrid544 > tbody > tr > td:nth-child(3),
+    #sortablegrid544 > tbody > tr > td:nth-child(4),
+    #sortablegrid544 > tbody > tr > td:nth-child(5) {
+      display: flex !important;
+      grid-column: 2;
+      align-items: baseline;
+      gap: 8px;
+      padding: 5px 10px !important;
+      font-size: 13px;
+      line-height: 1.35;
+      text-align: left !important;
+      overflow-wrap: anywhere;
+    }
+
+    #sortablegrid544 > tbody > tr > td:nth-child(3) { grid-row: 1; padding-top: 9px !important; }
+    #sortablegrid544 > tbody > tr > td:nth-child(4) { grid-row: 2; }
+    #sortablegrid544 > tbody > tr > td:nth-child(5) { grid-row: 3; padding-bottom: 9px !important; }
+    #sortablegrid544 > tbody > tr > td:nth-child(3)::before,
+    #sortablegrid544 > tbody > tr > td:nth-child(4)::before,
+    #sortablegrid544 > tbody > tr > td:nth-child(5)::before { flex: 0 0 48px; color: $navy-700; font-size: 10px; font-weight: 800; line-height: 1.3; text-align: right; text-transform: uppercase; }
+    #sortablegrid544 > tbody > tr > td:nth-child(3)::before { content: "From"; }
+    #sortablegrid544 > tbody > tr > td:nth-child(4)::before { content: "Subject"; }
+    #sortablegrid544 > tbody > tr > td:nth-child(5)::before { content: "Sent"; }
+    #sortablegrid544 .btn { min-width: 0 !important; min-height: 36px; margin: 0 !important; padding: 8px 9px !important; font-size: 11px; line-height: 1.2; white-space: nowrap; }
+  }
+}
