@@ -488,7 +488,7 @@ Events Hub
   <div class="container-fluid container-flex">
     <div class="center-block widget35" style="margin-bottom: 20px; max-width: 400px; min-width: 200px; ">
       <div style="display: inline-block; margin-left: 10px; margin-right: 10px; width: calc(100% - 20px);">
-        <div style="margin-top: 4px; margin-bottom: 4px; font-size: 110%; text-align: left;"><a class="widgetlink" href="FormList.aspx?Menu_Item_ID=5787&amp;Form_ID=271&amp;Stack=2">View Calendar</a><sup><a class="widget-help-link" href="Help.aspx?ID=87" target="twhUserGuide">&nbsp;?&nbsp;</a></sup></div>
+        <div style="margin-top: 4px; margin-bottom: 4px; font-size: 110%; text-align: left;"><a class="widgetlink" href="/events/calendar.php">View Calendar</a><sup><a class="widget-help-link" href="Help.aspx?ID=87" target="twhUserGuide">&nbsp;?&nbsp;</a></sup></div>
       </div>
     </div>
   </div>
