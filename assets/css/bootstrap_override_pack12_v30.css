@@ -6546,45 +6546,6 @@ body:has(#Menu_Item_ID[value="324"]):has(#Form_ID[value="145"]) #fs2774 table.no
 body:has(#Menu_Item_ID[value="324"]):has(#Form_ID[value="145"]) #fs2774 table.no-border > tbody > tr:nth-child(2) br {
   display: none;
 }
-body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) :is(#fs2774, #fs367) #DIVENTRY5737611,
-body:has(#Menu_Item_ID[value="324"]):has(#Form_ID[value="145"]) :is(#fs2774, #fs367) #DIVENTRY5737611 {
-  display: flex !important;
-  align-items: center;
-  gap: 8px;
-  padding: 12px 16px !important;
-  box-sizing: border-box;
-}
-body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) :is(#fs2774, #fs367) #DIVENTRY5737611 > td.text-left,
-body:has(#Menu_Item_ID[value="324"]):has(#Form_ID[value="145"]) :is(#fs2774, #fs367) #DIVENTRY5737611 > td.text-left {
-  order: 1;
-  flex: 0 0 20px;
-  width: 20px !important;
-  padding: 0 !important;
-}
-body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) :is(#fs2774, #fs367) #DIVENTRY5737611 > td.text-right,
-body:has(#Menu_Item_ID[value="324"]):has(#Form_ID[value="145"]) :is(#fs2774, #fs367) #DIVENTRY5737611 > td.text-right {
-  order: 2;
-  flex: 0 1 auto;
-  width: auto !important;
-  max-width: none !important;
-  padding: 0 !important;
-  text-align: left !important;
-}
-body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) :is(#fs2774, #fs367) #DIVENTRY5737611 .control-label,
-body:has(#Menu_Item_ID[value="324"]):has(#Form_ID[value="145"]) :is(#fs2774, #fs367) #DIVENTRY5737611 .control-label {
-  display: block !important;
-  margin: 0 !important;
-  color: #0d3b72 !important;
-  font-style: normal !important;
-  font-weight: 700 !important;
-  text-align: left !important;
-}
-body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) :is(#fs2774, #fs367) #DIVENTRY5737611 .RequiredIndicator,
-body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) :is(#fs2774, #fs367) #DIVENTRY5737611 .entrypostscript,
-body:has(#Menu_Item_ID[value="324"]):has(#Form_ID[value="145"]) :is(#fs2774, #fs367) #DIVENTRY5737611 .RequiredIndicator,
-body:has(#Menu_Item_ID[value="324"]):has(#Form_ID[value="145"]) :is(#fs2774, #fs367) #DIVENTRY5737611 .entrypostscript {
-  display: none !important;
-}
 body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="673"]) :is(#fs2774, #fs367) :is(#DIVENTRY1086629,
 #DIVENTRY1086630,
 #DIVENTRY1086631,
