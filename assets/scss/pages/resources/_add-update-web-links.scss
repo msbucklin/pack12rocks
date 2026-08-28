@@ -1,0 +1,43 @@
+// -----------------------------------------------------------------------------
+// Resources - add and update web links
+// -----------------------------------------------------------------------------
+
+body:has(#Menu_Item_ID[value="394"]):has(#Form_ID[value="1473"]) {
+  .page-title { width: 100%; margin: 0 0 18px !important; padding: 10px 20px 0; box-sizing: border-box; color: $navy-700; font-size: 26px; font-weight: 800; line-height: 1.2; text-align: left !important; }
+
+  :is(#fs7323, #fs7324, #fs7324 ~ .new-row) { width: 100%; margin: 0 0 16px !important; padding: 0 20px; box-sizing: border-box; }
+  :is(#fs7323, #fs7324, #fs7324 ~ .new-row) .container-fluid.container-flex,
+  :is(#fs7323, #fs7324, #fs7324 ~ .new-row) .center-block { width: 100% !important; max-width: none !important; margin: 0 !important; padding: 0 !important; }
+
+  :is(#fs7323, #fs7324 ~ .new-row) .text-center { display: flex !important; flex-wrap: wrap; justify-content: flex-start !important; gap: 8px; text-align: left !important; }
+  :is(#fs7323, #fs7324 ~ .new-row) .text-center > span { display: inline-flex !important; margin: 0 !important; }
+  :is(#fs7323, #fs7324 ~ .new-row) .btn { min-width: 116px; min-height: 40px; margin: 0 !important; padding: 9px 16px !important; border-radius: 6px; font-size: 13px; font-weight: 700; line-height: 1.2; }
+
+  #fs7324 .center-block.table-responsive { overflow-x: auto !important; -webkit-overflow-scrolling: touch; }
+  #sortablegrid7324 { width: 100%; min-width: 720px; margin: 0; border: 1px solid rgba(15, 57, 95, 0.16); border-collapse: separate; border-spacing: 0; border-radius: 8px; overflow: hidden; background: #ffffff; box-shadow: 0 4px 12px rgba(13, 31, 54, 0.06); }
+  #sortablegrid7324 thead th { padding: 10px 12px !important; border: 0 !important; border-bottom: 1px solid rgba(15, 57, 95, 0.16) !important; color: $text-dark; background: #eaf3ff; font-size: 12px; font-weight: 700; line-height: 1.3; text-align: left !important; vertical-align: middle; }
+  #sortablegrid7324 thead th:first-child,
+  #sortablegrid7324 thead th:last-child { width: 1%; white-space: nowrap; text-align: center !important; }
+  #sortablegrid7324 .sortheader { color: $text-dark !important; text-decoration: none !important; }
+  #sortablegrid7324 .sortheader:hover,
+  #sortablegrid7324 .sortheader:focus { color: $navy-700 !important; text-decoration: underline !important; }
+  #sortablegrid7324 .sortarrow img { margin-left: 4px; }
+  #sortablegrid7324 tbody td { padding: 10px 12px !important; border: 0 !important; border-top: 1px solid rgba(15, 57, 95, 0.1) !important; color: $text-dark; font-size: 13px; line-height: 1.4; vertical-align: middle; }
+  #sortablegrid7324 tbody tr:nth-child(even) td { background: #f7faff; }
+  #sortablegrid7324 tbody td a { color: $navy-700 !important; font-weight: 700; overflow-wrap: anywhere; }
+  #sortablegrid7324 tbody td a:hover,
+  #sortablegrid7324 tbody td a:focus { color: $text-dark !important; }
+  #sortablegrid7324 tbody .btn { min-width: 70px; min-height: 34px; padding: 7px 10px !important; border-radius: 5px; font-size: 12px; font-weight: 700; line-height: 1.2; }
+  #sortablegrid7324 tfoot td { padding: 12px !important; border: 0 !important; border-top: 1px solid rgba(15, 57, 95, 0.16) !important; background: #f7faff; text-align: left !important; }
+  #sortablegrid7324 tfoot input[type="button"] { min-height: 36px; margin: 0 8px 0 0; padding: 8px 12px; border: 1px solid rgba(13, 59, 114, 0.22); border-radius: 5px; color: $navy-700; background: #ffffff; font-size: 12px; font-weight: 700; line-height: 1.2; }
+  #sortablegrid7324 tfoot input[type="button"]:hover,
+  #sortablegrid7324 tfoot input[type="button"]:focus { background: #eaf3ff; }
+
+  @media (max-width: 767px) {
+    .page-title { margin-bottom: 16px !important; padding-top: 16px; font-size: 23px; }
+    :is(#fs7323, #fs7324, #fs7324 ~ .new-row) { margin-bottom: 20px !important; padding: 0 20px; }
+    :is(#fs7323, #fs7324 ~ .new-row) .text-center { display: grid !important; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    :is(#fs7323, #fs7324 ~ .new-row) .text-center > span,
+    :is(#fs7323, #fs7324 ~ .new-row) .btn { width: 100% !important; min-width: 0; }
+  }
+}

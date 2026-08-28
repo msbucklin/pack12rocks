@@ -1,0 +1,15 @@
+// -----------------------------------------------------------------------------
+// Cub Scouts - update age levels
+// -----------------------------------------------------------------------------
+
+body:has(#Menu_Item_ID[value="417"]):has(#Form_ID[value="2002"]) {
+  :is(#fs9472, #fs9474, #fs9474 ~ .new-row) { width: 100%; padding-right: 20px; padding-left: 20px; box-sizing: border-box; }
+  :is(#fs9472, #fs9474, #fs9474 ~ .new-row) .container-fluid.container-flex,
+  :is(#fs9472, #fs9474, #fs9474 ~ .new-row) .center-block { width: 100% !important; max-width: none !important; min-width: 0 !important; margin-right: 0 !important; margin-left: 0 !important; }
+
+  @media (min-width: 768px) {
+    #fs9474 .center-block.table-responsive { overflow-x: visible !important; }
+    #fs9474 .center-block.table-responsive > table { width: 100% !important; }
+    #sortablegrid9474 { width: 100% !important; }
+  }
+}
