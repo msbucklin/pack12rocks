@@ -1278,3 +1278,170 @@ body:has(#Menu_Item_ID[value="3309"]):has(#Form_ID[value="4240"]) {
     #fs16797 + .new-row .btn { width: 100% !important; }
   }
 }
+
+body:has(#Menu_Item_ID[value="396"]):has(#Form_ID[value="1478"]) {
+  --relationship-type-form-border: rgba(15, 57, 95, 0.16);
+
+  .page-title { width: 100%; margin: 0 auto 16px !important; padding: 10px 20px 0; box-sizing: border-box; color: $navy-700; text-align: left !important; }
+
+  #fs7335 {
+    @include detail-form-shell;
+    margin-bottom: 20px !important;
+
+    .center-block { width: 100% !important; max-width: 100% !important; margin: 0 !important; }
+    table.no-border { width: 100%; margin: 0; border: 1px solid var(--relationship-type-form-border); border-collapse: separate; border-spacing: 0; border-radius: 6px; overflow: hidden; background: #ffffff; }
+    table.no-border > tbody > tr > td { padding: 12px 16px !important; border: 0 !important; border-bottom: 1px solid var(--relationship-type-form-border) !important; vertical-align: middle; }
+    table.no-border > tbody > tr:nth-child(even) { background: #f7faff; }
+    table.no-border > tbody > tr:last-child > td { border-bottom: 0 !important; }
+    table.no-border > tbody > tr > td:first-child { width: 38%; color: $text-dark; font-size: 14px; font-weight: 600; text-align: right !important; }
+    table.no-border .control-label { margin: 0 !important; text-align: inherit; }
+    table.no-border .form-control { width: min(100%, 520px); margin: 0 !important; box-sizing: border-box; }
+  }
+
+  #fs7336 {
+    margin-bottom: 20px !important;
+
+    .center-block { width: 100% !important; max-width: 100% !important; margin: 0 !important; }
+    .text-center { display: flex !important; flex-wrap: wrap; justify-content: flex-start !important; gap: 8px; text-align: left !important; }
+    .text-center > span { display: inline-flex !important; margin: 0 !important; }
+    .btn { min-width: 120px; min-height: 40px; margin: 0 !important; padding: 9px 16px !important; border-radius: 6px; font-size: 13px; font-weight: 700; line-height: 1.2; }
+  }
+
+  @media (max-width: 767px) {
+    #fs7335,
+    #fs7336 { padding-right: 20px !important; padding-left: 20px !important; }
+    #fs7335 table.no-border,
+    #fs7335 table.no-border tbody,
+    #fs7335 table.no-border tr,
+    #fs7335 table.no-border td { display: block !important; width: 100% !important; max-width: 100% !important; box-sizing: border-box; }
+    #fs7335 table.no-border { border: 0; background: transparent; }
+    #fs7335 table.no-border > tbody > tr { margin-bottom: 10px; overflow: hidden; border: 1px solid var(--relationship-type-form-border); border-radius: 6px; background: #ffffff; }
+    #fs7335 table.no-border > tbody > tr > td { padding: 10px 12px !important; border: 0 !important; text-align: left !important; }
+    #fs7335 table.no-border > tbody > tr > td:first-child { padding-bottom: 4px !important; color: $navy-700; }
+    #fs7335 table.no-border .form-control { width: 100% !important; }
+    #fs7336 .text-center { display: grid !important; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    #fs7336 .text-center > span,
+    #fs7336 .btn { width: 100% !important; min-width: 0 !important; }
+  }
+}
+
+body:has(#Menu_Item_ID[value="395"]):has(#Form_ID[value="1475"]) {
+  --membership-type-form-border: rgba(15, 57, 95, 0.16);
+
+  .page-title { width: 100%; margin: 0 auto 16px !important; padding: 10px 20px 0; box-sizing: border-box; color: $navy-700; text-align: left !important; }
+
+  #fs7328 {
+    @include detail-form-shell;
+    margin-bottom: 20px !important;
+
+    .center-block { width: 100% !important; max-width: 100% !important; margin: 0 !important; }
+    table.no-border { width: 100%; margin: 0; overflow: hidden; border: 1px solid var(--membership-type-form-border); border-collapse: separate; border-spacing: 0; border-radius: 6px; background: #ffffff; }
+    table.no-border > tbody > tr > td { padding: 10px 16px !important; border: 0 !important; border-bottom: 1px solid var(--membership-type-form-border) !important; vertical-align: middle; }
+    table.no-border > tbody > tr:nth-child(even) { background: #f7faff; }
+    table.no-border > tbody > tr:last-child > td { border-bottom: 0 !important; }
+    table.no-border > tbody > tr > td:first-child { width: 42%; color: $text-dark; font-size: 14px; font-weight: 600; text-align: right !important; }
+    table.no-border .control-label { margin: 0 !important; text-align: inherit; }
+    table.no-border .form-control { width: min(100%, 520px); margin: 0 !important; box-sizing: border-box; }
+    table.no-border select.form-control { min-height: 40px; }
+    table.no-border input.form-control { min-height: 40px; }
+    table.no-border input[type="checkbox"] { width: 18px !important; height: 18px; margin: 0 !important; vertical-align: middle; }
+    table.no-border .entrypostscript { margin-left: 8px; color: $text-mid; font-size: 12px; }
+  }
+
+  #fs7329 {
+    margin-bottom: 20px !important;
+
+    .center-block { width: 100% !important; max-width: 100% !important; margin: 0 !important; }
+    .text-center { display: flex !important; flex-wrap: wrap; justify-content: flex-start !important; gap: 8px; text-align: left !important; }
+    .text-center > span { display: inline-flex !important; margin: 0 !important; }
+    .btn { min-width: 120px; min-height: 40px; margin: 0 !important; padding: 9px 16px !important; border-radius: 6px; font-size: 13px; font-weight: 700; line-height: 1.2; }
+  }
+
+  @media (max-width: 767px) {
+    #fs7328,
+    #fs7329 { padding-right: 20px !important; padding-left: 20px !important; }
+    #fs7328 table.no-border,
+    #fs7328 table.no-border tbody,
+    #fs7328 table.no-border tr,
+    #fs7328 table.no-border td { display: block !important; width: 100% !important; max-width: 100% !important; box-sizing: border-box; }
+    #fs7328 table.no-border { border: 0; background: transparent; }
+    #fs7328 table.no-border > tbody > tr { margin-bottom: 10px; overflow: hidden; border: 1px solid var(--membership-type-form-border); border-radius: 6px; background: #ffffff; }
+    #fs7328 table.no-border > tbody > tr > td { padding: 10px 12px !important; border: 0 !important; text-align: left !important; }
+    #fs7328 table.no-border > tbody > tr > td:first-child { padding-bottom: 4px !important; color: $navy-700; }
+    #fs7328 table.no-border .form-control { width: 100% !important; }
+    #fs7328 table.no-border input[type="checkbox"] { display: inline-block !important; width: 18px !important; }
+    #fs7328 table.no-border .entrypostscript { display: inline; }
+    #fs7329 .text-center { display: grid !important; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    #fs7329 .text-center > span,
+    #fs7329 .btn { width: 100% !important; min-width: 0 !important; }
+  }
+}
+
+body:has(#Menu_Item_ID[value="1453"]):has(#Form_ID[value="2779"]) {
+  --email-settings-border: rgba(15, 57, 95, 0.16);
+
+  .page-title { width: 100%; margin: 0 auto 16px !important; padding: 10px 20px 0; box-sizing: border-box; color: $navy-700; text-align: left !important; }
+
+  #fs12263 {
+    @include detail-form-shell;
+    margin-bottom: 20px !important;
+
+    .center-block { width: 100% !important; max-width: 100% !important; margin: 0 0 16px !important; }
+    .center-block:last-child { margin-bottom: 0 !important; }
+    table.no-border { width: 100%; margin: 0; overflow: hidden; border: 1px solid var(--email-settings-border); border-collapse: separate; border-spacing: 0; border-radius: 6px; background: #ffffff; }
+    table.no-border > tbody > tr > td { padding: 10px 16px !important; border: 0 !important; border-bottom: 1px solid var(--email-settings-border) !important; vertical-align: middle; }
+    table.no-border > tbody > tr:last-child > td { border-bottom: 0 !important; }
+    table.no-border > tbody > tr:has(.bodysubheading) > td { padding: 13px 16px !important; color: $navy-700; background: #eaf3ff !important; font-size: 15px; font-weight: 700; text-align: left !important; }
+    table.no-border > tbody > tr:has(> td[colspan="2"]):not(:has(.bodysubheading)) > td { padding: 12px 16px !important; color: $text-mid; background: #f7faff !important; font-size: 13px; line-height: 1.45; text-align: left !important; }
+    table.no-border > tbody > tr:has(> td[colspan="2"]):not(:has(.bodysubheading)):not(:has(b)) { display: none; }
+    table.no-border > tbody > tr:not(:has(> td[colspan="2"])):nth-child(even) { background: #f7faff; }
+    table.no-border > tbody > tr > td:first-child:not([colspan]) { width: 42%; color: $text-dark; font-size: 14px; font-weight: 600; text-align: left !important; }
+    table.no-border .control-label { margin: 0 !important; text-align: inherit; }
+    table.no-border .form-control { width: min(100%, 520px); margin: 0 !important; box-sizing: border-box; }
+    table.no-border select.form-control { min-height: 40px; }
+    #ENTRY597221 { min-height: 40px; }
+    #DIVENTRY441272 > td:nth-child(2)::before,
+    #DIVENTRY441282 > td:nth-child(2)::before { display: block; margin-bottom: 5px; color: $text-mid; font-size: 12px; font-weight: 700; }
+    #DIVENTRY441272 > td:nth-child(2)::before { content: "First leader"; }
+    #DIVENTRY441282 > td:nth-child(2)::before { content: "Second leader"; }
+    table.no-border input[type="checkbox"],
+    table.no-border input[type="radio"] { width: 18px !important; height: 18px; margin: 0 7px 0 0 !important; vertical-align: middle; }
+    table.no-border input[type="radio"] + br { display: block; margin-bottom: 6px; content: ""; }
+    table.no-border .text-left > span:not(.entrypostscript) { line-height: 1.75; }
+    table.no-border .entrypostscript { margin-left: 8px; color: $text-mid; font-size: 12px; }
+  }
+
+  #fs12264 {
+    margin-bottom: 20px !important;
+
+    .center-block { width: 100% !important; max-width: 100% !important; margin: 0 !important; }
+    .text-center { display: flex !important; flex-wrap: wrap; justify-content: flex-start !important; gap: 8px; text-align: left !important; }
+    .text-center > span { display: inline-flex !important; margin: 0 !important; }
+    .btn { min-width: 120px; min-height: 40px; margin: 0 !important; padding: 9px 16px !important; border-radius: 6px; font-size: 13px; font-weight: 700; line-height: 1.2; }
+  }
+
+  @media (max-width: 767px) {
+    #fs12263,
+    #fs12264 { padding-right: 20px !important; padding-left: 20px !important; }
+    #fs12263 .center-block { margin-bottom: 10px !important; }
+    #fs12263 table.no-border,
+    #fs12263 table.no-border tbody,
+    #fs12263 table.no-border tr,
+    #fs12263 table.no-border td { display: block !important; width: 100% !important; max-width: 100% !important; box-sizing: border-box; }
+    #fs12263 table.no-border { border: 0; background: transparent; }
+    #fs12263 table.no-border > tbody > tr { margin-bottom: 10px; overflow: hidden; border: 1px solid var(--email-settings-border); border-radius: 6px; background: #ffffff; }
+    #fs12263 table.no-border > tbody > tr:has(> td[colspan="2"]):not(:has(.bodysubheading)):not(:has(b)) { display: none !important; }
+    #fs12263 table.no-border > tbody > tr > td { padding: 10px 12px !important; border: 0 !important; text-align: left !important; }
+    #fs12263 table.no-border > tbody > tr > td:first-child:not([colspan]) { padding-bottom: 4px !important; color: $navy-700; }
+    #fs12263 table.no-border > tbody > tr:has(input[type="checkbox"]) { display: grid !important; grid-template-columns: 50px minmax(0, 1fr); align-items: center; }
+    #fs12263 table.no-border > tbody > tr:has(input[type="checkbox"]) > td:first-child { grid-column: 2; grid-row: 1; padding: 10px 12px 10px 0 !important; }
+    #fs12263 table.no-border > tbody > tr:has(input[type="checkbox"]) > td:nth-child(2) { grid-column: 1; grid-row: 1; padding: 10px 0 10px 12px !important; }
+    #fs12263 table.no-border .form-control { width: 100% !important; }
+    #fs12263 table.no-border input[type="checkbox"],
+    #fs12263 table.no-border input[type="radio"] { display: inline-block !important; width: 18px !important; }
+    #fs12263 table.no-border .entrypostscript { display: inline; }
+    #fs12264 .text-center { display: grid !important; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    #fs12264 .text-center > span,
+    #fs12264 .btn { width: 100% !important; min-width: 0 !important; }
+  }
+}

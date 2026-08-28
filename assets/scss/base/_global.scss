@@ -3,7 +3,23 @@
 // -----------------------------------------------------------------------------
 
 .form-control {
-  background-color: #ffe;
+  background-color: #ffffff !important;
+}
+
+select.form-control:not([multiple]),
+select.rows-per-page {
+  padding-right: 42px !important;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' fill='none'%3E%3Cpath d='m3.25 5.75 4.75 4.75 4.75-4.75' stroke='%230d3b72' stroke-width='1.75' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") !important;
+  background-position: right 14px center !important;
+  background-repeat: no-repeat !important;
+  background-size: 16px 16px !important;
+}
+
+select.form-control:not([multiple]):focus,
+select.rows-per-page:focus {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' fill='none'%3E%3Cpath d='m3.25 5.75 4.75 4.75 4.75-4.75' stroke='%23061f3c' stroke-width='1.75' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") !important;
 }
 
 .RequiredIndicator {

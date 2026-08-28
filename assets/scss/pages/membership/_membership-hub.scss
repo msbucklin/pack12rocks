@@ -505,3 +505,54 @@ body:has(#Menu_Item_ID[value="5788"]) {
   }
 }
 }
+
+body:has(#Menu_Item_ID[value="5788"]):has(#Form_ID[value="6148"]) {
+  --membership-hub-border: rgba(15, 57, 95, 0.16);
+
+  background: #ffffff;
+
+  .page-title { display: block !important; width: 100%; margin: 0 0 20px !important; padding: 10px 20px 0; box-sizing: border-box; color: $navy-700; font-size: 26px; font-weight: 800; line-height: 1.2; text-align: left !important; }
+
+  #easyform > .new-row:last-of-type > .container-fluid.container-flex { display: grid !important; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; gap: 16px; width: 100% !important; max-width: 100% !important; }
+  .center-block:is(.widget39, .widget40, .widget42, .widget43, .widget44, .widget45, .widget46, .widget47, .widget48, .widget49, .widget51, .widget53, .widget54) { width: auto !important; min-width: 0 !important; max-width: none !important; margin: 0 !important; padding: 0 !important; border: 0 !important; border-radius: 0 !important; background: transparent !important; box-shadow: none !important; }
+  .center-block:is(.widget39, .widget40, .widget42, .widget43, .widget44, .widget45, .widget46, .widget47, .widget48, .widget49, .widget51, .widget53, .widget54) > div { display: block !important; width: 100% !important; min-height: 100%; margin: 0 !important; padding: 0 !important; overflow: hidden; border: 1px solid var(--membership-hub-border); border-radius: 8px; background: #ffffff; box-shadow: 0 4px 12px rgba(13, 31, 54, 0.06); }
+
+  .center-block:is(.widget39, .widget40, .widget42, .widget43, .widget44, .widget45, .widget46, .widget47) > div { display: flex !important; flex-direction: column; }
+  .center-block:is(.widget39, .widget40, .widget42, .widget43, .widget44, .widget45, .widget46, .widget47) .scrollingdiv { flex: 1 1 auto; min-height: 190px; height: 250px !important; overflow: auto !important; background: #ffffff; }
+  .scrollingdiv,
+  .scrollingdiv table,
+  .scrollingdiv thead,
+  .scrollingdiv tbody { border: 0 !important; border-radius: 0 !important; outline: 0 !important; box-shadow: none !important; }
+
+  .center-block:is(.widget39, .widget40, .widget42, .widget43, .widget44, .widget45, .widget46, .widget47, .widget48, .widget49, .widget51, .widget53, .widget54) h3 { position: relative; display: block !important; margin: 0 !important; padding: 12px 46px 12px 14px !important; border: 0 !important; border-bottom: 1px solid var(--membership-hub-border) !important; border-radius: 0 !important; color: $text-dark; background: #eaf3ff !important; font-size: 15px !important; font-weight: 700; line-height: 1.3; text-align: left !important; }
+  .widgetlink { color: $navy-700 !important; font-weight: 700; text-decoration: none !important; }
+  .widgetlink:hover,
+  .widgetlink:focus { color: $text-dark !important; text-decoration: underline !important; }
+  .center-block:is(.widget39, .widget40, .widget42, .widget43, .widget44, .widget45, .widget46, .widget47) h3 sup { position: absolute !important; top: 50% !important; right: 14px !important; display: flex !important; align-items: center; justify-content: center; width: 18px; height: 18px; margin: 0 !important; padding: 0 !important; line-height: 1; transform: translateY(-50%); vertical-align: initial; }
+  .widget-help-link { display: flex !important; align-items: center !important; justify-content: center !important; width: 18px !important; min-width: 18px !important; height: 18px !important; min-height: 18px !important; margin: 0 !important; padding: 0 !important; border: 0 !important; border-radius: 50% !important; color: #ffffff !important; background: $navy-700 !important; font-size: 0 !important; line-height: 1 !important; text-align: center !important; text-decoration: none !important; }
+  .widget-help-link::before { content: "?"; font-family: Arial, sans-serif; font-size: 12px; font-weight: 700; line-height: 1; transform: translateX(-1px); }
+
+  .scrollingdiv table { min-width: 430px; margin: 0; }
+  .scrollingdiv .thead-sticky { position: sticky; z-index: 1; top: 0; }
+  .scrollingdiv thead th { padding: 9px 10px !important; border-bottom: 1px solid var(--membership-hub-border) !important; color: $text-dark !important; background: #f2f5f9 !important; font-size: 12px; font-weight: 700; line-height: 1.25; text-align: left !important; }
+  .scrollingdiv tbody td { padding: 8px 10px !important; border-top: 1px solid rgba(15, 57, 95, 0.09) !important; color: $text-dark; font-size: 12px; line-height: 1.35; vertical-align: middle; }
+  .scrollingdiv tbody tr:nth-child(odd) td { background: #f7faff !important; }
+  .scrollingdiv tbody tr:nth-child(even) td { background: #f9f9f9 !important; }
+  .scrollingdiv td.text-right { text-align: right !important; }
+  .scrollingdiv td.text-center { text-align: center !important; }
+  .scrollingdiv .glyphicon { color: $navy-700; }
+
+  .center-block:is(.widget39, .widget40, .widget42, .widget43, .widget44, .widget45, .widget46, .widget47) p { margin: 0 !important; padding: 10px 14px !important; border-top: 1px solid var(--membership-hub-border); background: #f7faff; font-size: 13px; text-align: left !important; }
+  .center-block:is(.widget48, .widget49, .widget51, .widget53, .widget54) > div > div { display: flex !important; align-items: center; margin: 0 !important; padding: 10px 14px !important; border-bottom: 1px solid rgba(15, 57, 95, 0.1); font-size: 13px !important; line-height: 1.4; }
+  .center-block:is(.widget48, .widget49, .widget51, .widget53, .widget54) > div > div > .widgetlink { min-width: 0; }
+  .center-block:is(.widget48, .widget49, .widget51, .widget53, .widget54) > div > div > sup { position: static !important; top: auto !important; display: flex !important; flex: 0 0 auto; align-items: center; justify-content: center; margin: 0 0 0 auto !important; padding-left: 12px; line-height: 1; vertical-align: initial; }
+  .center-block:is(.widget48, .widget49, .widget51, .widget53, .widget54) > div > div:last-child { border-bottom: 0; }
+
+  @media (max-width: 767px) {
+    .page-title { margin-bottom: 16px !important; padding-top: 16px; font-size: 23px; }
+    #easyform > .new-row:last-of-type > .container-fluid.container-flex { grid-template-columns: minmax(0, 1fr); gap: 20px; }
+    .center-block:is(.widget39, .widget40, .widget42, .widget43, .widget44, .widget45, .widget46, .widget47, .widget48, .widget49, .widget51, .widget53, .widget54) { margin-bottom: 20px !important; }
+    .scrollingdiv { -webkit-overflow-scrolling: touch; }
+    .scrollingdiv table { min-width: 420px; }
+  }
+}
