@@ -2968,8 +2968,13 @@ body:has(#fs7356) .page-title {
   margin-right: -3px;
 }
 
-#fs7487 {
-  padding-top: 20px;
+body:has(#Menu_Item_ID[value="307"]) .page-title {
+  margin-top: 10px !important;
+  margin-bottom: 0 !important;
+  font-size: 26px !important;
+}
+body:has(#Menu_Item_ID[value="307"]) #fs7485 {
+  display: none;
 }
 
 #fs7486 {

@@ -2,8 +2,16 @@
 // Online Payments page styling
 // -----------------------------------------------------------------------------
 
-#fs7487 {
-  padding-top: 20px;
+body:has(#Menu_Item_ID[value="307"]) {
+  .page-title {
+    margin-top: 10px !important;
+    margin-bottom: 0 !important;
+    font-size: 26px !important;
+  }
+
+  #fs7485 {
+    display: none;
+  }
 }
 
 #fs7486 {
