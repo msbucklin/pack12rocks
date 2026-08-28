@@ -12094,6 +12094,103 @@ body:has(#Menu_Item_ID[value="390"]):has(#Form_ID[value="5879"]) .folder-desc {
   }
 }
 
+body:has(#Menu_Item_ID[value="391"]):has(#Form_ID[value="1474"]) .page-title {
+  width: 100%;
+  margin: 0 0 18px !important;
+  padding: 10px 20px 0;
+  box-sizing: border-box;
+  color: #184a8a;
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 1.2;
+  text-align: left !important;
+}
+body:has(#Menu_Item_ID[value="391"]):has(#Form_ID[value="1474"]) #fs7327 {
+  width: 100%;
+  margin: 0 0 24px !important;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+body:has(#Menu_Item_ID[value="391"]):has(#Form_ID[value="1474"]) #fs7327 .container-fluid.container-flex,
+body:has(#Menu_Item_ID[value="391"]):has(#Form_ID[value="1474"]) #fs7327 .center-block.table-responsive {
+  display: block !important;
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: visible !important;
+}
+body:has(#Menu_Item_ID[value="391"]):has(#Form_ID[value="1474"]) #fs7327 table.table-condensed {
+  width: 100%;
+  margin: 0;
+  border: 1px solid rgba(15, 57, 95, 0.16);
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(13, 31, 54, 0.06);
+}
+body:has(#Menu_Item_ID[value="391"]):has(#Form_ID[value="1474"]) #fs7327 table.table-condensed td {
+  padding: 0 !important;
+  border-top: 1px solid rgba(15, 57, 95, 0.12) !important;
+  text-align: left !important;
+}
+body:has(#Menu_Item_ID[value="391"]):has(#Form_ID[value="1474"]) #fs7327 table.table-condensed tr:first-child td {
+  border-top: 0 !important;
+}
+body:has(#Menu_Item_ID[value="391"]):has(#Form_ID[value="1474"]) #fs7327 table.table-condensed tr:nth-child(even) td {
+  background: #f7faff;
+}
+body:has(#Menu_Item_ID[value="391"]):has(#Form_ID[value="1474"]) #fs7327 table.table-condensed a.bodyheading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 48px;
+  padding: 12px 16px;
+  color: #184a8a !important;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.35;
+  text-decoration: none !important;
+}
+body:has(#Menu_Item_ID[value="391"]):has(#Form_ID[value="1474"]) #fs7327 table.table-condensed a.bodyheading::after {
+  content: "\f08e";
+  flex: 0 0 auto;
+  margin-left: 16px;
+  color: #184a8a;
+  font-family: FontAwesome;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1;
+}
+body:has(#Menu_Item_ID[value="391"]):has(#Form_ID[value="1474"]) #fs7327 table.table-condensed a.bodyheading:hover,
+body:has(#Menu_Item_ID[value="391"]):has(#Form_ID[value="1474"]) #fs7327 table.table-condensed a.bodyheading:focus {
+  color: #0d3b72 !important;
+  background: #eaf3ff;
+  text-decoration: underline !important;
+}
+body:has(#Menu_Item_ID[value="391"]):has(#Form_ID[value="1474"]) #fs7327 table.table-condensed a.bodyheading:focus-visible {
+  outline: 2px solid #184a8a;
+  outline-offset: -2px;
+}
+@media (max-width: 767px) {
+  body:has(#Menu_Item_ID[value="391"]):has(#Form_ID[value="1474"]) .page-title {
+    margin-bottom: 16px !important;
+    padding-top: 16px;
+    font-size: 23px;
+  }
+  body:has(#Menu_Item_ID[value="391"]):has(#Form_ID[value="1474"]) #fs7327 {
+    margin-bottom: 20px !important;
+    padding: 0 20px;
+  }
+  body:has(#Menu_Item_ID[value="391"]):has(#Form_ID[value="1474"]) #fs7327 table.table-condensed a.bodyheading {
+    min-height: 46px;
+    padding: 11px 14px;
+    font-size: 14px;
+  }
+}
+
 body:has(#Menu_Item_ID[value="333"]):has(#Form_ID[value="194"]),
 body:has(#Menu_Item_ID[value="335"]):has(#Form_ID[value="194"]),
 body:has(#Menu_Item_ID[value="334"]):has(#Form_ID[value="393"]),
@@ -22424,7 +22521,6 @@ body:has(#Menu_Item_ID[value="5781"]):has(#Form_ID[value="6142"]) > #easyform > 
 body:has(#Menu_Item_ID[value="5781"]):has(#Form_ID[value="6142"]) > #easyform > .new-row:last-of-type > .container-fluid.container-flex {
   display: grid !important;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  align-items: start;
   gap: 16px;
   width: 100% !important;
   max-width: 100% !important;

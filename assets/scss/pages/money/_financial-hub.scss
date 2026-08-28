@@ -20,7 +20,6 @@ body:has(#Menu_Item_ID[value="5781"]):has(#Form_ID[value="6142"]) {
   > #easyform > .new-row:last-of-type > .container-fluid.container-flex {
     display: grid !important;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    align-items: start;
     gap: 16px;
     width: 100% !important;
     max-width: 100% !important;
