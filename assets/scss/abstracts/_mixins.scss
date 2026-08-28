@@ -446,27 +446,71 @@
 }
 
 // Shared shell around table toolbars (rows-per-page + pagination)
-@mixin list-toolbar-shell {
-  .center-block.table-responsive {
+@mixin list-toolbar-shell(
+  $border: 1px solid rgba(13, 59, 114, 0.14),
+  $border-radius: 10px,
+  $background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%)
+) {
+  .center-block.table-responsive:has(> table:first-child > tbody > tr > td > div > span.rows-per-page) {
     width: 100% !important;
     //max-width: 1200px !important;
     margin: 0 auto !important;
     overflow-x: auto;
   }
 
-  .center-block.table-responsive > table:first-child {
+  .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) {
     width: 100% !important;
     border-collapse: separate;
     border-spacing: 0;
-    background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%);
-    border: 1px solid rgba(13, 59, 114, 0.14);
-    border-radius: 10px;
+    background: $background;
+    border: $border;
+    border-radius: $border-radius;
   }
 
-  .center-block.table-responsive > table:first-child > tbody > tr:first-child > td {
+  .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td {
+    border: 0 !important;
+  }
+
+  .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr:first-child > td {
     padding: 10px 14px !important;
-    border: 0;
+    border-bottom: $border !important;
     text-align: right;
+  }
+
+  .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td > table.sortable.table-curved {
+    border-right: 0 !important;
+    border-left: 0 !important;
+    border-radius: 0 !important;
+
+    thead th {
+      border-radius: 0 !important;
+    }
+
+    thead th:first-of-type,
+    tbody td:first-of-type {
+      border-left: 0 !important;
+    }
+
+    thead th:last-of-type,
+    tbody td:last-of-type {
+      border-right: 0 !important;
+    }
+  }
+
+  .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0;
+  }
+
+  .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page::before {
+    content: "Rows Per Page:";
+    font-size: 12px;
+  }
+
+  .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page > select {
+    font-size: 12px;
   }
 
 }

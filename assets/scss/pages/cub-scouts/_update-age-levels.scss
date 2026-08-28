@@ -3,13 +3,305 @@
 // -----------------------------------------------------------------------------
 
 body:has(#Menu_Item_ID[value="417"]):has(#Form_ID[value="2002"]) {
-  :is(#fs9472, #fs9474, #fs9474 ~ .new-row) { width: 100%; padding-right: 20px; padding-left: 20px; box-sizing: border-box; }
-  :is(#fs9472, #fs9474, #fs9474 ~ .new-row) .container-fluid.container-flex,
-  :is(#fs9472, #fs9474, #fs9474 ~ .new-row) .center-block { width: 100% !important; max-width: none !important; min-width: 0 !important; margin-right: 0 !important; margin-left: 0 !important; }
 
-  @media (min-width: 768px) {
-    #fs9474 .center-block.table-responsive { overflow-x: visible !important; }
-    #fs9474 .center-block.table-responsive > table { width: 100% !important; }
-    #sortablegrid9474 { width: 100% !important; }
+  .page-title {
+    padding-top: 10px !important;
+    padding-bottom: 0px !important;
+  }
+
+  .btn {
+    margin-right: 10px !important;
+  }
+
+  :is(#fs9472, #fs9474, #fs9474 ~ .new-row) {
+    width: 100%;
+    padding-top: 20px !important;
+    box-sizing: border-box;
+
+    .container-fluid.container-flex,
+    .center-block {
+      width: 100% !important;
+      max-width: none !important;
+      min-width: 0 !important;
+      margin-right: 0 !important;
+      margin-left: 0 !important;
+      padding-right: 0 !important;
+    }
+  }
+
+  #fs9474 {
+    @include list-toolbar-shell(
+      $border: 1px solid rgba(13, 59, 114, 0.14),
+      $border-radius: 0,
+      $background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%)
+    );
+
+    .center-block.table-responsive {
+      > table:first-child {
+        border: 1px solid rgba(13, 59, 114, 0.14) !important;
+
+        > tbody > tr > td {
+          border: 0 !important;
+        }
+
+        > tbody > tr:first-child > td {
+          vertical-align: middle;
+          border-bottom: 1px solid rgba(13, 59, 114, 0.14) !important;
+        }
+
+        &:not(:has(.pagination)) > tbody > tr:first-child > td {
+          background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%) !important;
+        }
+      }
+
+      @media (min-width: 768px) {
+        overflow-x: visible !important;
+
+        > table {
+          width: 100% !important;
+        }
+      }
+    }
+
+    & ~ .new-row :is(input[value="Proceed"], input[value="Continue"]) {
+      margin: 0 10px 10px 0 !important;
+    }
+  }
+
+  #fs9472 {
+    .text-center {
+      display: flex !important;
+      flex-wrap: wrap;
+      justify-content: flex-start !important;
+
+      .btn {
+        margin-right: 10px !important;
+      }
+
+      > span {
+        display: inline-flex !important;
+        margin: 0 !important;
+      }
+    }
+
+    :is(input[value="Proceed"], input[value="Continue"]) {
+      margin: 0 10px 10px 0 !important;
+    }
+  }
+
+  #sortablegrid9474 {
+    tfoot input[type="button"] {
+      margin: 0 10px 10px 0;
+    }
+
+    @media (min-width: 768px) {
+      width: 100% !important;
+    }
+  }
+
+  @media (max-width: 767px) {
+    :is(#fs9474, #fs9474 ~ .new-row) {
+      padding: 0 20px 20px 0;
+    }
+
+    #fs9474,
+    #fs9474 .container-fluid.container-flex,
+    #fs9474 .center-block.table-responsive {
+      border: 0 !important;
+      border-radius: 0 !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+
+    #fs9474 .center-block.table-responsive {
+      overflow-x: hidden !important;
+    }
+
+    #fs9474 .center-block.table-responsive > table,
+    #fs9474 .center-block.table-responsive > table > tbody,
+    #fs9474 .center-block.table-responsive > table > tbody > tr,
+    #fs9474 .center-block.table-responsive > table > tbody > tr > td,
+    #sortablegrid9474,
+    #sortablegrid9474 tbody {
+      display: block;
+      width: 100% !important;
+      min-width: 0 !important;
+      max-width: 100% !important;
+    }
+
+    #fs9474 .center-block.table-responsive > table > tbody > tr:first-child > td {
+      padding: 0 0 10px !important;
+      text-align: left;
+    }
+
+    #fs9474 .center-block.table-responsive > table > tbody > tr:first-child > td > div {
+      float: none !important;
+    }
+
+    #fs9474 span.rows-per-page {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin: 0 0 10px !important;
+      color: $text-mid;
+      font-size: 12px;
+    }
+
+    #fs9474 select.rows-per-page {
+      width: auto !important;
+      min-height: 34px;
+      padding: 6px 30px 6px 9px !important;
+    }
+
+    #fs9474 .pagination {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+      margin: 0;
+    }
+
+    #fs9474 .pagination > li {
+      display: block;
+    }
+
+    #fs9474 .pagination > li > a {
+      min-width: 32px;
+      padding: 6px 9px;
+      border-radius: 4px;
+    }
+
+    #sortablegrid9474 {
+      border: 0 !important;
+      border-radius: 0 !important;
+      background: transparent;
+      box-shadow: none;
+    }
+
+    #sortablegrid9474 thead {
+      display: none;
+    }
+
+    #sortablegrid9474 tbody tr {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      margin-bottom: 0;
+      overflow: hidden;
+      border: 1px solid rgba(15, 57, 95, 0.16);
+      border-left: none;
+      border-right: none;
+      border-radius: 0;
+      background: #ffffff;
+      box-shadow: 0 4px 12px rgba(13, 31, 54, 0.06);
+    }
+
+    #sortablegrid9474 tbody td {
+      display: block;
+      min-width: 0;
+      padding: 8px 12px !important;
+      border: 0 !important;
+      border-top: 1px solid rgba(15, 57, 95, 0.1) !important;
+      box-sizing: border-box;
+      text-align: left !important;
+    }
+
+    #sortablegrid9474 tbody td::before {
+      display: block;
+      margin-bottom: 3px;
+      color: $text-mid;
+      font-size: 10px;
+      font-weight: 700;
+      line-height: 1.2;
+      text-transform: uppercase;
+    }
+
+    #sortablegrid9474 tbody td:first-of-type {
+      order: 1;
+      grid-column: 1 / -1;
+      padding: 12px !important;
+      border-top: 0 !important;
+      color: $text-dark;
+      background: #d7e8f7 !important;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 1.3;
+    }
+
+    #sortablegrid9474 tbody td:first-of-type::before {
+      display: none;
+      content: "";
+    }
+
+    #sortablegrid9474 tbody td:nth-of-type(2) {
+      order: 2;
+    }
+
+    #sortablegrid9474 tbody td:nth-of-type(2)::before {
+      content: "Age";
+    }
+
+    #sortablegrid9474 tbody td:nth-of-type(3) {
+      order: 3;
+      border-left: 1px solid rgba(15, 57, 95, 0.1) !important;
+    }
+
+    #sortablegrid9474 tbody td:nth-of-type(3)::before {
+      content: "Grade";
+    }
+
+    #sortablegrid9474 tbody td:nth-of-type(4) {
+      order: 4;
+    }
+
+    #sortablegrid9474 tbody td:nth-of-type(4)::before {
+      content: "Level";
+    }
+
+    #sortablegrid9474 tbody td:nth-of-type(5) {
+      order: 5;
+      border-left: 1px solid rgba(15, 57, 95, 0.1) !important;
+    }
+
+    #sortablegrid9474 tbody td:nth-of-type(5)::before {
+      content: "Den";
+    }
+
+    #sortablegrid9474 tbody td:nth-of-type(6) {
+      order: 6;
+      grid-column: 1 / -1;
+    }
+
+    #sortablegrid9474 tbody td:nth-of-type(6)::before {
+      content: "Membership #";
+    }
+
+    #sortablegrid9474 tbody .form-control {
+      width: 100% !important;
+      min-height: 36px;
+      margin: 0 !important;
+      box-sizing: border-box;
+    }
+
+    #sortablegrid9474 tfoot,
+    #sortablegrid9474 tfoot tr,
+    #sortablegrid9474 tfoot td {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    #sortablegrid9474 tfoot td {
+      padding: 0 !important;
+      background: transparent;
+      text-align: left !important;
+    }
+
+    #sortablegrid9474 tfoot input[type="button"] {
+      width: 100%;
+      margin: 0 0 8px;
+    }
+
+    #sortablegrid9474 tfoot input[type="button"]:last-of-type {
+      margin-bottom: 0;
+    }
   }
 }

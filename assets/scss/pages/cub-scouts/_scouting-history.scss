@@ -1,0 +1,340 @@
+// -----------------------------------------------------------------------------
+// Scouting History page styling
+// -----------------------------------------------------------------------------
+
+body:has(#Menu_Item_ID[value="4635"]):has(#Form_ID[value="5484"]) {
+  .page-title {
+    width: 100%;
+    margin: 0 0 18px !important;
+    padding: 10px 20px 0;
+    box-sizing: border-box;
+    color: $navy-700;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 1.2;
+    text-align: left !important;
+  }
+
+  :is(#fs18551, #fs18550, #fs18552) {
+    width: 100%;
+    margin: 0 0 16px !important;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  :is(#fs18551, #fs18550, #fs18552) .container-fluid.container-flex,
+  :is(#fs18551, #fs18550, #fs18552) .center-block {
+    width: 100% !important;
+    max-width: none !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  #fs18551 .text-center {
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: flex-start !important;
+    gap: 8px;
+    text-align: left !important;
+  }
+
+  #fs18551 .text-center > span {
+    display: inline-flex !important;
+    margin: 0 !important;
+  }
+
+  #fs18551 .btn {
+    min-width: 88px;
+    min-height: 40px;
+    margin: 0 !important;
+    border-radius: 6px;
+  }
+
+  #fs18552 .center-block.table-responsive {
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  #fs18552 .center-block.table-responsive > table:first-child {
+    width: 100% !important;
+  }
+
+  #sortablegrid18552 {
+    width: 100%;
+    min-width: 680px;
+    margin: 0;
+    border: 1px solid rgba(15, 57, 95, 0.16);
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #ffffff;
+    box-shadow: 0 4px 12px rgba(13, 31, 54, 0.06);
+  }
+
+  #sortablegrid18552 thead th {
+    padding: 10px 12px !important;
+    border: 0 !important;
+    border-bottom: 1px solid rgba(15, 57, 95, 0.16) !important;
+    color: $text-dark;
+    background: #eaf3ff;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.3;
+    text-align: left !important;
+    vertical-align: middle;
+  }
+
+  #sortablegrid18552 .sortheader {
+    color: $text-dark !important;
+    text-decoration: none !important;
+  }
+
+  #sortablegrid18552 .sortheader:hover,
+  #sortablegrid18552 .sortheader:focus {
+    color: $navy-700 !important;
+    text-decoration: underline !important;
+  }
+
+  #sortablegrid18552 .sortarrow img {
+    margin-left: 4px;
+  }
+
+  #sortablegrid18552 tbody td {
+    padding: 10px 12px !important;
+    border: 0 !important;
+    border-top: 1px solid rgba(15, 57, 95, 0.1) !important;
+    color: $text-dark;
+    font-size: 13px;
+    line-height: 1.4;
+    text-align: left !important;
+    vertical-align: middle;
+  }
+
+  #sortablegrid18552 tbody tr:nth-child(even) td {
+    background: #f7faff;
+  }
+
+  #sortablegrid18552 tbody .btn {
+    min-width: 104px;
+    min-height: 34px;
+    padding: 7px 10px !important;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.2;
+    white-space: nowrap;
+  }
+
+  #sortablegrid18552 tfoot td {
+    padding: 12px !important;
+    border: 0 !important;
+    border-top: 1px solid rgba(15, 57, 95, 0.16) !important;
+    background: #f7faff;
+    text-align: left !important;
+  }
+
+  #sortablegrid18552 tfoot input[type="button"] {
+    min-height: 36px;
+    margin: 0 8px 0 0;
+    padding: 8px 12px;
+    border: 1px solid rgba(13, 59, 114, 0.22);
+    border-radius: 5px;
+    color: $navy-700;
+    background: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+
+  #sortablegrid18552 tfoot input[type="button"]:hover,
+  #sortablegrid18552 tfoot input[type="button"]:focus {
+    background: #eaf3ff;
+  }
+
+  #fs18552 span.rows-per-page {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: $text-mid;
+    font-size: 12px;
+  }
+
+  #fs18552 select.rows-per-page {
+    width: auto !important;
+    min-height: 34px;
+    padding: 6px 30px 6px 9px !important;
+  }
+
+  @media (max-width: 767px) {
+    .page-title {
+      margin-bottom: 16px !important;
+      padding-top: 16px;
+      font-size: 23px;
+    }
+
+    :is(#fs18551, #fs18550, #fs18552) {
+      margin-bottom: 20px !important;
+      padding: 0 20px;
+    }
+
+    #fs18551 .text-center {
+      display: grid !important;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    #fs18551 .text-center > span,
+    #fs18551 .btn {
+      width: 100% !important;
+      min-width: 0;
+    }
+
+    #fs18552,
+    #fs18552 .container-fluid.container-flex,
+    #fs18552 .center-block.table-responsive {
+      border: 0 !important;
+      border-radius: 0 !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+
+    #fs18552 .center-block.table-responsive {
+      overflow-x: hidden !important;
+    }
+
+    #fs18552 .center-block.table-responsive > table,
+    #fs18552 .center-block.table-responsive > table > tbody,
+    #fs18552 .center-block.table-responsive > table > tbody > tr,
+    #fs18552 .center-block.table-responsive > table > tbody > tr > td,
+    #sortablegrid18552,
+    #sortablegrid18552 tbody {
+      display: block;
+      width: 100% !important;
+      min-width: 0 !important;
+      max-width: 100% !important;
+    }
+
+    #fs18552 span.rows-per-page {
+      float: none !important;
+      width: auto !important;
+      margin: 0 0 10px !important;
+      transform: none !important;
+    }
+
+    #sortablegrid18552 {
+      border: 0 !important;
+      border-radius: 0 !important;
+      background: transparent;
+      box-shadow: none;
+    }
+
+    #sortablegrid18552 thead {
+      display: none;
+    }
+
+    #sortablegrid18552 tbody tr {
+      display: grid;
+      grid-template-columns: 1fr;
+      margin-bottom: 12px;
+      overflow: hidden;
+      border: 1px solid rgba(15, 57, 95, 0.16);
+      border-radius: 8px;
+      background: #ffffff;
+      box-shadow: 0 4px 12px rgba(13, 31, 54, 0.06);
+    }
+
+    #sortablegrid18552 tbody td {
+      display: block;
+      min-width: 0;
+      padding: 8px 12px !important;
+      border: 0 !important;
+      border-top: 1px solid rgba(15, 57, 95, 0.1) !important;
+      text-align: left !important;
+    }
+
+    #sortablegrid18552 tbody td::before {
+      display: block;
+      margin-bottom: 3px;
+      color: $text-mid;
+      font-size: 10px;
+      font-weight: 700;
+      line-height: 1.2;
+      text-transform: uppercase;
+    }
+
+    #sortablegrid18552 tbody td:nth-child(2) {
+      order: 1;
+      padding: 12px !important;
+      border-top: 0 !important;
+      color: $text-dark;
+      background: #eaf3ff !important;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 1.3;
+    }
+
+    #sortablegrid18552 tbody td:nth-child(2)::before {
+      display: none;
+      content: "";
+    }
+
+    #sortablegrid18552 tbody td:nth-child(3) {
+      order: 2;
+    }
+
+    #sortablegrid18552 tbody td:nth-child(3)::before {
+      content: "Age";
+    }
+
+    #sortablegrid18552 tbody td:nth-child(4) {
+      order: 3;
+    }
+
+    #sortablegrid18552 tbody td:nth-child(4)::before {
+      content: "Level";
+    }
+
+    #sortablegrid18552 tbody td:nth-child(5) {
+      order: 4;
+    }
+
+    #sortablegrid18552 tbody td:nth-child(5)::before {
+      content: "Den";
+    }
+
+    #sortablegrid18552 tbody td:nth-child(1) {
+      order: 5;
+      padding: 12px !important;
+      text-align: center !important;
+    }
+
+    #sortablegrid18552 tbody td:nth-child(1) .btn {
+      width: 100% !important;
+      min-width: 0;
+    }
+
+    #sortablegrid18552 tfoot,
+    #sortablegrid18552 tfoot tr,
+    #sortablegrid18552 tfoot td {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    #sortablegrid18552 tfoot td {
+      padding: 0 !important;
+      background: transparent;
+      text-align: left !important;
+    }
+
+    #sortablegrid18552 tfoot input[type="button"] {
+      width: 100%;
+      margin: 0 0 8px;
+    }
+
+    #sortablegrid18552 tfoot input[type="button"]:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

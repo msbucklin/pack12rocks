@@ -550,7 +550,7 @@ Site Appearance
           <td class="text-left">
             <input type="hidden" name="RVALENTRY31228109" id="RVALENTRY31228109" value="N">
             <input type="hidden" name="OLD31228109" id="OLD31228109" value="bootstrap_override_pack12_v23_202682781617853727410.css">
-            <input type="file" tabindex="110" id="ENTRY31228109" name="ENTRY31228109" class="form-control" title="A custom CSS file which will replace the default CSS for this site."><br>&nbsp;&nbsp;<span class="entrypostscript"><a href="https://ogo.blob.core.windows.net/cspack12austin/bootstrap_override_pack12_v23_202682781617853727410.css" title="Click here to download the current file">Custom CSS File</a>&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" tabindex="111" value="Remove" id="DELETEFILE31228109" name="DELETEFILE31228109" class="form-control" size="1" title="Click here to delete this file when you save this page">&nbsp;Delete</span>
+            <input type="file" tabindex="110" id="ENTRY31228109" name="ENTRY31228109" class="form-control" title="A custom CSS file which will replace the default CSS for this site."><br>&nbsp;&nbsp;<span class="entrypostscript"><a href="" title="Click here to download the current file">Custom CSS File</a>&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" tabindex="111" value="Remove" id="DELETEFILE31228109" name="DELETEFILE31228109" class="form-control" size="1" title="Click here to delete this file when you save this page">&nbsp;Delete</span>
             <span class="entrypostscript">
 
             </span>

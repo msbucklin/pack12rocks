@@ -1135,19 +1135,19 @@ a[href*=togglemenu]:hover .navicon, a[href*=togglemenu]:focus .navicon, a[href*=
   border-right: 0 !important;
 }
 
-.center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page {
+.center-block.table-responsive > table:first-child:has(.pagination) span.rows-per-page {
   display: inline-flex;
   align-items: center;
   gap: 6px;
   font-size: 0;
 }
 
-.center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page::before {
+.center-block.table-responsive > table:first-child:has(.pagination) span.rows-per-page::before {
   content: "Rows Per Page:";
   font-size: 12px;
 }
 
-.center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page > select {
+.center-block.table-responsive > table:first-child:has(.pagination) span.rows-per-page > select {
   font-size: 12px;
 }
 
@@ -3606,17 +3606,17 @@ body:has(#Menu_Item_ID[value="309"]):has(#Form_ID[value="218"]) #fs7530 .center-
 body:has(#Menu_Item_ID[value="309"]):has(#Form_ID[value="218"]) #fs7530 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td > table.sortable.table-curved tbody td:last-of-type {
   border-right: 0 !important;
 }
-body:has(#Menu_Item_ID[value="309"]):has(#Form_ID[value="218"]) #fs7530 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page {
+body:has(#Menu_Item_ID[value="309"]):has(#Form_ID[value="218"]) #fs7530 .center-block.table-responsive > table:first-child:has(.pagination) span.rows-per-page {
   display: inline-flex;
   align-items: center;
   gap: 6px;
   font-size: 0;
 }
-body:has(#Menu_Item_ID[value="309"]):has(#Form_ID[value="218"]) #fs7530 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page::before {
+body:has(#Menu_Item_ID[value="309"]):has(#Form_ID[value="218"]) #fs7530 .center-block.table-responsive > table:first-child:has(.pagination) span.rows-per-page::before {
   content: "Rows Per Page:";
   font-size: 12px;
 }
-body:has(#Menu_Item_ID[value="309"]):has(#Form_ID[value="218"]) #fs7530 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page > select {
+body:has(#Menu_Item_ID[value="309"]):has(#Form_ID[value="218"]) #fs7530 .center-block.table-responsive > table:first-child:has(.pagination) span.rows-per-page > select {
   font-size: 12px;
 }
 body:has(#Menu_Item_ID[value="309"]):has(#Form_ID[value="218"]) #sortablegrid7530 tfoot input[type=button] {
@@ -12423,17 +12423,17 @@ body:has(#Menu_Item_ID[value="319"]) #fs412 .center-block.table-responsive > tab
 body:has(#Menu_Item_ID[value="319"]) #fs412 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td > table.sortable.table-curved tbody td:last-of-type {
   border-right: 0 !important;
 }
-body:has(#Menu_Item_ID[value="319"]) #fs412 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page {
+body:has(#Menu_Item_ID[value="319"]) #fs412 .center-block.table-responsive > table:first-child:has(.pagination) span.rows-per-page {
   display: inline-flex;
   align-items: center;
   gap: 6px;
   font-size: 0;
 }
-body:has(#Menu_Item_ID[value="319"]) #fs412 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page::before {
+body:has(#Menu_Item_ID[value="319"]) #fs412 .center-block.table-responsive > table:first-child:has(.pagination) span.rows-per-page::before {
   content: "Rows Per Page:";
   font-size: 12px;
 }
-body:has(#Menu_Item_ID[value="319"]) #fs412 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page > select {
+body:has(#Menu_Item_ID[value="319"]) #fs412 .center-block.table-responsive > table:first-child:has(.pagination) span.rows-per-page > select {
   font-size: 12px;
 }
 body:has(#Menu_Item_ID[value="319"]) #fs412 table.sortable.table-curved {
@@ -13358,17 +13358,17 @@ body:has(#Menu_Item_ID[value="417"]):has(#Form_ID[value="2002"]) #fs9474 .center
 body:has(#Menu_Item_ID[value="417"]):has(#Form_ID[value="2002"]) #fs9474 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td > table.sortable.table-curved tbody td:last-of-type {
   border-right: 0 !important;
 }
-body:has(#Menu_Item_ID[value="417"]):has(#Form_ID[value="2002"]) #fs9474 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page {
+body:has(#Menu_Item_ID[value="417"]):has(#Form_ID[value="2002"]) #fs9474 .center-block.table-responsive > table:first-child:has(.pagination) span.rows-per-page {
   display: inline-flex;
   align-items: center;
   gap: 6px;
   font-size: 0;
 }
-body:has(#Menu_Item_ID[value="417"]):has(#Form_ID[value="2002"]) #fs9474 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page::before {
+body:has(#Menu_Item_ID[value="417"]):has(#Form_ID[value="2002"]) #fs9474 .center-block.table-responsive > table:first-child:has(.pagination) span.rows-per-page::before {
   content: "Rows Per Page:";
   font-size: 12px;
 }
-body:has(#Menu_Item_ID[value="417"]):has(#Form_ID[value="2002"]) #fs9474 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page > select {
+body:has(#Menu_Item_ID[value="417"]):has(#Form_ID[value="2002"]) #fs9474 .center-block.table-responsive > table:first-child:has(.pagination) span.rows-per-page > select {
   font-size: 12px;
 }
 body:has(#Menu_Item_ID[value="417"]):has(#Form_ID[value="2002"]) #fs9474 .center-block.table-responsive > table:first-child {
@@ -18039,17 +18039,17 @@ body:has(#fs718) .new-row:not(:has(~ .new-row)) .btn {
 #fs719 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td > table.sortable.table-curved tbody td:last-of-type {
   border-right: 0 !important;
 }
-#fs719 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page {
+#fs719 .center-block.table-responsive > table:first-child:has(.pagination) span.rows-per-page {
   display: inline-flex;
   align-items: center;
   gap: 6px;
   font-size: 0;
 }
-#fs719 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page::before {
+#fs719 .center-block.table-responsive > table:first-child:has(.pagination) span.rows-per-page::before {
   content: "Rows Per Page:";
   font-size: 12px;
 }
-#fs719 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page > select {
+#fs719 .center-block.table-responsive > table:first-child:has(.pagination) span.rows-per-page > select {
   font-size: 12px;
 }
 #fs719 .center-block.table-responsive > table:first-child {
@@ -26932,17 +26932,17 @@ body:has(#fs6640) {
 #fs6640 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td > table.sortable.table-curved tbody td:last-of-type {
   border-right: 0 !important;
 }
-#fs6640 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page {
+#fs6640 .center-block.table-responsive > table:first-child:has(.pagination) span.rows-per-page {
   display: inline-flex;
   align-items: center;
   gap: 6px;
   font-size: 0;
 }
-#fs6640 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page::before {
+#fs6640 .center-block.table-responsive > table:first-child:has(.pagination) span.rows-per-page::before {
   content: "Rows Per Page:";
   font-size: 12px;
 }
-#fs6640 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page > select {
+#fs6640 .center-block.table-responsive > table:first-child:has(.pagination) span.rows-per-page > select {
   font-size: 12px;
 }
 #fs6640 .center-block.table-responsive > table:first-child > tbody > tr:first-child > td {
@@ -27272,23 +27272,23 @@ body:has(#fs16590) {
 #fs16590 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td > table.sortable.table-curved tbody td:last-of-type {
   border-right: 0 !important;
 }
-#fs16600 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page,
-#fs16595 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page,
-#fs16590 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page {
+#fs16600 .center-block.table-responsive > table:first-child:has(.pagination) span.rows-per-page,
+#fs16595 .center-block.table-responsive > table:first-child:has(.pagination) span.rows-per-page,
+#fs16590 .center-block.table-responsive > table:first-child:has(.pagination) span.rows-per-page {
   display: inline-flex;
   align-items: center;
   gap: 6px;
   font-size: 0;
 }
-#fs16600 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page::before,
-#fs16595 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page::before,
-#fs16590 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page::before {
+#fs16600 .center-block.table-responsive > table:first-child:has(.pagination) span.rows-per-page::before,
+#fs16595 .center-block.table-responsive > table:first-child:has(.pagination) span.rows-per-page::before,
+#fs16590 .center-block.table-responsive > table:first-child:has(.pagination) span.rows-per-page::before {
   content: "Rows Per Page:";
   font-size: 12px;
 }
-#fs16600 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page > select,
-#fs16595 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page > select,
-#fs16590 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page > select {
+#fs16600 .center-block.table-responsive > table:first-child:has(.pagination) span.rows-per-page > select,
+#fs16595 .center-block.table-responsive > table:first-child:has(.pagination) span.rows-per-page > select,
+#fs16590 .center-block.table-responsive > table:first-child:has(.pagination) span.rows-per-page > select {
   font-size: 12px;
 }
 #fs16600 table.sortable.table-curved,

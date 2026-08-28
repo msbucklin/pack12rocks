@@ -3,6 +3,7 @@
 // -----------------------------------------------------------------------------
 
 body:has(#Menu_Item_ID[value="309"]):has(#Form_ID[value="218"]) {
+
   #DIVENTRY324169 {
     display: none;
   }
@@ -11,8 +12,12 @@ body:has(#Menu_Item_ID[value="309"]):has(#Form_ID[value="218"]) {
     white-space: nowrap !important;
   }
 
-  #fs7530 .center-block.table-responsive > table:first-child {
-    width: 100% !important;
+  #fs7530 {
+    @include list-toolbar-shell(
+      $border: 1px solid rgba(13, 59, 114, 0.14),
+      $border-radius: 0,
+      $background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%)
+    );
   }
 
   #sortablegrid7530 tfoot input[type="button"] {

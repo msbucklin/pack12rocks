@@ -5,6 +5,8 @@
 // Generated data grids consistently use both classes. This selector provides
 // visual formatting only; page partials still own column sizing and responsive
 // visibility/layout decisions.
+@include list-toolbar-shell;
+
 table.sortable.table-curved {
   width: 100%;
   margin: 0;
@@ -22,7 +24,7 @@ table.sortable.table-curved {
   thead th {
     padding: 11px 12px !important;
     color: $text-dark !important;
-    background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%) !important;
+    background: #d7e8f7 !important;
     border: 0 !important;
     border-bottom: 1px solid rgba(13, 59, 114, 0.05) !important;
     border-left: 1px solid rgba(13, 59, 114, 0.05) !important;
@@ -75,14 +77,14 @@ table.sortable.table-curved {
   }
 }
 
-table tfoot td:has(> input[type="button"][value="Export to PDF"]) {
+table tfoot td:has(> input[type="button"]:is([value="Export to PDF"], [value="Print (Export to PDF)"])) {
   padding: 14px 12px !important;
   border: 0 !important;
   border-top: 1px solid rgba(13, 59, 114, 0.12) !important;
   background: #f7faff !important;
   text-align: center !important;
 
-  > input[type="button"][value="Export to PDF"],
+  > input[type="button"]:is([value="Export to PDF"], [value="Print (Export to PDF)"]),
   > input[type="button"][value="Open in Excel"] {
     display: inline-flex !important;
     min-height: 40px;
@@ -136,30 +138,6 @@ select.rows-per-page:focus {
   border-color: rgba(13, 59, 114, 0.4);
   outline: none;
   box-shadow: 0 0 0 3px rgba(13, 59, 114, 0.10);
-}
-
-.center-block.table-responsive > table:first-child:has(.pagination) {
-  width: 100% !important;
-  border: 0 !important;
-  border-collapse: separate;
-  border-spacing: 0;
-  background: transparent !important;
-}
-
-.center-block.table-responsive > table:first-child:has(.pagination) > tbody > tr:first-child > td,
-.center-block.table-responsive > table:first-child:has(.pagination) > tbody > tr:last-child > td {
-  padding: 10px 14px !important;
-  border: 1px solid rgba(13, 59, 114, 0.14) !important;
-  background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%) !important;
-  text-align: right;
-}
-
-.center-block.table-responsive > table:first-child:has(.pagination) > tbody > tr:first-child > td {
-  border-bottom: 0 !important;
-}
-
-.center-block.table-responsive > table:first-child:has(.pagination) > tbody > tr:last-child > td {
-  border-top: 0 !important;
 }
 
 .center-block.table-responsive > table:first-child > tbody > tr > td > div:has(> span.rows-per-page) {
@@ -242,14 +220,14 @@ select.rows-per-page:focus {
 @media (max-width: 767px) {
   table.sortable.table-curved tfoot,
   table.sortable.table-curved tfoot tr,
-  table.sortable.table-curved tfoot td:has(> input[type="button"][value="Export to PDF"]) {
+  table.sortable.table-curved tfoot td:has(> input[type="button"]:is([value="Export to PDF"], [value="Print (Export to PDF)"])) {
     //display: block;
     //width: 100% !important;
     //max-width: 100%;
     //box-sizing: border-box;
   }
 
-  table.sortable.table-curved tfoot td:has(> input[type="button"][value="Export to PDF"]) {
+  table.sortable.table-curved tfoot td:has(> input[type="button"]:is([value="Export to PDF"], [value="Print (Export to PDF)"])) {
     border-left: 1px solid rgba(13, 59, 114, 0.12) !important;
     border-right: 1px solid rgba(13, 59, 114, 0.12) !important;
     border-bottom: 1px solid rgba(13, 59, 114, 0.12) !important;
@@ -259,7 +237,6 @@ select.rows-per-page:focus {
   }
 
   .center-block.table-responsive:has(> table:first-child .pagination) {
-    padding-right: 10px !important;
     border: 0 !important;
   }
 
