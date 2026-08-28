@@ -11943,157 +11943,6 @@ body:has(#Menu_Item_ID[value="418"]) #fs12901 .nav-tabs > li.active > a:focus {
   }
 }
 
-body:has(#Menu_Item_ID[value="390"]):has(#Form_ID[value="5879"]) .page-title {
-  width: 100%;
-  margin: 0 0 18px !important;
-  padding: 10px 20px 0;
-  box-sizing: border-box;
-  color: #184a8a;
-  font-size: 26px;
-  font-weight: 800;
-  line-height: 1.2;
-  text-align: left !important;
-}
-body:has(#Menu_Item_ID[value="390"]):has(#Form_ID[value="5879"]) .page-title + div[style*=margin-left] {
-  width: calc(100% - 40px);
-  max-width: none;
-  margin: 0 auto 24px !important;
-  padding: 0;
-  box-sizing: border-box;
-}
-body:has(#Menu_Item_ID[value="390"]):has(#Form_ID[value="5879"]) .folder-table {
-  width: 100%;
-  border: 1px solid rgba(15, 57, 95, 0.16);
-  border-collapse: separate;
-  border-spacing: 0;
-  border-radius: 8px;
-  overflow: hidden;
-  background: #ffffff;
-  box-shadow: 0 4px 12px rgba(13, 31, 54, 0.06);
-}
-body:has(#Menu_Item_ID[value="390"]):has(#Form_ID[value="5879"]) .folder-table > tbody > tr:has(> .folder-td) > td {
-  padding: 13px 14px;
-  border-bottom: 1px solid rgba(15, 57, 95, 0.14);
-  background: #eaf3ff;
-  vertical-align: middle;
-}
-body:has(#Menu_Item_ID[value="390"]):has(#Form_ID[value="5879"]) .folder-table > tbody > tr:has(> .folder-td) > td:first-child {
-  width: 48px !important;
-  padding-right: 0;
-  text-align: center;
-}
-body:has(#Menu_Item_ID[value="390"]):has(#Form_ID[value="5879"]) .folder-table > tbody > tr:has(> .folder-td) > td:first-child > a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 24px;
-  min-height: 24px;
-}
-body:has(#Menu_Item_ID[value="390"]):has(#Form_ID[value="5879"]) .folder-table > tbody > tr:has(> .folder-td) > td:first-child img {
-  display: block;
-  max-width: 20px;
-  height: auto;
-}
-body:has(#Menu_Item_ID[value="390"]):has(#Form_ID[value="5879"]) .folder-td {
-  color: #0d3b72;
-  font-size: 15px;
-  line-height: 1.35;
-}
-body:has(#Menu_Item_ID[value="390"]):has(#Form_ID[value="5879"]) .folder-table > tbody > tr:has(> .folder-td) > .folder-td {
-  padding-right: 14px;
-  vertical-align: middle;
-}
-body:has(#Menu_Item_ID[value="390"]):has(#Form_ID[value="5879"]) .folder-table > tbody > tr:has(> .folder-td) > .folder-td > a {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  min-height: 24px;
-  color: #184a8a !important;
-  font-weight: 700;
-  text-decoration: none !important;
-}
-body:has(#Menu_Item_ID[value="390"]):has(#Form_ID[value="5879"]) .folder-table > tbody > tr:has(img[src*=FolderOpen]) > .folder-td > a::after,
-body:has(#Menu_Item_ID[value="390"]):has(#Form_ID[value="5879"]) .folder-table > tbody > tr:has(img[src*=FolderClosed]) > .folder-td > a::after {
-  content: "";
-  flex: 0 0 auto;
-  width: 9px;
-  height: 9px;
-  margin: 0 4px 0 16px;
-  border-right: 2px solid #184a8a;
-  border-bottom: 2px solid #184a8a;
-  box-sizing: border-box;
-}
-body:has(#Menu_Item_ID[value="390"]):has(#Form_ID[value="5879"]) .folder-table > tbody > tr:has(img[src*=FolderOpen]) > .folder-td > a::after {
-  transform: rotate(225deg);
-}
-body:has(#Menu_Item_ID[value="390"]):has(#Form_ID[value="5879"]) .folder-table > tbody > tr:has(img[src*=FolderClosed]) > .folder-td > a::after {
-  transform: rotate(45deg);
-}
-body:has(#Menu_Item_ID[value="390"]):has(#Form_ID[value="5879"]) .folder-td > a:hover,
-body:has(#Menu_Item_ID[value="390"]):has(#Form_ID[value="5879"]) .folder-td > a:focus {
-  color: #0d3b72 !important;
-  text-decoration: underline !important;
-}
-body:has(#Menu_Item_ID[value="390"]):has(#Form_ID[value="5879"]) .folder-table > tbody > tr:has(> .FolderSub) > td {
-  padding: 0;
-  border-bottom: 1px solid rgba(15, 57, 95, 0.14);
-  background: #ffffff;
-}
-body:has(#Menu_Item_ID[value="390"]):has(#Form_ID[value="5879"]) .folder-table > tbody > tr:last-child > td {
-  border-bottom: 0;
-}
-body:has(#Menu_Item_ID[value="390"]):has(#Form_ID[value="5879"]) .FolderSub {
-  padding: 12px 14px 12px 48px;
-  background: #ffffff;
-}
-body:has(#Menu_Item_ID[value="390"]):has(#Form_ID[value="5879"]) .folder-table-nested {
-  width: 100%;
-  margin: 0;
-  border-collapse: collapse;
-}
-body:has(#Menu_Item_ID[value="390"]):has(#Form_ID[value="5879"]) .folder-table-nested > tbody > tr > td {
-  padding: 11px 8px;
-  border-bottom: 1px solid rgba(15, 57, 95, 0.1);
-  vertical-align: top;
-}
-body:has(#Menu_Item_ID[value="390"]):has(#Form_ID[value="5879"]) .folder-table-nested > tbody > tr:last-child > td {
-  border-bottom: 0;
-}
-body:has(#Menu_Item_ID[value="390"]):has(#Form_ID[value="5879"]) .folder-table-nested > tbody > tr > td:first-child {
-  width: 0 !important;
-  padding: 0;
-}
-body:has(#Menu_Item_ID[value="390"]):has(#Form_ID[value="5879"]) .folder-table-nested .folder-td {
-  font-size: 14px;
-}
-body:has(#Menu_Item_ID[value="390"]):has(#Form_ID[value="5879"]) .folder-desc {
-  display: none;
-}
-@media (max-width: 767px) {
-  body:has(#Menu_Item_ID[value="390"]):has(#Form_ID[value="5879"]) .page-title {
-    margin-bottom: 16px !important;
-    padding-top: 16px;
-    font-size: 23px;
-  }
-  body:has(#Menu_Item_ID[value="390"]):has(#Form_ID[value="5879"]) .page-title + div[style*=margin-left] {
-    width: 100%;
-    margin-bottom: 20px !important;
-    padding: 0 20px;
-  }
-  body:has(#Menu_Item_ID[value="390"]):has(#Form_ID[value="5879"]) .folder-table > tbody > tr:has(> .folder-td) > td {
-    padding-top: 12px;
-    padding-bottom: 12px;
-  }
-  body:has(#Menu_Item_ID[value="390"]):has(#Form_ID[value="5879"]) .folder-table > tbody > tr:has(> .folder-td) > td:first-child {
-    width: 42px !important;
-    padding-left: 10px;
-  }
-  body:has(#Menu_Item_ID[value="390"]):has(#Form_ID[value="5879"]) .FolderSub {
-    padding: 10px 12px 10px 42px;
-  }
-}
-
 body:has(#Menu_Item_ID[value="333"]):has(#Form_ID[value="194"]),
 body:has(#Menu_Item_ID[value="335"]):has(#Form_ID[value="194"]),
 body:has(#Menu_Item_ID[value="334"]):has(#Form_ID[value="393"]),
@@ -30629,24 +30478,7 @@ body:has(#Menu_Item_ID[value="409"]):has(#Form_ID[value="1443"]) #fs7206 #DIVPHO
   font-weight: 700;
 }
 body:has(#Menu_Item_ID[value="409"]):has(#Form_ID[value="1443"]) #fs7206 #ENTRY2836561 {
-  display: block;
-  width: 100% !important;
-  min-height: 40px !important;
   margin-top: 12px !important;
-  padding: 8px 10px !important;
-  line-height: 1.2;
-}
-body:has(#Menu_Item_ID[value="409"]):has(#Form_ID[value="1443"]) #fs7206 #ENTRY2836561::file-selector-button,
-body:has(#Menu_Item_ID[value="409"]):has(#Form_ID[value="1443"]) #fs7206 #ENTRY2836561::-webkit-file-upload-button {
-  margin-right: 12px;
-  padding: 5px 12px;
-  border: 0;
-  border-radius: 4px;
-  color: #ffffff;
-  background: #184a8a;
-  font-size: 13px;
-  font-weight: 700;
-  line-height: 1.2;
 }
 body:has(#Menu_Item_ID[value="409"]):has(#Form_ID[value="1443"]) #fs7206 :is(#SPAN40629119, #SPAN54350146) {
   display: flex !important;
@@ -31133,28 +30965,6 @@ body:has(#Menu_Item_ID[value="409"]):has(#Form_ID[value="1715"]) #ENTRY4268710,
 body:has(#Menu_Item_ID[value="409"]):has(#Form_ID[value="2978"]) #ENTRY4268710 {
   min-height: 120px !important;
   resize: vertical;
-}
-body:has(#Menu_Item_ID[value="409"]):has(#Form_ID[value="1715"]) :is(#ENTRY31228109, #ENTRY42686124),
-body:has(#Menu_Item_ID[value="409"]):has(#Form_ID[value="2978"]) :is(#ENTRY31228109, #ENTRY42686124) {
-  display: block;
-  width: 100% !important;
-  min-height: 40px !important;
-  padding: 8px 10px !important;
-  line-height: 1.2;
-}
-body:has(#Menu_Item_ID[value="409"]):has(#Form_ID[value="1715"]) :is(#ENTRY31228109, #ENTRY42686124)::file-selector-button,
-body:has(#Menu_Item_ID[value="409"]):has(#Form_ID[value="1715"]) :is(#ENTRY31228109, #ENTRY42686124)::-webkit-file-upload-button,
-body:has(#Menu_Item_ID[value="409"]):has(#Form_ID[value="2978"]) :is(#ENTRY31228109, #ENTRY42686124)::file-selector-button,
-body:has(#Menu_Item_ID[value="409"]):has(#Form_ID[value="2978"]) :is(#ENTRY31228109, #ENTRY42686124)::-webkit-file-upload-button {
-  margin-right: 12px;
-  padding: 5px 12px;
-  border: 0;
-  border-radius: 4px;
-  color: #ffffff;
-  background: #184a8a;
-  font-size: 13px;
-  font-weight: 700;
-  line-height: 1.2;
 }
 body:has(#Menu_Item_ID[value="409"]):has(#Form_ID[value="1715"]) #DELETEFILE31228109,
 body:has(#Menu_Item_ID[value="409"]):has(#Form_ID[value="2978"]) #DELETEFILE31228109 {

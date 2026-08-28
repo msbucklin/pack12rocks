@@ -1,0 +1,41 @@
+// -----------------------------------------------------------------------------
+// Resources - forms and documents
+// -----------------------------------------------------------------------------
+
+body:has(#Menu_Item_ID[value="390"]):has(#Form_ID[value="5879"]) {
+  .page-title { width: 100%; margin: 0 0 18px !important; padding: 10px 20px 0; box-sizing: border-box; color: $navy-700; font-size: 26px; font-weight: 800; line-height: 1.2; text-align: left !important; }
+
+  .page-title + div[style*="margin-left"] { width: calc(100% - 40px); max-width: none; margin: 0 auto 24px !important; padding: 0; box-sizing: border-box; }
+  .folder-table { width: 100%; border: 1px solid rgba(15, 57, 95, 0.16); border-collapse: separate; border-spacing: 0; border-radius: 8px; overflow: hidden; background: #ffffff; box-shadow: 0 4px 12px rgba(13, 31, 54, 0.06); }
+  .folder-table > tbody > tr:has(> .folder-td) > td { padding: 13px 14px; border-bottom: 1px solid rgba(15, 57, 95, 0.14); background: #eaf3ff; vertical-align: middle; }
+  .folder-table > tbody > tr:has(> .folder-td) > td:first-child { width: 48px !important; padding-right: 0; text-align: center; }
+  .folder-table > tbody > tr:has(> .folder-td) > td:first-child > a { display: inline-flex; align-items: center; justify-content: center; min-width: 24px; min-height: 24px; }
+  .folder-table > tbody > tr:has(> .folder-td) > td:first-child img { display: block; max-width: 20px; height: auto; }
+  .folder-td { color: $text-dark; font-size: 15px; line-height: 1.35; }
+  .folder-table > tbody > tr:has(> .folder-td) > .folder-td { padding-right: 14px; vertical-align: middle; }
+  .folder-table > tbody > tr:has(> .folder-td) > .folder-td > a { display: flex; align-items: center; justify-content: space-between; width: 100%; min-height: 24px; color: $navy-700 !important; font-weight: 700; text-decoration: none !important; }
+  .folder-table > tbody > tr:has(img[src*="FolderOpen"]) > .folder-td > a::after,
+  .folder-table > tbody > tr:has(img[src*="FolderClosed"]) > .folder-td > a::after { content: ""; flex: 0 0 auto; width: 9px; height: 9px; margin: 0 4px 0 16px; border-right: 2px solid $navy-700; border-bottom: 2px solid $navy-700; box-sizing: border-box; }
+  .folder-table > tbody > tr:has(img[src*="FolderOpen"]) > .folder-td > a::after { transform: rotate(225deg); }
+  .folder-table > tbody > tr:has(img[src*="FolderClosed"]) > .folder-td > a::after { transform: rotate(45deg); }
+  .folder-td > a:hover,
+  .folder-td > a:focus { color: $text-dark !important; text-decoration: underline !important; }
+
+  .folder-table > tbody > tr:has(> .FolderSub) > td { padding: 0; border-bottom: 1px solid rgba(15, 57, 95, 0.14); background: #ffffff; }
+  .folder-table > tbody > tr:last-child > td { border-bottom: 0; }
+  .FolderSub { padding: 12px 14px 12px 48px; background: #ffffff; }
+  .folder-table-nested { width: 100%; margin: 0; border-collapse: collapse; }
+  .folder-table-nested > tbody > tr > td { padding: 11px 8px; border-bottom: 1px solid rgba(15, 57, 95, 0.1); vertical-align: top; }
+  .folder-table-nested > tbody > tr:last-child > td { border-bottom: 0; }
+  .folder-table-nested > tbody > tr > td:first-child { width: 0 !important; padding: 0; }
+  .folder-table-nested .folder-td { font-size: 14px; }
+  .folder-desc { display: none; }
+
+  @media (max-width: 767px) {
+    .page-title { margin-bottom: 16px !important; padding-top: 16px; font-size: 23px; }
+    .page-title + div[style*="margin-left"] { width: 100%; margin-bottom: 20px !important; padding: 0 20px; }
+    .folder-table > tbody > tr:has(> .folder-td) > td { padding-top: 12px; padding-bottom: 12px; }
+    .folder-table > tbody > tr:has(> .folder-td) > td:first-child { width: 42px !important; padding-left: 10px; }
+    .FolderSub { padding: 10px 12px 10px 42px; }
+  }
+}

@@ -53,7 +53,9 @@ body:has(#Menu_Item_ID[value="409"]):has(#Form_ID[value="1443"]) {
     #DIVPHOTO2836561 > a { flex: 0 1 220px; }
     #IMG28365 { float: none !important; display: block; width: 100%; max-width: 220px; height: auto; border: 1px solid rgba(15, 57, 95, 0.16); border-radius: 4px; }
     #DIVPHOTO2836561 input[type="button"] { min-height: 36px; padding: 8px 12px; border: 1px solid rgba(13, 59, 114, 0.2); border-radius: 5px; color: $text-dark; background: #eaf3ff; font-size: 12px; font-weight: 700; }
-    #ENTRY2836561 { margin-top: 12px !important; }
+    #ENTRY2836561 { display: block; width: 100% !important; min-height: 40px !important; margin-top: 12px !important; padding: 8px 10px !important; line-height: 1.2; }
+    #ENTRY2836561::file-selector-button,
+    #ENTRY2836561::-webkit-file-upload-button { margin-right: 12px; padding: 5px 12px; border: 0; border-radius: 4px; color: #ffffff; background: $navy-700; font-size: 13px; font-weight: 700; line-height: 1.2; }
     :is(#SPAN40629119, #SPAN54350146) { display: flex !important; flex-wrap: wrap; align-items: center; gap: 8px 18px; }
     :is(#SPAN40629119, #SPAN54350146) > span { display: inline-flex; align-items: center; gap: 6px; }
     :is(#SPAN40629119, #SPAN54350146) input[type="radio"],
@@ -142,6 +144,9 @@ body:has(#Menu_Item_ID[value="409"]):has(#Form_ID[value="2978"]) {
   }
 
   #ENTRY4268710 { min-height: 120px !important; resize: vertical; }
+  :is(#ENTRY31228109, #ENTRY42686124) { display: block; width: 100% !important; min-height: 40px !important; padding: 8px 10px !important; line-height: 1.2; }
+  :is(#ENTRY31228109, #ENTRY42686124)::file-selector-button,
+  :is(#ENTRY31228109, #ENTRY42686124)::-webkit-file-upload-button { margin-right: 12px; padding: 5px 12px; border: 0; border-radius: 4px; color: #ffffff; background: $navy-700; font-size: 13px; font-weight: 700; line-height: 1.2; }
   #DELETEFILE31228109 { width: 20px !important; min-width: 20px !important; height: 20px !important; min-height: 20px !important; margin: 0 6px 0 0 !important; accent-color: $navy-700; vertical-align: middle; }
   #fs8323 #DIVENTRY31228109 .entrypostscript { display: block; margin-top: 10px !important; }
 
