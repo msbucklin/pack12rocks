@@ -47,7 +47,7 @@ body:has(#Menu_Item_ID[value="398"]):has(#Form_ID[value="1447"]) {
   #sortablegrid7203,
   #sortablegrid7223 { min-width: 1040px; }
 
-  @media (max-width: 767px) {
+  @media (max-width: 600px) {
     :is(#fs7333, #fs7340, #fs16798, #fs18615, #fs7202, #fs7222, #fs7334, #fs7341, #fs16799, #fs18616, #fs7203, #fs7223, #fs7334 ~ .new-row, #fs7341 ~ .new-row, #fs16799 ~ .new-row) { padding-right: 20px !important; padding-left: 20px !important; }
     :is(#fs7333, #fs7340, #fs16798, #fs18615, #fs7202, #fs7222, #fs7334 ~ .new-row, #fs7341 ~ .new-row, #fs16799 ~ .new-row) .text-center { display: grid !important; grid-template-columns: repeat(2, minmax(0, 1fr)); }
     :is(#fs7333, #fs7340, #fs16798, #fs18615, #fs7202, #fs7222, #fs7334 ~ .new-row, #fs7341 ~ .new-row, #fs16799 ~ .new-row) .text-center > span,
@@ -65,6 +65,145 @@ body:has(#Menu_Item_ID[value="398"]):has(#Form_ID[value="1447"]) {
     :is(#sortablegrid7334, #sortablegrid7341, #sortablegrid16799, #sortablegrid18616, #sortablegrid7203, #sortablegrid7223) > tfoot > tr > td { display: block; width: 100%; box-sizing: border-box; }
     :is(#sortablegrid7334, #sortablegrid7341, #sortablegrid16799, #sortablegrid18616, #sortablegrid7203, #sortablegrid7223) > tfoot input[type="button"][value="Print (Export to PDF)"],
     :is(#sortablegrid7334, #sortablegrid7341, #sortablegrid16799, #sortablegrid18616, #sortablegrid7203, #sortablegrid7223) > tfoot input[type="button"][value="Open in Excel"] { width: calc(50% - 14px); min-width: 0; margin: 4px 5px !important; }
+  }
+}
+
+body:has(#Menu_Item_ID[value="397"]):has(#Form_ID[value="1440"]) {
+  --leadership-position-border: rgba(15, 57, 95, 0.16);
+
+  .page-title {
+    width: 100%;
+    margin: 0 auto 16px !important;
+    padding: 10px 20px 0;
+    box-sizing: border-box;
+    color: $navy-700;
+    text-align: left !important;
+
+    &::after {
+      display: block;
+      max-width: 680px;
+      margin-top: 8px;
+      color: $text-mid;
+      content: "Set the title, display order, and access settings for this leadership role.";
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.5;
+    }
+  }
+
+  #fs7197 {
+    margin-bottom: 20px !important;
+    padding: 0 20px !important;
+
+    @include detail-form-shell;
+    @include detail-form-table-labels;
+    @include detail-form-stacked-mobile;
+
+    > .container-flex {
+      display: block !important;
+    }
+
+    .center-block {
+      width: 100% !important;
+      max-width: none !important;
+      margin: 0 !important;
+    }
+
+    table.no-border {
+      table-layout: fixed;
+      box-shadow: 0 4px 12px rgba(13, 31, 54, 0.06);
+    }
+
+    table.no-border > tbody > tr > td:first-child {
+      width: 38% !important;
+      max-width: 38% !important;
+    }
+
+    table.no-border input.form-control,
+    table.no-border select.form-control {
+      min-height: 40px;
+    }
+
+    #ENTRY283351,
+    #ENTRY283361,
+    #ENTRY499002 {
+      width: min(100%, 520px) !important;
+    }
+
+    :is(#ENTRY283375, #ENTRY577725) {
+      width: min(100%, 130px) !important;
+    }
+
+    input[type="checkbox"] {
+      width: 20px !important;
+      max-width: 20px !important;
+      height: 20px !important;
+      min-height: 20px !important;
+      margin: 0 !important;
+      vertical-align: middle;
+    }
+  }
+
+  #fs7198 {
+    margin-bottom: 20px !important;
+    padding: 0 20px !important;
+
+    .center-block {
+      width: 100% !important;
+      max-width: none !important;
+      margin: 0 !important;
+    }
+
+    .text-center {
+      display: flex !important;
+      flex-wrap: wrap;
+      justify-content: flex-start !important;
+      gap: 8px;
+      text-align: left !important;
+    }
+
+    .text-center > span {
+      display: inline-flex !important;
+      margin: 0 !important;
+    }
+
+    .btn {
+      min-width: 130px;
+      min-height: 42px;
+      margin: 0 !important;
+      padding: 9px 16px !important;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+  }
+
+  @media (max-width: 767px) {
+    :is(#fs7197, #fs7198) {
+      padding-right: 20px !important;
+      padding-left: 20px !important;
+    }
+
+    #fs7197 table.no-border > tbody > tr > td:first-child {
+      width: 100% !important;
+      max-width: 100% !important;
+    }
+
+    #fs7197 :is(#ENTRY283375, #ENTRY577725) {
+      width: 100% !important;
+    }
+
+    #fs7198 .text-center {
+      display: grid !important;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    #fs7198 .text-center > span,
+    #fs7198 .btn {
+      width: 100% !important;
+      min-width: 0 !important;
+    }
   }
 }
 
@@ -120,6 +259,201 @@ body:has(#Menu_Item_ID[value="399"]):has(#Form_ID[value="1499"]) {
     #sortablegrid7402 > tfoot > tr > td { display: block; width: 100%; box-sizing: border-box; }
     #sortablegrid7402 > tfoot input[type="button"][value="Print (Export to PDF)"],
     #sortablegrid7402 > tfoot input[type="button"][value="Open in Excel"] { width: calc(50% - 14px); min-width: 0; margin: 4px 5px !important; }
+  }
+}
+
+body:has(#Menu_Item_ID[value="399"]):has(#Form_ID[value="1497"]) {
+  --award-form-border: rgba(15, 57, 95, 0.16);
+
+  .page-title {
+    width: 100%;
+    margin: 0 auto 16px !important;
+    padding: 10px 20px 0;
+    box-sizing: border-box;
+    color: $navy-700;
+    text-align: left !important;
+
+    &::after {
+      display: block;
+      max-width: 680px;
+      margin-top: 8px;
+      color: $text-mid;
+      content: "Define the award name, advancement code, and whether members may earn it more than once.";
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.5;
+    }
+  }
+
+  #fs7396 {
+    margin-bottom: 20px !important;
+    padding: 0 20px !important;
+
+    @include detail-form-shell;
+    @include detail-form-table-labels;
+    @include detail-form-stacked-mobile;
+
+    > .container-flex {
+      display: block !important;
+    }
+
+    .center-block {
+      width: 100% !important;
+      max-width: none !important;
+      margin: 0 !important;
+    }
+
+    table.no-border {
+      table-layout: fixed;
+      box-shadow: 0 4px 12px rgba(13, 31, 54, 0.06);
+    }
+
+    table.no-border > tbody > tr > td:first-child {
+      width: 38% !important;
+      max-width: 38% !important;
+    }
+
+    input.form-control {
+      min-height: 40px;
+    }
+
+    #ENTRY293151 {
+      width: min(100%, 520px) !important;
+    }
+
+    #ENTRY529285 {
+      width: min(100%, 180px) !important;
+    }
+
+    input[type="checkbox"] {
+      width: 20px !important;
+      max-width: 20px !important;
+      height: 20px !important;
+      min-height: 20px !important;
+      margin: 0 !important;
+      vertical-align: middle;
+    }
+  }
+
+  #fs7397 {
+    margin-bottom: 20px !important;
+    padding: 0 20px !important;
+
+    .center-block {
+      width: 100% !important;
+      max-width: none !important;
+      margin: 0 !important;
+    }
+
+    .text-center {
+      display: flex !important;
+      flex-wrap: wrap;
+      justify-content: flex-start !important;
+      gap: 8px;
+      text-align: left !important;
+    }
+
+    .text-center > span {
+      display: inline-flex !important;
+      margin: 0 !important;
+    }
+
+    .btn {
+      min-width: 120px;
+      min-height: 42px;
+      margin: 0 !important;
+      padding: 9px 16px !important;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+  }
+
+  #fs7403 {
+    margin-bottom: 20px !important;
+    padding: 0 20px !important;
+
+    .center-block.table-responsive {
+      width: 100% !important;
+      max-width: none !important;
+      margin: 0 !important;
+      overflow-x: auto;
+    }
+
+    #sortablegrid7403 {
+      width: 100% !important;
+      min-width: 620px;
+      margin: 0;
+      border: 1px solid var(--award-form-border) !important;
+      border-collapse: separate !important;
+      border-spacing: 0;
+      border-radius: 0 !important;
+      background: #ffffff;
+    }
+  }
+
+  @media (max-width: 767px) {
+    :is(#fs7396, #fs7397, #fs7403) {
+      padding-right: 20px !important;
+      padding-left: 20px !important;
+    }
+
+    #fs7396 table.no-border > tbody > tr > td:first-child {
+      width: 100% !important;
+      max-width: 100% !important;
+    }
+
+    #fs7396 :is(#ENTRY293151, #ENTRY529285) {
+      width: 100% !important;
+    }
+
+    #fs7397 .text-center {
+      display: grid !important;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    #fs7397 .text-center > span,
+    #fs7397 .btn {
+      width: 100% !important;
+      min-width: 0 !important;
+    }
+
+    #fs7403 .center-block.table-responsive {
+      overflow: hidden !important;
+    }
+
+    #sortablegrid7403,
+    #sortablegrid7403 > tbody {
+      display: block;
+      width: 100% !important;
+      min-width: 0 !important;
+      border: 0 !important;
+      background: transparent;
+    }
+
+    #sortablegrid7403 > thead {
+      display: none;
+    }
+
+    #sortablegrid7403 > tbody > tr,
+    #sortablegrid7403 > tbody > tr > td {
+      display: block !important;
+      width: 100% !important;
+      box-sizing: border-box;
+    }
+
+    #sortablegrid7403 > tbody > tr {
+      border: 1px solid var(--award-form-border) !important;
+      border-radius: 6px;
+      background: #ffffff;
+    }
+
+    #sortablegrid7403 > tbody > tr > td {
+      padding: 12px !important;
+      border: 0 !important;
+      text-align: left !important;
+    }
   }
 }
 
@@ -1255,7 +1589,7 @@ body:has(#Menu_Item_ID[value="3309"]):has(#Form_ID[value="4240"]) {
     .entrypostscript { display: block; margin-top: 5px; color: $text-mid; font-size: 12px; }
   }
 
-  #fs16797 + .new-row {
+  #fs16799 + .new-row {
     margin: 0 0 16px !important;
 
     .center-block { width: 100% !important; max-width: 100% !important; margin: 0 !important; }
@@ -1266,7 +1600,7 @@ body:has(#Menu_Item_ID[value="3309"]):has(#Form_ID[value="4240"]) {
 
   @media (max-width: 767px) {
     #fs16797,
-    #fs16797 + .new-row { padding-right: 20px !important; padding-left: 20px !important; }
+    #fs16799 + .new-row { padding-right: 20px !important; padding-left: 20px !important; }
     #fs16797 table.no-border,
     #fs16797 table.no-border > tbody { display: block; width: 100% !important; }
     #fs16797 table.no-border > tbody > tr:not(:has(hr)) { display: grid !important; grid-template-columns: minmax(0, 1fr); width: 100%; margin-bottom: 10px; overflow: hidden; border: 1px solid var(--dress-code-query-border); border-radius: 6px; background: #ffffff; box-sizing: border-box; }
@@ -1275,7 +1609,130 @@ body:has(#Menu_Item_ID[value="3309"]):has(#Form_ID[value="4240"]) {
     #fs16797 table.no-border > tbody > tr > td:first-child { padding-top: 11px !important; padding-bottom: 4px !important; color: $navy-700; }
     #fs16797 table.no-border > tbody > tr > td:nth-child(3) { padding-top: 4px !important; padding-bottom: 11px !important; }
     #fs16797 .control-label { display: block; text-align: left !important; }
-    #fs16797 + .new-row .btn { width: 100% !important; }
+    #fs16799 + .new-row .btn { width: 100% !important; }
+  }
+}
+
+body:has(#Menu_Item_ID[value="4656"]):has(#Form_ID[value="5502"]) {
+  .page-title {
+    width: 100%;
+    margin: 0 auto 16px !important;
+    padding: 10px 20px 0;
+    box-sizing: border-box;
+    color: $navy-700;
+    text-align: left !important;
+
+    &::after {
+      display: block;
+      max-width: 680px;
+      margin-top: 8px;
+      color: $text-mid;
+      content: "Add a skill or interest that members can select in their profiles.";
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.5;
+    }
+  }
+
+  #fs18610 {
+    margin-bottom: 20px !important;
+    padding: 0 20px !important;
+
+    @include detail-form-shell;
+    @include detail-form-table-labels;
+    @include detail-form-stacked-mobile;
+
+    > .container-flex {
+      display: block !important;
+    }
+
+    .center-block {
+      width: 100% !important;
+      max-width: none !important;
+      margin: 0 !important;
+    }
+
+    table.no-border {
+      table-layout: fixed;
+      box-shadow: 0 4px 12px rgba(13, 31, 54, 0.06);
+    }
+
+    table.no-border > tbody > tr > td:first-child {
+      width: 34% !important;
+      max-width: 34% !important;
+    }
+
+    :is(input.form-control, textarea.form-control) {
+      width: min(100%, 620px) !important;
+      min-height: 40px;
+    }
+
+    textarea.form-control {
+      min-height: 130px;
+      resize: vertical;
+    }
+  }
+
+  #fs18611 {
+    margin-bottom: 20px !important;
+    padding: 0 20px !important;
+
+    .center-block {
+      width: 100% !important;
+      max-width: none !important;
+      margin: 0 !important;
+    }
+
+    .text-center {
+      display: flex !important;
+      flex-wrap: wrap;
+      justify-content: flex-start !important;
+      gap: 8px;
+      text-align: left !important;
+    }
+
+    .text-center > span {
+      display: inline-flex !important;
+      margin: 0 !important;
+    }
+
+    .btn {
+      min-width: 130px;
+      min-height: 42px;
+      margin: 0 !important;
+      padding: 9px 16px !important;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+  }
+
+  @media (max-width: 767px) {
+    :is(#fs18610, #fs18611) {
+      padding-right: 20px !important;
+      padding-left: 20px !important;
+    }
+
+    #fs18610 table.no-border > tbody > tr > td:first-child {
+      width: 100% !important;
+      max-width: 100% !important;
+    }
+
+    #fs18610 :is(input.form-control, textarea.form-control) {
+      width: 100% !important;
+    }
+
+    #fs18611 .text-center {
+      display: grid !important;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    #fs18611 .text-center > span,
+    #fs18611 .btn {
+      width: 100% !important;
+      min-width: 0 !important;
+    }
   }
 }
 

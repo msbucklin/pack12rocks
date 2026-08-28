@@ -2023,15 +2023,11 @@ body:has(#Menu_Item_ID[value="308"]):has(#Form_ID[value="333"]) #sortablegrid100
   }
   body:has(#Menu_Item_ID[value="308"]):has(#Form_ID[value="333"]) #sortablegrid1008 tfoot td {
     padding: 12px 0 !important;
-    border-top: 0 !important;
-    background: #ffffff !important;
-    font-size: 0;
+    background: transparent;
   }
   body:has(#Menu_Item_ID[value="308"]):has(#Form_ID[value="333"]) #sortablegrid1008 tfoot input[type=button] {
-    display: inline-block;
-    width: calc(50% - 6px);
-    margin: 0 3px !important;
-    font-size: 12px;
+    width: 100%;
+    margin: 0 0 8px;
   }
 }
 
@@ -18437,7 +18433,7 @@ body:has(#Menu_Item_ID[value="336"]):has(#Form_ID[value="200"]) :is(#fs2469, #fs
   body:has(#Menu_Item_ID[value="336"]):has(#Form_ID[value="200"]) #sortablegrid2469 > tbody > tr > td:nth-child(4)::before,
   body:has(#Menu_Item_ID[value="336"]):has(#Form_ID[value="200"]) #sortablegrid535 > tbody > tr > td:nth-child(3)::before,
   body:has(#Menu_Item_ID[value="336"]):has(#Form_ID[value="200"]) #sortablegrid535 > tbody > tr > td:nth-child(4)::before {
-    flex: 0 0 52px;
+    flex: 0 0 48px;
     color: #184a8a;
     font-size: 10px;
     font-weight: 800;
@@ -18762,7 +18758,7 @@ body:has(#Menu_Item_ID[value="338"]):has(#Form_ID[value="203"]) #fs544 #sortable
   body:has(#Menu_Item_ID[value="338"]):has(#Form_ID[value="203"]) #sortablegrid544 > tbody > tr > td:nth-child(3)::before,
   body:has(#Menu_Item_ID[value="338"]):has(#Form_ID[value="203"]) #sortablegrid544 > tbody > tr > td:nth-child(4)::before,
   body:has(#Menu_Item_ID[value="338"]):has(#Form_ID[value="203"]) #sortablegrid544 > tbody > tr > td:nth-child(5)::before {
-    flex: 0 0 52px;
+    flex: 0 0 48px;
     color: #184a8a;
     font-size: 10px;
     font-weight: 800;
@@ -20017,7 +20013,7 @@ body:has(#fs718) .new-row:not(:has(~ .new-row)) .btn {
   #sortablegrid719 > tbody > tr > td:nth-child(2)::before,
   #sortablegrid719 > tbody > tr > td:nth-child(3)::before,
   #sortablegrid719 > tbody > tr > td:nth-child(4)::before {
-    flex: 0 0 52px;
+    flex: 0 0 48px;
     color: #0d3b72;
     font-size: 10px;
     font-weight: 800;
@@ -22016,61 +22012,6 @@ body:has(#Menu_Item_ID[value="353"]):has(#Form_ID[value="330"]) #fs991 .btn {
 body:has(#Menu_Item_ID[value="353"]):has(#Form_ID[value="330"]) #fs992 {
   margin-bottom: 20px !important;
 }
-body:has(#Menu_Item_ID[value="353"]):has(#Form_ID[value="330"]) #fs992 .center-block.table-responsive:has(> table:first-child > tbody > tr > td > div > span.rows-per-page) {
-  width: 100% !important;
-  margin: 0 auto !important;
-  overflow-x: auto;
-}
-body:has(#Menu_Item_ID[value="353"]):has(#Form_ID[value="330"]) #fs992 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) {
-  width: 100% !important;
-  border-collapse: separate;
-  border-spacing: 0;
-  background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%);
-  border: 1px solid var(--group-transaction-border);
-  border-radius: 0;
-}
-body:has(#Menu_Item_ID[value="353"]):has(#Form_ID[value="330"]) #fs992 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td {
-  border: 0 !important;
-}
-body:has(#Menu_Item_ID[value="353"]):has(#Form_ID[value="330"]) #fs992 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr:has(> td > div > span.rows-per-page) > td {
-  padding: 10px 14px !important;
-  text-align: right;
-}
-body:has(#Menu_Item_ID[value="353"]):has(#Form_ID[value="330"]) #fs992 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr:first-child:has(> td > div > span.rows-per-page) > td {
-  border-bottom: 1px solid var(--group-transaction-border) !important;
-}
-body:has(#Menu_Item_ID[value="353"]):has(#Form_ID[value="330"]) #fs992 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr:not(:first-child):has(> td > div > span.rows-per-page) > td {
-  border-top: 1px solid var(--group-transaction-border) !important;
-}
-body:has(#Menu_Item_ID[value="353"]):has(#Form_ID[value="330"]) #fs992 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td > table.sortable.table-curved {
-  border-right: 0 !important;
-  border-left: 0 !important;
-  border-radius: 0 !important;
-}
-body:has(#Menu_Item_ID[value="353"]):has(#Form_ID[value="330"]) #fs992 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td > table.sortable.table-curved thead th {
-  border-radius: 0 !important;
-}
-body:has(#Menu_Item_ID[value="353"]):has(#Form_ID[value="330"]) #fs992 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td > table.sortable.table-curved thead th:first-of-type,
-body:has(#Menu_Item_ID[value="353"]):has(#Form_ID[value="330"]) #fs992 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td > table.sortable.table-curved tbody td:first-of-type {
-  border-left: 0 !important;
-}
-body:has(#Menu_Item_ID[value="353"]):has(#Form_ID[value="330"]) #fs992 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td > table.sortable.table-curved thead th:last-of-type,
-body:has(#Menu_Item_ID[value="353"]):has(#Form_ID[value="330"]) #fs992 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td > table.sortable.table-curved tbody td:last-of-type {
-  border-right: 0 !important;
-}
-body:has(#Menu_Item_ID[value="353"]):has(#Form_ID[value="330"]) #fs992 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 0;
-}
-body:has(#Menu_Item_ID[value="353"]):has(#Form_ID[value="330"]) #fs992 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page::before {
-  content: "Rows Per Page:";
-  font-size: 12px;
-}
-body:has(#Menu_Item_ID[value="353"]):has(#Form_ID[value="330"]) #fs992 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page > select {
-  font-size: 12px;
-}
 body:has(#Menu_Item_ID[value="353"]):has(#Form_ID[value="330"]) #fs992 .center-block.table-responsive {
   width: 100% !important;
   max-width: 100% !important;
@@ -22080,6 +22021,79 @@ body:has(#Menu_Item_ID[value="353"]):has(#Form_ID[value="330"]) #fs992 .center-b
 body:has(#Menu_Item_ID[value="353"]):has(#Form_ID[value="330"]) #fs992 #sortablegrid992 {
   width: 100% !important;
   min-width: 1120px;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--group-transaction-border) !important;
+  border-collapse: separate !important;
+  border-spacing: 0;
+  border-radius: 0 !important;
+  background: #ffffff;
+}
+body:has(#Menu_Item_ID[value="353"]):has(#Form_ID[value="330"]) #fs992 #sortablegrid992 > thead > tr > th {
+  padding: 11px 12px !important;
+  border: 0 !important;
+  border-right: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-bottom: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-left: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-radius: 0 !important;
+  color: #0d3b72 !important;
+  background: #eaf3ff !important;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: left;
+  vertical-align: middle;
+}
+body:has(#Menu_Item_ID[value="353"]):has(#Form_ID[value="330"]) #fs992 #sortablegrid992 > tbody > tr > td {
+  padding: 9px 10px !important;
+  border: 0 !important;
+  border-bottom: 1px solid rgba(15, 57, 95, 0.09) !important;
+  color: #0d3b72;
+  background: #ffffff !important;
+  font-size: 13px;
+  text-align: left !important;
+  vertical-align: middle;
+  overflow-wrap: anywhere;
+}
+body:has(#Menu_Item_ID[value="353"]):has(#Form_ID[value="330"]) #fs992 #sortablegrid992 > tbody > tr:nth-of-type(even) > td {
+  background: #f7faff !important;
+}
+body:has(#Menu_Item_ID[value="353"]):has(#Form_ID[value="330"]) #fs992 #sortablegrid992 > tbody > tr:last-child > td {
+  border-bottom: 0 !important;
+}
+body:has(#Menu_Item_ID[value="353"]):has(#Form_ID[value="330"]) #fs992 #sortablegrid992 .btn {
+  min-height: 34px;
+  margin: 0 !important;
+  padding: 7px 10px !important;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 700;
+}
+body:has(#Menu_Item_ID[value="353"]):has(#Form_ID[value="330"]) #fs992 #sortablegrid992 > tfoot > tr > td:has(> input[type=button][value="Print (Export to PDF)"]) {
+  padding: 14px 12px !important;
+  border: 0 !important;
+  border-top: 1px solid rgba(15, 57, 95, 0.12) !important;
+  background: #f7faff !important;
+  text-align: center !important;
+}
+body:has(#Menu_Item_ID[value="353"]):has(#Form_ID[value="330"]) #fs992 #sortablegrid992 > tfoot input[type=button][value="Print (Export to PDF)"],
+body:has(#Menu_Item_ID[value="353"]):has(#Form_ID[value="330"]) #fs992 #sortablegrid992 > tfoot input[type=button][value="Open in Excel"] {
+  min-height: 40px;
+  margin: 0 6px !important;
+  padding: 10px 12px !important;
+  border: 1px solid rgba(13, 59, 114, 0.2) !important;
+  border-radius: 10px !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+  box-shadow: 0 3px 8px rgba(13, 31, 54, 0.08) !important;
+}
+body:has(#Menu_Item_ID[value="353"]):has(#Form_ID[value="330"]) #fs992 #sortablegrid992 > tfoot input[type=button][value="Print (Export to PDF)"] {
+  color: #ffffff !important;
+  background: linear-gradient(180deg, #1b6eb8 0%, #2783d1 100%) !important;
+}
+body:has(#Menu_Item_ID[value="353"]):has(#Form_ID[value="330"]) #fs992 #sortablegrid992 > tfoot input[type=button][value="Open in Excel"] {
+  color: #0d3b72 !important;
+  background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%) !important;
 }
 @media (max-width: 767px) {
   body:has(#Menu_Item_ID[value="353"]):has(#Form_ID[value="330"]) #fs991,
@@ -22190,7 +22204,7 @@ body:has(#Menu_Item_ID[value="353"]):has(#Form_ID[value="330"]) #fs992 #sortable
   body:has(#Menu_Item_ID[value="353"]):has(#Form_ID[value="330"]) #sortablegrid992 > tbody > tr > td:nth-child(6)::before,
   body:has(#Menu_Item_ID[value="353"]):has(#Form_ID[value="330"]) #sortablegrid992 > tbody > tr > td:nth-child(7)::before,
   body:has(#Menu_Item_ID[value="353"]):has(#Form_ID[value="330"]) #sortablegrid992 > tbody > tr > td:nth-child(8)::before {
-    flex: 0 0 52px;
+    flex: 0 0 48px;
     color: #184a8a;
     font-size: 10px;
     font-weight: 800;
@@ -22304,61 +22318,6 @@ body:has(#Menu_Item_ID[value="352"]):has(#Form_ID[value="321"]) #fs23222 p {
 body:has(#Menu_Item_ID[value="352"]):has(#Form_ID[value="321"]) #fs952 {
   margin-bottom: 20px !important;
 }
-body:has(#Menu_Item_ID[value="352"]):has(#Form_ID[value="321"]) #fs952 .center-block.table-responsive:has(> table:first-child > tbody > tr > td > div > span.rows-per-page) {
-  width: 100% !important;
-  margin: 0 auto !important;
-  overflow-x: auto;
-}
-body:has(#Menu_Item_ID[value="352"]):has(#Form_ID[value="321"]) #fs952 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) {
-  width: 100% !important;
-  border-collapse: separate;
-  border-spacing: 0;
-  background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%);
-  border: 1px solid var(--transaction-list-border);
-  border-radius: 0;
-}
-body:has(#Menu_Item_ID[value="352"]):has(#Form_ID[value="321"]) #fs952 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td {
-  border: 0 !important;
-}
-body:has(#Menu_Item_ID[value="352"]):has(#Form_ID[value="321"]) #fs952 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr:has(> td > div > span.rows-per-page) > td {
-  padding: 10px 14px !important;
-  text-align: right;
-}
-body:has(#Menu_Item_ID[value="352"]):has(#Form_ID[value="321"]) #fs952 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr:first-child:has(> td > div > span.rows-per-page) > td {
-  border-bottom: 1px solid var(--transaction-list-border) !important;
-}
-body:has(#Menu_Item_ID[value="352"]):has(#Form_ID[value="321"]) #fs952 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr:not(:first-child):has(> td > div > span.rows-per-page) > td {
-  border-top: 1px solid var(--transaction-list-border) !important;
-}
-body:has(#Menu_Item_ID[value="352"]):has(#Form_ID[value="321"]) #fs952 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td > table.sortable.table-curved {
-  border-right: 0 !important;
-  border-left: 0 !important;
-  border-radius: 0 !important;
-}
-body:has(#Menu_Item_ID[value="352"]):has(#Form_ID[value="321"]) #fs952 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td > table.sortable.table-curved thead th {
-  border-radius: 0 !important;
-}
-body:has(#Menu_Item_ID[value="352"]):has(#Form_ID[value="321"]) #fs952 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td > table.sortable.table-curved thead th:first-of-type,
-body:has(#Menu_Item_ID[value="352"]):has(#Form_ID[value="321"]) #fs952 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td > table.sortable.table-curved tbody td:first-of-type {
-  border-left: 0 !important;
-}
-body:has(#Menu_Item_ID[value="352"]):has(#Form_ID[value="321"]) #fs952 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td > table.sortable.table-curved thead th:last-of-type,
-body:has(#Menu_Item_ID[value="352"]):has(#Form_ID[value="321"]) #fs952 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td > table.sortable.table-curved tbody td:last-of-type {
-  border-right: 0 !important;
-}
-body:has(#Menu_Item_ID[value="352"]):has(#Form_ID[value="321"]) #fs952 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 0;
-}
-body:has(#Menu_Item_ID[value="352"]):has(#Form_ID[value="321"]) #fs952 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page::before {
-  content: "Rows Per Page:";
-  font-size: 12px;
-}
-body:has(#Menu_Item_ID[value="352"]):has(#Form_ID[value="321"]) #fs952 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page > select {
-  font-size: 12px;
-}
 body:has(#Menu_Item_ID[value="352"]):has(#Form_ID[value="321"]) #fs952 .center-block.table-responsive {
   width: 100% !important;
   max-width: 100% !important;
@@ -22368,6 +22327,79 @@ body:has(#Menu_Item_ID[value="352"]):has(#Form_ID[value="321"]) #fs952 .center-b
 body:has(#Menu_Item_ID[value="352"]):has(#Form_ID[value="321"]) #fs952 #sortablegrid952 {
   width: 100% !important;
   min-width: 1440px;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--transaction-list-border) !important;
+  border-collapse: separate !important;
+  border-spacing: 0;
+  border-radius: 0 !important;
+  background: #ffffff;
+}
+body:has(#Menu_Item_ID[value="352"]):has(#Form_ID[value="321"]) #fs952 #sortablegrid952 > thead > tr > th {
+  padding: 11px 12px !important;
+  border: 0 !important;
+  border-right: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-bottom: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-left: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-radius: 0 !important;
+  color: #0d3b72 !important;
+  background: #eaf3ff !important;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: left;
+  vertical-align: middle;
+}
+body:has(#Menu_Item_ID[value="352"]):has(#Form_ID[value="321"]) #fs952 #sortablegrid952 > tbody > tr > td {
+  padding: 9px 10px !important;
+  border: 0 !important;
+  border-bottom: 1px solid rgba(15, 57, 95, 0.09) !important;
+  color: #0d3b72;
+  background: #ffffff !important;
+  font-size: 13px;
+  text-align: left !important;
+  vertical-align: middle;
+  overflow-wrap: anywhere;
+}
+body:has(#Menu_Item_ID[value="352"]):has(#Form_ID[value="321"]) #fs952 #sortablegrid952 > tbody > tr:nth-of-type(even) > td {
+  background: #f7faff !important;
+}
+body:has(#Menu_Item_ID[value="352"]):has(#Form_ID[value="321"]) #fs952 #sortablegrid952 > tbody > tr:last-child > td {
+  border-bottom: 0 !important;
+}
+body:has(#Menu_Item_ID[value="352"]):has(#Form_ID[value="321"]) #fs952 #sortablegrid952 .btn {
+  min-height: 34px;
+  margin: 0 !important;
+  padding: 7px 10px !important;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 700;
+}
+body:has(#Menu_Item_ID[value="352"]):has(#Form_ID[value="321"]) #fs952 #sortablegrid952 > tfoot > tr > td:has(> input[type=button][value="Print (Export to PDF)"]) {
+  padding: 14px 12px !important;
+  border: 0 !important;
+  border-top: 1px solid rgba(15, 57, 95, 0.12) !important;
+  background: #f7faff !important;
+  text-align: center !important;
+}
+body:has(#Menu_Item_ID[value="352"]):has(#Form_ID[value="321"]) #fs952 #sortablegrid952 > tfoot input[type=button][value="Print (Export to PDF)"],
+body:has(#Menu_Item_ID[value="352"]):has(#Form_ID[value="321"]) #fs952 #sortablegrid952 > tfoot input[type=button][value="Open in Excel"] {
+  min-height: 40px;
+  margin: 0 6px !important;
+  padding: 10px 12px !important;
+  border: 1px solid rgba(13, 59, 114, 0.2) !important;
+  border-radius: 10px !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+  box-shadow: 0 3px 8px rgba(13, 31, 54, 0.08) !important;
+}
+body:has(#Menu_Item_ID[value="352"]):has(#Form_ID[value="321"]) #fs952 #sortablegrid952 > tfoot input[type=button][value="Print (Export to PDF)"] {
+  color: #ffffff !important;
+  background: linear-gradient(180deg, #1b6eb8 0%, #2783d1 100%) !important;
+}
+body:has(#Menu_Item_ID[value="352"]):has(#Form_ID[value="321"]) #fs952 #sortablegrid952 > tfoot input[type=button][value="Open in Excel"] {
+  color: #0d3b72 !important;
+  background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%) !important;
 }
 @media (max-width: 767px) {
   body:has(#Menu_Item_ID[value="352"]):has(#Form_ID[value="321"]) #fs951,
@@ -22477,7 +22509,7 @@ body:has(#Menu_Item_ID[value="352"]):has(#Form_ID[value="321"]) #fs952 #sortable
   body:has(#Menu_Item_ID[value="352"]):has(#Form_ID[value="321"]) #sortablegrid952 > tbody > tr > td:nth-child(5)::before,
   body:has(#Menu_Item_ID[value="352"]):has(#Form_ID[value="321"]) #sortablegrid952 > tbody > tr > td:nth-child(7)::before,
   body:has(#Menu_Item_ID[value="352"]):has(#Form_ID[value="321"]) #sortablegrid952 > tbody > tr > td:nth-child(11)::before {
-    flex: 0 0 52px;
+    flex: 0 0 48px;
     color: #184a8a;
     font-size: 10px;
     font-weight: 800;
@@ -23640,7 +23672,7 @@ body:has(#Menu_Item_ID[value="357"]):has(#Form_ID[value="316"]) #fs995 #sortable
   body:has(#Menu_Item_ID[value="357"]):has(#Form_ID[value="316"]) #sortablegrid995 > tbody > tr > td:nth-child(4)::before,
   body:has(#Menu_Item_ID[value="357"]):has(#Form_ID[value="316"]) #sortablegrid995 > tbody > tr > td:nth-child(6)::before,
   body:has(#Menu_Item_ID[value="357"]):has(#Form_ID[value="316"]) #sortablegrid995 > tbody > tr > td:nth-child(7)::before {
-    flex: 0 0 52px;
+    flex: 0 0 48px;
     color: #184a8a;
     font-size: 10px;
     font-weight: 800;
@@ -23976,15 +24008,6 @@ body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="324"]) .page-title {
   color: #184a8a;
   text-align: left !important;
 }
-body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="324"]) .page-title::after {
-  content: "Review each member's current account balance.";
-  display: block;
-  margin-top: 4px;
-  color: #173a63;
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 1.4;
-}
 body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="324"]) #fs960 {
   margin: 0 0 20px !important;
 }
@@ -24015,61 +24038,6 @@ body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="324"]) #fs960 .btn {
 body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="324"]) #fs961 {
   margin-bottom: 20px !important;
 }
-body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="324"]) #fs961 .center-block.table-responsive:has(> table:first-child > tbody > tr > td > div > span.rows-per-page) {
-  width: 100% !important;
-  margin: 0 auto !important;
-  overflow-x: auto;
-}
-body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="324"]) #fs961 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) {
-  width: 100% !important;
-  border-collapse: separate;
-  border-spacing: 0;
-  background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%);
-  border: 1px solid var(--member-balance-border);
-  border-radius: 0;
-}
-body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="324"]) #fs961 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td {
-  border: 0 !important;
-}
-body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="324"]) #fs961 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr:has(> td > div > span.rows-per-page) > td {
-  padding: 10px 14px !important;
-  text-align: right;
-}
-body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="324"]) #fs961 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr:first-child:has(> td > div > span.rows-per-page) > td {
-  border-bottom: 1px solid var(--member-balance-border) !important;
-}
-body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="324"]) #fs961 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr:not(:first-child):has(> td > div > span.rows-per-page) > td {
-  border-top: 1px solid var(--member-balance-border) !important;
-}
-body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="324"]) #fs961 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td > table.sortable.table-curved {
-  border-right: 0 !important;
-  border-left: 0 !important;
-  border-radius: 0 !important;
-}
-body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="324"]) #fs961 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td > table.sortable.table-curved thead th {
-  border-radius: 0 !important;
-}
-body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="324"]) #fs961 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td > table.sortable.table-curved thead th:first-of-type,
-body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="324"]) #fs961 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td > table.sortable.table-curved tbody td:first-of-type {
-  border-left: 0 !important;
-}
-body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="324"]) #fs961 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td > table.sortable.table-curved thead th:last-of-type,
-body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="324"]) #fs961 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td > table.sortable.table-curved tbody td:last-of-type {
-  border-right: 0 !important;
-}
-body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="324"]) #fs961 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 0;
-}
-body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="324"]) #fs961 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page::before {
-  content: "Rows Per Page:";
-  font-size: 12px;
-}
-body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="324"]) #fs961 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page > select {
-  font-size: 12px;
-}
 body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="324"]) #fs961 .center-block.table-responsive {
   width: 100% !important;
   max-width: 100% !important;
@@ -24079,6 +24047,79 @@ body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="324"]) #fs961 .center-b
 body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="324"]) #fs961 #sortablegrid961 {
   width: 100% !important;
   min-width: 940px;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--member-balance-border) !important;
+  border-collapse: separate !important;
+  border-spacing: 0;
+  border-radius: 0 !important;
+  background: #ffffff;
+}
+body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="324"]) #fs961 #sortablegrid961 > thead > tr > th {
+  padding: 11px 12px !important;
+  border: 0 !important;
+  border-right: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-bottom: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-left: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-radius: 0 !important;
+  color: #0d3b72 !important;
+  background: #eaf3ff !important;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: left;
+  vertical-align: middle;
+}
+body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="324"]) #fs961 #sortablegrid961 > tbody > tr > td {
+  padding: 9px 10px !important;
+  border: 0 !important;
+  border-bottom: 1px solid rgba(15, 57, 95, 0.09) !important;
+  color: #0d3b72;
+  background: #ffffff !important;
+  font-size: 13px;
+  text-align: left !important;
+  vertical-align: middle;
+  overflow-wrap: anywhere;
+}
+body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="324"]) #fs961 #sortablegrid961 > tbody > tr:nth-of-type(even) > td {
+  background: #f7faff !important;
+}
+body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="324"]) #fs961 #sortablegrid961 > tbody > tr:last-child > td {
+  border-bottom: 0 !important;
+}
+body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="324"]) #fs961 #sortablegrid961 .btn {
+  min-height: 34px;
+  margin: 0 !important;
+  padding: 7px 10px !important;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 700;
+}
+body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="324"]) #fs961 #sortablegrid961 > tfoot > tr > td:has(> input[type=button][value="Print (Export to PDF)"]) {
+  padding: 14px 12px !important;
+  border: 0 !important;
+  border-top: 1px solid rgba(15, 57, 95, 0.12) !important;
+  background: #f7faff !important;
+  text-align: center !important;
+}
+body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="324"]) #fs961 #sortablegrid961 > tfoot input[type=button][value="Print (Export to PDF)"],
+body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="324"]) #fs961 #sortablegrid961 > tfoot input[type=button][value="Open in Excel"] {
+  min-height: 40px;
+  margin: 0 6px !important;
+  padding: 10px 12px !important;
+  border: 1px solid rgba(13, 59, 114, 0.2) !important;
+  border-radius: 10px !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+  box-shadow: 0 3px 8px rgba(13, 31, 54, 0.08) !important;
+}
+body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="324"]) #fs961 #sortablegrid961 > tfoot input[type=button][value="Print (Export to PDF)"] {
+  color: #ffffff !important;
+  background: linear-gradient(180deg, #1b6eb8 0%, #2783d1 100%) !important;
+}
+body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="324"]) #fs961 #sortablegrid961 > tfoot input[type=button][value="Open in Excel"] {
+  color: #0d3b72 !important;
+  background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%) !important;
 }
 @media (max-width: 767px) {
   body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="324"]) #fs960,
@@ -24174,7 +24215,7 @@ body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="324"]) #fs961 #sortable
   body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="324"]) #sortablegrid961 > tbody > tr > td:nth-child(5)::before,
   body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="324"]) #sortablegrid961 > tbody > tr > td:nth-child(6)::before,
   body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="324"]) #sortablegrid961 > tbody > tr > td:nth-child(7)::before {
-    flex: 0 0 52px;
+    flex: 0 0 48px;
     color: #184a8a;
     font-size: 10px;
     font-weight: 800;
@@ -24620,7 +24661,7 @@ body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="325"]) #fs964 #sortable
   body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="325"]) #sortablegrid964 > tbody > tr > td:nth-child(4)::before,
   body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="325"]) #sortablegrid964 > tbody > tr > td:nth-child(5)::before,
   body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="325"]) #sortablegrid964 > tbody > tr > td:nth-child(6)::before {
-    flex: 0 0 52px;
+    flex: 0 0 48px;
     color: #184a8a;
     font-size: 10px;
     font-weight: 800;
@@ -24681,15 +24722,6 @@ body:has(#Menu_Item_ID[value="359"]):has(#Form_ID[value="337"]) .page-title {
   color: #184a8a;
   text-align: left !important;
 }
-body:has(#Menu_Item_ID[value="359"]):has(#Form_ID[value="337"]) .page-title::after {
-  content: "Review current balances for each event.";
-  display: block;
-  margin-top: 4px;
-  color: #173a63;
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 1.4;
-}
 body:has(#Menu_Item_ID[value="359"]):has(#Form_ID[value="337"]) #fs1021 {
   margin: 0 0 20px !important;
 }
@@ -24722,70 +24754,91 @@ body:has(#Menu_Item_ID[value="359"]):has(#Form_ID[value="337"]) #fs1021 .btn {
 body:has(#Menu_Item_ID[value="359"]):has(#Form_ID[value="337"]) #fs1022 {
   margin-bottom: 20px !important;
 }
-body:has(#Menu_Item_ID[value="359"]):has(#Form_ID[value="337"]) #fs1022 .center-block.table-responsive:has(> table:first-child > tbody > tr > td > div > span.rows-per-page) {
-  width: 100% !important;
-  margin: 0 auto !important;
-  overflow-x: auto;
-}
-body:has(#Menu_Item_ID[value="359"]):has(#Form_ID[value="337"]) #fs1022 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) {
-  width: 100% !important;
-  border-collapse: separate;
-  border-spacing: 0;
-  background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%);
-  border: 1px solid var(--event-balance-border);
-  border-radius: 0;
-}
-body:has(#Menu_Item_ID[value="359"]):has(#Form_ID[value="337"]) #fs1022 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td {
-  border: 0 !important;
-}
-body:has(#Menu_Item_ID[value="359"]):has(#Form_ID[value="337"]) #fs1022 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr:has(> td > div > span.rows-per-page) > td {
-  padding: 10px 14px !important;
-  text-align: right;
-}
-body:has(#Menu_Item_ID[value="359"]):has(#Form_ID[value="337"]) #fs1022 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr:first-child:has(> td > div > span.rows-per-page) > td {
-  border-bottom: 1px solid var(--event-balance-border) !important;
-}
-body:has(#Menu_Item_ID[value="359"]):has(#Form_ID[value="337"]) #fs1022 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr:not(:first-child):has(> td > div > span.rows-per-page) > td {
-  border-top: 1px solid var(--event-balance-border) !important;
-}
-body:has(#Menu_Item_ID[value="359"]):has(#Form_ID[value="337"]) #fs1022 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td > table.sortable.table-curved {
-  border-right: 0 !important;
-  border-left: 0 !important;
-  border-radius: 0 !important;
-}
-body:has(#Menu_Item_ID[value="359"]):has(#Form_ID[value="337"]) #fs1022 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td > table.sortable.table-curved thead th {
-  border-radius: 0 !important;
-}
-body:has(#Menu_Item_ID[value="359"]):has(#Form_ID[value="337"]) #fs1022 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td > table.sortable.table-curved thead th:first-of-type,
-body:has(#Menu_Item_ID[value="359"]):has(#Form_ID[value="337"]) #fs1022 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td > table.sortable.table-curved tbody td:first-of-type {
-  border-left: 0 !important;
-}
-body:has(#Menu_Item_ID[value="359"]):has(#Form_ID[value="337"]) #fs1022 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td > table.sortable.table-curved thead th:last-of-type,
-body:has(#Menu_Item_ID[value="359"]):has(#Form_ID[value="337"]) #fs1022 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td > table.sortable.table-curved tbody td:last-of-type {
-  border-right: 0 !important;
-}
-body:has(#Menu_Item_ID[value="359"]):has(#Form_ID[value="337"]) #fs1022 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 0;
-}
-body:has(#Menu_Item_ID[value="359"]):has(#Form_ID[value="337"]) #fs1022 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page::before {
-  content: "Rows Per Page:";
-  font-size: 12px;
-}
-body:has(#Menu_Item_ID[value="359"]):has(#Form_ID[value="337"]) #fs1022 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page > select {
-  font-size: 12px;
-}
 body:has(#Menu_Item_ID[value="359"]):has(#Form_ID[value="337"]) #fs1022 .center-block.table-responsive {
   width: 100% !important;
   max-width: 100% !important;
   margin: 0 !important;
   overflow-x: auto;
 }
+body:has(#Menu_Item_ID[value="359"]):has(#Form_ID[value="337"]) #fs1022 .rows-per-page {
+  font-size: 13px;
+}
 body:has(#Menu_Item_ID[value="359"]):has(#Form_ID[value="337"]) #fs1022 #sortablegrid1022 {
   width: 100% !important;
   min-width: 1040px;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--event-balance-border) !important;
+  border-collapse: separate !important;
+  border-spacing: 0;
+  border-radius: 0 !important;
+  background: #ffffff;
+}
+body:has(#Menu_Item_ID[value="359"]):has(#Form_ID[value="337"]) #fs1022 #sortablegrid1022 > thead > tr > th {
+  padding: 11px 12px !important;
+  border: 0 !important;
+  border-right: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-bottom: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-left: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-radius: 0 !important;
+  color: #0d3b72 !important;
+  background: #eaf3ff !important;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: left;
+  vertical-align: middle;
+}
+body:has(#Menu_Item_ID[value="359"]):has(#Form_ID[value="337"]) #fs1022 #sortablegrid1022 > tbody > tr > td {
+  padding: 9px 10px !important;
+  border: 0 !important;
+  border-bottom: 1px solid rgba(15, 57, 95, 0.09) !important;
+  color: #0d3b72;
+  background: #ffffff !important;
+  font-size: 13px;
+  text-align: left !important;
+  vertical-align: middle;
+  overflow-wrap: anywhere;
+}
+body:has(#Menu_Item_ID[value="359"]):has(#Form_ID[value="337"]) #fs1022 #sortablegrid1022 > tbody > tr:nth-of-type(even) > td {
+  background: #f7faff !important;
+}
+body:has(#Menu_Item_ID[value="359"]):has(#Form_ID[value="337"]) #fs1022 #sortablegrid1022 > tbody > tr:last-child > td {
+  border-bottom: 0 !important;
+}
+body:has(#Menu_Item_ID[value="359"]):has(#Form_ID[value="337"]) #fs1022 #sortablegrid1022 .btn {
+  min-height: 34px;
+  margin: 0 !important;
+  padding: 7px 10px !important;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 700;
+}
+body:has(#Menu_Item_ID[value="359"]):has(#Form_ID[value="337"]) #fs1022 #sortablegrid1022 > tfoot > tr > td:has(> input[type=button][value="Print (Export to PDF)"]) {
+  padding: 14px 12px !important;
+  border: 0 !important;
+  border-top: 1px solid rgba(15, 57, 95, 0.12) !important;
+  background: #f7faff !important;
+  text-align: center !important;
+}
+body:has(#Menu_Item_ID[value="359"]):has(#Form_ID[value="337"]) #fs1022 #sortablegrid1022 > tfoot input[type=button][value="Print (Export to PDF)"],
+body:has(#Menu_Item_ID[value="359"]):has(#Form_ID[value="337"]) #fs1022 #sortablegrid1022 > tfoot input[type=button][value="Open in Excel"] {
+  min-height: 40px;
+  margin: 0 6px !important;
+  padding: 10px 12px !important;
+  border: 1px solid rgba(13, 59, 114, 0.2) !important;
+  border-radius: 10px !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+  box-shadow: 0 3px 8px rgba(13, 31, 54, 0.08) !important;
+}
+body:has(#Menu_Item_ID[value="359"]):has(#Form_ID[value="337"]) #fs1022 #sortablegrid1022 > tfoot input[type=button][value="Print (Export to PDF)"] {
+  color: #ffffff !important;
+  background: linear-gradient(180deg, #1b6eb8 0%, #2783d1 100%) !important;
+}
+body:has(#Menu_Item_ID[value="359"]):has(#Form_ID[value="337"]) #fs1022 #sortablegrid1022 > tfoot input[type=button][value="Open in Excel"] {
+  color: #0d3b72 !important;
+  background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%) !important;
 }
 @media (max-width: 767px) {
   body:has(#Menu_Item_ID[value="359"]):has(#Form_ID[value="337"]) #fs1021,
@@ -24885,7 +24938,7 @@ body:has(#Menu_Item_ID[value="359"]):has(#Form_ID[value="337"]) #fs1022 #sortabl
   body:has(#Menu_Item_ID[value="359"]):has(#Form_ID[value="337"]) #sortablegrid1022 > tbody > tr > td:nth-child(3)::before,
   body:has(#Menu_Item_ID[value="359"]):has(#Form_ID[value="337"]) #sortablegrid1022 > tbody > tr > td:nth-child(5)::before,
   body:has(#Menu_Item_ID[value="359"]):has(#Form_ID[value="337"]) #sortablegrid1022 > tbody > tr > td:nth-child(8)::before {
-    flex: 0 0 52px;
+    flex: 0 0 48px;
     color: #184a8a;
     font-size: 10px;
     font-weight: 800;
@@ -25090,15 +25143,6 @@ body:has(#Menu_Item_ID[value="361"]):has(#Form_ID[value="1523"]) .page-title {
   color: #184a8a;
   text-align: left !important;
 }
-body:has(#Menu_Item_ID[value="361"]):has(#Form_ID[value="1523"]) .page-title::after {
-  content: "Review payments submitted through the online payment portal.";
-  display: block;
-  margin-top: 4px;
-  color: #173a63;
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 1.4;
-}
 body:has(#Menu_Item_ID[value="361"]):has(#Form_ID[value="1523"]) #fs7494 {
   margin: 0 0 20px !important;
 }
@@ -25131,70 +25175,91 @@ body:has(#Menu_Item_ID[value="361"]):has(#Form_ID[value="1523"]) #fs7494 .btn {
 body:has(#Menu_Item_ID[value="361"]):has(#Form_ID[value="1523"]) #fs7495 {
   margin-bottom: 20px !important;
 }
-body:has(#Menu_Item_ID[value="361"]):has(#Form_ID[value="1523"]) #fs7495 .center-block.table-responsive:has(> table:first-child > tbody > tr > td > div > span.rows-per-page) {
-  width: 100% !important;
-  margin: 0 auto !important;
-  overflow-x: auto;
-}
-body:has(#Menu_Item_ID[value="361"]):has(#Form_ID[value="1523"]) #fs7495 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) {
-  width: 100% !important;
-  border-collapse: separate;
-  border-spacing: 0;
-  background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%);
-  border: 1px solid var(--online-payment-border);
-  border-radius: 0;
-}
-body:has(#Menu_Item_ID[value="361"]):has(#Form_ID[value="1523"]) #fs7495 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td {
-  border: 0 !important;
-}
-body:has(#Menu_Item_ID[value="361"]):has(#Form_ID[value="1523"]) #fs7495 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr:has(> td > div > span.rows-per-page) > td {
-  padding: 10px 14px !important;
-  text-align: right;
-}
-body:has(#Menu_Item_ID[value="361"]):has(#Form_ID[value="1523"]) #fs7495 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr:first-child:has(> td > div > span.rows-per-page) > td {
-  border-bottom: 1px solid var(--online-payment-border) !important;
-}
-body:has(#Menu_Item_ID[value="361"]):has(#Form_ID[value="1523"]) #fs7495 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr:not(:first-child):has(> td > div > span.rows-per-page) > td {
-  border-top: 1px solid var(--online-payment-border) !important;
-}
-body:has(#Menu_Item_ID[value="361"]):has(#Form_ID[value="1523"]) #fs7495 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td > table.sortable.table-curved {
-  border-right: 0 !important;
-  border-left: 0 !important;
-  border-radius: 0 !important;
-}
-body:has(#Menu_Item_ID[value="361"]):has(#Form_ID[value="1523"]) #fs7495 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td > table.sortable.table-curved thead th {
-  border-radius: 0 !important;
-}
-body:has(#Menu_Item_ID[value="361"]):has(#Form_ID[value="1523"]) #fs7495 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td > table.sortable.table-curved thead th:first-of-type,
-body:has(#Menu_Item_ID[value="361"]):has(#Form_ID[value="1523"]) #fs7495 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td > table.sortable.table-curved tbody td:first-of-type {
-  border-left: 0 !important;
-}
-body:has(#Menu_Item_ID[value="361"]):has(#Form_ID[value="1523"]) #fs7495 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td > table.sortable.table-curved thead th:last-of-type,
-body:has(#Menu_Item_ID[value="361"]):has(#Form_ID[value="1523"]) #fs7495 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td > table.sortable.table-curved tbody td:last-of-type {
-  border-right: 0 !important;
-}
-body:has(#Menu_Item_ID[value="361"]):has(#Form_ID[value="1523"]) #fs7495 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 0;
-}
-body:has(#Menu_Item_ID[value="361"]):has(#Form_ID[value="1523"]) #fs7495 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page::before {
-  content: "Rows Per Page:";
-  font-size: 12px;
-}
-body:has(#Menu_Item_ID[value="361"]):has(#Form_ID[value="1523"]) #fs7495 .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) span.rows-per-page > select {
-  font-size: 12px;
-}
 body:has(#Menu_Item_ID[value="361"]):has(#Form_ID[value="1523"]) #fs7495 .center-block.table-responsive {
   width: 100% !important;
   max-width: 100% !important;
   margin: 0 !important;
   overflow-x: auto;
 }
+body:has(#Menu_Item_ID[value="361"]):has(#Form_ID[value="1523"]) #fs7495 .rows-per-page {
+  font-size: 13px;
+}
 body:has(#Menu_Item_ID[value="361"]):has(#Form_ID[value="1523"]) #fs7495 #sortablegrid7495 {
   width: 100% !important;
   min-width: 1240px;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--online-payment-border) !important;
+  border-collapse: separate !important;
+  border-spacing: 0;
+  border-radius: 0 !important;
+  background: #ffffff;
+}
+body:has(#Menu_Item_ID[value="361"]):has(#Form_ID[value="1523"]) #fs7495 #sortablegrid7495 > thead > tr > th {
+  padding: 11px 12px !important;
+  border: 0 !important;
+  border-right: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-bottom: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-left: 1px solid rgba(13, 59, 114, 0.05) !important;
+  border-radius: 0 !important;
+  color: #0d3b72 !important;
+  background: #eaf3ff !important;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: left;
+  vertical-align: middle;
+}
+body:has(#Menu_Item_ID[value="361"]):has(#Form_ID[value="1523"]) #fs7495 #sortablegrid7495 > tbody > tr > td {
+  padding: 9px 10px !important;
+  border: 0 !important;
+  border-bottom: 1px solid rgba(15, 57, 95, 0.09) !important;
+  color: #0d3b72;
+  background: #ffffff !important;
+  font-size: 13px;
+  text-align: left !important;
+  vertical-align: middle;
+  overflow-wrap: anywhere;
+}
+body:has(#Menu_Item_ID[value="361"]):has(#Form_ID[value="1523"]) #fs7495 #sortablegrid7495 > tbody > tr:nth-of-type(even) > td {
+  background: #f7faff !important;
+}
+body:has(#Menu_Item_ID[value="361"]):has(#Form_ID[value="1523"]) #fs7495 #sortablegrid7495 > tbody > tr:last-child > td {
+  border-bottom: 0 !important;
+}
+body:has(#Menu_Item_ID[value="361"]):has(#Form_ID[value="1523"]) #fs7495 #sortablegrid7495 .btn {
+  min-height: 34px;
+  margin: 0 !important;
+  padding: 7px 10px !important;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 700;
+}
+body:has(#Menu_Item_ID[value="361"]):has(#Form_ID[value="1523"]) #fs7495 #sortablegrid7495 > tfoot > tr > td:has(> input[type=button][value="Print (Export to PDF)"]) {
+  padding: 14px 12px !important;
+  border: 0 !important;
+  border-top: 1px solid rgba(15, 57, 95, 0.12) !important;
+  background: #f7faff !important;
+  text-align: center !important;
+}
+body:has(#Menu_Item_ID[value="361"]):has(#Form_ID[value="1523"]) #fs7495 #sortablegrid7495 > tfoot input[type=button][value="Print (Export to PDF)"],
+body:has(#Menu_Item_ID[value="361"]):has(#Form_ID[value="1523"]) #fs7495 #sortablegrid7495 > tfoot input[type=button][value="Open in Excel"] {
+  min-height: 40px;
+  margin: 0 6px !important;
+  padding: 10px 12px !important;
+  border: 1px solid rgba(13, 59, 114, 0.2) !important;
+  border-radius: 10px !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+  box-shadow: 0 3px 8px rgba(13, 31, 54, 0.08) !important;
+}
+body:has(#Menu_Item_ID[value="361"]):has(#Form_ID[value="1523"]) #fs7495 #sortablegrid7495 > tfoot input[type=button][value="Print (Export to PDF)"] {
+  color: #ffffff !important;
+  background: linear-gradient(180deg, #1b6eb8 0%, #2783d1 100%) !important;
+}
+body:has(#Menu_Item_ID[value="361"]):has(#Form_ID[value="1523"]) #fs7495 #sortablegrid7495 > tfoot input[type=button][value="Open in Excel"] {
+  color: #0d3b72 !important;
+  background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%) !important;
 }
 @media (max-width: 767px) {
   body:has(#Menu_Item_ID[value="361"]):has(#Form_ID[value="1523"]) #fs7494,
@@ -25301,7 +25366,7 @@ body:has(#Menu_Item_ID[value="361"]):has(#Form_ID[value="1523"]) #fs7495 #sortab
   body:has(#Menu_Item_ID[value="361"]):has(#Form_ID[value="1523"]) #sortablegrid7495 > tbody > tr > td:nth-child(3)::before,
   body:has(#Menu_Item_ID[value="361"]):has(#Form_ID[value="1523"]) #sortablegrid7495 > tbody > tr > td:nth-child(5)::before,
   body:has(#Menu_Item_ID[value="361"]):has(#Form_ID[value="1523"]) #sortablegrid7495 > tbody > tr > td:nth-child(10)::before {
-    flex: 0 0 65px;
+    flex: 0 0 48px;
     color: #184a8a;
     font-size: 10px;
     font-weight: 800;

@@ -5,7 +5,24 @@
 body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="324"]) {
   --member-balance-border: rgba(15, 57, 95, 0.16);
 
-  .page-title { width: 100%; margin: 0 auto 16px !important; padding: 10px 20px 0; box-sizing: border-box; color: $navy-700; text-align: left !important; }
+  .page-title {
+    width: 100%;
+    margin: 0 auto 16px !important;
+    padding: 10px 20px 0;
+    box-sizing: border-box;
+    color: $navy-700;
+    text-align: left !important;
+
+    &::after {
+      content: "Review each member's current account balance.";
+      display: block;
+      margin-top: 4px;
+      color: $text-mid;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 1.4;
+    }
+  }
 
   #fs960 {
     margin: 0 0 20px !important;
@@ -19,18 +36,13 @@ body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="324"]) {
   #fs961 {
     margin-bottom: 20px !important;
 
+    @include list-toolbar-shell(
+      $border: 1px solid var(--member-balance-border),
+      $border-radius: 0
+    );
+
     .center-block.table-responsive { width: 100% !important; max-width: 100% !important; margin: 0 !important; overflow-x: auto; }
-    #sortablegrid961 { width: 100% !important; min-width: 940px; margin: 0; overflow: hidden; border: 1px solid var(--member-balance-border) !important; border-collapse: separate !important; border-spacing: 0; border-radius: 0 !important; background: #ffffff; }
-    #sortablegrid961 > thead > tr > th { padding: 11px 12px !important; border: 0 !important; border-right: 1px solid rgba(13, 59, 114, 0.05) !important; border-bottom: 1px solid rgba(13, 59, 114, 0.05) !important; border-left: 1px solid rgba(13, 59, 114, 0.05) !important; border-radius: 0 !important; color: $text-dark !important; background: #eaf3ff !important; font-size: 13px; font-weight: 700; text-align: left; vertical-align: middle; }
-    #sortablegrid961 > tbody > tr > td { padding: 9px 10px !important; border: 0 !important; border-bottom: 1px solid rgba(15, 57, 95, 0.09) !important; color: $text-dark; background: #ffffff !important; font-size: 13px; text-align: left !important; vertical-align: middle; overflow-wrap: anywhere; }
-    #sortablegrid961 > tbody > tr:nth-of-type(even) > td { background: #f7faff !important; }
-    #sortablegrid961 > tbody > tr:last-child > td { border-bottom: 0 !important; }
-    #sortablegrid961 .btn { min-height: 34px; margin: 0 !important; padding: 7px 10px !important; border-radius: 5px; font-size: 12px; font-weight: 700; }
-    #sortablegrid961 > tfoot > tr > td:has(> input[type="button"][value="Print (Export to PDF)"]) { padding: 14px 12px !important; border: 0 !important; border-top: 1px solid rgba(15, 57, 95, 0.12) !important; background: #f7faff !important; text-align: center !important; }
-    #sortablegrid961 > tfoot input[type="button"][value="Print (Export to PDF)"],
-    #sortablegrid961 > tfoot input[type="button"][value="Open in Excel"] { min-height: 40px; margin: 0 6px !important; padding: 10px 12px !important; border: 1px solid rgba(13, 59, 114, 0.2) !important; border-radius: 10px !important; font-size: 13px !important; font-weight: 700 !important; line-height: 1.2 !important; box-shadow: 0 3px 8px rgba(13, 31, 54, 0.08) !important; }
-    #sortablegrid961 > tfoot input[type="button"][value="Print (Export to PDF)"] { color: #ffffff !important; background: linear-gradient(180deg, #1b6eb8 0%, #2783d1 100%) !important; }
-    #sortablegrid961 > tfoot input[type="button"][value="Open in Excel"] { color: $text-dark !important; background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%) !important; }
+    #sortablegrid961 { width: 100% !important; min-width: 940px; }
   }
 
   @media (max-width: 767px) {
@@ -58,7 +70,7 @@ body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="324"]) {
     #sortablegrid961 > tbody > tr > td:nth-child(4)::before,
     #sortablegrid961 > tbody > tr > td:nth-child(5)::before,
     #sortablegrid961 > tbody > tr > td:nth-child(6)::before,
-    #sortablegrid961 > tbody > tr > td:nth-child(7)::before { flex: 0 0 48px; color: $navy-700; font-size: 10px; font-weight: 800; line-height: 1.3; text-align: right; text-transform: uppercase; }
+    #sortablegrid961 > tbody > tr > td:nth-child(7)::before { flex: 0 0 52px; color: $navy-700; font-size: 10px; font-weight: 800; line-height: 1.3; text-align: right; text-transform: uppercase; }
     #sortablegrid961 > tbody > tr > td:nth-child(2)::before { content: "Type"; }
     #sortablegrid961 > tbody > tr > td:nth-child(4)::before { content: "Den"; }
     #sortablegrid961 > tbody > tr > td:nth-child(5)::before { content: "Name"; }

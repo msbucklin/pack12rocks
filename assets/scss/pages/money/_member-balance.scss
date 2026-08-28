@@ -78,7 +78,7 @@ body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="325"]) {
     #sortablegrid964 > tbody > tr > td:nth-child(3)::before,
     #sortablegrid964 > tbody > tr > td:nth-child(4)::before,
     #sortablegrid964 > tbody > tr > td:nth-child(5)::before,
-    #sortablegrid964 > tbody > tr > td:nth-child(6)::before { flex: 0 0 48px; color: $navy-700; font-size: 10px; font-weight: 800; line-height: 1.3; text-align: right; text-transform: uppercase; }
+    #sortablegrid964 > tbody > tr > td:nth-child(6)::before { flex: 0 0 52px; color: $navy-700; font-size: 10px; font-weight: 800; line-height: 1.3; text-align: right; text-transform: uppercase; }
     #sortablegrid964 > tbody > tr > td:nth-child(2)::before { content: "Date"; }
     #sortablegrid964 > tbody > tr > td:nth-child(3)::before { content: "Type"; }
     #sortablegrid964 > tbody > tr > td:nth-child(4)::before { content: "Description"; }

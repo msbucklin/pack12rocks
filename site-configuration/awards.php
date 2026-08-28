@@ -493,7 +493,7 @@ Awards
         <input class="btn btn-sm btn-info" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="110" id="BUTTON0" type="button" name="query" title="Modify the selection criteria for this list" value="Query" onclick="buttonlink(this,'N');">
         </span>
         <span style="display:inline;">
-        <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="120" id="BUTTON1" type="button" name="add" title="Add a new row to this table" value="Add a New Item" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=0&amp;Stack=3','');">
+        <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="120" id="BUTTON1" type="button" name="add" title="Add a new row to this table" value="Add a New Item" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=0&amp;Stack=3','');">
         </span>
         <span style="display:inline;">
         <input class="btn btn-sm btn-info" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="130" id="BUTTON2" type="button" name="save continue" title="Delete Unused Awards" value="Delete Unused Awards" onclick="buttonlink(this,'N');">
@@ -552,7 +552,7 @@ Rows Per Page:
               <tbody>
               <tr>
                 <td class="text-center " id="TD7402ROW0DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="150" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=233&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="150" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=233&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW0DATA29328">
                   50-Miler Award
@@ -569,7 +569,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW1DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="170" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=234&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="170" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=234&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW1DATA29328">
                   Alumni Award
@@ -586,7 +586,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW2DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="190" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=235&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="190" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=235&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW2DATA29328">
                   Asian American Spirit of Scouting Service Award
@@ -603,7 +603,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW3DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="210" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=236&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="210" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=236&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW3DATA29328">
                   Community Organization Award
@@ -620,7 +620,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW4DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="230" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=237&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="230" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=237&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW4DATA29328">
                   Cub Scout Den Leader Award
@@ -637,7 +637,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW5DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="250" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=238&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="250" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=238&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW5DATA29328">
                   Cub Scout Nova Award - 1-2-3 Go!
@@ -654,7 +654,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW6DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="270" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=239&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="270" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=239&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW6DATA29328">
                   Cub Scout Nova Award - Down and Dirty
@@ -671,7 +671,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW7DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="290" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=240&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="290" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=240&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW7DATA29328">
                   Cub Scout Nova Award - Fearful Symmetry
@@ -688,7 +688,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW8DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="310" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=241&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="310" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=241&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW8DATA29328">
                   Cub Scout Nova Award - Nova WILD!
@@ -705,7 +705,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW9DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="330" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=242&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="330" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=242&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW9DATA29328">
                   Cub Scout Nova Award - Out of This World
@@ -722,7 +722,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW10DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="350" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=243&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="350" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=243&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW10DATA29328">
                   Cub Scout Nova Award - Science Everywhere
@@ -739,7 +739,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW11DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="370" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=244&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="370" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=244&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW11DATA29328">
                   Cub Scout Nova Award - Swing!
@@ -756,7 +756,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW12DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="390" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=245&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="390" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=245&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW12DATA29328">
                   Cub Scout Nova Award - Tech Talk
@@ -773,7 +773,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW13DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="410" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=246&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="410" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=246&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW13DATA29328">
                   Cub Scout Nova Award - Uncovering the Past
@@ -790,7 +790,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW14DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="430" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=247&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="430" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=247&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW14DATA29328">
                   Cub Scout Outdoor Activity Award v2015 (Bear)
@@ -807,7 +807,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW15DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="450" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=248&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="450" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=248&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW15DATA29328">
                   Cub Scout Outdoor Activity Award v2015 (Tiger)
@@ -824,7 +824,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW16DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="470" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=249&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="470" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=249&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW16DATA29328">
                   Cub Scout Outdoor Activity Award v2015 (Webelos)
@@ -841,7 +841,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW17DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="490" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=250&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="490" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=250&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW17DATA29328">
                   Cub Scout Outdoor Activity Award v2015 (Wolf)
@@ -858,7 +858,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW18DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="510" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=251&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="510" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=251&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW18DATA29328">
                   Cub Scout Supernova Award
@@ -875,7 +875,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW19DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="530" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=252&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="530" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=252&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW19DATA29328">
                   Cub Scout World Conservation Award v2015 (Bear)
@@ -892,7 +892,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW20DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="550" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=253&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="550" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=253&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW20DATA29328">
                   Cub Scout World Conservation Award v2015 (Webelos)
@@ -909,7 +909,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW21DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="570" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=254&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="570" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=254&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW21DATA29328">
                   Cub Scout World Conservation Award v2015 (Wolf)
@@ -926,7 +926,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW22DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="590" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=255&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="590" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=255&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW22DATA29328">
                   Cub Scouting's Leave No Trace Awareness Award (for Leaders)
@@ -943,7 +943,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW23DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="610" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=256&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="610" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=256&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW23DATA29328">
                   District Award of Merit
@@ -960,7 +960,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW24DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="630" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=257&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="630" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=257&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW24DATA29328">
                   Eagle Scout NESA Life Membership Award
@@ -977,7 +977,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW25DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="650" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=258&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="650" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=258&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW25DATA29328">
                   Emergency Preparedness Award
@@ -994,7 +994,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW26DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="670" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=259&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="670" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=259&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW26DATA29328">
                   Emergency Preparedness BSA (Bear)
@@ -1011,7 +1011,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW27DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="690" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=260&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="690" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=260&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW27DATA29328">
                   Emergency Preparedness BSA (Tiger)
@@ -1028,7 +1028,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW28DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="710" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=261&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="710" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=261&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW28DATA29328">
                   Emergency Preparedness BSA (Webelos)
@@ -1045,7 +1045,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW29DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="730" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=262&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="730" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=262&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW29DATA29328">
                   Emergency Preparedness BSA (Wolf)
@@ -1062,7 +1062,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW30DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="750" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=263&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="750" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=263&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW30DATA29328">
                   Heroism Award
@@ -1079,7 +1079,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW31DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="770" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=264&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="770" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=264&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW31DATA29328">
                   Historic Trails Award
@@ -1096,7 +1096,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW32DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="790" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=265&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="790" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=265&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW32DATA29328">
                   Honor Medal
@@ -1113,7 +1113,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW33DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="810" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=266&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="810" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=266&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW33DATA29328">
                   International Scouter
@@ -1130,7 +1130,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW34DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="830" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=267&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="830" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=267&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW34DATA29328">
                   International Spirit Award - Youth
@@ -1147,7 +1147,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW35DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="850" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=268&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="850" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=268&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW35DATA29328">
                   Interpreter Strip
@@ -1164,7 +1164,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW36DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="870" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=269&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="870" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=269&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW36DATA29328">
                   James E. West Fellowship Award
@@ -1181,7 +1181,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW37DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="890" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=270&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="890" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=270&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW37DATA29328">
                   Medal of Merit
@@ -1198,7 +1198,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW38DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="910" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=271&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="910" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=271&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW38DATA29328">
                   Messengers of Peace
@@ -1215,7 +1215,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW39DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="930" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=272&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="930" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=272&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW39DATA29328">
                   National Summertime Pack Award pin (Bear)
@@ -1232,7 +1232,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW40DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="950" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=273&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="950" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=273&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW40DATA29328">
                   National Summertime Pack Award pin (Tiger Cub)
@@ -1249,7 +1249,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW41DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="970" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=274&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="970" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=274&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW41DATA29328">
                   National Summertime Pack Award pin (Webelos)
@@ -1266,7 +1266,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW42DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="990" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=275&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="990" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=275&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW42DATA29328">
                   National Summertime Pack Award pin (Wolf)
@@ -1283,7 +1283,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW43DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1010" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=276&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1010" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=276&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW43DATA29328">
                   NOVA Cub Scouts Emblem
@@ -1300,7 +1300,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW44DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1030" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=277&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1030" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=277&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW44DATA29328">
                   NOVA Pi Device
@@ -1317,7 +1317,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW45DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1050" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=278&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1050" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=278&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW45DATA29328">
                   Order of the Arrow Distinguished Service Award
@@ -1334,7 +1334,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW46DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1070" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=279&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1070" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=279&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW46DATA29328">
                   Outdoor Ethics Action Award (Cub Scout)
@@ -1351,7 +1351,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW47DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1090" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=280&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1090" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=280&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW47DATA29328">
                   Outdoor Ethics Awareness Award (Cub Scout)
@@ -1368,7 +1368,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW48DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1110" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=281&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1110" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=281&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW48DATA29328">
                   Recruiter Strip
@@ -1385,7 +1385,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW49DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1130" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=282&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1130" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=282&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW49DATA29328">
                   Religious emblem - Adult
@@ -1402,7 +1402,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW50DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1150" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=283&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1150" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=283&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW50DATA29328">
                   Religious emblem - Youth
@@ -1419,7 +1419,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW51DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1170" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=284&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1170" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=284&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW51DATA29328">
                   Scouter's Key
@@ -1436,7 +1436,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW52DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1190" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=285&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1190" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=285&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW52DATA29328">
                   Scouter's Training Award
@@ -1453,7 +1453,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW53DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1210" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=286&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1210" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=286&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW53DATA29328">
                   Scouting ... Vale la Pena! Service Award
@@ -1470,7 +1470,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW54DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1230" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=287&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1230" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=287&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW54DATA29328">
                   SCOUTStrong Be MedWise (CS)
@@ -1487,7 +1487,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW55DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1250" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=288&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1250" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=288&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW55DATA29328">
                   SCOUTStrong PALA Challenge (Cub Scouts)
@@ -1504,7 +1504,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW56DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1270" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=289&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1270" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=289&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW56DATA29328">
                   SCOUTStrong USA Triathlon (CS)
@@ -1521,7 +1521,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW57DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1290" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=290&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1290" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=290&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW57DATA29328">
                   Shooting Sports Award - Bear
@@ -1538,7 +1538,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW58DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1310" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=291&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1310" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=291&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW58DATA29328">
                   Shooting Sports Award - Tiger
@@ -1555,7 +1555,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW59DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1330" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=292&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1330" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=292&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW59DATA29328">
                   Shooting Sports Award - Webelos
@@ -1572,7 +1572,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW60DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1350" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=293&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1350" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=293&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW60DATA29328">
                   Shooting Sports Award - Wolf
@@ -1589,7 +1589,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW61DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1370" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=294&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1370" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=294&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW61DATA29328">
                   Shooting Sports Pin - Bear Archery
@@ -1606,7 +1606,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW62DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1390" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=295&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1390" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=295&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW62DATA29328">
                   Shooting Sports Pin - Bear BB Gun
@@ -1623,7 +1623,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW63DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1410" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=296&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1410" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=296&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW63DATA29328">
                   Shooting Sports Pin - Bear Slingshot
@@ -1640,7 +1640,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW64DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1430" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=297&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1430" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=297&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW64DATA29328">
                   Shooting Sports Pin - Tiger Archery
@@ -1657,7 +1657,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW65DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1450" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=298&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1450" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=298&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW65DATA29328">
                   Shooting Sports Pin - Tiger BB Gun
@@ -1674,7 +1674,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW66DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1470" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=299&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1470" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=299&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW66DATA29328">
                   Shooting Sports Pin - Tiger Slingshot
@@ -1691,7 +1691,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW67DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1490" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=300&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1490" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=300&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW67DATA29328">
                   Shooting Sports Pin - Webelos Archery
@@ -1708,7 +1708,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW68DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1510" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=301&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1510" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=301&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW68DATA29328">
                   Shooting Sports Pin - Webelos BB Gun
@@ -1725,7 +1725,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW69DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1530" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=302&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1530" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=302&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW69DATA29328">
                   Shooting Sports Pin - Webelos Slingshot
@@ -1742,7 +1742,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW70DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1550" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=303&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1550" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=303&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW70DATA29328">
                   Shooting Sports Pin - Wolf Archery
@@ -1759,7 +1759,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW71DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1570" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=304&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1570" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=304&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW71DATA29328">
                   Shooting Sports Pin - Wolf BB Gun
@@ -1776,7 +1776,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW72DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1590" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=305&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1590" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=305&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW72DATA29328">
                   Shooting Sports Pin - Wolf Slingshot
@@ -1793,7 +1793,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW73DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1610" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=306&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1610" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=306&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW73DATA29328">
                   Silver Antelope Award
@@ -1810,7 +1810,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW74DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1630" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=307&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1630" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=307&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW74DATA29328">
                   Silver Beaver Award
@@ -1827,7 +1827,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW75DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1650" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=308&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1650" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=308&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW75DATA29328">
                   Silver Buffalo Award
@@ -1844,7 +1844,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW76DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1670" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=309&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1670" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=309&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW76DATA29328">
                   Unit Leader Award of Merit
@@ -1861,7 +1861,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW77DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1690" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=310&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1690" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=310&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW77DATA29328">
                   Webelos Scout Supernova Award
@@ -1878,7 +1878,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW78DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1710" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=311&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1710" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=311&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW78DATA29328">
                   Whitney M. Young Jr. Award
@@ -1895,7 +1895,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW79DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1730" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=312&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1730" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=312&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW79DATA29328">
                   Whittling Chip
@@ -1912,7 +1912,7 @@ Rows Per Page:
               </tr>
               <tr>
                 <td class="text-center " id="TD7402ROW80DATA29326">
-                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1750" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=313&amp;Stack=3','');">
+                  <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1750" id="BUTTON7" type="button" name="update" title="Update the information in this row" value="Update" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=313&amp;Stack=3','');">
                 </td>
                 <td class="text-left " id="TD7402ROW80DATA29328">
                   William D. Boyce New-Unit Organizer Award
@@ -1966,7 +1966,7 @@ Rows Per Page:
         <input class="btn btn-sm btn-info" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1770" id="BUTTON0" type="button" name="query" title="Modify the selection criteria for this list" value="Query" onclick="buttonlink(this,'N');">
         </span>
         <span style="display:inline;">
-        <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1780" id="BUTTON1" type="button" name="add" title="Add a new row to this table" value="Add a New Item" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=399&amp;Form_ID=1497&amp;FK=0&amp;ID=0&amp;Stack=3','');">
+        <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1780" id="BUTTON1" type="button" name="add" title="Add a new row to this table" value="Add a New Item" onclick="LinkTo('/site-configuration/awards-add.php?Form_ID=1497&amp;FK=0&amp;ID=0&amp;Stack=3','');">
         </span>
         <span style="display:inline;">
         <input class="btn btn-sm btn-info" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="1790" id="BUTTON2" type="button" name="save continue" title="Delete Unused Awards" value="Delete Unused Awards" onclick="buttonlink(this,'N');">

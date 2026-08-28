@@ -269,11 +269,15 @@ body:has(#Menu_Item_ID[value="308"]):has(#Form_ID[value="333"]) {
     }
     #sortablegrid1008 tfoot td {
       padding: 12px 0 !important;
-      background: transparent;
+      border-top: 0 !important;
+      background: #ffffff !important;
+      font-size: 0;
     }
     #sortablegrid1008 tfoot input[type="button"] {
-      width: 100%;
-      margin: 0 0 8px;
+      display: inline-block;
+      width: calc(50% - 6px);
+      margin: 0 3px !important;
+      font-size: 12px;
     }
   }
 }

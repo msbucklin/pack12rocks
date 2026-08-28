@@ -2,10 +2,57 @@
 // Training Courses - Add
 // -----------------------------------------------------------------------------
 
-#fs7217 {
+body:has(#Menu_Item_ID[value="398"]):has(#Form_ID[value="1445"]) {
+  .page-title::after {
+    display: block;
+    max-width: 680px;
+    margin-top: 8px;
+    color: $text-mid;
+    content: "Add the course details, expiration requirements, and supporting information.";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+
+  #fs7218 {
+    margin-top: 20px !important;
+  }
+
+  #fs7217 {
   @include detail-form-shell;
   @include detail-form-table-labels;
   @include detail-form-stacked-mobile;
+
+  input.form-control,
+  select.form-control {
+    min-height: 40px;
+  }
+
+  input[type="file"].form-control {
+    padding: 6px 10px !important;
+  }
+
+  input[type="file"].form-control::file-selector-button {
+    margin-right: 12px;
+    padding: 7px 12px;
+    border: 0;
+    border-radius: 4px;
+    background: $navy-700;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+  input[type="file"].form-control::-webkit-file-upload-button {
+    margin-right: 12px;
+    padding: 7px 12px;
+    border: 0;
+    border-radius: 4px;
+    background: $navy-700;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+  }
 
   @media (max-width: 767px) {
     input[type="checkbox"],
@@ -27,5 +74,6 @@
       display: inline-block;
       vertical-align: middle;
     }
+  }
   }
 }
