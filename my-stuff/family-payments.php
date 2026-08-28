@@ -17,10 +17,11 @@
 </style>
 <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap_override_v11.css">
 <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap_override_colors_Cub_Scouts.css">
-<script type="text/javascript" async="" charset="utf-8" src="https://www.gstatic.com/recaptcha/releases/XOqlk8PL_yVx6IdpLbpXdiLy/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-5gTdLl6IS0Y6zKiLKimmhaY3IOLosQFpvj9Tvt9s2RAiKLtLUEWOP5N8mtHLNUzF"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://ogo.blob.core.windows.net/cspack12austin/bootstrap_override_pack12_v23_202682781617853727410.css">
+<script type="text/javascript" async="" charset="utf-8" src="https://www.gstatic.com/recaptcha/releases/GY0lZUzQQgeA0wDxVI-SQEZw/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-NChJ2cXgODPp5agrUf6ahapDln/pkXyyqTB9Bce/aSQACS3OlLS1j3sKya1lVM+n"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="https://www.google.com/recaptcha/api.js"></script>
-<script language="JavaScript" src="/assets/js/PaymentCollectorV2.js">
+<script language="JavaScript" src="/assets/js/soapclient.js">
 </script>
 <script type="text/javascript" src="/assets/js/sortableV2.js">
 </script>
@@ -297,7 +298,7 @@
 <input type="hidden" name="Hover_Action" id="Hover_Action" value="">
 <input type="hidden" name="Selected_Button_ID" id="Selected_Button_ID" value="">
 <input type="hidden" name="Menu_Item_ID" id="Menu_Item_ID" value="308">
-<input type="hidden" name="Form_ID" id="Form_ID" value="333">
+<input type="hidden" name="Form_ID" id="Form_ID" value="1520">
 <input type="hidden" name="Link_To_Menu_Item_ID" id="Link_To_Menu_Item_ID" value="">
 <input type="hidden" name="Pass" id="Pass" value="1">
 <input type="hidden" name="Stack" id="Stack" value="1">
@@ -305,7 +306,7 @@
 <input type="hidden" name="NewRowsPerPage" id="NewRowsPerPage" value="">
 <input type="hidden" name="ChildRowID" id="ChildRowID" value="0">
 <input type="hidden" name="Report_Format" id="Report_Format" value="">
-<input type="hidden" name="Current_URL" id="Current_URL" value="https://www.troopwebhostcs.org/FormList.aspx?Menu_Item_ID=308&amp;Stack=1">
+<input type="hidden" name="Current_URL" id="Current_URL" value="https://www.troopwebhostcs.org/FormList.aspx?Menu_Item_ID=308&amp;Form_ID=1520&amp;Stack=1&amp;ID=0&amp;FK=0">
 <a href="javascript:togglemenu();">
 <div class="navicon" style="width:64px;">
   <table>
@@ -322,22 +323,22 @@
     <td style="width:76px;">
     </td>
     <td style="padding:4px;">
-      <a href="#" class="navlink nav-home-link" onclick="LinkTo('/home/home.php','_top')">Pack 12 Austin</a>
+      <a href="#" class="navlink nav-home-link" onclick="LinkTo('Pack12Austin/Index.htm','_top')">Pack 12 Austin</a>
     </td>
     <td class="quickmenu1">
       <table>
         <tbody><tr>
           <td class="navlink">
-            <a href="javascript:LinkTo('FormDetail.aspx?Menu_Item_ID=409&amp;Stack=1','');">Site Appearance</a>
-          </td>
-          <td class="navlink">
             <a href="javascript:LinkTo('FormList.aspx?Menu_Item_ID=318&amp;Stack=1','');">Calendar</a>
           </td>
           <td class="navlink">
-            <a href="javascript:LinkTo('formCustom.aspx?Menu_Item_ID=5788&amp;Stack=0','');">Membership Hub</a>
+            <a href="javascript:LinkTo('FormList.aspx?Menu_Item_ID=343&amp;Stack=1','');">Users &amp; Passwords</a>
           </td>
           <td class="navlink">
-            <a href="javascript:LinkTo('FormList.aspx?Menu_Item_ID=343&amp;Stack=1','');">Users &amp; Passwords</a>
+            <a href="javascript:LinkTo('FormDetail.aspx?Menu_Item_ID=3201&amp;Stack=0','');">TroopWebHost Administrative Contacts</a>
+          </td>
+          <td class="navlink">
+            <a href="javascript:LinkTo('FormDetail.aspx?Menu_Item_ID=305&amp;Stack=1','');">My Contact Information</a>
           </td>
         </tr>
       </tbody></table>
@@ -362,16 +363,16 @@
       <table>
         <tbody><tr>
           <td class="navlink">
-            <a href="javascript:LinkTo('FormDetail.aspx?Menu_Item_ID=409&amp;Stack=1','');">Site Appearance</a>
-          </td>
-          <td class="navlink">
             <a href="javascript:LinkTo('FormList.aspx?Menu_Item_ID=318&amp;Stack=1','');">Calendar</a>
           </td>
           <td class="navlink">
-            <a href="javascript:LinkTo('formCustom.aspx?Menu_Item_ID=5788&amp;Stack=0','');">Membership Hub</a>
+            <a href="javascript:LinkTo('FormList.aspx?Menu_Item_ID=343&amp;Stack=1','');">Users &amp; Passwords</a>
           </td>
           <td class="navlink">
-            <a href="javascript:LinkTo('FormList.aspx?Menu_Item_ID=343&amp;Stack=1','');">Users &amp; Passwords</a>
+            <a href="javascript:LinkTo('FormDetail.aspx?Menu_Item_ID=3201&amp;Stack=0','');">TroopWebHost Administrative Contacts</a>
+          </td>
+          <td class="navlink">
+            <a href="javascript:LinkTo('FormDetail.aspx?Menu_Item_ID=305&amp;Stack=1','');">My Contact Information</a>
           </td>
         </tr>
       </tbody></table>
@@ -417,7 +418,7 @@
 </div>
 <div id="helpmenu" class="navtools">
   <ul class="list-group">
-  <li class="list-group-item"><a href="Help.aspx?ID=37" target="_blank">User Guide</a></li>
+  <li class="list-group-item"><a href="Help.aspx?ID=215" target="_blank">User Guide</a></li>
   <li class="list-group-item"><a href="https://www.youtube.com/playlist?list=PL4bC-UY63jygEqBauW0Ofz9FJBWsPkphf" target="_blank">Mobile App Tutorials</a></li>
   <li class="list-group-item"><a href="FormList.aspx?Form_ID=3937&amp;Stack=0&amp;Menu_Item_ID=308">TroopWebHost User Forum</a></li>
   <li class="list-group-item"><a href="FormList.aspx?Form_ID=3948&amp;Stack=0&amp;Menu_Item_ID=308">Enhancement Requests</a></li>
@@ -438,9 +439,9 @@
         <br><br>
         Copyright&nbsp; 2026 &nbsp;Web Host Services LLC
         <br><br>
-        The current user is:&nbsp; &nbsp; MBucklin796
+        The current user is:&nbsp; &nbsp; mbucklin2
         <br><br>
-        The URL for this page is:&nbsp; &nbsp; https://www.troopwebhostcs.org/FormList.aspx?Menu_Item_ID=308&amp;Stack=1&amp;Application_ID=2840
+        The URL for this page is:&nbsp; &nbsp; https://www.troopwebhostcs.org/FormList.aspx?Menu_Item_ID=308&amp;Form_ID=1520&amp;Stack=1&amp;ID=0&amp;FK=0&amp;Application_ID=2840
       </div>
     </div>
   </div>
@@ -484,15 +485,12 @@ My Family
 </p>
 <input type="hidden" name="FK" id="FK" value="0">
 <input type="hidden" name="ID" id="ID" value="0">
-<div class="new-row" id="fs15956">
+<div class="new-row" id="fs7485">
   <div class="container-fluid container-flex">
     <div class="center-block">
       <div class="text-center">
         <span style="display:inline;">
-        <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="110" id="BUTTON0" type="button" name="add" title="Transfer Money Between Accounts" value="Transfer Money Between Accounts" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=308&amp;Form_ID=3960&amp;FK=0&amp;ID=0&amp;Stack=2','');">
-        </span>
-        <span style="display:inline;">
-        <input class="btn btn-sm btn-info" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="120" id="BUTTON1" type="button" name="save continue" title="Make On-Line Payments" value="Make On-Line Payments" onclick="LinkTo('/my-stuff/family-payments.php','');">
+        <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="110" id="BUTTON0" type="button" name="add" title="Begin a New Payment" value="Begin a New Payment" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=308&amp;Form_ID=6244&amp;FK=0&amp;ID=0&amp;Stack=2','');">
         </span>
         <span style="display:inline;">
         </span>
@@ -500,111 +498,81 @@ My Family
     </div>
   </div>
 </div>
-<div class="new-row" id="fs1008">
+<div class="new-row" id="fs7487">
+  <div class="container-fluid container-flex">
+    <div class="center-block " style="max-width: 800px; min-width: 200px;">
+      <h3>
+      Pay On-Line
+      </h3>
+      <p>
+      This page shows the status of all on-line payments that you started in the past week.
+      </p>
+      <p>
+      The money will only be deposited into your account if you complete the payment process successfully.
+      </p>
+    </div>
+  </div>
+</div>
+<div class="new-row" id="fs7486">
   <div class="container-fluid container-flex">
     <div class="center-block table-responsive">
-      <table class="table-striped table-bordered table-condensed table-curved sortable" id="sortablegrid1008">
+      <table class="table-striped table-bordered table-condensed table-curved sortable" id="sortablegrid7486">
         <thead>
         <tr>
-          <input type="hidden" name="ROWCOUNTCB1008" id="ROWCOUNTCB1008" value="3">
-          <th class="unsortable">
-          &nbsp;
+          <input type="hidden" name="ROWCOUNTCB7486" id="ROWCOUNTCB7486" value="0">
+          <th>
+          Submitted
           </th>
-          <th><a href="#" class="sortheader" onclick="ts_resortTable(this, 1);return false;">Name<span class="sortarrow"><img border="0" src="1.gif" alt="↓"></span></a></th>
-          <th class="unsortable">
-          &nbsp;
+          <th>
+          Paid By
           </th>
-          <th><a href="#" class="sortheader" onclick="ts_resortTable(this, 3);return false;">Balance<span class="sortarrow"><img border="0" src="1.gif" alt="↓"></span></a></th>
-          <th class="unsortable">
-          &nbsp;
+          <th>
+          Recipient
           </th>
-          <th class="unsortable">
-          &nbsp;
+          <th>
+          Deposit To Account (estimated)
           </th>
-          <th class="unsortable">
-          &nbsp;
+          <th>
+          Estimated Fee
+          </th>
+          <th>
+          Total Payment
+          </th>
+          <th>
+          Current Status
+          </th>
+          <th>
+          Processing Fee
+          </th>
+          <th>
+          Final Net Deposit
+          </th>
+          <th>
+          Reference Key
           </th>
         </tr>
         </thead>
         <tbody>
         <tr>
-          <td class="text-center " id="TD1008ROW0DATA4733">
-            <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="130" id="BUTTON3" type="button" name="update" title="Contact Information" value="Contact Information" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=308&amp;Form_ID=1490&amp;FK=0&amp;ID=964&amp;Stack=2','');">
-          </td>
-          <td class="text-center " id="TD1008ROW0DATA4735">
-            Bucklin, Emmett
-          </td>
-          <td class="text-center " id="TD1008ROW0DATA5317">
-            <input class="btn btn-sm btn-info" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="140" id="BUTTON5" type="button" name="save continue" title="Account Detail" value="Account Detail" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=308&amp;Form_ID=2048&amp;FK=0&amp;ID=964&amp;Stack=2','');">
-          </td>
-          <td class="text-center " id="TD1008ROW0DATA4743">
-            0.00
-          </td>
-          <td class="text-center " id="TD1008ROW0DATA43472">
-            <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="150" id="BUTTON7" type="button" name="update" title="Fundraisers" value="Fundraisers" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=308&amp;Form_ID=3094&amp;FK=0&amp;ID=964&amp;Stack=2','');">
-          </td>
-          <td class="text-center " id="TD1008ROW0DATA38622">
-            <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="160" id="BUTTON8" type="button" name="update" title="Achievements" value="Achievements" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=308&amp;Form_ID=2424&amp;FK=0&amp;ID=964&amp;Stack=2','');">
-          </td>
-          <td class="text-center " id="TD1008ROW0DATA6288">
-            <input class="btn btn-sm btn-info" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="170" id="BUTTON9" type="button" name="save continue" title="Awards" value="Awards" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=308&amp;Form_ID=424&amp;FK=0&amp;ID=964&amp;Stack=2','');">
-          </td>
-        </tr>
-        <tr>
-          <td class="text-center " id="TD1008ROW1DATA4733">
-            <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="180" id="BUTTON3" type="button" name="update" title="Contact Information" value="Contact Information" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=308&amp;Form_ID=1490&amp;FK=0&amp;ID=976&amp;Stack=2','');">
-          </td>
-          <td class="text-center " id="TD1008ROW1DATA4735">
-            Bucklin, Mary
-          </td>
-          <td class="text-center " id="TD1008ROW1DATA5317">
-            <input class="btn btn-sm btn-info" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="190" id="BUTTON5" type="button" name="save continue" title="Account Detail" value="Account Detail" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=308&amp;Form_ID=2048&amp;FK=0&amp;ID=976&amp;Stack=2','');">
-          </td>
-          <td class="text-center " id="TD1008ROW1DATA4743">
-            0.00
-          </td>
-          <td class="text-center " id="TD1008ROW1DATA43472">
-            <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="200" id="BUTTON7" type="button" name="update" title="Fundraisers" value="Fundraisers" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=308&amp;Form_ID=3094&amp;FK=0&amp;ID=976&amp;Stack=2','');">
-          </td>
-          <td class="text-center " id="TD1008ROW1DATA38622">
-            <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="210" id="BUTTON8" type="button" name="update" title="Achievements" value="Achievements" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=308&amp;Form_ID=2424&amp;FK=0&amp;ID=976&amp;Stack=2','');">
-          </td>
-          <td class="text-center " id="TD1008ROW1DATA6288">
-            <input class="btn btn-sm btn-info" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="220" id="BUTTON9" type="button" name="save continue" title="Awards" value="Awards" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=308&amp;Form_ID=424&amp;FK=0&amp;ID=976&amp;Stack=2','');">
-          </td>
-        </tr>
-        <tr>
-          <td class="text-center " id="TD1008ROW2DATA4733">
-            <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="230" id="BUTTON3" type="button" name="update" title="Contact Information" value="Contact Information" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=308&amp;Form_ID=1490&amp;FK=0&amp;ID=977&amp;Stack=2','');">
-          </td>
-          <td class="text-center " id="TD1008ROW2DATA4735">
-            Bucklin, Michael
-          </td>
-          <td class="text-center " id="TD1008ROW2DATA5317">
-            <input class="btn btn-sm btn-info" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="240" id="BUTTON5" type="button" name="save continue" title="Account Detail" value="Account Detail" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=308&amp;Form_ID=2048&amp;FK=0&amp;ID=977&amp;Stack=2','');">
-          </td>
-          <td class="text-center " id="TD1008ROW2DATA4743">
-            0.00
-          </td>
-          <td class="text-center " id="TD1008ROW2DATA43472">
-            <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="250" id="BUTTON7" type="button" name="update" title="Fundraisers" value="Fundraisers" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=308&amp;Form_ID=3094&amp;FK=0&amp;ID=977&amp;Stack=2','');">
-          </td>
-          <td class="text-center " id="TD1008ROW2DATA38622">
-            <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="260" id="BUTTON8" type="button" name="update" title="Achievements" value="Achievements" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=308&amp;Form_ID=2424&amp;FK=0&amp;ID=977&amp;Stack=2','');">
-          </td>
-          <td class="text-center " id="TD1008ROW2DATA6288">
-            <input class="btn btn-sm btn-info" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="270" id="BUTTON9" type="button" name="save continue" title="Awards" value="Awards" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=308&amp;Form_ID=424&amp;FK=0&amp;ID=977&amp;Stack=2','');">
+          <td colspan="10" class="text-center">
+            no data is currently available to display
           </td>
         </tr>
         </tbody>
-        <tfoot>
-        <tr>
-          <td colspan="7" class="text-center">
-            <input type="button" value="Print (Export to PDF)" onclick="window.open('FormReport.aspx?Menu_Item_ID=308&amp;Form_ID=333&amp;Stack=1&amp;SectionID=1008&amp;ReportFormat=PDF','_blank');"> &nbsp; &nbsp; <input type="button" value="Open in Excel" onclick="window.open('FormReport.aspx?Menu_Item_ID=308&amp;Form_ID=333&amp;Stack=1&amp;SectionID=1008&amp;ReportFormat=XLS','_blank');">
-          </td>
-        </tr>
-        </tfoot>
       </table>
+    </div>
+  </div>
+</div>
+<div class="new-row">
+  <div class="container-fluid container-flex">
+    <div class="center-block">
+      <div class="text-center">
+        <span style="display:inline;">
+        <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="120" id="BUTTON0" type="button" name="add" title="Begin a New Payment" value="Begin a New Payment" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=308&amp;Form_ID=6244&amp;FK=0&amp;ID=0&amp;Stack=2','');">
+        </span>
+        <span style="display:inline;">
+        </span>
+      </div>
     </div>
   </div>
 </div>

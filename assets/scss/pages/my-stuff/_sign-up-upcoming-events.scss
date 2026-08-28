@@ -2,6 +2,202 @@
 // Sign Up Upcoming Events page styling
 // -----------------------------------------------------------------------------
 
-#DIVENTRY324169 {
-  display: none;
+body:has(#Menu_Item_ID[value="309"]):has(#Form_ID[value="218"]) {
+  #DIVENTRY324169 {
+    display: none;
+  }
+
+  input.btn[value="Sign Up"] {
+    white-space: nowrap !important;
+  }
+
+  #fs7530 .center-block.table-responsive > table:first-child {
+    width: 100% !important;
+  }
+
+  #sortablegrid7530 tfoot input[type="button"] {
+    min-height: 36px;
+    margin: 0 8px 0 0;
+    padding: 8px 12px;
+    border: 1px solid rgba(13, 59, 114, 0.22);
+    border-radius: 5px;
+    color: $navy-700;
+    background: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+
+  #sortablegrid7530 tfoot input[type="button"]:hover,
+  #sortablegrid7530 tfoot input[type="button"]:focus {
+    background: #eaf3ff;
+  }
+
+  @media (max-width: 767px) {
+    #fs7530 {
+      padding-right: 20px !important;
+      padding-left: 20px !important;
+      box-sizing: border-box;
+    }
+
+    #fs7530,
+    #fs7530 .container-fluid.container-flex,
+    #fs7530 .center-block.table-responsive {
+      border: 0 !important;
+      border-radius: 0 !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+
+    #fs7530 .center-block.table-responsive {
+      width: 100% !important;
+      min-width: 0 !important;
+      max-width: none !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      overflow-x: hidden !important;
+    }
+
+    #fs7530 .center-block.table-responsive > table,
+    #fs7530 .center-block.table-responsive > table > tbody,
+    #fs7530 .center-block.table-responsive > table > tbody > tr,
+    #fs7530 .center-block.table-responsive > table > tbody > tr > td,
+    #sortablegrid7530,
+    #sortablegrid7530 tbody {
+      display: block;
+      width: 100% !important;
+      min-width: 0 !important;
+      max-width: 100% !important;
+    }
+
+    #fs7530 .center-block.table-responsive > table:first-child {
+      width: 100% !important;
+    }
+
+    #fs7530 span.rows-per-page {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      float: none !important;
+      width: auto !important;
+      margin: 0 0 10px !important;
+      max-width: 100%;
+      color: $text-mid;
+      font-size: 12px;
+      transform: none !important;
+    }
+
+    #fs7530 select.rows-per-page {
+      width: auto !important;
+      min-height: 34px;
+      padding: 6px 30px 6px 9px !important;
+    }
+
+    #sortablegrid7530 {
+      border: 0 !important;
+      border-radius: 0 !important;
+      background: transparent;
+      box-shadow: none;
+    }
+
+    #sortablegrid7530 thead {
+      display: none;
+    }
+
+    #sortablegrid7530 tbody tr {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 0;
+      margin-bottom: 12px;
+      overflow: hidden;
+      border: 1px solid rgba(15, 57, 95, 0.16);
+      border-radius: 8px;
+      background: #ffffff;
+      box-shadow: 0 4px 12px rgba(13, 31, 54, 0.06);
+    }
+
+    #sortablegrid7530 tbody td {
+      display: block;
+      min-width: 0;
+      padding: 8px 12px !important;
+      border: 0 !important;
+      border-top: 1px solid rgba(15, 57, 95, 0.1) !important;
+      text-align: left !important;
+    }
+
+    #sortablegrid7530 tbody td::before {
+      display: block;
+      margin-bottom: 3px;
+      color: $text-mid;
+      font-size: 10px;
+      font-weight: 700;
+      line-height: 1.2;
+      text-transform: uppercase;
+    }
+
+    #sortablegrid7530 tbody td:nth-child(1) {
+      order: 1;
+      padding: 12px !important;
+      border-top: 0 !important;
+      color: $text-dark;
+      background: #eaf3ff !important;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 1.3;
+    }
+
+    #sortablegrid7530 tbody td:nth-child(1)::before {
+      display: none;
+      content: "";
+    }
+
+    #sortablegrid7530 tbody td:nth-child(2) {
+      order: 2;
+    }
+
+    #sortablegrid7530 tbody td:nth-child(2)::before {
+      content: "Currently signed up";
+    }
+
+    #sortablegrid7530 tbody td:nth-child(4) {
+      order: 3;
+    }
+
+    #sortablegrid7530 tbody td:nth-child(4)::before {
+      content: "Sign-up deadline";
+    }
+
+    #sortablegrid7530 tbody td:nth-child(3) {
+      order: 4;
+      padding: 12px !important;
+      text-align: center !important;
+    }
+
+    #sortablegrid7530 tbody td:nth-child(3) .btn {
+      width: 100% !important;
+      min-width: 0;
+    }
+
+    #sortablegrid7530 tfoot,
+    #sortablegrid7530 tfoot tr,
+    #sortablegrid7530 tfoot td {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    #sortablegrid7530 tfoot td {
+      padding: 0 !important;
+      text-align: left !important;
+    }
+
+    #sortablegrid7530 tfoot input[type="button"] {
+      width: 100%;
+      margin: 0 0 8px;
+    }
+
+    #sortablegrid7530 tfoot input[type="button"]:last-child {
+      margin-bottom: 0;
+    }
+  }
 }
