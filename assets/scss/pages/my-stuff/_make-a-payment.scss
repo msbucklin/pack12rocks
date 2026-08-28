@@ -1,0 +1,161 @@
+// -----------------------------------------------------------------------------
+// Make a Payment page styling
+// -----------------------------------------------------------------------------
+
+body:has(#Menu_Item_ID[value="307"]):has(#Form_ID[value="6244"]) {
+  .page-title {
+    width: 100%;
+    margin: 0 0 18px !important;
+    padding: 10px 20px 0;
+    box-sizing: border-box;
+    color: $navy-700;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 1.2;
+    text-align: left !important;
+  }
+
+  :is(#fs20837, #fs20835, #fs20836) {
+    width: 100%;
+    margin: 0 0 16px !important;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  #fs20837 .center-block {
+    h3 {
+      margin: 0 0 8px;
+      color: $navy-700;
+      font-size: 20px;
+      font-weight: 800;
+    }
+
+    p {
+      margin: 0 0 8px;
+      color: $text-dark;
+      line-height: 1.5;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  #fs20835 {
+    @include detail-form-shell;
+    @include detail-form-table-labels;
+    @include detail-form-stacked-mobile;
+
+    .container-fluid.container-flex {
+      padding: 0 !important;
+    }
+
+    .center-block .control-label {
+      color: #333333 !important;
+      text-align: left !important;
+    }
+
+    table.no-border {
+      tbody tr td {
+        font-size: 14px;
+        text-align: left !important;
+      }
+
+      #DIVENTRY5691836 + tr,
+      #DIVENTRY5691936 + tr {
+        color: $text-mid;
+        font-size: 12px;
+        line-height: 1.45;
+        text-align: left;
+      }
+
+      #DIVENTRY5691836 + tr > td.text-center[colspan="2"],
+      #DIVENTRY5691936 + tr > td.text-center[colspan="2"] {
+        text-align: left !important;
+      }
+
+      #ENTRY5691836,
+      #ENTRY5691936,
+      #ENTRY5691736 {
+        max-width: 180px;
+        min-height: 38px;
+        padding-left: 12px !important;
+        border-left: 0 !important;
+        border-radius: 0 6px 6px 0 !important;
+        text-align: left !important;
+      }
+
+      :is(#DIVENTRY5691836, #DIVENTRY5691936, #DIVENTRY5691736) > td.text-left {
+        display: flex;
+        align-items: center;
+        text-align: left !important;
+
+        &::before {
+          content: "$";
+          display: inline-flex;
+          flex: 0 0 34px;
+          align-items: center;
+          justify-content: center;
+          width: 34px;
+          min-height: 38px;
+          border: 1px solid rgba(15, 57, 95, 0.16);
+          border-radius: 6px 0 0 6px;
+          color: $navy-700;
+          background: #eaf3ff;
+          box-sizing: border-box;
+          font-weight: 700;
+          line-height: 1;
+          pointer-events: none;
+        }
+      }
+    }
+  }
+
+  #fs20836 .text-center {
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: flex-start !important;
+    gap: 8px;
+    text-align: left !important;
+  }
+
+  #fs20836 .text-center > span {
+    display: inline-flex !important;
+    margin: 0 !important;
+  }
+
+  #fs20836 .btn {
+    min-width: 112px;
+    min-height: 40px;
+    margin: 0 !important;
+    border-radius: 6px;
+  }
+
+  @media (max-width: 767px) {
+    .page-title {
+      margin-bottom: 16px !important;
+      padding-top: 16px;
+      font-size: 23px;
+    }
+
+    :is(#fs20837, #fs20835, #fs20836) {
+      margin-bottom: 20px !important;
+      padding: 0 20px;
+    }
+
+    #fs20836 .text-center {
+      display: grid !important;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    #fs20836 .text-center > span,
+    #fs20836 .btn {
+      width: 100% !important;
+      min-width: 0;
+    }
+
+    #fs20836 .text-center > span:first-child {
+      grid-column: 1 / -1;
+    }
+  }
+}

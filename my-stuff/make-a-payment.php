@@ -17,10 +17,11 @@
 </style>
 <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap_override_v11.css">
 <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap_override_colors_Cub_Scouts.css">
-<script type="text/javascript" async="" charset="utf-8" src="https://www.gstatic.com/recaptcha/releases/XOqlk8PL_yVx6IdpLbpXdiLy/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-5gTdLl6IS0Y6zKiLKimmhaY3IOLosQFpvj9Tvt9s2RAiKLtLUEWOP5N8mtHLNUzF"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://ogo.blob.core.windows.net/cspack12austin/bootstrap_override_pack12_v23_202682781617853727410.css">
+<script type="text/javascript" async="" charset="utf-8" src="https://www.gstatic.com/recaptcha/releases/GY0lZUzQQgeA0wDxVI-SQEZw/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-NChJ2cXgODPp5agrUf6ahapDln/pkXyyqTB9Bce/aSQACS3OlLS1j3sKya1lVM+n"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="https://www.google.com/recaptcha/api.js"></script>
-<script language="JavaScript" src="/assets/js/PaymentCollectorV2.js">
+<script language="JavaScript" src="/assets/js/soapclient.js">
 </script>
 <script type="text/javascript" src="/assets/js/sortableV2.js">
 </script>
@@ -230,9 +231,11 @@
           if (requiredflag.value=='Y'&&hoveraction!='cancel')
           {
                thisfield.style.backgroundColor=errorcolor;
+               easyFieldExit(thisfield);
           }
           else
           {
+            easyFieldExit(thisfield);
             return true;
           }
         }
@@ -255,6 +258,7 @@
           var objRegExp = new RegExp(regex);
           if (objRegExp.test(thisfield.value))
     	     {
+            easyFieldExit(thisfield);
             return true;
     	     }
           else
@@ -266,6 +270,7 @@
         }
         else
         {
+          easyFieldExit(thisfield);
           return true;
         }
       }
@@ -278,12 +283,107 @@
       {
         onLoad = true;
       }
+
+if (onLoad)
+{
+	var payment_type = easyGetFieldValue('ENTRY56933139');
+	if (payment_type === undefined || typeof payment_type === 'undefined' || payment_type == '') {
+		document.getElementById("ENTRY56933139").checked = true;
+	}
+}
+
+if (thisfield.name=='ENTRY5691736')
+{
+	var paypal_fee = 0;
+	var paypal_net = 0;
+	var payment_amount = parseFloat(easyGetFieldValue('ENTRY5691736'));
+	var payment_type = easyGetFieldValue('ENTRY56933139');
+	// payment types:  1 = credit card, 2 = ach, 3 = PayPal
+	switch(payment_type) {
+		case '1':
+			paypal_fee = Math.round(  ((payment_amount * 0.029) + 0.3)  * 100)/100;
+			break;
+		case '2':
+			paypal_fee = Math.round(  ((payment_amount * 0.01) + 0)  * 100)/100;
+			if (paypal_fee < 1) {
+				paypal_fee = 1;
+			}
+			if (paypal_fee > 5) {
+				paypal_fee = 5;
+			}
+			break;
+		case '3':
+			paypal_fee = Math.round(  ((payment_amount * 0.03490) + 0.49)  * 100)/100;
+			break;
+		default:
+			paypal_fee = 999;
+	}
+	paypal_net = Math.round(  (payment_amount - paypal_fee)  *100)/100;
+
+	if (payment_amount == 0)
+	{
+		paypal_fee = 0;
+		paypal_net = 0;
+	}
+
+	easySetFieldValue('ENTRY5691936',paypal_fee);
+	easySetFieldValue('ENTRY5691836',paypal_net);
+
+}
+if (thisfield.name=='ENTRY5691836'||thisfield.name=='ENTRY56933139')
+{
+	var paypal_fee = 0;
+	var payment_amount = 0;
+	var paypal_net = parseFloat(easyGetFieldValue('ENTRY5691836'));
+	var payment_type = easyGetFieldValue('ENTRY56933139');
+
+	// payment types:  1 = credit card, 2 = ach, 3 = PayPal
+	switch(payment_type) {
+		case '1':
+			payment_amount = Math.round(((paypal_net+0.3)/(1.0 - 0.029))  *100)/100;
+			break;
+		case '2':
+			if (paypal_net < (1 / 0.01)) {
+				payment_amount = Math.round((paypal_net + 1) * 100) / 100;
+                        } else {
+				if (paypal_net >= (5 / 0.01)) {
+					payment_amount = Math.round((paypal_net + 5) * 100) / 100;
+				}
+				else {
+					payment_amount = Math.round(((paypal_net+0)/(1.0 - 0.01))  *100)/100;
+				}
+			}
+			break;
+		case '3':
+			payment_amount = Math.round(((paypal_net+0.49)/(1.0 - 0.03490))  *100)/100;
+			break;
+		default:
+			payment_amount = 999;
+	}
+
+	paypal_fee = Math.round(  (payment_amount-paypal_net)  *100)/100;
+
+	if (paypal_net == 0)
+	{
+		payment_amount = 0;
+		paypal_fee = 0;
+	}
+
+	easySetFieldValue('ENTRY5691736',payment_amount);
+	easySetFieldValue('ENTRY5691936',paypal_fee);
+}
+
+if (onLoad)
+{
+  easyEnableField('ENTRY5691936',false,false);
+}
+
     }
   //-->
 </script>
 </head>
-<body onunload="CloseErrorBox()" onload="easySetFocus();GetDeviceWidth();">
-<form enctype="multipart/form-data" action="https://www.TroopWebHostCS.org/FormList.aspx" target="_self" method="post" name="easyform" id="easyform">
+<body onunload="CloseErrorBox()" onload="easyFieldExit(this); easySetFocus();GetDeviceWidth();">
+<form enctype="multipart/form-data" action="https://www.TroopWebHostCS.org/FormDetail.aspx" target="_self" method="post" name="easyform" id="easyform">
 <script language="JavaScript" type="text/javascript">
   <!--
   function submitForm() {
@@ -297,15 +397,15 @@
 <input type="hidden" name="Hover_Action" id="Hover_Action" value="">
 <input type="hidden" name="Selected_Button_ID" id="Selected_Button_ID" value="">
 <input type="hidden" name="Menu_Item_ID" id="Menu_Item_ID" value="307">
-<input type="hidden" name="Form_ID" id="Form_ID" value="1520">
+<input type="hidden" name="Form_ID" id="Form_ID" value="6244">
 <input type="hidden" name="Link_To_Menu_Item_ID" id="Link_To_Menu_Item_ID" value="">
 <input type="hidden" name="Pass" id="Pass" value="1">
-<input type="hidden" name="Stack" id="Stack" value="1">
+<input type="hidden" name="Stack" id="Stack" value="2">
 <input type="hidden" name="NextSectionPageNumber" id="NextSectionPageNumber" value="">
 <input type="hidden" name="NewRowsPerPage" id="NewRowsPerPage" value="">
 <input type="hidden" name="ChildRowID" id="ChildRowID" value="0">
 <input type="hidden" name="Report_Format" id="Report_Format" value="">
-<input type="hidden" name="Current_URL" id="Current_URL" value="https://www.troopwebhostcs.org/FormList.aspx?Menu_Item_ID=307&amp;Stack=1">
+<input type="hidden" name="Current_URL" id="Current_URL" value="https://www.troopwebhostcs.org//my-stuff/make-a-payment.php?Form_ID=6244&amp;FK=0&amp;ID=0&amp;Stack=2">
 <a href="javascript:togglemenu();">
 <div class="navicon" style="width:64px;">
   <table>
@@ -322,22 +422,22 @@
     <td style="width:76px;">
     </td>
     <td style="padding:4px;">
-      <a href="#" class="navlink nav-home-link" onclick="LinkTo('/home/home.php','_top')">Pack 12 Austin</a>
+      <a href="#" class="navlink nav-home-link" onclick="LinkTo('Pack12Austin/Index.htm','_top')">Pack 12 Austin</a>
     </td>
     <td class="quickmenu1">
       <table>
         <tbody><tr>
           <td class="navlink">
-            <a href="javascript:LinkTo('FormDetail.aspx?Menu_Item_ID=409&amp;Stack=1','');">Site Appearance</a>
+            <a href="javascript:LinkTo('FormList.aspx?Menu_Item_ID=318&amp;Stack=2','');">Calendar</a>
           </td>
           <td class="navlink">
-            <a href="javascript:LinkTo('FormList.aspx?Menu_Item_ID=318&amp;Stack=1','');">Calendar</a>
+            <a href="javascript:LinkTo('FormList.aspx?Menu_Item_ID=343&amp;Stack=2','');">Users &amp; Passwords</a>
           </td>
           <td class="navlink">
-            <a href="javascript:LinkTo('formCustom.aspx?Menu_Item_ID=5788&amp;Stack=0','');">Membership Hub</a>
+            <a href="javascript:LinkTo('FormDetail.aspx?Menu_Item_ID=3201&amp;Stack=0','');">TroopWebHost Administrative Contacts</a>
           </td>
           <td class="navlink">
-            <a href="javascript:LinkTo('FormList.aspx?Menu_Item_ID=343&amp;Stack=1','');">Users &amp; Passwords</a>
+            <a href="javascript:LinkTo('FormDetail.aspx?Menu_Item_ID=305&amp;Stack=2','');">My Contact Information</a>
           </td>
         </tr>
       </tbody></table>
@@ -362,16 +462,16 @@
       <table>
         <tbody><tr>
           <td class="navlink">
-            <a href="javascript:LinkTo('FormDetail.aspx?Menu_Item_ID=409&amp;Stack=1','');">Site Appearance</a>
+            <a href="javascript:LinkTo('FormList.aspx?Menu_Item_ID=318&amp;Stack=2','');">Calendar</a>
           </td>
           <td class="navlink">
-            <a href="javascript:LinkTo('FormList.aspx?Menu_Item_ID=318&amp;Stack=1','');">Calendar</a>
+            <a href="javascript:LinkTo('FormList.aspx?Menu_Item_ID=343&amp;Stack=2','');">Users &amp; Passwords</a>
           </td>
           <td class="navlink">
-            <a href="javascript:LinkTo('formCustom.aspx?Menu_Item_ID=5788&amp;Stack=0','');">Membership Hub</a>
+            <a href="javascript:LinkTo('FormDetail.aspx?Menu_Item_ID=3201&amp;Stack=0','');">TroopWebHost Administrative Contacts</a>
           </td>
           <td class="navlink">
-            <a href="javascript:LinkTo('FormList.aspx?Menu_Item_ID=343&amp;Stack=1','');">Users &amp; Passwords</a>
+            <a href="javascript:LinkTo('FormDetail.aspx?Menu_Item_ID=305&amp;Stack=2','');">My Contact Information</a>
           </td>
         </tr>
       </tbody></table>
@@ -438,9 +538,9 @@
         <br><br>
         Copyright&nbsp; 2026 &nbsp;Web Host Services LLC
         <br><br>
-        The current user is:&nbsp; &nbsp; MBucklin796
+        The current user is:&nbsp; &nbsp; mbucklin2
         <br><br>
-        The URL for this page is:&nbsp; &nbsp; https://www.troopwebhostcs.org/FormList.aspx?Menu_Item_ID=307&amp;Stack=1&amp;Application_ID=2840
+        The URL for this page is:&nbsp; &nbsp; https://www.troopwebhostcs.org//my-stuff/make-a-payment.php?Form_ID=6244&amp;FK=0&amp;ID=0&amp;Stack=2&amp;Application_ID=2840
       </div>
     </div>
   </div>
@@ -484,77 +584,149 @@ On-Line Payments
 </p>
 <input type="hidden" name="FK" id="FK" value="0">
 <input type="hidden" name="ID" id="ID" value="0">
-<div class="new-row" id="fs7485">
+<div class="new-row" id="fs20837">
   <div class="container-fluid container-flex">
-    <div class="center-block">
-      <div class="text-center">
-        <span style="display:inline;">
-        <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="110" id="BUTTON0" type="button" name="add" title="Begin a New Payment" value="Begin a New Payment" onclick="LinkTo('/my-stuff/make-a-payment.php?Form_ID=6244&amp;FK=0&amp;ID=0&amp;Stack=2','');">
-        </span>
-        <span style="display:inline;">
-        </span>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="new-row" id="fs7487">
-  <div class="container-fluid container-flex">
-    <div class="center-block " style="max-width: 800px; min-width: 200px;">
+    <div class="center-block " style="max-width: 500px; min-width: 200px;">
       <h3>
       Pay On-Line
       </h3>
       <p>
-      This page shows the status of all on-line payments that you started in the past week.
+      If you would like to add money to your account or the account of another family member, please fill out the items below and press <b>Continue</b>.
       </p>
       <p>
-      The money will only be deposited into your account if you complete the payment process successfully.
+      This will take you to a confirmation screen where you may complete the payment.
       </p>
     </div>
   </div>
 </div>
-<div class="new-row" id="fs7486">
+<div class="new-row" id="fs20835">
   <div class="container-fluid container-flex">
-    <div class="center-block table-responsive">
-      <table class="table-striped table-bordered table-condensed table-curved sortable" id="sortablegrid7486">
-        <thead>
-        <tr>
-          <input type="hidden" name="ROWCOUNTCB7486" id="ROWCOUNTCB7486" value="0">
-          <th>
-          Submitted
-          </th>
-          <th>
-          Paid By
-          </th>
-          <th>
-          Recipient
-          </th>
-          <th>
-          Deposit To Account (estimated)
-          </th>
-          <th>
-          Estimated Fee
-          </th>
-          <th>
-          Total Payment
-          </th>
-          <th>
-          Current Status
-          </th>
-          <th>
-          Processing Fee
-          </th>
-          <th>
-          Final Net Deposit
-          </th>
-          <th>
-          Reference Key
-          </th>
-        </tr>
-        </thead>
+    <div class="center-block ">
+      <table class="no-border">
         <tbody>
+        <tr id="DIVENTRY569152">
+          <td class="text-right">
+            <label class="control-label">
+            <span class="RequiredIndicator" id="RDIVENTRY569152" style="visibility: hidden">
+            *
+            </span>
+            Transaction Submitted By
+            </label>
+          </td>
+          <td class="text-left">
+            <input type="hidden" name="RVALENTRY569152" id="RVALENTRY569152" value="">
+            <input type="hidden" name="OLD569152" id="OLD569152" value="1610">
+            <input type="hidden" name="ENTRY569152" id="ENTRY569152" value="1610">
+            <span class="text-left">
+            Bucklin, Michael2
+            </span>
+          </td>
+        </tr>
+        <tr id="DIVENTRY56933139">
+          <td class="text-right">
+            <label class="control-label">
+            <span class="RequiredIndicator" id="RDIVENTRY56933139" style="visibility: visible">
+            *
+            </span>
+            How would you like to pay?
+            </label>
+          </td>
+          <td class="text-left">
+            <input type="hidden" name="RVALENTRY56933139" id="RVALENTRY56933139" value="Y">
+            <input type="hidden" name="OLD56933139" id="OLD56933139" value="0">
+            <span class="text-left" id="SPAN56933139" name="SPAN56933139">
+            <input type="radio" id="ENTRY56933139" name="ENTRY56933139" tabindex="120" onclick="easyFieldExit(this)" value="3">PayPal
+            </span>
+            <span class="entrypostscript">
+
+            </span>
+          </td>
+        </tr>
+        <tr id="DIVENTRY569162">
+          <td class="text-right">
+            <label class="control-label">
+            <span class="RequiredIndicator" id="RDIVENTRY569162" style="visibility: visible">
+            *
+            </span>
+            To Be Deposited To The Account Of
+            </label>
+          </td>
+          <td class="text-left">
+            <input type="hidden" name="RVALENTRY569162" id="RVALENTRY569162" value="Y">
+            <input type="hidden" name="OLD569162" id="OLD569162" value="0">
+            <select id="ENTRY569162" name="ENTRY569162" class="form-control" onblur="TestRegExp(this,'','')" tabindex="130" title="The person whose account will be credited with this deposit." size="1">
+              <option value="1610">Bucklin, Michael2 &nbsp; &nbsp; [-1.00]</option>
+            </select>
+            <span class="entrypostscript">
+
+            </span>
+          </td>
+        </tr>
+        <tr id="DIVENTRY5691836">
+          <td class="text-right">
+            <label class="control-label">
+            <span class="RequiredIndicator" id="RDIVENTRY5691836" style="visibility: visible">
+            *
+            </span>
+            Amount To Deposit
+            </label>
+          </td>
+          <td class="text-left">
+            <input type="hidden" name="RVALENTRY5691836" id="RVALENTRY5691836" value="Y">
+            <input type="hidden" name="OLD5691836" id="OLD5691836" value="25">
+            <input type="text" class="form-control" id="ENTRY5691836" name="ENTRY5691836" tabindex="140" size="9" onblur="TestRegExp(this,/^[+-]?(\d*)(\.\d\d?)?$/,'Please enter a number with no more than 2 digits after the decimal point.')" maxlength="9" value="25" title="Estimated amount that will be transferred to the group  account after credit card processing fees are deducted.">
+            <span class="entrypostscript">
+
+            </span>
+          </td>
+        </tr>
         <tr>
-          <td colspan="10" class="text-center">
-            no data is currently available to display
+          <td class="text-center" colspan="2">
+            <br>A payment processing fee will be added to the amount entered above.
+            <br><br>
+          </td>
+        </tr>
+        <tr id="DIVENTRY5691936">
+          <td class="text-right">
+            <label class="control-label">
+            <span class="RequiredIndicator" id="RDIVENTRY5691936" style="visibility: hidden">
+            *
+            </span>
+            Estimated Processing Fee
+            </label>
+          </td>
+          <td class="text-left">
+            <input type="hidden" name="RVALENTRY5691936" id="RVALENTRY5691936" value="N">
+            <input type="hidden" name="OLD5691936" id="OLD5691936" value="">
+            <input type="text" class="form-control" id="ENTRY5691936" name="ENTRY5691936" tabindex="150" size="9" onblur="TestRegExp(this,/^[+-]?(\d*)(\.\d\d?)?$/,'Please enter a number with no more than 2 digits after the decimal point.')" maxlength="9" value="" title="The estimated credit card processing fee that will be deducted from the deposit" disabled="">
+            <span class="entrypostscript">
+
+            </span>
+          </td>
+        </tr>
+        <tr>
+          <td class="text-center" colspan="2">
+            <br>See below for the total amount that will be charged for this payment.<br>
+If you change this value it will also change the amount that will be deposited to the account.
+            <br><br>
+          </td>
+        </tr>
+        <tr id="DIVENTRY5691736">
+          <td class="text-right">
+            <label class="control-label">
+            <span class="RequiredIndicator" id="RDIVENTRY5691736" style="visibility: visible">
+            *
+            </span>
+            Total Payment Amount
+            </label>
+          </td>
+          <td class="text-left">
+            <input type="hidden" name="RVALENTRY5691736" id="RVALENTRY5691736" value="Y">
+            <input type="hidden" name="OLD5691736" id="OLD5691736" value="0">
+            <input type="text" class="form-control" id="ENTRY5691736" name="ENTRY5691736" tabindex="160" size="9" onblur="TestRegExp(this,/^[+-]?(\d*)(\.\d\d?)?$/,'Please enter a number with no more than 2 digits after the decimal point.')" maxlength="9" value="0" title="The amount of money that will be charged to your credit card or PayPal account.">
+            <span class="entrypostscript">
+
+            </span>
           </td>
         </tr>
         </tbody>
@@ -562,20 +734,24 @@ On-Line Payments
     </div>
   </div>
 </div>
-<div class="new-row">
+<div class="new-row" id="fs20836">
   <div class="container-fluid container-flex">
     <div class="center-block">
       <div class="text-center">
         <span style="display:inline;">
-        <input class="btn btn-sm btn-primary" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="120" id="BUTTON0" type="button" name="add" title="Begin a New Payment" value="Begin a New Payment" onclick="LinkTo('/my-stuff/make-a-payment.php?Form_ID=6244&amp;FK=0&amp;ID=0&amp;Stack=2','');">
+        <input class="btn btn-sm btn-info" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="170" id="BUTTON13" type="button" name="save continue" title="Continue" value="Continue" onclick="buttonlink(this,'N');">
         </span>
         <span style="display:inline;">
+        <input class="btn btn-sm btn-warning" onmouseover="SetAction(this)" onmouseout="ResetAction()" type="reset" tabindex="180" id="BUTTON14" title="Discard the information that you entered on this page and restore the previous values" value="Reset" name="BUTTON14">
+        </span>
+        <span style="display:inline;">
+        <input class="btn btn-sm btn-danger" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="190" id="BUTTON15" type="button" name="cancel" title="Exit without saving this information" value="Cancel" onclick="buttonlink(this,'N');">
         </span>
       </div>
     </div>
   </div>
 </div>
-<input type="hidden" name="FirstControl" id="FirstControl" value="BUTTON0">
+<input type="hidden" name="FirstControl" id="FirstControl" value="ENTRY56933139">
 </form>
 <div style="height: 100px;">&nbsp;</div>
 

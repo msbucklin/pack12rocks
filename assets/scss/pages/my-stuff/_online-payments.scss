@@ -2,15 +2,67 @@
 // Online Payments page styling
 // -----------------------------------------------------------------------------
 
-body:has(#Menu_Item_ID[value="307"]) {
+body:has(#Menu_Item_ID[value="307"]):has(#Form_ID[value="1520"]) {
   .page-title {
+    width: 100%;
     margin-top: 10px !important;
-    margin-bottom: 0 !important;
+    margin-bottom: 18px !important;
+    padding: 0 20px;
+    box-sizing: border-box;
+    color: $navy-700;
     font-size: 26px !important;
+    font-weight: 800;
+    line-height: 1.2;
+    text-align: left !important;
   }
 
   #fs7485 {
     display: none;
+  }
+
+  #fs7487 {
+    width: 100%;
+    margin: 0 0 16px !important;
+    padding: 0 20px;
+    box-sizing: border-box;
+
+    .container-fluid.container-flex,
+    .center-block {
+      width: 100% !important;
+      max-width: none !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      border: 0 !important;
+      border-radius: 0 !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+
+    h3 {
+      margin: 0 0 8px;
+      color: $navy-700;
+      font-size: 20px;
+      font-weight: 800;
+      line-height: 1.3;
+    }
+
+    p {
+      max-width: 720px;
+      margin: 0 0 6px;
+      color: $text-dark;
+      line-height: 1.5;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .page-title {
+      padding-top: 16px;
+      font-size: 23px !important;
+    }
   }
 }
 
