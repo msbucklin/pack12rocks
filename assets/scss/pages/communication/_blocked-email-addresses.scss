@@ -12,6 +12,21 @@ body:has(#Menu_Item_ID[value="339"]):has(#Form_ID[value="2772"]) {
     box-sizing: border-box;
     color: $navy-700;
     text-align: left !important;
+
+    &::after {
+      display: block;
+      max-width: 720px;
+      margin-top: 8px;
+      color: $text-mid;
+      content: "Review blocked email addresses and restore delivery when an address is ready to receive messages.";
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.5;
+    }
+  }
+
+  #fs12244, #fs12238 {
+    display: none;
   }
 
   #fs12244 {
@@ -22,7 +37,7 @@ body:has(#Menu_Item_ID[value="339"]):has(#Form_ID[value="2772"]) {
     .bodyheading { color: $text-mid; font-size: 14px; font-weight: 700; }
   }
 
-  :is(#fs12238, #fs12240) {
+  :is(#fs12240) {
     margin-bottom: 14px !important;
 
     .center-block {
@@ -43,54 +58,18 @@ body:has(#Menu_Item_ID[value="339"]):has(#Form_ID[value="2772"]) {
   :is(#fs12239, #fs12241) {
     margin-bottom: 20px !important;
 
+    @include list-toolbar-shell(
+      $border: 1px solid var(--comm-blocked-border),
+      $border-radius: 10px,
+      $background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%)
+    );
+
     .center-block.table-responsive {
       width: 100% !important;
       max-width: 100% !important;
       margin: 0 !important;
       overflow-x: auto;
     }
-
-    table.sortable {
-      width: 100% !important;
-      margin: 0;
-      border: 1px solid var(--comm-blocked-border) !important;
-      border-collapse: separate !important;
-      border-spacing: 0;
-      border-radius: 0 !important;
-      overflow: hidden;
-      background: #ffffff;
-    }
-
-    table.sortable > thead > tr > th {
-      padding: 11px 12px !important;
-      border: 0 !important;
-      border-right: 1px solid rgba(13, 59, 114, 0.05) !important;
-      border-bottom: 1px solid rgba(13, 59, 114, 0.05) !important;
-      border-left: 1px solid rgba(13, 59, 114, 0.05) !important;
-      color: $text-dark !important;
-      background: #eaf3ff !important;
-      font-size: 13px;
-      font-weight: 700;
-      text-align: left;
-      vertical-align: middle;
-    }
-
-    table.sortable > thead > tr > th:last-child { border-radius: 0 !important; }
-
-    table.sortable > tbody > tr > td {
-      padding: 9px 10px !important;
-      border: 0 !important;
-      border-bottom: 1px solid rgba(15, 57, 95, 0.09) !important;
-      color: $text-dark;
-      background: #ffffff !important;
-      font-size: 13px;
-      text-align: left !important;
-      vertical-align: middle;
-      overflow-wrap: anywhere;
-    }
-
-    table.sortable > tbody > tr:nth-of-type(even) > td { background: #f7faff !important; }
-    table.sortable > tbody > tr:last-child > td { border-bottom: 0 !important; }
 
     table.sortable .btn {
       min-height: 36px;
@@ -101,29 +80,6 @@ body:has(#Menu_Item_ID[value="339"]):has(#Form_ID[value="2772"]) {
       font-weight: 700;
       white-space: nowrap;
     }
-
-    table.sortable > tfoot > tr > td {
-      padding: 14px 12px !important;
-      border: 0 !important;
-      border-top: 1px solid rgba(15, 57, 95, 0.12) !important;
-      background: #f7faff !important;
-      text-align: center !important;
-    }
-
-    table.sortable > tfoot input[type="button"] {
-      min-height: 40px;
-      margin: 0 6px !important;
-      padding: 10px 12px !important;
-      border: 1px solid rgba(13, 59, 114, 0.2) !important;
-      border-radius: 10px !important;
-      font-size: 13px !important;
-      font-weight: 700 !important;
-      line-height: 1.2 !important;
-      box-shadow: 0 3px 8px rgba(13, 31, 54, 0.08) !important;
-    }
-
-    table.sortable > tfoot input[value="Print (Export to PDF)"] { color: #ffffff !important; background: linear-gradient(180deg, #1b6eb8 0%, #2783d1 100%) !important; }
-    table.sortable > tfoot input[value="Open in Excel"] { color: $text-dark !important; background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%) !important; }
   }
 
   #fs12239 table.sortable { min-width: 1000px; }

@@ -13,6 +13,7 @@ body:has(#Menu_Item_ID[value="336"]):has(#Form_ID[value="200"]) {
     box-sizing: border-box;
     color: $navy-700;
     text-align: left !important;
+
   }
 
   :is(#fs7001, #fs2470, #fs2471, #fs6999) {
@@ -62,6 +63,12 @@ body:has(#Menu_Item_ID[value="336"]):has(#Form_ID[value="200"]) {
   :is(#fs2469, #fs535) {
     margin-bottom: 20px !important;
 
+    @include list-toolbar-shell(
+      $border: 1px solid var(--comm-list-border),
+      $border-radius: 10px,
+      $background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%)
+    );
+
     .center-block.table-responsive {
       width: 100% !important;
       max-width: 100% !important;
@@ -73,105 +80,6 @@ body:has(#Menu_Item_ID[value="336"]):has(#Form_ID[value="200"]) {
     #sortablegrid535 {
       width: 100% !important;
       min-width: 760px;
-      margin: 0;
-      border: 1px solid var(--comm-list-border) !important;
-      border-collapse: separate !important;
-      border-spacing: 0;
-      border-radius: 0 !important;
-      overflow: hidden;
-      background: #ffffff;
-    }
-
-    #sortablegrid2469 > thead > tr > th:last-child,
-    #sortablegrid535 > thead > tr > th:last-child {
-      border-radius: 0 !important;
-    }
-
-    #sortablegrid2469 > thead > tr > th,
-    #sortablegrid535 > thead > tr > th {
-      padding: 11px 12px !important;
-      border: 0 !important;
-      border-right: 1px solid rgba(13, 59, 114, 0.05) !important;
-      border-bottom: 1px solid rgba(13, 59, 114, 0.05) !important;
-      border-left: 1px solid rgba(13, 59, 114, 0.05) !important;
-      color: $text-dark !important;
-      background: #eaf3ff !important;
-      font-size: 13px;
-      font-weight: 700;
-      text-align: left;
-      vertical-align: middle;
-    }
-
-    #sortablegrid2469 > tbody > tr > td,
-    #sortablegrid535 > tbody > tr > td {
-      padding: 9px 10px !important;
-      border: 0 !important;
-      border-bottom: 1px solid rgba(15, 57, 95, 0.09) !important;
-      color: $text-dark;
-      background: #ffffff !important;
-      font-size: 13px;
-      text-align: left !important;
-      vertical-align: middle;
-      overflow-wrap: anywhere;
-    }
-
-    #sortablegrid2469 > tbody > tr:nth-of-type(even) > td,
-    #sortablegrid535 > tbody > tr:nth-of-type(even) > td {
-      background: #f7faff !important;
-    }
-
-    #sortablegrid2469 > tbody > tr:last-child > td,
-    #sortablegrid535 > tbody > tr:last-child > td {
-      border-bottom: 0 !important;
-    }
-
-    #sortablegrid2469 .btn,
-    #sortablegrid535 .btn {
-      min-height: 34px;
-      margin: 0 !important;
-      padding: 7px 10px !important;
-      border-radius: 5px;
-      font-size: 12px;
-      font-weight: 700;
-    }
-
-    #sortablegrid2469 > tfoot > tr > td:has(> input[type="button"][value="Print (Export to PDF)"]),
-    #sortablegrid535 > tfoot > tr > td:has(> input[type="button"][value="Print (Export to PDF)"]) {
-      padding: 14px 12px !important;
-      border: 0 !important;
-      border-top: 1px solid rgba(15, 57, 95, 0.12) !important;
-      background: #f7faff !important;
-      text-align: center !important;
-    }
-
-    #sortablegrid2469 > tfoot input[type="button"][value="Print (Export to PDF)"],
-    #sortablegrid535 > tfoot input[type="button"][value="Print (Export to PDF)"],
-    #sortablegrid2469 > tfoot input[type="button"][value="Open in Excel"],
-    #sortablegrid535 > tfoot input[type="button"][value="Open in Excel"] {
-      display: inline-flex !important;
-      align-items: center;
-      justify-content: center;
-      min-height: 40px;
-      margin: 0 6px !important;
-      padding: 10px 12px !important;
-      border: 1px solid rgba(13, 59, 114, 0.2) !important;
-      border-radius: 10px !important;
-      font-size: 13px !important;
-      font-weight: 700 !important;
-      line-height: 1.2 !important;
-      box-shadow: 0 3px 8px rgba(13, 31, 54, 0.08) !important;
-    }
-
-    #sortablegrid2469 > tfoot input[type="button"][value="Print (Export to PDF)"],
-    #sortablegrid535 > tfoot input[type="button"][value="Print (Export to PDF)"] {
-      color: #ffffff !important;
-      background: linear-gradient(180deg, #1b6eb8 0%, #2783d1 100%) !important;
-    }
-
-    #sortablegrid2469 > tfoot input[type="button"][value="Open in Excel"],
-    #sortablegrid535 > tfoot input[type="button"][value="Open in Excel"] {
-      color: $text-dark !important;
-      background: linear-gradient(180deg, #eaf3ff 0%, #dfeeff 100%) !important;
     }
   }
 
@@ -232,10 +140,8 @@ body:has(#Menu_Item_ID[value="336"]):has(#Form_ID[value="200"]) {
       align-items: stretch;
       width: 100% !important;
       min-width: 0;
-      margin-bottom: 10px;
       overflow: hidden;
-      border: 1px solid var(--comm-list-border) !important;
-      border-radius: 6px;
+      border-bottom: 1px solid var(--comm-list-border) !important;
       background: #ffffff;
       box-sizing: border-box;
     }
@@ -249,7 +155,16 @@ body:has(#Menu_Item_ID[value="336"]):has(#Form_ID[value="200"]) {
       box-sizing: border-box;
     }
 
+    :is(#sortablegrid2469, #sortablegrid535) > tfoot,
+    :is(#sortablegrid2469, #sortablegrid535) > tfoot tr,
+    :is(#sortablegrid2469, #sortablegrid535) > tfoot td {
+      display: block !important;
+      width: 100% !important;
+      border: none !important;
+    }
+
     #sortablegrid2469 > tbody > tr > td:nth-child(1),
+    #sortablegrid2469 > tbody > tr > td:nth-child(6),
     #sortablegrid535 > tbody > tr > td:nth-child(1),
     #sortablegrid535 > tbody > tr > td:nth-child(2),
     #sortablegrid535 > tbody > tr > td:nth-child(6) {
@@ -265,7 +180,14 @@ body:has(#Menu_Item_ID[value="336"]):has(#Form_ID[value="200"]) {
       grid-column: 1;
     }
 
-    #sortablegrid2469 > tbody > tr > td:nth-child(1) { grid-row: 1 / 4; }
+    #sortablegrid2469 > tbody > tr {
+      grid-template-columns: auto auto minmax(0, 1fr);
+    }
+
+    #sortablegrid2469 > tbody > tr > td:nth-child(1) {
+      grid-column: 1;
+      grid-row: 4;
+    }
     #sortablegrid535 > tbody > tr > td:nth-child(1) { grid-row: 1; }
     #sortablegrid535 > tbody > tr > td:nth-child(2) { grid-row: 2; }
 
@@ -275,7 +197,15 @@ body:has(#Menu_Item_ID[value="336"]):has(#Form_ID[value="200"]) {
       border-left: 1px solid rgba(15, 57, 95, 0.12) !important;
     }
 
-    #sortablegrid2469 > tbody > tr > td:nth-child(6) { grid-row: 1 / -1; }
+    #sortablegrid2469 > tbody > tr > td:nth-child(6) {
+      grid-column: 2;
+      grid-row: 4;
+      border-left: 0 !important;
+    }
+
+    #sortablegrid2469 > tbody > tr > :is(td:nth-child(1), td:nth-child(6)) {
+      justify-content: flex-start;
+    }
     #sortablegrid535 > tbody > tr > td:nth-child(6) { grid-row: 1 / 3; }
 
     #sortablegrid2469 > tbody > tr > td:nth-child(2),
@@ -300,6 +230,12 @@ body:has(#Menu_Item_ID[value="336"]):has(#Form_ID[value="200"]) {
     #sortablegrid2469 > tbody > tr > td:nth-child(3) { grid-row: 2; }
     #sortablegrid2469 > tbody > tr > td:nth-child(4) { grid-row: 3; padding-bottom: 9px !important; }
     #sortablegrid2469 > tbody > tr > td:nth-child(5) { display: none !important; }
+
+    #sortablegrid2469 > tbody > tr > td:nth-child(2),
+    #sortablegrid2469 > tbody > tr > td:nth-child(3),
+    #sortablegrid2469 > tbody > tr > td:nth-child(4) {
+      grid-column: 1 / -1;
+    }
 
     #sortablegrid535 > tbody > tr > td:nth-child(3) { grid-row: 1; padding-top: 9px !important; }
     #sortablegrid535 > tbody > tr > td:nth-child(4) { grid-row: 2; padding-bottom: 9px !important; }
@@ -326,7 +262,7 @@ body:has(#Menu_Item_ID[value="336"]):has(#Form_ID[value="200"]) {
     #sortablegrid535 > tbody > tr > td:nth-child(4)::before { content: "Sent"; }
 
     :is(#sortablegrid2469, #sortablegrid535) .btn {
-      min-width: 0 !important;
+      min-width: 120px !important;
       min-height: 36px;
       margin: 0 !important;
       padding: 8px 9px !important;
@@ -335,6 +271,28 @@ body:has(#Menu_Item_ID[value="336"]):has(#Form_ID[value="200"]) {
       white-space: nowrap;
     }
   }
+}
+
+body:has(#Menu_Item_ID[value="335"]):has(#Form_ID[value="625"]) .page-title::after {
+  display: block;
+  max-width: 720px;
+  margin-top: 8px;
+  color: $text-mid;
+  content: "Review messages you have received and reply when a response is needed.";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+body:has(#Menu_Item_ID[value="336"]):has(#Form_ID[value="200"]) .page-title::after {
+  display: block;
+  max-width: 720px;
+  margin-top: 8px;
+  color: $text-mid;
+  content: "Review messages you have sent and follow up with recipients when needed.";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 body:has(#Menu_Item_ID[value="338"]):has(#Form_ID[value="203"]) {
@@ -347,6 +305,17 @@ body:has(#Menu_Item_ID[value="338"]):has(#Form_ID[value="203"]) {
     box-sizing: border-box;
     color: $navy-700;
     text-align: left !important;
+
+    &::after {
+      display: block;
+      max-width: 720px;
+      margin-top: 8px;
+      color: $text-mid;
+      content: "Browse messages sent by all system users.";
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.5;
+    }
   }
 
   :is(#fs543, #fs7002) {

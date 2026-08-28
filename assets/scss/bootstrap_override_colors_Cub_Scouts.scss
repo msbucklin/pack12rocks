@@ -34,6 +34,7 @@
 @import "pages/events/event";
 @import "pages/events/event-add";
 @import "pages/events/event-copy";
+@import "pages/events/event-documents";
 @import "pages/events/event-edit-details";
 @import "pages/events/event-email-participants";
 @import "pages/events/event-locations";
@@ -54,7 +55,9 @@
 @import "pages/communication/email";
 @import "pages/communication/automated-newsletter";
 @import "pages/communication/blocked-email-addresses";
+@import "pages/communication/create-email-group";
 @import "pages/communication/inbox-outbox";
+@import "pages/communication/my-email-delivery-status";
 @import "pages/communication/quick-text";
 @import "pages/communication/send-email-to-group";
 @import "pages/communication/view-email";

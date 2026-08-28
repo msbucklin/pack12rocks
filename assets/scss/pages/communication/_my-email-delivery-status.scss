@@ -1,0 +1,48 @@
+// -----------------------------------------------------------------------------
+// Communication - my email delivery status
+// -----------------------------------------------------------------------------
+
+body:has(#Menu_Item_ID[value="337"]):has(#Form_ID[value="2774"]) {
+  .page-title {
+    margin-bottom: 18px !important;
+    font-size: 0 !important;
+
+    &::before {
+      display: block;
+      color: $navy-700;
+      content: "Email Delivery Status";
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 1.25;
+    }
+
+    &::after {
+      display: block;
+      margin-top: 8px;
+      color: $text-mid;
+      content: "Check whether any of your email addresses are blocked from Pack communications.";
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.5;
+    }
+  }
+
+  #fs12245 {
+    display: none !important;
+  }
+
+  #fs12262 {
+    width: 100%;
+    margin: 0 0 20px !important;
+    padding: 0 20px;
+    box-sizing: border-box;
+
+    .center-block { width: 100% !important; max-width: 760px !important; margin: 0 !important; padding: 14px 16px !important; border-left: 3px solid $navy-700; background: #fbfdff; box-sizing: border-box; }
+    p { margin: 0 !important; color: $text-dark; font-size: 14px; font-weight: 400; line-height: 1.5; }
+    p b { color: $navy-700; font-weight: 700; }
+  }
+
+  @media (max-width: 767px) {
+    :is(#fs12245, #fs12262) { padding-right: 20px; padding-left: 20px; }
+  }
+}

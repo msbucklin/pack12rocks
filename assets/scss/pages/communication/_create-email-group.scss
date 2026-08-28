@@ -1,0 +1,113 @@
+// -----------------------------------------------------------------------------
+// Communication - create email group
+// -----------------------------------------------------------------------------
+
+body:has(#Menu_Item_ID[value="334"]):has(#Form_ID[value="394"]) {
+  --email-group-border: rgba(15, 57, 95, 0.12);
+
+  .page-title {
+    margin-bottom: 20px !important;
+    font-size: 0 !important;
+
+    &::before {
+      display: block;
+      color: $navy-700;
+      content: "Create or Update Email Group";
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 1.25;
+    }
+
+    &::after {
+      display: block;
+      margin-top: 8px;
+      color: $text-mid;
+      content: "Name the group, then choose the members who should receive its messages.";
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.5;
+    }
+  }
+
+  #fs1211 {
+    margin: 0 0 16px !important;
+
+    @include detail-form-shell;
+    @include detail-form-table-labels;
+    @include detail-form-stacked-mobile;
+
+    .center-block {
+      width: 100% !important;
+      max-width: 100% !important;
+      margin: 0 !important;
+    }
+
+    table.no-border { table-layout: auto; }
+    table.no-border td:first-child { width: auto !important; max-width: none !important; }
+
+    .form-control {
+      width: 100% !important;
+      min-width: 0 !important;
+      max-width: 100% !important;
+      min-height: 44px;
+      padding: 10px 12px !important;
+      border-radius: 6px;
+      box-sizing: border-box;
+    }
+  }
+
+  #fs1212 {
+    margin: 0 0 20px !important;
+
+    .center-block { width: 100% !important; max-width: 100% !important; margin: 0 !important; }
+    .text-center { display: flex !important; flex-wrap: wrap; gap: 10px; justify-content: flex-start !important; text-align: left !important; }
+    .text-center > span { display: inline-flex !important; margin: 0 !important; }
+    .btn { min-width: 92px; min-height: 40px; margin: 0 !important; padding: 9px 16px !important; border-radius: 6px; font-size: 13px; font-weight: 700; line-height: 1.2; }
+  }
+
+  #fs1214 {
+    margin: 0 0 12px !important;
+
+    .center-block { width: 100% !important; max-width: 100% !important; margin: 0 !important; padding: 0 !important; }
+    p { margin: 0 !important; color: $navy-700; font-size: 18px; font-weight: 700; line-height: 1.3; }
+  }
+
+  #fs1213 {
+    margin: 0 0 16px !important;
+
+    .center-block { width: 100% !important; max-width: 100% !important; margin: 0 !important; }
+    table.sortable { width: 100% !important; margin: 0; border: 1px solid var(--email-group-border) !important; border-collapse: separate; border-spacing: 0; border-radius: 6px; overflow: hidden; background: #ffffff; }
+    table.sortable > thead > tr > th { padding: 11px 12px !important; border: 0 !important; border-bottom: 1px solid var(--email-group-border) !important; color: $text-dark !important; background: #eaf3ff !important; font-size: 13px; font-weight: 700; text-align: left; vertical-align: middle; }
+    table.sortable > tbody > tr > td { padding: 10px 12px !important; border: 0 !important; border-bottom: 1px solid rgba(15, 57, 95, 0.09) !important; color: $text-dark; background: #ffffff !important; font-size: 13px; text-align: left !important; vertical-align: middle; }
+    table.sortable > tbody > tr:nth-of-type(even) > td { background: #f7faff !important; }
+    table.sortable input[type="checkbox"].form-control { width: 20px !important; min-width: 20px !important; height: 20px !important; min-height: 20px !important; margin: 0 auto !important; padding: 0 !important; }
+  }
+
+  @media (max-width: 767px) {
+    :is(#fs1211, #fs1212, #fs1213, #fs1214) { padding-right: 20px !important; padding-left: 20px !important; }
+
+    #fs1211 table.no-border > tbody > tr { display: grid !important; grid-template-columns: minmax(0, 1fr); width: 100% !important; }
+    #fs1211 table.no-border > tbody > tr > td { display: block !important; width: 100% !important; box-sizing: border-box; text-align: left !important; }
+    #fs1211 table.no-border > tbody > tr > td:first-child { padding: 12px 14px 4px !important; }
+    #fs1211 table.no-border > tbody > tr > td:last-child { padding: 4px 14px 12px !important; border-left: 0 !important; }
+
+    #fs1212 .text-center { display: grid !important; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    #fs1212 .text-center > span,
+    #fs1212 .btn { width: 100% !important; min-width: 0; }
+
+    #fs1213 .center-block { overflow: visible !important; }
+    #fs1213 table.sortable,
+    #fs1213 table.sortable > tbody { display: block; width: 100% !important; border: 0 !important; background: transparent; }
+    #fs1213 table.sortable > thead { display: block; width: 100% !important; }
+    #fs1213 table.sortable > thead > tr { display: block; margin-bottom: 10px; padding: 10px 12px; border: 1px solid var(--email-group-border); border-radius: 6px; background: #eaf3ff; }
+    #fs1213 table.sortable > thead > tr > th { display: none !important; }
+    #fs1213 table.sortable > thead > tr > th:first-child { display: flex !important; align-items: center; gap: 10px; width: 100% !important; padding: 0 !important; border: 0 !important; background: transparent !important; }
+    #fs1213 table.sortable > thead > tr > th:first-child::after { color: $navy-700; content: "Select all members"; font-size: 13px; font-weight: 700; }
+    #fs1213 table.sortable > tbody { display: block; }
+    #fs1213 table.sortable > tbody > input[type="hidden"] { display: none; }
+    #fs1213 table.sortable > tbody > tr { display: grid !important; grid-template-columns: 28px minmax(0, 1fr); align-items: center; gap: 10px; width: 100%; min-height: 44px; margin-bottom: 6px; padding: 8px 12px; border: 1px solid var(--email-group-border); border-radius: 6px; background: #ffffff; box-sizing: border-box; }
+    #fs1213 table.sortable > tbody > tr > td { display: none !important; padding: 0 !important; border: 0 !important; background: transparent !important; }
+    #fs1213 table.sortable > tbody > tr > td:first-of-type { display: block !important; grid-column: 1; grid-row: 1; width: 28px !important; }
+    #fs1213 table.sortable > tbody > tr > td:nth-of-type(2) { display: block !important; grid-column: 2; grid-row: 1; width: 100% !important; color: $navy-700 !important; font-size: 14px !important; font-weight: 700 !important; text-align: left !important; }
+  }
+}

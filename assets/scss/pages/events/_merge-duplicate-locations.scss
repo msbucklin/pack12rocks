@@ -13,6 +13,17 @@ body:has(#Menu_Item_ID[value="5430"]):has(#Form_ID[value="5906"]) {
     box-sizing: border-box;
     color: $navy-700;
     text-align: left !important;
+
+    &::after {
+      display: block;
+      max-width: 720px;
+      margin-top: 8px;
+      color: $text-mid;
+      content: "Keep the correct location record and merge the duplicate into it. This cannot be undone.";
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.5;
+    }
   }
 
   .page-title + .new-row {
@@ -182,8 +193,10 @@ body:has(#Menu_Item_ID[value="5430"]):has(#Form_ID[value="5906"]) {
       min-height: 44px;
     }
 
-    #fs19826 .center-block {
-      padding: 14px !important;
+    #fs23310 {
+      table.no-border td {
+        padding-left: 0 !important;
+      }
     }
   }
 }
