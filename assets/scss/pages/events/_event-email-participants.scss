@@ -246,8 +246,6 @@ body:has(#Menu_Item_ID[value="318"]):has(#Form_ID[value="397"]) {
 
   @media (max-width: 767px) {
     .page-title {
-      padding-top: 20px;
-
       &::after {
         font-size: 21px;
       }

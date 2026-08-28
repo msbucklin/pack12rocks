@@ -34,7 +34,7 @@ body:has(#Menu_Item_ID[value="392"]):has(#Form_ID[value="281"]) {
   #sortablegrid821 tfoot input[type="button"]:focus { background: #eaf3ff; }
 
   @media (max-width: 767px) {
-    .page-title { margin-bottom: 16px !important; padding-top: 16px; font-size: 23px; }
+    .page-title { margin-bottom: 16px !important; font-size: 23px; }
     :is(#fs820, #fs821, #fs821 ~ .new-row) { margin-bottom: 20px !important; padding: 0 20px; }
     :is(#fs820, #fs821 ~ .new-row) .text-center { display: grid !important; grid-template-columns: repeat(2, minmax(0, 1fr)); }
     :is(#fs820, #fs821 ~ .new-row) .text-center > span,

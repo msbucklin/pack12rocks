@@ -3,17 +3,6 @@
 // -----------------------------------------------------------------------------
 
 body:has(#Menu_Item_ID[value="307"]):has(#Form_ID[value="6244"]) {
-  .page-title {
-    width: 100%;
-    margin: 0 0 18px !important;
-    padding: 10px 20px 0;
-    box-sizing: border-box;
-    color: $navy-700;
-    font-size: 26px;
-    font-weight: 800;
-    line-height: 1.2;
-    text-align: left !important;
-  }
 
   :is(#fs20837, #fs20835, #fs20836) {
     width: 100%;
@@ -24,16 +13,23 @@ body:has(#Menu_Item_ID[value="307"]):has(#Form_ID[value="6244"]) {
 
   #fs20837 .center-block {
     h3 {
-      margin: 0 0 8px;
-      color: $navy-700;
-      font-size: 20px;
-      font-weight: 800;
+      display: none;
     }
 
-    p {
+    p, p b {
       margin: 0 0 8px;
       color: $text-dark;
-      line-height: 1.5;
+      font-size: 14px !important;
+      font-weight: 300 !important;
+      line-height: 1.5 !important;
+    }
+
+    p b::before {
+      content: '"';
+    }
+
+    p b::after {
+      content: '"';
     }
 
     p:last-child {
@@ -103,7 +99,7 @@ body:has(#Menu_Item_ID[value="307"]):has(#Form_ID[value="6244"]) {
           color: $navy-700;
           background: #eaf3ff;
           box-sizing: border-box;
-          font-weight: 700;
+          font-weight: 300;
           line-height: 1;
           pointer-events: none;
         }
@@ -134,7 +130,6 @@ body:has(#Menu_Item_ID[value="307"]):has(#Form_ID[value="6244"]) {
   @media (max-width: 767px) {
     .page-title {
       margin-bottom: 16px !important;
-      padding-top: 16px;
       font-size: 23px;
     }
 

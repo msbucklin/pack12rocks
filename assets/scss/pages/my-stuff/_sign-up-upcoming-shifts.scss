@@ -6,6 +6,20 @@
   display: none;
 }
 
+#fs13248 td {
+  font-size: 14px !important;
+  color: #173a63 !important;
+
+  b {
+    font-weight: 400;
+
+    &::before,
+    &::after {
+      content: '"';
+    }
+  }
+}
+
 #fs13251 {
   padding-top: 20px;
 }

@@ -7,7 +7,7 @@ body:has(#Menu_Item_ID[value="334"]):has(#Form_ID[value="393"]) {
     margin-bottom: 20px !important;
 
     &::after {
-      content: "Send E-Mail To Group";
+      content: "Choose a group, compose your message, and review recipients before sending.";
     }
   }
 

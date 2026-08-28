@@ -1,0 +1,211 @@
+// -----------------------------------------------------------------------------
+// Transfer money between accounts page styling
+// -----------------------------------------------------------------------------
+
+body:has(#Menu_Item_ID[value="308"]):has(#Form_ID[value="3960"]) {
+  .page-title {
+    font-size: 0 !important;
+
+    &::after {
+      font-size: 22px;
+      content: "Transfer Money Between Accounts";
+    }
+  }
+
+  :is(#fs15955, #fs15953, #fs15954) {
+    width: 100%;
+    margin: 0 0 16px !important;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  #fs15955 .center-block {
+
+    p:nth-of-type(3) {
+      padding: 12px 16px !important;
+      border-left: 3px solid $navy-700;
+      color: $text-dark;
+      background: #f7faff;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+  }
+
+  #fs15955 p {
+    max-width: 720px;
+    margin: 0 0 15px;
+    color: $text-dark;
+    font-size: 14px !important;
+    line-height: 1.4;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+
+  #fs15953 {
+    @include detail-form-shell;
+    @include detail-form-table-labels;
+    @include detail-form-stacked-mobile;
+
+    table.no-border {
+      margin-bottom: 20px;
+    }
+
+    .center-block .control-label,
+    table.no-border tbody tr td {
+      text-align: left !important;
+    }
+
+    table.no-border tbody tr:not([style*="display: none"]):nth-child(odd of :not([style*="display: none"])) {
+      background-color: #ffffff !important;
+    }
+
+    table.no-border tbody tr:not([style*="display: none"]):nth-child(even of :not([style*="display: none"])) {
+      background-color: #f2f5f9 !important;
+    }
+
+    .center-block table.no-border .form-control {
+      width: 100% !important;
+      max-width: 100% !important;
+      min-height: 40px;
+      box-sizing: border-box;
+    }
+
+    .center-block table.no-border select.form-control {
+      padding-right: 42px !important;
+      appearance: none;
+      -webkit-appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' fill='none'%3E%3Cpath d='m3.25 5.75 4.75 4.75 4.75-4.75' stroke='%230d3b72' stroke-width='1.75' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") !important;
+      background-position: right 14px center !important;
+      background-repeat: no-repeat !important;
+      background-size: 16px 16px !important;
+    }
+
+    :is(#DIVENTRY485541, #DIVENTRY485551) .control-label::after {
+      color: #000;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      content: " (Optional)";
+    }
+
+    :is(#DIVENTRY485541, #DIVENTRY485551) > td.text-left::after {
+      display: block;
+      margin-top: 6px;
+      color: $text-mid;
+      font-size: 12px;
+      line-height: 1.4;
+    }
+
+    #DIVENTRY485541 > td.text-left::after {
+      content: "Explain what the transfer is for.";
+    }
+
+    #DIVENTRY485551 > td.text-left::after {
+      content: "Add a receipt, check, event, or transaction reference.";
+    }
+
+    :is(#DIVENTRY485592, #DIVENTRY485602) > td.text-left::after {
+      display: block;
+      margin-top: 6px;
+      color: $text-mid;
+      font-size: 12px;
+      line-height: 1.4;
+    }
+
+    #DIVENTRY485592 > td.text-left::after {
+      content: "Choose the person whose account will be reduced. If no one appears, your family may need to be linked to your account.";
+    }
+
+    #DIVENTRY485602 > td.text-left::after {
+      content: "Choose the person whose account will receive the funds.";
+    }
+
+    #ENTRY4855636 {
+      max-width: 180px;
+      min-height: 40px;
+      padding-left: 12px !important;
+      border-left: 0 !important;
+      border-radius: 0 6px 6px 0 !important;
+      text-align: left !important;
+    }
+
+    #DIVENTRY4855636 > td.text-left {
+      display: flex !important;
+      align-items: center;
+
+      &::before {
+        display: inline-flex;
+        flex: 0 0 34px;
+        align-items: center;
+        justify-content: center;
+        width: 34px;
+        min-height: 40px;
+        border: 1px solid rgba(15, 57, 95, 0.16);
+        border-radius: 6px 0 0 6px;
+        color: $navy-700;
+        background: #eaf3ff;
+        box-sizing: border-box;
+        font-weight: 300;
+        line-height: 1;
+        content: "$";
+        pointer-events: none;
+      }
+    }
+  }
+
+  #fs15954 .text-center {
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: flex-start !important;
+    gap: 8px;
+    text-align: left !important;
+  }
+
+  #fs15954 .text-center > span {
+    display: inline-flex !important;
+    margin: 0 !important;
+  }
+
+  #fs15954 .btn {
+    min-width: 112px;
+    min-height: 40px;
+    margin: 0 !important;
+    border-radius: 6px;
+  }
+
+  @media (max-width: 767px) {
+    :is(#fs15955, #fs15953, #fs15954) {
+      margin-bottom: 20px !important;
+      padding: 0 20px;
+    }
+
+    #DIVENTRY4855636 > td.text-left {
+      display: flex !important;
+      align-items: center;
+    }
+
+    #ENTRY4855636 {
+      flex: 1 1 auto;
+      width: auto !important;
+      max-width: none !important;
+      min-width: 0 !important;
+    }
+
+    #fs15954 .text-center {
+      display: grid !important;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    #fs15954 .text-center > span,
+    #fs15954 .btn {
+      width: 100% !important;
+      min-width: 0;
+    }
+
+    #fs15954 .text-center > span:first-child {
+      grid-column: 1 / -1;
+    }
+  }
+}

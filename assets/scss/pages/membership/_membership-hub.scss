@@ -549,7 +549,7 @@ body:has(#Menu_Item_ID[value="5788"]):has(#Form_ID[value="6148"]) {
   .center-block:is(.widget48, .widget49, .widget51, .widget53, .widget54) > div > div:last-child { border-bottom: 0; }
 
   @media (max-width: 767px) {
-    .page-title { margin-bottom: 16px !important; padding-top: 16px; font-size: 23px; }
+    .page-title { margin-bottom: 16px !important; font-size: 23px; }
     #easyform > .new-row:last-of-type > .container-fluid.container-flex { grid-template-columns: minmax(0, 1fr); gap: 20px; }
     .center-block:is(.widget39, .widget40, .widget42, .widget43, .widget44, .widget45, .widget46, .widget47, .widget48, .widget49, .widget51, .widget53, .widget54) { margin-bottom: 20px !important; }
     .scrollingdiv { -webkit-overflow-scrolling: touch; }

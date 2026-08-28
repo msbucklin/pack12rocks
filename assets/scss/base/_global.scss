@@ -187,8 +187,21 @@ button.btn-danger {
 }
 
 .page-title {
-  margin: 0 auto !important;
-  //max-width: 1200px;
+  display: block !important;
+  width: 100%;
+  margin: 0 0 10px !important;
+  padding: 0 20px !important;
+  box-sizing: border-box;
+  color: $navy-700;
+  font-size: 22px !important;
+  font-weight: 800 !important;
+  letter-spacing: 0 !important;
+  line-height: 1.2 !important;
+  text-align: left !important;
+
+  @media (max-width: 767px) {
+    font-size: 22px !important;
+  }
 }
 
 .quickmenu1 table {

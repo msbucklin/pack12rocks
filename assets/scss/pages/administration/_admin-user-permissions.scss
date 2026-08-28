@@ -101,8 +101,6 @@ body:has(#fs6640) {
 }
 
 #fs6640 {
-  @include list-toolbar-shell;
-
   .center-block.table-responsive > table:first-child > tbody > tr:first-child > td {
     padding: 10px 14px 22px !important;
     vertical-align: middle;

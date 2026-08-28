@@ -15,13 +15,6 @@ body:has(#Menu_Item_ID[value="318"]):has(
   --event-edit-muted: #567092;
   --event-edit-panel: #f7faff;
 
-  .page-title {
-    padding-top: 10px;
-    @media screen and (max-width: 767px) {
-      padding-top: 20px;
-    }
-  }
-
   #easyform:has(
     > #Form_ID:is([value="267"], [value="3154"], [value="5441"], [value="5442"])
   ) > .page-title {

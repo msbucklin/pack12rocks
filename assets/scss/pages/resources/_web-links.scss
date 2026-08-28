@@ -19,7 +19,7 @@ body:has(#Menu_Item_ID[value="391"]):has(#Form_ID[value="1474"]) {
   #fs7327 table.table-condensed a.bodyheading:focus-visible { outline: 2px solid $navy-700; outline-offset: -2px; }
 
   @media (max-width: 767px) {
-    .page-title { margin-bottom: 16px !important; padding-top: 16px; font-size: 23px; }
+    .page-title { margin-bottom: 16px !important; font-size: 23px; }
     #fs7327 { margin-bottom: 20px !important; padding: 0 20px; }
     #fs7327 table.table-condensed a.bodyheading { min-height: 46px; padding: 11px 14px; font-size: 14px; }
   }

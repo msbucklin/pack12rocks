@@ -32,7 +32,7 @@ body:has(#Menu_Item_ID[value="390"]):has(#Form_ID[value="5879"]) {
   .folder-desc { display: none; }
 
   @media (max-width: 767px) {
-    .page-title { margin-bottom: 16px !important; padding-top: 16px; font-size: 23px; }
+    .page-title { margin-bottom: 16px !important; font-size: 23px; }
     .page-title + div[style*="margin-left"] { width: 100%; margin-bottom: 20px !important; padding: 0 20px; }
     .folder-table > tbody > tr:has(> .folder-td) > td { padding-top: 12px; padding-bottom: 12px; }
     .folder-table > tbody > tr:has(> .folder-td) > td:first-child { width: 42px !important; padding-left: 10px; }

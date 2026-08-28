@@ -3,17 +3,6 @@
 // -----------------------------------------------------------------------------
 
 body:has(#Menu_Item_ID[value="313"]):has(#Form_ID[value="577"]) {
-	.page-title {
-		width: 100%;
-		margin: 0 0 18px !important;
-		padding: 10px 20px 0;
-		box-sizing: border-box;
-		color: $navy-700;
-		font-size: 26px;
-		font-weight: 800;
-		line-height: 1.2;
-		text-align: left !important;
-	}
 
 	:is(#fs2218, #fs2217) {
 		width: 100%;
@@ -27,17 +16,14 @@ body:has(#Menu_Item_ID[value="313"]):has(#Form_ID[value="577"]) {
 		width: 100% !important;
 		max-width: none !important;
 		min-width: 0 !important;
-		margin: 0 !important;
+		margin: 0 0 5px 0 !important;
 		padding: 0 !important;
 	}
 
 	#fs2218 .center-block {
-		padding: 12px 16px !important;
-		border-left: 3px solid $navy-700;
-		color: $text-dark;
-		background: #f7faff;
-		font-size: 13px;
+		font-size: 14px;
 		line-height: 1.5;
+    color: #0b3b76;
 	}
 
 	#fs2218 p {
@@ -53,40 +39,40 @@ body:has(#Menu_Item_ID[value="313"]):has(#Form_ID[value="577"]) {
 		-webkit-overflow-scrolling: touch;
 	}
 
+	#fs2217 {
+		@include list-toolbar-shell;
+	}
+
 	#sortablegrid2217 {
 		width: 100%;
-		min-width: 760px;
-	}
 
-	#sortablegrid2217 tbody td:nth-of-type(1) {
-		width: 34%;
-	}
+		:is(thead th, tbody td) {
+			&:nth-of-type(1) {
+				width: 34%;
+			}
 
-	#sortablegrid2217 tbody td:nth-of-type(2),
-	#sortablegrid2217 tbody td:nth-of-type(4),
-	#sortablegrid2217 tbody td:nth-of-type(5) {
-		width: 14%;
-		text-align: center !important;
-	}
+			&:nth-of-type(2),
+			&:nth-of-type(4),
+			&:nth-of-type(5) {
+				width: 14%;
+				text-align: center !important;
+			}
 
-	#sortablegrid2217 tbody td:nth-of-type(3) {
-		width: 24%;
+			&:nth-of-type(3) {
+				width: 24%;
+			}
+		}
 	}
 
 	@media (max-width: 767px) {
 		.page-title {
 			margin-bottom: 16px !important;
-			padding-top: 16px;
 			font-size: 23px;
 		}
 
 		:is(#fs2218, #fs2217) {
 			margin-bottom: 20px !important;
 			padding: 0 20px;
-		}
-
-		#fs2218 .center-block {
-			padding: 12px !important;
 		}
 
 		#fs2217,
@@ -114,28 +100,8 @@ body:has(#Menu_Item_ID[value="313"]):has(#Form_ID[value="577"]) {
 			max-width: 100% !important;
 		}
 
-		#fs2217 .center-block.table-responsive > table > tbody > tr:first-child > td {
-			padding: 0 0 10px !important;
-			text-align: left;
-		}
-
 		#fs2217 .center-block.table-responsive > table > tbody > tr:first-child > td > div {
 			float: none !important;
-		}
-
-		#fs2217 span.rows-per-page {
-			display: inline-flex;
-			align-items: center;
-			gap: 6px;
-			margin: 0 !important;
-			color: $text-mid;
-			font-size: 12px;
-		}
-
-		#fs2217 select.rows-per-page {
-			width: auto !important;
-			min-height: 34px;
-			padding: 6px 30px 6px 9px !important;
 		}
 
 		#sortablegrid2217 {
@@ -148,5 +114,16 @@ body:has(#Menu_Item_ID[value="313"]):has(#Form_ID[value="577"]) {
 		#sortablegrid2217 thead {
 			display: none;
 		}
+
+    #sortablegrid2217 tfoot,
+    #sortablegrid2217 tfoot tr,
+    #sortablegrid2217 tfoot td {
+      display: block;
+      width: 100% !important;
+      min-width: 0 !important;
+      max-width: 100% !important;
+      border-left: 0 !important;
+      border-right: 0 !important;
+    }
 	}
 }

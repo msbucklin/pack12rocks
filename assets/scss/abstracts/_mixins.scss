@@ -471,10 +471,17 @@
     border: 0 !important;
   }
 
-  .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr:first-child > td {
+  .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr:has(> td > div > span.rows-per-page) > td {
     padding: 10px 14px !important;
-    border-bottom: $border !important;
     text-align: right;
+  }
+
+  .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr:first-child:has(> td > div > span.rows-per-page) > td {
+    border-bottom: $border !important;
+  }
+
+  .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr:not(:first-child):has(> td > div > span.rows-per-page) > td {
+    border-top: $border !important;
   }
 
   .center-block.table-responsive > table:first-child:has(> tbody > tr > td > div > span.rows-per-page) > tbody > tr > td > table.sortable.table-curved {

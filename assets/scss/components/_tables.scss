@@ -82,6 +82,7 @@ table tfoot td:has(> input[type="button"]:is([value="Export to PDF"], [value="Pr
   border: 0 !important;
   border-top: 1px solid rgba(13, 59, 114, 0.12) !important;
   background: #f7faff !important;
+  font-size: 0;
   text-align: center !important;
 
   > input[type="button"]:is([value="Export to PDF"], [value="Print (Export to PDF)"]),

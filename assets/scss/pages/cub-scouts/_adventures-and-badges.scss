@@ -55,7 +55,7 @@ body:has(#Menu_Item_ID[value="418"]):has(#Form_ID[value="2963"]) {
   #sortablegrid12905 tfoot input[type="button"] { min-height: 36px; margin: 0 8px 0 0; padding: 8px 12px; border: 1px solid rgba(13, 59, 114, 0.22); border-radius: 5px; color: $navy-700; background: #ffffff; font-size: 12px; font-weight: 700; line-height: 1.2; }
 
   @media (max-width: 767px) {
-    .page-title { margin-bottom: 16px !important; padding-top: 16px; font-size: 23px; }
+    .page-title { margin-bottom: 16px !important; font-size: 23px; }
     :is(#fs12902, #fs12903, #fs12904, #fs12905) { margin-bottom: 20px !important; padding: 0 20px; }
     #fs12903 td { padding: 12px !important; }
   }

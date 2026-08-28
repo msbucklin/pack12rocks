@@ -15,15 +15,30 @@ body:has(#Menu_Item_ID[value="338"]):has(#Form_ID[value="373"]) {
     width: 100%;
     padding: 10px 20px 0;
     box-sizing: border-box;
-    font-size: 0;
+    font-size: 0 !important;
     text-align: left !important;
 
-    &::after {
+    &::before {
+      display: block;
       color: $navy-700;
       content: "Send E-Mail";
       font-size: 22px;
       font-weight: 700;
       line-height: 1.25;
+
+      @media (max-width: 767px) {
+        font-size: 22px !important;
+      }
+    }
+
+    &::after {
+      display: block;
+      margin-top: 8px;
+      color: $text-mid;
+      content: "Compose a message, choose who should receive it, and review the details before sending.";
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.5;
     }
   }
 
@@ -66,6 +81,33 @@ body:has(#Menu_Item_ID[value="338"]):has(#Form_ID[value="373"]) {
     input[type="file"].form-control {
       min-height: 40px;
       padding: 8px 10px !important;
+
+      &::file-selector-button {
+        margin-right: 10px;
+        padding: 5px 12px;
+        border: 0;
+        border-radius: 4px;
+        color: #ffffff;
+        background: $navy-700;
+        font: 700 12px/1.4 Montserrat, sans-serif;
+        cursor: pointer;
+      }
+
+      &::-webkit-file-upload-button {
+        margin-right: 10px;
+        padding: 5px 12px;
+        border: 0;
+        border-radius: 4px;
+        color: #ffffff;
+        background: $navy-700;
+        font: 700 12px/1.4 Montserrat, sans-serif;
+        cursor: pointer;
+      }
+
+      &::file-selector-button:hover,
+      &::-webkit-file-upload-button:hover {
+        background: $navy-800;
+      }
     }
 
     .cke {
@@ -197,7 +239,7 @@ body:has(#Menu_Item_ID[value="338"]):has(#Form_ID[value="373"]) {
       display: flex !important;
       flex-wrap: wrap;
       justify-content: flex-start !important;
-      gap: 8px;
+      gap: 10px;
       text-align: left !important;
     }
 
@@ -366,10 +408,6 @@ body:has(#Menu_Item_ID[value="338"]):has(#Form_ID[value="373"]) {
   }
 
   @media (max-width: 767px) {
-    .page-title {
-      padding-top: 20px;
-      &::after { font-size: 21px; }
-    }
 
     #fs1122 {
       padding-right: 20px !important;
@@ -541,6 +579,10 @@ body:has(#Menu_Item_ID[value="338"]):has(#Form_ID[value="373"]) {
       }
     }
   }
+}
+
+body:has(#Menu_Item_ID[value="334"]):has(#Form_ID[value="393"]) .page-title::before {
+  content: "Send Email to Group";
 }
 
 body:has(#Menu_Item_ID[value="336"]):has(#Form_ID[value="373"]),

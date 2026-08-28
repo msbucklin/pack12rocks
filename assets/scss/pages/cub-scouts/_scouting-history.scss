@@ -3,17 +3,6 @@
 // -----------------------------------------------------------------------------
 
 body:has(#Menu_Item_ID[value="4635"]):has(#Form_ID[value="5484"]) {
-  .page-title {
-    width: 100%;
-    margin: 0 0 18px !important;
-    padding: 10px 20px 0;
-    box-sizing: border-box;
-    color: $navy-700;
-    font-size: 26px;
-    font-weight: 800;
-    line-height: 1.2;
-    text-align: left !important;
-  }
 
   :is(#fs18551, #fs18550, #fs18552) {
     width: 100%;
@@ -170,7 +159,6 @@ body:has(#Menu_Item_ID[value="4635"]):has(#Form_ID[value="5484"]) {
   @media (max-width: 767px) {
     .page-title {
       margin-bottom: 16px !important;
-      padding-top: 16px;
       font-size: 23px;
     }
 

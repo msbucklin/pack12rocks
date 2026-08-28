@@ -49,8 +49,6 @@ body:has(#Menu_Item_ID[value="319"]) {
   }
 
   #fs412 {
-    @include list-toolbar-shell;
-
     table.sortable.table-curved {
       min-width: 820px;
 

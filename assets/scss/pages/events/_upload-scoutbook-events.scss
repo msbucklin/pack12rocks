@@ -207,10 +207,6 @@ body:has(#Menu_Item_ID[value="7161"]):has(#Form_ID[value="7065"]) {
   }
 
   @media (max-width: 767px) {
-    .page-title {
-      padding-top: 20px;
-    }
-
     :is(#fs23308, #fs23309, #fs23310) {
       padding-right: 20px !important;
       padding-left: 20px !important;

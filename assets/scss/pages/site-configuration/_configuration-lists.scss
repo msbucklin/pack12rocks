@@ -690,8 +690,8 @@ body:has(#Menu_Item_ID[value="4888"]):has(#Form_ID[value="5668"]) {
   .page-title { width: 100%; margin: 0 auto 16px !important; padding: 10px 20px 0; box-sizing: border-box; color: $navy-700; text-align: left !important; }
 
   #fs19107 {
-    @include detail-form-shell;
     margin-bottom: 20px !important;
+    @include detail-form-shell;
 
     .center-block { width: 100% !important; max-width: 100% !important; margin: 0 !important; }
     table.no-border { width: 100%; margin: 0; border: 1px solid var(--square-configuration-border); border-collapse: separate; border-spacing: 0; border-radius: 6px; background: #f7faff; }
@@ -1189,8 +1189,8 @@ body:has(#Menu_Item_ID[value="3309"]):has(#Form_ID[value="4238"]) {
   .page-title { width: 100%; margin: 0 auto 16px !important; padding: 10px 20px 0; box-sizing: border-box; color: $navy-700; text-align: left !important; }
 
   #fs16793 {
-    @include detail-form-shell;
     margin-bottom: 20px !important;
+    @include detail-form-shell;
 
     .center-block { width: 100% !important; max-width: 100% !important; margin: 0 !important; }
     table.no-border { width: 100%; margin: 0; border-collapse: separate; border-spacing: 0; }
