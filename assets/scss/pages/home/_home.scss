@@ -2,21 +2,368 @@
 // Home page styling
 // -----------------------------------------------------------------------------
 
-body:has(.center-block.widget4),
-body:has(.center-block.widget5),
-body:has(.center-block.widget60),
-body:has(.center-block.widget75) {
+body:has(.center-block.widget75):has(.center-block.widget4) {
   background-color: #f5f8fb;
 }
 
-body:has(.center-block.widget4) .center-block.widget4 > div,
-body:has(.center-block.widget5) .center-block.widget5 > div,
-body:has(.center-block.widget60) .center-block.widget60 > div,
-body:has(.center-block.widget75) .center-block.widget75 > div {
+body:has(.center-block.widget75):has(.center-block.widget4) .page-title {
+  display: none !important;
+}
+
+body:has(.center-block.widget75):has(.center-block.widget4) .new-row .container-flex > .center-block > div {
   background: #ffffff;
 }
 
-.center-block.widget4 {
+body:has(.center-block.widget75):has(.center-block.widget4) .new-row .container-flex > .center-block:not(.widget4) {
+  margin: 0 !important;
+  padding: 0 !important;
+  flex: 1 1 360px !important;
+  max-width: none !important;
+  min-width: 220px !important;
+  background: none !important;
+
+  > div {
+    display: block !important;
+    width: 100% !important;
+    margin: 0 !important;
+    box-sizing: border-box;
+    @include widget-card;
+    margin: 0 0 20px 0 !important;
+    height: unset !important;
+  }
+
+  h2,
+  h3 {
+    @include widget-heading;
+    border-top: unset !important;
+    border-left: unset !important;
+    border-right: unset !important;
+    font-style: normal !important;
+  }
+
+  .table-condensed {
+    padding: 15px 14px 12px;
+    @include widget-table;
+
+    td {
+      padding: unset !important;
+
+      h2 {
+        border-right: unset !important;
+      }
+    }
+
+    tr:first-of-type td {
+      border-top: unset !important;
+      padding-top: unset !important;
+    }
+  }
+
+  p {
+    margin: 0;
+    line-height: 1.5;
+    font-size: 14px;
+  }
+
+  a {
+    color: $text-dark;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+  }
+
+  a:hover,
+  a:focus {
+    color: #d39a18;
+    text-decoration: underline;
+  }
+}
+
+body:has(.center-block.widget75):has(.center-block.widget4) .new-row .container-flex > .center-block:not(.widget4):not(:has(h1, h2, h3, h4, h5, h6, table, p, img, iframe, video, a)) {
+  display: none !important;
+}
+
+body:has(.center-block.widget4) .new-row .container-flex > .center-block.widget60 {
+  margin: 0 !important;
+  padding: 0 !important;
+  flex: 1 1 360px !important;
+  max-width: none !important;
+  min-width: 220px !important;
+  background: none !important;
+
+  > div {
+    display: block !important;
+    width: 100% !important;
+    margin: 0 0 20px !important;
+    box-sizing: border-box;
+    @include widget-card;
+  }
+
+  h3 {
+    @include widget-heading;
+    border-top: unset !important;
+    border-left: unset !important;
+    border-right: unset !important;
+    font-style: normal !important;
+  }
+
+  .scrollingdiv {
+    height: auto !important;
+    max-height: 250px;
+    overflow-y: auto;
+    margin: 12px;
+  }
+
+  .table-condensed {
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid rgba(13, 59, 114, 0.12);
+  }
+
+  .table-condensed th {
+    display: none !important;
+  }
+
+  .table-condensed th:last-child,
+  .table-condensed td:last-child {
+    text-align: right !important;
+  }
+
+  p {
+    display: none !important;
+  }
+
+  .table-condensed tr td {
+    padding: 8px 12px !important;
+    border-top: 1px solid rgba(13, 59, 114, 0.10) !important;
+    font-size: 14px !important;
+    line-height: 1.35 !important;
+    font-variant-numeric: tabular-nums;
+    background: #ffffff !important;
+
+    &.text-right {
+      &::before {
+        content: "$";
+      }
+    }
+  }
+
+  .table-condensed tr:first-of-type td {
+    padding: 8px 12px !important;
+  }
+
+}
+
+body:has(.center-block.widget75):has(.center-block.widget4) .new-row .container-flex > .center-block.widget60 .table-condensed tr td {
+  padding: 8px 12px !important;
+}
+
+body:has(.center-block.widget75):has(.center-block.widget4) .new-row .container-flex > .center-block.widget60 .table-condensed tr:first-of-type td {
+  padding-top: 8px !important;
+}
+
+body:has(.center-block.widget75):has(.center-block.widget4) .new-row .container-flex > .center-block.widget60 .table-condensed {
+  padding: 0 !important;
+}
+
+body:has(.center-block.widget75):has(.center-block.widget4) .new-row .container-flex > .center-block:not(.widget4):has(h3):not(:has(.scrollingdiv)) {
+  .table-condensed {
+    margin: 12px;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: calc(100% - 28px);
+    max-width: calc(100% - 28px);
+    border: 1px solid rgba(13, 59, 114, 0.12);
+  }
+
+  .table-condensed td,
+  .table-condensed tr:first-of-type td {
+    padding: 8px 12px !important;
+    background: #ffffff !important;
+    border-top: 1px solid rgba(13, 59, 114, 0.10) !important;
+    font-size: 14px !important;
+    line-height: 1.35 !important;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .table-condensed td span {
+    font-size: inherit !important;
+    line-height: inherit !important;
+  }
+
+  .table-condensed tr:first-child td {
+    border-top: 0 !important;
+  }
+
+  .table-condensed td:last-child {
+    text-align: right !important;
+  }
+}
+
+body:has(.center-block.widget75):has(.center-block.widget4) .new-row .container-flex > .center-block:not(.widget4):has(h2) {
+  min-width: 0 !important;
+
+  > div,
+  .center-block,
+  .table-condensed,
+  td {
+    min-width: 0 !important;
+  }
+
+  > div::before {
+    content: "Announcements";
+    display: block;
+    @include widget-heading;
+    border-top: unset !important;
+    border-left: unset !important;
+    border-right: unset !important;
+  }
+
+  h2 {
+    margin: 0 0 12px !important;
+    padding: 8px 12px !important;
+    color: $text-dark !important;
+    background: #FFFFDE !important;
+    border: 1px solid rgba(13, 59, 114, 0.14) !important;
+    border-left: 4px solid #d39a18 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+  }
+
+  tr:first-child h2 {
+    margin-top: 0 !important;
+  }
+
+  .table-condensed {
+    padding: 14px !important;
+    background: transparent;
+  }
+
+  .table-condensed tbody {
+    display: block;
+  }
+
+  .table-condensed tr {
+    display: block;
+    margin: 0 0 16px;
+    background: #ffffff;
+    border: 1px solid rgba(13, 59, 114, 0.14);
+    box-shadow: 0 3px 8px rgba(13, 31, 54, 0.05);
+  }
+
+  .table-condensed tr:last-child {
+    margin-bottom: 0;
+  }
+
+  td {
+    padding: 12px 14px !important;
+    font-family: inherit !important;
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+    overflow-wrap: anywhere;
+    white-space: normal !important;
+  }
+
+  .table-condensed {
+    table-layout: fixed;
+
+    tr:first-of-type td {
+      border-top: 0 !important;
+    }
+  }
+
+  td > div,
+  td > p,
+  td > ul,
+  td > ol {
+    box-sizing: border-box;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  h2 + .text-left {
+    box-sizing: border-box;
+    padding: 5px 20px 10px 20px !important;
+  }
+
+  img,
+  iframe,
+  video {
+    display: block !important;
+    width: auto !important;
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: inherit !important;
+    font-weight: 700 !important;
+    line-height: 1.3 !important;
+  }
+
+  h1 {
+    font-size: 20px !important;
+  }
+
+  h2 {
+    font-size: 14px !important;
+  }
+
+  h3 {
+    font-size: 15px !important;
+  }
+
+  h4,
+  h5,
+  h6 {
+    font-size: 14px !important;
+  }
+
+  p,
+  ul,
+  ol {
+    margin: 0 0 12px !important;
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+  }
+
+  ul,
+  ol {
+    padding-left: 22px !important;
+  }
+
+  li {
+    margin-bottom: 4px !important;
+  }
+
+  span,
+  font {
+    color: inherit !important;
+    font-family: inherit !important;
+    font-size: inherit !important;
+    line-height: inherit !important;
+  }
+
+  b,
+  strong {
+    font-weight: 700 !important;
+  }
+
+  u {
+    text-decoration: underline !important;
+  }
+}
+
+body:has(.center-block.widget4) .center-block.widget4 {
   margin: 0 !important;
   padding: 0 !important;
   flex: 1 1 360px !important;
@@ -40,6 +387,9 @@ body:has(.center-block.widget75) .center-block.widget75 > div {
 
   h3 {
     @include widget-heading;
+    border-top: unset !important;
+    border-left: unset !important;
+    border-right: unset !important;
     font-style: normal !important;
   }
 
@@ -78,5 +428,55 @@ body:has(.center-block.widget75) .center-block.widget75 > div {
   a:focus {
     color: #d39a18;
     text-decoration: underline;
+  }
+}
+
+@media (min-width: 768px) {
+  body:has(.center-block.widget75):has(.center-block.widget4) form#easyform {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(280px, 360px);
+    gap: 0 20px;
+    align-items: start;
+    box-sizing: border-box;
+    padding: 0 20px;
+  }
+
+  body:has(.center-block.widget75):has(.center-block.widget4) form#easyform > :not(.new-row) {
+    grid-column: 1 / -1;
+    order: -2;
+  }
+
+  body:has(.center-block.widget75):has(.center-block.widget4) form#easyform > .banner-div {
+    margin-right: -20px;
+    margin-left: -20px;
+  }
+
+  body:has(.center-block.widget75):has(.center-block.widget4) form#easyform > .page-title {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  body:has(.center-block.widget75):has(.center-block.widget4) form#easyform > .new-row,
+  body:has(.center-block.widget75):has(.center-block.widget4) form#easyform > .new-row > .container-flex {
+    display: contents !important;
+  }
+
+  body:has(.center-block.widget75):has(.center-block.widget4) form#easyform .new-row .container-flex > .center-block:not(.widget4):not(:has(h2)) {
+    grid-column: span 1;
+  }
+
+  body:has(.center-block.widget75):has(.center-block.widget4) form#easyform .new-row .container-flex > .center-block:not(.widget4):has(h2) {
+    grid-column: 1 / span 2;
+  }
+
+  body:has(.center-block.widget75):has(.center-block.widget4) form#easyform .new-row .container-flex > .center-block:not(.widget4):not(:has(h1, h2, h3, h4, h5, h6, table, p, img, iframe, video, a)) {
+    display: none !important;
+  }
+
+  body:has(.center-block.widget75):has(.center-block.widget4) form#easyform .center-block.widget4 {
+    grid-column: 3;
+    grid-row: span 100;
+    order: -1;
+    width: 100% !important;
   }
 }

@@ -2,6 +2,7 @@
 // Money - member account balances
 // -----------------------------------------------------------------------------
 
+body:has(#Menu_Item_ID[value="578"]):has(#Form_ID[value="324"]),
 body:has(#Menu_Item_ID[value="358"]):has(#Form_ID[value="324"]) {
   --member-balance-border: rgba(15, 57, 95, 0.16);
 
