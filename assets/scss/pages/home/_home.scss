@@ -2,19 +2,154 @@
 // Home page styling
 // -----------------------------------------------------------------------------
 
-body:has(.center-block.widget75):has(.center-block.widget4) {
-  background-color: #f5f8fb;
-}
-
-body:has(.center-block.widget75):has(.center-block.widget4) .page-title {
+body:has(#ModalLogon) .page-title {
   display: none !important;
 }
 
-body:has(.center-block.widget75):has(.center-block.widget4) .new-row .container-flex > .center-block > div {
+#ModalLogon {
+  .modal-dialog {
+    max-width: 520px;
+  }
+
+  .modal-content {
+    overflow: hidden;
+    border: 1px solid $border-blue;
+    border-radius: 8px;
+    box-shadow: 0 16px 36px rgba(13, 31, 54, 0.22);
+  }
+
+  .modal-header {
+    padding: 24px;
+    border: 0;
+  }
+
+  .modal-header::before {
+    content: "Member sign in";
+    display: block;
+    margin-bottom: 20px;
+    color: $navy-900;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+
+  .close {
+    position: relative;
+    z-index: 1;
+    margin-top: -4px;
+    color: $navy-900;
+    font-size: 28px;
+    opacity: 0.65;
+  }
+
+  .form-group {
+    margin-bottom: 18px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 6px;
+    color: $text-dark;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .form-control {
+    width: 100% !important;
+    height: 42px;
+    border-color: rgba(13, 59, 114, 0.26);
+    border-radius: 5px;
+    box-shadow: none;
+    font-size: 16px;
+    margin: 0 !important;
+  }
+
+  .form-control:focus {
+    border-color: rgba(13, 59, 114, 0.65);
+    box-shadow: 0 0 0 3px rgba(13, 59, 114, 0.12);
+  }
+
+  .form-group:has(#Remember_Me) {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 0;
+    color: $text-dark;
+    font-size: 14px;
+  }
+
+  #Remember_Me {
+    width: 18px;
+    height: 18px;
+    margin: 0;
+  }
+
+  #login {
+    margin-left: auto;
+    padding: 10px 22px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  .modal-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 24px;
+    border-top: 1px solid rgba(13, 59, 114, 0.12);
+    background: #f5f8fb;
+  }
+
+  .modal-footer a {
+    color: #236dad;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.35;
+  }
+
+  .modal-footer .btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  @media (max-width: 767px) {
+    .modal-dialog {
+      margin: 20px;
+    }
+
+    .modal-header,
+    .modal-footer {
+      padding: 20px;
+    }
+
+    .form-group:has(#Remember_Me) {
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+
+    #login {
+      width: 100%;
+      margin-top: 6px;
+    }
+  }
+}
+
+body:has(.center-block.widget3):has(.center-block.widget4) {
+  background-color: #f5f8fb;
+}
+
+body:has(.center-block.widget3):has(.center-block.widget4) .page-title {
+  display: none !important;
+}
+
+body:has(.center-block.widget3):has(.center-block.widget4) .new-row .container-flex > .center-block > div {
   background: #ffffff;
 }
 
-body:has(.center-block.widget75):has(.center-block.widget4) .new-row .container-flex > .center-block:not(.widget4) {
+body:has(.center-block.widget3):has(.center-block.widget4) .new-row .container-flex > .center-block:not(.widget4) {
   margin: 0 !important;
   padding: 0 !important;
   flex: 1 1 360px !important;
@@ -79,7 +214,7 @@ body:has(.center-block.widget75):has(.center-block.widget4) .new-row .container-
   }
 }
 
-body:has(.center-block.widget75):has(.center-block.widget4) .new-row .container-flex > .center-block:not(.widget4):not(:has(h1, h2, h3, h4, h5, h6, table, p, img, iframe, video, a)) {
+body:has(.center-block.widget3):has(.center-block.widget4) .new-row .container-flex > .center-block:not(.widget4):not(:has(h1, h2, h3, h4, h5, h6, table, p, img, iframe, video, a)) {
   display: none !important;
 }
 
@@ -157,19 +292,19 @@ body:has(.center-block.widget4) .new-row .container-flex > .center-block.widget6
 
 }
 
-body:has(.center-block.widget75):has(.center-block.widget4) .new-row .container-flex > .center-block.widget60 .table-condensed tr td {
+body:has(.center-block.widget3):has(.center-block.widget4) .new-row .container-flex > .center-block.widget60 .table-condensed tr td {
   padding: 8px 12px !important;
 }
 
-body:has(.center-block.widget75):has(.center-block.widget4) .new-row .container-flex > .center-block.widget60 .table-condensed tr:first-of-type td {
+body:has(.center-block.widget3):has(.center-block.widget4) .new-row .container-flex > .center-block.widget60 .table-condensed tr:first-of-type td {
   padding-top: 8px !important;
 }
 
-body:has(.center-block.widget75):has(.center-block.widget4) .new-row .container-flex > .center-block.widget60 .table-condensed {
+body:has(.center-block.widget3):has(.center-block.widget4) .new-row .container-flex > .center-block.widget60 .table-condensed {
   padding: 0 !important;
 }
 
-body:has(.center-block.widget75):has(.center-block.widget4) .new-row .container-flex > .center-block:not(.widget4):has(h3):not(:has(.scrollingdiv)) {
+body:has(.center-block.widget3):has(.center-block.widget4) .new-row .container-flex > .center-block:not(.widget4):has(h3):not(:has(.scrollingdiv)) {
   .table-condensed {
     margin: 12px;
     padding: 0;
@@ -204,7 +339,7 @@ body:has(.center-block.widget75):has(.center-block.widget4) .new-row .container-
   }
 }
 
-body:has(.center-block.widget75):has(.center-block.widget4) .new-row .container-flex > .center-block:not(.widget4):has(h2) {
+body:has(.center-block.widget3):has(.center-block.widget4) .new-row .container-flex > .center-block.widget3 {
   min-width: 0 !important;
 
   > div,
@@ -432,49 +567,45 @@ body:has(.center-block.widget4) .center-block.widget4 {
 }
 
 @media (min-width: 768px) {
-  body:has(.center-block.widget75):has(.center-block.widget4) form#easyform {
+  body:has(.center-block.widget3):has(.center-block.widget4) form#easyform {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(280px, 360px);
+    grid-template-columns: minmax(0, 1fr) minmax(280px, 360px);
     gap: 0 20px;
     align-items: start;
     box-sizing: border-box;
     padding: 0 20px;
   }
 
-  body:has(.center-block.widget75):has(.center-block.widget4) form#easyform > :not(.new-row) {
+  body:has(.center-block.widget3):has(.center-block.widget4) form#easyform > :not(.new-row) {
     grid-column: 1 / -1;
     order: -2;
   }
 
-  body:has(.center-block.widget75):has(.center-block.widget4) form#easyform > .banner-div {
+  body:has(.center-block.widget3):has(.center-block.widget4) form#easyform > .banner-div {
     margin-right: -20px;
     margin-left: -20px;
   }
 
-  body:has(.center-block.widget75):has(.center-block.widget4) form#easyform > .page-title {
+  body:has(.center-block.widget3):has(.center-block.widget4) form#easyform > .page-title {
     padding-right: 0;
     padding-left: 0;
   }
 
-  body:has(.center-block.widget75):has(.center-block.widget4) form#easyform > .new-row,
-  body:has(.center-block.widget75):has(.center-block.widget4) form#easyform > .new-row > .container-flex {
+  body:has(.center-block.widget3):has(.center-block.widget4) form#easyform > .new-row,
+  body:has(.center-block.widget3):has(.center-block.widget4) form#easyform > .new-row > .container-flex {
     display: contents !important;
   }
 
-  body:has(.center-block.widget75):has(.center-block.widget4) form#easyform .new-row .container-flex > .center-block:not(.widget4):not(:has(h2)) {
-    grid-column: span 1;
+  body:has(.center-block.widget3):has(.center-block.widget4) form#easyform .new-row .container-flex > .center-block:not(.widget4) {
+    grid-column: 1;
   }
 
-  body:has(.center-block.widget75):has(.center-block.widget4) form#easyform .new-row .container-flex > .center-block:not(.widget4):has(h2) {
-    grid-column: 1 / span 2;
-  }
-
-  body:has(.center-block.widget75):has(.center-block.widget4) form#easyform .new-row .container-flex > .center-block:not(.widget4):not(:has(h1, h2, h3, h4, h5, h6, table, p, img, iframe, video, a)) {
+  body:has(.center-block.widget3):has(.center-block.widget4) form#easyform .new-row .container-flex > .center-block:not(.widget4):not(:has(h1, h2, h3, h4, h5, h6, table, p, img, iframe, video, a)) {
     display: none !important;
   }
 
-  body:has(.center-block.widget75):has(.center-block.widget4) form#easyform .center-block.widget4 {
-    grid-column: 3;
+  body:has(.center-block.widget3):has(.center-block.widget4) form#easyform .center-block.widget4 {
+    grid-column: 2;
     grid-row: span 100;
     order: -1;
     width: 100% !important;
