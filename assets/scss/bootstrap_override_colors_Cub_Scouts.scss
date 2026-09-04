@@ -16,8 +16,12 @@
 @import "components/tables";
 
 @import "pages/home/content";
+@import "pages/home/pack-meetings";
+@import "pages/home/uniform";
+@import "pages/home/camping";
 @import "pages/home/home";
 @import "pages/home/forgot-password";
+@import "pages/gallery";
 
 @import "pages/my-stuff/change-password";
 @import "pages/my-stuff/my-family";
@@ -69,6 +73,7 @@
 @import "pages/membership/member";
 @import "pages/membership/membership-hub";
 @import "pages/membership/quick-dial";
+@import "pages/membership/upload-from-scoutbook";
 
 @import "pages/money/transaction-add";
 @import "pages/money/transaction-lists";

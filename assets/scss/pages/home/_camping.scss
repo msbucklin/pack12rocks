@@ -1,0 +1,169 @@
+// -----------------------------------------------------------------------------
+// Camping custom page (Custom_Form_ID=4)
+// -----------------------------------------------------------------------------
+
+body:has(#Custom_Form_ID[value="4"]) {
+  $content: ".new-row > .container-fluid.container-flex > .center-block > div";
+
+  .page-title {
+    display: none !important;
+  }
+
+  .new-row > .container-fluid.container-flex > .center-block {
+    width: min(960px, 100%) !important;
+    max-width: 960px !important;
+    margin: 0 0 28px !important;
+  }
+
+  #{$content} {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 8px 0 28px;
+    color: #26394d;
+    font-size: 15px;
+    line-height: 1.65;
+  }
+
+  #{$content} p {
+    margin: 0 0 16px;
+  }
+
+  #{$content} a {
+    color: #176db4;
+    font-weight: 700;
+  }
+
+  #{$content} h2 + p:has(> img) {
+    float: left;
+    width: min(34%, 300px);
+    margin: 0 22px 16px 0;
+  }
+
+  #{$content} h2 + p:has(> img) img {
+    display: block;
+    width: 100%;
+    height: auto !important;
+    border: 1px solid $border-blue;
+    border-radius: 8px;
+    background: #f7faff;
+    box-shadow: 0 4px 14px rgba(13, 31, 54, 0.08);
+  }
+
+  #{$content} h2:nth-of-type(3) + p + p,
+  #{$content} h2:nth-of-type(3) + p + p + p,
+  #{$content} h2:nth-of-type(3) + p + p + p + p,
+  #{$content} h2:nth-of-type(3) + p + p + p + p + p,
+  #{$content} h2:nth-of-type(4) + p + p,
+  #{$content} h2:nth-of-type(4) + p + p + ol {
+    margin-left: calc(min(34%, 300px) + 22px);
+  }
+
+  #{$content} h2:nth-of-type(4) + p + p + ol {
+    display: flow-root;
+    padding-left: 30px !important;
+    padding-bottom: 0 !important;
+  }
+
+  #{$content} h2:nth-of-type(4) + p + p + ol + p {
+    margin-left: calc(min(34%, 300px) + 22px);
+  }
+
+  #{$content} > h1:first-child {
+    margin: 0 0 18px !important;
+    padding: 0;
+    border: 0;
+    color: $navy-900;
+    background: transparent;
+    font-size: 2.2rem !important;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+    line-height: 1.15;
+  }
+
+  #{$content} h2 {
+    margin: 32px 0 12px !important;
+    padding-top: 20px;
+    border-top: 1px solid $border-blue;
+    color: $text-dark;
+    font-size: 21px !important;
+    font-weight: 800;
+    line-height: 1.3;
+  }
+
+  #{$content} h3 {
+    margin: 24px 0 8px !important;
+    color: #174a83;
+    font-size: 17px !important;
+    font-style: normal !important;
+    font-weight: 800;
+    line-height: 1.35;
+  }
+
+  #{$content} ul,
+  #{$content} ol {
+    margin: 0 0 18px;
+    padding: 4px 0 4px 24px;
+  }
+
+  #{$content} li {
+    margin: 0 0;
+    padding-left: 4px;
+  }
+
+  #{$content} li p {
+    margin: 0;
+  }
+
+  #{$content} h2 + p + ul,
+  #{$content} h2 + p + ol {
+    columns: 2;
+    column-gap: 40px;
+  }
+
+  #{$content} h2 + p + ul li,
+  #{$content} h2 + p + ol li {
+    break-inside: avoid;
+  }
+
+  @media (max-width: 767px) {
+    #{$content} {
+      padding: 4px 0 20px;
+    }
+
+    #{$content} > h1:first-child {
+      margin: 10px 0 16px !important;
+      font-size: 1.8rem !important;
+    }
+
+    #{$content} h2 {
+      margin-top: 26px !important;
+      font-size: 19px !important;
+    }
+
+    #{$content} h2 + p:has(> img) {
+      float: none;
+      width: 100%;
+      max-width: 340px;
+      margin: 0 0 16px;
+    }
+
+    #{$content} h2:nth-of-type(3) + p + p,
+    #{$content} h2:nth-of-type(3) + p + p + p,
+    #{$content} h2:nth-of-type(3) + p + p + p + p,
+    #{$content} h2:nth-of-type(3) + p + p + p + p + p,
+    #{$content} h2:nth-of-type(4) + p + p,
+    #{$content} h2:nth-of-type(4) + p + p + ol {
+      min-height: 0;
+      margin-left: 0;
+    }
+
+    #{$content} h2:nth-of-type(4) + p + p + ol + p {
+      margin-left: 0;
+    }
+
+    #{$content} h2 + p + ul,
+    #{$content} h2 + p + ol {
+      columns: 1;
+    }
+  }
+}

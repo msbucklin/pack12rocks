@@ -104,6 +104,23 @@ body:has(#Menu_Item_ID[value="307"]):has(#Form_ID[value="6244"]) {
           pointer-events: none;
         }
       }
+
+      #DIVENTRY5691836 > td.text-left {
+        flex-wrap: wrap;
+        gap: 8px 0;
+
+        &::after {
+          content: "The prefilled $25 is only a placeholder. Replace it with the amount you owe.";
+          flex: 1 0 100%;
+          padding: 8px 10px;
+          border-left: 3px solid $gold-500;
+          color: $text-dark;
+          background: #fff8e3;
+          font-size: 12px;
+          font-weight: 700;
+          line-height: 1.4;
+        }
+      }
     }
   }
 

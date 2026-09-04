@@ -1,0 +1,188 @@
+// -----------------------------------------------------------------------------
+// Upload Scouts from ScoutBook (Menu_Item_ID=1902, Form_ID=3180)
+// -----------------------------------------------------------------------------
+
+body:has(#Menu_Item_ID[value="1902"]):has(#Form_ID[value="3180"]) {
+  .heading-error-message {
+    max-width: 920px;
+    margin: 0 auto 18px;
+    padding: 14px 18px;
+    border-left: 4px solid #2d7b4d;
+    color: #17452c;
+    background: #eef8f1;
+  }
+
+  .heading-error-message h3 {
+    margin: 0 !important;
+    color: inherit;
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+  }
+
+  #fs13608 .container-fluid.container-flex,
+  #fs13609 .container-fluid.container-flex,
+  #fs13610 .container-fluid.container-flex {
+    justify-content: center !important;
+  }
+
+  #fs13608 .center-block,
+  #fs13609 .center-block,
+  #fs13610 .center-block {
+    width: min(920px, 100%) !important;
+    max-width: 920px !important;
+    margin: 0 !important;
+  }
+
+  #fs13608 .center-block {
+    padding: 24px;
+    border: 1px solid rgba(13, 59, 114, 0.18);
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0 4px 14px rgba(13, 31, 54, 0.08);
+  }
+
+  #fs13608 table.no-border,
+  #fs13608 table.no-border tbody {
+    width: 100%;
+    background: transparent;
+  }
+
+  #fs13608 table.no-border td {
+    padding: 10px 12px !important;
+    border: 0 !important;
+    color: $text-dark;
+    line-height: 1.5;
+    text-align: left !important;
+    vertical-align: top;
+  }
+
+  #fs13608 table.no-border tr:first-child td {
+    padding: 0 12px 12px !important;
+    color: $text-dark;
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center !important;
+  }
+
+  #fs13608 table.no-border tr:has(> td[colspan]) td {
+    padding: 12px 12px !important;
+  }
+
+  #DIVENTRY4406650,
+  #DIVENTRY5806958,
+  #DIVENTRY4406811,
+  #DIVENTRY4407011 {
+    background: #f7faff;
+  }
+
+  #DIVENTRY4406650 td,
+  #DIVENTRY5806958 td,
+  #DIVENTRY4406811 td,
+  #DIVENTRY4407011 td {
+    vertical-align: middle !important;
+  }
+
+  #DIVENTRY4406650 td:first-child,
+  #DIVENTRY5806958 td:first-child,
+  #DIVENTRY4406811 td:first-child,
+  #DIVENTRY4407011 td:first-child {
+    width: 220px;
+    font-weight: 700;
+  }
+
+  #ENTRY4406650 {
+    min-height: 42px;
+    max-width: 100%;
+    padding: 8px !important;
+    border: 1px solid rgba(13, 59, 114, 0.28) !important;
+    border-radius: 6px !important;
+    background: #ffffff !important;
+  }
+
+  #SPAN5806958 {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  #ENTRY4406811,
+  #ENTRY4407011 {
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    accent-color: #176db4;
+    vertical-align: middle;
+  }
+
+  #fs13609 {
+    margin-top: 18px;
+  }
+
+  #fs13609 .text-center {
+    text-align: center !important;
+  }
+
+  #BUTTON11 {
+    min-width: 190px;
+    min-height: 42px;
+    padding: 10px 18px !important;
+    border-radius: 6px !important;
+    font-weight: 700;
+  }
+
+  #fs13610 .center-block {
+    margin-top: 20px !important;
+    padding: 14px 18px;
+    border-left: 4px solid #e2b635;
+    background: #fffdf2;
+  }
+
+  #fs13610 table.no-border,
+  #fs13610 table.no-border tbody,
+  #fs13610 table.no-border tr,
+  #fs13610 table.no-border td {
+    background: transparent;
+  }
+
+  #fs13610 table.no-border td {
+    padding: 4px 0 !important;
+    border: 0 !important;
+    color: $text-dark;
+    line-height: 1.5;
+    text-align: left !important;
+  }
+
+  @media (max-width: 767px) {
+    #fs13608 .center-block {
+      padding: 18px 20px;
+    }
+
+    #fs13608 table.no-border,
+    #fs13608 table.no-border tbody,
+    #fs13608 table.no-border tr,
+    #fs13608 table.no-border td {
+      display: block;
+      width: 100% !important;
+    }
+
+    #DIVENTRY4406650,
+    #DIVENTRY5806958,
+    #DIVENTRY4406811,
+    #DIVENTRY4407011 {
+      margin: 10px 0;
+      padding: 10px 0;
+    }
+
+    #DIVENTRY4406650 td:first-child,
+    #DIVENTRY5806958 td:first-child,
+    #DIVENTRY4406811 td:first-child,
+    #DIVENTRY4407011 td:first-child {
+      width: 100%;
+      padding-bottom: 4px !important;
+    }
+
+    #BUTTON11 {
+      width: 100%;
+    }
+  }
+}

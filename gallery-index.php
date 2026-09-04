@@ -17,10 +17,10 @@
 </style>
 <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap_override_v11.css">
 <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap_override_colors_Cub_Scouts.css">
-<script type="text/javascript" async="" charset="utf-8" src="https://www.gstatic.com/recaptcha/releases/XOqlk8PL_yVx6IdpLbpXdiLy/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-5gTdLl6IS0Y6zKiLKimmhaY3IOLosQFpvj9Tvt9s2RAiKLtLUEWOP5N8mtHLNUzF"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript" async="" charset="utf-8" src="https://www.gstatic.com/recaptcha/releases/ox8dsmiqR62P1bqhciWOn7Fg/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-HEUFCmJokjB+CHBYlkcDt4puBwinjtTwjglts96+ZyVMTHTkeKul3/+rAljME2Le"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="https://www.google.com/recaptcha/api.js"></script>
-<script language="JavaScript" src="/assets/js/PaymentCollectorV2.js">
+<script language="JavaScript" src="/assets/js/soapclient.js">
 </script>
 <script type="text/javascript" src="/assets/js/sortableV2.js">
 </script>
@@ -283,7 +283,7 @@
 </script>
 </head>
 <body onunload="CloseErrorBox()" onload="easySetFocus();GetDeviceWidth();">
-<form enctype="multipart/form-data" action="https://www.TroopWebHostCS.org/formCustom.aspx" target="_self" method="post" name="easyform" id="easyform">
+<form enctype="multipart/form-data" action="https://www.TroopWebHostCS.org/FormList.aspx" target="_self" method="post" name="easyform" id="easyform">
 <script language="JavaScript" type="text/javascript">
   <!--
   function submitForm() {
@@ -296,8 +296,8 @@
 <input type="hidden" name="Selected_Action" id="Selected_Action" value="">
 <input type="hidden" name="Hover_Action" id="Hover_Action" value="">
 <input type="hidden" name="Selected_Button_ID" id="Selected_Button_ID" value="">
-<input type="hidden" name="Menu_Item_ID" id="Menu_Item_ID" value="6578">
-<input type="hidden" name="Form_ID" id="Form_ID" value="2824">
+<input type="hidden" name="Menu_Item_ID" id="Menu_Item_ID" value="326">
+<input type="hidden" name="Form_ID" id="Form_ID" value="184">
 <input type="hidden" name="Link_To_Menu_Item_ID" id="Link_To_Menu_Item_ID" value="">
 <input type="hidden" name="Pass" id="Pass" value="1">
 <input type="hidden" name="Stack" id="Stack" value="1">
@@ -305,7 +305,7 @@
 <input type="hidden" name="NewRowsPerPage" id="NewRowsPerPage" value="">
 <input type="hidden" name="ChildRowID" id="ChildRowID" value="0">
 <input type="hidden" name="Report_Format" id="Report_Format" value="">
-<input type="hidden" name="Current_URL" id="Current_URL" value="https://www.troopwebhostcs.org/formCustom.aspx?Menu_Item_ID=6578&amp;Stack=0&amp;Custom_Form_ID=4">
+<input type="hidden" name="Current_URL" id="Current_URL" value="https://www.troopwebhostcs.org/FormList.aspx?Menu_Item_ID=326&amp;Form_ID=184&amp;ID=0&amp;FK=0&amp;Stack=1&amp;Custom_Form_ID=0">
 <a href="javascript:togglemenu();">
 <div class="navicon" style="width:64px;">
   <table>
@@ -385,7 +385,6 @@
     <ul class="list-group">
     <li class="list-group-item"><a href="javascript:LinkTo('formCustom.aspx?Menu_Item_ID=6495&amp;Stack=0&amp;Custom_Form_ID=1','');">Home</a></li>
     <li class="list-group-item"><a href="javascript:LinkTo('formCustom.aspx?Menu_Item_ID=6496&amp;Stack=0&amp;Custom_Form_ID=2','');">About Us</a></li>
-    <li class="list-group-item"><a href="javascript:LinkTo('formCustom.aspx?Menu_Item_ID=8785&amp;Stack=0&amp;Custom_Form_ID=15','');">Pack Meetings</a></li>
     <li class="list-group-item"><a href="javascript:LinkTo('formCustom.aspx?Menu_Item_ID=6775&amp;Stack=0&amp;Custom_Form_ID=7','');">Uniform</a></li>
     <li class="list-group-item"><a href="javascript:LinkTo('formCustom.aspx?Menu_Item_ID=6578&amp;Stack=0&amp;Custom_Form_ID=4','');">Camping</a></li>
     <li class="list-group-item"><a href="javascript:LinkTo('formCustom.aspx?Menu_Item_ID=6776&amp;Stack=0&amp;Custom_Form_ID=8','');">Fundraising</a></li>
@@ -824,22 +823,21 @@
 </div>
 <div id="toolsmenu" class="navtools">
   <ul class="list-group">
-  <li class="list-group-item"><a href="#" onclick="easyEditHTMLPage();">Edit This Page</a></li>
   <li class="list-group-item"><a href="#" data-toggle="modal" data-target="#ModalPageFormat">Format</a></li>
   <li class="list-group-item"><a href="#" data-toggle="modal" data-target="#ModalReportingOptions">Reporting Options</a></li>
-  <li class="list-group-item"><a href="FormDetail.aspx?Form_ID=258&amp;Stack=0&amp;Menu_Item_ID=6578">Change My Password</a></li>
-  <li class="list-group-item"><a href="FormDetail.aspx?Form_ID=2568&amp;Stack=0&amp;Menu_Item_ID=6578">Configure My Quick Menu</a></li>
-  <li class="list-group-item"><a href="FormDetail.aspx?Form_ID=1951&amp;Stack=0&amp;Menu_Item_ID=6578">Bookmark This Site</a></li>
+  <li class="list-group-item"><a href="FormDetail.aspx?Form_ID=258&amp;Stack=0&amp;Menu_Item_ID=326">Change My Password</a></li>
+  <li class="list-group-item"><a href="FormDetail.aspx?Form_ID=2568&amp;Stack=0&amp;Menu_Item_ID=326">Configure My Quick Menu</a></li>
+  <li class="list-group-item"><a href="FormDetail.aspx?Form_ID=1951&amp;Stack=0&amp;Menu_Item_ID=326">Bookmark This Site</a></li>
   </ul>
 </div>
 <div id="helpmenu" class="navtools">
   <ul class="list-group">
-  <li class="list-group-item"><a href="Help.aspx?DB=2" target="_blank">User Guide</a></li>
+  <li class="list-group-item"><a href="Help.aspx?ID=29" target="_blank">User Guide</a></li>
   <li class="list-group-item"><a href="https://www.youtube.com/playlist?list=PL4bC-UY63jygEqBauW0Ofz9FJBWsPkphf" target="_blank">Mobile App Tutorials</a></li>
-  <li class="list-group-item"><a href="FormList.aspx?Form_ID=3937&amp;Stack=0&amp;Menu_Item_ID=6578">TroopWebHost User Forum</a></li>
-  <li class="list-group-item"><a href="FormList.aspx?Form_ID=3948&amp;Stack=0&amp;Menu_Item_ID=6578">Enhancement Requests</a></li>
-  <li class="list-group-item"><a href="FormList.aspx?Form_ID=3944&amp;Stack=0&amp;Menu_Item_ID=6578">My Support Tickets</a></li>
-  <li class="list-group-item"><a href="FormList.aspx?Form_ID=3945&amp;Stack=0&amp;Menu_Item_ID=6578">My Unit's Support Tickets</a></li>
+  <li class="list-group-item"><a href="FormList.aspx?Form_ID=3937&amp;Stack=0&amp;Menu_Item_ID=326">TroopWebHost User Forum</a></li>
+  <li class="list-group-item"><a href="FormList.aspx?Form_ID=3948&amp;Stack=0&amp;Menu_Item_ID=326">Enhancement Requests</a></li>
+  <li class="list-group-item"><a href="FormList.aspx?Form_ID=3944&amp;Stack=0&amp;Menu_Item_ID=326">My Support Tickets</a></li>
+  <li class="list-group-item"><a href="FormList.aspx?Form_ID=3945&amp;Stack=0&amp;Menu_Item_ID=326">My Unit's Support Tickets</a></li>
   <li class="list-group-item"><a href="https://www.TroopWebHost.com/newsletter.htm" target="_blank">TroopWebHost Newsletter</a></li>
   <li class="list-group-item"><a href="#" data-toggle="modal" data-target="#ModalAboutSite">About This Site</a></li>
   </ul>
@@ -857,7 +855,7 @@
         <br><br>
         The current user is:&nbsp; &nbsp; MBucklin796
         <br><br>
-        The URL for this page is:&nbsp; &nbsp; https://www.troopwebhostcs.org/formCustom.aspx?Menu_Item_ID=6578&amp;Stack=0&amp;Custom_Form_ID=4&amp;Application_ID=2840
+        The URL for this page is:&nbsp; &nbsp; https://www.troopwebhostcs.org/FormList.aspx?Menu_Item_ID=326&amp;Form_ID=184&amp;ID=0&amp;FK=0&amp;Stack=1&amp;Custom_Form_ID=0&amp;Application_ID=2840
       </div>
     </div>
   </div>
@@ -897,160 +895,68 @@
   </div>
 </div>
 <p class="page-title">
-Camping
+View Photos
 </p>
-<input type="hidden" name="Custom_Form_ID" id="Custom_Form_ID" value="4">
-<div class="new-row">
+<input type="hidden" name="FK" id="FK" value="0">
+<input type="hidden" name="ID" id="ID" value="0">
+<div class="new-row" id="fs7052">
   <div class="container-fluid container-flex">
-    <div class="center-block " style="margin-bottom: 20px; max-width: 1920px; min-width: 200px; ">
-      <div style="display: inline-block; margin-left: 10px; margin-right: 10px; width: calc(100% - 20px);">
-        <h1>Camping with Pack 12</h1>
-
-<p>Camping is one of the best parts of Cub Scouting! Pack 12 hosts family campouts throughout the year where Scouts can explore the outdoors, learn new skills, spend time with their den, and make some great memories along the way.</p>
-
-<p><strong>Never camped before? That's okay.</strong> Many Pack 12 families have their first camping experience with Cub Scouts, and you don't need to be an experienced camper or own a garage full of outdoor gear to join us.</p>
-
-<h2>Pack 12 Campouts</h2>
-
-<p>Cub Scout camping is designed to be a <strong>family experience</strong>. Our Pack campouts include activities for Scouts, time to explore and play outdoors, meals together, and—of course—a campfire.</p>
-
-<p>A few things to know:</p>
-
-<ul>
-	<li>
-	<p>A parent or guardian should attend with their Cub Scout.</p>
-	</li>
-	<li>
-	<p>Siblings are welcome at Pack 12 family campouts.</p>
-	</li>
-	<li>
-	<p>Families provide their own tent and personal camping gear unless otherwise noted.</p>
-	</li>
-	<li>
-	<p>Scouts may share a tent with their parent or guardian in accordance with Scouting America's Youth Protection policies.</p>
-	</li>
-	<li>
-	<p>Details, schedules, meals, costs, and registration information are provided before each campout.</p>
-	</li>
-</ul>
-
-<p>In addition to traditional campouts, Pack 12 occasionally hosts special overnight experiences and "lock-ins" at different locations.</p>
-
-<h2>First Time Camping?</h2>
-
-<p><strong>You've come to the right place.</strong></p>
-
-<p>Your first campout doesn't need to be complicated. Start with the basics, use our packing checklist, and ask questions. There are plenty of experienced camping families in the Pack who are happy to help.</p>
-
-<p>Before your first campout, check out:</p>
-
-<ul>
-	<li>
-	<p><strong>Pack 12 Camping FAQ</strong> — What to expect on a Pack campout</p>
-	</li>
-	<li>
-	<p><strong>Campout Packing Checklist</strong> — What to bring (and what you can leave at home)</p>
-	</li>
-	<li>
-	<p><strong>Campfire Safety</strong> — Staying safe around the campfire</p>
-	</li>
-	<li>
-	<p><strong>Cub Scout Six Essentials</strong> — What every Scout should carry on an outdoor adventure</p>
-	</li>
-</ul>
-
-<p>Still have questions? Reach out to your Den Leader. We'd much rather answer a question beforehand than have you discover at bedtime that you forgot something important!</p>
-
-<h2>Medical Forms</h2>
-
-<p><img alt="" class="img-responsive" height="426.6666666666667" src="https://ogo.blob.core.windows.net/cspack12austin/8c0337a1-8815-48d3-bb05-71d046410e0b_202609011755468214196.png" width="640"></p>
-
-<p><strong>Every participant—youth and adult—must have the required Scouting America health forms on file before attending a Pack 12 campout.</strong></p>
-
-<p>For most Pack 12 overnight activities, this means completing <strong>Parts A &amp; B of the Annual Health and Medical Record</strong> and providing a copy of your current health insurance card.</p>
-
-<p><strong>Download the current Scouting America Annual Health and Medical Record</strong></p>
-
-<p>Please complete your forms before the campout and follow the instructions provided with your event registration.</p>
-
-<h2>The Cub Scout Six Essentials</h2>
-
-<p><img class="img-responsive" alt="" height="426.6666666666667" src="https://ogo.blob.core.windows.net/cspack12austin/87db4536-f050-4e90-b4bb-41c5cb3ee08c_202609011800485661926.png" width="640"></p>
-
-<p>Every Cub Scout should get in the habit of bringing the <strong>Six Essentials</strong> on outdoor adventures:</p>
-
-<ol start="1">
-	<li>
-	<p>First-aid kit</p>
-	</li>
-	<li>
-	<p>Water bottle</p>
-	</li>
-	<li>
-	<p>Flashlight</p>
-	</li>
-	<li>
-	<p>Sun protection</p>
-	</li>
-	<li>
-	<p>Whistle</p>
-	</li>
-	<li>
-	<p>Trail food</p>
-	</li>
-</ol>
-
-<p>A small daypack makes it easy for Scouts to carry and take responsibility for their own essentials.</p>
-
-<h2>Gear We Like</h2>
-
-<p>You <strong>do not need expensive camping gear</strong> to camp with Pack 12.</p>
-
-<p>But if you're building your family's camping kit, we've put together some recommendations for affordable, Scout-friendly gear that has worked well for our families.</p>
-
-<h3>Orienteering Compass</h3>
-
-<p>Some Pack 12 activities require Scouts to use an <strong>orienteering/baseplate compass</strong>. These are inexpensive, easy for Scouts to use, and much better for learning navigation than a phone compass.</p>
-
-<p><strong>See our recommended orienteering compass →</strong></p>
-
-<h3>More Camping Gear</h3>
-
-<p>Coming soon! We'll add recommendations for things like:</p>
-
-<ul>
-	<li>
-	<p>Tents</p>
-	</li>
-	<li>
-	<p>Sleeping bags and sleeping pads</p>
-	</li>
-	<li>
-	<p>Headlamps and flashlights</p>
-	</li>
-	<li>
-	<p>Camp chairs</p>
-	</li>
-	<li>
-	<p>Daypacks</p>
-	</li>
-	<li>
-	<p>Water bottles</p>
-	</li>
-	<li>
-	<p>Mess kits</p>
-	</li>
-	<li>
-	<p>Other Scout-tested camping essentials</p>
-	</li>
-</ul>
-
-<p><strong>You don't need to buy everything at once.</strong> If you're unsure what you need for an upcoming campout, ask your Den Leader before purchasing gear.</p>
+    <input type="hidden" name="OP270502" id="OP270502" value="">
+    <input type="hidden" name="OP270511" id="OP270511" value="">
+    <input type="hidden" name="OP270522" id="OP270522" value="">
+    <input type="hidden" name="OP270532" id="OP270532" value="">
+    <input type="hidden" name="OP27054143" id="OP27054143" value="">
+    <input type="hidden" name="OP27054144" id="OP27054144" value="">
+    <input type="hidden" name="OP2705517" id="OP2705517" value="">
+    <input type="hidden" name="OP2705616" id="OP2705616" value="">
+    <input type="hidden" name="OP2705711" id="OP2705711" value="">
+    <input type="hidden" name="OP2705836" id="OP2705836" value="">
+    <input type="hidden" name="OP2706072" id="OP2706072" value="">
+    <input type="hidden" name="OP2706169" id="OP2706169" value="">
+    <input type="hidden" name="OP2706269" id="OP2706269" value="">
+  </div>
+</div>
+<div class="new-row" id="fs7053">
+  <div class="container-fluid container-flex">
+    <div class="center-block">
+      <div class="text-center">
+        <span style="display:inline;">
+        <input class="btn btn-sm btn-info" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="110" id="BUTTON13" type="button" name="query" title="Modify the selection criteria for this list" value="Query" onclick="buttonlink(this,'N');">
+        </span>
+        <span style="display:inline;">
+        <input class="btn btn-sm btn-info" onmouseover="SetAction(this)" onmouseout="ResetAction()" tabindex="120" id="BUTTON14" type="button" name="save continue" title="Show All Photos" value="Show All Photos" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=326&amp;Form_ID=5792&amp;FK=0&amp;Stack=2','');">
+        </span>
       </div>
     </div>
   </div>
 </div>
-<input type="hidden" name="FirstControl" id="FirstControl" value="">
+<div class="new-row" id="fs757">
+  <div class="container-fluid container-flex">
+    <div class="center-block " style="max-width: 800px; min-width: 200px;">
+      <p>
+      <b>Click on any of these recent events to see what happened!</b>
+      </p>
+    </div>
+  </div>
+</div>
+<div class="new-row" id="fs477">
+  <div class="container-fluid container-flex">
+    <div class="center-block table-responsive">
+      <table class="table-condensed">
+        <tbody>
+        <tr>
+          <td class="text-center " id="TD477ROW0DATA4808">
+            <a href="#" onclick="LinkTo('FormDetail.aspx?Menu_Item_ID=326&amp;Form_ID=182&amp;ID=567&amp;Stack=2','');">
+            <img src="https://ogo.blob.core.windows.net/cspack12austin/Thumbnails/group_20260830213722566414.jpeg" alt="Natural Bridge Caverns (07/18/26)" border="1"><br><span class="bodytext">Natural Bridge Caverns (07/18/26)</span>
+            </a>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+<input type="hidden" name="FirstControl" id="FirstControl" value="BUTTON13">
 </form>
 <div style="height: 100px;">&nbsp;</div>
 

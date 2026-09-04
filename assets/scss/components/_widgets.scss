@@ -56,106 +56,12 @@
   font-weight: 700;
 }
 
-.center-block.widget5 {
-  margin: 0 !important;
-  padding: 0 !important;
-  max-width: none !important;
-  min-width: 220px !important;
-  background: none !important;
-
-  > div {
-    display: block !important;
-    width: 100% !important;
-    margin: 0 !important;
-    box-sizing: border-box;
-    @include widget-card;
-    margin: 0 0 20px 0 !important;
-    height: unset !important;
-    overflow: hidden;
-    border-radius: 12px;
-  }
-
-  h3 {
-    @include widget-heading;
-    margin: 0 !important;
-  }
-
-  form {
-    margin: 0;
-    padding: 0;
-  }
-}
-
 .center-block.widget60 a:hover,
 .center-block.widget60 a:focus,
 .center-block.widget75 a:hover,
 .center-block.widget75 a:focus {
   color: #d39a18;
   text-decoration: underline;
-}
-
-.center-block.widget5 {
-  .no-border {
-    width: 100%;
-    margin: 0;
-    border-spacing: 0;
-    table-layout: fixed;
-  }
-
-  .no-border td {
-    display: block;
-    width: 100% !important;
-    padding: 0 16px 0 !important;
-    border: none !important;
-    text-align: left !important;
-  }
-
-  .no-border td:first-child {
-    padding-top: 14px !important;
-  }
-
-  .no-border tr:last-child td {
-    padding-bottom: 18px !important;
-  }
-
-  .no-border .mobile-control-label,
-  .no-border label {
-    display: block;
-    margin: 0;
-    color: $text-dark;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 1.4;
-  }
-
-  .RequiredIndicator {
-    display: inline-block;
-    margin-right: 4px;
-    color: #c62828;
-  }
-
-  .form-control {
-    width: 100% !important;
-    max-width: 100% !important;
-    margin: 0 !important;
-    background: #fff !important;
-    border-color: rgba(13, 59, 114, 0.22);
-    box-shadow: none;
-    font-size: 14px;
-  }
-
-  textarea.form-control {
-    min-height: 120px;
-  }
-
-  p {
-    padding: 16px !important;
-    margin: 0;
-  }
-
-  .btn {
-    margin: 0 auto 10px;
-  }
 }
 
 .center-block.widget60 {
